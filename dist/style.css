@@ -894,3 +894,10 @@ button:focus-visible, summary:focus-visible, a:focus-visible { outline-offset: -
   .ticket-team .team-ident {font-weight:600;gap:7px;font-size:15px}
   .ticket-team:hover {background:#fff;box-shadow:0 2px 6px #223d5317}
 }
+
+.strategy-board>.method-panel[hidden]{display:none!important}
+.strategy-board>#workspace[data-view=verify]{grid-column:1/-1;grid-row:1}
+.verify-overview{max-width:1080px;margin-inline:auto}
+.verify-overview .verify-download{margin-bottom:12px}
+.prob-panel .prob-table tbody tr:nth-child(even){background:rgba(48,91,119,.035)}
+.prob-panel .prob-table tbody tr:hover{background:rgba(48,91,119,.08)}

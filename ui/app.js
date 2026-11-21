@@ -18,7 +18,7 @@
   const savedMethods = new Map();
   const slotTitles = ['全胜','普通晋级','全败'];
   let showSlotRates = false;
-  const pickDisclosures = new Set(location.hash==='#verify/f1bre'?['f1bre-study']:[]);
+  const pickDisclosures = new Set();
   if(location.hash==='#picks/forecasts') pickDisclosures.add('sealed-tickets');
   if(location.hash==='#picks/rosters') pickDisclosures.add('rosters');
   const featureList = [
@@ -95,7 +95,7 @@
     const name=(location.hash||'').slice(1);
     if(name==='picks/forecasts' || name==='picks/rosters') return 'picks';
     if(addressedStage()) return 'picks';
-    if(globalThis.PickEventContext?.section(name)) return 'verify';
+    if(name.startsWith('verify/')) return 'verify';
     return views.has(name)?name:null;
   }
   const openingView=addressedView();
@@ -169,105 +169,6 @@
   }
   function hasStyleEdges() {
     return styleModel?.pairs.some(pair=>Number(state.scenario?.edges?.[pair.key]||0)!==0);
-  }
-  function renderTrainingComparison() {
-    if(isResearch()){byId('history-training-study').hidden=true;return;}
-    const family=state.family==='v4'?'recommended':'tree';
-    const holdout=singapore.stageTrainingStudy?.groups?.holdout?.[family];
-    const fold=byId('history-training-study');
-    fold.hidden=!holdout;
-    if(!holdout || fold.dataset.family===family) return;
-    fold.dataset.family=family;
-    const comparison=byId('history-training-comparison');
-    const size=singapore.stageTraining?.nByStage || {};
-    comparison.replaceChildren(el('p','',familyLabels[state.family]+'在科隆整届留出检验中的表现。每种校准只用科隆之前已结束的 Major 拟合。'));
-    const table=el('table','','');
-    const head=table.createTHead().insertRow();
-    for(const label of ['设置','过关','命中']) head.append(el('th','',label));
-    const body=table.createTBody();
-    for(const [key,label] of [['base','原胜率'],['stage1Only','首阶段校准'],['multiStage','跨阶段校准']]) {
-      const results=holdout[key];
-      if(!results) continue;
-      const row=body.insertRow();
-      row.append(el('th','',label),el('td','',results.passes+'/'+results.stages),el('td','',results.hits+'/'+(10*results.stages)));
-    }
-    comparison.append(table);
-    const base=holdout.base?.series, calibrated=holdout.multiStage?.series;
-    if(base && calibrated) {
-      const formats=['bo1','bo3'].filter(bo=>Number.isFinite(base[bo]?.brier) && Number.isFinite(calibrated[bo]?.brier));
-      if(formats.length) comparison.append(el('p','','单场概率误差（Brier，越低越好）：'+formats.map(bo=>bo.toUpperCase()+' '+base[bo].brier.toFixed(3)+' → '+calibrated[bo].brier.toFixed(3)).join('，')+'。'));
-    }
-    if([1,2,3].every(stage=>Number.isInteger(size[stage]))) {
-      comparison.append(el('p','','新加坡赛前可用于校准的对局：Stage 1 有 '+size[1]+' 场，Stage 2 有 '+size[2]+' 场，Stage 3 有 '+size[3]+' 场。'));
-    }
-    const gate=singapore.stageTrainingStudy.defaultGate?.[family];
-    const issue=gate?.missed?.find(item=>['passes','hits','meanPasses','meanHits'].includes(item.metric)) || gate?.missed?.[0];
-    if(issue) {
-      const sample={stage1:'五届首阶段',holdout:'科隆留出检验',all:'全部阶段'}[issue.group];
-      const reference=issue.old==='stage1Only'?'仅用首阶段校准':'原模型';
-      const metric={passes:'固定种子的过关次数较少',hits:'固定种子的总命中较少',meanPasses:'换种子后的平均过关次数较少',
-        meanHits:'换种子后的平均总命中较少',brier:'Brier 误差较高',logLoss:'对数损失较高',noStrictProbabilityGain:'两项单场概率误差均未下降'}[issue.metric];
-      if(sample && metric) comparison.append(el('p','','在'+sample+'中，与'+reference+'相比，跨阶段校准的'+metric+'。'));
-    }
-    comparison.append(el('p','',defaultFlags().stageTraining?'当前模型的推荐配置已开启跨阶段校准。':'当前推荐配置沿用原胜率。可在模型设置中开启「跨阶段胜率校准」对照。'));
-  }
-  function renderStageTransfer() {
-    const fold=byId('stage-transfer-study'), root=byId('stage-transfer-data');
-    const stage=historyState.stage, study=singapore.reverseStageStudy;
-    const group=study?.groups?.['stage'+stage];
-    fold.hidden=!group || state.family!=='v4';
-    if(fold.hidden || root.dataset.stage===String(stage)) return;
-    root.dataset.stage=String(stage);
-    const donor=stage===1 ? 'Stage 2、3' : 'Stage 3';
-    const editions=study.stages.filter(s=>s.stage===stage).sort((a,b)=>b.start.localeCompare(a.start));
-    root.replaceChildren(el('p','','推荐模型固定对照。以至少三名相同首发继承队伍经验，比较 '+donor+' 对 Stage '+stage+' 的帮助。'));
-    const table=el('table','','');
-    const header=table.createTHead().insertRow();
-    for(const title of ['训练资料','过关','命中']) header.append(el('th','',title));
-    const body=table.createTBody();
-    for(const [key,title] of [['published','当前推荐'],['targetOnly','往届同阶段'],['earlierDonors','加往届 '+donor]]) {
-      const row=body.insertRow(), result=group[key];
-      row.append(el('th','',title),el('td','',result.passes+'/'+editions.length),el('td','',result.hits+'/'+(10*editions.length)));
-    }
-    root.append(table);
-    if(stage===1 && study.firstStageSources) {
-      const source=study.firstStageSources, extra=el('details','transfer-breakdown','');
-      extra.append(el('summary','','Stage 2 和 Stage 3 各自带来了什么？'));
-      const second=source.separate.addStage2, third=source.separate.addStage3;
-      extra.append(el('p','','在往届 Stage 1 基础上，只加 Stage 2 得 '+second.hits+'/50 格，过 '+second.passes+'/5 届；只加 Stage 3 得 '+third.hits+'/50 格，过 '+third.passes+'/5 届。上海赛前仅有哥本哈根 Stage 2 可供追加。'));
-      const slot=['3–0','普通晋级','0–3','留空'];
-      extra.append(el('p','','上海换格：'+source.shanghai.map(t=>t.team+' 从'+slot[t.from]+'改为'+slot[t.to]+'，实际为'+slot[t.actual]).join('；')+'。'));
-      extra.append(el('p','','有往届 Stage 3 可用的首阶段共 '+source.eligible+' 届。已有 Stage 2 时再加入 Stage 3，'+source.paired.same+'/'+source.seeds+' 组随机种子的过关届数持平。'));
-      root.append(extra);
-      const check=el('details','transfer-breakdown','');
-      check.append(el('summary','','外部检验 · ESL Pro League 第 23 季首阶段'));
-      check.append(el('p','','按赛前 Valve 积分与 ESL 动态配对重放 33 场全 BO3。三种方案使用相同的三十组模拟种子；此赛事单独计分。'));
-      const holdoutTable=el('table','','');
-      const head=holdoutTable.createTHead().insertRow();
-      for(const title of ['输入','命中','BO3 Brier']) head.append(el('th','',title));
-      const tbody=holdoutTable.createTBody();
-      for(const [key,label] of [['vrs','仅赛前积分'],['targetOnly','加往届 Stage 1'],['earlierDonors','再加 Stage 2、3']]) {
-        const result=source.external[key];
-        tbody.insertRow().append(el('th','',label),el('td','',result.hits+'/10'),el('td','',result.brier.toFixed(4)));
-      }
-      check.append(holdoutTable,el('p','','更低的 Brier 表示单场概率误差更小。本赛事没有 BO1，Major 的 BO1 表现需另行验证。'));
-      root.append(check);
-    }
-    const post=el('div','same-edition-review','');
-    post.append(el('strong','','同届赛后复盘'),el('p','','再加入同届后来打完的 '+donor+'。只有进入后续阶段且保有阵容核心的队伍能提供这项资料。此处得分仅用于复盘。'));
-    const select=document.createElement('select');
-    const label=el('label','','查看赛事 ');
-    select.setAttribute('aria-label','选择同届复盘赛事');
-    for(const s of editions) select.add(new Option((historyData.get(s.id)?.editionLabel || historyData.get(s.id)?.label || s.id).replace(/\s*Major\s*/i,' ').trim(),s.id));
-    label.append(select);post.append(label);
-    const note=el('p','','');post.append(note);
-    function show() {
-      const s=editions.find(s=>s.id===select.value);
-      note.textContent=s.postDonorIds.length
-        ? ('赛前可用资料命中 '+s.scores.earlierDonors+'/10；加入同届赛后资料后为 '+s.scores.hindsight+'/10。后续阶段覆盖 '+s.postDonorTeams+'/16 队，赛果截至 '+s.postThrough+'。')
-        : '本届没有 Stage 3，无法做本项同届追加对照。';
-    }
-    select.addEventListener('change',show);show();root.append(post);
   }
   function prepareRoundForm(study) {
     const select=byId('round-form-field');
@@ -386,7 +287,7 @@
       content.append(el('p','','Stage '+windowData.stage+' 取最近 '+windowData.windowSize+' 届已完赛记录，目标为过 '+windowData.requiredPasses+' 届。早期届次使用历史回放，新赛事使用赛前封存的预测。'));
       if(windowData.pending.length) content.append(el('p','','已封存、待完赛评分：'+windowData.pending.map(r=>r.label).join('、')+'。'));
     }
-    F1breStudy.sidebar(byId('f1-sidebar'),historyState.stage,singapore.f1ModelCompare);
+
     const mapFold=byId('stage3-map-study'), mapResult=byId('stage3-map-results'), maps=singapore.stage3MapStudy;
     const roundFold=byId('round-form-study'), rounds=singapore.roundForm;
     roundFold.hidden=historyState.stage!==3 || state.family!=='v4' || !rounds;
@@ -473,19 +374,6 @@
     else feedback='';
     byId('history-feedback').hidden=!feedback;
     if(byId('history-feedback').textContent!==feedback) byId('history-feedback').textContent=feedback;
-    const notes=byId('history-notes');notes.replaceChildren();
-    if(historyState.stage===3) notes.append(el('p','','2024 年哥本哈根、上海各有两轮瑞士赛。Stage 3 收录奥斯汀、布达佩斯和科隆。'));
-    if(mode==='manual') notes.append(el('p','','逐届按相同种子位置填写。例如，新加坡的 3 号种子填入 3–0，往届也取该届的 3 号种子。'));
-    if(mode==='seed') notes.append(el('p','','各届 1–2 号种子填全胜，3–8 号填普通晋级，15–16 号填全败。'));
-    if(!direct && state.feature.style && !hasStyleEdges()) {
-      const line=el('p','','手动打法情景的克制幅度均为 0，新加坡与往届的胜率均未调整。');
-      const edit=el('button','text-button','设置克制幅度');edit.type='button';
-      edit.addEventListener('click',openStyleEditor);
-      line.append(document.createTextNode(' '),edit);notes.append(line);
-    }
-    if(selected()) notes.append(el('p','','新加坡已指定的胜者只影响本届推演。历届成绩按首轮开始前的条件计算。'));
-    renderTrainingComparison();
-    renderStageTransfer();
   }
   function syncHistory() {
     if(!historyApi || ['seed','manual'].includes(state.cardMode)) {
@@ -638,12 +526,13 @@
     return count + '/16 队有样本';
   }
   function renderFrame() {
-    document.querySelector('.history-sidebar').hidden=!['picks','verify'].includes(state.tab);
+    document.querySelector('.history-sidebar').hidden=state.tab!=='picks';
+    document.querySelector('.method-panel').hidden=state.tab==='verify';
     const e = state.event;
     renderStagePicker();
     document.querySelector('.stage-tag').textContent='STAGE '+currentStage();
     byId('event-title').textContent=e.label;
-    document.title="Fango's Lab · "+e.label;
+    document.title="CS2 新加坡 Major 2026 预测 · Singapore Major Pick’Em";
     const opening=singapore.stageSchedule?.stages.find(row=>row.stage===currentStage())?.firstMatchScheduledUtc;
     const isUpcoming=Date.now()<Date.parse(opening);
     if(opening){
@@ -819,9 +708,9 @@
   }
   function probabilityPanel() {
     const e=state.event;
-    return '<section class="panel prob-panel"><div class="panel-head"><div><h2>战队战绩概率</h2><p>按阶段初始种子排序</p></div><span class="inline-badge">16 TEAMS</span></div><div class="table-wrap"><table class="prob-table"><thead><tr><th>种子</th><th>战队</th><th>3–0</th><th>3–1 / 3–2</th><th>0–3</th><th class="pick-col">我的选择</th></tr></thead><tbody>'+e.teams.map((t,i)=>{
+    return '<section class="panel prob-panel"><div class="panel-head"><div><h2>各队战绩概率</h2><p>按初始种子排序 · 点击队名查看对阵</p></div></div><div class="table-wrap"><table class="prob-table"><thead><tr><th>种子</th><th>战队</th><th>3–0</th><th>3–1 / 3–2</th><th>0–3</th><th class="pick-col">我的选择</th></tr></thead><tbody>'+e.teams.map((t,i)=>{
       const p=state.result.probabilities[i],cat=state.card[i];
-      return '<tr><td><span class="seed">'+String(i+1).padStart(2,'0')+'</span></td><td><button type="button" class="team-name team-link" data-team-detail="'+i+'" title="查看战队的赛前数据">'+teamMarkup(i)+'</button></td>'+[0,1,2].map(k=>'<td>'+prob(p[k],k)+'</td>').join('')+'<td class="pick-col">'+(cat<3?'<span class="small-tag cat'+cat+'">'+names[cat]+'</span>':'<span class="seed">—</span>')+'</td></tr>';
+      return '<tr><td><span class="seed">'+String(i+1).padStart(2,'0')+'</span></td><td><button type="button" class="team-name team-link" data-team-detail="'+i+'" title="查看该队的对阵分析">'+teamMarkup(i)+'</button></td>'+[0,1,2].map(k=>'<td>'+prob(p[k],k)+'</td>').join('')+'<td class="pick-col">'+(cat<3?'<span class="small-tag cat'+cat+'">'+names[cat]+'</span>':'<span class="seed">—</span>')+'</td></tr>';
     }).join('')+'</tbody></table></div><p class="panel-note">其余概率对应 1–3 或 2–3 淘汰。</p></section>';
   }
   function metricsBox(values) {
@@ -972,11 +861,7 @@
       const files=entry.cards.map(c=>'<a href="'+escape(c.webFile)+'" download>'+escape(labels[c.id])+' JSON</a>').join(' · ');
       const status=entry.source?'<a href="'+escape(entry.source.url)+'" target="_blank" rel="noopener noreferrer">核对正式赛果 ↗</a>':'待完赛评分';
       const research=mlRecords.find(r=>r.edition===entry.edition && r.stage===entry.stage);
-      const veto=entry.edition==='singapore-2026' && entry.stage===1 && state.event.vetoML?.forecast;
-      const vetoLink=veto?'<p><a href="#verify/veto/singapore">查看新加坡禁选 ML 研究卡与 120 种潜在对阵</a></p>':'';
-      const bo5Link=veto && state.event.bo5History?.forecast?.webFile?'<p><a href="#verify/bo5/singapore">对照新加坡补图前后的 0–3 研究卡</a></p>':'';
-      const rosterLink=entry.edition==='singapore-2026' && entry.stage===1 && state.event.eliteOpponents?'<p><a href="#verify/elite/singapore">核对新加坡 16 队同阵容的比赛</a></p>':'';
-      return '<section><h3>Stage '+entry.stage+'</h3>'+auditTable(['槽位',...headings],rows)+'<p>封存于 '+escape(entry.cards[0].frozenAt.slice(0,10))+' · '+status+' · '+files+'</p>'+mlTicket(research)+vetoLink+bo5Link+rosterLink+'</section>';
+        return '<section><h3>Stage '+entry.stage+'</h3>'+auditTable(['槽位',...headings],rows)+'<p>封存于 '+escape(entry.cards[0].frozenAt.slice(0,10))+' · '+status+' · '+files+'</p>'+mlTicket(research)+'</section>';
     }).join('');
     return pickDisclosure('sealed-tickets','本届已封存的竞猜卡','<div id="sealed-stage-records">'+stages+'</div>');
   }
@@ -1010,17 +895,17 @@
       auditTable(['历史首发与本届重合','采用场数','系列赛胜负'],history)+
       '<p>推荐模型截至 '+audit.asOf+' 的 90 天内共采用 '+total+' 场，其中 '+t.roundSeries+' 场核实了完整回合比分。同期 Valve 榜第 '+t.rank+' 名，'+t.points+' 分，榜单五人与参赛名单重合 '+t.rankOverlap+' 人。</p>'+
       comparisons+external+swapStudy+'<p>'+ref('PGL 报名名单',audit.field)+' · '+ref('Valve 积分',audit.standings)+' · '+
-      ref('赛前原卡',audit.forecast)+' · <a href="#verify/elite/singapore">同阵容 BO3 统计</a> · <a href="#verify/elite/lineups">换人权重回测</a></p></div>';
+      ref('赛前原卡',audit.forecast)+'</p></div>';
     return pickDisclosure('rosters','首发名单与采用的历史战绩',body);
   }
   function picksView() {
     const evidence=rosterPanel(state.event.rosterEvidence)+
       pickDisclosure('card-stats','模拟过关率与选队依据',cardStats()+pairedCardPanel())+
-      tailRiskPanel()+pickDisclosure('probabilities','各队战绩概率',probabilityPanel())+
+      tailRiskPanel()+
       pickDisclosure('swap','比较两队换位',swapPanel());
     const eventNotes=(state.event.stageComparison?pickDisclosure('stage-context','与往届赛事对照',PickEventContext.home(state.event)):'')+
       schedulePanel(state.event.stageSchedule)+sealedTickets(state.event.prospectiveStages,state.event.stage3MlForecasts);
-    return '<div class="picks-home">'+cardPanel()+historicalPanel()+
+    return '<div class="picks-home">'+cardPanel()+probabilityPanel()+historicalPanel()+
       pickDisclosure('forecast-evidence','预测依据与队伍比较',evidence)+
       (eventNotes?pickDisclosure('event-records','赛程与赛前封存',eventNotes):'')+'</div>';
   }
@@ -1699,33 +1584,6 @@
   function verifyView() {
     const e=state.event;
     const downloads=[];
-    const allocationStudy='<section class="panel wide audit-section"><div class="panel-head"><h2>调整填法后，命中有变化吗？</h2></div><div class="panel-body">'+
-      pickDisclosure('allocation-study','五届首阶段从 23 格到 27 格，均有三届过关',
-        '<p>两种填法使用同一套单场胜率。新填法保留原先预测的八支晋级队，按晋级条件下的全胜率分配两个 3–0 格，在剩余八队中选赛事种子最靠后的两队填 0–3。</p>'+
-        auditTable(['赛前重建','原填法','新填法'],[['哥本哈根','5/10','5/10'],['上海','3/10','4/10'],['奥斯汀','5/10','8/10'],['布达佩斯','6/10','6/10'],['科隆','4/10','4/10']])+
-        '<p>全败格从 2/10 到 5/10。更换 30 组模拟种子，总命中 29 组增加、1 组持平；达标届数 8 组增加、19 组持平、3 组减少。</p>'+
-        '<p>锁定填法后再验上海第二阶段，固定种子从 7/10 到 6/10，30 组两法全部过关。这五届首阶段已多次用于开发，新加坡赛前封存卡将在完赛后单独评分。</p>')+'</div></section>';
-    const f1=e.f1breStudy;
-    const f1bre=f1?pickDisclosure('f1bre-study','F1bre 的阵容修正与千万张整卡穷举',
-      '<p>DENDELE 沿用 Sharks 的五名首发。本站已纳入这套阵容的 '+f1.recent+' 场近期比赛，并核对了科隆的 '+f1.cologne+' 场 Major 记录。首场对 PARIVISION，本站估计 DENDELE 的胜率为 '+(100*f1.dendeleFirst).toFixed(1)+'%。</p>'+
-      '<p>借鉴 F1bre 的整卡搜索，在本站胜率下，用 '+f1.searchPaths.toLocaleString('zh-CN')+' 条瑞士轮路径穷举全部 '+f1.visited.toLocaleString('zh-CN')+' 张卡。搜索第一与本站原有局部搜索得到同一张卡。独立重排前三张之后，再用 '+f1.auditPaths.toLocaleString('zh-CN')+' 条新路径评估。</p>'+
-      auditTable(['参评卡','独立模拟过关率'],[['已封存预测',f1.released],['穷举第一',f1.best],['前三张独立重排',f1.reranked]].map(([k,n])=>[k,(100*n/f1.auditPaths).toFixed(2)+'%']))+
-      '<p>五届 Stage 1 真实赛果回放：预测过 '+f1.historical.released.passes+'/5 届，命中 '+f1.historical.released.hits+'/50 格。穷举重排后过 '+f1.historical.allRechecked.passes+'/5 届，命中 '+f1.historical.allRechecked.hits+'/50 格。</p>'+
-      '<p>作者帖中的 ML 模拟过关率为 20.66%，使用作者的单场模型。公开仓库提供算法和示例数据，未随附此次完整的新加坡输入。实际命中在完赛后核算。</p>'+
-      '<p><a href="https://github.com/holygodly/CS2-Major-ELO-PickEm-Predictor" target="_blank" rel="noopener noreferrer">F1bre 的 ELO 项目 ↗</a> · <a href="https://github.com/holygodly/CS2-Major-ML-PickEm-Predictor" target="_blank" rel="noopener noreferrer">ML 项目 ↗</a></p>'):'';
-    const externalStudy=e.id==='singapore' ? '<section class="panel wide audit-section"><div class="panel-head"><h2>新加坡 Stage 1 · 外部预测对照</h2></div><div class="panel-body">'+
-      pickDisclosure('external-pley','Pley 和本站对哪些队看法不同？',
-        '<p>两边都选 Ninjas in Pyjamas 全胜。另一个 3–0 席位，本站封存预测给了 Eternal Fire，Pley 给了 PARIVISION。双方都把另一支队放在普通晋级。</p>'+
-        '<p>分歧最大的是 Imperial。本站选它普通晋级，Pley 选它 0–3。双方都选 Chinggis Warriors 全败，本站的另一个 0–3 是 Lynn Vision。</p>'+
-        '<p>两份预测均已在开赛前封存，完赛后按相同十格规则计分。<a href="https://pley.gg/cs2/major-pickem-stage-1/" target="_blank" rel="noopener noreferrer">Pley 原文 ↗</a> · <a class="download-link" href="forecasts/pley-singapore-stage1-2026-11-22.json" download>下载 Pley 十格预测</a></p>')+
-      pickDisclosure('external-player-model','哪两支队被外部选手模型选作 3–0？',
-        '<p>这套外部模型用选手近期地图表现估算实力，再模拟整届比赛。它和本站核对的是同一批 80 名首发，但它选 FaZe、100 Thieves 全胜，本站封存预测选 NiP、Eternal Fire。</p>'+
-        '<p>旧版模型在科隆赛前提交的预测实际中 5/10。新加坡采用了新的比赛引擎，已在开赛前封存十格、16 队战绩概率及八场首轮胜率。<a href="https://github.com/Leclowndu93150/pickem-prediction-model/blob/0aea354ae205ed8585917999b8e350dd97cbddbe/predictions/pgl-major-singapore-2026-stage-1.json" target="_blank" rel="noopener noreferrer">查看原预测 ↗</a> · <a class="download-link" href="forecasts/git-model-2026-11-22.json" download>下载两届对照</a></p>')+
-      pickDisclosure('external-r1','查看赛前分歧最大的两场 BO1',
-        '<p>11 月 21 日封存时，两套模型在首轮八场都看好同一方。对 9z 击败 Lynn Vision 的概率，本站推荐模型给出 54.1%，DAKEbits 给出 78%。对 Liquid 击败 GOSH，双方分别给出 57.7% 和 74%。</p>'+
-        '<p>本站初版卡和 CSGOTradeUp 有六格同栏。新填法有七格同栏，双方的 0–3 都是 Chinggis Warriors 和 Lynn Vision。完赛后可分别核对两版卡与外部卡。</p>'+
-        '<p><a class="download-link" href="forecasts/singapore-stage1-external-2026-11-21.json" download>下载外部预测与来源</a></p>')+
-      f1bre+'</div></section>' : '';
     if(e.id==='singapore') downloads.push('<a class="download-link" href="forecasts/singapore-stage1-seed-conditional-2026-11-21.json" download>下载当前预测的赛前封存</a>');
     if(e.id==='singapore') downloads.push('<a class="download-link" href="forecasts/singapore-stage1-earlier-stages-2026-11-21.json" download>下载往届阶段经验对照卡的赛前封存</a>');
     if(e.methodsForecast?.path) downloads.push('<a class="download-link" href="'+escape(e.methodsForecast.path)+'" download>下载原填法与决策树的赛前封存</a>');
@@ -1737,28 +1595,11 @@
     if(e.strategyForecast?.path) downloads.push('<a class="download-link" href="'+escape(e.strategyForecast.path)+'" download>下载赛前积分模型与决策树模型的赛前预测</a>');
     if(e.frozenForecast?.path) downloads.push('<a class="download-link" href="'+escape(e.frozenForecast.path)+'" download>下载 11 月 21 日赛前预测（阵容修订前）</a>');
     const projectDownload=location.protocol==='file:'?'':('<a class="download-link" href="https://github.com/FanQAQ/cs2-singapore-major-2026-pickem-predictor/archive/refs/heads/main.zip">下载项目与回测数据</a><a class="download-link" href="https://github.com/FanQAQ/cs2-singapore-major-2026-pickem-predictor/releases/latest/download/fangos-lab-offline.zip" download>下载离线网页版</a><small>解压离线网页版后，打开 index.html 即可使用。</small>');
-    let training=e.trainingNote;
-    if(state.family==='v4' && e.v4Model) training='近期表现模型使用本届之前的 '+e.v4Model.n+' 场系列赛拟合。允许按对手强弱调整近期状态，并结合地图净胜回合估计胜率。';
-    if(state.family==='boost' && e.boostModel) training='决策树模型使用本届之前的 '+e.boostModel.n+' 场系列赛训练，按所选特征学习积分与近期战绩的不同组合。';
-    const method=[e.methodNote,training,e.coverage].filter(Boolean).map(text=>'<p>'+escape(text)+'</p>').join('');
-    const studies=(e.stageComparison?PickEventContext.report(e):'')+'<section class="panel wide audit-section" id="context-f1bre"></section>'+allocationStudy+externalStudy+calibrationPanel()+'<section id="method-validation" class="panel wide audit-section"></section>'+majorStudy(e)+rankStrengthStudy(e)+integratedStudy(e)+mapAuditPanel(e)+strategyAuditPanel(e)+regionalPanel(e);
-    const dates=isResearch()?[]:byId('data-dates').textContent.split(' · ');
-    const dateRows=dates.map(line=>{
-      const m=/^(.*?) (\d{4}-\d{2}-\d{2})(.*)$/.exec(line);
-      return m?'<div><dt>'+escape(m[1])+'</dt><dd><time datetime="'+escape(m[2])+'">'+escape(m[2])+'</time>'+escape(m[3])+'</dd></div>':'<div><dt>样本</dt><dd>'+escape(line)+'</dd></div>';
-    }).join('');
-    const evidence=dateRows?'<section class="panel data-dates-panel"><div class="panel-head"><h2>赛前数据截止日期</h2></div><dl class="cutoff-list">'+dateRows+'</dl></section>':'';
-    const conclusions='<section class="panel validation-summary"><div class="panel-head"><h2>默认推荐的回测结论</h2></div><dl class="validation-findings">'+
-      '<div><dt>Stage 1</dt><dd>调整全胜与全败位置后，总命中从 <strong>23/50 升至 27/50</strong>，五届中仍过三届。</dd></div>'+
-      '<div><dt>Stage 2</dt><dd>近五届有 <strong>四届过关</strong>，共命中 25/50 格。</dd></div>'+
-      '<div><dt>Stage 3</dt><dd>分组填卡使科隆从 <strong>2 格升至 5 格</strong>，三届过关数从一届增至两届。</dd></div>'+
-      '</dl></section>';
-    return '<div class="verify-overview">'+conclusions+evidence+
-      (projectDownload?'<div class="verify-download">'+projectDownload+'</div>':'')+
-      pickDisclosure('verify-sources','数据来源与赛前预测下载','<ul class="sources">'+sources()+'</ul>'+downloads.map(link=>'<p>'+link+'</p>').join(''))+
-      '<details id="research-archive" class="pick-detail" data-pick-detail="research-archive"'+
-      (pickDisclosures.has('research-archive') || location.hash.startsWith('#verify/')?' open':'')+'><summary>查看逐项实验与回测明细</summary><div class="detail-body verify-grid">'+studies+
-      '<section class="panel method"><div class="panel-head"><h2>回测口径</h2></div><div class="panel-body">'+method+'</div></section></div></details></div>';
+    const sourceList='<p>赛前实力取自 Valve 排名，报名首发和赛程取自 PGL。近期表现使用历史系列赛与地图比分，按至少三名相同首发关联战绩。</p><details class="context-fold"><summary>逐项查看数据来源</summary><ul class="sources">'+sources()+'</ul></details>';
+    const archive=downloads.length>1?'<details class="context-fold"><summary>其他赛前封存（'+(downloads.length-1)+'）</summary><ul class="sources">'+downloads.slice(1).map(link=>'<li>'+link+'</li>').join('')+'</ul></details>':'';
+    return '<div class="verify-overview"><section class="panel"><div class="panel-head"><h2>数据来源与赛前预测下载</h2></div><div class="panel-body">'+
+      '<div class="verify-download">'+(downloads[0]||'')+projectDownload+'</div>'+sourceList+archive+'</div></section>'+
+      PickEventContext.stagesPanel(singapore.stageComparison)+'</div>';
   }
   function render(){
     if(!state.result||!state.card)return;
@@ -1774,17 +1615,9 @@
     const activeStyle=state.feature.style && Object.values(state.scenario.edges).some(v=>v!==0);
     const styleNote=activeStyle && state.tab!=='duel'?'<div class="scenario-note">已启用手动打法克制情景。 <button type="button" class="text-button" data-action="open-duel">查看假设</button></div>':'';
     byId('workspace').dataset.view=state.tab;
-    byId('workspace').innerHTML=sampleNotes()+styleNote+view;
+    byId('workspace').innerHTML=state.tab==='verify'?view:sampleNotes()+styleNote+view;
     if(state.tab==='verify') {
-      if(isResearch())byId('method-validation').hidden=true;
-      else PickMethodValidation.render(byId('method-validation'),state.event,state.family);
-      F1breStudy.mount(byId('context-f1bre'),singapore.f1ModelCompare);
-      F1breStudy.mountAllocation(byId('context-f1bre'),singapore.mlAllocation);
-      F1breStudy.mountForm(byId('context-allocation'),singapore.stageForm);
-      F1breStudy.mountVeto(byId('context-form'),singapore.vetoML);
-      Bo5History.mount(byId('context-veto'),singapore.bo5History);
-      EliteOpponents.mount(byId('context-bo5'),singapore.eliteOpponents);
-      globalThis.PickEventContext?.mount(byId('workspace'),state.event);
+      globalThis.PickEventContext?.mount(byId('workspace'),singapore);
     }
     if(state.tab==='picks') renderAlternative();
     if(state.tab==='bracket') SwissBoard.mount(byId('workspace'));
@@ -1855,22 +1688,11 @@
   }
   function followAddress() {
     const name=addressedView()||'picks';
-    if(name==='verify' && location.hash.startsWith('#verify/') && byId('research-archive')) byId('research-archive').open=true;
-    Bo5History.route(location.hash);
-    if(location.hash==='#verify/f1bre/formats' && byId('f1-format-study'))byId('f1-format-study').open=true;
-    if(location.hash==='#verify/f1bre/budget' && byId('f1-budget-study'))byId('f1-budget-study').open=true;
-    if(location.hash==='#verify/elite/singapore' && byId('elite-singapore'))byId('elite-singapore').open=true;
-    if(location.hash==='#verify/elite/lineups' && byId('lineup-study'))byId('lineup-study').open=true;
     if(location.hash==='#picks/forecasts' || location.hash==='#picks/rosters') {
       const id=location.hash==='#picks/rosters'?'rosters':'sealed-tickets';
       pickDisclosures.add(id);
       const fold=document.querySelector('[data-pick-detail="'+id+'"]');
       if(fold){openParents(fold);fold.open=true;fold.scrollIntoView({block:'start'});}
-    }
-    if(location.hash==='#verify/f1bre') {
-      pickDisclosures.add('f1bre-study');
-      const fold=document.querySelector('[data-pick-detail="f1bre-study"]');
-      if(fold) fold.open=true;
     }
     if(addressedStage()) {
       historyState.stage=addressedStage();
@@ -1935,7 +1757,9 @@
     const b=ev.target.closest('button');if(!b)return;
     const data=b.dataset;
     if ('teamDetail' in data) {
-      state.regionalIdx=Number(data.teamDetail);showView('verify',{reveal:false});openParents(byId('team-evidence'));byId('team-evidence')?.scrollIntoView({block:'center'});
+      state.leftTeam=Number(data.teamDetail);
+      if(state.rightTeam===state.leftTeam) state.rightTeam=(state.leftTeam+8)%16;
+      showView('duel');
     } else if ('swap' in data) {
       openDialog(Number(data.swap));
     } else if (data.action==='slot-rates') {

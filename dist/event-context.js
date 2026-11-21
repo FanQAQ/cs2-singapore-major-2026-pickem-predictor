@@ -23,7 +23,7 @@
   function home(event) {
     const comparison=event.stageComparison;
     const nearest=comparison.stages[comparison.singapore.ranking[0].id].label.replace(' Major','');
-    return '<div class="context-home"><p>五届对照中，新加坡的赛前条件最接近 <strong>'+esc(nearest)+'</strong>。可核对科隆失分的队伍、热门共同出局的概率，以及 100 Thieves 的选手与教练记录。</p>'+nav()+'</div>';
+    return '<div class="context-home"><p>五届对照中，新加坡的赛前条件最接近 <strong>'+esc(nearest)+'</strong>。</p><a href="#verify/stages">查看五届赛前条件对照</a></div>';
   }
   function table(headings,rows) {
     return '<div class="table-wrap"><table class="result-table"><thead><tr>'+headings.map(h=>'<th scope="col">'+esc(h)+'</th>').join('')+'</tr></thead><tbody>'+
@@ -71,7 +71,7 @@
     const record=list=>list.filter(n=>n>=5).length+'/'+list.length+' 届过关，命中 '+list.reduce((a,b)=>a+b,0)+'/'+(list.length*10)+' 格';
     return '<section class="panel wide context-panel context-stages" id="context-stages" aria-labelledby="context-stage-title">'+
       '<div class="panel-head"><div><h2 id="context-stage-title">新加坡最像哪一届？</h2><p>赛前条件与五届 Major 首阶段对照 · '+esc(study.asOf)+'</p></div></div><div class="panel-body">'+
-      nav()+'<div class="context-lead"><div><h3>'+esc(similar)+' 最接近</h3><p>两届的入围制度与赛区名额相同。新加坡首轮热门的平均胜率为 '+pct(all.singapore.context.opening)+'，科隆为 '+pct(all.cologne.context.opening)+'。</p></div>'+
+      '<div class="context-lead"><div><h3>'+esc(similar)+' 最接近</h3><p>两届的入围制度与赛区名额相同。新加坡首轮热门的平均胜率为 '+pct(all.singapore.context.opening)+'，科隆为 '+pct(all.cologne.context.opening)+'。</p></div>'+
       '<div class="context-pair-stats">'+resultMetric('相似距离',decimal(first.distance,3),'越低越近')+resultMetric('次近 · '+all[second.id].label.replace(' Major',''),decimal(second.distance,3))+'</div></div>'+
       '<h3>科隆要降权吗？</h3><p>这轮回测支持五届等权。逐届只看已完赛的往届，有至少两个可选参照的 '+v.n+' 届，等权估计十格命中数的平均绝对误差为 '+decimal(v.meanMAE,2)+' 格，按相似度加权为 '+decimal(v.weightedMAE,2)+' 格，只看最近似的一届为 '+decimal(v.nearestMAE,2)+' 格。</p>'+
       '<p>五届合计 '+record(scores)+'。若剔除科隆，剩下四届是 '+record(others)+'。这里的过关比例只统计所选历史赛果。</p>'+
@@ -154,5 +154,5 @@
       if(anchor.hash===location.hash) document.getElementById(section(anchor.hash.slice(1)))?.scrollIntoView({block:'start'});
     };
   }
-  globalThis.PickEventContext={home,report,section,mount};
+  globalThis.PickEventContext={home,stagesPanel,section,mount};
 })();

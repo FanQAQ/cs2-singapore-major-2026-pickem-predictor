@@ -40,13 +40,15 @@ B 卡方法在相同五届 Stage 1 中过关 **4/5**，命中 **28/50**。表中
 
 - **交作业前**打开本阶段预测，看每个位置、队伍首发和推荐理由。[预测与阵容](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#picks/rosters)
 - **想换一支队**就打开从左到右的瑞士轮对阵图，手动选一场胜者，查看后续可能遇到的对手。[手动推演](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#bracket)
-- **想核对模型**可单选推荐模型、决策树、阵容 Elo、地图 ML、Elo ＋ ML 或四模型等权，在右侧查看对应配置的各阶段历史命中，再展开逐届数据和研究结果。[模型验证](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#verify)
+- **想核对模型**可单选推荐模型、决策树、阵容 Elo、地图 ML、Elo ＋ ML 或四模型等权，在右侧查看对应配置的各阶段历史命中，并可查看逐届成绩。[模型与历史表现](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#picks)
 
-目前开放 Stage 1。Stage 2、3 入口会在晋级队伍和首发确定、对应数据发布后开放。Elo ＋ ML 对每场 BO1、BO3 等权平均两套赛前胜率，四模型等权另将推荐模型、决策树、阵容 Elo 与地图 ML 各计 25%。六个选项使用同一套瑞士轮对阵规则。截图取自公开源码的桌面网页版，队标使用队名缩写。
+目前开放 Stage 1。Stage 2、3 入口会在晋级队伍和首发确定、对应数据发布后开放。Elo ＋ ML 对每场 BO1、BO3 等权平均两套赛前胜率，四模型等权另将推荐模型、决策树、阵容 Elo 与地图 ML 各计 25%。六个选项使用同一套瑞士轮对阵规则。预测图取自 Sites 桌面版，展示参赛队标。
 
 四模型等权在 Stage 2 中 27/50 格、过 4/5 届；Stage 3 中 10/30 格、过 0/3 届。完整实验区分胜率与填法，并列出 BO1、BO3 误差。[四模型对照](f1bre_models/four_way/RESULTS.md)
 
 ## 最近验证了什么？
+
+- 新加坡首阶段的首轮对手「双架」经三组配对采样，整张过关率均下降。[方法、逐种子结果和历史回放](external_forecasts/CANYUN.md)
 
 - 比较科隆赛前已有 Git 签名时间的外部预测，按本站规则确实中 5/10。单独移植其中的晋级战绩加分，科隆快速回放从 2 格升到 4 格，奥斯汀两组从 5 格降到 4 格。另一种只交换分歧队伍位置的方法，也没有增加三届总过关数。[上阶段战绩实验](f1bre_models/entry_record/RESULTS.md) · [分歧换位](f1bre_models/disputed_swap/RESULTS.md) · [外部科隆与新加坡预测](external_forecasts/README.md)
 - 单换 2–0 对局的 BO3 胜率，地图 ML 在科隆多中两格，三组种子的总过关数都持平。加入同核心往届全胜表现后，主种子在奥斯汀从 5 格掉到 3 格。两项均保留原默认。[全胜对局](f1bre_models/sweep_decider/RESULTS.md) · [同核心全胜经验](f1bre_models/core_sweep/RESULTS.md)
@@ -79,4 +81,4 @@ node engine/validate.cjs
 
 参考项目包括 F1bre 的 Elo 与机器学习预测器，以及按赛制配置和输出推荐卡的 Major Pick’ems Simulator。各自的训练数据、截止日和评分协议请见对应仓库。[F1bre Elo](https://github.com/holygodly/CS2-Major-ELO-PickEm-Predictor) · [F1bre ML](https://github.com/holygodly/CS2-Major-ML-PickEm-Predictor) · [Major Pick’ems Simulator](https://github.com/ndunnett/major-pickems-sim)
 
-原创代码与技术文档采用 MIT 许可。公开仓库使用原创队名缩写图标，各数据和素材按来源单独署名。网站发布版本、离线下载和研究明细另有记录。[MIT License](LICENSE) · [第三方资料与许可](THIRD_PARTY.md) · [完整项目说明](PROJECT-NOTES.md) · [Sites v34 快照](https://github.com/FanQAQ/cs2-singapore-major-2026-pickem-predictor/tree/sites-v34)
+原创代码与技术文档采用 MIT 许可。离线网页使用原创队名缩写图标，各数据和素材按来源单独署名。网站发布版本、离线下载和研究明细另有记录。[MIT License](LICENSE) · [第三方资料与许可](THIRD_PARTY.md) · [完整项目说明](PROJECT-NOTES.md) · [Sites v34 快照](https://github.com/FanQAQ/cs2-singapore-major-2026-pickem-predictor/tree/sites-v34)
