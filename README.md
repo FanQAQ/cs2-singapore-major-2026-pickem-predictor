@@ -34,6 +34,11 @@ B 卡方法在相同五届 Stage 1 中过关 **4/5**，命中 **28/50**。表中
 - **想换一支队**就打开从左到右的瑞士轮对阵图，手动选一场胜者，查看后续可能遇到的对手。[手动推演](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#bracket)
 - **想核对模型**可切换推荐模型或决策树，在右侧查看对应配置的各阶段历史命中，再展开逐届数据和研究结果。[模型验证](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#verify)
 
+## 最近验证了什么？
+
+- 阿斯塔纳的 33 场 BO3 中，地图 ML 降低了单场预测误差，三套主卡均中 6/10。[全 BO3 留出检验](f1bre_models/format_split/astana/RESULTS.md)
+- 两负淘汰局里，用选手往届的 ADR 变化修正预测，误差从 9.59 升至 11.09。该项留作研究。[选手高压表现回测](pressure/RESULTS.md)
+
 ## 本地运行与研究复算
 
 [下载离线网页版](https://github.com/FanQAQ/cs2-singapore-major-2026-pickem-predictor/releases/download/v0.35.0/fangos-lab-offline.zip)，解压后打开 `index.html`。从源码运行时，用浏览器打开 `dist/index.html`，或运行下面的命令并访问 `http://127.0.0.1:8000`。

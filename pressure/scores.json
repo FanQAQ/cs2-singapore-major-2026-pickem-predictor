@@ -1,0 +1,98 @@
+{
+  "sourceSHA256": "d99aa6a61c5d9018eef587ce28c026df4dd61406fdd46afe7a8d08bdcdcf2972",
+  "bo3": 189,
+  "observedPlayerSeries": 1870,
+  "missing": {
+    "unmatchedLineupSides": 4
+  },
+  "editions": {
+    "copenhagen": {
+      "all": {
+        "playerSeries": 0,
+        "players": 0,
+        "series": 0
+      },
+      "eligible": {
+        "playerSeries": 0,
+        "players": 0,
+        "series": 0
+      }
+    },
+    "shanghai": {
+      "all": {
+        "playerSeries": 160,
+        "players": 95,
+        "series": 16,
+        "baselineMAE": 10.47961,
+        "candidateMAE": 10.47961
+      },
+      "eligible": {
+        "playerSeries": 0,
+        "players": 0,
+        "series": 0
+      }
+    },
+    "austin": {
+      "all": {
+        "playerSeries": 240,
+        "players": 140,
+        "series": 24,
+        "baselineMAE": 10.49581,
+        "candidateMAE": 10.49581
+      },
+      "eligible": {
+        "playerSeries": 0,
+        "players": 0,
+        "series": 0
+      }
+    },
+    "budapest": {
+      "all": {
+        "playerSeries": 240,
+        "players": 135,
+        "series": 24,
+        "baselineMAE": 10.56768,
+        "candidateMAE": 10.56277
+      },
+      "eligible": {
+        "playerSeries": 7,
+        "players": 7,
+        "series": 2,
+        "baselineMAE": 8.78605,
+        "candidateMAE": 8.61788
+      }
+    },
+    "cologne": {
+      "all": {
+        "playerSeries": 240,
+        "players": 135,
+        "series": 24,
+        "baselineMAE": 11.46429,
+        "candidateMAE": 11.70737
+      },
+      "eligible": {
+        "playerSeries": 31,
+        "players": 15,
+        "series": 8,
+        "baselineMAE": 9.76862,
+        "candidateMAE": 11.65054
+      }
+    }
+  },
+  "all": {
+    "playerSeries": 880,
+    "players": 262,
+    "series": 88,
+    "baselineMAE": 10.77659,
+    "candidateMAE": 10.84155
+  },
+  "eligible": {
+    "playerSeries": 38,
+    "players": 18,
+    "series": 10,
+    "baselineMAE": 9.58762,
+    "candidateMAE": 11.0919
+  },
+  "improvingEditions": 1,
+  "passed": false
+}
