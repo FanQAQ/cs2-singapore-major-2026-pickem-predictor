@@ -91,7 +91,7 @@
     return duelRead(study,a,b,e.closeSnapshot?.mapVeto||e.mapVeto)+'<section class="panel scouting-panel"><div class="panel-head"><div><h2>赛前打法档案</h2><p>资料截至 '+esc(study.asOf)+' · 新加坡首阶段赛前快照</p></div></div><div class="panel-body">'+directory(e,mark)+'<div class="scout-columns">'+teamPanel(a,mark(i),study)+teamPanel(b,mark(j),study)+'</div>'+
       '<details class="pair-study"><summary>历史交锋支持固定克制吗？</summary><p>我们只给对阵双方使用当时已公开、至少三名首发相同的标签。2026-09-01 起的比赛专用于验证。项目比较了只看 VRS、加上类别整体强弱、以及分别估计各对位优势三种做法。</p>'+
       studyTable('按球队的赛前打法资料',study.scoutsReport)+studyTable('按录像中的进攻指标',study.demosReport)+
-      '<p>录像分类的对位模型在留出期未优于类别整体强弱。采访分类可检验的交手更少。推荐卡保留原胜率，可在下方自行设置对位幅度。</p></details></div></section>';
+      '<p>录像分类的对位模型在留出期未优于类别整体强弱。采访分类可检验的交手更少。预测保留原胜率，可在下方自行设置对位幅度。</p></details></div></section>';
   }
   globalThis.PickStyleReport={render,labels};
 })();

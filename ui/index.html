@@ -8,7 +8,7 @@
 <meta name="application-name" content="Fango's Lab">
 <meta name="theme-color" content="#101c29">
 <link rel="icon" type="image/png" sizes="64x64" href="fango-lab.png">
-<meta name="description" content="Fango's Lab 的 CS2 Major 竞猜实验室。查看新加坡 Major 推荐卡、推演瑞士轮，并核对三个阶段的历史命中。">
+<meta name="description" content="Fango's Lab 的 CS2 Major 竞猜实验室。查看新加坡 Major 预测、推演瑞士轮，并核对三个阶段的历史命中。">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="swiss-board.css">
 </head>
@@ -31,7 +31,7 @@
     <a class="event-opener" href="https://www.pglesports.com/cs2/pgl-major-singapore-2026/" target="_blank" rel="noopener noreferrer" aria-label="北京时间 11 月 24 日 12:00 首场开赛，查看 PGL 官方赛程"><span>首场开赛 · 北京时间 ↗</span><time datetime="2026-11-24T12:00:00+08:00">11.24 <b>12:00</b></time></a>
   </section>
   <div class="workspace-tabs" role="group" aria-label="工作区">
-    <button type="button" data-view="picks" aria-pressed="true">我的竞猜卡</button>
+    <button type="button" data-view="picks" aria-pressed="true">我的预测</button>
     <button type="button" data-view="bracket" aria-pressed="false">对阵推演</button>
     <button type="button" data-view="duel" aria-pressed="false">对局与打法</button>
     <button type="button" data-view="verify" aria-pressed="false">数据与验证</button>
@@ -67,7 +67,7 @@
     </section>
     <div id="workspace" aria-busy="true"></div>
     <aside class="history-sidebar panel" aria-labelledby="history-title">
-      <div class="history-heading"><h2 id="history-title" tabindex="-1">Major 历史命中</h2><p>每张卡命中 5/10 即过关。Stage 1、2 看最近五届，目标过三届。Stage 3 看最近三届，目标过两届。</p></div>
+      <div class="history-heading"><h2 id="history-title" tabindex="-1">该策略的历史表现</h2><p>每阶段命中至少 5/10 即过关。Stage 1、2 看最近五届，目标过三届。Stage 3 看最近三届，目标过两届。</p></div>
       <div id="history-strategy" class="history-strategy"></div>
       <div class="history-stages" role="group" aria-label="按阶段查看历史成绩">
         <div class="history-stage-head" aria-hidden="true"><span>查看阶段</span><span>过关届数</span><span>总命中</span></div>
@@ -79,7 +79,7 @@
       <h3 id="history-stage-title" class="history-stage-title">Stage 1 逐届成绩</h3>
       <p id="history-goal-status" class="history-goal-status"></p>
       <details id="rolling-goal" class="history-training-study" hidden>
-        <summary>推荐卡的正式计分记录</summary>
+        <summary>已封存预测的正式成绩</summary>
         <div id="rolling-goal-records"></div>
       </details>
       <div id="stage3-settings" class="stage3-settings" hidden>

@@ -72,9 +72,9 @@
       const card=data.cards.find(c=>c.id===id);
       result.replaceChildren(
         table(['原帖位置','F1bre 的队伍'],['3–0','普通晋级','0–3'].map((label,i)=>[label,card.groups[i].join('、')])),
-        el('p','与首页已封存的推荐卡有 '+card.commonSlots+'/10 格相同。'+
+        el('p','与首页已封存的预测有 '+card.commonSlots+'/10 格相同。'+
           (card.score?'正式赛果命中 '+card.score.hits+'/10。':'新加坡尚待完赛评分。')),
-        table(['用哪套胜率模拟','作者这张卡过关','首页推荐卡过关'],main.map(k=>[names[k],pct(card.pass[k]),pct(data.homePass[k])])));
+        table(['用哪套胜率模拟','作者这张卡过关','首页预测过关'],main.map(k=>[names[k],pct(card.pass[k]),pct(data.homePass[k])])));
       if(card.reportedRate)result.prepend(el('p','作者原图标出的过关率为 '+card.reportedRate+'。'));
     }
     if(!data.cards.length)return el('p','F1bre 在原帖公布了候选卡。当前可核对的完整卡面见原帖。');

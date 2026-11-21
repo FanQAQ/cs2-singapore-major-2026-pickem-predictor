@@ -792,3 +792,12 @@ button:focus-visible, summary:focus-visible, a:focus-visible { outline-offset: -
   .context-nav { gap:4px; }
   .context-nav a { padding:4px 7px; }
 }
+
+.strategy-board>.history-sidebar[hidden]{display:none}
+.verify-overview{display:grid;gap:12px}
+.verify-overview .panel-body p{margin:0 0 .65em}
+.verify-overview .panel-body p:last-child{margin-bottom:0}
+.verify-overview .data-cutoff,.verify-download small{font-size:.875rem;color:var(--muted)}
+.verify-download{display:flex;align-items:center;flex-wrap:wrap;gap:8px 14px}
+.detail-body>.pick-detail+.pick-detail{margin-top:6px}
+@media(min-width:951px){.strategy-board{grid-template-rows:max-content 1fr}}

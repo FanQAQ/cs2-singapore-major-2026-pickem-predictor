@@ -91,7 +91,7 @@
       '<h3>这四队的单队晋级率</h3><ul class="context-team-probs">'+row+'</ul><p class="helper">联合概率来自同一次瑞士轮推演。同组队伍可能相遇，每条路径分别统计出局数。按赛前推荐配置模拟 '+data.pathsPerStage.toLocaleString('zh-CN')+' 次，覆盖 '+data.seeds.length+' 组随机数。</p>'+
       '<details class="context-fold"><summary>这四个位置在往届的实际结果</summary>'+table(['赛事','至少一支出局','至少两支出局','实际出局'],rows)+'<p>科隆这一组'+
       (cologne.actualOut.length?'最终出局的是 '+esc(cologne.actualOut.join('、'))+'。':'最终全部晋级。')+
-      (heroic?'赛事 3 号种子 HEROIC 的赛前晋级率为 '+pct(heroic.qualify)+'，最终 1–3 出局。':'')+'该届推荐卡实际为 '+card.actual+'/10，模拟中 '+pct(card.atOrBelowObserved)+' 的整卡命中不超过这个分数。</p></details>';
+      (heroic?'赛事 3 号种子 HEROIC 的赛前晋级率为 '+pct(heroic.qualify)+'，最终 1–3 出局。':'')+'该届预测实际为 '+card.actual+'/10，模拟中 '+pct(card.atOrBelowObserved)+' 的整卡命中不超过这个分数。</p></details>';
   }
   function favoritesPanel(event) {
     if(!event.favoriteRisk) return '';
