@@ -110,9 +110,12 @@ def write_project_zip(archive):
                        "residual_rating", "style_scout", "style_stats", "stage_context", "personnel_study",
                        "favorite_risk", "coach_change", "multi_stage", "multi_stage_train",
                        "final_card", "final_ratings", "external_stage", "stage_goals", "epl_transfer", "stage_transfer",
-                       "f1bre_card", "f1bre_data", "f1bre_models", "ml_allocation", "latent_form", "veto_ml", "bo5_history", "elite_opponents", "lineup_pairs", "stage1_holdout", "stage3_maps", "cologne_veto", "round_form", "tail_calibration"):
+                       "f1bre_card", "f1bre_data", "f1bre_models", "ml_allocation", "latent_form", "veto_ml", "bo5_history", "elite_opponents", "lineup_pairs", "stage1_holdout", "stage3_maps", "cologne_veto", "round_form", "tail_calibration", "pressure"):
             for path in sorted((ROOT / folder).rglob("*")):
                 rel = path.relative_to(ROOT)
+                if (rel.suffix.lower() in {".png", ".webp", ".jpg"}
+                        and rel.parts[0] == "ui" and any(tag in rel.name.lower() for tag in ("mobile", "phone"))):
+                    continue
                 if path.is_file() and not {"cache", "__pycache__", "downloads"}.intersection(rel.parts):
                     bundle.write(path, rel)
 
@@ -423,6 +426,7 @@ def build():
         ("styles_model/style.js","style-model.js"), ("assembly/adapter.js","adapter.js"),
     ]:
         shutil.copyfile(ROOT / source, OUT / target)
+    subprocess.run(["node", str(ROOT / "f1bre_models/build-browser.cjs")], check=True)
     logo_paths = {asset for e in events for asset in e["logos"].values()}
     for name in logo_paths:
         path = Path(name)

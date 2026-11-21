@@ -1,8 +1,10 @@
 # CS2 新加坡 Major 2026 预测 · Singapore Major Pick’Em
 
+[![新加坡 Stage 1 预测，按全胜、普通晋级、全败三栏展示](docs/images/singapore-stage1.png)](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#picks)
+
 ## Stage 1 怎么填？
 
-**交一张卡，建议选 A。** 两张卡均于 11 月 21 日赛前封存。11 月 24 日开赛，五轮结束后按实际战绩计分。把同一列的十支队伍填进游戏，命中至少五格即可过关。[打开 Fango’s Lab 推荐卡](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#picks)
+**交一张卡，建议选 A。** 两张卡均于 11 月 21 日赛前封存。11 月 24 日开赛，五轮结束后按实际战绩计分。把同一列的十支队伍填进游戏，命中至少五格即可过关。[打开 Fango’s Lab 预测](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#picks)
 
 | 游戏中的位置 | A · 正式推荐 | B · 考虑同阵容往届 Major 表现 |
 | --- | --- | --- |
@@ -12,7 +14,10 @@
 
 **拿不准选哪张？** 分歧集中在 FaZe 和 NiP 谁能全胜，以及最后一个普通晋级位给 Liquid 还是 M80。B 把同核心在往届 Major 各阶段的表现纳入判断。它在五届旧首阶段回放中多过了一届，收益集中在上海。额外检验的 EPL S23 第一阶段两种方案都只中 3 格，因此本站继续以 A 作为正式提交建议。[A 卡原件](forecast_archive/singapore-stage1-seed-conditional-2026-11-21.json) · [B 卡原件](forecast_archive/singapore-stage1-earlier-stages-2026-11-21.json) · [跨阶段实验](stage_transfer/README.md) · [EPL 留出检验](stage1_holdout/README.md)
 
-## 过去实际过了几届？
+## 该策略的历史表现
+
+![当前推荐配置按三个阶段计算的过关届数和十格总命中](docs/images/strategy-history.png)
+
 
 | 已完赛的瑞士阶段 | A 卡方法过关届数 | A 卡方法命中格数 |
 | --- | ---: | ---: |
@@ -22,7 +27,10 @@
 
 B 卡方法在相同五届 Stage 1 中过关 **4/5**，命中 **28/50**。表中计数来自真实赛果，每届按十个位置计分，达到五格记一次过关。随机种子用于检查同一输入换一批模拟会不会改卡。新加坡两张封存卡单独等待评分。[历史逐阶段成绩](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#verify) · [评分口径](stage_goals/PROSPECTIVE.md)
 
-## 数据如何变成十个选择？
+## 预测用了哪些数据？
+
+![数据与验证页列出的推荐模型输入、训练场数和数据截止日](docs/images/model-data.png)
+
 
 1. **认准上场的五个人。** A 卡采用 11 月 2 日的 Valve 区域排名与近期比赛快照，首发依据截至 11 月 10 日。只有与目标队直接重合至少三名首发的历史比赛才继承。EF 的 37 场有效历史中，36 场由本届五人打出，1 场保留四人。[EF 与全部 16 队首发依据](lineup_pairs/RESULTS.md)
 2. **先估每场，再排整卡。** 正式模型综合双方积分差、近期状态、面对强弱队的表现和地图小分，对 BO1 与 BO3 分别校准。瑞士轮按实际赛制配对，模拟十个位置联合命中至少五格的机会。B 卡进一步使用以往已结束 Major 的同核心表现，来源覆盖 13 个阶段、429 场系列赛。[胜率与填卡方法](method_eval/README.md) · [B 卡来源与截止规则](stage_transfer/PROTOCOL.md)
@@ -30,18 +38,24 @@ B 卡方法在相同五届 Stage 1 中过关 **4/5**，命中 **28/50**。表中
 
 ## 网页能做什么？
 
-- **交作业前**打开推荐卡，看每个位置、队伍首发和推荐理由。[推荐卡与阵容](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#picks/rosters)
+- **交作业前**打开本阶段预测，看每个位置、队伍首发和推荐理由。[预测与阵容](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#picks/rosters)
 - **想换一支队**就打开从左到右的瑞士轮对阵图，手动选一场胜者，查看后续可能遇到的对手。[手动推演](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#bracket)
-- **想核对模型**可切换推荐模型或决策树，在右侧查看对应配置的各阶段历史命中，再展开逐届数据和研究结果。[模型验证](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#verify)
+- **想核对模型**可单选推荐模型、决策树、阵容 Elo、地图 ML 或 Elo ＋ ML，在右侧查看对应配置的各阶段历史命中，再展开逐届数据和研究结果。[模型验证](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#verify)
+
+目前开放 Stage 1。Stage 2、3 入口会在晋级队伍和首发确定、对应数据发布后开放。Elo ＋ ML 对每场 BO1、BO3 等权平均两套赛前胜率，五种模型均使用同一套瑞士轮对阵规则。截图取自公开源码的桌面网页版，队标使用队名缩写。
 
 ## 最近验证了什么？
+
+- Stage 3 分组填卡在 Major 回放过 2/3 届，五场外部赛事的过关数持平或减少，保留为可选策略。[逐场复核](final_card/group_audit/RESULTS.md)
+- 新加坡 16 支队伍都按赛前证据归类。六种已检验对位的留出成绩均未支持胜率修正，默认幅度为 0 个百分点。[战队分类与克制幅度](styles_model/DEFAULTS.md)
+
 
 - 阿斯塔纳的 33 场 BO3 中，地图 ML 降低了单场预测误差，三套主卡均中 6/10。[全 BO3 留出检验](f1bre_models/format_split/astana/RESULTS.md)
 - 两负淘汰局里，用选手往届的 ADR 变化修正预测，误差从 9.59 升至 11.09。该项留作研究。[选手高压表现回测](pressure/RESULTS.md)
 
 ## 本地运行与研究复算
 
-[下载离线网页版](https://github.com/FanQAQ/cs2-singapore-major-2026-pickem-predictor/releases/download/v0.35.0/fangos-lab-offline.zip)，解压后打开 `index.html`。从源码运行时，用浏览器打开 `dist/index.html`，或运行下面的命令并访问 `http://127.0.0.1:8000`。
+[下载离线网页版](https://github.com/FanQAQ/cs2-singapore-major-2026-pickem-predictor/releases/latest/download/fangos-lab-offline.zip)，解压后打开 `index.html`。从源码运行时，用浏览器打开 `dist/index.html`，或运行下面的命令并访问 `http://127.0.0.1:8000`。
 
 ```sh
 python -m http.server 8000 --bind 127.0.0.1 --directory dist

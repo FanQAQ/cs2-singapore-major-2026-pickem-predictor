@@ -801,3 +801,25 @@ button:focus-visible, summary:focus-visible, a:focus-visible { outline-offset: -
 .verify-download{display:flex;align-items:center;flex-wrap:wrap;gap:8px 14px}
 .detail-body>.pick-detail+.pick-detail{margin-top:6px}
 @media(min-width:951px){.strategy-board{grid-template-rows:max-content 1fr}}
+
+.stage-picker{display:flex;align-items:stretch;gap:8px;margin:16px 0 0}
+.stage-picker button{display:flex;align-items:baseline;gap:8px;padding:7px 12px;border:1px solid #c8d7e2;border-radius:5px;background:#fff;color:#304b61;font-size:14px}
+.stage-picker button span{font-size:13px}
+.stage-picker button[aria-pressed=true]{background:#18364d;border-color:#18364d;color:white}
+.stage-picker button:disabled{background:#e7edf2;color:#626f79;cursor:default}
+.strategy-board{margin-top:9px}
+.strategy-board>.method-panel,.strategy-board>.method-panel:has(.method-settings:not([open])){display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center}
+.method-panel .method-bar{grid-column:1;grid-row:1;justify-content:flex-start;padding:10px 15px}
+.method-panel .method-settings:not([open]){grid-column:2;grid-row:1}
+.method-panel .method-settings[open]{grid-column:1/-1;grid-row:3}
+.method-panel .model-basis{grid-row:2;grid-column:1/-1;margin:0;padding:9px 15px 12px;background:#f4f7fa;border-top:1px solid #dae3eb;color:#354d60;font-size:14px;line-height:1.6}
+.method-switch{flex-wrap:wrap}
+.method-switch button{min-width:0}
+.pick-detail[open]>summary{background:#eaf1f7;color:#173b56;border-bottom:1px solid #d4dfe8}
+.pick-detail>.detail-body>.pick-detail{margin:0 0 0 4px;border:0;border-left:3px solid #d8e4ef;border-radius:0;box-shadow:none;background:#fff}
+.pick-detail>.detail-body>.pick-detail+ .pick-detail{margin-top:1px}
+.detail-body>.pick-detail>summary{min-height:36px;padding:7px 12px;justify-content:flex-start;gap:10px;font-size:14px;font-weight:500}
+.detail-body>.pick-detail>summary::after{order:-1;width:6px;height:6px;margin:0 1px 1px}
+.detail-body>.pick-detail[open]{border-left-color:#4e84a9}
+.detail-body>.pick-detail[open]>summary{background:#f5f8fa;border-bottom:0}
+.detail-body>.pick-detail>.detail-body{padding:8px 17px 14px 26px}

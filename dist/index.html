@@ -36,6 +36,7 @@
     <button type="button" data-view="duel" aria-pressed="false">对局与打法</button>
     <button type="button" data-view="verify" aria-pressed="false">数据与验证</button>
   </div>
+  <nav class="stage-picker" id="forecast-stages" aria-label="新加坡预测阶段"></nav>
   <div class="strategy-board">
     <section class="method-panel panel" aria-label="预测模型">
       <div class="method-bar">
@@ -43,12 +44,15 @@
         <div class="method-switch" role="group" aria-label="选择预测模型">
           <button type="button" data-family="v4" aria-pressed="true">推荐模型</button>
           <button type="button" data-family="boost" aria-pressed="false">决策树</button>
+          <button type="button" data-family="elo" aria-pressed="false">阵容 Elo</button>
+          <button type="button" data-family="ml" aria-pressed="false">地图 ML</button>
+          <button type="button" data-family="hybrid" aria-pressed="false">Elo ＋ ML</button>
         </div>
       </div>
       <details class="method-settings" id="strategy-settings">
         <summary id="strategy-title"><span>模型设置</span><span id="method-state">推荐配置</span></summary>
         <div class="config-body">
-          <p id="method-description"></p>
+
           <fieldset class="model-features"><legend>预测特征</legend><div id="features"></div></fieldset>
           <div class="method-actions">
             <label class="fill-mode"><span>填卡目标</span><select id="fill-mode" disabled>
@@ -64,6 +68,7 @@
           <p id="data-dates" class="feature-coverage"></p>
         </div>
       </details>
+      <p class="model-basis" id="method-description" aria-live="polite"></p>
     </section>
     <div id="workspace" aria-busy="true"></div>
     <aside class="history-sidebar panel" aria-labelledby="history-title">
@@ -134,6 +139,7 @@
 <script src="stage3-card.js"></script>
 <script src="stage-inputs.js"></script>
 <script src="stage-training.js"></script>
+<script src="research-models.js"></script>
 <script src="adapter.js"></script>
 <script src="swap.js"></script>
 <script src="history.js"></script>

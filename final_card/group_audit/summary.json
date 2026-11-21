@@ -1,0 +1,349 @@
+{
+  "major": {
+    "events": [
+      {
+        "id": "austin-2025-3",
+        "scheme": "major",
+        "primary": [
+          5,
+          5
+        ],
+        "passesAcrossSeeds": [
+          29,
+          29
+        ]
+      },
+      {
+        "id": "budapest-2025-3",
+        "scheme": "major",
+        "primary": [
+          2,
+          3
+        ],
+        "passesAcrossSeeds": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "cologne-2026-3",
+        "scheme": "major",
+        "primary": [
+          2,
+          5
+        ],
+        "passesAcrossSeeds": [
+          0,
+          30
+        ]
+      }
+    ],
+    "primaryHits": [
+      9,
+      13
+    ],
+    "primaryPasses": [
+      1,
+      2
+    ],
+    "pairedPassCounts": {
+      "more": 29,
+      "same": 1,
+      "fewer": 0
+    }
+  },
+  "forwardSelection": [
+    {
+      "id": "austin-2025-3",
+      "selected": "current",
+      "hits": 5
+    },
+    {
+      "id": "budapest-2025-3",
+      "selected": "historical",
+      "hits": 3
+    },
+    {
+      "id": "cologne-2026-3",
+      "selected": "current",
+      "hits": 2
+    }
+  ],
+  "additionalSeeds": {
+    "more": 30,
+    "same": 0,
+    "fewer": 0
+  },
+  "vrsExternal": {
+    "events": [
+      {
+        "id": "epl21-stage2",
+        "scheme": "esl",
+        "primary": [
+          9,
+          7
+        ],
+        "passesAcrossSeeds": [
+          30,
+          30
+        ]
+      },
+      {
+        "id": "epl22-stage2",
+        "scheme": "esl",
+        "primary": [
+          4,
+          2
+        ],
+        "passesAcrossSeeds": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "epl23-stage2",
+        "scheme": "esl",
+        "primary": [
+          5,
+          5
+        ],
+        "passesAcrossSeeds": [
+          30,
+          30
+        ]
+      },
+      {
+        "id": "elisa-spring",
+        "scheme": "draw",
+        "primary": [
+          2,
+          2
+        ],
+        "passesAcrossSeeds": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "elisa-fall",
+        "scheme": "draw",
+        "primary": [
+          2,
+          1
+        ],
+        "passesAcrossSeeds": [
+          0,
+          0
+        ]
+      }
+    ],
+    "primaryHits": [
+      22,
+      17
+    ],
+    "primaryPasses": [
+      2,
+      2
+    ],
+    "pairedPassCounts": {
+      "more": 0,
+      "same": 30,
+      "fewer": 0
+    }
+  },
+  "mlExternal": {
+    "events": [
+      {
+        "id": "epl21-stage2",
+        "scheme": "esl",
+        "primary": [
+          9,
+          6
+        ],
+        "passesAcrossSeeds": [
+          30,
+          30
+        ]
+      },
+      {
+        "id": "epl22-stage2",
+        "scheme": "esl",
+        "primary": [
+          3,
+          4
+        ],
+        "passesAcrossSeeds": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "epl23-stage2",
+        "scheme": "esl",
+        "primary": [
+          5,
+          3
+        ],
+        "passesAcrossSeeds": [
+          30,
+          0
+        ]
+      },
+      {
+        "id": "elisa-spring",
+        "scheme": "draw",
+        "primary": [
+          1,
+          2
+        ],
+        "passesAcrossSeeds": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "elisa-fall",
+        "scheme": "draw",
+        "primary": [
+          2,
+          1
+        ],
+        "passesAcrossSeeds": [
+          0,
+          0
+        ]
+      }
+    ],
+    "primaryHits": [
+      20,
+      16
+    ],
+    "primaryPasses": [
+      2,
+      1
+    ],
+    "pairedPassCounts": {
+      "more": 0,
+      "same": 0,
+      "fewer": 30
+    }
+  },
+  "alternativeElisaPairing": {
+    "events": [
+      {
+        "id": "elisa-spring",
+        "scheme": "ranked",
+        "primary": [
+          2,
+          2
+        ],
+        "passesAcrossSeeds": [
+          0,
+          0
+        ]
+      },
+      {
+        "id": "elisa-fall",
+        "scheme": "ranked",
+        "primary": [
+          2,
+          1
+        ],
+        "passesAcrossSeeds": [
+          0,
+          0
+        ]
+      }
+    ],
+    "primaryHits": [
+      4,
+      3
+    ],
+    "primaryPasses": [
+      0,
+      0
+    ],
+    "pairedPassCounts": {
+      "more": 0,
+      "same": 30,
+      "fewer": 0
+    }
+  },
+  "removedEditions": [
+    {
+      "id": "austin-2025-3",
+      "sourceOmissions": {
+        "base": {
+          "passed": 30,
+          "hits": 5
+        },
+        "full": {
+          "passed": 30,
+          "hits": 5
+        },
+        "copenhagen": {
+          "passed": 0,
+          "hits": 3
+        },
+        "shanghai": {
+          "passed": 0,
+          "hits": 4
+        }
+      }
+    },
+    {
+      "id": "budapest-2025-3",
+      "sourceOmissions": {
+        "base": {
+          "passed": 0,
+          "hits": 2.7
+        },
+        "full": {
+          "passed": 0,
+          "hits": 3
+        },
+        "copenhagen": {
+          "passed": 0,
+          "hits": 3
+        },
+        "shanghai": {
+          "passed": 0,
+          "hits": 3.7
+        },
+        "austin": {
+          "passed": 0,
+          "hits": 3
+        }
+      }
+    },
+    {
+      "id": "cologne-2026-3",
+      "sourceOmissions": {
+        "base": {
+          "passed": 0,
+          "hits": 2.8333333333333335
+        },
+        "full": {
+          "passed": 30,
+          "hits": 5
+        },
+        "copenhagen": {
+          "passed": 30,
+          "hits": 5
+        },
+        "shanghai": {
+          "passed": 0,
+          "hits": 2
+        },
+        "austin": {
+          "passed": 0,
+          "hits": 2.066666666666667
+        },
+        "budapest": {
+          "passed": 27,
+          "hits": 4.9
+        }
+      }
+    }
+  ]
+}

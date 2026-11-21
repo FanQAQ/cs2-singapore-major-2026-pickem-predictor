@@ -13,7 +13,8 @@
     perfectPick: null, ordinaryPick: null, tailTeam:null, rosterTeam:'Eternal Fire'
   };
   const names = ['3–0','3–1 / 3–2','0–3','未入卡'];
-  const familyLabels = {v4:'推荐模型',boost:'决策树'};
+  const familyLabels = {v4:'推荐模型',boost:'决策树',elo:'阵容 Elo',ml:'地图 ML',hybrid:'Elo ＋ ML'};
+  const isResearch=()=>globalThis.PickResearchModels?.has(state.family)===true;
   const savedMethods = new Map();
   const slotTitles = ['全胜','普通晋级','全败'];
   let showSlotRates = false;
@@ -41,7 +42,7 @@
     {key:'experience',label:'选手 Major 经验',help:'按本届首发五人统计此前 Major 出场和冠军经历。模型系数只根据更早的整届赛事估计。'},
     {key:'rolling',label:'滚动阵容实力',help:'使用赛前历史中的近期赛果与阵容延续估计额外实力差。'},
     {key:'h2h',label:'历史交手',help:'参考赛前直接交手记录，样本少时降低调整幅度。'},
-    {key:'style',label:'打法克制',help:'在「对局与打法」查看阵容、道具和对位证据。开启后可设置假设幅度，往届只使用当时有来源的打法。'}
+    {key:'style',label:'打法克制',help:'在「对局与打法」查看阵容、道具和对位证据。队伍分类与默认幅度来自赛前数据，可手动调整对比。'}
   ];
   const simulations = 24000;
   const el = (tag, cls, text) => {const n=document.createElement(tag);n.className=cls;n.textContent=text;return n;};
@@ -57,6 +58,24 @@
   }
   const singapore = api.events.find(e=>e.id==='singapore' && e.teams?.length===16);
   if (!singapore) {fail('缺少新加坡 Stage 1 的完整参赛数据。');return;}
+  const stages=new Map([[1,singapore]]);
+  for(const n of [2,3]){
+    const event=api.allEvents.find(e=>e.stage===n && e.teams?.length===16 && e.teams.every(t=>t.roster?.length===5) &&
+      (e.id==='singapore-2026-'+n || (e.predictionEdition==='singapore-2026' && e.stage===n)));
+    if(event) stages.set(n,event);
+  }
+  function currentStage(){return state.event===singapore?1:state.event.stage;}
+  function renderStagePicker(){
+    const nav=byId('forecast-stages');
+    if(nav.children.length===0) for(const n of [1,2,3]){
+      const b=el('button','',''); b.type='button';b.dataset.stage=n;
+      b.append(el('strong','','Stage '+n),el('span','',stages.has(n)?'阶段预测':'待 Stage '+(n-1)+' 晋级队确定'));
+      b.disabled=!stages.has(n);
+      if(!b.disabled)b.addEventListener('click',()=>{if(state.event!==stages.get(n))start(stages.get(n));});
+      nav.append(b);
+    }
+    for(const b of nav.children)b.setAttribute('aria-pressed',String(Number(b.dataset.stage)===currentStage()));
+  }
   const views=new Set(['picks','bracket','duel','verify']);
   function addressedStage() {
     if(location.hash==='#picks/round-form') return 3;
@@ -151,6 +170,7 @@
     return styleModel?.pairs.some(pair=>Number(state.scenario?.edges?.[pair.key]||0)!==0);
   }
   function renderTrainingComparison() {
+    if(isResearch()){byId('history-training-study').hidden=true;return;}
     const family=state.family==='v4'?'recommended':'tree';
     const holdout=singapore.stageTrainingStudy?.groups?.holdout?.[family];
     const fold=byId('history-training-study');
@@ -294,7 +314,7 @@
   function renderHistory() {
     const meta=historyApi?.events||[];
     const mode=state.cardMode, direct=mode==='manual'||mode==='seed';
-    const selectionLabel=defaultFeatures(false)?'各届赛前推荐配置':state.feature.stageTraining && defaultFeatures(false,true)?'赛前配置＋自选校准':'当前自选特征';
+    const selectionLabel=isResearch()?'各届赛前胜率':defaultFeatures(false)?'各届赛前推荐配置':state.feature.stageTraining && defaultFeatures(false,true)?'赛前配置＋自选校准':'当前自选特征';
     const strategyName=familyLabels[state.family]+' · '+selectionLabel;
     const activeGrouped=historyState.stage===3 && historyState.stage3Allocation && canUseGroupedCard();
     byId('history-strategy').textContent=direct?cardLabels[mode]:strategyName+' · '+(activeGrouped?'Stage 3 分组填卡':cardLabels[currentFillMode()]);
@@ -339,6 +359,7 @@
         (historyData.get(r.id).editionLabel.split(' ')[0])+' '+r.original+' → '+r.candidate+' 格').join('，')+'。'));
       evidence.append(el('p','','30 组随机种子中，过关届数增加 '+trial.more+' 组、持平 '+trial.same+' 组、减少 '+trial.fewer+' 组。只用各届之前的成绩选填法，三届实际过关 '+trial.forwardPasses+' 次。'));
       evidence.append(el('p','','普通晋级格从 '+trial.originalCategories[1]+'/18 增至 '+trial.candidateCategories[1]+'/18。布加勒斯特大师赛的全 BO3 迁移检查为 '+trial.bucharest[0]+' → '+trial.bucharest[1]+' 格，该赛事单独评分。'));
+      evidence.append(el('p','','五场同为八直邀、八晋级的外部赛事中，按积分估胜率两种填法都过 2/5，分组后总命中从 22 格降到 17 格；改用地图 ML 时从过两场降到一场。该填法保留作对照。'));
       evidence.append(el('p','','科隆对训练样本敏感。在另外 30 组种子中，保留完整历史时过关 '+trial.cologneOmission[0]+' 次，去掉上海训练资料后过关 '+trial.cologneOmission[1]+' 次。'));
     }
     byId('history-stage-title').textContent='Stage '+historyState.stage+' 逐届成绩';
@@ -482,7 +503,7 @@
       strategy.robustCard=false;
       strategy.seedConditionalCard=false;
     }
-    if(defaultFeatures(false) || (state.feature.stageTraining && defaultFeatures(false,true))) {
+    if(!isResearch() && (defaultFeatures(false) || (state.feature.stageTraining && defaultFeatures(false,true)))) {
       strategy.methodDefault=state.family==='v4'?'recommended':'tree';
     }
     if(strategy.style) strategy.scenario=state.scenario;
@@ -536,6 +557,7 @@
       (exclude===i?' disabled':'')+'>'+escape(t.name)+'</option>').join('');
   }
   function resetScenario() {
+    if(state.event.styleStudy && globalThis.PickStyleReport?.defaults)return PickStyleReport.defaults(state.event);
     const scenario=styleModel ? styleModel.empty() : {assignments:{},edges:{}};
     for (const [name,item] of evidenceRows()) scenario.assignments[name]=item.profile;
     return scenario;
@@ -554,7 +576,8 @@
         const name = team.name;
         const key = saved ? styleRosterKey(team) : state.event.legacyStyleTeams?.[name];
         const profile = key && data.assignments?.[key];
-        if (styleModel.profiles.some(p => p.id === profile)) initial.assignments[name]=profile;
+        const oldUnknown=data.version!==3 && profile==='unknown' && state.event.styleStudy?.scouts?.[name]?.scenarioEligible!==true;
+        if (!oldUnknown && styleModel.profiles.some(p => p.id === profile)) initial.assignments[name]=profile;
       }
       for (const pair of styleModel.pairs) {
         const n = data.edges?.[pair.key];
@@ -565,8 +588,11 @@
   }
   function saveScenario() {
     try {
-      const assignments = Object.fromEntries(state.event.teams.map(t=>[styleRosterKey(t),state.scenario.assignments[t.name]]));
-      localStorage.setItem('pickem-style-lineup-'+state.event.id,JSON.stringify({edges:state.scenario.edges,assignments}));
+      const defaults=resetScenario();
+      const assignments=Object.fromEntries(state.event.teams.filter(t=>state.scenario.assignments[t.name]!==defaults.assignments[t.name])
+        .map(t=>[styleRosterKey(t),state.scenario.assignments[t.name]]));
+      const edges=Object.fromEntries(Object.entries(state.scenario.edges).filter(([k,v])=>v!==(defaults.edges[k]||0)));
+      localStorage.setItem('pickem-style-lineup-'+state.event.id,JSON.stringify({version:3,edges,assignments}));
     }
     catch { /* Users can still edit a scenario in memory. */ }
   }
@@ -613,9 +639,21 @@
   function renderFrame() {
     document.querySelector('.history-sidebar').hidden=state.tab==='bracket';
     const e = state.event;
+    renderStagePicker();
+    document.querySelector('.stage-tag').textContent='STAGE '+currentStage();
+    document.querySelector('footer span:last-child').textContent='CS2 · Stage '+currentStage();
     byId('event-title').textContent=e.label;
     document.title="Fango's Lab · "+e.label;
-    const isUpcoming=e.stageSchedule && Date.now()<Date.parse(e.stageSchedule.stages[0].firstMatchScheduledUtc);
+    const opening=singapore.stageSchedule?.stages.find(row=>row.stage===currentStage())?.firstMatchScheduledUtc;
+    const isUpcoming=Date.now()<Date.parse(opening);
+    if(opening){
+      const opener=document.querySelector('.event-opener'), time=opener.querySelector('time');
+      const parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Shanghai',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date(opening));
+      const value=Object.fromEntries(parts.map(p=>[p.type,p.value]));
+      time.dateTime=opening;
+      time.replaceChildren(value.month+'.'+value.day+' ',el('b','',value.hour+':'+value.minute));
+      opener.setAttribute('aria-label','Stage '+currentStage()+' 首场北京时间 '+time.textContent+'，查看 PGL 官方赛程');
+    }
     byId('mode-label').textContent=selected()?'条件推演':e.hasResults?'历史回测':isUpcoming?'尚未开赛 · 赛前推演':'赛前预测存档';
     byId('metadata').replaceChildren();
     ['16 支战队 · 8 席晋级','赛程 '+e.date].forEach(v=>byId('metadata').append(el('span','',v)));
@@ -629,7 +667,10 @@
     if(!close && state.family==='v4' && state.feature.roundMargin && active.v4Model?.lastRoundMatch) dates.push('最近可用于回合净胜的完整系列赛 '+active.v4Model.lastRoundMatch);
     byId('data-dates').textContent=dates.join(' · ');
     const features=byId('features'); features.replaceChildren();
-    featureList.forEach(f=>{
+    const research=isResearch();
+    features.closest('fieldset').hidden=research;
+    byId('data-dates').hidden=research;
+    if(!research)featureList.forEach(f=>{
       if(['rolling','fresh','shrinkBO','roundMargin','mapVeto','closeForm','regionRisk','regionVrs','majorForm'].includes(f.key) && !availability(f)) return;
       const available=availability(f), label=el('label','toggle','');
       const input=document.createElement('input'); input.type='checkbox'; input.id='feature-'+f.key; input.checked=f.key==='vrs'||(available && !!state.feature[f.key]);input.disabled=f.key==='vrs'||!available||(['shrinkBO','mapVeto'].includes(f.key) && !state.feature.format);
@@ -655,6 +696,7 @@
       features.append(el('p','feature-coverage',note+(missing.length?'涉及 '+missing.join('、')+' 的对局沿用其余已选特征。分地图实力另按逐图战绩统计。':'')));
     }
     for(const button of document.querySelectorAll('[data-family]')) {
+      button.disabled=globalThis.PickResearchModels?.has(button.dataset.family) && e!==singapore;
       button.setAttribute('aria-pressed',String(button.dataset.family===state.family));
     }
     renderMethodStatus();
@@ -663,6 +705,7 @@
   const classicPresetLabel='积分＋赛制';
   const recentStudyLabel='回合净胜＋强弱对手';
   function defaultFlags(family=state.family) {
+    if(globalThis.PickResearchModels?.has(family))return {seedConditionalCard:true,robustCard:false};
     const flags=PickMethods.defaults(family,state.event);
     const keys=featureList.filter(f=>f.key!=='vrs').map(f=>f.key).concat('robustCard');
     return {...Object.fromEntries(keys.map(key=>[key,Boolean(flags[key])])),seedConditionalCard:family==='v4'};
@@ -676,9 +719,26 @@
     const pristine=state.cardMode==='model' && defaultFeatures();
     byId('method-state').textContent=pristine?'推荐配置':'已自定义';
     byId('restore-model').disabled=pristine;
-    byId('method-description').textContent=state.family==='v4'
-      ?'推荐模型以赛前积分和近期表现估计胜率，再模拟整届瑞士轮。'
-      :'决策树用多棵浅层树学习积分、近期状态与胜负的关系，再模拟整届瑞士轮。';
+    byId('method-description').textContent=modelBasis();
+  }
+  function modelBasis(){
+    const e=state.event;
+    if(isResearch())return PickResearchModels.describe(e,state.family);
+    const flags=state.feature, evidence=activeEvidence(e);
+    const count=state.family==='v4'?evidence.v4Model?.n:e.boostModel?.n;
+    const used=k=>flags[k] && availability(featureList.find(f=>f.key===k));
+    const ingredients=[used('regionVrs')?'队伍与赛区的 Valve 积分':'队伍的 Valve 积分'];
+    if(used('form')) ingredients.push('近期赛果');
+    if(used('strong') && used('weak')) ingredients.push('对阵强队和弱队的表现');
+    else if(used('strong') || used('weak')) ingredients.push(used('strong')?'对阵强队的表现':'对阵弱队的表现');
+    if(used('roundMargin')) ingredients.push('扣除对手强弱后的地图回合净胜');
+    const extra=featureList.filter(f=>!['vrs','form','strong','weak','regionVrs','roundMargin','format','shrinkBO'].includes(f.key) && used(f.key));
+    ingredients.push(...extra.map(f=>f.label));
+    const method=state.family==='boost'?'决策树用多棵浅层树组合':'推荐模型综合';
+    const format=flags.format?(flags.shrinkBO?'，并按历史样本量校准 BO1、BO3 胜率':'，分别估计 BO1、BO3 胜率'):'，估计双方的对局胜率';
+    return method+ingredients.join('、')+format+'。'+(count?'训练使用开赛前的 '+count+' 场系列赛。':'')+
+      '队伍战绩要求至少三名本届首发出场，随后按本阶段的规则模拟五轮瑞士轮。';
+
   }
   function switchMethod(family) {
     if(family===state.family) return;
@@ -692,14 +752,16 @@
     state.perfectPick=null;state.ordinaryPick=null;
     recompute();
   }
-  function start() {
-    state.event=singapore;
+  function start(event=singapore) {
+    savedMethods.clear();
+    state.event=event;
+    if(isResearch() && event!==singapore)state.family='v4';
     state.feature=defaultFlags();
     state.scenario=restoreScenario();
     state.locks=[];state.result=null;state.card=null;state.cardMode='model';state.regionalIdx=0;
-    if(singapore.majorForm) {
-      const teams=singapore.majorForm.teams;
-      state.majorTeam=singapore.teams.map((t,i)=>({i,row:teams[t.name]}))
+    if(event.majorForm) {
+      const teams=event.majorForm.teams;
+      state.majorTeam=event.teams.map((t,i)=>({i,row:teams[t.name]}))
         .sort((a,b)=>(b.row?.editions||0)-(a.row?.editions||0) || (b.row?.series||0)-(a.row?.series||0))[0].i;
     }
     state.opponentRound=2;state.opponentTeam=0;state.leftTeam=0;state.rightTeam=8;state.editStyle=false;
@@ -779,7 +841,7 @@
     return '<details class="pick-detail" data-pick-detail="'+id+'"'+(pickDisclosures.has(id)?' open':'')+'><summary>'+label+'</summary><div class="detail-body">'+body+'</div></details>';
   }
   function cardPanel() {
-    const titles={model:'本阶段预测',seed:'按种子预测',expected:'按期望命中预测',manual:'我的手动预测'};
+    const titles={model:'Stage '+currentStage()+' 预测',seed:'按种子预测',expected:'按期望命中预测',manual:'我的手动预测'};
     const slots=slotTitles.map((label,category)=>{
       const teams=slotTeams(category);
       const chips=teams.map(i=>{
@@ -920,8 +982,9 @@
   }
   function rosterPanel(audit) {
     if(!audit)return '';
-    const name=state.rosterTeam,t=audit.teams[name];
     const teamNames=Object.keys(audit.teams);
+    const name=audit.teams[state.rosterTeam]?state.rosterTeam:teamNames[0],t=audit.teams[name];
+    if(!t)return '';
     const options=teamNames.map(n=>'<option'+(n===name?' selected':'')+'>'+escape(n)+'</option>').join('');
     const rates=t.probabilities.map(p=>(p*100).toFixed(1)+'%');
     const bands='<dl class="lineup-rates" aria-label="赛前封卡的战绩概率">'+['3–0','普通晋级','0–3'].map((label,i)=>
@@ -1152,6 +1215,7 @@
       const width=(Math.max(0,Math.min(1,p))*100).toFixed(2);
       return '<div class="duel-format"><h3>BO'+bo+'</h3><div class="duel-values"><strong>'+formatRate(p)+'</strong><strong>'+formatRate(1-p)+'</strong></div><div class="duel-bar"><i style="width:'+width+'%"></i></div></div>';
     }).join('');
+    if(isResearch())return '<section class="panel"><div class="panel-head"><h2>两队交手胜率</h2></div><div class="panel-body"><div class="duel-teams">'+side(i,false)+'<span class="versus">VS</span>'+side(j,true)+'</div>'+outcomes+'<p>'+escape(modelBasis())+'</p></div></section>';
     const actual=Number.isInteger(match.h2hN)&&match.h2hN>0?match.h2hWins+' 胜 '+(match.h2hN-match.h2hWins)+' 负':'暂无符合条件的直接交手';
     const effect=state.feature.style?'<div><span>打法假设对左队胜率的影响</span><b>BO1 '+deltaLabel(match.detailsBO1?.stylePP)+' · BO3 '+deltaLabel(match.detailsBO3?.stylePP)+'</b></div>':'';
     const h2h=state.feature.h2h && event.matchups?.weight===0?'<p class="helper">本届赛前留出样本中，加入交手记录没有降低预测误差，模型将交手权重设为零。</p>':'';
@@ -1186,7 +1250,8 @@
     return globalThis.PickStyleReport?.labels[id] || '未分类';
   }
   function evidenceRows() {
-    const evidence=state.event.styleStudy?.scouts || state.event.profileEvidence || {};
+    if(state.event.styleStudy && globalThis.PickStyleReport?.evidenceRows)return PickStyleReport.evidenceRows(state.event);
+    const evidence=state.event.profileEvidence || {};
     return Object.entries(evidence).filter(([name,item])=>state.event.teams.some(t=>t.name===name)&&
       item && item.scenarioEligible!==false && styleModel?.profiles.some(p=>p.id===item.profile&&p.id!=='unknown'));
   }
@@ -1209,20 +1274,21 @@
       return '<li><b>'+escape(name)+' · '+escape(profileName(item.profile))+'</b><span>'+escape(item.date)+' · '+escape(item.evidence)+'</span>'+link+'</li>';
     }).join('');
     const sourceBlock=evidence.length && !state.event.styleStudy?'<details class="evidence-notes"><summary>查看打法标签来源（'+evidence.length+'）</summary><ul>'+evidenceLinks+'</ul></details>':'';
-    const applyButton=evidence.length?'<button class="outline-button" type="button" data-action="apply-profiles">应用有来源的打法标签</button>':'';
+    const applyButton=evidence.length?'<button class="outline-button" type="button" data-action="apply-profiles">使用数据默认分类</button>':'';
     const edges=styleModel.pairs.map((pair,index)=>{
       const value=state.scenario.edges[pair.key]||0;
       return '<div class="edge-control"><label for="edge-'+index+'">'+escape(profileName(pair.a))+' 对 '+escape(profileName(pair.b))+'</label><output for="edge-'+index+'" id="edge-value-'+index+'">'+(value>0?'+':'')+value+'</output><input type="range" id="edge-'+index+'" data-edge="'+index+'" min="-15" max="15" step="1" value="'+value+'"></div>';
     }).join('');
-    const example='近 180 天的整队证据会自动填入。个人、单场及较早的观察可在档案中查看，也可手动归类。';
+    const example='优先采用近期整队资料，其余按同核心的进攻录像或近 90 天记分板归类。展开对位检验可查估计幅度、样本量和留出成绩。';
+    if(isResearch())return '<section class="panel"><div class="panel-body">此模型使用封存的对局胜率。可在推荐模型或决策树中调整打法假设。</div></section>';
     const status=(state.feature.style?'已开启':'已关闭')+' · '+assigned+' 队已标注 · '+nonzero+' 项克制';
-    return '<section class="panel style-panel"><div class="panel-head"><div><h2>打法克制情景</h2><p>'+status+'</p></div><button type="button" class="outline-button" data-action="toggle-style">'+(state.feature.style?'关闭情景':'启用情景')+'</button></div><div class="panel-body"><p class="subtext">'+example+'初始克制幅度均为零。</p>'+
-      '<details id="style-editor"'+(state.editStyle?' open':'')+'><summary>编辑战队打法与克制幅度</summary><div class="style-columns"><div><h3>战队打法</h3><div class="assignment-grid">'+assignments+'</div>'+applyButton+sourceBlock+'</div><div><h3>克制幅度</h3><p class="subtext">单位为百分点，以原本五五开的对局为参考。正值利于前一种打法，负值利于后一种。</p><div class="edge-list">'+edges+'</div><button type="button" class="text-button" data-action="clear-style">恢复有来源的标签，克制幅度归零</button></div></div></details></div></section>';
+    return '<section class="panel style-panel"><div class="panel-head"><div><h2>打法克制情景</h2><p>'+status+'</p></div><button type="button" class="outline-button" data-action="toggle-style">'+(state.feature.style?'关闭情景':'启用情景')+'</button></div><div class="panel-body"><p class="subtext">'+example+'</p>'+
+      '<details id="style-editor"'+(state.editStyle?' open':'')+'><summary>编辑战队打法与克制幅度</summary><div class="style-columns"><div><h3>战队打法</h3><div class="assignment-grid">'+assignments+'</div>'+applyButton+sourceBlock+'</div><div><h3>克制幅度</h3><p class="subtext">单位为百分点，以原本五五开的对局为参考。正值利于前一种打法，负值利于后一种。</p><div class="edge-list">'+edges+'</div><button type="button" class="text-button" data-action="clear-style">恢复数据给出的打法和幅度</button></div></div></details></div></section>';
   }
   function duelView() {
     const e=state.event;
     const report=e.styleStudy?globalThis.PickStyleReport.render(e,state.leftTeam,state.rightTeam,teamMarkup):'';
-    return '<div class="duel-layout">'+matchupPanel()+report+styleSettings()+formatPanel()+'</div>';
+    return '<div class="duel-layout">'+matchupPanel()+report+styleSettings()+(isResearch()?'':formatPanel())+'</div>';
   }
   function sourceLabel(url) {
     if (url.hostname.includes('github')) {
@@ -1663,16 +1729,16 @@
     if(e.v4Forecast?.path) downloads.push('<a class="download-link" href="'+escape(e.v4Forecast.path)+'" download>下载回合净胜＋强弱对手赛前预测</a>');
     if(e.strategyForecast?.path) downloads.push('<a class="download-link" href="'+escape(e.strategyForecast.path)+'" download>下载赛前积分模型与决策树模型的赛前预测</a>');
     if(e.frozenForecast?.path) downloads.push('<a class="download-link" href="'+escape(e.frozenForecast.path)+'" download>下载 11 月 21 日赛前预测（阵容修订前）</a>');
-    const projectDownload=location.protocol==='file:'?'':('<a class="download-link" href="https://github.com/FanQAQ/cs2-singapore-major-2026-pickem-predictor/archive/refs/heads/main.zip">下载项目与回测数据</a><a class="download-link" href="https://github.com/FanQAQ/cs2-singapore-major-2026-pickem-predictor/releases/download/v0.35.0/fangos-lab-offline.zip" download>下载离线网页版</a><small>解压离线网页版后，打开 index.html 即可使用。</small>');
+    const projectDownload=location.protocol==='file:'?'':('<a class="download-link" href="https://github.com/FanQAQ/cs2-singapore-major-2026-pickem-predictor/archive/refs/heads/main.zip">下载项目与回测数据</a><a class="download-link" href="https://github.com/FanQAQ/cs2-singapore-major-2026-pickem-predictor/releases/latest/download/fangos-lab-offline.zip" download>下载离线网页版</a><small>解压离线网页版后，打开 index.html 即可使用。</small>');
     let training=e.trainingNote;
     if(state.family==='v4' && e.v4Model) training='近期表现模型使用本届之前的 '+e.v4Model.n+' 场系列赛拟合。允许按对手强弱调整近期状态，并结合地图净胜回合估计胜率。';
     if(state.family==='boost' && e.boostModel) training='决策树模型使用本届之前的 '+e.boostModel.n+' 场系列赛训练，按所选特征学习积分与近期战绩的不同组合。';
     const method=[e.methodNote,training,e.coverage].filter(Boolean).map(text=>'<p>'+escape(text)+'</p>').join('');
     const studies=(e.stageComparison?PickEventContext.report(e):'')+'<section class="panel wide audit-section" id="context-f1bre"></section>'+allocationStudy+externalStudy+calibrationPanel()+'<section id="method-validation" class="panel wide audit-section"></section>'+majorStudy(e)+rankStrengthStudy(e)+integratedStudy(e)+mapAuditPanel(e)+strategyAuditPanel(e)+regionalPanel(e);
     const evidence='<section class="panel method"><div class="panel-head"><h2>预测用了哪些数据？</h2></div><div class="panel-body">'+
-      '<p>按赛前 Valve 积分、参赛首发和近期赛果估计 BO1、BO3 胜率。历史比赛至少有三名首发与本届重合，才计入队伍战绩。</p>'+
-      '<p>'+escape(training||e.methodNote||'')+'</p><p class="data-cutoff">基础积分与战绩截至 '+escape(e.asOf)+' · 首发名单截至 '+escape(e.rosterAsOf)+'</p></div></section>';
-    const conclusions='<section class="panel"><div class="panel-head"><h2>历史回测说明了什么？</h2></div><div class="panel-body">'+
+      '<p>'+escape(modelBasis())+'</p>'+
+      (isResearch()?'':'<p class="data-cutoff">'+escape(byId('data-dates').textContent)+'</p>')+'</div></section>';
+    const conclusions='<section class="panel"><div class="panel-head"><h2>默认推荐的历史回测说明了什么？</h2></div><div class="panel-body">'+
       '<p>首阶段沿用相同的对局胜率，只调整 3–0 和 0–3 的选队方法，五届总命中从 <strong>23/50 提高到 27/50</strong>，两种填法都是 <strong>3/5 届过关</strong>。</p>'+
       '<p>推荐配置在第二阶段过了 4/5 届（25/50 格），第三阶段过了 1/3 届（9/30 格）。第三阶段样本最少，尚未达到两届过关的目标。</p>'+
       '<p>右侧按当前设置重新计分。新加坡的赛前预测待完赛后单独评分。</p></div></section>';
@@ -1699,7 +1765,8 @@
     byId('workspace').dataset.view=state.tab;
     byId('workspace').innerHTML=sampleNotes()+styleNote+view;
     if(state.tab==='verify') {
-      PickMethodValidation.render(byId('method-validation'),state.event,state.family);
+      if(isResearch())byId('method-validation').hidden=true;
+      else PickMethodValidation.render(byId('method-validation'),state.event,state.family);
       F1breStudy.mount(byId('context-f1bre'),singapore.f1ModelCompare);
       F1breStudy.mountAllocation(byId('context-f1bre'),singapore.mlAllocation);
       F1breStudy.mountForm(byId('context-allocation'),singapore.stageForm);
@@ -1911,9 +1978,7 @@
       if(state.feature.style) state.editStyle=true;
       recompute();
     } else if (data.action==='apply-profiles') {
-      for (const [name,item] of evidenceRows()) {
-        if (!state.scenario.assignments[name]||state.scenario.assignments[name]==='unknown') state.scenario.assignments[name]=item.profile;
-      }
+      state.scenario.assignments={...resetScenario().assignments};
       state.editStyle=true;saveScenario();recompute();
     } else if (data.action==='clear-style') {
       state.scenario=resetScenario();state.editStyle=true;saveScenario();recompute();

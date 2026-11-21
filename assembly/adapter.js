@@ -131,10 +131,16 @@
     event = forecastEvent(event, flags);
     if (![i, j].every(index => Number.isInteger(index) && index >= 0 && index < event.teams.length))
       throw Error('请选择有效的队伍');
+    if (globalThis.PickResearchModels?.has(flags.family)) {
+      const odds=PickResearchModels.matrices(event,flags.family);
+      return {bo1:odds.bo1[i][j],bo3:odds.bo3[i][j]};
+    }
     return compare(event, flags, coefficients(event, flags), contextualPoints(event, flags), i, j);
   }
 
   function matrixFor(event, flags = {}) {
+    if (globalThis.PickResearchModels?.has(flags.family))
+      return PickResearchModels.matrices(event,flags.family).bo1;
     flags = availableFlags(event, flags);
     event = forecastEvent(event,flags);
     const beta = coefficients(event, flags);
@@ -143,6 +149,8 @@
   }
 
   function seriesMatrices(event, flags) {
+    if (globalThis.PickResearchModels?.has(flags.family))
+      return PickResearchModels.matrices(event,flags.family);
     flags = availableFlags(event, flags);
     event = forecastEvent(event,flags);
     const beta = coefficients(event, flags);

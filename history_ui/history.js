@@ -16,6 +16,8 @@
   // Only decisions that can travel to other fields belong in the cache key.
   // Singapore's locked winners, manual card and local team labels never enter this object.
   function policy(settings = {}) {
+    if (globalThis.PickResearchModels?.has(settings.family))
+      return {family:settings.family,robustCard:!!settings.robustCard,seedConditionalCard:!settings.robustCard && !!settings.seedConditionalCard};
     if (['recommended','tree'].includes(settings.methodDefault)) {
       return {methodDefault:settings.methodDefault, robustCard:!!settings.robustCard,seedConditionalCard:!!settings.seedConditionalCard,
         ...(settings.stageTraining === true ? {stageTraining:true} : {}),
@@ -221,6 +223,8 @@
     const event = byId.get(id);
     if (!event) throw Error('未收录的历史阶段');
     const strategy = policy(settings);
+    if (globalThis.PickResearchModels?.has(strategy.family))
+      return asRow(id,PickResearchModels.scores(event,strategy),[PickResearchModels.describe(event,strategy.family)]);
     const {flags,notes} = localPolicy(event,strategy);
     const saved = event.historyPresets?.[presetFor(strategy,event)];
     if (saved) return asRow(id,saved,notes);
@@ -325,6 +329,10 @@
     job.promise = new Promise((resolve,rejectPromise) => {job.resolve = resolve; job.reject = rejectPromise;});
     active = job;
     for (const event of histories) {
+      if (globalThis.PickResearchModels?.has(flags.family)) {
+        accept(job,scoreEvent(event.id,flags));
+        continue;
+      }
       const preset = presetFor(flags,event);
       if (preset) {
         const scores = event.historyPresets?.[preset];

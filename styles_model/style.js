@@ -4,14 +4,25 @@
 
   const profiles = [
     { id: 'unknown', label: '未分类' },
-    { id: 'duel', label: '枪法对抗（肌肉派）' },
-    { id: 'system', label: '体系执行（学院派）' },
-    { id: 'tempo', label: '特殊节奏' }
+    { id: 'duel', label: '主动接战' },
+    { id: 'system', label: '体系执行' },
+    { id: 'tempo', label: '临场读局' },
+    { id: 'earlyContact', label: '较早交火' },
+    { id: 'trade', label: '快速补枪' },
+    { id: 'awp', label: '主狙击杀占比高' },
+    { id: 'mixed', label: '录像指标均衡' },
+    { id: 'assistHigh', label: '助攻占比较高' },
+    { id: 'carry', label: '击杀较集中' },
+    { id: 'spread', label: '击杀较分散' },
+    { id: 'boxMiddle', label: '击杀集中度居中' }
   ];
   const pairs = [
     { a: 'duel', b: 'system', key: 'duel:system' },
     { a: 'duel', b: 'tempo', key: 'duel:tempo' },
-    { a: 'system', b: 'tempo', key: 'system:tempo' }
+    { a: 'system', b: 'tempo', key: 'system:tempo' },
+    { a: 'earlyContact', b: 'trade', key: 'earlyContact:trade' },
+    { a: 'earlyContact', b: 'awp', key: 'earlyContact:awp' },
+    { a: 'trade', b: 'awp', key: 'trade:awp' }
   ];
   const empty = () => ({ assignments: {}, edges: {} });
   const logit = p => Math.log(p / (1 - p));
