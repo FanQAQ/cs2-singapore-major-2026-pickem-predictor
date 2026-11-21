@@ -7,7 +7,12 @@ const {errors,cardScore}=require('./score.cjs');
 const reference=require('../tail_calibration/report.json');
 const majors=require('./major-fields.json').fields;
 const read=file=>JSON.parse(fs.readFileSync(path.join(__dirname,file),'utf8'));
-const readModel=file=>JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(__dirname,file)))).fields;
+const frozenModels=new Map();
+function readModel(file) {
+  if(!frozenModels.has(file))
+    frozenModels.set(file,JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(__dirname,file)))).fields);
+  return frozenModels.get(file);
+}
 const keys=['baseline','elo','ml','ablation','teamOnly','blend'];
 const round=x=>Number(x.toFixed(9));
 const sum=xs=>xs.reduce((a,b)=>a+b,0);
@@ -127,5 +132,7 @@ async function main(){
 module.exports={getField,prodMatrix,matrices,truth,errors,cardScore,keys};
 if(require.main===module) {
   if(!isMainThread) parentPort.postMessage(evaluate(workerData));
-  else main().catch(e=>{console.error(e);process.exitCode=1;});
+  else if(process.argv.includes('--check') || process.argv.includes('--full'))
+    main().catch(e=>{console.error(e);process.exitCode=1;});
+  else require('./screen.cjs').cli(process.argv.slice(2));
 }
