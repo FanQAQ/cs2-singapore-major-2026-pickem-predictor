@@ -1660,7 +1660,7 @@
     if(e.v4Forecast?.path) downloads.push('<a class="download-link" href="'+escape(e.v4Forecast.path)+'" download>下载回合净胜＋强弱对手赛前预测</a>');
     if(e.strategyForecast?.path) downloads.push('<a class="download-link" href="'+escape(e.strategyForecast.path)+'" download>下载赛前积分模型与决策树模型的赛前预测</a>');
     if(e.frozenForecast?.path) downloads.push('<a class="download-link" href="'+escape(e.frozenForecast.path)+'" download>下载 11 月 21 日赛前预测（阵容修订前）</a>');
-    if(location.protocol!=='file:') downloads.push('<a class="download-link" href="https://github.com/FanQAQ/cs2-singapore-major-2026-pickem-predictor/archive/refs/heads/main.zip">下载项目与回测数据</a><a class="download-link" href="https://fanqaq.github.io/cs2-singapore-major-2026-pickem-predictor/downloads/fangos-lab-offline.zip" download>下载离线网页版</a><small>解压离线网页版后，打开 index.html 即可使用。</small>');
+    if(location.protocol!=='file:') downloads.push('<a class="download-link" href="https://github.com/FanQAQ/cs2-singapore-major-2026-pickem-predictor/archive/refs/heads/main.zip">下载项目与回测数据</a><a class="download-link" href="https://github.com/FanQAQ/cs2-singapore-major-2026-pickem-predictor/releases/download/v0.35.0/fangos-lab-offline.zip" download>下载离线网页版</a><small>解压离线网页版后，打开 index.html 即可使用。</small>');
     let training=e.trainingNote;
     if(state.family==='v4' && e.v4Model) training='近期表现模型使用本届之前的 '+e.v4Model.n+' 场系列赛拟合。允许按对手强弱调整近期状态，并结合地图净胜回合估计胜率。';
     if(state.family==='boost' && e.boostModel) training='决策树模型使用本届之前的 '+e.boostModel.n+' 场系列赛训练，按所选特征学习积分与近期战绩的不同组合。';
