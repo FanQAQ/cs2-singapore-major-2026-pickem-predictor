@@ -34,10 +34,11 @@ function completedMatches(editions, baselines, asOf = new Date().toISOString().s
       if (e.start < prospectiveStart) {
         const source = baselines.find(s => s.edition === e.id && s.stage === stage);
         assert.equal(source?.date, start, 'Missing historical default for ' + e.id + '/' + stage);
-        const card = source.results.current.card;
+        const allocation=stage===3?source.results.historical:source.results.current;
+        const card = allocation.card;
         assert.deepEqual([0,1,2,3].map(k => card.filter(c => c === k).length), [2,6,2,6]);
         const hits = card.filter((v,i) => v < 3 && source.actual[i] === v).length;
-        assert.equal(hits, source.results.current.hits[0]);
+        assert.equal(hits, allocation.hits[0]);
         Object.assign(item, {provenance:'replay', hits});
       }
       rows.push(item);

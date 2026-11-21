@@ -20,7 +20,7 @@ async function check(browser,device,width,height,url,save=true) {
   if(process.argv.includes('--roster-before') || process.argv.includes('--roster-panel')){
     const old=process.argv.includes('--roster-before');
     await page.goto(url+(old?'#picks':'#picks/rosters'));
-    await ready(page,['27 / 50','25 / 50','9 / 30']);
+    await ready(page,['27 / 50','25 / 50',old?'9 / 30':'13 / 30']);
     const card=page.locator('.ticket'), expected=require('../../forecast_archive/singapore-stage1-seed-conditional-2026-11-21.json');
     assert.deepEqual(await card.locator('.ticket-slot-0 .team-text').allTextContents(),expected.teams.filter((_,i)=>expected.card[i]===0).map(t=>t.team));
     if(!old){
@@ -51,7 +51,7 @@ async function check(browser,device,width,height,url,save=true) {
       await rmr.getByText('逐场看实际赢家及赛前胜率',{exact:true}).click();
       assert.equal(await rmr.locator('tbody th a').count(),20);
       await page.goto(url+'#picks/rosters');
-      await ready(page,['27 / 50','25 / 50','9 / 30']);
+      await ready(page,['27 / 50','25 / 50','13 / 30']);
     }
     if(process.env.PICKEM_ROSTER_SHOTS && save){
       const target=old?card:page.locator('[data-pick-detail="rosters"]');
@@ -85,7 +85,7 @@ async function check(browser,device,width,height,url,save=true) {
   page.setDefaultTimeout(90000);
   if(!before && save) {
     await page.goto(url+'#picks');
-    await ready(page,['27 / 50','25 / 50','9 / 30']);
+    await ready(page,['27 / 50','25 / 50','13 / 30']);
     const brand=(await page.locator('.topbar .brand').innerText()).trim();
     if(brandBefore) assert(!brand.includes("Fango's Lab"));
     else {
@@ -107,7 +107,7 @@ async function check(browser,device,width,height,url,save=true) {
     if(brandBefore){await page.close();return;}
   }
   await page.goto(url+(before?'#picks':'#picks/round-form'));
-  await ready(page,['27 / 50','25 / 50','9 / 30']);
+  await ready(page,['27 / 50','25 / 50',before?'9 / 30':'13 / 30']);
   if(before) {
     assert.equal(await page.locator('#stage3-settings').count(),0,'Before screenshots require original production build');
     await page.locator(phase(3)).click();
@@ -276,13 +276,13 @@ async function check(browser,device,width,height,url,save=true) {
     await page.waitForFunction(()=>document.querySelector('#workspace[aria-busy=false]') && document.querySelector('#history-strategy')?.textContent.includes('自选') &&
       [...document.querySelectorAll('.stage-hits')].length===3 && [...document.querySelectorAll('.stage-hits')].every(n=>n.textContent.includes('/')));
     await page.locator('#restore-model').click();
-    await ready(page,['27 / 50','25 / 50','9 / 30']);
+    await ready(page,['27 / 50','25 / 50','13 / 30']);
     await page.locator('.workspace-tabs [data-view=bracket]').click();
     await page.locator('.sb-team').first().click();
-    await ready(page,['27 / 50','25 / 50','9 / 30']);
+    await ready(page,['27 / 50','25 / 50','13 / 30']);
     assert.equal(await page.locator('.sb-won').count(),1);
     await page.locator('[data-action=clear-locks]').last().click();
-    await ready(page,['27 / 50','25 / 50','9 / 30']);
+    await ready(page,['27 / 50','25 / 50','13 / 30']);
     assert.equal(await page.locator('.sb-won').count(),0);
     const windows=require('../../stage_goals/rolling.cjs').build(path.join(__dirname,'../../forecast_archive/prospective')).windows;
     const ledger=page.locator('#rolling-goal');

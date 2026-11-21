@@ -143,9 +143,9 @@ function simulation(input,training) {
   const m=input.probabilities;
   const matrix={bo1:m.bo1,bo3:m.bo3,...(m.state && {state:m.state}),...(input.format==='all-bo3' && {allBo3:true})};
   const sim=CS.run(matrix,budget,seed,[],{seedConditionalCard:true});
-  const cards={recommended:sim.card};
-  if(input.stage===3) cards.stage3Candidate=PickFinalCard.card('historical',sim,input.teams.map(t=>t.points),training.prior);
-  return cards;
+  if(input.stage!==3) return {recommended:sim.card};
+  const grouped=PickFinalCard.card('historical',sim,input.teams.map(t=>t.points),training.prior);
+  return {recommended:grouped,standardComparison:sim.card};
 }
 function freeze(inputPath,archiveDir) {
   const raw=fs.readFileSync(inputPath), input=JSON.parse(raw);
@@ -167,7 +167,7 @@ function freeze(inputPath,archiveDir) {
   const temp=path.join(dir,'.'+randomUUID()+'.tmp');
   const frozenAt=new Date().toISOString(), archivedInput={...input,sources};
   validate(archivedInput,utc(frozenAt));
-  const payload={version:1,frozenAt,sourceInputSha256:digest(raw),matrixSha256:hash(input.probabilities),
+  const payload={version:2,frozenAt,sourceInputSha256:digest(raw),matrixSha256:hash(input.probabilities),
     engineSha256:digest(fs.readFileSync(require.resolve('../engine/engine.js'))),
     ruleSha256:digest(fs.readFileSync(require.resolve('../final_card/rules.js'))),input:archivedInput,training,seed,budget,cards};
   const record={sha256:hash(payload),payload};
@@ -183,7 +183,7 @@ function inspect(archivePath) {
   const p=record.payload;
   assert.equal(record.sha256,hash(p),'Archive checksum mismatch');
   assert.ok(utc(p.frozenAt)<=Date.now(),'Archive is timestamped in the future');
-  assert.equal(p.version,1);assert.equal(p.seed,seed);assert.equal(p.budget,budget);
+  assert([1,2].includes(p.version));assert.equal(p.seed,seed);assert.equal(p.budget,budget);
   validate(p.input,utc(p.frozenAt));
   if(p.input.edition==='singapore-2026') confirmSingaporeStage(p.input);
   for(const key of ['sourceInputSha256','engineSha256','ruleSha256']) assert.match(p[key],/^[a-f0-9]{64}$/,'Missing archive digest '+key);
@@ -193,7 +193,7 @@ function inspect(archivePath) {
     assert.match(s.sha256,/^[a-f0-9]{64}$/,'Missing source document digest');
   }
   assert.equal(p.matrixSha256,hash(p.input.probabilities));
-  const keys=p.input.stage===3?['recommended','stage3Candidate']:['recommended'];
+  const keys=p.input.stage===3?['recommended',p.version===1?'stage3Candidate':'standardComparison']:['recommended'];
   assert.deepEqual(Object.keys(p.cards).sort(),keys);
   for(const card of Object.values(p.cards)) {
     assert.equal(card.length,16);

@@ -49,7 +49,10 @@ try{
   for(const c of pending[0].cards) {
     assert.deepEqual(c.groups,[0,1,2].map(k=>axes.filter((_,i)=>parsed.payload.cards[c.id][i]===k)));
   }
-  assert.deepEqual(Object.keys(parsed.payload.cards),['recommended','stage3Candidate']);
+  assert.deepEqual(Object.keys(parsed.payload.cards),['recommended','standardComparison']);
+  const reference=CS.run({...input.probabilities,allBo3:true},parsed.payload.budget,parsed.payload.seed,[],{seedConditionalCard:true});
+  assert.deepEqual(parsed.payload.cards.standardComparison,reference.card);
+  assert.deepEqual(parsed.payload.cards.recommended,PickFinalCard.card('historical',reference,input.teams.map(t=>t.points),parsed.payload.training.prior));
   assert.ok(parsed.payload.training.sources.every(s=>s.editionEnd<input.editionStartAt.slice(0,10)));
   for(const stage of [1,2]){
     const b={...input,stage};
@@ -85,6 +88,11 @@ try{
     assert.deepEqual(score(archived.path,resultPath),first);
     assert.deepEqual(fs.readFileSync(archived.path),original);
     const digest=value=>require('node:crypto').createHash('sha256').update(JSON.stringify(value)).digest('hex');
+    const legacy=clone(parsed);
+    legacy.payload.version=1;
+    legacy.payload.cards={recommended:reference.card,stage3Candidate:parsed.payload.cards.recommended};
+    legacy.sha256=digest(legacy.payload);
+    assert.deepEqual(score(write('legacy-stage3.json',legacy),resultPath).cards.recommended,first.cards.standardComparison);
     const missing=clone(parsed);
     delete missing.payload.input.sources[0].bytes;
     missing.sha256=digest(missing.payload);

@@ -7,6 +7,18 @@ importScripts('history-worker.js');
 const event=PickLab.events.find(e=>e.id==='singapore');
 assert.deepEqual(event.teams.map(t=>t.name),archive.teams.map(t=>t.name));
 async function check(){
+  const four=require('./four_way/report.json');
+  const flags4={family:'fourWay',seedConditionalCard:true};
+  const published=PickLab.run(event.id,flags4);
+  assert.deepEqual(published.card,four.fields.singapore.card);
+  const members=[PickMethods.defaults('recommended',event),PickMethods.defaults('tree',event),{family:'elo'},{family:'ml'}]
+    .map(flags=>PickLab.seriesMatrices(event,flags));
+  const actual=PickLab.seriesMatrices(event,flags4);
+  for(const format of ['bo1','bo3'])for(let i=0;i<16;i++)for(let j=0;j<16;j++){
+    const mean=members.reduce((sum,m)=>sum+m[format][i][j],0)/4;
+    assert(Math.abs(actual[format][i][j]-mean)<1e-8);
+  }
+  for(const r of await PickHistory.compare(flags4)) assert.equal(r.scores.model,four.fields[r.id].scores.conditional);
   for(const [family,source] of [['elo','elo'],['ml','ml'],['hybrid','blend']]){
     const flags={family,seedConditionalCard:true};
     const result=PickLab.run(event.id,flags);

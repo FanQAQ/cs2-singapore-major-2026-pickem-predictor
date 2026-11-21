@@ -13,7 +13,7 @@
     perfectPick: null, ordinaryPick: null, tailTeam:null, rosterTeam:'Eternal Fire'
   };
   const names = ['3–0','3–1 / 3–2','0–3','未入卡'];
-  const familyLabels = {v4:'推荐模型',boost:'决策树',elo:'阵容 Elo',ml:'地图 ML',hybrid:'Elo ＋ ML'};
+  const familyLabels = {v4:'推荐模型',boost:'决策树',elo:'阵容 Elo',ml:'地图 ML',hybrid:'Elo ＋ ML',fourWay:'四模型等权'};
   const isResearch=()=>globalThis.PickResearchModels?.has(state.family)===true;
   const savedMethods = new Map();
   const slotTitles = ['全胜','普通晋级','全败'];
@@ -101,10 +101,10 @@
   if(openingView) state.tab=openingView;
   let revealWorkspace=Boolean(openingView);
   function selected() { return state.locks.some(row => Array.isArray(row) && row.some(Number.isInteger)); }
-  function flags() { return {...state.feature, family:state.family, scenario:state.scenario, locks:state.locks}; }
+  function flags() { return {...state.feature, family:state.family, ...(state.event.stage===3 && canUseGroupedCard() && historyState.stage3Allocation && {stage3Allocation:true}), scenario:state.scenario, locks:state.locks}; }
 
   const historyApi = globalThis.PickHistory;
-  const historyState = {key:null, request:0, rows:new Map(), error:'', stage:addressedStage() || 1, stage3Allocation:false, scheduled:false};
+  const historyState = {key:null, request:0, rows:new Map(), error:'', stage:addressedStage() || 1, stage3Allocation:true, scheduled:false};
   const historyData = new Map((api.allEvents || api.events).map(event=>[event.id,event]));
   const cardLabels = {model:'过关率优先',robust:'比较两种填法',seedConditional:'按晋级后的全胜率与末位种子填卡',expected:'期望命中优先',seed:'按赛事种子',manual:'按手动卡种子位置'};
   function currentFillMode() {
@@ -351,7 +351,7 @@
     grouped.disabled=!canUseGroupedCard();
     grouped.checked=canUseGroupedCard() && historyState.stage3Allocation;
     byId('stage3-availability').textContent=canUseGroupedCard()
-      ? '按直邀与上阶段晋级分组，在原来的对局胜率上重填十格。'
+      ? '推荐模型在 Stage 3 默认按直邀队和上阶段晋级队分别分配十格。取消勾选可查看原填法。'
       : '使用推荐模型及「按晋级后的全胜率与末位种子填卡」可比较此方案。';
     const evidence=byId('stage3-evidence'), trial=singapore.stage3Trial;
     if(trial && historyState.stage===3 && !evidence.childElementCount) {
@@ -359,7 +359,7 @@
         (historyData.get(r.id).editionLabel.split(' ')[0])+' '+r.original+' → '+r.candidate+' 格').join('，')+'。'));
       evidence.append(el('p','','30 组随机种子中，过关届数增加 '+trial.more+' 组、持平 '+trial.same+' 组、减少 '+trial.fewer+' 组。只用各届之前的成绩选填法，三届实际过关 '+trial.forwardPasses+' 次。'));
       evidence.append(el('p','','普通晋级格从 '+trial.originalCategories[1]+'/18 增至 '+trial.candidateCategories[1]+'/18。布加勒斯特大师赛的全 BO3 迁移检查为 '+trial.bucharest[0]+' → '+trial.bucharest[1]+' 格，该赛事单独评分。'));
-      evidence.append(el('p','','五场同为八直邀、八晋级的外部赛事中，按积分估胜率两种填法都过 2/5，分组后总命中从 22 格降到 17 格；改用地图 ML 时从过两场降到一场。该填法保留作对照。'));
+      evidence.append(el('p','','五场同为八直邀、八晋级的外部赛事中，按积分估胜率两种填法都过 2/5，分组后总命中从 22 格降到 17 格；改用地图 ML 时从过两场降到一场。这些外部赛事采用了不同的胜率模型。'));
       evidence.append(el('p','','科隆对训练样本敏感。在另外 30 组种子中，保留完整历史时过关 '+trial.cologneOmission[0]+' 次，去掉上海训练资料后过关 '+trial.cologneOmission[1]+' 次。'));
     }
     byId('history-stage-title').textContent='Stage '+historyState.stage+' 逐届成绩';
@@ -544,7 +544,9 @@
   });
   byId('stage3-allocation').addEventListener('change',event=>{
     historyState.stage3Allocation=event.target.checked;
-    syncHistory();
+    renderMethodStatus();
+    if(state.event.stage===3) recompute();
+    else syncHistory();
   });
   function teamMarkup(i) {
     const team = state.event.teams[i];
@@ -716,7 +718,7 @@
       (key==='stageTraining' && excludeTraining) || Boolean(state.feature[key])===defaults[key]);
   }
   function renderMethodStatus() {
-    const pristine=state.cardMode==='model' && defaultFeatures();
+    const pristine=state.cardMode==='model' && defaultFeatures() && (state.family!=='v4' || historyState.stage3Allocation);
     byId('method-state').textContent=pristine?'推荐配置':'已自定义';
     byId('restore-model').disabled=pristine;
     byId('method-description').textContent=modelBasis();
@@ -737,7 +739,8 @@
     const method=state.family==='boost'?'决策树用多棵浅层树组合':'推荐模型综合';
     const format=flags.format?(flags.shrinkBO?'，并按历史样本量校准 BO1、BO3 胜率':'，分别估计 BO1、BO3 胜率'):'，估计双方的对局胜率';
     return method+ingredients.join('、')+format+'。'+(count?'训练使用开赛前的 '+count+' 场系列赛。':'')+
-      '队伍战绩要求至少三名本届首发出场，随后按本阶段的规则模拟五轮瑞士轮。';
+      '队伍战绩要求至少三名本届首发出场，随后按本阶段的规则模拟五轮瑞士轮。'+
+      (canUseGroupedCard() && historyState.stage3Allocation?'Stage 3 按直邀与上阶段晋级分组填卡。':'');
 
   }
   function switchMethod(family) {
@@ -964,7 +967,7 @@
   }
   function sealedTickets(records,mlRecords=[]) {
     if(!records?.length) return '';
-    const labels={recommended:'预测',earlierStageChallenger:'往届阶段经验候选',stage3Candidate:'分组填卡候选'};
+    const labels={recommended:'预测',earlierStageChallenger:'往届阶段经验候选',stage3Candidate:'分组填卡候选',standardComparison:'原填法对照'};
     const stages=records.map(entry=>{
       const headings=entry.cards.map(c=>labels[c.id]);
       const rows=['3–0','普通晋级','0–3'].map((slot,i)=>[slot,...entry.cards.map(c=>c.groups[i].join('、'))]);
@@ -1747,7 +1750,7 @@
       (isResearch()?'':'<p class="data-cutoff">'+escape(byId('data-dates').textContent)+'</p>')+'</div></section>';
     const conclusions='<section class="panel"><div class="panel-head"><h2>默认推荐的历史回测说明了什么？</h2></div><div class="panel-body">'+
       '<p>首阶段沿用相同的对局胜率，只调整 3–0 和 0–3 的选队方法，五届总命中从 <strong>23/50 提高到 27/50</strong>，两种填法都是 <strong>3/5 届过关</strong>。</p>'+
-      '<p>推荐配置在第二阶段过了 4/5 届（25/50 格），第三阶段过了 1/3 届（9/30 格）。第三阶段样本最少，尚未达到两届过关的目标。</p>'+
+      '<p>推荐配置在第二阶段过了 4/5 届（25/50 格），第三阶段默认使用分组填卡，过了 2/3 届（13/30 格）。新增的过关来自科隆，新加坡将按赛前封存预测单独评分。</p>'+
       '<p>右侧按当前设置重新计分。新加坡的赛前预测待完赛后单独评分。</p></div></section>';
     return '<div class="verify-overview">'+evidence+conclusions+
       (projectDownload?'<div class="verify-download">'+projectDownload+'</div>':'')+
@@ -1998,6 +2001,7 @@
     switchMethod(button.dataset.family);
   }));
   byId('restore-model').addEventListener('click',()=>{
+    if(state.family==='v4') historyState.stage3Allocation=true;
     state.feature=defaultFlags();
     state.cardMode='model';
     state.perfectPick=null;state.ordinaryPick=null;

@@ -10,6 +10,9 @@ const f=frozen.forecast;
 assert.equal(createHash('sha256').update(JSON.stringify(f)).digest('hex'),frozen.sha256);
 assert.equal(seed,f.seed);assert.equal(report.searchN,f.searchPaths);assert.equal(report.auditN,f.auditPaths);
 const current={id:'singapore',teams:f.teams.map(t=>t.name),pairs:f.pairs.map(p=>[...p.probs.elo,...p.probs.ml])};
+const fourWay=require('./four_way/report.json').fields;
+assert.deepEqual(fourWay.singapore.teams,current.teams);
+current.fourWayMatrix=fourWay.singapore.matrix;
 const fields={};
 const seedCard=[0,0,1,1,1,1,1,1,3,3,3,3,3,3,2,2];
 for(const r of report.fields.filter(r=>r.id!=='cluj-2026')) {
@@ -18,7 +21,8 @@ for(const r of report.fields.filter(r=>r.id!=='cluj-2026')) {
   assert.equal(elo.cutoffExclusive,ml.cutoffExclusive);
   const details={cutoff:elo.cutoffExclusive,series:elo.coverage.series,train:ml.training.treeMaps,cal:ml.training.calibrationMaps};
   fields[r.id]=details;
-  if(r.actual) details.scores={};
+  assert.deepEqual(fourWay[r.id].teams,r.teams);
+  if(r.actual) details.scores={fourWay:fourWay[r.id].scores};
   for(const [family,key] of [['elo','elo'],['ml','ml'],['hybrid','blend']]) {
     const matrix={allBo3:!!elo.allBo3};
     for(const format of ['bo1','bo3']){

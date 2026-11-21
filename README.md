@@ -23,7 +23,7 @@
 | --- | ---: | ---: |
 | Stage 1 · 最近五届 | 3/5 | 27/50 |
 | Stage 2 · 最近五届 | 4/5 | 25/50 |
-| Stage 3 · 奥斯汀、布达佩斯、科隆 | 1/3 | 9/30 |
+| Stage 3 · 奥斯汀、布达佩斯、科隆（分组填卡） | 2/3 | 13/30 |
 
 B 卡方法在相同五届 Stage 1 中过关 **4/5**，命中 **28/50**。表中计数来自真实赛果，每届按十个位置计分，达到五格记一次过关。随机种子用于检查同一输入换一批模拟会不会改卡。新加坡两张封存卡单独等待评分。[历史逐阶段成绩](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#verify) · [评分口径](stage_goals/PROSPECTIVE.md)
 
@@ -40,9 +40,11 @@ B 卡方法在相同五届 Stage 1 中过关 **4/5**，命中 **28/50**。表中
 
 - **交作业前**打开本阶段预测，看每个位置、队伍首发和推荐理由。[预测与阵容](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#picks/rosters)
 - **想换一支队**就打开从左到右的瑞士轮对阵图，手动选一场胜者，查看后续可能遇到的对手。[手动推演](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#bracket)
-- **想核对模型**可单选推荐模型、决策树、阵容 Elo、地图 ML 或 Elo ＋ ML，在右侧查看对应配置的各阶段历史命中，再展开逐届数据和研究结果。[模型验证](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#verify)
+- **想核对模型**可单选推荐模型、决策树、阵容 Elo、地图 ML、Elo ＋ ML 或四模型等权，在右侧查看对应配置的各阶段历史命中，再展开逐届数据和研究结果。[模型验证](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#verify)
 
-目前开放 Stage 1。Stage 2、3 入口会在晋级队伍和首发确定、对应数据发布后开放。Elo ＋ ML 对每场 BO1、BO3 等权平均两套赛前胜率，五种模型均使用同一套瑞士轮对阵规则。截图取自公开源码的桌面网页版，队标使用队名缩写。
+目前开放 Stage 1。Stage 2、3 入口会在晋级队伍和首发确定、对应数据发布后开放。Elo ＋ ML 对每场 BO1、BO3 等权平均两套赛前胜率，四模型等权另将推荐模型、决策树、阵容 Elo 与地图 ML 各计 25%。六个选项使用同一套瑞士轮对阵规则。截图取自公开源码的桌面网页版，队标使用队名缩写。
+
+四模型等权在 Stage 2 中 27/50 格、过 4/5 届；Stage 3 中 10/30 格、过 0/3 届。完整实验区分胜率与填法，并列出 BO1、BO3 误差。[四模型对照](f1bre_models/four_way/RESULTS.md)
 
 ## 最近验证了什么？
 
@@ -52,7 +54,7 @@ B 卡方法在相同五届 Stage 1 中过关 **4/5**，命中 **28/50**。表中
 - 布加勒斯特的 33 场 BO3 中，正式推荐和地图 ML 交出了相同的十格预测，都中 3/10。单换两个 0–3 位，事后最多也只能中 4 格。三届 Major 回放同样没有支持按榜后战绩改选全败队。[布加勒斯特逐场复盘](f1bre_models/format_split/bucharest26/RESULTS.md) · [全败位对照](f1bre_models/late_tail/RESULTS.md)
 - 卡托维兹的 33 场 BO3 中，正式推荐和地图 ML 都猜对六支晋级队。ML 把 Vitality 和 Falcons 放对了位置，整卡从 3/10 提至 5/10，但它对两场冷门的胜者都只给了 0.725% 胜率。[逐场胜率和整卡对照](f1bre_models/format_split/epl24/RESULTS.md)
 - 调整地图 ML 的胜率校准后，三届 Stage 3 单场误差略降。换 30 组种子复核，能过两届的种子从 20 组降到 8 组，该调整已结束试验。[校准前后对照](f1bre_models/smooth_calibration/RESULTS.md)
-- Stage 3 分组填卡在 Major 回放过 2/3 届，五场外部赛事的过关数持平或减少，保留为可选策略。[逐场复核](final_card/group_audit/RESULTS.md)
+- Stage 3 分组填卡在 Major 回放过 2/3 届，五场外部赛事的过关数持平或减少，现已设为推荐模型的 Stage 3 默认填法，可手动关闭。[逐场复核](final_card/group_audit/RESULTS.md)
 - 新加坡 16 支队伍都按赛前证据归类。六种已检验对位的留出成绩均未支持胜率修正，默认幅度为 0 个百分点。[战队分类与克制幅度](styles_model/DEFAULTS.md)
 
 

@@ -47,6 +47,7 @@
           <button type="button" data-family="elo" aria-pressed="false">阵容 Elo</button>
           <button type="button" data-family="ml" aria-pressed="false">地图 ML</button>
           <button type="button" data-family="hybrid" aria-pressed="false">Elo ＋ ML</button>
+          <button type="button" data-family="fourWay" aria-pressed="false">四模型等权</button>
         </div>
       </div>
       <details class="method-settings" id="strategy-settings">
@@ -88,7 +89,7 @@
         <div id="rolling-goal-records"></div>
       </details>
       <div id="stage3-settings" class="stage3-settings" hidden>
-        <label><input type="checkbox" id="stage3-allocation">试用 Stage 3 分组填卡</label>
+        <label><input type="checkbox" id="stage3-allocation">Stage 3 分组填卡（推荐默认）</label>
         <small id="stage3-availability">按直邀队与上阶段晋级队分别估计填卡位置。</small>
         <details><summary>这套填法在哪些比赛有效？</summary><div id="stage3-evidence"></div></details>
         <details id="round-form-study" hidden>
