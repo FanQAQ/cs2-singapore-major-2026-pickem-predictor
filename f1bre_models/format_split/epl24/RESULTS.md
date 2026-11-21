@@ -23,4 +23,4 @@
 
 在仓库根目录执行 `node f1bre_models/format_split/epl24/grade.cjs` 即可从保存的概率和预测复算表格。`node f1bre_models/format_split/epl24/lock.cjs` 可用固定种子重新选卡并与保存结果逐字节比较。要重建赛前模型，先按 [ML 数据准备说明](../../ML.md) 准备 Valve 榜单缓存、HLTvy 归档和 Ektarr v11 原表，再运行本目录的 `forecast.py` 与 `baseline.py`，参数见各自的 `--help`。
 
-下一轮只检验极端胜率的校准。在各阶段自己的赛前校准样本上拟合平滑曲线，以现有保序回归为对照，冻结两者后再重放三届 Major。先比较真实 BO3 的误差和低概率区间样本数，再用三个小种子检查整卡。卡托维兹已用于发现问题，后续把它作为诊断样本，另找未参与选择的留出资料。
+后续在各阶段自己的赛前校准样本上拟合平滑曲线。三届 Major 单场误差略降，完整预算下的整卡成绩退步，已结束该候选的试验。[平滑校准的结果](../../smooth_calibration/RESULTS.md)
