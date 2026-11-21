@@ -56,15 +56,26 @@ function load() {
     assert.ok(Math.abs(localP + matrix[i+8][i] - 1) < 1e-8);
     return {a:teams[i], b:teams[i+8], localP, publicP:pct/100, localMinusPublicPP:100*localP-pct};
   }).sort((a,b)=>Math.abs(b.localMinusPublicPP)-Math.abs(a.localMinusPublicPP));
-  const publicCard = Array(16).fill(3);
-  [snapshot.ticket.threeZero,snapshot.ticket.ordinary,snapshot.ticket.zeroThree].forEach((group, category)=>{
-    assert.equal(group.length,[2,6,2][category]);
-    for (const name of group) {
-      const i = index(name);
-      assert.equal(publicCard[i],3,'Duplicate team on ticket: '+name);
-      publicCard[i]=category;
-    }
-  });
+  function readTicket(ticket) {
+    const card=Array(16).fill(3);
+    [ticket.threeZero,ticket.ordinary,ticket.zeroThree].forEach((group, category)=>{
+      assert.equal(group.length,[2,6,2][category]);
+      for (const name of group) {
+        const i = index(name);
+        assert.equal(card[i],3,'Duplicate team on ticket: '+name);
+        card[i]=category;
+      }
+    });
+    return card;
+  }
+  const publicCard=readTicket(snapshot.ticket);
+  const pley=sealedJson('external_forecasts/pley-singapore-stage1-2026-11-22.json',
+    '652d27330e50e99c392ca7e5afe26ec6ff5ca34a7666a3d945bb60958800238e');
+  assert.equal(pley.stage,snapshot.stage);
+  assert.equal(Date.parse(pley.firstMatchAt),Date.parse(snapshot.firstMatchAt));
+  assert(Date.parse(pley.publishedAt)<=Date.parse(pley.modifiedAt) && Date.parse(pley.modifiedAt)<=Date.parse(pley.recordedAt) &&
+    Date.parse(pley.recordedAt)<Date.parse(pley.firstMatchAt));
+  const pleyCard=readTicket(pley);
   const localCard = model.card;
   const latest = sealedJson('forecast_archive/singapore-stage1-seed-conditional-2026-11-21.json',
     'ae1c25551ac4ce23737b2e69ef3aa5ad57488f5bc7e67bc3f1d088d1725c594c');
@@ -77,7 +88,7 @@ function load() {
   assert.equal(challenger.stage,latest.stage);
   assert.deepEqual(challenger.teams,latest.teams);
   assert.equal(challenger.baseline.sha256,'ae1c25551ac4ce23737b2e69ef3aa5ad57488f5bc7e67bc3f1d088d1725c594c');
-  return {teams,index,roundOne,localCard,publicCard,currentCard:latest.card,challengerCard:challenger.card,
+  return {teams,index,roundOne,localCard,publicCard,pleyCard,pleyRecordedAt:pley.recordedAt,currentCard:latest.card,challengerCard:challenger.card,
     baselineOdds:archive[matrixRef.field],challengerOdds:challenger.seriesMatrices};
 }
 
@@ -123,14 +134,18 @@ function scoreResults(data, input) {
     firstRoundBO1:{recommended:probabilityScore(data.roundOne,winners,'localP'),DAKEbits:probabilityScore(data.roundOne,winners,'publicP')},
     stageProbabilityErrors:{recommended:seriesScores(data.baselineOdds,rounds),earlierStageChallenger:seriesScores(data.challengerOdds,rounds)},
     completedStage:{originalRecommended:ticketScore(data.localCard,replay,data.teams),recommended:ticketScore(data.currentCard,replay,data.teams),
-      earlierStageChallenger:ticketScore(data.challengerCard,replay,data.teams),CSGOTradeUp:ticketScore(data.publicCard,replay,data.teams)}};
+      earlierStageChallenger:ticketScore(data.challengerCard,replay,data.teams),CSGOTradeUp:ticketScore(data.publicCard,replay,data.teams),
+      Pley:ticketScore(data.pleyCard,replay,data.teams)}};
 }
 
 function compare(data) {
   const slotDisagreements = data.teams.flatMap((team,i)=>data.localCard[i]===data.publicCard[i]?[]:[
     {team,recommended:categories[data.localCard[i]],CSGOTradeUp:categories[data.publicCard[i]]}
   ]);
-  return {stage:snapshot.stage,frozenAt:snapshot.frozenAt,firstRoundBO1:data.roundOne,slotDisagreements};
+  const pleyVsPublished=data.teams.flatMap((team,i)=>data.currentCard[i]===data.pleyCard[i]?[]:[
+    {team,recommended:categories[data.currentCard[i]],Pley:categories[data.pleyCard[i]]}
+  ]);
+  return {stage:snapshot.stage,frozenAt:snapshot.frozenAt,pleyRecordedAt:data.pleyRecordedAt,firstRoundBO1:data.roundOne,slotDisagreements,pleyVsPublished};
 }
 
 if (require.main===module) {

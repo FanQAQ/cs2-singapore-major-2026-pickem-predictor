@@ -1,0 +1,32 @@
+[
+  {
+    "id": "austin-2025-3",
+    "source": "https://pley.gg/cs2/stage-3-pickem-guide-for-the-blast-tv-austin-major-2025/",
+    "author": "Anders Frost",
+    "publishedAt": "2025-06-10T23:00:53+02:00",
+    "modifiedAt": "2026-08-05T10:42:28+02:00",
+    "threeZero": ["Vitality", "MOUZ"],
+    "ordinary": ["Spirit", "G2", "Virtus.pro", "FaZe", "Natus Vincere", "FURIA"],
+    "zeroThree": ["Lynn Vision"]
+  },
+  {
+    "id": "budapest-2025-3",
+    "source": "https://pley.gg/cs2/budapest-major-2025-pickem-guide-stage-3-predictions/",
+    "author": "Mads Wildenhoff",
+    "publishedAt": "2025-12-02T21:42:53+01:00",
+    "modifiedAt": "2026-08-05T11:22:57+02:00",
+    "threeZero": ["Falcons", "Spirit"],
+    "ordinary": ["G2", "MOUZ", "Vitality", "Natus Vincere", "FURIA", "FaZe"],
+    "zeroThree": ["Passion UA", "Imperial"]
+  },
+  {
+    "id": "cologne-2026-3",
+    "source": "https://pley.gg/pickem-guide-for-stage-3-at-iem-cologne-major-2026/",
+    "author": "Anders Frost",
+    "publishedAt": "2026-06-09T21:41:21+02:00",
+    "modifiedAt": "2026-07-06T15:22:17+02:00",
+    "threeZero": ["Vitality", "Spirit"],
+    "ordinary": ["Falcons", "Natus Vincere", "G2", "FUT", "FURIA", "BetBoom"],
+    "zeroThree": ["PARIVISION", "The MongolZ"]
+  }
+]

@@ -33,6 +33,10 @@ CSGOTradeUp 公布的卡使用 11 月 18 日的 20,000 次模拟，页面在 11 
 
 ## 复算与赛后评分
 
+Pley 的新加坡 Stage 1 十格预测于北京时间 11 月 22 日 02:09 封存。本站把 Imperial 放在普通晋级，Pley 把它放在 0–3。完赛后，下方同一条评分命令会给出各份预测的逐项成绩。[Pley 原文](https://pley.gg/cs2/major-pickem-stage-1/) · [赛前快照](pley-singapore-stage1-2026-11-22.json)
+
+另用 `node external_forecasts/pley-history.cjs` 核对三届已结束的 Stage 3。Pley 当前文章在布达佩斯和科隆各中 5 格，奥斯汀只明确给齐九格，可确定最终在 2–3 格之间。这三篇文章都有赛后修改记录，未取得可核验的赛前版本，仅供复盘。[逐届来源与缺格处理](pley-historical-stage3.json)
+
 在项目根目录运行：
 
 ```sh

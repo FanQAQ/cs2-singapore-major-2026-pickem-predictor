@@ -46,6 +46,8 @@ B 卡方法在相同五届 Stage 1 中过关 **4/5**，命中 **28/50**。表中
 
 ## 最近验证了什么？
 
+- 单换 2–0 对局的 BO3 胜率，地图 ML 在科隆多中两格，三组种子的总过关数都持平。加入同核心往届全胜表现后，主种子在奥斯汀从 5 格掉到 3 格。两项均保留原默认。[全胜对局](f1bre_models/sweep_decider/RESULTS.md) · [同核心全胜经验](f1bre_models/core_sweep/RESULTS.md)
+- 新加坡 Stage 1 已在开赛前封存 Pley 的十格预测。Imperial 在本站是普通晋级，在 Pley 是 0–3，待完赛后按同一规则评分。[逐队分歧与计分](external_forecasts/README.md)
 - 布加勒斯特的 33 场 BO3 中，正式推荐和地图 ML 交出了相同的十格预测，都中 3/10。单换两个 0–3 位，事后最多也只能中 4 格。三届 Major 回放同样没有支持按榜后战绩改选全败队。[布加勒斯特逐场复盘](f1bre_models/format_split/bucharest26/RESULTS.md) · [全败位对照](f1bre_models/late_tail/RESULTS.md)
 - 卡托维兹的 33 场 BO3 中，正式推荐和地图 ML 都猜对六支晋级队。ML 把 Vitality 和 Falcons 放对了位置，整卡从 3/10 提至 5/10，但它对两场冷门的胜者都只给了 0.725% 胜率。[逐场胜率和整卡对照](f1bre_models/format_split/epl24/RESULTS.md)
 - 调整地图 ML 的胜率校准后，三届 Stage 3 单场误差略降。换 30 组种子复核，能过两届的种子从 20 组降到 8 组，该调整已结束试验。[校准前后对照](f1bre_models/smooth_calibration/RESULTS.md)

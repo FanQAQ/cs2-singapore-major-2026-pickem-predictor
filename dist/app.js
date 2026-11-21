@@ -1713,7 +1713,11 @@
       '<p>五届 Stage 1 真实赛果回放：预测过 '+f1.historical.released.passes+'/5 届，命中 '+f1.historical.released.hits+'/50 格。穷举重排后过 '+f1.historical.allRechecked.passes+'/5 届，命中 '+f1.historical.allRechecked.hits+'/50 格。</p>'+
       '<p>作者帖中的 ML 模拟过关率为 20.66%，使用作者的单场模型。公开仓库提供算法和示例数据，未随附此次完整的新加坡输入。实际命中在完赛后核算。</p>'+
       '<p><a href="https://github.com/holygodly/CS2-Major-ELO-PickEm-Predictor" target="_blank" rel="noopener noreferrer">F1bre 的 ELO 项目 ↗</a> · <a href="https://github.com/holygodly/CS2-Major-ML-PickEm-Predictor" target="_blank" rel="noopener noreferrer">ML 项目 ↗</a></p>'):'';
-    const externalStudy=e.id==='singapore' ? '<section class="panel wide audit-section"><div class="panel-head"><h2>新加坡首轮，模型分歧在哪场？</h2></div><div class="panel-body">'+
+    const externalStudy=e.id==='singapore' ? '<section class="panel wide audit-section"><div class="panel-head"><h2>新加坡 Stage 1 · 外部预测对照</h2></div><div class="panel-body">'+
+      pickDisclosure('external-pley','Pley 和本站对哪些队看法不同？',
+        '<p>两边都选 Ninjas in Pyjamas 全胜。另一个 3–0 席位，本站封存预测给了 Eternal Fire，Pley 给了 PARIVISION。双方都把另一支队放在普通晋级。</p>'+
+        '<p>分歧最大的是 Imperial。本站选它普通晋级，Pley 选它 0–3。双方都选 Chinggis Warriors 全败，本站的另一个 0–3 是 Lynn Vision。</p>'+
+        '<p>两份预测均已在开赛前封存，完赛后按相同十格规则计分。<a href="https://pley.gg/cs2/major-pickem-stage-1/" target="_blank" rel="noopener noreferrer">Pley 原文 ↗</a> · <a class="download-link" href="forecasts/pley-singapore-stage1-2026-11-22.json" download>下载 Pley 十格预测</a></p>')+
       pickDisclosure('external-r1','查看赛前分歧最大的两场 BO1',
         '<p>11 月 21 日封存时，两套模型在首轮八场都看好同一方。对 9z 击败 Lynn Vision 的概率，本站推荐模型给出 54.1%，DAKEbits 给出 78%。对 Liquid 击败 GOSH，双方分别给出 57.7% 和 74%。</p>'+
         '<p>本站初版卡和 CSGOTradeUp 有六格同栏。新填法有七格同栏，双方的 0–3 都是 Chinggis Warriors 和 Lynn Vision。完赛后可分别核对两版卡与外部卡。</p>'+
