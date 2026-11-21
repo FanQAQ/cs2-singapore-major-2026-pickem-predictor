@@ -1,0 +1,174 @@
+{
+  "coverage": {
+    "copenhagen": {
+      "series": 26,
+      "playedDecider": 13,
+      "verifiedDeciders": 13
+    },
+    "shanghai": {
+      "series": 26,
+      "playedDecider": 16,
+      "verifiedDeciders": 15,
+      "incompleteMaps": 1
+    },
+    "austin": {
+      "series": 39,
+      "playedDecider": 18,
+      "verifiedDeciders": 15,
+      "incompleteMaps": 3
+    },
+    "budapest": {
+      "series": 39,
+      "playedDecider": 13,
+      "verifiedDeciders": 12,
+      "incompleteMaps": 1
+    },
+    "cologne": {
+      "series": 59,
+      "playedDecider": 25,
+      "incompleteMaps": 3,
+      "verifiedDeciders": 22
+    },
+    "cluj-2026": {
+      "series": 33,
+      "playedDecider": 16,
+      "verifiedDeciders": 11,
+      "incompleteMaps": 5
+    }
+  },
+  "periods": {
+    "copenhagen": {
+      "all": {
+        "n": 0,
+        "players": 0,
+        "series": 0
+      },
+      "eligible": {
+        "n": 0,
+        "players": 0,
+        "series": 0
+      },
+      "twoLosses": {
+        "n": 0,
+        "players": 0,
+        "series": 0
+      }
+    },
+    "shanghai": {
+      "all": {
+        "n": 150,
+        "players": 85,
+        "series": 15,
+        "base": 18.1582,
+        "adjusted": 18.1582
+      },
+      "eligible": {
+        "n": 0,
+        "players": 0,
+        "series": 0
+      },
+      "twoLosses": {
+        "n": 0,
+        "players": 0,
+        "series": 0
+      }
+    },
+    "austin": {
+      "all": {
+        "n": 150,
+        "players": 95,
+        "series": 15,
+        "base": 16.4156,
+        "adjusted": 16.4154
+      },
+      "eligible": {
+        "n": 8,
+        "players": 8,
+        "series": 2,
+        "base": 11.5163,
+        "adjusted": 11.513
+      },
+      "twoLosses": {
+        "n": 0,
+        "players": 0,
+        "series": 0
+      }
+    },
+    "budapest": {
+      "all": {
+        "n": 120,
+        "players": 90,
+        "series": 12,
+        "base": 15.4517,
+        "adjusted": 15.5744
+      },
+      "eligible": {
+        "n": 14,
+        "players": 9,
+        "series": 3,
+        "base": 12.0985,
+        "adjusted": 13.1502
+      },
+      "twoLosses": {
+        "n": 4,
+        "players": 4,
+        "series": 1,
+        "base": 16.025,
+        "adjusted": 16.8266
+      }
+    },
+    "cluj-2026": {
+      "all": {
+        "n": 110,
+        "players": 60,
+        "series": 11,
+        "base": 16.9901,
+        "adjusted": 17.1806
+      },
+      "eligible": {
+        "n": 47,
+        "players": 26,
+        "series": 9,
+        "base": 14.8383,
+        "adjusted": 15.2841
+      },
+      "twoLosses": {
+        "n": 0,
+        "players": 0,
+        "series": 0
+      }
+    },
+    "cologne": {
+      "all": {
+        "n": 220,
+        "players": 90,
+        "series": 22,
+        "base": 16.8491,
+        "adjusted": 17.0459
+      },
+      "eligible": {
+        "n": 53,
+        "players": 21,
+        "series": 13,
+        "base": 18.1156,
+        "adjusted": 18.9323
+      },
+      "twoLosses": {
+        "n": 24,
+        "players": 12,
+        "series": 6,
+        "base": 15.0024,
+        "adjusted": 15.2288
+      }
+    }
+  },
+  "eligibleMajors": {
+    "n": 75,
+    "players": 30,
+    "series": 18,
+    "base": 16.2885,
+    "adjusted": 17.0616
+  },
+  "improvingMajors": 1,
+  "passed": false
+}
