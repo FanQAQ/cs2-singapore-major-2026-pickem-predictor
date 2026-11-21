@@ -2,15 +2,15 @@
 
 ## 我的预测
 
-![新加坡 Stage 1 正式预测：NiP、Eternal Fire 填 3–0，Chinggis Warriors、Lynn Vision 填 0–3，中间六队填普通晋级](docs/images/singapore-stage1.png)
+![新加坡 Stage 1 正式预测：NiP、Eternal Fire 填 3–0；PARIVISION、HEROIC、FaZe、Liquid、100 Thieves、Imperial 填普通晋级；Chinggis Warriors、Lynn Vision 填 0–3](docs/images/singapore-stage1.png)
 
-**只交一份，建议照图填 A。** 新加坡 Stage 1 于 11 月 24 日开赛，A、B 两份预测均在 11 月 21 日封存。十格命中五格即可过关；普通晋级的六个位置只计 3–1 和 3–2。网页在预测下方列出全部 16 队的战绩概率，方便换队前比较。[打开我的预测](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#picks)
+**方案 A · 正式推荐**　只交一份时建议选 A。NiP 和 Eternal Fire 填 3–0。
 
-| 填写位置 | A · 正式推荐（上图） | B · 加入同阵容的往届 Major 表现 |
-| --- | --- | --- |
-| 3–0 全胜 | NiP、Eternal Fire | FaZe、Eternal Fire |
-| 3–1 / 3–2 普通晋级 | PARIVISION、HEROIC、FaZe、Liquid、100 Thieves、Imperial | NiP、PARIVISION、HEROIC、100 Thieves、M80、Imperial |
-| 0–3 全败 | Chinggis Warriors、Lynn Vision | Chinggis Warriors、Lynn Vision |
+![新加坡 Stage 1 备选预测：FaZe、Eternal Fire 填 3–0；NiP、PARIVISION、HEROIC、100 Thieves、M80、Imperial 填普通晋级；Chinggis Warriors、Lynn Vision 填 0–3](docs/images/singapore-stage1-b.png)
+
+**方案 B · 加入同阵容的往届 Major 表现**　FaZe 与 NiP 对调位置，普通晋级的 Liquid 换成 M80。
+
+新加坡 Stage 1 于 11 月 24 日开赛，A、B 两份预测均在 11 月 21 日封存。十格命中五格即可过关；普通晋级的六个位置只计 3–1 和 3–2。网页在预测下方列出全部 16 队的战绩概率，方便换队前比较。[打开我的预测](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#picks)
 
 **选队依据。** A 用 11 月 2 日的 Valve 排名、PGL 报名名单和赛前比赛记录估算 BO1、BO3 胜率。模型考虑近期胜负、对手强弱和地图净胜回合，再模拟五轮瑞士赛，为整张预测分配十个位置。历史战绩要求至少三名首发相同。例如，EF 纳入的 37 场比赛里，36 场由本届五人出战，另 1 场保留四人。[阵容核对](lineup_pairs/RESULTS.md) · [模型方法](method_eval/README.md) · [A 封存原件](forecast_archive/singapore-stage1-seed-conditional-2026-11-21.json) · [B 封存原件](forecast_archive/singapore-stage1-earlier-stages-2026-11-21.json)
 
