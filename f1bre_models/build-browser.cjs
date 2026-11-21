@@ -10,9 +10,6 @@ const f=frozen.forecast;
 assert.equal(createHash('sha256').update(JSON.stringify(f)).digest('hex'),frozen.sha256);
 assert.equal(seed,f.seed);assert.equal(report.searchN,f.searchPaths);assert.equal(report.auditN,f.auditPaths);
 const current={id:'singapore',teams:f.teams.map(t=>t.name),pairs:f.pairs.map(p=>[...p.probs.elo,...p.probs.ml])};
-const fourWay=require('./four_way/report.json').fields;
-assert.deepEqual(fourWay.singapore.teams,current.teams);
-current.fourWayMatrix=fourWay.singapore.matrix;
 const fields={};
 const seedCard=[0,0,1,1,1,1,1,1,3,3,3,3,3,3,2,2];
 for(const r of report.fields.filter(r=>r.id!=='cluj-2026')) {
@@ -21,19 +18,14 @@ for(const r of report.fields.filter(r=>r.id!=='cluj-2026')) {
   assert.equal(elo.cutoffExclusive,ml.cutoffExclusive);
   const details={cutoff:elo.cutoffExclusive,series:elo.coverage.series,train:ml.training.treeMaps,cal:ml.training.calibrationMaps};
   fields[r.id]=details;
-  assert.deepEqual(fourWay[r.id].teams,r.teams);
-  if(r.actual) details.scores={fourWay:fourWay[r.id].scores};
-  for(const [family,key] of [['elo','elo'],['ml','ml'],['hybrid','blend']]) {
-    const matrix={allBo3:!!elo.allBo3};
-    for(const format of ['bo1','bo3']){
-      matrix[format]=family==='elo'?elo[format]:family==='ml'?ml[format]:
-        elo[format].map((row,i)=>row.map((p,j)=>(p+ml[format][i][j])/2));
-    }
+  if(r.actual) details.scores={};
+  for(const [family,archive] of [['elo',elo],['ml',ml]]) {
+    const matrix={allBo3:!!elo.allBo3,bo1:archive.bo1,bo3:archive.bo3};
     const simulation=CS.run(matrix,report.searchN+report.auditN,seed,[],{seedConditionalCard:true});
-    assert.deepEqual(simulation.card,r.methods[key].runs[0].card);
+    assert.deepEqual(simulation.card,r.methods[family].runs[0].card);
     if(!r.actual){
-      assert.equal(r.id,current.id);assert.deepEqual(r.teams,current.teams);assert.deepEqual(simulation.card,f.cards[key].standard);
-      f.pairs.forEach(({a,b,probs})=>assert.deepEqual(probs[key],[matrix.bo1[a][b],matrix.bo3[a][b]]));
+      assert.equal(r.id,current.id);assert.deepEqual(r.teams,current.teams);assert.deepEqual(simulation.card,f.cards[family].standard);
+      f.pairs.forEach(({a,b,probs})=>assert.deepEqual(probs[family],[matrix.bo1[a][b],matrix.bo3[a][b]]));
       continue;
     }
     const hits=card=>CS.actualScore(card,r.actual);
@@ -41,7 +33,7 @@ for(const r of report.fields.filter(r=>r.id!=='cluj-2026')) {
     const robust=PickRobust.apply(standard,matrix,seed);
     details.scores[family]={conditional:hits(simulation.card),pass:hits(simulation.basePassCard),
       expected:hits(simulation.expectedCard),robust:hits(robust.card),seed:hits(seedCard)};
-    assert.equal(details.scores[family].conditional,r.methods[key].fixed.hits);
+    assert.equal(details.scores[family].conditional,r.methods[family].fixed.hits);
   }
 }
 const source=fs.readFileSync(path.join(__dirname,'browser.js'),'utf8').replace(/\r\n/g,'\n');

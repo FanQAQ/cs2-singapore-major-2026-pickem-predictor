@@ -40,11 +40,9 @@ B 卡方法在相同五届 Stage 1 中过关 **4/5**，命中 **28/50**。表中
 
 - **交作业前**打开本阶段预测，看每个位置、队伍首发和推荐理由。[预测与阵容](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#picks/rosters)
 - **想换一支队**就打开从左到右的瑞士轮对阵图，手动选一场胜者，查看后续可能遇到的对手。[手动推演](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#bracket)
-- **想核对模型**可单选推荐模型、决策树、阵容 Elo、地图 ML、Elo ＋ ML 或四模型等权，在右侧查看对应配置的各阶段历史命中，并可查看逐届成绩。[模型与历史表现](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#picks)
+- **想核对模型**可单选推荐模型、决策树、阵容 Elo或地图 ML，在右侧查看对应配置的各阶段历史命中，并可查看逐届成绩。[模型与历史表现](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#picks)
 
-目前开放 Stage 1。Stage 2、3 入口会在晋级队伍和首发确定、对应数据发布后开放。Elo ＋ ML 对每场 BO1、BO3 等权平均两套赛前胜率，四模型等权另将推荐模型、决策树、阵容 Elo 与地图 ML 各计 25%。六个选项使用同一套瑞士轮对阵规则。预测图取自 Sites 桌面版，展示参赛队标。
-
-四模型等权在 Stage 2 中 27/50 格、过 4/5 届；Stage 3 中 10/30 格、过 0/3 届。完整实验区分胜率与填法，并列出 BO1、BO3 误差。[四模型对照](f1bre_models/four_way/RESULTS.md)
+目前开放 Stage 1。Stage 2、3 入口会在晋级队伍和首发确定、对应数据发布后开放。四个模型使用同一套瑞士轮对阵规则。预测图取自 Sites 桌面版，展示参赛队标。
 
 ## 最近验证了什么？
 

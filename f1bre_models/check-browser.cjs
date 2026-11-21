@@ -7,26 +7,15 @@ importScripts('history-worker.js');
 const event=PickLab.events.find(e=>e.id==='singapore');
 assert.deepEqual(event.teams.map(t=>t.name),archive.teams.map(t=>t.name));
 async function check(){
-  const four=require('./four_way/report.json');
-  const flags4={family:'fourWay',seedConditionalCard:true};
-  const published=PickLab.run(event.id,flags4);
-  assert.deepEqual(published.card,four.fields.singapore.card);
-  const members=[PickMethods.defaults('recommended',event),PickMethods.defaults('tree',event),{family:'elo'},{family:'ml'}]
-    .map(flags=>PickLab.seriesMatrices(event,flags));
-  const actual=PickLab.seriesMatrices(event,flags4);
-  for(const format of ['bo1','bo3'])for(let i=0;i<16;i++)for(let j=0;j<16;j++){
-    const mean=members.reduce((sum,m)=>sum+m[format][i][j],0)/4;
-    assert(Math.abs(actual[format][i][j]-mean)<1e-8);
-  }
-  for(const r of await PickHistory.compare(flags4)) assert.equal(r.scores.model,four.fields[r.id].scores.conditional);
-  for(const [family,source] of [['elo','elo'],['ml','ml'],['hybrid','blend']]){
+  for(const retired of ['fourWay','hybrid']) assert.equal(PickResearchModels.has(retired),false);
+  for(const family of ['elo','ml']){
     const flags={family,seedConditionalCard:true};
     const result=PickLab.run(event.id,flags);
-    assert.deepEqual(result.card,archive.cards[source].standard);
+    assert.deepEqual(result.card,archive.cards[family].standard);
     assert.deepEqual([0,1,2,3].map(c=>result.card.filter(v=>v===c).length),[2,6,2,6]);
     for(const {a,b,probs} of archive.pairs) {
       const pair=PickLab.duel(event.id,flags,a,b),reverse=PickLab.duel(event.id,flags,b,a);
-      assert.deepEqual([pair.bo1,pair.bo3],probs[source]);
+      assert.deepEqual([pair.bo1,pair.bo3],probs[family]);
       assert(Math.abs(pair.bo1+reverse.bo1-1)<1e-9 && Math.abs(pair.bo3+reverse.bo3-1)<1e-9);
     }
     const locks=PickLab.setWinner([],1,0,0);
@@ -37,7 +26,7 @@ async function check(){
       const stages=report.fields.filter(f=>f.stage===stage && f.actual && f.id!=='cluj-2026');
       const hits=stages.map(f=>{
         const value=rows.find(r=>r.id===f.id).scores.model;
-        assert.equal(value,f.methods[source].fixed.hits);
+        assert.equal(value,f.methods[family].fixed.hits);
         return value;
       });
       return [hits.filter(v=>v>=5).length,hits.reduce((a,b)=>a+b,0)];

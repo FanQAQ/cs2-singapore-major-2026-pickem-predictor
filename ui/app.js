@@ -13,7 +13,7 @@
     perfectPick: null, ordinaryPick: null, tailTeam:null, rosterTeam:'Eternal Fire'
   };
   const names = ['3–0','3–1 / 3–2','0–3','未入卡'];
-  const familyLabels = {v4:'推荐模型',boost:'决策树',elo:'阵容 Elo',ml:'地图 ML',hybrid:'Elo ＋ ML',fourWay:'四模型等权'};
+  const familyLabels = {v4:'推荐模型',boost:'决策树',elo:'阵容 Elo',ml:'地图 ML'};
   const isResearch=()=>globalThis.PickResearchModels?.has(state.family)===true;
   const savedMethods = new Map();
   const slotTitles = ['全胜','普通晋级','全败'];
