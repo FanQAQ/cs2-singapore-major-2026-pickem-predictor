@@ -69,8 +69,9 @@
     const nav=byId('forecast-stages');
     if(nav.children.length===0) for(const n of [1,2,3]){
       const b=el('button','',''); b.type='button';b.dataset.stage=n;
-      b.append(el('strong','','Stage '+n),el('span','',stages.has(n)?'阶段预测':'待 Stage '+(n-1)+' 晋级队确定'));
+      b.append(el('strong','','Stage '+n),el('span','',stages.has(n)?'预测已开放':'待晋级队确定'));
       b.disabled=!stages.has(n);
+      if(b.disabled)b.title='等待 Stage '+(n-1)+' 晋级名单';
       if(!b.disabled)b.addEventListener('click',()=>{if(state.event!==stages.get(n))start(stages.get(n));});
       nav.append(b);
     }
@@ -340,7 +341,7 @@
       if(stage===historyState.stage) {
         const reached=values.filter(n=>n>=5).length;
         byId('history-goal-status').textContent=ready
-          ? '最近 '+group.length+' 届按当前设置回放，'+reached+' 届过关。'+(group.length<target.windowSize?
+          ? (group.length<target.windowSize?
               '本阶段需要 '+target.windowSize+' 届已评分记录。':reached>=target.requiredPasses?
               '已达到 '+target.requiredPasses+' 届过关的目标。':'距 '+target.requiredPasses+' 届过关还差 '+(target.requiredPasses-reached)+' 届。')
           :'正在计算本阶段的过关成绩。';
@@ -469,10 +470,8 @@
     if (!meta.length) feedback='历史赛事数据尚未载入。';
     else if (!direct && historyState.error) feedback=historyState.error;
     else if(scores.size<meta.length) feedback='正在核对赛果 · '+scores.size+' / '+meta.length+' 个阶段';
-    else {
-      const values=[...scores.values()];
-      feedback='合计过关 '+values.filter(n=>n>=5).length+' / '+meta.length+' 次 · 命中 '+values.reduce((sum,n)=>sum+n,0)+' / '+(10*meta.length)+' 格';
-    }
+    else feedback='';
+    byId('history-feedback').hidden=!feedback;
     if(byId('history-feedback').textContent!==feedback) byId('history-feedback').textContent=feedback;
     const notes=byId('history-notes');notes.replaceChildren();
     if(historyState.stage===3) notes.append(el('p','','2024 年哥本哈根、上海各有两轮瑞士赛。Stage 3 收录奥斯汀、布达佩斯和科隆。'));
@@ -639,11 +638,10 @@
     return count + '/16 队有样本';
   }
   function renderFrame() {
-    document.querySelector('.history-sidebar').hidden=state.tab==='bracket';
+    document.querySelector('.history-sidebar').hidden=!['picks','verify'].includes(state.tab);
     const e = state.event;
     renderStagePicker();
     document.querySelector('.stage-tag').textContent='STAGE '+currentStage();
-    document.querySelector('footer span:last-child').textContent='CS2 · Stage '+currentStage();
     byId('event-title').textContent=e.label;
     document.title="Fango's Lab · "+e.label;
     const opening=singapore.stageSchedule?.stages.find(row=>row.stage===currentStage())?.firstMatchScheduledUtc;
@@ -656,7 +654,7 @@
       time.replaceChildren(value.month+'.'+value.day+' ',el('b','',value.hour+':'+value.minute));
       opener.setAttribute('aria-label','Stage '+currentStage()+' 首场北京时间 '+time.textContent+'，查看 PGL 官方赛程');
     }
-    byId('mode-label').textContent=selected()?'条件推演':e.hasResults?'历史回测':isUpcoming?'尚未开赛 · 赛前推演':'赛前预测存档';
+    byId('mode-label').textContent=selected()?'条件推演':e.hasResults?'历史回测':isUpcoming?'尚未开赛':'赛前预测存档';
     byId('metadata').replaceChildren();
     ['16 支战队 · 8 席晋级','赛程 '+e.date].forEach(v=>byId('metadata').append(el('span','',v)));
     const active=activeEvidence(e), close=state.feature.closeForm && e.closeSnapshot;
@@ -859,13 +857,12 @@
     const conflicts=messages.length?'<ul class="ticket-conflicts" aria-label="当前卡的赛果冲突">'+messages.map(m=>'<li>'+escape(m)+'</li>').join('')+'</ul>':'';
     const reset=areDefault()?'':'<button type="button" class="text-button" data-action="reset-card">恢复预测</button>';
     return '<section class="panel ticket" aria-labelledby="pick-title" data-show-rates="'+showSlotRates+'">'+
-      '<div class="ticket-head"><div><h2 id="pick-title">'+titles[state.cardMode]+'</h2><p>十格中命中五格即可过关</p></div>'+
+      '<div class="ticket-head"><div><h2 id="pick-title">'+titles[state.cardMode]+'</h2><p>10 格中命中 5 格即可过关</p></div>'+
       '<button type="button" class="rate-toggle" data-action="slot-rates" aria-pressed="'+showSlotRates+'">单格概率</button></div>'+
       '<p class="rate-guide">百分比表示这支队伍恰好打出本栏战绩的模拟概率。</p>'+
       '<div class="ticket-slots">'+slots+'</div>'+conflicts+'<div id="near-alternative" class="near-alternative" hidden></div>'+
       '<div class="ticket-foot"><span>点队名换队</span><div>'+reset+
-      '<button type="button" class="text-button" data-action="card-stats">过关率与依据</button>'+
-      '<button type="button" class="text-button" data-action="show-history">策略历史表现</button></div></div></section>';
+      '<button type="button" class="text-button" data-action="card-stats">查看过关率与选队依据 <span aria-hidden="true">↗</span></button></div></div></section>';
   }
   function cardStats() {
     const values=score(), baseline=state.result.score(seedCard());
@@ -1745,14 +1742,18 @@
     if(state.family==='boost' && e.boostModel) training='决策树模型使用本届之前的 '+e.boostModel.n+' 场系列赛训练，按所选特征学习积分与近期战绩的不同组合。';
     const method=[e.methodNote,training,e.coverage].filter(Boolean).map(text=>'<p>'+escape(text)+'</p>').join('');
     const studies=(e.stageComparison?PickEventContext.report(e):'')+'<section class="panel wide audit-section" id="context-f1bre"></section>'+allocationStudy+externalStudy+calibrationPanel()+'<section id="method-validation" class="panel wide audit-section"></section>'+majorStudy(e)+rankStrengthStudy(e)+integratedStudy(e)+mapAuditPanel(e)+strategyAuditPanel(e)+regionalPanel(e);
-    const evidence='<section class="panel method"><div class="panel-head"><h2>预测用了哪些数据？</h2></div><div class="panel-body">'+
-      '<p>'+escape(modelBasis())+'</p>'+
-      (isResearch()?'':'<p class="data-cutoff">'+escape(byId('data-dates').textContent)+'</p>')+'</div></section>';
-    const conclusions='<section class="panel"><div class="panel-head"><h2>默认推荐的历史回测说明了什么？</h2></div><div class="panel-body">'+
-      '<p>首阶段沿用相同的对局胜率，只调整 3–0 和 0–3 的选队方法，五届总命中从 <strong>23/50 提高到 27/50</strong>，两种填法都是 <strong>3/5 届过关</strong>。</p>'+
-      '<p>推荐配置在第二阶段过了 4/5 届（25/50 格），第三阶段默认使用分组填卡，过了 2/3 届（13/30 格）。新增的过关来自科隆，新加坡将按赛前封存预测单独评分。</p>'+
-      '<p>右侧按当前设置重新计分。新加坡的赛前预测待完赛后单独评分。</p></div></section>';
-    return '<div class="verify-overview">'+evidence+conclusions+
+    const dates=isResearch()?[]:byId('data-dates').textContent.split(' · ');
+    const dateRows=dates.map(line=>{
+      const m=/^(.*?) (\d{4}-\d{2}-\d{2})(.*)$/.exec(line);
+      return m?'<div><dt>'+escape(m[1])+'</dt><dd><time datetime="'+escape(m[2])+'">'+escape(m[2])+'</time>'+escape(m[3])+'</dd></div>':'<div><dt>样本</dt><dd>'+escape(line)+'</dd></div>';
+    }).join('');
+    const evidence=dateRows?'<section class="panel data-dates-panel"><div class="panel-head"><h2>赛前数据截止日期</h2></div><dl class="cutoff-list">'+dateRows+'</dl></section>':'';
+    const conclusions='<section class="panel validation-summary"><div class="panel-head"><h2>默认推荐的回测结论</h2></div><dl class="validation-findings">'+
+      '<div><dt>Stage 1</dt><dd>调整全胜与全败位置后，总命中从 <strong>23/50 升至 27/50</strong>，五届中仍过三届。</dd></div>'+
+      '<div><dt>Stage 2</dt><dd>近五届有 <strong>四届过关</strong>，共命中 25/50 格。</dd></div>'+
+      '<div><dt>Stage 3</dt><dd>分组填卡使科隆从 <strong>2 格升至 5 格</strong>，三届过关数从一届增至两届。</dd></div>'+
+      '</dl></section>';
+    return '<div class="verify-overview">'+conclusions+evidence+
       (projectDownload?'<div class="verify-download">'+projectDownload+'</div>':'')+
       pickDisclosure('verify-sources','数据来源与赛前预测下载','<ul class="sources">'+sources()+'</ul>'+downloads.map(link=>'<p>'+link+'</p>').join(''))+
       '<details id="research-archive" class="pick-detail" data-pick-detail="research-archive"'+
@@ -1946,9 +1947,6 @@
       openParents(detail);detail.open=true;
       detail.querySelector('summary').focus();
       detail.scrollIntoView({block:'center'});
-    } else if (data.action==='show-history') {
-      byId('history-title').focus();
-      byId('history-title').scrollIntoView({block:'start'});
     } else if (data.action==='toggle-major-form' && state.family==='v4' && state.event.majorForm) {
       state.feature.majorForm=!state.feature.majorForm;
       changeAndFocus('toggle-major-form');
