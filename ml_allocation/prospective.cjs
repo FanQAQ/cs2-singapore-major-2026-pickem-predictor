@@ -15,6 +15,8 @@ const codeFiles=['./evaluate.cjs','./draw.cjs','../final_card/rules.js','../engi
   '../dist/engine.js','../strategy_v4_eval/settings.cjs','../stage_goals/prospective.cjs','./prospective.cjs'];
 const inputFiles=['ml-queries.json','ml-queries.npz','ml-training.json','ml-training.npz'];
 const sampleCount=budget/2;
+const pooledFile='../f1bre_models/format_split/pooled.cjs';
+const pooled=require(pooledFile);
 
 function timestamp(s) {
   assert.equal(typeof s,'string');assert.match(s,/^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d(?:\.\d{3})?Z$/,'UTC timestamp required');
@@ -155,13 +157,14 @@ function freeze(basePath,manifestPath,archiveDir) {
   const profile=grouping(field),matrix={bo1:ml.bo1,bo3:ml.bo3,allBo3:i.format==='all-bo3'};
   const search=samples(field,matrix,sampleCount,productionSeed,'major');
   const cards=chooseCards(search,field,profile),selected=selectedPolicy(i.edition,manifest.selectedPolicy);
+  const highBudget=matrix.allBo3?pooled.seal(field.id,matrix,productionSeed):null;
   const frozenAt=new Date().toISOString();
   checkPaths(timestamp(frozenAt),i);
-  const payload={version:1,edition:i.edition,stage:3,frozenAt,originalSha256:original.sha256,originalFrozenAt:original.payload.frozenAt,
+  const payload={version:highBudget?2:1,...(highBudget&&{highBudget}),edition:i.edition,stage:3,frozenAt,originalSha256:original.sha256,originalFrozenAt:original.payload.frozenAt,
     manifestSha256:digest(manifestRaw),startAt:i.startAt,lockAt:i.lockAt,format:i.format,
     previous,lockEvidence,ml,seed:productionSeed,samples:sampleCount,selectedPolicy:selected,cards,profile,
     pathsSha256:digest(Buffer.from(search.outcomes.buffer,search.outcomes.byteOffset,search.outcomes.byteLength)),
-    codeSha256:Object.fromEntries(codeFiles.map(f=>[f,digest(fs.readFileSync(require.resolve(f)))]))};
+    codeSha256:Object.fromEntries((highBudget?[...codeFiles,pooledFile]:codeFiles).map(f=>[f,digest(fs.readFileSync(require.resolve(f)))]))};
   const record={sha256:hash(payload),payload};
   fs.mkdirSync(archiveDir,{recursive:true});
   const out=path.join(archiveDir,field.id+'-ml-allocation.json'),tmp=path.join(archiveDir,'.'+randomUUID()+'.tmp');
@@ -175,7 +178,7 @@ function inspect(file,basePath) {
   const r=read(file),p=r.payload,orig=base.inspect(basePath),i=orig.payload.input;
   assert.equal(hash(p),r.sha256,'Research archive checksum mismatch');
   assert.equal(p.originalSha256,orig.sha256,'Wrong original forecast');
-  assert.equal(p.version,1);assert.equal(p.stage,3);assert.equal(i.stage,3);assert.equal(p.edition,i.edition);
+  assert([1,2].includes(p.version));assert.equal(p.stage,3);assert.equal(i.stage,3);assert.equal(p.edition,i.edition);
   assert.equal(p.startAt,i.startAt);assert.equal(p.lockAt,i.lockAt);assert.equal(p.format,i.format);
   assert.equal(p.originalFrozenAt,orig.payload.frozenAt);
   const at=timestamp(p.frozenAt);
@@ -187,6 +190,15 @@ function inspect(file,basePath) {
   assert.equal(p.selectedPolicy,selectedPolicy(i.edition,p.selectedPolicy));
   assert.equal(p.ml.model,'full-map-xgboost');assert.equal(p.ml.versions.xgboost,'3.0.2');assert.equal(p.ml.versions.seed,42);
   const sha=s=>assert.match(s,/^[a-f0-9]{64}$/,'Missing or invalid SHA-256');
+  if(p.version===2){
+    assert.equal(i.format,'all-bo3');
+    const v=p.highBudget;
+    assert.equal(v.seed,p.seed);assert.deepEqual(v.streams,pooled.streamsFor(p.seed));assert.equal(v.pathsPerStream,12000);
+    assert.equal(v.trainingPaths,360000);assert.equal(v.auditPaths,360000);
+    assert(Number.isInteger(v.auditPasses)&&v.auditPasses>=0&&v.auditPasses<=v.auditPaths);
+    assert.equal(v.card.length,16);cardScore(v.card,null);
+    sha(v.trainingSHA256);sha(v.auditSHA256);sha(p.codeSha256[pooledFile]);
+  }else assert.equal(p.highBudget,undefined);
   for(const v of [p.manifestSha256,p.pathsSha256,p.previous.sha256,p.ml.artifactSha256,...inputFiles.map(k=>p.ml.inputs[k]),...codeFiles.map(k=>p.codeSha256[k])])sha(v);
   const checkedSource=(s,until)=>{
     assert(Number.isSafeInteger(s.bytes) && s.bytes>0 && timestamp(s.publishedAt)<=until,'Invalid source size or publication date');
@@ -214,7 +226,8 @@ function score(file,basePath,resultsPath) {
   }));
   const formats=Object.fromEntries(['bo1','bo3'].map(k=>[k,errors(games.filter(g=>g.key===k && g.played).map(g=>p.ml[k][g.w][g.l]))]));
   return {edition:i.edition,stage:3,archiveSha256:r.sha256,originalSha256:p.originalSha256,matched:games.length,
-    source:verified,resultsSha256:digest(fs.readFileSync(resultsPath)),selectedPolicy:p.selectedPolicy,cards,formats};
+    source:verified,resultsSha256:digest(fs.readFileSync(resultsPath)),selectedPolicy:p.selectedPolicy,cards,formats,
+    ...(p.highBudget&&{highBudget:cardScore(p.highBudget.card,actual)})};
 }
 function webRecords(dir=path.join(__dirname,'../forecast_archive/prospective')) {
   const records=[];
@@ -225,7 +238,7 @@ function webRecords(dir=path.join(__dirname,'../forecast_archive/prospective')) 
     const original=path.join(dir,baseName+'.json'),result=path.join(dir,'results',baseName+'.json');
     const {payload:p,sha256}=inspect(sourceFile,original);
     assert.equal(p.edition,edition,'Research archive saved under another edition');
-    records.push({edition,stage:3,teams:p.ml.teamOrder,cards:p.cards,selectedPolicy:p.selectedPolicy,
+    records.push({edition,stage:3,teams:p.ml.teamOrder,cards:p.cards,selectedPolicy:p.selectedPolicy,...(p.highBudget&&{highBudget:p.highBudget}),
       frozenAt:p.frozenAt,archiveSha256:sha256,score:fs.existsSync(result)?score(sourceFile,original,result):null,
       webFile:'forecasts/prospective/'+file,sourceFile});
   }

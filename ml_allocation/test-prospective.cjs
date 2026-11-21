@@ -78,6 +78,8 @@ try{
   bad(x=>x.ml.inputFiles['ml-training.npz']='ml-training.json',/Wrong ML input/);
   const good=freeze(manifest),before=fs.readFileSync(good.path);
   assert.deepEqual(Object.keys(ml.inspect(good.path,original.path).payload.cards),['standard','within','grouped']);
+  const pooled=ml.inspect(good.path,original.path).payload.highBudget;
+  assert.equal(pooled.auditPaths,360000);assert.equal(pooled.trainingPaths,360000);
   assert.deepEqual(ml.webRecords(dir),[],'Ignore unregistered fixtures');
   const registered=require('../stage_goals/tracked-majors.json');
   registered.push({edition,resultsHosts:['example.org']});
@@ -91,6 +93,7 @@ try{
   Date.now=()=>at+82*3600000;
   assert.throws(()=>freeze(manifest),/deadline/);
   const score=ml.score(good.path,original.path,resultFile);
+  assert.deepEqual(score.highBudget,require('../f1bre_models/score.cjs').cardScore(pooled.card,CS.replay(field.rounds).actual));
   assert.equal(score.matched,33);assert.equal(score.formats.bo3.n,33);assert.equal(score.formats.bo3.brier,.25);
   assert.equal(score.selectedPolicy,'within');
   for(const c of Object.values(score.cards))assert.equal(c.passed,c.hits>=5);

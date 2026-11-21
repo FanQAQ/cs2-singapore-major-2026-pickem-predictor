@@ -146,8 +146,21 @@
       select('f1-field','查看历史检验',fields,choice.field,v=>{choice.field=v;h.replaceChildren(history(study));}),h,
       fold('新加坡 Stage 1 的赛前选人和首轮分歧',select('f1-forecast-model','赛前模型',Object.fromEntries(main.map(k=>[k,names[k]])),choice.forecast,
         v=>{choice.forecast=v;row.replaceChildren(tickets(s));}),row,el('h3','首轮分歧，从大到小'),r1,download),
-      formatComparison(study.formatStudy),authorCards(s.authorCards),probabilityGaps(s.marginals),colognePosts(study.cologne),links);
+      formatComparison(study.formatStudy),budgetComparison(study.formatStudy.budgets),authorCards(s.authorCards),probabilityGaps(s.marginals),colognePosts(study.cologne),links);
     section.replaceChildren(head,root);
+  }
+  function budgetComparison(study){
+    const labels={'austin-2025-3':'奥斯汀 Stage 3','budapest-2025-3':'布达佩斯 Stage 3','cologne-2026-3':'科隆 Stage 3',
+      'shanghai-europe-rmr-a-2024':'上海欧洲 RMR A · 留出','cluj-2026':'克卢日 2026 · 全 BO3'};
+    const rows=study.rows.map(r=>[labels[r.id],r.small+' → '+r.large,r.smallPass+' → '+r.largePass,r.zero+'/2']);
+    const foldout=fold('Stage 3 增加模拟次数后，哪些队换了位置？',
+      el('p','每组用同一套 BO1 Elo、BO3 地图 ML 胜率。选卡从 1.2 万次增加到 36 万次，各用等量的独立赛程核分。前两列依次显示小预算和大预算结果。'),
+      table(['阶段','主种子命中 / 10','过关种子 / 30','大预算 0–3 命中'],rows),
+      el('p','三届 Major 大预算主卡共中 '+study.hits+'/30 格。布达佩斯把 FURIA 填进 3–0 的次数从 18 增至 28；奥斯汀 30 组都中 4 格。'),
+      el('p','相比小预算，过关届数在 '+study.paired[0]+' 组增加、'+study.paired[1]+' 组持平、'+study.paired[2]+' 组减少。相比线上默认卡，分别为 '+study.vsSite.join('、')+' 组。'),
+      el('p','上海留出赛五轮的 33 场用于整卡计分，两场名次附加赛单列。20 场 BO1 的 Brier 从地图 ML 的 '+fixed(study.bo1.baseline.brier)+' 升至 Elo 的 '+fixed(study.bo1.hybrid.brier)+'。新加坡全 BO3 的第三阶段将在参赛名单确认后同时封存大预算研究卡。'));
+    foldout.id='f1-budget-study';foldout.open=location.hash==='#verify/f1bre/budget';
+    return foldout;
   }
   function sidebar(fold,stage,study){
     const group=study?.groups['stage'+stage];
@@ -168,6 +181,10 @@
       table(['单场胜率','过关','总命中'],[...main.map(k=>[names[k],group.methods[k].passes+'/'+group.events,group.methods[k].hits+'/'+(10*group.events)]),
         ['BO1 Elo、BO3 ML',split.passes+'/'+group.events,split.hits+'/'+(10*group.events)]]),more,' · ',formatLink);
     if(stage===2||stage===3){
+      if(stage===3){
+        const b=study.formatStudy.budgets,a=el('a','查看五个场地的大预算对照');a.href='#verify/f1bre/budget';
+        body.append(el('p','36 万次研究卡过 '+b.passes+'/3 届，中 '+b.hits+'/30 格。30 组中有 '+b.achieved+' 组过至少两届。'),a);
+      }
       const next=el('a','同一批晋级队怎样填 3–0？');next.href='#verify/allocation';
       next.onclick=()=>{allocationSelection='stage'+stage;const s=document.getElementById('allocation-event');if(s){s.value=allocationSelection;s.dispatchEvent(new Event('change'));}};
       body.append(el('br'),next);

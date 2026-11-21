@@ -94,7 +94,7 @@ function build(){
     formatGroups[id]={events,baseline:entry(g.baseline),hybrid:entry(g.hybrid),site:g.site?entry(g.site):null,
       direction:g.baselineComparison.passes};
   }
-  const formatStudy={groups:formatGroups,uncorrected:external.initial.metrics['1'],corrected:external.corrected.metrics['1'],
+  const formatStudy={groups:formatGroups,budgets:require('./format_split/summary.cjs')(),uncorrected:external.initial.metrics['1'],corrected:external.corrected.metrics['1'],
     stage3:run.fields.filter(r=>r.stage===3).map(r=>({id:r.id,hybrid:r.hybrid[0].hits,
       passedSeeds:r.hybrid.filter(v=>v.hits>=5).length})),standIn:require('./format_split/correction.json').source};
   return {groups,formatStudy,singapore:{frozenAt:f.frozenAt,teams,cards:f.cards,confirmPaths:f.confirmPaths,first,status,cross:cross.rows,

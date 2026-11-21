@@ -1,5 +1,7 @@
 # Fango's Lab · CS2 Major 竞猜实验室
 
+[Stage 3 模拟次数对照](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#verify/f1bre/budget)固定胜率，把选卡模拟从 1.2 万次增加到 36 万次。三届研究主卡中 4、5、5 格，首次使用的上海欧洲 RMR A 从 4 格升至 5 格。奥斯汀的大预算卡在 30 组中均未过关。网页同时保留原推荐、研究卡与真实计分依据。[场地、首发、种子和复算](f1bre_models/format_split/HIGH-BUDGET.md) · [GitHub 公开源码](https://github.com/FanQAQ/fangos-lab-cs2-pickem)
+
 Fango's Lab 帮你给 CS2 Major 观众通行证填一张十格竞猜卡。打开[网页版](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/)即可看到新加坡 2026 Stage 1 的推荐队伍。下载项目后，直接打开 `dist/index.html` 可离线使用。选择模型后，右侧按阶段显示历史过关次数和总命中，点击 Stage 1、2 或 3 可查看逐届分数、资料截止日期与来源。
 
 项目原创程序采用 [MIT 许可](LICENSE)。比赛数据、标识、图片与引用的具体来源和许可见[第三方资料说明](THIRD_PARTY.md)。

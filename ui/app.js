@@ -888,6 +888,11 @@
     const policies=['standard','within','grouped'], names=['原填法','只调 3–0','整卡分组'];
     const rows=['3–0','普通晋级','0–3'].map((slot,c)=>[slot,...policies.map(k=>record.teams.filter((_,i)=>record.cards[k][i]===c).join('、'))]);
     if(record.score)rows.push(['实际命中',...policies.map(k=>record.score.cards[k].hits+'/10')]);
+    if(record.highBudget){
+      names.push('36 万次选卡');
+      for(let c=0;c<3;c++)rows[c].push(record.teams.filter((_,i)=>record.highBudget.card[i]===c).join('、'));
+      if(record.score)rows[3].push(record.score.highBudget.hits+'/10');
+    }
     const selected=policies.indexOf(record.selectedPolicy);
     const status=record.score?'正式赛果已核对':'待完赛评分';
     return '<details class="pick-detail" data-ml-ticket><summary>地图 ML 分栏研究卡</summary><div class="detail-body">'+
@@ -1755,6 +1760,7 @@
     const name=addressedView()||'picks';
     Bo5History.route(location.hash);
     if(location.hash==='#verify/f1bre/formats' && byId('f1-format-study'))byId('f1-format-study').open=true;
+    if(location.hash==='#verify/f1bre/budget' && byId('f1-budget-study'))byId('f1-budget-study').open=true;
     if(location.hash==='#verify/elite/singapore' && byId('elite-singapore'))byId('elite-singapore').open=true;
     if(location.hash==='#verify/elite/lineups' && byId('lineup-study'))byId('lineup-study').open=true;
     if(location.hash==='#picks/forecasts' || location.hash==='#picks/rosters') {

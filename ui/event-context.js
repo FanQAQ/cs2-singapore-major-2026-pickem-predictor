@@ -8,6 +8,7 @@
   const decimal=(v,n)=>Number.isFinite(v)?v.toFixed(n):'—';
   function section(route){
     if(route==='verify/f1bre/formats')return 'f1-format-study';
+    if(route==='verify/f1bre/budget')return 'f1-budget-study';
     if(route==='verify/elite/singapore')return 'elite-singapore';
     if(route==='verify/elite/lineups')return 'lineup-study';
     if(route==='verify/veto/singapore')return 'context-veto';
