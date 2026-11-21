@@ -1,0 +1,262 @@
+{
+  "id": "epl24-katowice",
+  "start": "2026-10-03",
+  "allBo3": true,
+  "rankDate": "2026-09-07",
+  "vrsSource": "https://raw.githubusercontent.com/ValveSoftware/counter-strike_regional_standings/main/invitation/2026/standings_global_2026_09_07.md",
+  "vrsSHA256": "bc9553bcd9c3420f3279307fdca654d25f363d38e2c51a32b452c8c0e72e4f46",
+  "seedSource": "https://x.com/ESLCS/status/2103492344561491999",
+  "seedReport": "https://www.hltv.org/news/45575/esl-pro-league-24-seeding-revealed",
+  "teams": [
+    {
+      "team": "Spirit",
+      "seed": 1,
+      "globalRank": 1,
+      "vrsPoints": 2031,
+      "vrsFive": [
+        "donk",
+        "magixx",
+        "sh1ro",
+        "tN1R",
+        "zont1x"
+      ]
+    },
+    {
+      "team": "Vitality",
+      "seed": 2,
+      "globalRank": 5,
+      "vrsPoints": 1841,
+      "vrsFive": [
+        "apEX",
+        "flameZ",
+        "jL",
+        "ropz",
+        "ZywOo"
+      ]
+    },
+    {
+      "team": "Falcons",
+      "seed": 3,
+      "globalRank": 3,
+      "vrsPoints": 1881,
+      "vrsFive": [
+        "karrigan",
+        "kyousuke",
+        "m0NESY",
+        "NiKo",
+        "TeSeS"
+      ]
+    },
+    {
+      "team": "MOUZ",
+      "seed": 4,
+      "globalRank": 2,
+      "vrsPoints": 1902,
+      "vrsFive": [
+        "PR",
+        "Spinx",
+        "torzsi",
+        "xelex",
+        "xertioN"
+      ]
+    },
+    {
+      "team": "Legacy",
+      "seed": 5,
+      "globalRank": 6,
+      "vrsPoints": 1783,
+      "vrsFive": [
+        "arT",
+        "dumau",
+        "latto",
+        "n1ssim",
+        "try"
+      ],
+      "announcedFive": [
+        "bobz",
+        "dumau",
+        "latto",
+        "n1ssim",
+        "try"
+      ],
+      "substitutionSource": "https://www.hltv.org/news/45582/art-out-of-esl-pro-league-s24-with-meningitis"
+    },
+    {
+      "team": "FURIA",
+      "seed": 6,
+      "globalRank": 7,
+      "vrsPoints": 1754,
+      "vrsFive": [
+        "FalleN",
+        "KSCERATO",
+        "molodoy",
+        "YEKINDAR",
+        "yuurih"
+      ]
+    },
+    {
+      "team": "Aurora",
+      "seed": 7,
+      "globalRank": 12,
+      "vrsPoints": 1552,
+      "vrsFive": [
+        "Jimpphat",
+        "kyxsan",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ]
+    },
+    {
+      "team": "G2",
+      "seed": 8,
+      "globalRank": 8,
+      "vrsPoints": 1723,
+      "vrsFive": [
+        "HeavyGod",
+        "huNter-",
+        "MATYS",
+        "NertZ",
+        "r1nkle"
+      ]
+    },
+    {
+      "team": "Natus Vincere",
+      "seed": 9,
+      "globalRank": 11,
+      "vrsPoints": 1579,
+      "vrsFive": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "makazze",
+        "w0nderful"
+      ]
+    },
+    {
+      "team": "9z",
+      "seed": 10,
+      "globalRank": 9,
+      "vrsPoints": 1606,
+      "vrsFive": [
+        "dgt",
+        "HUASOPEEK",
+        "luchov",
+        "max",
+        "meyern"
+      ]
+    },
+    {
+      "team": "BETBOOM",
+      "seed": 11,
+      "globalRank": 15,
+      "vrsPoints": 1499,
+      "vrsFive": [
+        "Boombl4",
+        "d1Ledez",
+        "Magnojez",
+        "S1ren",
+        "zorte"
+      ]
+    },
+    {
+      "team": "PARIVISION",
+      "seed": 12,
+      "globalRank": 18,
+      "vrsPoints": 1461,
+      "vrsFive": [
+        "HObbit",
+        "Jame",
+        "slaxejezzz",
+        "xiELO",
+        "zweih"
+      ]
+    },
+    {
+      "team": "M80",
+      "seed": 13,
+      "globalRank": 41,
+      "vrsPoints": 1269,
+      "vrsFive": [
+        "JBa",
+        "Lake",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ]
+    },
+    {
+      "team": "TYLOO",
+      "seed": 14,
+      "globalRank": 26,
+      "vrsPoints": 1364,
+      "vrsFive": [
+        "JamYoung",
+        "Jee",
+        "Mercury",
+        "Moseyuh",
+        "Zero"
+      ]
+    },
+    {
+      "team": "1win",
+      "seed": 15,
+      "globalRank": 31,
+      "vrsPoints": 1314,
+      "vrsFive": [
+        "ArtFr0st",
+        "Ax1Le",
+        "BELCHONOKK",
+        "fame",
+        "nafany"
+      ]
+    },
+    {
+      "team": "ShindeN",
+      "seed": 16,
+      "globalRank": 97,
+      "vrsPoints": 952,
+      "vrsFive": [
+        "abizz",
+        "guty",
+        "ivz",
+        "naz",
+        "tom1jed"
+      ]
+    }
+  ],
+  "firstRound": [
+    [
+      "Spirit",
+      "ShindeN"
+    ],
+    [
+      "Vitality",
+      "1win"
+    ],
+    [
+      "Falcons",
+      "TYLOO"
+    ],
+    [
+      "MOUZ",
+      "M80"
+    ],
+    [
+      "Legacy",
+      "PARIVISION"
+    ],
+    [
+      "FURIA",
+      "BETBOOM"
+    ],
+    [
+      "Aurora",
+      "9z"
+    ],
+    [
+      "G2",
+      "Natus Vincere"
+    ]
+  ]
+}
