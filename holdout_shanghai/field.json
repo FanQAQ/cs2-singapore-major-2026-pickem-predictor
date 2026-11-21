@@ -1,0 +1,503 @@
+{
+  "asOf": "2024-11-06",
+  "fieldAsOf": "2024-12-03",
+  "stageStart": "2024-12-05",
+  "teams": [
+    {
+      "name": "G2",
+      "seed": 1,
+      "roster": [
+        "NiKo",
+        "huNter-",
+        "Snax",
+        "m0NESY",
+        "malbsMd"
+      ],
+      "points": 1970,
+      "vrsRoster": [
+        "hunter-",
+        "m0nesy",
+        "malbsmd",
+        "niko",
+        "snax"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": 0.089515598626,
+        "strong": 0.0,
+        "weak": -0.044185984452,
+        "round": -0.016777965259,
+        "n": 21,
+        "ns": 0,
+        "nw": 6,
+        "nRound": 18
+      }
+    },
+    {
+      "name": "Natus Vincere",
+      "seed": 2,
+      "roster": [
+        "Aleksib",
+        "iM",
+        "b1t",
+        "jL",
+        "w0nderful"
+      ],
+      "points": 1887,
+      "vrsRoster": [
+        "aleksib",
+        "b1t",
+        "im",
+        "jl",
+        "w0nderful"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": 0.124124168719,
+        "strong": 0.0,
+        "weak": 0.028020300192,
+        "round": -0.00855396573,
+        "n": 23,
+        "ns": 0,
+        "nw": 9,
+        "nRound": 16
+      }
+    },
+    {
+      "name": "Vitality",
+      "seed": 3,
+      "roster": [
+        "apEX",
+        "ZywOo",
+        "flameZ",
+        "Spinx",
+        "mezii"
+      ],
+      "points": 1817,
+      "vrsRoster": [
+        "apex",
+        "flamez",
+        "jackz",
+        "spinx",
+        "zywoo"
+      ],
+      "coreOverlap": 4,
+      "region": "europe",
+      "profile": {
+        "form": 0.070253776328,
+        "strong": 0.0,
+        "weak": 0.050422672727,
+        "round": 0.064453125838,
+        "n": 19,
+        "ns": 0,
+        "nw": 5,
+        "nRound": 18
+      }
+    },
+    {
+      "name": "Spirit",
+      "seed": 4,
+      "roster": [
+        "chopper",
+        "sh1ro",
+        "magixx",
+        "zont1x",
+        "donk"
+      ],
+      "points": 1843,
+      "vrsRoster": [
+        "chopper",
+        "donk",
+        "magixx",
+        "sh1ro",
+        "zont1x"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": 0.010163702511,
+        "strong": 0.0,
+        "weak": 0.053866514785,
+        "round": -0.013513239649,
+        "n": 21,
+        "ns": 0,
+        "nw": 6,
+        "nRound": 16
+      }
+    },
+    {
+      "name": "MOUZ",
+      "seed": 5,
+      "roster": [
+        "Brollan",
+        "siuhy",
+        "torzsi",
+        "Jimpphat",
+        "xertioN"
+      ],
+      "points": 1678,
+      "vrsRoster": [
+        "brollan",
+        "jimpphat",
+        "siuhy",
+        "torzsi",
+        "xertion"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": -0.062086193132,
+        "strong": 0.0,
+        "weak": -0.049143373094,
+        "round": -0.016677787937,
+        "n": 25,
+        "ns": 0,
+        "nw": 6,
+        "nRound": 22
+      }
+    },
+    {
+      "name": "FaZe",
+      "seed": 6,
+      "roster": [
+        "karrigan",
+        "rain",
+        "frozen",
+        "ropz",
+        "broky"
+      ],
+      "points": 1605,
+      "vrsRoster": [
+        "broky",
+        "frozen",
+        "karrigan",
+        "rain",
+        "ropz"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": 0.02927973372,
+        "strong": 0.0,
+        "weak": 0.011690123419,
+        "round": 0.020346409286,
+        "n": 24,
+        "ns": 0,
+        "nw": 4,
+        "nRound": 22
+      }
+    },
+    {
+      "name": "HEROIC",
+      "seed": 7,
+      "roster": [
+        "NertZ",
+        "TeSeS",
+        "sjuush",
+        "degster",
+        "kyxsan"
+      ],
+      "points": 1603,
+      "vrsRoster": [
+        "degster",
+        "kyxsan",
+        "nertz",
+        "sjuush",
+        "teses"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": 0.085670867971,
+        "strong": 0.149810302946,
+        "weak": -0.005402988044,
+        "round": 0.059276297277,
+        "n": 27,
+        "ns": 3,
+        "nw": 6,
+        "nRound": 18
+      }
+    },
+    {
+      "name": "3DMAX",
+      "seed": 8,
+      "roster": [
+        "Maka",
+        "Lucky",
+        "Djoko",
+        "Ex3rcice",
+        "Graviti"
+      ],
+      "points": 1367,
+      "vrsRoster": [
+        "djoko",
+        "ex3rcice",
+        "graviti",
+        "lucky",
+        "maka"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": -0.011042334263,
+        "strong": -0.082040847991,
+        "weak": 0.000777675085,
+        "round": 0.012495559697,
+        "n": 32,
+        "ns": 2,
+        "nw": 3,
+        "nRound": 18
+      }
+    },
+    {
+      "name": "The MongolZ",
+      "seed": 9,
+      "roster": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "senzu",
+        "Techno"
+      ],
+      "points": 1716,
+      "vrsRoster": [
+        "910",
+        "blitz",
+        "mzinho",
+        "senzu",
+        "techno"
+      ],
+      "coreOverlap": 5,
+      "region": "asia",
+      "profile": {
+        "form": 0.047133504275,
+        "strong": 0.0,
+        "weak": 0.035071243418,
+        "round": 0.006945224252,
+        "n": 22,
+        "ns": 0,
+        "nw": 8,
+        "nRound": 17
+      }
+    },
+    {
+      "name": "Liquid",
+      "seed": 10,
+      "roster": [
+        "jks",
+        "NAF",
+        "Twistzz",
+        "ultimate",
+        "YEKINDAR"
+      ],
+      "points": 1544,
+      "vrsRoster": [
+        "jks",
+        "naf",
+        "twistzz",
+        "ultimate",
+        "yekindar"
+      ],
+      "coreOverlap": 5,
+      "region": null,
+      "profile": {
+        "form": -0.063238587488,
+        "strong": 0.0,
+        "weak": -0.015748391916,
+        "round": 0.005762692918,
+        "n": 19,
+        "ns": 0,
+        "nw": 3,
+        "nRound": 17
+      }
+    },
+    {
+      "name": "GamerLegion",
+      "seed": 11,
+      "roster": [
+        "FL4MUS",
+        "sl3nd",
+        "Tauson",
+        "volt",
+        "ztr"
+      ],
+      "points": 1114,
+      "vrsRoster": [
+        "fl4mus",
+        "sl3nd",
+        "tauson",
+        "volt",
+        "ztr"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": 0.09454477295,
+        "strong": 0.0,
+        "weak": 0.0,
+        "round": 0.010538088762,
+        "n": 29,
+        "ns": 0,
+        "nw": 0,
+        "nRound": 19
+      }
+    },
+    {
+      "name": "FURIA",
+      "seed": 12,
+      "roster": [
+        "chelo",
+        "FalleN",
+        "KSCERATO",
+        "skullz",
+        "yuurih"
+      ],
+      "points": 1593,
+      "vrsRoster": [
+        "chelo",
+        "fallen",
+        "kscerato",
+        "skullz",
+        "yuurih"
+      ],
+      "coreOverlap": 5,
+      "region": "americas",
+      "profile": {
+        "form": 0.039041430185,
+        "strong": 0.048345405636,
+        "weak": 0.024629895969,
+        "round": -0.036990881476,
+        "n": 20,
+        "ns": 2,
+        "nw": 4,
+        "nRound": 18
+      }
+    },
+    {
+      "name": "paiN",
+      "seed": 13,
+      "roster": [
+        "biguzera",
+        "kauez",
+        "lux",
+        "nqz",
+        "Snowzin"
+      ],
+      "points": 1402,
+      "vrsRoster": [
+        "biguzera",
+        "kauez",
+        "lux",
+        "nqz",
+        "snow"
+      ],
+      "coreOverlap": 5,
+      "region": "americas",
+      "profile": {
+        "form": 0.075386639989,
+        "strong": -0.117584024257,
+        "weak": 0.036627178601,
+        "round": -0.00565979293,
+        "n": 23,
+        "ns": 3,
+        "nw": 5,
+        "nRound": 13
+      }
+    },
+    {
+      "name": "Wildcard",
+      "seed": 14,
+      "roster": [
+        "JBa",
+        "phzy",
+        "Sonic",
+        "stanislaw",
+        "susp"
+      ],
+      "points": 1112,
+      "vrsRoster": [
+        "jba",
+        "phzy",
+        "sonic",
+        "stanislaw",
+        "susp"
+      ],
+      "coreOverlap": 5,
+      "region": null,
+      "profile": {
+        "form": 0.067137548309,
+        "strong": -0.033002170458,
+        "weak": 0.0,
+        "round": 0.003717075597,
+        "n": 14,
+        "ns": 1,
+        "nw": 0,
+        "nRound": 2
+      }
+    },
+    {
+      "name": "BIG",
+      "seed": 15,
+      "roster": [
+        "JDC",
+        "Krimbo",
+        "rigoN",
+        "syrsoN",
+        "tabseN"
+      ],
+      "points": 1314,
+      "vrsRoster": [
+        "jdc",
+        "krimbo",
+        "rigon",
+        "syrson",
+        "tabsen"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": -0.026553178775,
+        "strong": -0.055224471576,
+        "weak": -0.050428007271,
+        "round": 0.053093044442,
+        "n": 20,
+        "ns": 1,
+        "nw": 2,
+        "nRound": 16
+      }
+    },
+    {
+      "name": "MIBR",
+      "seed": 16,
+      "roster": [
+        "drop",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "points": 1172,
+      "vrsRoster": [
+        "drop",
+        "exit",
+        "insani",
+        "lucaozy",
+        "saffee"
+      ],
+      "coreOverlap": 5,
+      "region": "americas",
+      "profile": {
+        "form": -0.018367037542,
+        "strong": 0.023852068083,
+        "weak": 0.0,
+        "round": -0.047649314808,
+        "n": 10,
+        "ns": 3,
+        "nw": 0,
+        "nRound": 10
+      }
+    }
+  ]
+}

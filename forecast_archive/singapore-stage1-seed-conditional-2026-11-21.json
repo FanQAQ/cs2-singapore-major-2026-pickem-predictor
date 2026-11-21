@@ -1,0 +1,354 @@
+{
+  "stage": "pgl-singapore-2026-stage-1",
+  "sealedOn": "2026-11-21",
+  "startsOn": "2026-11-24",
+  "pointsAsOf": "2026-11-02",
+  "startingFiveAsOf": "2026-11-10",
+  "flags": {
+    "family": "v4",
+    "form": true,
+    "strong": true,
+    "weak": true,
+    "roundMargin": true,
+    "format": true,
+    "shrinkBO": true,
+    "regionVrs": true,
+    "lanSignal": false,
+    "pickSignal": false,
+    "seedConditionalCard": true
+  },
+  "seed": 33719,
+  "locks": [],
+  "searchPaths": 12000,
+  "evaluationPaths": 12000,
+  "priorForecast": {
+    "file": "method_archive/singapore-stage1-methods-2026-11-21.json",
+    "sha256": "7641bea4acd9c3768712d7ef8ed826cfd9663bb2c0d9e0045e19cb78f6d1b004",
+    "method": "recommended"
+  },
+  "matrixReference": {
+    "file": "forecast_archive/singapore-stage1-region-vrs-2026-11-21.json",
+    "sha256": "09017b0d6a57c4e38859b94ed518c7f00242e3808af839cf4576860f01fbd246",
+    "field": "seriesMatrices"
+  },
+  "matrixSha256": "ea71c1eb92629292825192a210a5b337c86d540d567daca431dc27afa3fcad84",
+  "categoryOrder": [
+    "3-0",
+    "3-1 / 3-2",
+    "0-3",
+    "other"
+  ],
+  "teams": [
+    {
+      "seed": 1,
+      "team": "Ninjas in Pyjamas",
+      "roster": [
+        "adamb",
+        "Krimbo",
+        "sjuush",
+        "stavn",
+        "xKacpersky"
+      ]
+    },
+    {
+      "seed": 2,
+      "team": "PARIVISION",
+      "roster": [
+        "FL1T",
+        "HObbit",
+        "Jame",
+        "xiELO",
+        "zweih"
+      ]
+    },
+    {
+      "seed": 3,
+      "team": "HEROIC",
+      "roster": [
+        "Brollan",
+        "Chr1zN",
+        "MartinezSa",
+        "nilo",
+        "susp"
+      ]
+    },
+    {
+      "seed": 4,
+      "team": "FaZe",
+      "roster": [
+        "frozen",
+        "JBOEN",
+        "jcobbb",
+        "Neityu",
+        "Twistzz"
+      ]
+    },
+    {
+      "seed": 5,
+      "team": "Liquid",
+      "roster": [
+        "EliGE",
+        "Jorko",
+        "JT",
+        "malbsMd",
+        "NAF"
+      ]
+    },
+    {
+      "seed": 6,
+      "team": "Eternal Fire",
+      "roster": [
+        "jottAAA",
+        "Kvem",
+        "MisteM",
+        "regali",
+        "soulfly"
+      ]
+    },
+    {
+      "seed": 7,
+      "team": "100 Thieves",
+      "roster": [
+        "device",
+        "Gizmy",
+        "poiii",
+        "rain",
+        "sirah"
+      ]
+    },
+    {
+      "seed": 8,
+      "team": "9z",
+      "roster": [
+        "dgt",
+        "HUASOPEEK",
+        "luchov",
+        "max",
+        "history"
+      ]
+    },
+    {
+      "seed": 9,
+      "team": "M80",
+      "roster": [
+        "JBa",
+        "Lake",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ]
+    },
+    {
+      "seed": 10,
+      "team": "DENDELE",
+      "roster": [
+        "doc",
+        "gafolo",
+        "koala",
+        "maxxkor",
+        "rdnzao"
+      ]
+    },
+    {
+      "seed": 11,
+      "team": "Imperial",
+      "roster": [
+        "chelo",
+        "decenty",
+        "noway",
+        "saadzin",
+        "VINI"
+      ]
+    },
+    {
+      "seed": 12,
+      "team": "Wildcard",
+      "roster": [
+        "Cxzi",
+        "fr3nd",
+        "HexT",
+        "nEMANHA",
+        "reck"
+      ]
+    },
+    {
+      "seed": 13,
+      "team": "GOSH",
+      "roster": [
+        "asap",
+        "Magisk",
+        "mzinho",
+        "s1mple",
+        "Senzu"
+      ]
+    },
+    {
+      "seed": 14,
+      "team": "FlyQuest",
+      "roster": [
+        "aliStair",
+        "INS",
+        "jks",
+        "nettik",
+        "Vexite"
+      ]
+    },
+    {
+      "seed": 15,
+      "team": "Chinggis Warriors",
+      "roster": [
+        "cool4st",
+        "fury5k",
+        "ROUX",
+        "sk0R",
+        "tikuak"
+      ]
+    },
+    {
+      "seed": 16,
+      "team": "Lynn Vision",
+      "roster": [
+        "C4LLM3SU3",
+        "EmiliaQAQ",
+        "Starry",
+        "Westmelon",
+        "z4KR"
+      ]
+    }
+  ],
+  "card": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    3,
+    3,
+    3,
+    1,
+    3,
+    3,
+    3,
+    2,
+    2
+  ],
+  "probabilities": [
+    [
+      0.23504166666666668,
+      0.4779583333333333,
+      0.04841666666666666,
+      0.23858333333333334
+    ],
+    [
+      0.198875,
+      0.45729166666666665,
+      0.05479166666666667,
+      0.28904166666666664
+    ],
+    [
+      0.21920833333333334,
+      0.49070833333333336,
+      0.04829166666666666,
+      0.24179166666666665
+    ],
+    [
+      0.18204166666666666,
+      0.46166666666666667,
+      0.06129166666666667,
+      0.295
+    ],
+    [
+      0.13170833333333334,
+      0.39916666666666667,
+      0.08891666666666667,
+      0.3802083333333333
+    ],
+    [
+      0.22658333333333333,
+      0.48583333333333334,
+      0.04416666666666667,
+      0.24341666666666667
+    ],
+    [
+      0.188375,
+      0.46441666666666664,
+      0.05629166666666666,
+      0.29091666666666666
+    ],
+    [
+      0.07975,
+      0.3000833333333333,
+      0.14358333333333334,
+      0.47658333333333336
+    ],
+    [
+      0.093125,
+      0.384125,
+      0.12383333333333334,
+      0.39891666666666664
+    ],
+    [
+      0.08566666666666667,
+      0.3602916666666667,
+      0.13833333333333334,
+      0.41570833333333335
+    ],
+    [
+      0.09008333333333333,
+      0.38958333333333334,
+      0.13341666666666666,
+      0.3869166666666667
+    ],
+    [
+      0.074125,
+      0.33791666666666664,
+      0.15816666666666668,
+      0.4297916666666667
+    ],
+    [
+      0.058416666666666665,
+      0.27620833333333333,
+      0.191625,
+      0.47375
+    ],
+    [
+      0.048375,
+      0.260875,
+      0.22566666666666665,
+      0.46508333333333335
+    ],
+    [
+      0.04020833333333333,
+      0.223875,
+      0.25833333333333336,
+      0.47758333333333336
+    ],
+    [
+      0.04841666666666666,
+      0.23,
+      0.224875,
+      0.4967083333333333
+    ]
+  ],
+  "passProbability": 0.25266666666666665,
+  "expectedHits": 3.6195,
+  "scoreDistribution": [
+    54,
+    587,
+    1933,
+    3164,
+    3230,
+    1927,
+    844,
+    224,
+    31,
+    6,
+    0
+  ],
+  "codeSha256": {
+    "engine/engine.js": "2a49cfa1a9c20eab346a92194b6ad062b4e03aa6263b52d35b2745485c55a112",
+    "assembly/adapter.js": "a9cd709fff6ba87c52bddbf8a4e417ce1482811130aee5789926150ad1cffbc3"
+  }
+}

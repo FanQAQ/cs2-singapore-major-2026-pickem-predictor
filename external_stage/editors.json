@@ -1,0 +1,24 @@
+{
+  "austin-2025-3": {
+    "publisher": "Pley.gg", "author": "Anders Frost", "published": "2025-06-10",
+    "url": "https://pley.gg/cs2/stage-3-pickem-guide-for-the-blast-tv-austin-major-2025/",
+    "sweep": ["Vitality","MOUZ"],
+    "advance": ["Spirit","G2","Virtus.pro","FaZe","Natus Vincere","FURIA"],
+    "winless": ["Lynn Vision"],
+    "note": "文末汇总只填了 Lynn Vision。正文提到 Nemiga，作者最终未将它列入汇总。"
+  },
+  "budapest-2025-3": {
+    "publisher": "Pley.gg", "author": "Mads Wildenhoff", "published": "2025-12-02",
+    "url": "https://pley.gg/cs2/budapest-major-2025-pickem-guide-stage-3-predictions/",
+    "sweep": ["Falcons","Spirit"],
+    "advance": ["G2","MOUZ","Vitality","Natus Vincere","FURIA","FaZe"],
+    "winless": ["Passion UA","Imperial"]
+  },
+  "cologne-2026-3": {
+    "publisher": "Pley.gg", "author": "Anders Frost", "published": "2026-06-09",
+    "url": "https://pley.gg/cs2/pickem-guide-for-stage-3-at-iem-cologne-major-2026/",
+    "sweep": ["Vitality","Spirit"],
+    "advance": ["Falcons","Natus Vincere","G2","FUT","FURIA","BetBoom"],
+    "winless": ["PARIVISION","The MongolZ"]
+  }
+}

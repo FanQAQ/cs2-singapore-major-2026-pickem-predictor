@@ -1,0 +1,1234 @@
+{
+  "copenhagen-2024-2": {
+    "start": "2024-03-21",
+    "previousEnd": "2024-03-20",
+    "teams": {
+      "FaZe": {
+        "entry": "direct"
+      },
+      "Spirit": {
+        "entry": "direct"
+      },
+      "Vitality": {
+        "entry": "direct"
+      },
+      "MOUZ": {
+        "entry": "direct"
+      },
+      "Complexity": {
+        "entry": "direct"
+      },
+      "Virtus.pro": {
+        "entry": "direct"
+      },
+      "Natus Vincere": {
+        "entry": "direct"
+      },
+      "G2": {
+        "entry": "direct"
+      },
+      "HEROIC": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "1001027",
+          "941775",
+          "1001794"
+        ]
+      },
+      "Cloud9": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "1001028",
+          "941779",
+          "1001792"
+        ]
+      },
+      "Eternal Fire": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "1001029",
+          "941778",
+          "1001794",
+          "1005006"
+        ]
+      },
+      "ECSTATIC": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "1001022",
+          "941779",
+          "1001796",
+          "1005003"
+        ]
+      },
+      "paiN": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "1001029",
+          "941776",
+          "1001798",
+          "1005005"
+        ]
+      },
+      "Imperial": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "1001027",
+          "941777",
+          "1001799",
+          "1005003",
+          "1008949"
+        ]
+      },
+      "The MongolZ": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "1001022",
+          "941778",
+          "1001795",
+          "1005007",
+          "10068626"
+        ]
+      },
+      "FURIA": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "941772",
+          "1001023",
+          "10068526",
+          "1005002",
+          "1008948"
+        ]
+      }
+    },
+    "source": "https://www.hltv.org/news/38552/spirit-vs-cloud9-headlines-elimination-stage-round-1"
+  },
+  "shanghai-2024-2": {
+    "start": "2024-12-05",
+    "previousEnd": "2024-12-03",
+    "teams": {
+      "G2": {
+        "entry": "direct"
+      },
+      "Natus Vincere": {
+        "entry": "direct"
+      },
+      "Vitality": {
+        "entry": "direct"
+      },
+      "Spirit": {
+        "entry": "direct"
+      },
+      "MOUZ": {
+        "entry": "direct"
+      },
+      "FaZe": {
+        "entry": "direct"
+      },
+      "HEROIC": {
+        "entry": "direct"
+      },
+      "3DMAX": {
+        "entry": "direct"
+      },
+      "The MongolZ": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "1840705",
+          "1845161",
+          "1845380"
+        ]
+      },
+      "Liquid": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "1840709",
+          "1845160",
+          "1845382"
+        ]
+      },
+      "GamerLegion": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "1840711",
+          "1845157",
+          "1845380",
+          "1846245"
+        ]
+      },
+      "FURIA": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "1840711",
+          "1845156",
+          "1845384",
+          "1846249"
+        ]
+      },
+      "paiN": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "1840704",
+          "1845157",
+          "1845383",
+          "1846248"
+        ]
+      },
+      "Wildcard": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "1840706",
+          "1845160",
+          "1845384",
+          "1846246",
+          "1847262"
+        ]
+      },
+      "BIG": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "1840707",
+          "1845163",
+          "1845385",
+          "1846249",
+          "1847264"
+        ]
+      },
+      "MIBR": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "1840710",
+          "1845161",
+          "1845386",
+          "1846250",
+          "1847263"
+        ]
+      }
+    },
+    "source": "https://www.hltv.org/news/40466/perfect-world-shanghai-major-elimination-stage-opening-round-set"
+  },
+  "austin-2025-2": {
+    "start": "2025-06-07",
+    "previousEnd": "2025-06-06",
+    "teams": {
+      "Falcons": {
+        "entry": "direct"
+      },
+      "FaZe": {
+        "entry": "direct"
+      },
+      "3DMAX": {
+        "entry": "direct"
+      },
+      "Virtus.pro": {
+        "entry": "direct"
+      },
+      "paiN": {
+        "entry": "direct"
+      },
+      "FURIA": {
+        "entry": "direct"
+      },
+      "MIBR": {
+        "entry": "direct"
+      },
+      "M80": {
+        "entry": "direct"
+      },
+      "B8": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "2731602",
+          "3036649",
+          "3037936"
+        ]
+      },
+      "HEROIC": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "2731603",
+          "3036648",
+          "3037937"
+        ]
+      },
+      "BetBoom": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "2731601",
+          "3036647",
+          "3037940",
+          "3042369"
+        ]
+      },
+      "OG": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "2731604",
+          "3036649",
+          "3037938",
+          "3042372"
+        ]
+      },
+      "Nemiga": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "2731601",
+          "10082169",
+          "3037939",
+          "3042370"
+        ]
+      },
+      "Lynn Vision": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "2942891",
+          "3036645",
+          "3037939",
+          "3042371",
+          "3047857"
+        ]
+      },
+      "Legacy": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "2942891",
+          "10082170",
+          "3037940",
+          "3042373",
+          "3047856"
+        ]
+      },
+      "TYLOO": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "2731600",
+          "10082171",
+          "3037938",
+          "3042374",
+          "3047887"
+        ]
+      }
+    },
+    "source": "https://fragcharts.com/pickem/austin-2025/2"
+  },
+  "austin-2025-3": {
+    "start": "2025-06-12",
+    "previousEnd": "2025-06-10",
+    "teams": {
+      "Vitality": {
+        "entry": "direct"
+      },
+      "MOUZ": {
+        "entry": "direct"
+      },
+      "Spirit": {
+        "entry": "direct"
+      },
+      "G2": {
+        "entry": "direct"
+      },
+      "The MongolZ": {
+        "entry": "direct"
+      },
+      "Aurora": {
+        "entry": "direct"
+      },
+      "Natus Vincere": {
+        "entry": "direct"
+      },
+      "Liquid": {
+        "entry": "direct"
+      },
+      "Legacy": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "3051903",
+          "3055358",
+          "3055947"
+        ]
+      },
+      "Virtus.pro": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "3051906",
+          "3055360",
+          "3055946"
+        ]
+      },
+      "paiN": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "3051905",
+          "3055361",
+          "3055946",
+          "3058166"
+        ]
+      },
+      "3DMAX": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "3051907",
+          "3055358",
+          "3055950",
+          "3058164"
+        ]
+      },
+      "FURIA": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "3051904",
+          "3055361",
+          "3055949",
+          "3058163"
+        ]
+      },
+      "FaZe": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "3051908",
+          "3055359",
+          "3055947",
+          "3058164",
+          "3062477"
+        ]
+      },
+      "Nemiga": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "3051905",
+          "3055354",
+          "3055950",
+          "3058167",
+          "3062479"
+        ]
+      },
+      "Lynn Vision": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "3051904",
+          "3055355",
+          "3055951",
+          "3058166",
+          "3062478"
+        ]
+      }
+    },
+    "source": "https://fragcharts.com/pickem/austin-2025/3"
+  },
+  "budapest-2025-2": {
+    "start": "2025-11-29",
+    "previousEnd": "2025-11-27",
+    "teams": {
+      "Aurora": {
+        "entry": "direct"
+      },
+      "Natus Vincere": {
+        "entry": "direct"
+      },
+      "Liquid": {
+        "entry": "direct"
+      },
+      "3DMAX": {
+        "entry": "direct"
+      },
+      "Astralis": {
+        "entry": "direct"
+      },
+      "TYLOO": {
+        "entry": "direct"
+      },
+      "MIBR": {
+        "entry": "direct"
+      },
+      "Passion UA": {
+        "entry": "direct"
+      },
+      "M80": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "5462197",
+          "5677083",
+          "5678916"
+        ]
+      },
+      "FlyQuest": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "5462201",
+          "5677085",
+          "5678918"
+        ]
+      },
+      "B8": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "5462197",
+          "5677081",
+          "5678921",
+          "5684983"
+        ]
+      },
+      "fnatic": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "5462200",
+          "5677080",
+          "5678919",
+          "5684982"
+        ]
+      },
+      "Ninjas in Pyjamas": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "5462196",
+          "5677078",
+          "5678920",
+          "5684936"
+        ]
+      },
+      "PARIVISION": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "5462198",
+          "5677083",
+          "5678921",
+          "5685029",
+          "5692350"
+        ]
+      },
+      "Imperial": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "5462194",
+          "5677085",
+          "5678919",
+          "5685030",
+          "5692351"
+        ]
+      },
+      "FaZe": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "5462199",
+          "5677079",
+          "5678920",
+          "5684981",
+          "5692352"
+        ]
+      }
+    },
+    "source": "https://fragcharts.com/pickem/budapest-2025/2"
+  },
+  "budapest-2025-3": {
+    "start": "2025-12-04",
+    "previousEnd": "2025-12-02",
+    "teams": {
+      "FURIA": {
+        "entry": "direct"
+      },
+      "Vitality": {
+        "entry": "direct"
+      },
+      "Falcons": {
+        "entry": "direct"
+      },
+      "The MongolZ": {
+        "entry": "direct"
+      },
+      "MOUZ": {
+        "entry": "direct"
+      },
+      "Spirit": {
+        "entry": "direct"
+      },
+      "G2": {
+        "entry": "direct"
+      },
+      "paiN": {
+        "entry": "direct"
+      },
+      "Natus Vincere": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "5699557",
+          "5711844",
+          "5713293"
+        ]
+      },
+      "FaZe": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "5699560",
+          "5711842",
+          "5713295"
+        ]
+      },
+      "B8": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "5699556",
+          "5711840",
+          "5713293",
+          "5718843"
+        ]
+      },
+      "Imperial": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "5699555",
+          "5711844",
+          "5713296",
+          "5718845"
+        ]
+      },
+      "PARIVISION": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "5699559",
+          "5711839",
+          "5713297",
+          "5718847"
+        ]
+      },
+      "Liquid": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "5699556",
+          "5711839",
+          "5713294",
+          "5718842",
+          "5725245"
+        ]
+      },
+      "Passion UA": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "5699560",
+          "5711841",
+          "5713298",
+          "5718846",
+          "5725246"
+        ]
+      },
+      "3DMAX": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "10087710",
+          "5711845",
+          "5713298",
+          "5718843",
+          "5725244"
+        ]
+      }
+    },
+    "source": "https://fragcharts.com/pickem/budapest-2025/3"
+  },
+  "cologne-2026-2": {
+    "start": "2026-06-06",
+    "previousEnd": "2026-06-05",
+    "teams": {
+      "FUT": {
+        "entry": "direct"
+      },
+      "Spirit": {
+        "entry": "direct"
+      },
+      "Astralis": {
+        "entry": "direct"
+      },
+      "G2": {
+        "entry": "direct"
+      },
+      "Legacy": {
+        "entry": "direct"
+      },
+      "paiN": {
+        "entry": "direct"
+      },
+      "Monte": {
+        "entry": "direct"
+      },
+      "9z": {
+        "entry": "direct"
+      },
+      "B8": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "7301549",
+          "7302349",
+          "7302373"
+        ]
+      },
+      "BetBoom": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "7301548",
+          "7302345",
+          "7302375"
+        ]
+      },
+      "GamerLegion": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "7301550",
+          "7302350",
+          "7302375",
+          "7302401"
+        ]
+      },
+      "M80": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "7301546",
+          "7302346",
+          "7302373",
+          "7302398"
+        ]
+      },
+      "MIBR": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "10093592",
+          "7301544",
+          "7302377",
+          "7302400"
+        ]
+      },
+      "TYLOO": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "10093592",
+          "7301549",
+          "7302374",
+          "7302403",
+          "7302427"
+        ]
+      },
+      "BIG": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "7301547",
+          "7302344",
+          "7302376",
+          "7302401",
+          "7302425"
+        ]
+      },
+      "FlyQuest": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "7301545",
+          "7302350",
+          "7302379",
+          "7302402",
+          "7302426"
+        ]
+      }
+    },
+    "source": "https://fragcharts.com/pickem/cologne-2026/2"
+  },
+  "cologne-2026-3": {
+    "start": "2026-06-11",
+    "previousEnd": "2026-06-09",
+    "teams": {
+      "Vitality": {
+        "entry": "direct"
+      },
+      "Natus Vincere": {
+        "entry": "direct"
+      },
+      "Falcons": {
+        "entry": "direct"
+      },
+      "The MongolZ": {
+        "entry": "direct"
+      },
+      "PARIVISION": {
+        "entry": "direct"
+      },
+      "Aurora": {
+        "entry": "direct"
+      },
+      "FURIA": {
+        "entry": "direct"
+      },
+      "MOUZ": {
+        "entry": "direct"
+      },
+      "FUT": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "7302463",
+          "7302485",
+          "7302507"
+        ]
+      },
+      "Spirit": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "7302466",
+          "7302478",
+          "7302506"
+        ]
+      },
+      "G2": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "7302464",
+          "7302483",
+          "7302507",
+          "7302526"
+        ]
+      },
+      "BetBoom": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "7302466",
+          "7302479",
+          "7302511",
+          "7302528"
+        ]
+      },
+      "9z": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "10093663",
+          "10093666",
+          "7302506",
+          "7302527"
+        ]
+      },
+      "Monte": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "7302468",
+          "7302483",
+          "7302513",
+          "7302528",
+          "7302542"
+        ]
+      },
+      "B8": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "10093673",
+          "7302463",
+          "7302509",
+          "7302529",
+          "7302540"
+        ]
+      },
+      "Legacy": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "10093662",
+          "7302482",
+          "7302513",
+          "7302525",
+          "7302541"
+        ]
+      }
+    },
+    "source": "https://pro.eslgaming.com/tour/2026/02/iem-cologne-2026-stage-3-update/"
+  },
+  "epl21-stage2": {
+    "start": "2025-03-07",
+    "previousEnd": "2025-03-05",
+    "teams": {
+      "Spirit": {
+        "entry": "direct"
+      },
+      "Vitality": {
+        "entry": "direct"
+      },
+      "Natus Vincere": {
+        "entry": "direct"
+      },
+      "MOUZ": {
+        "entry": "direct"
+      },
+      "G2": {
+        "entry": "direct"
+      },
+      "The MongolZ": {
+        "entry": "direct"
+      },
+      "Eternal Fire": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "hltv:2379992",
+          "hltv:2380016",
+          "hltv:2380028",
+          "hltv:2380032"
+        ]
+      },
+      "Falcons": {
+        "entry": "direct"
+      },
+      "Liquid": {
+        "entry": "direct"
+      },
+      "3DMAX": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "hltv:2379995",
+          "hltv:2380015",
+          "hltv:2380022",
+          "hltv:2380034"
+        ]
+      },
+      "GamerLegion": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "hltv:2379998",
+          "hltv:2380021",
+          "hltv:2380024"
+        ]
+      },
+      "paiN": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "hltv:2379999",
+          "hltv:2380020",
+          "hltv:2380029",
+          "hltv:2380033",
+          "hltv:2380037"
+        ]
+      },
+      "FURIA": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "hltv:2379996",
+          "hltv:2380018",
+          "hltv:2380026",
+          "hltv:2380035",
+          "hltv:2380038"
+        ]
+      },
+      "SAW": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "hltv:2379994",
+          "hltv:2380018",
+          "hltv:2380027"
+        ]
+      },
+      "MIBR": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "hltv:2379997",
+          "hltv:2380021",
+          "hltv:2380026",
+          "hltv:2380030"
+        ]
+      },
+      "TYLOO": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "hltv:2379995",
+          "hltv:2380016",
+          "hltv:2380024",
+          "hltv:2380030",
+          "hltv:2380036"
+        ]
+      }
+    },
+    "source": "https://x.com/ESLCS/status/1897655742146007083"
+  },
+  "epl22-stage2": {
+    "start": "2025-10-04",
+    "previousEnd": "2025-10-02",
+    "teams": {
+      "Vitality": {
+        "entry": "direct"
+      },
+      "The MongolZ": {
+        "entry": "direct"
+      },
+      "Spirit": {
+        "entry": "direct"
+      },
+      "MOUZ": {
+        "entry": "direct"
+      },
+      "Falcons": {
+        "entry": "direct"
+      },
+      "FURIA": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "2385904",
+          "2385912",
+          "2385920",
+          "2385925",
+          "2385929"
+        ]
+      },
+      "G2": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "2385898",
+          "2385911",
+          "2385916",
+          "2385922",
+          "2385927"
+        ]
+      },
+      "Aurora": {
+        "entry": "direct"
+      },
+      "Natus Vincere": {
+        "entry": "direct"
+      },
+      "FaZe": {
+        "entry": "direct"
+      },
+      "3DMAX": {
+        "entry": "3-1",
+        "minCore": 4,
+        "matches": [
+          "2385900",
+          "2385906",
+          "2385919",
+          "2385924"
+        ]
+      },
+      "Astralis": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "2385899",
+          "2385907",
+          "2385917",
+          "2385923",
+          "2385928"
+        ]
+      },
+      "GamerLegion": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "2385903",
+          "2385908",
+          "2385917",
+          "2385921"
+        ]
+      },
+      "Inner Circle": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "2385900",
+          "2385908",
+          "2385915"
+        ]
+      },
+      "HOTU": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "2385904",
+          "2385905",
+          "2385913"
+        ]
+      },
+      "Gentle Mates": {
+        "entry": "3-1",
+        "minCore": 4,
+        "matches": [
+          "2385897",
+          "2385911",
+          "2385915",
+          "2385926"
+        ]
+      }
+    },
+    "source": "https://pro.eslgaming.com/tour/2025/10/epl-s22-stage-2-team-seeding-and-live-ratings/"
+  },
+  "epl23-stage2": {
+    "start": "2026-03-06",
+    "previousEnd": "2026-03-05",
+    "teams": {
+      "FURIA": {
+        "entry": "direct"
+      },
+      "Spirit": {
+        "entry": "direct"
+      },
+      "MOUZ": {
+        "entry": "direct"
+      },
+      "Natus Vincere": {
+        "entry": "direct"
+      },
+      "The MongolZ": {
+        "entry": "direct"
+      },
+      "Aurora": {
+        "entry": "direct"
+      },
+      "FUT": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "2391016",
+          "2391023",
+          "2391027"
+        ]
+      },
+      "G2": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "2391013",
+          "2391025",
+          "2391033",
+          "2391040",
+          "2391042"
+        ]
+      },
+      "FaZe": {
+        "entry": "direct"
+      },
+      "Astralis": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "2391014",
+          "2391019",
+          "2391027",
+          "2391036"
+        ]
+      },
+      "Legacy": {
+        "entry": "3-0",
+        "minCore": 5,
+        "matches": [
+          "2391015",
+          "2391025",
+          "2391029"
+        ]
+      },
+      "paiN": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "2391018",
+          "2391021",
+          "2391032",
+          "2391040"
+        ]
+      },
+      "Monte": {
+        "entry": "3-1",
+        "minCore": 5,
+        "matches": [
+          "2391014",
+          "2391020",
+          "2391028",
+          "2391035"
+        ]
+      },
+      "HEROIC": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "2391011",
+          "2391019",
+          "2391028",
+          "2391037",
+          "2391041"
+        ]
+      },
+      "3DMAX": {
+        "entry": "3-2",
+        "minCore": 5,
+        "matches": [
+          "2391018",
+          "2391022",
+          "2391031",
+          "2391036",
+          "2391043"
+        ]
+      },
+      "B8": {
+        "entry": "direct"
+      }
+    },
+    "source": "https://pro.eslgaming.com/tour/2026/03/esl-pro-league-season-23-team-seeding-and-live-ratings-stage-2/"
+  }
+}

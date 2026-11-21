@@ -1,0 +1,51 @@
+{
+  "asOfDate": "2026-11-21",
+  "dateConvention": "Stage starts are local event dates. Rotation dates are the dates displayed on Valve's US release notes; an individual tournament can adopt a pool on a different date.",
+  "rotations": [
+    {"valveNoteDate":"2025-01-28","in":"Train","out":"Vertigo","pool":["Ancient","Anubis","Dust2","Inferno","Mirage","Nuke","Train"],"source":"valveSeason2"},
+    {"valveNoteDate":"2025-07-15","in":"Overpass","out":"Anubis","pool":["Ancient","Dust2","Inferno","Mirage","Nuke","Overpass","Train"],"source":"valveSeason3"},
+    {"valveNoteDate":"2026-01-21","publishedUtc":"2026-01-21T22:58:08Z","in":"Anubis","out":"Train","pool":["Ancient","Anubis","Dust2","Inferno","Mirage","Nuke","Overpass"],"source":"valveSeason4"},
+    {"valveNoteDate":"2026-07-08","in":"Cache","out":"Overpass","pool":["Ancient","Anubis","Cache","Dust2","Inferno","Mirage","Nuke"],"source":"valveSeason5"}
+  ],
+  "vetoRules": {
+    "major": {
+      "roleSelection":"higher_seed_chooses_A_or_B",
+      "bo1":{"actions":["ban:A","ban:A","ban:B","ban:B","ban:B","ban:A"],"remainingMapStartingSideChoice":"B"},
+      "bo3":{"actions":["ban:A","ban:B","pick:A","pick:B","ban:B","ban:A"],"pickedMapStartingSideChoice":["B","A"],"remainingMapStartingSideChoice":"B"}
+    },
+    "eslProTour": {
+      "roleSelection":"higher_seed_chooses_A_or_B",
+      "bo3":{"actions":["ban:A","ban:B","pick:A","pick:B","ban:A","ban:B"],"pickedMapStartingSideChoice":["B","A"],"remainingMapStartingSideChoice":"knife_round"}
+    }
+  },
+  "stages": {
+    "austin-2025-3":{"start":"2025-06-12","poolRotation":"2025-01-28","defaultBestOf":1,"advanceOrEliminationBestOf":3,"vetoRule":"major","sources":["austinPool","austinSchedule","austinRulebook","valveAustin"]},
+    "budapest-2025-3":{"start":"2025-12-04","poolRotation":"2025-07-15","defaultBestOf":1,"advanceOrEliminationBestOf":3,"vetoRule":"major","sources":["valveSeason3","eslJulyPool","valveBudapestCologne","starladder","budapestScheduleReport"]},
+    "epl23-stage2":{"start":"2026-03-06","poolRotation":"2026-01-21","defaultBestOf":3,"advanceOrEliminationBestOf":3,"vetoRule":"eslProTour","sources":["valveSeason4","eslRulesAnnouncement","eslRulesPdf","eplFormat","eplDates"]},
+    "cologne-2026-3":{"start":"2026-06-11","poolRotation":"2026-01-21","defaultBestOf":3,"advanceOrEliminationBestOf":3,"vetoRule":"major","sources":["valveSeason4","cologneFormat","valveBudapestCologne"]},
+    "singapore-2026-1":{"start":"2026-11-24","poolRotation":"2026-07-08","defaultBestOf":1,"advanceOrEliminationBestOf":3,"vetoRule":"major","sources":["valveSeason5","pglSchedule","valveSingapore"]},
+    "singapore-2026-2":{"start":"2026-11-28","poolRotation":"2026-07-08","defaultBestOf":1,"advanceOrEliminationBestOf":3,"vetoRule":"major","sources":["valveSeason5","pglSchedule","valveSingapore"]},
+    "singapore-2026-3":{"start":"2026-12-02","poolRotation":"2026-07-08","defaultBestOf":3,"advanceOrEliminationBestOf":3,"vetoRule":"major","sources":["valveSeason5","pglSchedule","valveSingapore"]}
+  },
+  "sources": {
+    "valveSeason2":{"publisher":"Valve","date":"2025-01-28","url":"https://steamcommunity.com/games/CSGO/announcements/detail/520830071182721027"},
+    "valveSeason3":{"publisher":"Valve","date":"2025-07-15","url":"https://steamcommunity.com/games/CSGO/announcements/detail/529852487375519750"},
+    "valveSeason4":{"publisher":"Valve","date":"2026-01-21","url":"https://steamcommunity.com/games/CSGO/announcements/detail/511855214544814591"},
+    "valveSeason5":{"publisher":"Valve","date":"2026-07-08","url":"https://steamcommunity.com/games/CSGO/announcements/detail/701021228894259246"},
+    "austinPool":{"publisher":"BLAST","date":"2025-01-06","url":"https://blast.tv/cs/news/train-replaces-vertigo"},
+    "austinSchedule":{"publisher":"BLAST","date":"2025-05-08","url":"https://blast.tv/cs/news/blasttv-austin-major-full-schedule"},
+    "austinRulebook":{"publisher":"BLAST","sections":["10.3","10.6"],"url":"https://assets.blast.tv/rulebook/BLASTtv_Austin_Major_Rulebookv2.pdf"},
+    "valveAustin":{"publisher":"Valve","date":"2025-06-09","url":"https://github.com/ValveSoftware/counter-strike_rules_and_regs/blob/2c85d431cb4788ca7cc57854759bf4fe01c8cae3/major-supplemental-rulebook.md#map-pick-ban"},
+    "valveBudapestCologne":{"publisher":"Valve","date":"2025-08-05","url":"https://github.com/ValveSoftware/counter-strike_rules_and_regs/blob/a22f91da503d3afc00045fdad339bc6a3cd19c98/major-supplemental-rulebook.md#map-pick-ban"},
+    "starladder":{"publisher":"StarLadder","url":"https://major.starladder.com/"},
+    "budapestScheduleReport":{"publisher":"HLTV","sourceType":"contemporaneous_report_of_organizer_schedule","date":"2025-11-14","url":"https://www.hltv.org/news/43205/starladder-releases-budapest-major-schedule"},
+    "eslJulyPool":{"publisher":"ESL","date":"2025-07-16","url":"https://pro.eslgaming.com/tour/2025/07/overpass-replaces-anubis-in-the-official-map-pool/"},
+    "eplFormat":{"publisher":"ESL","date":"2025-03-07","url":"https://pro.eslgaming.com/tour/2025/03/epl-s23-additional-info/"},
+    "eplDates":{"publisher":"ESL","url":"https://pro.eslgaming.com/csgo/proleague/season23/"},
+    "eslRulesAnnouncement":{"publisher":"ESL","date":"2025-12-16","url":"https://pro.eslgaming.com/tour/2025/12/esl-pro-tour-2026-rulebook-update/"},
+    "eslRulesPdf":{"publisher":"ESL","section":"2.3.5","sha256Observed":"8c0845ea8aa62dfd529917bc737e504f8fef7c170c6658ad81ea236fe742f494","url":"https://drive.google.com/file/d/1ZMxPYAv__yDwI7rNTvCcB8ah_aPWV_gR/view"},
+    "cologneFormat":{"publisher":"ESL","date":"2026-02-23","url":"https://pro.eslgaming.com/tour/2026/02/iem-cologne-2026-stage-3-update/"},
+    "pglSchedule":{"publisher":"PGL","observedAsOf":"2026-11-21","url":"https://www.pglesports.com/cs2/pgl-major-singapore-2026/"},
+    "valveSingapore":{"publisher":"Valve","date":"2026-10-06","url":"https://github.com/ValveSoftware/counter-strike_rules_and_regs/blob/745a40758ed7877483d5544605cda6c6e1a1cd65/major-supplemental-rulebook.md#map-pick-ban"}
+  }
+}

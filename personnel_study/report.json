@@ -1,0 +1,1209 @@
+{
+  "asOf": "2026-11-21",
+  "teams": {
+    "Ninjas in Pyjamas": {
+      "coach": "Xizt",
+      "coachSource": "https://www.hltv.org/team/4411/ninjas-in-pyjamas",
+      "tenureMonths": 32,
+      "coachedMaps": 574,
+      "coachSnapshot": "2026-11-21",
+      "roster": [
+        "adamb",
+        "Krimbo",
+        "sjuush",
+        "stavn",
+        "xKacpersky"
+      ],
+      "majorMvps": [],
+      "recent": {
+        "maps": 37,
+        "series": 18,
+        "first": "2026-09-17",
+        "last": "2026-10-17",
+        "rounds": 851,
+        "leader": "stavn",
+        "players": [
+          {
+            "name": "stavn",
+            "kills": 600,
+            "share": 0.2103,
+            "kpr": 0.70505
+          },
+          {
+            "name": "adamb",
+            "kills": 585,
+            "share": 0.20505,
+            "kpr": 0.68743
+          },
+          {
+            "name": "xKacpersky",
+            "kills": 577,
+            "share": 0.20224,
+            "kpr": 0.67803
+          },
+          {
+            "name": "sjuush",
+            "kills": 548,
+            "share": 0.19208,
+            "kpr": 0.64395
+          },
+          {
+            "name": "Krimbo",
+            "kills": 543,
+            "share": 0.19033,
+            "kpr": 0.63807
+          }
+        ]
+      }
+    },
+    "PARIVISION": {
+      "coach": "dastan",
+      "coachSource": "https://www.hltv.org/team/12467/parivision",
+      "tenureMonths": 24,
+      "coachedMaps": 528,
+      "coachSnapshot": "2026-11-21",
+      "roster": [
+        "FL1T",
+        "HObbit",
+        "Jame",
+        "xiELO",
+        "zweih"
+      ],
+      "majorMvps": [
+        {
+          "name": "Jame",
+          "count": 1
+        }
+      ],
+      "recent": {
+        "maps": 40,
+        "series": 16,
+        "first": "2026-10-03",
+        "last": "2026-11-06",
+        "rounds": 851,
+        "leader": "xiELO",
+        "players": [
+          {
+            "name": "xiELO",
+            "kills": 617,
+            "share": 0.23005,
+            "kpr": 0.72503
+          },
+          {
+            "name": "Jame",
+            "kills": 547,
+            "share": 0.20395,
+            "kpr": 0.64277
+          },
+          {
+            "name": "FL1T",
+            "kills": 527,
+            "share": 0.1965,
+            "kpr": 0.61927
+          },
+          {
+            "name": "zweih",
+            "kills": 503,
+            "share": 0.18755,
+            "kpr": 0.59107
+          },
+          {
+            "name": "HObbit",
+            "kills": 488,
+            "share": 0.18195,
+            "kpr": 0.57344
+          }
+        ]
+      }
+    },
+    "HEROIC": {
+      "coach": "Snappi",
+      "coachSource": "https://www.hltv.org/team/7175/heroic",
+      "tenureMonths": 1,
+      "coachedMaps": 38,
+      "coachSnapshot": "2026-11-21",
+      "roster": [
+        "Brollan",
+        "Chr1zN",
+        "MartinezSa",
+        "nilo",
+        "susp"
+      ],
+      "majorMvps": [],
+      "recent": {
+        "maps": 53,
+        "series": 24,
+        "first": "2026-09-02",
+        "last": "2026-11-04",
+        "rounds": 1113,
+        "leader": "nilo",
+        "players": [
+          {
+            "name": "nilo",
+            "kills": 845,
+            "share": 0.22266,
+            "kpr": 0.75921
+          },
+          {
+            "name": "Brollan",
+            "kills": 784,
+            "share": 0.20659,
+            "kpr": 0.7044
+          },
+          {
+            "name": "MartinezSa",
+            "kills": 736,
+            "share": 0.19394,
+            "kpr": 0.66128
+          },
+          {
+            "name": "Chr1zN",
+            "kills": 722,
+            "share": 0.19025,
+            "kpr": 0.6487
+          },
+          {
+            "name": "susp",
+            "kills": 708,
+            "share": 0.18656,
+            "kpr": 0.63612
+          }
+        ]
+      }
+    },
+    "FaZe": {
+      "coach": "enkay J",
+      "coachSource": "https://www.hltv.org/team/6667/faze",
+      "tenureMonths": 7,
+      "coachedMaps": 112,
+      "coachSnapshot": "2026-11-21",
+      "roster": [
+        "frozen",
+        "JBOEN",
+        "jcobbb",
+        "Neityu",
+        "Twistzz"
+      ],
+      "majorMvps": [],
+      "recent": {
+        "maps": 37,
+        "series": 16,
+        "first": "2026-09-08",
+        "last": "2026-11-03",
+        "rounds": 835,
+        "leader": "Twistzz",
+        "players": [
+          {
+            "name": "Twistzz",
+            "kills": 574,
+            "share": 0.21259,
+            "kpr": 0.68743
+          },
+          {
+            "name": "JBOEN",
+            "kills": 573,
+            "share": 0.21222,
+            "kpr": 0.68623
+          },
+          {
+            "name": "frozen",
+            "kills": 564,
+            "share": 0.20889,
+            "kpr": 0.67545
+          },
+          {
+            "name": "jcobbb",
+            "kills": 550,
+            "share": 0.2037,
+            "kpr": 0.65868
+          },
+          {
+            "name": "Neityu",
+            "kills": 439,
+            "share": 0.16259,
+            "kpr": 0.52575
+          }
+        ]
+      }
+    },
+    "Liquid": {
+      "coach": "flashie",
+      "coachSource": "https://www.hltv.org/team/5973/liquid",
+      "tenureMonths": 16,
+      "coachedMaps": 267,
+      "coachSnapshot": "2026-11-21",
+      "roster": [
+        "EliGE",
+        "Jorko",
+        "JT",
+        "malbsMd",
+        "NAF"
+      ],
+      "majorMvps": [],
+      "recent": {
+        "maps": 44,
+        "series": 18,
+        "first": "2026-09-12",
+        "last": "2026-11-04",
+        "rounds": 950,
+        "leader": "EliGE",
+        "players": [
+          {
+            "name": "EliGE",
+            "kills": 719,
+            "share": 0.23722,
+            "kpr": 0.75684
+          },
+          {
+            "name": "NAF",
+            "kills": 621,
+            "share": 0.20488,
+            "kpr": 0.65368
+          },
+          {
+            "name": "malbsMd",
+            "kills": 606,
+            "share": 0.19993,
+            "kpr": 0.63789
+          },
+          {
+            "name": "Jorko",
+            "kills": 581,
+            "share": 0.19169,
+            "kpr": 0.61158
+          },
+          {
+            "name": "JT",
+            "kills": 504,
+            "share": 0.16628,
+            "kpr": 0.53053
+          }
+        ]
+      }
+    },
+    "Eternal Fire": {
+      "coach": "Fabre",
+      "coachSource": "https://www.hltv.org/team/11251/eternal-fire",
+      "tenureMonths": 2,
+      "coachedMaps": 87,
+      "coachSnapshot": "2026-11-21",
+      "roster": [
+        "jottAAA",
+        "Kvem",
+        "MisteM",
+        "regali",
+        "soulfly"
+      ],
+      "majorMvps": [],
+      "recent": {
+        "maps": 54,
+        "series": 22,
+        "first": "2026-09-02",
+        "last": "2026-10-30",
+        "rounds": 1257,
+        "leader": "jottAAA",
+        "players": [
+          {
+            "name": "jottAAA",
+            "kills": 932,
+            "share": 0.21401,
+            "kpr": 0.74145
+          },
+          {
+            "name": "Kvem",
+            "kills": 918,
+            "share": 0.21079,
+            "kpr": 0.73031
+          },
+          {
+            "name": "regali",
+            "kills": 873,
+            "share": 0.20046,
+            "kpr": 0.69451
+          },
+          {
+            "name": "soulfly",
+            "kills": 871,
+            "share": 0.2,
+            "kpr": 0.69292
+          },
+          {
+            "name": "MisteM",
+            "kills": 761,
+            "share": 0.17474,
+            "kpr": 0.60541
+          }
+        ]
+      }
+    },
+    "100 Thieves": {
+      "coach": "gla1ve",
+      "coachSource": "https://www.hltv.org/team/8474/100-thieves",
+      "tenureMonths": 11,
+      "coachedMaps": 208,
+      "coachSnapshot": "2026-11-21",
+      "roster": [
+        "device",
+        "Gizmy",
+        "poiii",
+        "rain",
+        "sirah"
+      ],
+      "majorMvps": [
+        {
+          "name": "device",
+          "count": 2
+        },
+        {
+          "name": "rain",
+          "count": 1
+        }
+      ],
+      "recent": {
+        "maps": 29,
+        "series": 15,
+        "first": "2026-08-24",
+        "last": "2026-10-17",
+        "rounds": 593,
+        "leader": "poiii",
+        "players": [
+          {
+            "name": "poiii",
+            "kills": 451,
+            "share": 0.23022,
+            "kpr": 0.76054
+          },
+          {
+            "name": "device",
+            "kills": 427,
+            "share": 0.21797,
+            "kpr": 0.72007
+          },
+          {
+            "name": "rain",
+            "kills": 405,
+            "share": 0.20674,
+            "kpr": 0.68297
+          },
+          {
+            "name": "sirah",
+            "kills": 358,
+            "share": 0.18275,
+            "kpr": 0.60371
+          },
+          {
+            "name": "Gizmy",
+            "kills": 318,
+            "share": 0.16233,
+            "kpr": 0.53626
+          }
+        ]
+      }
+    },
+    "9z": {
+      "coach": "BIT",
+      "coachSource": "https://www.hltv.org/team/9996/9z",
+      "tenureMonths": 17,
+      "coachedMaps": 384,
+      "coachSnapshot": "2026-11-21",
+      "roster": [
+        "dgt",
+        "HUASOPEEK",
+        "luchov",
+        "max",
+        "history"
+      ],
+      "majorMvps": [],
+      "recent": {
+        "maps": 0,
+        "series": 0,
+        "first": null,
+        "last": null,
+        "rounds": 0,
+        "leader": null,
+        "players": []
+      }
+    },
+    "M80": {
+      "coach": "dephh",
+      "coachSource": "https://www.hltv.org/team/12376/m80",
+      "tenureMonths": 31,
+      "coachedMaps": 521,
+      "coachSnapshot": "2026-11-21",
+      "roster": [
+        "JBa",
+        "Lake",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ],
+      "majorMvps": [],
+      "recent": {
+        "maps": 20,
+        "series": 10,
+        "first": "2026-08-26",
+        "last": "2026-10-07",
+        "rounds": 423,
+        "leader": "Lake",
+        "players": [
+          {
+            "name": "Lake",
+            "kills": 281,
+            "share": 0.21716,
+            "kpr": 0.6643
+          },
+          {
+            "name": "slaxz-",
+            "kills": 258,
+            "share": 0.19938,
+            "kpr": 0.60993
+          },
+          {
+            "name": "s1n",
+            "kills": 254,
+            "share": 0.19629,
+            "kpr": 0.60047
+          },
+          {
+            "name": "Swisher",
+            "kills": 252,
+            "share": 0.19474,
+            "kpr": 0.59574
+          },
+          {
+            "name": "JBa",
+            "kills": 249,
+            "share": 0.19243,
+            "kpr": 0.58865
+          }
+        ]
+      }
+    },
+    "DENDELE": {
+      "coach": "coachi",
+      "coachSource": "https://www.hltv.org/team/13926/dendele",
+      "tenureMonths": 4,
+      "coachedMaps": 72,
+      "coachSnapshot": "2026-11-21",
+      "roster": [
+        "doc",
+        "gafolo",
+        "koala",
+        "maxxkor",
+        "rdnzao"
+      ],
+      "majorMvps": [],
+      "recent": {
+        "maps": 20,
+        "series": 9,
+        "first": "2026-08-26",
+        "last": "2026-10-27",
+        "rounds": 423,
+        "leader": "doc",
+        "players": [
+          {
+            "name": "doc",
+            "kills": 303,
+            "share": 0.22545,
+            "kpr": 0.71631
+          },
+          {
+            "name": "rdnzao",
+            "kills": 284,
+            "share": 0.21131,
+            "kpr": 0.67139
+          },
+          {
+            "name": "koala",
+            "kills": 267,
+            "share": 0.19866,
+            "kpr": 0.63121
+          },
+          {
+            "name": "maxxkor",
+            "kills": 254,
+            "share": 0.18899,
+            "kpr": 0.60047
+          },
+          {
+            "name": "gafolo",
+            "kills": 236,
+            "share": 0.1756,
+            "kpr": 0.55792
+          }
+        ]
+      }
+    },
+    "Imperial": {
+      "coach": "tacitus",
+      "coachSource": "https://www.hltv.org/team/9455/imperial",
+      "tenureMonths": 3,
+      "coachedMaps": 97,
+      "coachSnapshot": "2026-11-21",
+      "roster": [
+        "chelo",
+        "decenty",
+        "noway",
+        "saadzin",
+        "VINI"
+      ],
+      "majorMvps": [],
+      "recent": {
+        "maps": 2,
+        "series": 1,
+        "first": "2026-09-11",
+        "last": "2026-09-11",
+        "rounds": 39,
+        "leader": null,
+        "players": [
+          {
+            "name": "noway",
+            "kills": 28,
+            "share": 0.26168,
+            "kpr": 0.71795
+          },
+          {
+            "name": "saadzin",
+            "kills": 25,
+            "share": 0.23364,
+            "kpr": 0.64103
+          },
+          {
+            "name": "decenty",
+            "kills": 22,
+            "share": 0.20561,
+            "kpr": 0.5641
+          },
+          {
+            "name": "VINI",
+            "kills": 16,
+            "share": 0.14953,
+            "kpr": 0.41026
+          },
+          {
+            "name": "chelo",
+            "kills": 16,
+            "share": 0.14953,
+            "kpr": 0.41026
+          }
+        ]
+      }
+    },
+    "Wildcard": {
+      "coach": "splawik",
+      "coachSource": "https://www.hltv.org/team/12257/wildcard",
+      "tenureMonths": 7,
+      "coachedMaps": 92,
+      "coachSnapshot": "2026-11-21",
+      "roster": [
+        "Cxzi",
+        "fr3nd",
+        "HexT",
+        "nEMANHA",
+        "reck"
+      ],
+      "majorMvps": [],
+      "recent": {
+        "maps": 0,
+        "series": 0,
+        "first": null,
+        "last": null,
+        "rounds": 0,
+        "leader": null,
+        "players": []
+      }
+    },
+    "GOSH": {
+      "coach": "TaZ",
+      "coachSource": "https://www.hltv.org/team/12878/bcgame",
+      "tenureMonths": 10,
+      "coachedMaps": 108,
+      "coachSnapshot": "2026-11-21",
+      "roster": [
+        "asap",
+        "Magisk",
+        "mzinho",
+        "s1mple",
+        "Senzu"
+      ],
+      "majorMvps": [
+        {
+          "name": "Magisk",
+          "count": 1
+        },
+        {
+          "name": "s1mple",
+          "count": 1
+        }
+      ],
+      "recent": {
+        "maps": 30,
+        "series": 14,
+        "first": "2026-10-03",
+        "last": "2026-10-31",
+        "rounds": 680,
+        "leader": "s1mple",
+        "players": [
+          {
+            "name": "s1mple",
+            "kills": 499,
+            "share": 0.22427,
+            "kpr": 0.73382
+          },
+          {
+            "name": "Senzu",
+            "kills": 482,
+            "share": 0.21663,
+            "kpr": 0.70882
+          },
+          {
+            "name": "mzinho",
+            "kills": 435,
+            "share": 0.19551,
+            "kpr": 0.63971
+          },
+          {
+            "name": "asap",
+            "kills": 405,
+            "share": 0.18202,
+            "kpr": 0.59559
+          },
+          {
+            "name": "Magisk",
+            "kills": 404,
+            "share": 0.18157,
+            "kpr": 0.59412
+          }
+        ]
+      }
+    },
+    "FlyQuest": {
+      "coach": "AZR",
+      "coachSource": "https://www.hltv.org/team/12774/flyquest",
+      "tenureMonths": 12,
+      "coachedMaps": 143,
+      "coachSnapshot": "2026-11-21",
+      "roster": [
+        "aliStair",
+        "INS",
+        "jks",
+        "nettik",
+        "Vexite"
+      ],
+      "majorMvps": [],
+      "recent": {
+        "maps": 2,
+        "series": 1,
+        "first": "2026-09-13",
+        "last": "2026-09-13",
+        "rounds": 40,
+        "leader": null,
+        "players": [
+          {
+            "name": "jks",
+            "kills": 31,
+            "share": 0.26271,
+            "kpr": 0.775
+          },
+          {
+            "name": "INS",
+            "kills": 25,
+            "share": 0.21186,
+            "kpr": 0.625
+          },
+          {
+            "name": "aliStair",
+            "kills": 24,
+            "share": 0.20339,
+            "kpr": 0.6
+          },
+          {
+            "name": "nettik",
+            "kills": 20,
+            "share": 0.16949,
+            "kpr": 0.5
+          },
+          {
+            "name": "Vexite",
+            "kills": 18,
+            "share": 0.15254,
+            "kpr": 0.45
+          }
+        ]
+      }
+    },
+    "Chinggis Warriors": {
+      "coach": "Redka",
+      "coachSource": "https://www.hltv.org/team/12646/chinggis-warriors",
+      "tenureMonths": 16,
+      "coachedMaps": 300,
+      "coachSnapshot": "2026-11-21",
+      "roster": [
+        "cool4st",
+        "fury5k",
+        "ROUX",
+        "sk0R",
+        "tikuak"
+      ],
+      "majorMvps": [],
+      "recent": {
+        "maps": 0,
+        "series": 0,
+        "first": null,
+        "last": null,
+        "rounds": 0,
+        "leader": null,
+        "players": []
+      }
+    },
+    "Lynn Vision": {
+      "coach": "GUM",
+      "coachSource": "https://www.hltv.org/team/8840/lynn-vision",
+      "tenureMonths": 45,
+      "coachedMaps": 543,
+      "coachSnapshot": "2026-11-21",
+      "roster": [
+        "C4LLM3SU3",
+        "EmiliaQAQ",
+        "Starry",
+        "Westmelon",
+        "z4KR"
+      ],
+      "majorMvps": [],
+      "recent": {
+        "maps": 5,
+        "series": 2,
+        "first": "2026-08-27",
+        "last": "2026-08-29",
+        "rounds": 98,
+        "leader": "Starry",
+        "players": [
+          {
+            "name": "Starry",
+            "kills": 73,
+            "share": 0.24415,
+            "kpr": 0.7449
+          },
+          {
+            "name": "C4LLM3SU3",
+            "kills": 66,
+            "share": 0.22074,
+            "kpr": 0.67347
+          },
+          {
+            "name": "EmiliaQAQ",
+            "kills": 56,
+            "share": 0.18729,
+            "kpr": 0.57143
+          },
+          {
+            "name": "Westmelon",
+            "kills": 52,
+            "share": 0.17391,
+            "kpr": 0.53061
+          },
+          {
+            "name": "z4KR",
+            "kills": 52,
+            "share": 0.17391,
+            "kpr": 0.53061
+          }
+        ]
+      }
+    }
+  },
+  "focus": {
+    "team": "100 Thieves",
+    "opponent": "Chinggis Warriors",
+    "igl": "Gizmy",
+    "fresh": {
+      "maps": 19,
+      "series": 8,
+      "first": "2026-10-29",
+      "last": "2026-11-17",
+      "rounds": 405,
+      "leader": "sirah",
+      "players": [
+        {
+          "name": "sirah",
+          "kills": 311,
+          "share": 0.21389,
+          "kpr": 0.7679
+        },
+        {
+          "name": "poiii",
+          "kills": 297,
+          "share": 0.20426,
+          "kpr": 0.73333
+        },
+        {
+          "name": "device",
+          "kills": 293,
+          "share": 0.20151,
+          "kpr": 0.72346
+        },
+        {
+          "name": "rain",
+          "kills": 282,
+          "share": 0.19395,
+          "kpr": 0.6963
+        },
+        {
+          "name": "Gizmy",
+          "kills": 271,
+          "share": 0.18638,
+          "kpr": 0.66914
+        }
+      ],
+      "overlap": {
+        "3": 0,
+        "4": 0,
+        "5": 19
+      },
+      "source": "https://github.com/Griffinxaxa/scrape-hltv-data/tree/f5e3e90fb56fef8adc19bd5e5e898d2741d0ff58/2026-data/archive",
+      "latestMap": "https://www.hltv.org/stats/matches/mapstatsid/244566/100-thieves-vs-fnatic"
+    },
+    "frozen": {
+      "slot": "普通晋级",
+      "sweep": 0.188375,
+      "ordinary": 0.46441666666666664,
+      "advance": 0.6527916666666667,
+      "bo1": 0.6636688338185774
+    },
+    "notes": [
+      "11 月 9 日报名名单中 gla1ve 是教练，他也登记为替补。Gizmy 接替 rain 担任场上指挥。",
+      "device 曾两获 Major MVP，rain 曾获安特卫普 Major MVP。gla1ve 的四次 Major 冠军均是选手时期成绩。2025 年 12 月接手 100 Thieves 是其首份教练工作。",
+      "Valve 允许教练在热身、半场和战术暂停时与队员沟通。本届首场前能确认报名身份，现场出席及暂停效果待赛后核实。"
+    ],
+    "sources": [
+      {
+        "title": "PGL 报名名单 · 11 月 9 日",
+        "url": "https://news.pglesports.com/news/1794219566606-pgl-major-singapore-2026-team-rosters"
+      },
+      {
+        "title": "HLTV 核对报名替补",
+        "url": "https://www.hltv.org/news/45950/pgl-reveals-singapore-major-rosters"
+      },
+      {
+        "title": "rain 谈更换指挥 · 8 月 10 日",
+        "url": "https://www.hltv.org/news/45268/rain-on-moving-away-from-igling-i-think-my-personality-is-maybe-a-little-bit-too-chill"
+      },
+      {
+        "title": "100 Thieves 任命 gla1ve 执教",
+        "url": "https://www.hltv.org/news/43479/100-thieves-unveil-gla1ve-as-head-coach"
+      },
+      {
+        "title": "HLTV Major MVP 档案",
+        "url": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+      },
+      {
+        "title": "Valve 教练沟通规则",
+        "url": "https://github.com/ValveSoftware/counter-strike_rules_and_regs/blob/main/major-supplemental-rulebook.md"
+      },
+      {
+        "title": "首轮 BO1 与出场五人",
+        "url": "https://www.hltv.org/matches/2400497/100-thieves-vs-chinggis-warriors-pgl-major-singapore-2026-stage-1"
+      }
+    ]
+  },
+  "test": {
+    "split": "2026-09-01",
+    "train": {
+      "n": 7088,
+      "affected": 1050
+    },
+    "coefficient": -0.1597889,
+    "adjustmentPP": -3.986,
+    "holdout": {
+      "all": {
+        "n": 810,
+        "baseBrier": 0.264962,
+        "candidateBrier": 0.264749,
+        "baseLogLoss": 0.766431,
+        "candidateLogLoss": 0.76567
+      },
+      "affected": {
+        "n": 100,
+        "baseBrier": 0.246358,
+        "candidateBrier": 0.244629,
+        "baseLogLoss": 0.72103,
+        "candidateLogLoss": 0.714862
+      },
+      "byFormat": {
+        "BO1": {
+          "n": 19,
+          "baseBrier": 0.255991,
+          "candidateBrier": 0.257716,
+          "baseLogLoss": 0.85226,
+          "candidateLogLoss": 0.855381
+        },
+        "BO3": {
+          "n": 222,
+          "baseBrier": 0.257966,
+          "candidateBrier": 0.257749,
+          "baseLogLoss": 0.752634,
+          "candidateLogLoss": 0.750457
+        },
+        "unknown": {
+          "n": 569,
+          "baseBrier": 0.267991,
+          "candidateBrier": 0.267714,
+          "baseLogLoss": 0.768948,
+          "candidateLogLoss": 0.76861
+        }
+      },
+      "first": "2026-09-01",
+      "last": "2026-11-01"
+    }
+  },
+  "firepowerTest": {
+    "split": "2026-09-01",
+    "train": {
+      "n": 541,
+      "affected": 541
+    },
+    "coefficient": -0.3657987,
+    "adjustmentPP": -9.044,
+    "holdout": {
+      "all": {
+        "n": 371,
+        "baseBrier": 0.264474,
+        "candidateBrier": 0.265341,
+        "baseLogLoss": 0.759028,
+        "candidateLogLoss": 0.762021
+      },
+      "affected": {
+        "n": 371,
+        "baseBrier": 0.264474,
+        "candidateBrier": 0.265341,
+        "baseLogLoss": 0.759028,
+        "candidateLogLoss": 0.762021
+      },
+      "byFormat": {
+        "BO1": {
+          "n": 4,
+          "baseBrier": 0.176347,
+          "candidateBrier": 0.178757,
+          "baseLogLoss": 0.513515,
+          "candidateLogLoss": 0.517168
+        },
+        "BO3": {
+          "n": 132,
+          "baseBrier": 0.275234,
+          "candidateBrier": 0.276657,
+          "baseLogLoss": 0.805602,
+          "candidateLogLoss": 0.810886
+        },
+        "unknown": {
+          "n": 235,
+          "baseBrier": 0.25993,
+          "candidateBrier": 0.260458,
+          "baseLogLoss": 0.737046,
+          "candidateLogLoss": 0.738742
+        }
+      },
+      "first": "2026-09-01",
+      "last": "2026-11-01"
+    }
+  },
+  "stageFits": {
+    "copenhagen": {
+      "asOf": "2024-03-04",
+      "n": 681,
+      "affected": 122,
+      "coefficient": -0.03415181458997435,
+      "hasPriorMvp": {
+        "Cloud9": 0,
+        "Eternal Fire": 0,
+        "ENCE": 0,
+        "Apeks": 0,
+        "HEROIC": 0,
+        "GamerLegion": 0,
+        "SAW": 0,
+        "FURIA": 0,
+        "ECSTATIC": 0,
+        "The MongolZ": 0,
+        "Imperial": 0,
+        "paiN": 0,
+        "Lynn Vision": 0,
+        "AMKAL": 0,
+        "KOI": 0,
+        "Legacy": 1
+      }
+    },
+    "shanghai": {
+      "asOf": "2024-11-06",
+      "n": 1791,
+      "affected": 320,
+      "coefficient": -0.33096890673993956,
+      "hasPriorMvp": {
+        "FURIA": 0,
+        "Virtus.pro": 1,
+        "Liquid": 0,
+        "Complexity": 0,
+        "BIG": 0,
+        "fnatic": 0,
+        "The MongolZ": 0,
+        "paiN": 0,
+        "GamerLegion": 0,
+        "MIBR": 0,
+        "Cloud9": 0,
+        "FlyQuest": 0,
+        "Passion UA": 0,
+        "Wildcard": 0,
+        "Rare Atom": 0,
+        "Imperial": 0
+      }
+    },
+    "austin": {
+      "asOf": "2025-06-02",
+      "n": 3463,
+      "affected": 554,
+      "coefficient": -0.13699358894330158,
+      "hasPriorMvp": {
+        "Complexity": 0,
+        "HEROIC": 0,
+        "B8": 0,
+        "BetBoom": 0,
+        "TYLOO": 0,
+        "Lynn Vision": 0,
+        "Wildcard": 0,
+        "FlyQuest": 0,
+        "OG": 0,
+        "Chinggis Warriors": 0,
+        "Imperial": 0,
+        "Nemiga": 0,
+        "NRG": 0,
+        "Legacy": 0,
+        "Metizport": 0,
+        "Fluxo": 0
+      }
+    },
+    "budapest": {
+      "asOf": "2025-11-03",
+      "n": 5052,
+      "affected": 816,
+      "coefficient": -0.11663223368681598,
+      "hasPriorMvp": {
+        "Legacy": 0,
+        "FaZe": 0,
+        "B8": 0,
+        "GamerLegion": 0,
+        "fnatic": 0,
+        "PARIVISION": 1,
+        "Ninjas in Pyjamas": 0,
+        "Imperial": 0,
+        "FlyQuest": 0,
+        "Lynn Vision": 0,
+        "M80": 0,
+        "Fluxo": 0,
+        "RED Canids": 0,
+        "The Huns": 0,
+        "NRG": 0,
+        "Rare Atom": 0
+      }
+    },
+    "cologne": {
+      "asOf": "2026-06-01",
+      "n": 6567,
+      "affected": 977,
+      "coefficient": -0.13699827915285168,
+      "hasPriorMvp": {
+        "GamerLegion": 0,
+        "B8": 0,
+        "HEROIC": 0,
+        "BetBoom": 0,
+        "BIG": 0,
+        "M80": 0,
+        "MIBR": 0,
+        "SINNERS": 0,
+        "NRG": 0,
+        "TYLOO": 0,
+        "Sharks": 0,
+        "Gaimin Gladiators": 0,
+        "Liquid": 0,
+        "Lynn Vision": 0,
+        "THUNDER dOWNUNDER": 0,
+        "FlyQuest": 0
+      }
+    },
+    "shanghai-2024-elimination": {
+      "asOf": "2024-11-06",
+      "n": 1791,
+      "affected": 320,
+      "coefficient": -0.33096890673993956,
+      "hasPriorMvp": {
+        "G2": 0,
+        "Natus Vincere": 1,
+        "Vitality": 1,
+        "Spirit": 0,
+        "MOUZ": 0,
+        "FaZe": 1,
+        "HEROIC": 0,
+        "3DMAX": 0,
+        "The MongolZ": 0,
+        "Liquid": 0,
+        "GamerLegion": 0,
+        "FURIA": 0,
+        "paiN": 0,
+        "Wildcard": 0,
+        "BIG": 0,
+        "MIBR": 0
+      }
+    }
+  },
+  "sources": {
+    "rosters": "https://news.pglesports.com/news/1794219566606-pgl-major-singapore-2026-team-rosters",
+    "boxscores": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+    "awards": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award",
+    "demo": "https://huggingface.co/datasets/blanchon/opencs2_dataset_demo/tree/912a363098feec3f220e41d68634d2f71676c28b",
+    "griffin": "https://github.com/Griffinxaxa/scrape-hltv-data/tree/f5e3e90fb56fef8adc19bd5e5e898d2741d0ff58/2026-data/archive",
+    "coachRule": "https://github.com/ValveSoftware/counter-strike_rules_and_regs/blob/main/major-supplemental-rulebook.md"
+  },
+  "cardReplay": {
+    "stages": [
+      {
+        "id": "copenhagen",
+        "base": 5,
+        "candidate": 5
+      },
+      {
+        "id": "shanghai",
+        "base": 4,
+        "candidate": 4
+      },
+      {
+        "id": "austin",
+        "base": 8,
+        "candidate": 8
+      },
+      {
+        "id": "budapest",
+        "base": 6,
+        "candidate": 6
+      },
+      {
+        "id": "cologne",
+        "base": 4,
+        "candidate": 4
+      }
+    ],
+    "firstStages": {
+      "baseHits": 27,
+      "candidateHits": 27,
+      "basePasses": 3,
+      "candidatePasses": 3,
+      "passMore": 2,
+      "passSame": 26,
+      "passFewer": 2
+    },
+    "extra": {
+      "id": "shanghai-2024-elimination",
+      "base": 6,
+      "candidate": 3,
+      "basePassingSeeds": 30,
+      "candidatePassingSeeds": 19,
+      "seeds": 30
+    }
+  }
+}

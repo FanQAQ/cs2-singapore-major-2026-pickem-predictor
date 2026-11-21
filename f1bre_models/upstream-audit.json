@@ -1,0 +1,6186 @@
+{
+  "source": "https://www.xiaoheihe.cn/app/bbs/link/197229714",
+  "author": "F1bre",
+  "published": "2026-11-18T11:38:23Z",
+  "observedAt": "2026-11-21T11:03:59Z",
+  "sourceFile": "upstream-singapore.json",
+  "sourceSha256": "65a756087ed0fbe4e5b2aa18a23215fe4f1f1bdec4a45ab41a25e416cbfe9849",
+  "frozenAt": "2026-11-21T10:58:35.319Z",
+  "forecastSha256": "1aa45aeb970df7d1ff5b6e17d246b03e9ef36de859204c8279acfe6672664459",
+  "teams": [
+    "Ninjas in Pyjamas",
+    "PARIVISION",
+    "HEROIC",
+    "FaZe",
+    "Liquid",
+    "Eternal Fire",
+    "100 Thieves",
+    "9z",
+    "M80",
+    "DENDELE",
+    "Imperial",
+    "Wildcard",
+    "GOSH",
+    "FlyQuest",
+    "Chinggis Warriors",
+    "Lynn Vision"
+  ],
+  "pathsPerModel": 60000,
+  "confirmationSeed": 2777658154,
+  "confirmationStreams": {
+    "baseline": "a09faf8ed99f62f049962eced821828640b91bf5c77c962f1b7434d5fe27d581",
+    "elo": "45c0e3b54740e58e2d1ac6ffa30f0a0d5fba4118ef0524a0248c13ce76018dd6",
+    "ml": "5b8e8be5e16634cfbff64a76e4cb0990cc67b680310d1e1350fb0730fb7aae31",
+    "blend": "b409f2c0941bb3a5b5a25859332c1b0336fcb0391bfe5757b5300f8f0b7d692f"
+  },
+  "eligibleCards": 6,
+  "expectedRows": 6,
+  "rows": [
+    {
+      "method": "elo",
+      "rank": 1,
+      "reportedRate": "17.00%",
+      "reportedProbability": 0.17,
+      "sourceImage": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/04a7bb8c0e3a84c5670a3bffd44388ee/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+      "status": "scored-in-frozen-simulations",
+      "unavailableReasons": [],
+      "card": [
+        1,
+        1,
+        1,
+        3,
+        0,
+        1,
+        0,
+        3,
+        1,
+        3,
+        1,
+        3,
+        2,
+        3,
+        2,
+        3
+      ],
+      "groups": {
+        "perfect": [
+          "Liquid",
+          "100 Thieves"
+        ],
+        "advance": [
+          "Ninjas in Pyjamas",
+          "PARIVISION",
+          "HEROIC",
+          "Eternal Fire",
+          "M80",
+          "Imperial"
+        ],
+        "zero": [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      },
+      "actualHits": null,
+      "models": {
+        "baseline": {
+          "passes": 12920,
+          "passProbability": 0.21533333333333332,
+          "meanHits": 3.44995,
+          "hitHistogram": [
+            316,
+            3401,
+            11446,
+            17160,
+            14757,
+            8525,
+            3369,
+            874,
+            129,
+            23,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire",
+                    "M80"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid",
+                    "100 Thieves"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15417,
+              "both": 3461,
+              "authorOnly": 9459,
+              "frozenOnly": 11956,
+              "neither": 35124,
+              "authorMinusFrozenPp": -4.161666666666667,
+              "pairedMc95Pp": [
+                -4.638548965380156,
+                -3.6847843679531778
+              ]
+            },
+            "search": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 6,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "Eternal Fire",
+                    "M80"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15129,
+              "both": 6272,
+              "authorOnly": 6648,
+              "frozenOnly": 8857,
+              "neither": 38223,
+              "authorMinusFrozenPp": -3.6816666666666666,
+              "pairedMc95Pp": [
+                -4.08736416561117,
+                -3.2759691677221627
+              ]
+            },
+            "top1": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "Eternal Fire",
+                    "M80"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid",
+                    "100 Thieves"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15124,
+              "both": 3429,
+              "authorOnly": 9491,
+              "frozenOnly": 11695,
+              "neither": 35385,
+              "authorMinusFrozenPp": -3.6733333333333333,
+              "pairedMc95Pp": [
+                -4.14790469533464,
+                -3.1987619713320266
+              ]
+            },
+            "top2": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 6,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "Eternal Fire",
+                    "M80"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15129,
+              "both": 6272,
+              "authorOnly": 6648,
+              "frozenOnly": 8857,
+              "neither": 38223,
+              "authorMinusFrozenPp": -3.6816666666666666,
+              "pairedMc95Pp": [
+                -4.08736416561117,
+                -3.2759691677221627
+              ]
+            },
+            "top3": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 6,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "Eternal Fire",
+                    "M80"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15082,
+              "both": 6334,
+              "authorOnly": 6586,
+              "frozenOnly": 8748,
+              "neither": 38332,
+              "authorMinusFrozenPp": -3.6033333333333335,
+              "pairedMc95Pp": [
+                -4.006820889766622,
+                -3.199845776900044
+              ]
+            }
+          }
+        },
+        "elo": {
+          "passes": 17410,
+          "passProbability": 0.2901666666666667,
+          "meanHits": 3.7608,
+          "hitHistogram": [
+            211,
+            2278,
+            8468,
+            15314,
+            16319,
+            11051,
+            4806,
+            1325,
+            202,
+            26,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15062,
+              "both": 7577,
+              "authorOnly": 9833,
+              "frozenOnly": 7485,
+              "neither": 35105,
+              "authorMinusFrozenPp": 3.913333333333333,
+              "pairedMc95Pp": [
+                3.4845853301731156,
+                4.342081336493551
+              ]
+            },
+            "search": {
+              "differentSlots": 3,
+              "commonSlots": 7,
+              "changedTeamLabels": 5,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18631,
+              "both": 10031,
+              "authorOnly": 7379,
+              "frozenOnly": 8600,
+              "neither": 33990,
+              "authorMinusFrozenPp": -2.035,
+              "pairedMc95Pp": [
+                -2.4476152846595283,
+                -1.622384715340472
+              ]
+            },
+            "top1": {
+              "differentSlots": 3,
+              "commonSlots": 7,
+              "changedTeamLabels": 5,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18631,
+              "both": 10031,
+              "authorOnly": 7379,
+              "frozenOnly": 8600,
+              "neither": 33990,
+              "authorMinusFrozenPp": -2.035,
+              "pairedMc95Pp": [
+                -2.4476152846595283,
+                -1.622384715340472
+              ]
+            },
+            "top2": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "Eternal Fire",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "9z",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18520,
+              "both": 8814,
+              "authorOnly": 8596,
+              "frozenOnly": 9706,
+              "neither": 32884,
+              "authorMinusFrozenPp": -1.8499999999999999,
+              "pairedMc95Pp": [
+                -2.2916863092008675,
+                -1.4083136907991323
+              ]
+            },
+            "top3": {
+              "differentSlots": 3,
+              "commonSlots": 7,
+              "changedTeamLabels": 5,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18518,
+              "both": 9912,
+              "authorOnly": 7498,
+              "frozenOnly": 8606,
+              "neither": 33984,
+              "authorMinusFrozenPp": -1.8466666666666667,
+              "pairedMc95Pp": [
+                -2.260951703268691,
+                -1.4323816300646421
+              ]
+            }
+          }
+        },
+        "ml": {
+          "passes": 8170,
+          "passProbability": 0.13616666666666666,
+          "meanHits": 3.0371,
+          "hitHistogram": [
+            806,
+            5995,
+            14966,
+            17642,
+            12421,
+            5833,
+            1894,
+            386,
+            55,
+            2,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Eternal Fire",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Liquid",
+                    "100 Thieves",
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 11273,
+              "both": 1869,
+              "authorOnly": 6301,
+              "frozenOnly": 9404,
+              "neither": 42426,
+              "authorMinusFrozenPp": -5.171666666666667,
+              "pairedMc95Pp": [
+                -5.578950472785821,
+                -4.764382860547513
+              ]
+            },
+            "search": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 9,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Eternal Fire",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Liquid",
+                    "100 Thieves",
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12569,
+              "both": 1274,
+              "authorOnly": 6896,
+              "frozenOnly": 11295,
+              "neither": 40535,
+              "authorMinusFrozenPp": -7.331666666666667,
+              "pairedMc95Pp": [
+                -7.768335549556251,
+                -6.894997783777083
+              ]
+            },
+            "top1": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 9,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Eternal Fire",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Liquid",
+                    "100 Thieves",
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12569,
+              "both": 1274,
+              "authorOnly": 6896,
+              "frozenOnly": 11295,
+              "neither": 40535,
+              "authorMinusFrozenPp": -7.331666666666667,
+              "pairedMc95Pp": [
+                -7.768335549556251,
+                -6.894997783777083
+              ]
+            },
+            "top2": {
+              "differentSlots": 8,
+              "commonSlots": 2,
+              "changedTeamLabels": 11,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Eternal Fire",
+                    "M80",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Liquid",
+                    "100 Thieves",
+                    "9z",
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12309,
+              "both": 740,
+              "authorOnly": 7430,
+              "frozenOnly": 11569,
+              "neither": 40261,
+              "authorMinusFrozenPp": -6.8983333333333325,
+              "pairedMc95Pp": [
+                -7.345207959059237,
+                -6.451458707607428
+              ]
+            },
+            "top3": {
+              "differentSlots": 8,
+              "commonSlots": 2,
+              "changedTeamLabels": 11,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Eternal Fire",
+                    "M80",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid",
+                    "100 Thieves",
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12376,
+              "both": 762,
+              "authorOnly": 7408,
+              "frozenOnly": 11614,
+              "neither": 40216,
+              "authorMinusFrozenPp": -7.01,
+              "pairedMc95Pp": [
+                -7.457037950814446,
+                -6.562962049185553
+              ]
+            }
+          }
+        },
+        "blend": {
+          "passes": 12388,
+          "passProbability": 0.20646666666666666,
+          "meanHits": 3.3781833333333333,
+          "hitHistogram": [
+            467,
+            4119,
+            11795,
+            16829,
+            14402,
+            8423,
+            3122,
+            715,
+            117,
+            11,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION",
+                    "HEROIC"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "HEROIC",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Liquid",
+                    "100 Thieves",
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 11891,
+              "both": 2746,
+              "authorOnly": 9642,
+              "frozenOnly": 9145,
+              "neither": 38467,
+              "authorMinusFrozenPp": 0.8283333333333334,
+              "pairedMc95Pp": [
+                0.3806307824554042,
+                1.2760358842112625
+              ]
+            },
+            "search": {
+              "differentSlots": 1,
+              "commonSlots": 9,
+              "changedTeamLabels": 2,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                },
+                "advance": {
+                  "authorOnly": [
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13826,
+              "both": 9969,
+              "authorOnly": 2419,
+              "frozenOnly": 3857,
+              "neither": 43755,
+              "authorMinusFrozenPp": -2.396666666666667,
+              "pairedMc95Pp": [
+                -2.6547465642484394,
+                -2.1385867690848945
+              ]
+            },
+            "top1": {
+              "differentSlots": 1,
+              "commonSlots": 9,
+              "changedTeamLabels": 2,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                },
+                "advance": {
+                  "authorOnly": [
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13826,
+              "both": 9969,
+              "authorOnly": 2419,
+              "frozenOnly": 3857,
+              "neither": 43755,
+              "authorMinusFrozenPp": -2.396666666666667,
+              "pairedMc95Pp": [
+                -2.6547465642484394,
+                -2.1385867690848945
+              ]
+            },
+            "top2": {
+              "differentSlots": 3,
+              "commonSlots": 7,
+              "changedTeamLabels": 5,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13879,
+              "both": 6719,
+              "authorOnly": 5669,
+              "frozenOnly": 7160,
+              "neither": 40452,
+              "authorMinusFrozenPp": -2.485,
+              "pairedMc95Pp": [
+                -2.854467969493233,
+                -2.115532030506767
+              ]
+            },
+            "top3": {
+              "differentSlots": 3,
+              "commonSlots": 7,
+              "changedTeamLabels": 5,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "DENDELE",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13464,
+              "both": 6609,
+              "authorOnly": 5779,
+              "frozenOnly": 6855,
+              "neither": 40757,
+              "authorMinusFrozenPp": -1.7933333333333332,
+              "pairedMc95Pp": [
+                -2.1602327047663747,
+                -1.426433961900292
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "method": "elo",
+      "rank": 2,
+      "reportedRate": "16.80%",
+      "reportedProbability": 0.168,
+      "sourceImage": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/04a7bb8c0e3a84c5670a3bffd44388ee/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+      "status": "scored-in-frozen-simulations",
+      "unavailableReasons": [],
+      "card": [
+        1,
+        1,
+        1,
+        3,
+        0,
+        3,
+        0,
+        1,
+        1,
+        3,
+        1,
+        3,
+        2,
+        3,
+        2,
+        3
+      ],
+      "groups": {
+        "perfect": [
+          "Liquid",
+          "100 Thieves"
+        ],
+        "advance": [
+          "Ninjas in Pyjamas",
+          "PARIVISION",
+          "HEROIC",
+          "9z",
+          "M80",
+          "Imperial"
+        ],
+        "zero": [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      },
+      "actualHits": null,
+      "models": {
+        "baseline": {
+          "passes": 10844,
+          "passProbability": 0.18073333333333333,
+          "meanHits": 3.2668833333333334,
+          "hitHistogram": [
+            532,
+            4631,
+            12818,
+            17299,
+            13876,
+            7532,
+            2603,
+            613,
+            88,
+            8,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 9,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "9z",
+                    "M80"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid",
+                    "100 Thieves"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15417,
+              "both": 3352,
+              "authorOnly": 7492,
+              "frozenOnly": 12065,
+              "neither": 37091,
+              "authorMinusFrozenPp": -7.621666666666667,
+              "pairedMc95Pp": [
+                -8.074412776399424,
+                -7.16892055693391
+              ]
+            },
+            "search": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "9z",
+                    "M80"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15129,
+              "both": 6007,
+              "authorOnly": 4837,
+              "frozenOnly": 9122,
+              "neither": 40034,
+              "authorMinusFrozenPp": -7.141666666666667,
+              "pairedMc95Pp": [
+                -7.523366667163987,
+                -6.759966666169347
+              ]
+            },
+            "top1": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 9,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "9z",
+                    "M80"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid",
+                    "100 Thieves"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15124,
+              "both": 3315,
+              "authorOnly": 7529,
+              "frozenOnly": 11809,
+              "neither": 37347,
+              "authorMinusFrozenPp": -7.133333333333333,
+              "pairedMc95Pp": [
+                -7.584003246196258,
+                -6.6826634204704085
+              ]
+            },
+            "top2": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "9z",
+                    "M80"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15129,
+              "both": 6007,
+              "authorOnly": 4837,
+              "frozenOnly": 9122,
+              "neither": 40034,
+              "authorMinusFrozenPp": -7.141666666666667,
+              "pairedMc95Pp": [
+                -7.523366667163987,
+                -6.759966666169347
+              ]
+            },
+            "top3": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "9z",
+                    "M80"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15082,
+              "both": 6124,
+              "authorOnly": 4720,
+              "frozenOnly": 8958,
+              "neither": 40198,
+              "authorMinusFrozenPp": -7.063333333333334,
+              "pairedMc95Pp": [
+                -7.441179205932621,
+                -6.685487460734047
+              ]
+            }
+          }
+        },
+        "elo": {
+          "passes": 17375,
+          "passProbability": 0.28958333333333336,
+          "meanHits": 3.7599,
+          "hitHistogram": [
+            210,
+            2343,
+            8373,
+            15291,
+            16408,
+            11050,
+            4803,
+            1267,
+            232,
+            23,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 9,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "9z",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Eternal Fire",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15062,
+              "both": 6579,
+              "authorOnly": 10796,
+              "frozenOnly": 8483,
+              "neither": 34142,
+              "authorMinusFrozenPp": 3.855,
+              "pairedMc95Pp": [
+                3.40247346793643,
+                4.30752653206357
+              ]
+            },
+            "search": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "9z",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Eternal Fire",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18631,
+              "both": 8776,
+              "authorOnly": 8599,
+              "frozenOnly": 9855,
+              "neither": 32770,
+              "authorMinusFrozenPp": -2.0933333333333337,
+              "pairedMc95Pp": [
+                -2.5367827602154205,
+                -1.6498839064512465
+              ]
+            },
+            "top1": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "9z",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Eternal Fire",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18631,
+              "both": 8776,
+              "authorOnly": 8599,
+              "frozenOnly": 9855,
+              "neither": 32770,
+              "authorMinusFrozenPp": -2.0933333333333337,
+              "pairedMc95Pp": [
+                -2.5367827602154205,
+                -1.6498839064512465
+              ]
+            },
+            "top2": {
+              "differentSlots": 3,
+              "commonSlots": 7,
+              "changedTeamLabels": 5,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18520,
+              "both": 9978,
+              "authorOnly": 7397,
+              "frozenOnly": 8542,
+              "neither": 34083,
+              "authorMinusFrozenPp": -1.9083333333333334,
+              "pairedMc95Pp": [
+                -2.3204698431424475,
+                -1.4961968235242196
+              ]
+            },
+            "top3": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "9z",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Eternal Fire",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18518,
+              "both": 8700,
+              "authorOnly": 8675,
+              "frozenOnly": 9818,
+              "neither": 32807,
+              "authorMinusFrozenPp": -1.905,
+              "pairedMc95Pp": [
+                -2.348972734073,
+                -1.4610272659270003
+              ]
+            }
+          }
+        },
+        "ml": {
+          "passes": 7552,
+          "passProbability": 0.12586666666666665,
+          "meanHits": 2.9774333333333334,
+          "hitHistogram": [
+            938,
+            6360,
+            15425,
+            17692,
+            12033,
+            5487,
+            1704,
+            322,
+            36,
+            3,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 9,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "9z",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Liquid",
+                    "100 Thieves",
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 11273,
+              "both": 1956,
+              "authorOnly": 5596,
+              "frozenOnly": 9317,
+              "neither": 43131,
+              "authorMinusFrozenPp": -6.201666666666666,
+              "pairedMc95Pp": [
+                -6.597492869493216,
+                -5.805840463840117
+              ]
+            },
+            "search": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "9z",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Liquid",
+                    "100 Thieves",
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12569,
+              "both": 1367,
+              "authorOnly": 6185,
+              "frozenOnly": 11202,
+              "neither": 41246,
+              "authorMinusFrozenPp": -8.361666666666668,
+              "pairedMc95Pp": [
+                -8.787184050717341,
+                -7.936149282615994
+              ]
+            },
+            "top1": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "9z",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Liquid",
+                    "100 Thieves",
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12569,
+              "both": 1367,
+              "authorOnly": 6185,
+              "frozenOnly": 11202,
+              "neither": 41246,
+              "authorMinusFrozenPp": -8.361666666666668,
+              "pairedMc95Pp": [
+                -8.787184050717341,
+                -7.936149282615994
+              ]
+            },
+            "top2": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "M80",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Liquid",
+                    "100 Thieves",
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12309,
+              "both": 1252,
+              "authorOnly": 6300,
+              "frozenOnly": 11057,
+              "neither": 41391,
+              "authorMinusFrozenPp": -7.928333333333333,
+              "pairedMc95Pp": [
+                -8.354005598383822,
+                -7.502661068282846
+              ]
+            },
+            "top3": {
+              "differentSlots": 8,
+              "commonSlots": 2,
+              "changedTeamLabels": 12,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "9z",
+                    "M80",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid",
+                    "100 Thieves",
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12376,
+              "both": 852,
+              "authorOnly": 6700,
+              "frozenOnly": 11524,
+              "neither": 40924,
+              "authorMinusFrozenPp": -8.04,
+              "pairedMc95Pp": [
+                -8.476273669796996,
+                -7.603726330203004
+              ]
+            }
+          }
+        },
+        "blend": {
+          "passes": 11922,
+          "passProbability": 0.1987,
+          "meanHits": 3.3461666666666665,
+          "hitHistogram": [
+            478,
+            4282,
+            12110,
+            16867,
+            14341,
+            8131,
+            2988,
+            713,
+            82,
+            7,
+            1
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION",
+                    "HEROIC"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "HEROIC",
+                    "9z",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Liquid",
+                    "Eternal Fire",
+                    "100 Thieves",
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 11891,
+              "both": 2072,
+              "authorOnly": 9850,
+              "frozenOnly": 9819,
+              "neither": 38259,
+              "authorMinusFrozenPp": 0.051666666666666666,
+              "pairedMc95Pp": [
+                -0.4064745907554782,
+                0.5098079240888116
+              ]
+            },
+            "search": {
+              "differentSlots": 2,
+              "commonSlots": 8,
+              "changedTeamLabels": 4,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                },
+                "advance": {
+                  "authorOnly": [
+                    "9z",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire",
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13826,
+              "both": 8179,
+              "authorOnly": 3743,
+              "frozenOnly": 5647,
+              "neither": 42431,
+              "authorMinusFrozenPp": -3.173333333333334,
+              "pairedMc95Pp": [
+                -3.4888624782075564,
+                -2.857804188459111
+              ]
+            },
+            "top1": {
+              "differentSlots": 2,
+              "commonSlots": 8,
+              "changedTeamLabels": 4,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                },
+                "advance": {
+                  "authorOnly": [
+                    "9z",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire",
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13826,
+              "both": 8179,
+              "authorOnly": 3743,
+              "frozenOnly": 5647,
+              "neither": 42431,
+              "authorMinusFrozenPp": -3.173333333333334,
+              "pairedMc95Pp": [
+                -3.4888624782075564,
+                -2.857804188459111
+              ]
+            },
+            "top2": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "9z",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Eternal Fire",
+                    "DENDELE"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13879,
+              "both": 5553,
+              "authorOnly": 6369,
+              "frozenOnly": 8326,
+              "neither": 39752,
+              "authorMinusFrozenPp": -3.2616666666666667,
+              "pairedMc95Pp": [
+                -3.6568039013898948,
+                -2.866529431943439
+              ]
+            },
+            "top3": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "9z",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire",
+                    "DENDELE",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13464,
+              "both": 5455,
+              "authorOnly": 6467,
+              "frozenOnly": 8009,
+              "neither": 40069,
+              "authorMinusFrozenPp": -2.5700000000000003,
+              "pairedMc95Pp": [
+                -2.96249800291443,
+                -2.17750199708557
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "method": "elo",
+      "rank": 3,
+      "reportedRate": "16.72%",
+      "reportedProbability": 0.1672,
+      "sourceImage": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/04a7bb8c0e3a84c5670a3bffd44388ee/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+      "status": "scored-in-frozen-simulations",
+      "unavailableReasons": [],
+      "card": [
+        1,
+        1,
+        1,
+        3,
+        0,
+        3,
+        0,
+        3,
+        1,
+        1,
+        1,
+        3,
+        2,
+        3,
+        2,
+        3
+      ],
+      "groups": {
+        "perfect": [
+          "Liquid",
+          "100 Thieves"
+        ],
+        "advance": [
+          "Ninjas in Pyjamas",
+          "PARIVISION",
+          "HEROIC",
+          "M80",
+          "DENDELE",
+          "Imperial"
+        ],
+        "zero": [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      },
+      "actualHits": null,
+      "models": {
+        "baseline": {
+          "passes": 11687,
+          "passProbability": 0.19478333333333334,
+          "meanHits": 3.3331,
+          "hitHistogram": [
+            473,
+            4353,
+            12279,
+            17108,
+            14100,
+            7804,
+            2992,
+            758,
+            124,
+            9,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 9,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "M80",
+                    "DENDELE"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid",
+                    "100 Thieves"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15417,
+              "both": 3578,
+              "authorOnly": 8109,
+              "frozenOnly": 11839,
+              "neither": 36474,
+              "authorMinusFrozenPp": -6.216666666666667,
+              "pairedMc95Pp": [
+                -6.675356535773687,
+                -5.757976797559647
+              ]
+            },
+            "search": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "M80",
+                    "DENDELE"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15129,
+              "both": 6346,
+              "authorOnly": 5341,
+              "frozenOnly": 8783,
+              "neither": 39530,
+              "authorMinusFrozenPp": -5.736666666666667,
+              "pairedMc95Pp": [
+                -6.122171756917471,
+                -5.351161576415863
+              ]
+            },
+            "top1": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 9,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "M80",
+                    "DENDELE"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid",
+                    "100 Thieves"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15124,
+              "both": 3503,
+              "authorOnly": 8184,
+              "frozenOnly": 11621,
+              "neither": 36692,
+              "authorMinusFrozenPp": -5.7283333333333335,
+              "pairedMc95Pp": [
+                -6.185765169283907,
+                -5.270901497382759
+              ]
+            },
+            "top2": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "M80",
+                    "DENDELE"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15129,
+              "both": 6346,
+              "authorOnly": 5341,
+              "frozenOnly": 8783,
+              "neither": 39530,
+              "authorMinusFrozenPp": -5.736666666666667,
+              "pairedMc95Pp": [
+                -6.122171756917471,
+                -5.351161576415863
+              ]
+            },
+            "top3": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "M80",
+                    "DENDELE"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15082,
+              "both": 6417,
+              "authorOnly": 5270,
+              "frozenOnly": 8665,
+              "neither": 39648,
+              "authorMinusFrozenPp": -5.658333333333333,
+              "pairedMc95Pp": [
+                -6.041288229742127,
+                -5.275378436924539
+              ]
+            }
+          }
+        },
+        "elo": {
+          "passes": 17021,
+          "passProbability": 0.28368333333333334,
+          "meanHits": 3.7186833333333333,
+          "hitHistogram": [
+            277,
+            2514,
+            8906,
+            15353,
+            15929,
+            10867,
+            4662,
+            1255,
+            206,
+            30,
+            1
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 9,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Eternal Fire",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15062,
+              "both": 6420,
+              "authorOnly": 10601,
+              "frozenOnly": 8642,
+              "neither": 34337,
+              "authorMinusFrozenPp": 3.2649999999999997,
+              "pairedMc95Pp": [
+                2.812600769758793,
+                3.717399230241207
+              ]
+            },
+            "search": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Eternal Fire",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18631,
+              "both": 8618,
+              "authorOnly": 8403,
+              "frozenOnly": 10013,
+              "neither": 32966,
+              "authorMinusFrozenPp": -2.6833333333333336,
+              "pairedMc95Pp": [
+                -3.126121589871045,
+                -2.2405450767956223
+              ]
+            },
+            "top1": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Eternal Fire",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18631,
+              "both": 8618,
+              "authorOnly": 8403,
+              "frozenOnly": 10013,
+              "neither": 32966,
+              "authorMinusFrozenPp": -2.6833333333333336,
+              "pairedMc95Pp": [
+                -3.126121589871045,
+                -2.2405450767956223
+              ]
+            },
+            "top2": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "9z",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18520,
+              "both": 8601,
+              "authorOnly": 8420,
+              "frozenOnly": 9919,
+              "neither": 33060,
+              "authorMinusFrozenPp": -2.4983333333333335,
+              "pairedMc95Pp": [
+                -2.9402622058869494,
+                -2.056404460779717
+              ]
+            },
+            "top3": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Eternal Fire",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18518,
+              "both": 8485,
+              "authorOnly": 8536,
+              "frozenOnly": 10033,
+              "neither": 32946,
+              "authorMinusFrozenPp": -2.495,
+              "pairedMc95Pp": [
+                -2.939698314101517,
+                -2.0503016858984826
+              ]
+            }
+          }
+        },
+        "ml": {
+          "passes": 8239,
+          "passProbability": 0.13731666666666667,
+          "meanHits": 3.0284,
+          "hitHistogram": [
+            865,
+            6187,
+            14998,
+            17402,
+            12309,
+            5846,
+            1950,
+            397,
+            44,
+            2,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 11273,
+              "both": 2680,
+              "authorOnly": 5559,
+              "frozenOnly": 8593,
+              "neither": 43168,
+              "authorMinusFrozenPp": -5.056666666666667,
+              "pairedMc95Pp": [
+                -5.443167507698432,
+                -4.670165825634903
+              ]
+            },
+            "search": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12569,
+              "both": 2042,
+              "authorOnly": 6197,
+              "frozenOnly": 10527,
+              "neither": 41234,
+              "authorMinusFrozenPp": -7.216666666666667,
+              "pairedMc95Pp": [
+                -7.6351544854913165,
+                -6.798178847842018
+              ]
+            },
+            "top1": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12569,
+              "both": 2042,
+              "authorOnly": 6197,
+              "frozenOnly": 10527,
+              "neither": 41234,
+              "authorMinusFrozenPp": -7.216666666666667,
+              "pairedMc95Pp": [
+                -7.6351544854913165,
+                -6.798178847842018
+              ]
+            },
+            "top2": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "M80",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Liquid",
+                    "100 Thieves",
+                    "9z"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12309,
+              "both": 1422,
+              "authorOnly": 6817,
+              "frozenOnly": 10887,
+              "neither": 40874,
+              "authorMinusFrozenPp": -6.783333333333333,
+              "pairedMc95Pp": [
+                -7.214585408817707,
+                -6.352081257848958
+              ]
+            },
+            "top3": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "M80",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid",
+                    "100 Thieves"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12376,
+              "both": 1451,
+              "authorOnly": 6788,
+              "frozenOnly": 10925,
+              "neither": 40836,
+              "authorMinusFrozenPp": -6.895,
+              "pairedMc95Pp": [
+                -7.326250040417853,
+                -6.463749959582146
+              ]
+            }
+          }
+        },
+        "blend": {
+          "passes": 12262,
+          "passProbability": 0.20436666666666667,
+          "meanHits": 3.35805,
+          "hitHistogram": [
+            524,
+            4306,
+            12018,
+            16596,
+            14294,
+            8359,
+            3065,
+            725,
+            102,
+            9,
+            2
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Liquid",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION",
+                    "HEROIC"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "HEROIC",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Liquid",
+                    "Eternal Fire",
+                    "100 Thieves"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 11891,
+              "both": 2748,
+              "authorOnly": 9514,
+              "frozenOnly": 9143,
+              "neither": 38595,
+              "authorMinusFrozenPp": 0.6183333333333333,
+              "pairedMc95Pp": [
+                0.17216099205413513,
+                1.0645056746125314
+              ]
+            },
+            "search": {
+              "differentSlots": 1,
+              "commonSlots": 9,
+              "changedTeamLabels": 2,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                },
+                "advance": {
+                  "authorOnly": [
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13826,
+              "both": 9949,
+              "authorOnly": 2313,
+              "frozenOnly": 3877,
+              "neither": 43861,
+              "authorMinusFrozenPp": -2.6066666666666665,
+              "pairedMc95Pp": [
+                -2.862831123109885,
+                -2.350502210223448
+              ]
+            },
+            "top1": {
+              "differentSlots": 1,
+              "commonSlots": 9,
+              "changedTeamLabels": 2,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                },
+                "advance": {
+                  "authorOnly": [
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13826,
+              "both": 9949,
+              "authorOnly": 2313,
+              "frozenOnly": 3877,
+              "neither": 43861,
+              "authorMinusFrozenPp": -2.6066666666666665,
+              "pairedMc95Pp": [
+                -2.862831123109885,
+                -2.350502210223448
+              ]
+            },
+            "top2": {
+              "differentSlots": 3,
+              "commonSlots": 7,
+              "changedTeamLabels": 5,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Eternal Fire"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13879,
+              "both": 6696,
+              "authorOnly": 5566,
+              "frozenOnly": 7183,
+              "neither": 40555,
+              "authorMinusFrozenPp": -2.6950000000000003,
+              "pairedMc95Pp": [
+                -3.063216278829923,
+                -2.3267837211700773
+              ]
+            },
+            "top3": {
+              "differentSlots": 3,
+              "commonSlots": 7,
+              "changedTeamLabels": 5,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Imperial"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13464,
+              "both": 6589,
+              "authorOnly": 5673,
+              "frozenOnly": 6875,
+              "neither": 40863,
+              "authorMinusFrozenPp": -2.0033333333333334,
+              "pairedMc95Pp": [
+                -2.3689100948961217,
+                -1.6377565717705451
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "method": "ml",
+      "rank": 1,
+      "reportedRate": "20.66%",
+      "reportedProbability": 0.2066,
+      "sourceImage": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/1e20da7540425b2dc3c4cd98d0722de4/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+      "status": "scored-in-frozen-simulations",
+      "unavailableReasons": [],
+      "card": [
+        0,
+        1,
+        1,
+        1,
+        3,
+        3,
+        0,
+        3,
+        3,
+        1,
+        3,
+        3,
+        2,
+        1,
+        2,
+        1
+      ],
+      "groups": {
+        "perfect": [
+          "Ninjas in Pyjamas",
+          "100 Thieves"
+        ],
+        "advance": [
+          "PARIVISION",
+          "HEROIC",
+          "FaZe",
+          "DENDELE",
+          "FlyQuest",
+          "Lynn Vision"
+        ],
+        "zero": [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      },
+      "actualHits": null,
+      "models": {
+        "baseline": {
+          "passes": 9278,
+          "passProbability": 0.15463333333333334,
+          "meanHits": 3.1303,
+          "hitHistogram": [
+            756,
+            5599,
+            13739,
+            17177,
+            13451,
+            6747,
+            2092,
+            394,
+            44,
+            1,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Liquid",
+                    "100 Thieves",
+                    "Imperial"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15417,
+              "both": 4105,
+              "authorOnly": 5173,
+              "frozenOnly": 11312,
+              "neither": 39410,
+              "authorMinusFrozenPp": -10.231666666666667,
+              "pairedMc95Pp": [
+                -10.643022141964613,
+                -9.82031119136872
+              ]
+            },
+            "search": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Liquid",
+                    "Imperial"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15129,
+              "both": 4148,
+              "authorOnly": 5130,
+              "frozenOnly": 10981,
+              "neither": 39741,
+              "authorMinusFrozenPp": -9.751666666666667,
+              "pairedMc95Pp": [
+                -10.158896846057768,
+                -9.344436487275566
+              ]
+            },
+            "top1": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Liquid",
+                    "100 Thieves",
+                    "Imperial"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15124,
+              "both": 1990,
+              "authorOnly": 7288,
+              "frozenOnly": 13134,
+              "neither": 37588,
+              "authorMinusFrozenPp": -9.743333333333332,
+              "pairedMc95Pp": [
+                -10.203605804352337,
+                -9.283060862314327
+              ]
+            },
+            "top2": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Liquid",
+                    "Imperial"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15129,
+              "both": 4148,
+              "authorOnly": 5130,
+              "frozenOnly": 10981,
+              "neither": 39741,
+              "authorMinusFrozenPp": -9.751666666666667,
+              "pairedMc95Pp": [
+                -10.158896846057768,
+                -9.344436487275566
+              ]
+            },
+            "top3": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Liquid",
+                    "Imperial"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15082,
+              "both": 4178,
+              "authorOnly": 5100,
+              "frozenOnly": 10904,
+              "neither": 39818,
+              "authorMinusFrozenPp": -9.673333333333334,
+              "pairedMc95Pp": [
+                -10.07927916381813,
+                -9.267387502848537
+              ]
+            }
+          }
+        },
+        "elo": {
+          "passes": 14787,
+          "passProbability": 0.24645,
+          "meanHits": 3.60785,
+          "hitHistogram": [
+            260,
+            2649,
+            9381,
+            16389,
+            16534,
+            10018,
+            3815,
+            859,
+            91,
+            4,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 9,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire",
+                    "M80",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15062,
+              "both": 4302,
+              "authorOnly": 10485,
+              "frozenOnly": 10760,
+              "neither": 34453,
+              "authorMinusFrozenPp": -0.4583333333333333,
+              "pairedMc95Pp": [
+                -0.9344615553604003,
+                0.017794888693733763
+              ]
+            },
+            "search": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire",
+                    "M80",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18631,
+              "both": 6197,
+              "authorOnly": 8590,
+              "frozenOnly": 12434,
+              "neither": 32779,
+              "authorMinusFrozenPp": -6.406666666666666,
+              "pairedMc95Pp": [
+                -6.877543653466573,
+                -5.935789679866759
+              ]
+            },
+            "top1": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire",
+                    "M80",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18631,
+              "both": 6197,
+              "authorOnly": 8590,
+              "frozenOnly": 12434,
+              "neither": 32779,
+              "authorMinusFrozenPp": -6.406666666666666,
+              "pairedMc95Pp": [
+                -6.877543653466573,
+                -5.935789679866759
+              ]
+            },
+            "top2": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "9z",
+                    "M80",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18520,
+              "both": 6224,
+              "authorOnly": 8563,
+              "frozenOnly": 12296,
+              "neither": 32917,
+              "authorMinusFrozenPp": -6.221666666666667,
+              "pairedMc95Pp": [
+                -6.690829706854082,
+                -5.752503626479253
+              ]
+            },
+            "top3": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION",
+                    "Liquid"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire",
+                    "M80",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18518,
+              "both": 5228,
+              "authorOnly": 9559,
+              "frozenOnly": 13290,
+              "neither": 31923,
+              "authorMinusFrozenPp": -6.218333333333334,
+              "pairedMc95Pp": [
+                -6.709609710067231,
+                -5.7270569565994345
+              ]
+            }
+          }
+        },
+        "ml": {
+          "passes": 6552,
+          "passProbability": 0.1092,
+          "meanHits": 2.90905,
+          "hitHistogram": [
+            945,
+            6753,
+            16013,
+            17764,
+            11973,
+            4960,
+            1373,
+            210,
+            9,
+            0,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "FaZe",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Liquid",
+                    "100 Thieves",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 11273,
+              "both": 1148,
+              "authorOnly": 5404,
+              "frozenOnly": 10125,
+              "neither": 43323,
+              "authorMinusFrozenPp": -7.868333333333332,
+              "pairedMc95Pp": [
+                -8.270515439461377,
+                -7.466151227205288
+              ]
+            },
+            "search": {
+              "differentSlots": 8,
+              "commonSlots": 2,
+              "changedTeamLabels": 12,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "FaZe",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Liquid",
+                    "100 Thieves",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12569,
+              "both": 779,
+              "authorOnly": 5773,
+              "frozenOnly": 11790,
+              "neither": 41658,
+              "authorMinusFrozenPp": -10.028333333333334,
+              "pairedMc95Pp": [
+                -10.453751646228415,
+                -9.602915020438251
+              ]
+            },
+            "top1": {
+              "differentSlots": 8,
+              "commonSlots": 2,
+              "changedTeamLabels": 12,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "FaZe",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Liquid",
+                    "100 Thieves",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12569,
+              "both": 779,
+              "authorOnly": 5773,
+              "frozenOnly": 11790,
+              "neither": 41658,
+              "authorMinusFrozenPp": -10.028333333333334,
+              "pairedMc95Pp": [
+                -10.453751646228415,
+                -9.602915020438251
+              ]
+            },
+            "top2": {
+              "differentSlots": 8,
+              "commonSlots": 2,
+              "changedTeamLabels": 12,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "FaZe",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Liquid",
+                    "100 Thieves",
+                    "9z"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12309,
+              "both": 768,
+              "authorOnly": 5784,
+              "frozenOnly": 11541,
+              "neither": 41907,
+              "authorMinusFrozenPp": -9.594999999999999,
+              "pairedMc95Pp": [
+                -10.018066697401059,
+                -9.171933302598939
+              ]
+            },
+            "top3": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Liquid",
+                    "100 Thieves"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12376,
+              "both": 1156,
+              "authorOnly": 5396,
+              "frozenOnly": 11220,
+              "neither": 42228,
+              "authorMinusFrozenPp": -9.706666666666667,
+              "pairedMc95Pp": [
+                -10.12052833947427,
+                -9.292804993859063
+              ]
+            }
+          }
+        },
+        "blend": {
+          "passes": 10228,
+          "passProbability": 0.17046666666666666,
+          "meanHits": 3.2415833333333333,
+          "hitHistogram": [
+            585,
+            4556,
+            12804,
+            17487,
+            14340,
+            7420,
+            2298,
+            459,
+            50,
+            1,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 8,
+              "commonSlots": 2,
+              "changedTeamLabels": 11,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION",
+                    "HEROIC"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "HEROIC",
+                    "FaZe",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Liquid",
+                    "Eternal Fire",
+                    "100 Thieves",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 11891,
+              "both": 1072,
+              "authorOnly": 9156,
+              "frozenOnly": 10819,
+              "neither": 38953,
+              "authorMinusFrozenPp": -2.7716666666666665,
+              "pairedMc95Pp": [
+                -3.2328251289423715,
+                -2.310508204390962
+              ]
+            },
+            "search": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "Liquid"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "FaZe",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13826,
+              "both": 5088,
+              "authorOnly": 5140,
+              "frozenOnly": 8738,
+              "neither": 41034,
+              "authorMinusFrozenPp": -5.996666666666667,
+              "pairedMc95Pp": [
+                -6.378496092261958,
+                -5.614837241071376
+              ]
+            },
+            "top1": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "Liquid"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "FaZe",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13826,
+              "both": 5088,
+              "authorOnly": 5140,
+              "frozenOnly": 8738,
+              "neither": 41034,
+              "authorMinusFrozenPp": -5.996666666666667,
+              "pairedMc95Pp": [
+                -6.378496092261958,
+                -5.614837241071376
+              ]
+            },
+            "top2": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Liquid"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13879,
+              "both": 3898,
+              "authorOnly": 6330,
+              "frozenOnly": 9981,
+              "neither": 39791,
+              "authorMinusFrozenPp": -6.085,
+              "pairedMc95Pp": [
+                -6.499353261140479,
+                -5.670646738859521
+              ]
+            },
+            "top3": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Liquid"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "FaZe",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire",
+                    "M80",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13464,
+              "both": 3171,
+              "authorOnly": 7057,
+              "frozenOnly": 10293,
+              "neither": 39479,
+              "authorMinusFrozenPp": -5.3933333333333335,
+              "pairedMc95Pp": [
+                -5.821450632671394,
+                -4.965216033995272
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "method": "ml",
+      "rank": 2,
+      "reportedRate": "20.51%",
+      "reportedProbability": 0.2051,
+      "sourceImage": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/1e20da7540425b2dc3c4cd98d0722de4/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+      "status": "scored-in-frozen-simulations",
+      "unavailableReasons": [],
+      "card": [
+        0,
+        1,
+        1,
+        3,
+        1,
+        3,
+        0,
+        3,
+        3,
+        1,
+        3,
+        3,
+        2,
+        1,
+        2,
+        1
+      ],
+      "groups": {
+        "perfect": [
+          "Ninjas in Pyjamas",
+          "100 Thieves"
+        ],
+        "advance": [
+          "PARIVISION",
+          "HEROIC",
+          "Liquid",
+          "DENDELE",
+          "FlyQuest",
+          "Lynn Vision"
+        ],
+        "zero": [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      },
+      "actualHits": null,
+      "models": {
+        "baseline": {
+          "passes": 8770,
+          "passProbability": 0.14616666666666667,
+          "meanHits": 3.07715,
+          "hitHistogram": [
+            857,
+            6073,
+            14040,
+            17204,
+            13056,
+            6440,
+            1906,
+            388,
+            36,
+            0,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "100 Thieves",
+                    "Imperial"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15417,
+              "both": 3844,
+              "authorOnly": 4926,
+              "frozenOnly": 11573,
+              "neither": 39657,
+              "authorMinusFrozenPp": -11.078333333333333,
+              "pairedMc95Pp": [
+                -11.48846441829322,
+                -10.668202248373447
+              ]
+            },
+            "search": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Imperial"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15129,
+              "both": 3972,
+              "authorOnly": 4798,
+              "frozenOnly": 11157,
+              "neither": 40073,
+              "authorMinusFrozenPp": -10.598333333333333,
+              "pairedMc95Pp": [
+                -11.002150769085562,
+                -10.194515897581105
+              ]
+            },
+            "top1": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "100 Thieves",
+                    "Imperial"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15124,
+              "both": 1853,
+              "authorOnly": 6917,
+              "frozenOnly": 13271,
+              "neither": 37959,
+              "authorMinusFrozenPp": -10.59,
+              "pairedMc95Pp": [
+                -11.046345694568997,
+                -10.133654305431003
+              ]
+            },
+            "top2": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Imperial"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15129,
+              "both": 3972,
+              "authorOnly": 4798,
+              "frozenOnly": 11157,
+              "neither": 40073,
+              "authorMinusFrozenPp": -10.598333333333333,
+              "pairedMc95Pp": [
+                -11.002150769085562,
+                -10.194515897581105
+              ]
+            },
+            "top3": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Imperial"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15082,
+              "both": 3979,
+              "authorOnly": 4791,
+              "frozenOnly": 11103,
+              "neither": 40127,
+              "authorMinusFrozenPp": -10.52,
+              "pairedMc95Pp": [
+                -10.923142024495338,
+                -10.116857975504663
+              ]
+            }
+          }
+        },
+        "elo": {
+          "passes": 14589,
+          "passProbability": 0.24315,
+          "meanHits": 3.58035,
+          "hitHistogram": [
+            314,
+            2800,
+            9633,
+            16556,
+            16108,
+            9922,
+            3727,
+            838,
+            101,
+            1,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 11,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "Liquid",
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Eternal Fire",
+                    "M80",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15062,
+              "both": 3420,
+              "authorOnly": 11169,
+              "frozenOnly": 11642,
+              "neither": 33769,
+              "authorMinusFrozenPp": -0.7883333333333332,
+              "pairedMc95Pp": [
+                -1.2816719405004742,
+                -0.29499472616619227
+              ]
+            },
+            "search": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "Liquid",
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Eternal Fire",
+                    "M80",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18631,
+              "both": 5230,
+              "authorOnly": 9359,
+              "frozenOnly": 13401,
+              "neither": 32010,
+              "authorMinusFrozenPp": -6.736666666666667,
+              "pairedMc95Pp": [
+                -7.226536840133901,
+                -6.246796493199433
+              ]
+            },
+            "top1": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "Liquid",
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Eternal Fire",
+                    "M80",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18631,
+              "both": 5230,
+              "authorOnly": 9359,
+              "frozenOnly": 13401,
+              "neither": 32010,
+              "authorMinusFrozenPp": -6.736666666666667,
+              "pairedMc95Pp": [
+                -7.226536840133901,
+                -6.246796493199433
+              ]
+            },
+            "top2": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "Liquid",
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "9z",
+                    "M80",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18520,
+              "both": 5242,
+              "authorOnly": 9347,
+              "frozenOnly": 13278,
+              "neither": 32133,
+              "authorMinusFrozenPp": -6.551666666666667,
+              "pairedMc95Pp": [
+                -7.0402253273085895,
+                -6.063108006024744
+              ]
+            },
+            "top3": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 11,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION",
+                    "Liquid"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "Liquid",
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Eternal Fire",
+                    "M80",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18518,
+              "both": 3921,
+              "authorOnly": 10668,
+              "frozenOnly": 14597,
+              "neither": 30814,
+              "authorMinusFrozenPp": -6.548333333333334,
+              "pairedMc95Pp": [
+                -7.064922690207812,
+                -6.031743976458856
+              ]
+            }
+          }
+        },
+        "ml": {
+          "passes": 6923,
+          "passProbability": 0.11538333333333334,
+          "meanHits": 2.9543333333333335,
+          "hitHistogram": [
+            854,
+            6353,
+            15479,
+            18230,
+            12161,
+            5216,
+            1436,
+            249,
+            22,
+            0,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 11273,
+              "both": 1687,
+              "authorOnly": 5236,
+              "frozenOnly": 9586,
+              "neither": 43491,
+              "authorMinusFrozenPp": -7.249999999999999,
+              "pairedMc95Pp": [
+                -7.643451886887512,
+                -6.8565481131124875
+              ]
+            },
+            "search": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12569,
+              "both": 1249,
+              "authorOnly": 5674,
+              "frozenOnly": 11320,
+              "neither": 41757,
+              "authorMinusFrozenPp": -9.41,
+              "pairedMc95Pp": [
+                -9.829140013017208,
+                -8.990859986982795
+              ]
+            },
+            "top1": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12569,
+              "both": 1249,
+              "authorOnly": 5674,
+              "frozenOnly": 11320,
+              "neither": 41757,
+              "authorMinusFrozenPp": -9.41,
+              "pairedMc95Pp": [
+                -9.829140013017208,
+                -8.990859986982795
+              ]
+            },
+            "top2": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves",
+                    "9z"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12309,
+              "both": 1250,
+              "authorOnly": 5673,
+              "frozenOnly": 11059,
+              "neither": 42018,
+              "authorMinusFrozenPp": -8.976666666666667,
+              "pairedMc95Pp": [
+                -9.39307105824906,
+                -8.560262275084272
+              ]
+            },
+            "top3": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "100 Thieves"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12376,
+              "both": 1237,
+              "authorOnly": 5686,
+              "frozenOnly": 11139,
+              "neither": 41938,
+              "authorMinusFrozenPp": -9.088333333333333,
+              "pairedMc95Pp": [
+                -9.505773013674542,
+                -8.670893652992124
+              ]
+            }
+          }
+        },
+        "blend": {
+          "passes": 10410,
+          "passProbability": 0.1735,
+          "meanHits": 3.2513833333333335,
+          "hitHistogram": [
+            567,
+            4638,
+            12634,
+            17413,
+            14338,
+            7457,
+            2413,
+            498,
+            41,
+            1,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 9,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION",
+                    "HEROIC"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "HEROIC",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire",
+                    "100 Thieves",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 11891,
+              "both": 1702,
+              "authorOnly": 8708,
+              "frozenOnly": 10189,
+              "neither": 39401,
+              "authorMinusFrozenPp": -2.4683333333333337,
+              "pairedMc95Pp": [
+                -2.916959288636672,
+                -2.019707378029995
+              ]
+            },
+            "search": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 6,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "Liquid"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "Liquid",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13826,
+              "both": 4924,
+              "authorOnly": 5486,
+              "frozenOnly": 8902,
+              "neither": 40688,
+              "authorMinusFrozenPp": -5.693333333333333,
+              "pairedMc95Pp": [
+                -6.082515948352086,
+                -5.304150718314581
+              ]
+            },
+            "top1": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 6,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "Liquid"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "Liquid",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13826,
+              "both": 4924,
+              "authorOnly": 5486,
+              "frozenOnly": 8902,
+              "neither": 40688,
+              "authorMinusFrozenPp": -5.693333333333333,
+              "pairedMc95Pp": [
+                -6.082515948352086,
+                -5.304150718314581
+              ]
+            },
+            "top2": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 9,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Liquid"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Liquid",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Eternal Fire",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13879,
+              "both": 2990,
+              "authorOnly": 7420,
+              "frozenOnly": 10889,
+              "neither": 38701,
+              "authorMinusFrozenPp": -5.781666666666667,
+              "pairedMc95Pp": [
+                -6.221257762750933,
+                -5.342075570582401
+              ]
+            },
+            "top3": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 9,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Liquid"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Liquid",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire",
+                    "M80",
+                    "Wildcard"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13464,
+              "both": 2946,
+              "authorOnly": 7464,
+              "frozenOnly": 10518,
+              "neither": 39072,
+              "authorMinusFrozenPp": -5.09,
+              "pairedMc95Pp": [
+                -5.5261562578427075,
+                -4.653843742157292
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "method": "ml",
+      "rank": 3,
+      "reportedRate": "20.40%",
+      "reportedProbability": 0.204,
+      "sourceImage": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/1e20da7540425b2dc3c4cd98d0722de4/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+      "status": "scored-in-frozen-simulations",
+      "unavailableReasons": [],
+      "card": [
+        0,
+        1,
+        1,
+        3,
+        3,
+        3,
+        0,
+        3,
+        3,
+        1,
+        3,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "groups": {
+        "perfect": [
+          "Ninjas in Pyjamas",
+          "100 Thieves"
+        ],
+        "advance": [
+          "PARIVISION",
+          "HEROIC",
+          "DENDELE",
+          "Wildcard",
+          "FlyQuest",
+          "Lynn Vision"
+        ],
+        "zero": [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      },
+      "actualHits": null,
+      "models": {
+        "baseline": {
+          "passes": 8044,
+          "passProbability": 0.13406666666666667,
+          "meanHits": 3.0087333333333333,
+          "hitHistogram": [
+            1009,
+            6470,
+            14704,
+            17139,
+            12634,
+            5952,
+            1737,
+            329,
+            26,
+            0,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "DENDELE",
+                    "Wildcard",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "FaZe",
+                    "Liquid",
+                    "100 Thieves",
+                    "Imperial"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15417,
+              "both": 3052,
+              "authorOnly": 4992,
+              "frozenOnly": 12365,
+              "neither": 39591,
+              "authorMinusFrozenPp": -12.288333333333332,
+              "pairedMc95Pp": [
+                -12.707323994303696,
+                -11.86934267236297
+              ]
+            },
+            "search": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "DENDELE",
+                    "Wildcard",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Liquid",
+                    "Imperial"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15129,
+              "both": 3143,
+              "authorOnly": 4901,
+              "frozenOnly": 11986,
+              "neither": 39970,
+              "authorMinusFrozenPp": -11.808333333333334,
+              "pairedMc95Pp": [
+                -12.22219108491782,
+                -11.394475581748845
+              ]
+            },
+            "top1": {
+              "differentSlots": 8,
+              "commonSlots": 2,
+              "changedTeamLabels": 12,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "Wildcard",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Liquid",
+                    "100 Thieves",
+                    "Imperial"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15124,
+              "both": 1196,
+              "authorOnly": 6848,
+              "frozenOnly": 13928,
+              "neither": 38028,
+              "authorMinusFrozenPp": -11.799999999999999,
+              "pairedMc95Pp": [
+                -12.261293266699623,
+                -11.338706733300375
+              ]
+            },
+            "top2": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "DENDELE",
+                    "Wildcard",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Liquid",
+                    "Imperial"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 15129,
+              "both": 3143,
+              "authorOnly": 4901,
+              "frozenOnly": 11986,
+              "neither": 39970,
+              "authorMinusFrozenPp": -11.808333333333334,
+              "pairedMc95Pp": [
+                -12.22219108491782,
+                -11.394475581748845
+              ]
+            },
+            "top3": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "DENDELE",
+                    "Wildcard",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Liquid",
+                    "Imperial"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15082,
+              "both": 3181,
+              "authorOnly": 4863,
+              "frozenOnly": 11901,
+              "neither": 40055,
+              "authorMinusFrozenPp": -11.73,
+              "pairedMc95Pp": [
+                -12.142412083541988,
+                -11.317587916458011
+              ]
+            }
+          }
+        },
+        "elo": {
+          "passes": 14615,
+          "passProbability": 0.24358333333333335,
+          "meanHits": 3.5941666666666667,
+          "hitHistogram": [
+            277,
+            2681,
+            9534,
+            16416,
+            16477,
+            9986,
+            3695,
+            829,
+            103,
+            2,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 9,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Eternal Fire",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 15062,
+              "both": 4244,
+              "authorOnly": 10371,
+              "frozenOnly": 10818,
+              "neither": 34567,
+              "authorMinusFrozenPp": -0.745,
+              "pairedMc95Pp": [
+                -1.2204770287890696,
+                -0.26952297121093044
+              ]
+            },
+            "search": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Eternal Fire",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18631,
+              "both": 6125,
+              "authorOnly": 8490,
+              "frozenOnly": 12506,
+              "neither": 32879,
+              "authorMinusFrozenPp": -6.693333333333333,
+              "pairedMc95Pp": [
+                -7.1636373787377225,
+                -6.223029287928944
+              ]
+            },
+            "top1": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Eternal Fire",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18631,
+              "both": 6125,
+              "authorOnly": 8490,
+              "frozenOnly": 12506,
+              "neither": 32879,
+              "authorMinusFrozenPp": -6.693333333333333,
+              "pairedMc95Pp": [
+                -7.1636373787377225,
+                -6.223029287928944
+              ]
+            },
+            "top2": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "9z",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18520,
+              "both": 6135,
+              "authorOnly": 8480,
+              "frozenOnly": 12385,
+              "neither": 33000,
+              "authorMinusFrozenPp": -6.508333333333334,
+              "pairedMc95Pp": [
+                -6.977315562993488,
+                -6.039351103673178
+              ]
+            },
+            "top3": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION",
+                    "Liquid"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "DENDELE",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Eternal Fire",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 18518,
+              "both": 5174,
+              "authorOnly": 9441,
+              "frozenOnly": 13344,
+              "neither": 32041,
+              "authorMinusFrozenPp": -6.505,
+              "pairedMc95Pp": [
+                -6.9953427208926415,
+                -6.014657279107358
+              ]
+            }
+          }
+        },
+        "ml": {
+          "passes": 6275,
+          "passProbability": 0.10458333333333333,
+          "meanHits": 2.8610333333333333,
+          "hitHistogram": [
+            1063,
+            7287,
+            16232,
+            17694,
+            11449,
+            4831,
+            1246,
+            182,
+            16,
+            0,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 7,
+              "commonSlots": 3,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Wildcard",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Liquid",
+                    "100 Thieves",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 11273,
+              "both": 1086,
+              "authorOnly": 5189,
+              "frozenOnly": 10187,
+              "neither": 43538,
+              "authorMinusFrozenPp": -8.33,
+              "pairedMc95Pp": [
+                -8.72954840147663,
+                -7.930451598523371
+              ]
+            },
+            "search": {
+              "differentSlots": 8,
+              "commonSlots": 2,
+              "changedTeamLabels": 12,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Wildcard",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Liquid",
+                    "100 Thieves",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12569,
+              "both": 703,
+              "authorOnly": 5572,
+              "frozenOnly": 11866,
+              "neither": 41859,
+              "authorMinusFrozenPp": -10.489999999999998,
+              "pairedMc95Pp": [
+                -10.913131561997211,
+                -10.066868438002787
+              ]
+            },
+            "top1": {
+              "differentSlots": 8,
+              "commonSlots": 2,
+              "changedTeamLabels": 12,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Wildcard",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Liquid",
+                    "100 Thieves",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12569,
+              "both": 703,
+              "authorOnly": 5572,
+              "frozenOnly": 11866,
+              "neither": 41859,
+              "authorMinusFrozenPp": -10.489999999999998,
+              "pairedMc95Pp": [
+                -10.913131561997211,
+                -10.066868438002787
+              ]
+            },
+            "top2": {
+              "differentSlots": 8,
+              "commonSlots": 2,
+              "changedTeamLabels": 12,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Wildcard",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Liquid",
+                    "100 Thieves",
+                    "9z"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12309,
+              "both": 701,
+              "authorOnly": 5574,
+              "frozenOnly": 11608,
+              "neither": 42117,
+              "authorMinusFrozenPp": -10.056666666666667,
+              "pairedMc95Pp": [
+                -10.477235975185332,
+                -9.636097358148001
+              ]
+            },
+            "top3": {
+              "differentSlots": 8,
+              "commonSlots": 2,
+              "changedTeamLabels": 12,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Eternal Fire"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Wildcard",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Liquid",
+                    "100 Thieves"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH",
+                    "Chinggis Warriors"
+                  ],
+                  "frozenOnly": [
+                    "Imperial",
+                    "FlyQuest"
+                  ]
+                }
+              },
+              "frozenPasses": 12376,
+              "both": 721,
+              "authorOnly": 5554,
+              "frozenOnly": 11655,
+              "neither": 42070,
+              "authorMinusFrozenPp": -10.168333333333333,
+              "pairedMc95Pp": [
+                -10.589073234104575,
+                -9.747593432562091
+              ]
+            }
+          }
+        },
+        "blend": {
+          "passes": 9941,
+          "passProbability": 0.16568333333333332,
+          "meanHits": 3.21395,
+          "hitHistogram": [
+            664,
+            4744,
+            13028,
+            17412,
+            14211,
+            7233,
+            2218,
+            438,
+            50,
+            2,
+            0
+          ],
+          "references": {
+            "standard": {
+              "differentSlots": 8,
+              "commonSlots": 2,
+              "changedTeamLabels": 11,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "PARIVISION",
+                    "HEROIC"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "PARIVISION",
+                    "HEROIC",
+                    "Wildcard",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Liquid",
+                    "Eternal Fire",
+                    "100 Thieves",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [
+                    "GOSH"
+                  ],
+                  "frozenOnly": [
+                    "Lynn Vision"
+                  ]
+                }
+              },
+              "frozenPasses": 11891,
+              "both": 1049,
+              "authorOnly": 8892,
+              "frozenOnly": 10842,
+              "neither": 39217,
+              "authorMinusFrozenPp": -3.25,
+              "pairedMc95Pp": [
+                -3.708160368774289,
+                -2.7918396312257117
+              ]
+            },
+            "search": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "Liquid"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "Wildcard",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13826,
+              "both": 4992,
+              "authorOnly": 4949,
+              "frozenOnly": 8834,
+              "neither": 41225,
+              "authorMinusFrozenPp": -6.4750000000000005,
+              "pairedMc95Pp": [
+                -6.854997332965196,
+                -6.095002667034803
+              ]
+            },
+            "top1": {
+              "differentSlots": 4,
+              "commonSlots": 6,
+              "changedTeamLabels": 7,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas"
+                  ],
+                  "frozenOnly": [
+                    "Liquid"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "Wildcard",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13826,
+              "both": 4992,
+              "authorOnly": 4949,
+              "frozenOnly": 8834,
+              "neither": 41225,
+              "authorMinusFrozenPp": -6.4750000000000005,
+              "pairedMc95Pp": [
+                -6.854997332965196,
+                -6.095002667034803
+              ]
+            },
+            "top2": {
+              "differentSlots": 6,
+              "commonSlots": 4,
+              "changedTeamLabels": 10,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Liquid"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "Wildcard",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "FaZe",
+                    "Eternal Fire",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13879,
+              "both": 3144,
+              "authorOnly": 6797,
+              "frozenOnly": 10735,
+              "neither": 39324,
+              "authorMinusFrozenPp": -6.5633333333333335,
+              "pairedMc95Pp": [
+                -6.992671071492847,
+                -6.13399559517382
+              ]
+            },
+            "top3": {
+              "differentSlots": 5,
+              "commonSlots": 5,
+              "changedTeamLabels": 8,
+              "byGroup": {
+                "perfect": {
+                  "authorOnly": [
+                    "Ninjas in Pyjamas",
+                    "100 Thieves"
+                  ],
+                  "frozenOnly": [
+                    "HEROIC",
+                    "Liquid"
+                  ]
+                },
+                "advance": {
+                  "authorOnly": [
+                    "HEROIC",
+                    "FlyQuest",
+                    "Lynn Vision"
+                  ],
+                  "frozenOnly": [
+                    "Ninjas in Pyjamas",
+                    "Eternal Fire",
+                    "M80"
+                  ]
+                },
+                "zero": {
+                  "authorOnly": [],
+                  "frozenOnly": []
+                }
+              },
+              "frozenPasses": 13464,
+              "both": 3757,
+              "authorOnly": 6184,
+              "frozenOnly": 9707,
+              "neither": 40352,
+              "authorMinusFrozenPp": -5.871666666666667,
+              "pairedMc95Pp": [
+                -6.280775457515444,
+                -5.462557875817888
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

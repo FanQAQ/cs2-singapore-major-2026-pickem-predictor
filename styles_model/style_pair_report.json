@@ -1,0 +1,379 @@
+{
+  "labels": [
+    "duel",
+    "system",
+    "tempo"
+  ],
+  "split": "2026-09-01",
+  "n": 10,
+  "training": {
+    "n": 3,
+    "wins": 2,
+    "expectedWins": 1.57,
+    "base": {
+      "brier": 0.075352,
+      "logLoss": 0.314474
+    },
+    "main": {
+      "brier": 0.066072,
+      "logLoss": 0.294158
+    },
+    "pair": {
+      "brier": 0.071097,
+      "logLoss": 0.305071
+    }
+  },
+  "test": {
+    "n": 7,
+    "wins": 2,
+    "expectedWins": 3.41,
+    "base": {
+      "brier": 0.247434,
+      "logLoss": 0.6809
+    },
+    "main": {
+      "brier": 0.250176,
+      "logLoss": 0.684312
+    },
+    "pair": {
+      "brier": 0.244332,
+      "logLoss": 0.673466
+    }
+  },
+  "first": "2025-10-30",
+  "last": "2026-11-01",
+  "pairs": [
+    {
+      "first": "duel",
+      "second": "system",
+      "overall": {
+        "n": 3,
+        "wins": 1,
+        "expectedWins": 1.11,
+        "base": {
+          "brier": 0.052081,
+          "logLoss": 0.255606
+        },
+        "main": {
+          "brier": 0.053008,
+          "logLoss": 0.260458
+        },
+        "pair": {
+          "brier": 0.052182,
+          "logLoss": 0.256476
+        }
+      },
+      "training": {
+        "n": 2,
+        "wins": 1,
+        "expectedWins": 0.9,
+        "base": {
+          "brier": 0.056437,
+          "logLoss": 0.266654
+        },
+        "main": {
+          "brier": 0.05394,
+          "logLoss": 0.262499
+        },
+        "pair": {
+          "brier": 0.055808,
+          "logLoss": 0.265607
+        }
+      },
+      "test": {
+        "n": 1,
+        "wins": 0,
+        "expectedWins": 0.21,
+        "base": {
+          "brier": 0.043369,
+          "logLoss": 0.233511
+        },
+        "main": {
+          "brier": 0.051143,
+          "logLoss": 0.256375
+        },
+        "pair": {
+          "brier": 0.04493,
+          "logLoss": 0.238216
+        }
+      },
+      "evenMatchShiftPP": 0.56
+    },
+    {
+      "first": "duel",
+      "second": "tempo",
+      "overall": {
+        "n": 2,
+        "wins": 2,
+        "expectedWins": 0.94,
+        "base": {
+          "brier": 0.315733,
+          "logLoss": 0.841396
+        },
+        "main": {
+          "brier": 0.280054,
+          "logLoss": 0.756962
+        },
+        "pair": {
+          "brier": 0.298342,
+          "logLoss": 0.799967
+        }
+      },
+      "training": {
+        "n": 1,
+        "wins": 1,
+        "expectedWins": 0.66,
+        "base": {
+          "brier": 0.113182,
+          "logLoss": 0.410115
+        },
+        "main": {
+          "brier": 0.090337,
+          "logLoss": 0.357476
+        },
+        "pair": {
+          "brier": 0.101677,
+          "logLoss": 0.383999
+        }
+      },
+      "test": {
+        "n": 1,
+        "wins": 1,
+        "expectedWins": 0.28,
+        "base": {
+          "brier": 0.518283,
+          "logLoss": 1.272676
+        },
+        "main": {
+          "brier": 0.469771,
+          "logLoss": 1.156449
+        },
+        "pair": {
+          "brier": 0.495007,
+          "logLoss": 1.215935
+        }
+      },
+      "evenMatchShiftPP": 1.99
+    },
+    {
+      "first": "system",
+      "second": "tempo",
+      "overall": {
+        "n": 5,
+        "wins": 1,
+        "expectedWins": 2.92,
+        "base": {
+          "brier": 0.234077,
+          "logLoss": 0.652022
+        },
+        "main": {
+          "brier": 0.246063,
+          "logLoss": 0.675472
+        },
+        "pair": {
+          "brier": 0.234077,
+          "logLoss": 0.652022
+        }
+      },
+      "training": {
+        "n": 0,
+        "wins": 0,
+        "expectedWins": 0.0,
+        "base": null,
+        "main": null,
+        "pair": null
+      },
+      "test": {
+        "n": 5,
+        "wins": 1,
+        "expectedWins": 2.92,
+        "base": {
+          "brier": 0.234077,
+          "logLoss": 0.652022
+        },
+        "main": {
+          "brier": 0.246063,
+          "logLoss": 0.675472
+        },
+        "pair": {
+          "brier": 0.234077,
+          "logLoss": 0.652022
+        }
+      },
+      "evenMatchShiftPP": 0.0
+    }
+  ],
+  "testByFormat": {
+    "bo1": {
+      "n": 0,
+      "wins": 0,
+      "expectedWins": 0.0,
+      "base": null,
+      "main": null,
+      "pair": null
+    },
+    "bo3": {
+      "n": 4,
+      "wins": 1,
+      "expectedWins": 1.5,
+      "base": {
+        "brier": 0.268805,
+        "logLoss": 0.729912
+      },
+      "main": {
+        "brier": 0.266321,
+        "logLoss": 0.722004
+      },
+      "pair": {
+        "brier": 0.263376,
+        "logLoss": 0.716903
+      }
+    },
+    "unknown": {
+      "n": 3,
+      "wins": 1,
+      "expectedWins": 1.91,
+      "base": {
+        "brier": 0.218939,
+        "logLoss": 0.61555
+      },
+      "main": {
+        "brier": 0.228648,
+        "logLoss": 0.634056
+      },
+      "pair": {
+        "brier": 0.218939,
+        "logLoss": 0.61555
+      }
+    }
+  },
+  "series": [
+    {
+      "event": "budapest",
+      "id": "54",
+      "day": "2025-10-30",
+      "first": "duel",
+      "second": "system",
+      "firstWon": true,
+      "firstExpected": 0.718757
+    },
+    {
+      "event": "cologne",
+      "id": "1753",
+      "day": "2026-04-07",
+      "first": "duel",
+      "second": "tempo",
+      "firstWon": true,
+      "firstExpected": 0.663574
+    },
+    {
+      "event": "singapore",
+      "id": "3413",
+      "day": "2026-08-09",
+      "first": "duel",
+      "second": "system",
+      "firstWon": false,
+      "firstExpected": 0.183783
+    },
+    {
+      "event": "singapore",
+      "id": "1369",
+      "day": "2026-09-28",
+      "first": "system",
+      "second": "tempo",
+      "firstWon": false,
+      "firstExpected": 0.510072
+    },
+    {
+      "event": "singapore",
+      "id": "637",
+      "day": "2026-10-15",
+      "first": "duel",
+      "second": "system",
+      "firstWon": false,
+      "firstExpected": 0.208251
+    },
+    {
+      "event": "singapore",
+      "id": "608",
+      "day": "2026-10-16",
+      "first": "system",
+      "second": "tempo",
+      "firstWon": false,
+      "firstExpected": 0.489928
+    },
+    {
+      "event": "singapore",
+      "id": "562",
+      "day": "2026-10-17",
+      "first": "system",
+      "second": "tempo",
+      "firstWon": false,
+      "firstExpected": 0.52301
+    },
+    {
+      "event": "singapore",
+      "id": "337",
+      "day": "2026-10-21",
+      "first": "system",
+      "second": "tempo",
+      "firstWon": false,
+      "firstExpected": 0.596629
+    },
+    {
+      "event": "singapore",
+      "id": "320",
+      "day": "2026-10-22",
+      "first": "duel",
+      "second": "tempo",
+      "firstWon": true,
+      "firstExpected": 0.280081
+    },
+    {
+      "event": "singapore",
+      "id": "3",
+      "day": "2026-11-01",
+      "first": "system",
+      "second": "tempo",
+      "firstWon": true,
+      "firstExpected": 0.798315
+    }
+  ],
+  "lineupMergeCheck": {
+    "n": 10,
+    "training": {
+      "n": 3,
+      "wins": 2,
+      "expectedWins": 1.57,
+      "base": {
+        "brier": 0.075352,
+        "logLoss": 0.314474
+      },
+      "main": {
+        "brier": 0.066072,
+        "logLoss": 0.294158
+      },
+      "pair": {
+        "brier": 0.071097,
+        "logLoss": 0.305071
+      }
+    },
+    "test": {
+      "n": 7,
+      "wins": 2,
+      "expectedWins": 3.41,
+      "base": {
+        "brier": 0.247434,
+        "logLoss": 0.6809
+      },
+      "main": {
+        "brier": 0.250176,
+        "logLoss": 0.684312
+      },
+      "pair": {
+        "brier": 0.244332,
+        "logLoss": 0.673466
+      }
+    }
+  }
+}

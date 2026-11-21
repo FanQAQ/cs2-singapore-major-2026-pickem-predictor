@@ -1,0 +1,606 @@
+[
+  {
+    "rankDay": "2023-08-29",
+    "published": "2023-08-29T20:45:46Z",
+    "sha": "421a212f96b884c4561466c1ef8bf7e845a2a27c",
+    "files": [
+      {
+        "path": "standings_europe.md",
+        "sha256": "1b40ab4205a973369fdb19abd2b3839d88876c3d0d15d2a7e292fbe673d54143"
+      },
+      {
+        "path": "standings_americas.md",
+        "sha256": "ddbf55155e83f306b8342b198ea94409ebf4beba00dabc10b84f9f6aba277cc0"
+      },
+      {
+        "path": "standings_asia.md",
+        "sha256": "0ad0363d96c72bb7b960dfb151fbb286973db061f0770a2fdc374119dc8f38a0"
+      }
+    ]
+  },
+  {
+    "rankDay": "2023-10-11",
+    "published": "2023-10-11T20:40:27Z",
+    "sha": "db55d1824431d48e93f923169084b9283448522e",
+    "files": [
+      {
+        "path": "standings_europe.md",
+        "sha256": "c3b610df61be628df5fba6dbf1adb5271c175c0c44f640b89f08bc3ee021f1a4"
+      },
+      {
+        "path": "standings_americas.md",
+        "sha256": "57a09f6232e216004f3c29ad746b4cd76b467d75ca59f0da9553098f1f799f3b"
+      },
+      {
+        "path": "standings_asia.md",
+        "sha256": "59dcea705d6bfce8d58729c7a08a88bd3d6f1cf80858826334b6bb370ad2d81a"
+      }
+    ]
+  },
+  {
+    "rankDay": "2023-11-03",
+    "published": "2023-11-03T17:57:31Z",
+    "sha": "f93335430ecf5d95f5026c982ff167c4ec9eff33",
+    "files": [
+      {
+        "path": "standings_europe.md",
+        "sha256": "23f45e1b3353409e533a440ba9447cb727a19c1c58037231c7c86f39c36cae90"
+      },
+      {
+        "path": "standings_americas.md",
+        "sha256": "4e90df87986eb2d10cd2289f436ed637d91671ace0c7f2d064cdc32a096265da"
+      },
+      {
+        "path": "standings_asia.md",
+        "sha256": "c932e836f6b6451c4b9bb223a4dc25a82c03b85ef3883b28ecc6c6b4fa525c4c"
+      }
+    ]
+  },
+  {
+    "rankDay": "2023-12-11",
+    "published": "2023-12-11T18:15:56Z",
+    "sha": "5d8a145c17ed66be82dd5e2ab379487ade162320",
+    "files": [
+      {
+        "path": "standings_europe.md",
+        "sha256": "a7900c3a08b45a391f6329197d1d227d8ae739165e8ef5209ae196c591cbac63"
+      },
+      {
+        "path": "standings_americas.md",
+        "sha256": "6dfc3a056dc605831ac8bd0f50176251b2c1e1542ab6b1df1ce58d9408754635"
+      },
+      {
+        "path": "standings_asia.md",
+        "sha256": "93b6f349d704a36a35a3a5227c4c51f8225e3df40bb36a3cfc4ed9085d75c5d1"
+      }
+    ]
+  },
+  {
+    "rankDay": "2023-12-18",
+    "published": "2023-12-18T16:29:29Z",
+    "sha": "6941a94460029270edccc7b25da553f1aa77c7b1",
+    "files": [
+      {
+        "path": "standings_europe.md",
+        "sha256": "50d784fdfb6788330109c27b69073c7d518f56b0a31c4f20af7fcef13641db6b"
+      },
+      {
+        "path": "standings_americas.md",
+        "sha256": "288b8c536f934ccc1740162c5fe98a99d96299f921cd2de89d983046b295a603"
+      },
+      {
+        "path": "standings_asia.md",
+        "sha256": "e207f580956229da16f30ae6af80685f607315dc09f04841461bf5e2f3656192"
+      }
+    ]
+  },
+  {
+    "rankDay": "2024-03-04",
+    "published": "2024-03-04T23:55:04Z",
+    "sha": "99a0ba5fff938345d10d500f8b29cd297076573e",
+    "files": [
+      {
+        "path": "standings_europe.md",
+        "sha256": "f5d3fbc3a16556d61b2bc3f46db6ee18a45c808e4dfc944a3d25c9477a205d0a"
+      },
+      {
+        "path": "standings_americas.md",
+        "sha256": "7b4d41745ee8c4311fba362f37b927a49b886b0bef5b4603069d25a358c18215"
+      },
+      {
+        "path": "standings_asia.md",
+        "sha256": "a6cd45fff95265f5a696ebbff17b791e7729f2ad87395e00ca259a63f7f356ff"
+      }
+    ]
+  },
+  {
+    "rankDay": "2024-04-22",
+    "published": "2024-04-22T22:47:43Z",
+    "sha": "6fb9c269735165d60fa3baaa6fcd619492da49cf",
+    "files": [
+      {
+        "path": "standings_europe.md",
+        "sha256": "36b072bd74e8d2eaaf3fe891710df7e6ace74a0c19c04ca3f652487c32baa6ec"
+      },
+      {
+        "path": "standings_americas.md",
+        "sha256": "d8b400c84531b110af3589d53f011d335e8b28deae35852943264fb004fa0322"
+      },
+      {
+        "path": "standings_asia.md",
+        "sha256": "22074b8c7c40663ead8856a26aefb2cd9fb243a32668cdde893b245cfde72df1"
+      }
+    ]
+  },
+  {
+    "rankDay": "2024-05-06",
+    "published": "2024-05-06T20:50:45Z",
+    "sha": "560f043e8e38323312a5207f21433a9b639e60ff",
+    "files": [
+      {
+        "path": "standings_europe.md",
+        "sha256": "1eaf0f43394f3ba145a3225ba4c2805c464781ca5bcc81e6f87158af6eca9231"
+      },
+      {
+        "path": "standings_americas.md",
+        "sha256": "d1b0d2e4c63f3e24071be578358bd3a78e6b727d52b13bfc3891899f67267e9e"
+      },
+      {
+        "path": "standings_asia.md",
+        "sha256": "92eacf053356a702a4a71a2d60ed7fdf4960ca2e1cd718b25bfc60438dad8a7e"
+      }
+    ]
+  },
+  {
+    "rankDay": "2024-05-29",
+    "published": "2024-05-29T23:40:20Z",
+    "sha": "204e7988a14102829c788837f1e34ef2a8b227bd",
+    "files": [
+      {
+        "path": "standings_europe.md",
+        "sha256": "b951a87b3d79bcf66e9f2f4dfe8d3b23baabcbde51dea7f9702f0c84dafcf620"
+      },
+      {
+        "path": "standings_americas.md",
+        "sha256": "60538e0511bfcaa1d9bea78e3e9772dea5ad6aab70056eec633971236883f8e3"
+      },
+      {
+        "path": "standings_asia.md",
+        "sha256": "afa7d915bcb65d4f3fc36ccef216b71de8c296be9fd6853ecf79edec489d4ac3"
+      }
+    ]
+  },
+  {
+    "rankDay": "2024-06-10",
+    "published": "2024-06-10T20:00:05Z",
+    "sha": "a7183e584d4fc532918ba2c779b5806e316c8ca9",
+    "files": [
+      {
+        "path": "standings_europe.md",
+        "sha256": "524b711dada64d819f029efc945a04e5f288e51477de7ecaf0612c4dad9533f8"
+      },
+      {
+        "path": "standings_americas.md",
+        "sha256": "17da9d36baba148da9d12b699897d3dcdd6d5596384bc05789da0efa8fba61ce"
+      },
+      {
+        "path": "standings_asia.md",
+        "sha256": "a7ee1289ebc7b1e5f311e368244a8087d7d60bef4153fde28b8cd8b541bf7f62"
+      }
+    ]
+  },
+  {
+    "rankDay": "2024-06-18",
+    "published": "2024-06-18T18:22:30Z",
+    "sha": "4db3400ea2534f2817502cea2cbf3cbac3355f88",
+    "files": [
+      {
+        "path": "standings_europe.md",
+        "sha256": "a172a82f83bc1dfa4d977df934df8941acaf490932ca19d3f5cfb4c7993b76d1"
+      },
+      {
+        "path": "standings_americas.md",
+        "sha256": "8ca77da2f14039dd17c4de05060fcc7a89c6cf5f6a457e62fc8dadc430e864b4"
+      },
+      {
+        "path": "standings_asia.md",
+        "sha256": "d9962d477633e527ab64aa349f3909f558602212a7b7cae5aeb1ed8a872fc3a5"
+      }
+    ]
+  },
+  {
+    "rankDay": "2024-07-11",
+    "published": "2024-07-11T18:33:31Z",
+    "sha": "f99f3a4822b0aa58322f8b9f927b5c9db9b433d7",
+    "files": [
+      {
+        "path": "standings_europe.md",
+        "sha256": "accc8a528d423259eec84e8675006816037adb0b5053ffd60d69bab456edefd8"
+      },
+      {
+        "path": "standings_americas.md",
+        "sha256": "c06c3892948a150b40c62985a7f767739369c2a653544a7c63b6de3567d5299b"
+      },
+      {
+        "path": "standings_asia.md",
+        "sha256": "a0b2793cbe7a7add8ad63afbdc18db3dab48741f602325649e68a30a3b374d84"
+      }
+    ]
+  },
+  {
+    "rankDay": "2024-07-17",
+    "published": "2024-07-17T17:09:37Z",
+    "sha": "65440b1ee195cbe8515651149ff871c084d5c347",
+    "files": [
+      {
+        "path": "standings_europe.md",
+        "sha256": "c94611ead3fb16b881e871b2799bc2e53ef005910e0e4cf51f844960a733eb12"
+      },
+      {
+        "path": "standings_americas.md",
+        "sha256": "78d1b449f096d326a42f94b34bdbe0a0a14da3c241b9e0891c8e840824cf65b1"
+      },
+      {
+        "path": "standings_asia.md",
+        "sha256": "fb1ef340f0b11344cf3314457644cef630e9021cb4fa8f3e8a03a9e5bf2b7cf6"
+      }
+    ]
+  },
+  {
+    "rankDay": "2024-07-24",
+    "published": "2024-07-24T20:16:15Z",
+    "sha": "49af9b1e734ab94953fa9d683304b69b8b56d908",
+    "files": [
+      {
+        "path": "standings_europe.md",
+        "sha256": "0b9dac29714980e62e18ff879ddaf044b886a11fd438078428394bd469ffddbb"
+      },
+      {
+        "path": "standings_americas.md",
+        "sha256": "bf3558ba9d9299882c5fde590907c8b607c88f9b2b5761ab41dbec32fefd8fb4"
+      },
+      {
+        "path": "standings_asia.md",
+        "sha256": "a144abdb79b5aa616fb92728d74f605555191e39e10cd4ebd210368460ec2c42"
+      }
+    ]
+  },
+  {
+    "rankDay": "2024-07-31",
+    "published": "2024-07-31T22:46:27Z",
+    "sha": "8c0f350002fc6d8b2d6389410f87e5a0b75192ab",
+    "files": [
+      {
+        "path": "standings_europe.md",
+        "sha256": "55d5a720d90aec1aed8a16ac35130ab5d53c12c143bc662a5949c69c973431d8"
+      },
+      {
+        "path": "standings_americas.md",
+        "sha256": "7c38b9323f1eaa51539df1aa782ec9e7798997809da28f4ea7bf072eca580e77"
+      },
+      {
+        "path": "standings_asia.md",
+        "sha256": "9f8b306cc94983028be4839627b651e8e278aa45dbec9bf6b830ad8ef566be28"
+      }
+    ]
+  },
+  {
+    "rankDay": "2024-08-06",
+    "published": "2024-08-06T18:28:19Z",
+    "sha": "48127d4873dec5504dd18f14006e67da888fab80",
+    "files": [
+      {
+        "path": "standings_global.md",
+        "sha256": "ac0efe00a0620d3647ffed193977fb52c2e1ea7df6d1894ec2e9b21a402ccd06"
+      }
+    ]
+  },
+  {
+    "rankDay": "2024-09-04",
+    "published": "2024-09-04T18:43:48Z",
+    "sha": "39110a0933749b0fa607011ef3f6091fc3e4491d",
+    "files": [
+      {
+        "path": "invitation/2024/standings_global_2024_09_04.md",
+        "sha256": "944712135ecf18d7bc950ed7e74c837da6ad1b268232b1f66385f3e9651d8c4c"
+      }
+    ]
+  },
+  {
+    "rankDay": "2024-10-02",
+    "published": "2024-10-02T20:49:01Z",
+    "sha": "c162e50fc1405a4bb4b9fb6fbce355ae11d95588",
+    "files": [
+      {
+        "path": "invitation/2024/standings_global_2024_10_02.md",
+        "sha256": "fb9ee83c7fafb1b4dd0d3b315a21759b26700c28b39625cf5a1b2a04e48139e7"
+      }
+    ]
+  },
+  {
+    "rankDay": "2024-11-06",
+    "published": "2024-11-06T17:43:14Z",
+    "sha": "43843908f8054635db19582ea98e64a281caeb9c",
+    "files": [
+      {
+        "path": "invitation/2024/standings_global_2024_11_06.md",
+        "sha256": "0d1b8c683d98feb81684419935f3b9873525ac7c93c0334db3ee1cd691803d55"
+      }
+    ]
+  },
+  {
+    "rankDay": "2024-12-02",
+    "published": "2024-12-02T17:28:02Z",
+    "sha": "c408eada80b0aae06b10da5a90409694f4a5b019",
+    "files": [
+      {
+        "path": "invitation/2024/standings_global_2024_12_02.md",
+        "sha256": "dd60e0ac5b0ada29d334a425952bfbc4fd4fde3e6dd329f0b6442cde6a7e51dc"
+      }
+    ]
+  },
+  {
+    "rankDay": "2025-01-06",
+    "published": "2025-01-06T17:53:54Z",
+    "sha": "a762daa455e0fa1c39ec4db188301a5b468fe92f",
+    "files": [
+      {
+        "path": "invitation/2025/standings_global_2025_01_06.md",
+        "sha256": "3a9eef73a66f0a895f0369fb83e56c241483a81af0181301989ffa698b6824ca"
+      }
+    ]
+  },
+  {
+    "rankDay": "2025-02-03",
+    "published": "2025-02-03T18:47:10Z",
+    "sha": "b3e2791b20488edc40eeedf5062c35cd9665df9b",
+    "files": [
+      {
+        "path": "invitation/2025/standings_global_2025_02_03.md",
+        "sha256": "13e0e9e489be14d285133df904d42718a498b018b4392320ce1ba62568d836ba"
+      }
+    ]
+  },
+  {
+    "rankDay": "2025-03-03",
+    "published": "2025-03-03T17:49:38Z",
+    "sha": "293e01e588b5e751ee0b306dc2958765dc63dce0",
+    "files": [
+      {
+        "path": "invitation/2025/standings_global_2025_03_03.md",
+        "sha256": "44279195ac8808fceb743c7c83252f0cd7e70e3536fa12f67021724e519f23cd"
+      }
+    ]
+  },
+  {
+    "rankDay": "2025-04-07",
+    "published": "2025-04-07T16:35:39Z",
+    "sha": "548080058dd97a23a13fdfbb02ed8503d46b1dee",
+    "files": [
+      {
+        "path": "invitation/2025/standings_global_2025_04_07.md",
+        "sha256": "5b712504f9f4d14c3998b5bf5dba46b27ca797790c3b86d23546c1ac363000fa"
+      }
+    ]
+  },
+  {
+    "rankDay": "2025-05-05",
+    "published": "2025-05-05T16:56:18Z",
+    "sha": "5426fc070e21ff44d85cf83a73abcddef601aae6",
+    "files": [
+      {
+        "path": "invitation/2025/standings_global_2025_05_05.md",
+        "sha256": "d3ee81ee607581990a9090f66566e735c6e14f245b322f53121f7207f8d4c5a8"
+      }
+    ]
+  },
+  {
+    "rankDay": "2025-06-02",
+    "published": "2025-06-02T17:58:00Z",
+    "sha": "1ce8398c0be1970319488c23cfd0d4077eaec04a",
+    "files": [
+      {
+        "path": "invitation/2025/standings_global_2025_06_02.md",
+        "sha256": "c0f13d658d37797bd354dfcb755b2b92b37572ef1978370d8e27bd36f537846a"
+      }
+    ]
+  },
+  {
+    "rankDay": "2025-07-07",
+    "published": "2025-07-07T20:00:32Z",
+    "sha": "4608a24180f06d6a34581249168a294c2f21c4f3",
+    "files": [
+      {
+        "path": "invitation/2025/standings_global_2025_07_07.md",
+        "sha256": "c9e1d95d36af0db68517d4c24e386fa7d42efd24377c802c56af2333710f775f"
+      }
+    ]
+  },
+  {
+    "rankDay": "2025-08-04",
+    "published": "2025-08-04T17:22:23Z",
+    "sha": "2f712c4602300e4eac8f3a4d579ffd8d88038e61",
+    "files": [
+      {
+        "path": "invitation/2025/standings_global_2025_08_04.md",
+        "sha256": "ec991259666790695b4acaa6ab9bdd96ecf907e1ed638d16e714b1c190414ee4"
+      }
+    ]
+  },
+  {
+    "rankDay": "2025-09-01",
+    "published": "2025-09-01T16:58:36Z",
+    "sha": "ec65cbf461daa5977d57f80561437961326cfc51",
+    "files": [
+      {
+        "path": "invitation/2025/standings_global_2025_09_01.md",
+        "sha256": "bc1aa019cff1ef128e863a026785382461cf762630604ef40dfb065af5a6e846"
+      }
+    ]
+  },
+  {
+    "rankDay": "2025-10-06",
+    "published": "2025-10-06T16:35:02Z",
+    "sha": "9fd3c0e8b86dbceed3a211cd2a2a34185b99a990",
+    "files": [
+      {
+        "path": "invitation/2025/standings_global_2025_10_06.md",
+        "sha256": "8a593f9cc908dae045fc76764c728ee85c9a2d8bc413cbe78e01f71cb6ed93c9"
+      }
+    ]
+  },
+  {
+    "rankDay": "2025-11-03",
+    "published": "2025-11-03T18:33:49Z",
+    "sha": "468a448707996aa7067b8201c5fc77b9b95c247e",
+    "files": [
+      {
+        "path": "invitation/2025/standings_global_2025_11_03.md",
+        "sha256": "5023417c70abc507877e84460a888c8e0ea08e01cc8cf262132a1460a4549e58"
+      }
+    ]
+  },
+  {
+    "rankDay": "2025-12-01",
+    "published": "2025-12-01T18:11:40Z",
+    "sha": "6b92cd657bfd7c281a3930a842fe2393b5bdb40b",
+    "files": [
+      {
+        "path": "invitation/2025/standings_global_2025_12_01.md",
+        "sha256": "568537f05c1b5175fa140dc3a5207a9f2e2f10cb9d46a4fed2d00b83368b624e"
+      }
+    ]
+  },
+  {
+    "rankDay": "2026-01-05",
+    "published": "2026-01-05T17:34:33Z",
+    "sha": "0b2154eacafe50abd2ec251ed78d460d8f833088",
+    "files": [
+      {
+        "path": "invitation/2026/standings_global_2026_01_05.md",
+        "sha256": "46f8f7fae110355789044ffa645205bb9a95d5e10e28b308faffafb169bce13a"
+      }
+    ]
+  },
+  {
+    "rankDay": "2026-02-02",
+    "published": "2026-02-02T18:03:49Z",
+    "sha": "73c71008fb393980255103b93d6b868fb616f5ce",
+    "files": [
+      {
+        "path": "invitation/2026/standings_global_2026_02_02.md",
+        "sha256": "2dcc74d27a58e5d6ad06ee26479346afe4b41d5bb67dd93fff65bee66af80bca"
+      }
+    ]
+  },
+  {
+    "rankDay": "2026-03-02",
+    "published": "2026-03-02T17:40:13Z",
+    "sha": "3404a877b6ca513a1f508d6b23d20562c4afcc73",
+    "files": [
+      {
+        "path": "invitation/2026/standings_global_2026_03_02.md",
+        "sha256": "a2545d1143febf7e6544767ab970ac08331aeb46d1fc2aad25e55896ae3c088b"
+      }
+    ]
+  },
+  {
+    "rankDay": "2026-04-06",
+    "published": "2026-04-06T16:13:17Z",
+    "sha": "3c32325b3f52cfdc12f20325caff69a7bcabb8e6",
+    "files": [
+      {
+        "path": "invitation/2026/standings_global_2026_04_06.md",
+        "sha256": "923eedff1d9e7239961de1272bae718bd2f9e03494d5c3009f257316722f6f0f"
+      }
+    ]
+  },
+  {
+    "rankDay": "2026-05-04",
+    "published": "2026-05-04T17:50:46Z",
+    "sha": "aac2074bc10fd62a8bf0b2146d7edfb67d224bcf",
+    "files": [
+      {
+        "path": "invitation/2026/standings_global_2026_05_04.md",
+        "sha256": "7f59cac3f0cf75f2fc16d37425fcc770fe5036bf4d46796863bc771f3510e28f"
+      }
+    ]
+  },
+  {
+    "rankDay": "2026-06-01",
+    "published": "2026-06-01T17:15:49Z",
+    "sha": "510968f54723dcb698ad3b04d396140fc263c239",
+    "files": [
+      {
+        "path": "invitation/2026/standings_global_2026_06_01.md",
+        "sha256": "7019273cc888feda2637cdaf9dbb1231e8e06fa05727206e42414b536bdb045e"
+      }
+    ]
+  },
+  {
+    "rankDay": "2026-07-06",
+    "published": "2026-07-06T17:00:13Z",
+    "sha": "050a38d71d4f5f07d2618bb8bedd54268b93bddf",
+    "files": [
+      {
+        "path": "invitation/2026/standings_global_2026_07_06.md",
+        "sha256": "6c3acf3f975c1f7831b15844c3260678c20a686c286a8d42a6d8a966151d19d4"
+      }
+    ]
+  },
+  {
+    "rankDay": "2026-08-03",
+    "published": "2026-08-03T17:57:08Z",
+    "sha": "467b9d2e0e4b369d8b8df5fafcbe080a3c414124",
+    "files": [
+      {
+        "path": "invitation/2026/standings_global_2026_08_03.md",
+        "sha256": "9989f6e14c2ef288a4e9e0be6e709e664106aa129a1c901218d0ef9a2afbfb7e"
+      }
+    ]
+  },
+  {
+    "rankDay": "2026-09-07",
+    "published": "2026-09-08T23:01:46Z",
+    "sha": "d007fa190cda39097a3ddd55bb6455adade117a9",
+    "files": [
+      {
+        "path": "invitation/2026/standings_global_2026_09_07.md",
+        "sha256": "201b2165c966fb22791c6a9dfce6708bd2408e9ba2157b8ef818dbe874967eec"
+      }
+    ]
+  },
+  {
+    "rankDay": "2026-09-07",
+    "published": "2026-09-09T18:45:20Z",
+    "sha": "84ccfa4d751fa3801ae6430097a9a66f104ee131",
+    "files": [
+      {
+        "path": "invitation/2026/standings_global_2026_09_07.md",
+        "sha256": "bc9553bcd9c3420f3279307fdca654d25f363d38e2c51a32b452c8c0e72e4f46"
+      }
+    ]
+  },
+  {
+    "rankDay": "2026-10-05",
+    "published": "2026-10-05T16:36:11Z",
+    "sha": "eec4853d7bcf0f1f7efe7f0d901234bef7e98b75",
+    "files": [
+      {
+        "path": "invitation/2026/standings_global_2026_10_05.md",
+        "sha256": "df96e7fc3cd91a2687ec08cac0128e50cc4e4e55346581679572e881d79ae61b"
+      }
+    ]
+  },
+  {
+    "rankDay": "2026-11-02",
+    "published": "2026-11-02T17:44:42Z",
+    "sha": "f8c55f250fdef796d708aa32814587932154fa04",
+    "files": [
+      {
+        "path": "invitation/2026/standings_global_2026_11_02.md",
+        "sha256": "910e26dca938cab5483282f459203965766305d1504d4cb3cc89ced38b327b0b"
+      }
+    ]
+  }
+]

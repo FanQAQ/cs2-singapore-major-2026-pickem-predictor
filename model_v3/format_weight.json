@@ -1,0 +1,166 @@
+{
+  "austin": {
+    "asOf": "2025-06-02",
+    "weight": 1.0,
+    "reason": "oneSEAllowsAdjustment",
+    "calibration": {
+      "n": 220,
+      "bo1": {
+        "n": 26,
+        "pooled": 0.271546,
+        "full": 0.2553991,
+        "weighted": 0.2553991
+      },
+      "bo3": {
+        "n": 194,
+        "pooled": 0.241856,
+        "full": 0.2427695,
+        "weighted": 0.2427695
+      },
+      "majorMix": {
+        "pooled": 0.2598499,
+        "full": 0.2504238,
+        "weighted": 0.2504238
+      }
+    },
+    "holdout": {
+      "n": 70,
+      "bo1": {
+        "n": 0
+      },
+      "bo3": {
+        "n": 70,
+        "pooled": 0.206158,
+        "full": 0.20512,
+        "weighted": 0.20512
+      }
+    },
+    "calibrationStart": "2025-04-03",
+    "holdoutStart": "2025-05-13"
+  },
+  "budapest": {
+    "asOf": "2025-11-03",
+    "weight": 0.0,
+    "reason": "missingFormat",
+    "calibration": {
+      "n": 192,
+      "bo1": {
+        "n": 0
+      },
+      "bo3": {
+        "n": 192,
+        "pooled": 0.2360139,
+        "full": 0.2360139,
+        "weighted": 0.2360139
+      }
+    },
+    "holdout": {
+      "n": 82,
+      "bo1": {
+        "n": 3,
+        "pooled": 0.2339303,
+        "full": 0.235747,
+        "weighted": 0.2339303
+      },
+      "bo3": {
+        "n": 79,
+        "pooled": 0.2370139,
+        "full": 0.2370139,
+        "weighted": 0.2370139
+      },
+      "majorMix": {
+        "pooled": 0.2351451,
+        "full": 0.2362461,
+        "weighted": 0.2351451
+      }
+    },
+    "calibrationStart": "2025-09-05",
+    "holdoutStart": "2025-10-14"
+  },
+  "cologne": {
+    "asOf": "2026-06-01",
+    "weight": 0.0,
+    "reason": "missingFormat",
+    "calibration": {
+      "n": 117,
+      "bo1": {
+        "n": 0
+      },
+      "bo3": {
+        "n": 117,
+        "pooled": 0.210491,
+        "full": 0.2089365,
+        "weighted": 0.210491
+      }
+    },
+    "holdout": {
+      "n": 77,
+      "bo1": {
+        "n": 1,
+        "pooled": 0.310925,
+        "full": 0.3245518,
+        "weighted": 0.310925
+      },
+      "bo3": {
+        "n": 76,
+        "pooled": 0.2420672,
+        "full": 0.2422612,
+        "weighted": 0.2420672
+      },
+      "majorMix": {
+        "pooled": 0.2837992,
+        "full": 0.2921343,
+        "weighted": 0.2837992
+      }
+    },
+    "calibrationStart": "2026-04-02",
+    "holdoutStart": "2026-05-12"
+  },
+  "singapore": {
+    "asOf": "2026-11-02",
+    "weight": 0.0,
+    "reason": "directionUncertain",
+    "calibration": {
+      "n": 179,
+      "bo1": {
+        "n": 23,
+        "pooled": 0.2124989,
+        "full": 0.2127612,
+        "weighted": 0.2124989
+      },
+      "bo3": {
+        "n": 156,
+        "pooled": 0.2185713,
+        "full": 0.2179345,
+        "weighted": 0.2185713
+      },
+      "majorMix": {
+        "pooled": 0.2148911,
+        "full": 0.2147992,
+        "weighted": 0.2148911
+      }
+    },
+    "holdout": {
+      "n": 117,
+      "bo1": {
+        "n": 1,
+        "pooled": 0.1478519,
+        "full": 0.1746997,
+        "weighted": 0.1478519
+      },
+      "bo3": {
+        "n": 116,
+        "pooled": 0.257509,
+        "full": 0.2578026,
+        "weighted": 0.257509
+      },
+      "majorMix": {
+        "pooled": 0.1910502,
+        "full": 0.2074372,
+        "weighted": 0.1910502
+      }
+    },
+    "calibrationStart": "2026-09-03",
+    "holdoutStart": "2026-10-13"
+  }
+}

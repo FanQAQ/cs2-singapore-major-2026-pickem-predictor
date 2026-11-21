@@ -1,0 +1,712 @@
+{
+  "n": 198,
+  "stageCount": 6,
+  "cardBudgets": [
+    6000,
+    24000
+  ],
+  "seedCard": {
+    "hits": 24,
+    "passes": 1
+  },
+  "models": {
+    "vrs": {
+      "n": 198,
+      "brier": 0.23262790229286923,
+      "logLoss": 0.6585111701468714,
+      "hitRate": 0.6161616161616161,
+      "hits": 21,
+      "passes": 2,
+      "hits24k": 21,
+      "passes24k": 2
+    },
+    "vrsFormat": {
+      "n": 198,
+      "brier": 0.23493811315048452,
+      "logLoss": 0.6623498033954042,
+      "hitRate": 0.601010101010101,
+      "hits": 20,
+      "passes": 1,
+      "hits24k": 21,
+      "passes24k": 2
+    },
+    "guarded": {
+      "n": 198,
+      "brier": 0.23327029551230286,
+      "logLoss": 0.6585795684623365,
+      "hitRate": 0.6060606060606061,
+      "hits": 21,
+      "passes": 2,
+      "hits24k": 20,
+      "passes24k": 1
+    },
+    "seedProjected": {
+      "n": 198,
+      "brier": 0.23958933469773716,
+      "logLoss": 0.6728421133117847,
+      "hitRate": 0.6035353535353535,
+      "hits": 24,
+      "passes": 1,
+      "hits24k": 22,
+      "passes24k": 1
+    },
+    "blend": {
+      "n": 198,
+      "brier": 0.23384558480672413,
+      "logLoss": 0.6608024595631303,
+      "hitRate": 0.6111111111111112,
+      "hits": 25,
+      "passes": 1,
+      "hits24k": 22,
+      "passes24k": 1
+    },
+    "v2Pooled": {
+      "n": 198,
+      "brier": 0.24172751232000803,
+      "logLoss": 0.6791049370256652,
+      "hitRate": 0.5808080808080808,
+      "hits": 20,
+      "passes": 1,
+      "hits24k": 20,
+      "passes24k": 1
+    },
+    "v2": {
+      "n": 198,
+      "brier": 0.23978349629336157,
+      "logLoss": 0.6724848407681084,
+      "hitRate": 0.5707070707070707,
+      "hits": 21,
+      "passes": 1,
+      "hits24k": 21,
+      "passes24k": 0
+    },
+    "rolling": {
+      "n": 198,
+      "brier": 0.24039682277216873,
+      "logLoss": 0.6765752898128479,
+      "hitRate": 0.5909090909090909,
+      "hits": 19,
+      "passes": 1,
+      "hits24k": 19,
+      "passes24k": 1
+    },
+    "rollingFormat": {
+      "n": 198,
+      "brier": 0.23831084157086593,
+      "logLoss": 0.6693785799732297,
+      "hitRate": 0.5808080808080808,
+      "hits": 21,
+      "passes": 2,
+      "hits24k": 23,
+      "passes24k": 2
+    }
+  },
+  "stages": [
+    {
+      "id": "austin-2025-2",
+      "parent": "austin",
+      "stage": 2,
+      "asOf": "2025-06-02",
+      "start": "2025-06-07",
+      "allBo3": false,
+      "seedCard": 3,
+      "models": {
+        "vrs": {
+          "n": 33,
+          "brier": 0.2677655487034613,
+          "logLoss": 0.7364639691975693,
+          "hitRate": 0.5757575757575758,
+          "hits": 2,
+          "passed": false,
+          "hits24k": 3,
+          "passed24k": false
+        },
+        "vrsFormat": {
+          "n": 33,
+          "brier": 0.27366282047557944,
+          "logLoss": 0.7458206799359215,
+          "hitRate": 0.5151515151515151,
+          "hits": 3,
+          "passed": false,
+          "hits24k": 3,
+          "passed24k": false
+        },
+        "guarded": {
+          "n": 33,
+          "brier": 0.27366282047557944,
+          "logLoss": 0.7458206799359215,
+          "hitRate": 0.5151515151515151,
+          "hits": 3,
+          "passed": false,
+          "hits24k": 3,
+          "passed24k": false
+        },
+        "seedProjected": {
+          "n": 33,
+          "brier": 0.2602017700157281,
+          "logLoss": 0.7222942536560555,
+          "hitRate": 0.6363636363636364,
+          "hits": 3,
+          "passed": false,
+          "hits24k": 3,
+          "passed24k": false
+        },
+        "blend": {
+          "n": 33,
+          "brier": 0.2612270375015823,
+          "logLoss": 0.72380929245826,
+          "hitRate": 0.5757575757575758,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 4,
+          "passed24k": false
+        },
+        "v2Pooled": {
+          "n": 33,
+          "brier": 0.30439426086752946,
+          "logLoss": 0.815280355617647,
+          "hitRate": 0.42424242424242425,
+          "hits": 3,
+          "passed": false,
+          "hits24k": 3,
+          "passed24k": false
+        },
+        "v2": {
+          "n": 33,
+          "brier": 0.2941944608805806,
+          "logLoss": 0.790546811026268,
+          "hitRate": 0.42424242424242425,
+          "hits": 3,
+          "passed": false,
+          "hits24k": 3,
+          "passed24k": false
+        },
+        "rolling": {
+          "n": 33,
+          "brier": 0.30723920813794786,
+          "logLoss": 0.8245804061643973,
+          "hitRate": 0.45454545454545453,
+          "hits": 3,
+          "passed": false,
+          "hits24k": 3,
+          "passed24k": false
+        },
+        "rollingFormat": {
+          "n": 33,
+          "brier": 0.2967290400999249,
+          "logLoss": 0.7982473872250182,
+          "hitRate": 0.45454545454545453,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 4,
+          "passed24k": false
+        }
+      }
+    },
+    {
+      "id": "austin-2025-3",
+      "parent": "austin",
+      "stage": 3,
+      "asOf": "2025-06-02",
+      "start": "2025-06-12",
+      "allBo3": false,
+      "seedCard": 3,
+      "models": {
+        "vrs": {
+          "n": 33,
+          "brier": 0.22750530000107594,
+          "logLoss": 0.6495329655131712,
+          "hitRate": 0.5757575757575758,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 5,
+          "passed24k": true
+        },
+        "vrsFormat": {
+          "n": 33,
+          "brier": 0.2254623875455598,
+          "logLoss": 0.6405866446676096,
+          "hitRate": 0.5757575757575758,
+          "hits": 3,
+          "passed": false,
+          "hits24k": 4,
+          "passed24k": false
+        },
+        "guarded": {
+          "n": 33,
+          "brier": 0.2254623875455598,
+          "logLoss": 0.6405866446676096,
+          "hitRate": 0.5757575757575758,
+          "hits": 3,
+          "passed": false,
+          "hits24k": 4,
+          "passed24k": false
+        },
+        "seedProjected": {
+          "n": 33,
+          "brier": 0.24849585270138913,
+          "logLoss": 0.6901210577730956,
+          "hitRate": 0.5757575757575758,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 3,
+          "passed24k": false
+        },
+        "blend": {
+          "n": 33,
+          "brier": 0.23406945399098228,
+          "logLoss": 0.6598126926707925,
+          "hitRate": 0.6363636363636364,
+          "hits": 3,
+          "passed": false,
+          "hits24k": 3,
+          "passed24k": false
+        },
+        "v2Pooled": {
+          "n": 33,
+          "brier": 0.240765710100254,
+          "logLoss": 0.6887512189116451,
+          "hitRate": 0.6060606060606061,
+          "hits": 2,
+          "passed": false,
+          "hits24k": 2,
+          "passed24k": false
+        },
+        "v2": {
+          "n": 33,
+          "brier": 0.23388828686058183,
+          "logLoss": 0.6598162538203727,
+          "hitRate": 0.6060606060606061,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 4,
+          "passed24k": false
+        },
+        "rolling": {
+          "n": 33,
+          "brier": 0.23536978689898239,
+          "logLoss": 0.6774614351360437,
+          "hitRate": 0.6363636363636364,
+          "hits": 2,
+          "passed": false,
+          "hits24k": 2,
+          "passed24k": false
+        },
+        "rollingFormat": {
+          "n": 33,
+          "brier": 0.2288076013681129,
+          "logLoss": 0.6482390711124237,
+          "hitRate": 0.6363636363636364,
+          "hits": 2,
+          "passed": false,
+          "hits24k": 4,
+          "passed24k": false
+        }
+      }
+    },
+    {
+      "id": "budapest-2025-2",
+      "parent": "budapest",
+      "stage": 2,
+      "asOf": "2025-11-03",
+      "start": "2025-11-29",
+      "allBo3": false,
+      "seedCard": 4,
+      "models": {
+        "vrs": {
+          "n": 33,
+          "brier": 0.2359623542633188,
+          "logLoss": 0.6636038525610288,
+          "hitRate": 0.5454545454545454,
+          "hits": 5,
+          "passed": true,
+          "hits24k": 5,
+          "passed24k": true
+        },
+        "vrsFormat": {
+          "n": 33,
+          "brier": 0.2388813849785436,
+          "logLoss": 0.669815833307662,
+          "hitRate": 0.5151515151515151,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 5,
+          "passed24k": true
+        },
+        "guarded": {
+          "n": 33,
+          "brier": 0.2359623542633188,
+          "logLoss": 0.6636038525610288,
+          "hitRate": 0.5454545454545454,
+          "hits": 5,
+          "passed": true,
+          "hits24k": 5,
+          "passed24k": true
+        },
+        "seedProjected": {
+          "n": 33,
+          "brier": 0.27295297123968226,
+          "logLoss": 0.7411092502357959,
+          "hitRate": 0.4696969696969697,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 4,
+          "passed24k": false
+        },
+        "blend": {
+          "n": 33,
+          "brier": 0.25322278910358353,
+          "logLoss": 0.6995955892022543,
+          "hitRate": 0.5454545454545454,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 4,
+          "passed24k": false
+        },
+        "v2Pooled": {
+          "n": 33,
+          "brier": 0.23476758916092352,
+          "logLoss": 0.6606011178828279,
+          "hitRate": 0.5151515151515151,
+          "hits": 5,
+          "passed": true,
+          "hits24k": 5,
+          "passed24k": true
+        },
+        "v2": {
+          "n": 33,
+          "brier": 0.23727013613351747,
+          "logLoss": 0.6660758449503313,
+          "hitRate": 0.48484848484848486,
+          "hits": 5,
+          "passed": true,
+          "hits24k": 4,
+          "passed24k": false
+        },
+        "rolling": {
+          "n": 33,
+          "brier": 0.23148051822316448,
+          "logLoss": 0.6528698427427224,
+          "hitRate": 0.5454545454545454,
+          "hits": 5,
+          "passed": true,
+          "hits24k": 5,
+          "passed24k": true
+        },
+        "rollingFormat": {
+          "n": 33,
+          "brier": 0.23374882351766252,
+          "logLoss": 0.6581246079441264,
+          "hitRate": 0.5151515151515151,
+          "hits": 5,
+          "passed": true,
+          "hits24k": 5,
+          "passed24k": true
+        }
+      }
+    },
+    {
+      "id": "budapest-2025-3",
+      "parent": "budapest",
+      "stage": 3,
+      "asOf": "2025-11-03",
+      "start": "2025-12-04",
+      "allBo3": false,
+      "seedCard": 4,
+      "models": {
+        "vrs": {
+          "n": 33,
+          "brier": 0.2100577378113262,
+          "logLoss": 0.6115336928441091,
+          "hitRate": 0.7575757575757576,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 3,
+          "passed24k": false
+        },
+        "vrsFormat": {
+          "n": 33,
+          "brier": 0.21334142875969553,
+          "logLoss": 0.6186263260277647,
+          "hitRate": 0.7575757575757576,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 3,
+          "passed24k": false
+        },
+        "guarded": {
+          "n": 33,
+          "brier": 0.2100577378113262,
+          "logLoss": 0.6115336928441091,
+          "hitRate": 0.7575757575757576,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 3,
+          "passed24k": false
+        },
+        "seedProjected": {
+          "n": 33,
+          "brier": 0.20581362055395228,
+          "logLoss": 0.6019063469442298,
+          "hitRate": 0.696969696969697,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 3,
+          "passed24k": false
+        },
+        "blend": {
+          "n": 33,
+          "brier": 0.20587764463599972,
+          "logLoss": 0.6029507243327219,
+          "hitRate": 0.7575757575757576,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 3,
+          "passed24k": false
+        },
+        "v2Pooled": {
+          "n": 33,
+          "brier": 0.2176771097676085,
+          "logLoss": 0.626824681631651,
+          "hitRate": 0.696969696969697,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 4,
+          "passed24k": false
+        },
+        "v2": {
+          "n": 33,
+          "brier": 0.22011780985789073,
+          "logLoss": 0.6323861066679711,
+          "hitRate": 0.696969696969697,
+          "hits": 3,
+          "passed": false,
+          "hits24k": 4,
+          "passed24k": false
+        },
+        "rolling": {
+          "n": 33,
+          "brier": 0.2134321210595977,
+          "logLoss": 0.6173305671918312,
+          "hitRate": 0.7272727272727273,
+          "hits": 3,
+          "passed": false,
+          "hits24k": 3,
+          "passed24k": false
+        },
+        "rollingFormat": {
+          "n": 33,
+          "brier": 0.21596353817519254,
+          "logLoss": 0.6233278053509717,
+          "hitRate": 0.7272727272727273,
+          "hits": 3,
+          "passed": false,
+          "hits24k": 3,
+          "passed24k": false
+        }
+      }
+    },
+    {
+      "id": "cologne-2026-2",
+      "parent": "cologne",
+      "stage": 2,
+      "asOf": "2026-06-01",
+      "start": "2026-06-06",
+      "allBo3": false,
+      "seedCard": 7,
+      "models": {
+        "vrs": {
+          "n": 33,
+          "brier": 0.21906546540788316,
+          "logLoss": 0.6264724819405567,
+          "hitRate": 0.6060606060606061,
+          "hits": 5,
+          "passed": true,
+          "hits24k": 4,
+          "passed24k": false
+        },
+        "vrsFormat": {
+          "n": 33,
+          "brier": 0.22330830548536543,
+          "logLoss": 0.6367207430193252,
+          "hitRate": 0.6060606060606061,
+          "hits": 5,
+          "passed": true,
+          "hits24k": 5,
+          "passed24k": true
+        },
+        "guarded": {
+          "n": 33,
+          "brier": 0.21906546540788316,
+          "logLoss": 0.6264724819405567,
+          "hitRate": 0.6060606060606061,
+          "hits": 5,
+          "passed": true,
+          "hits24k": 4,
+          "passed24k": false
+        },
+        "seedProjected": {
+          "n": 33,
+          "brier": 0.20606403343563012,
+          "logLoss": 0.6004956009154376,
+          "hitRate": 0.6666666666666666,
+          "hits": 7,
+          "passed": true,
+          "hits24k": 7,
+          "passed24k": true
+        },
+        "blend": {
+          "n": 33,
+          "brier": 0.21112991020002342,
+          "logLoss": 0.6107906279305413,
+          "hitRate": 0.6060606060606061,
+          "hits": 6,
+          "passed": true,
+          "hits24k": 6,
+          "passed24k": true
+        },
+        "v2Pooled": {
+          "n": 33,
+          "brier": 0.21746263033181937,
+          "logLoss": 0.6204904874520283,
+          "hitRate": 0.5757575757575758,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 4,
+          "passed24k": false
+        },
+        "v2": {
+          "n": 33,
+          "brier": 0.2182728443403757,
+          "logLoss": 0.6241509718189866,
+          "hitRate": 0.5757575757575758,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 4,
+          "passed24k": false
+        },
+        "rolling": {
+          "n": 33,
+          "brier": 0.21921783552726037,
+          "logLoss": 0.6241339716593087,
+          "hitRate": 0.6060606060606061,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 4,
+          "passed24k": false
+        },
+        "rollingFormat": {
+          "n": 33,
+          "brier": 0.2192452508965329,
+          "logLoss": 0.625860752954315,
+          "hitRate": 0.5757575757575758,
+          "hits": 5,
+          "passed": true,
+          "hits24k": 5,
+          "passed24k": true
+        }
+      }
+    },
+    {
+      "id": "cologne-2026-3",
+      "parent": "cologne",
+      "stage": 3,
+      "asOf": "2026-06-01",
+      "start": "2026-06-11",
+      "allBo3": true,
+      "seedCard": 3,
+      "models": {
+        "vrs": {
+          "n": 33,
+          "brier": 0.2354110075701499,
+          "logLoss": 0.6634600588247928,
+          "hitRate": 0.6363636363636364,
+          "hits": 1,
+          "passed": false,
+          "hits24k": 1,
+          "passed24k": false
+        },
+        "vrsFormat": {
+          "n": 33,
+          "brier": 0.23497235165816335,
+          "logLoss": 0.6625285934141423,
+          "hitRate": 0.6363636363636364,
+          "hits": 1,
+          "passed": false,
+          "hits24k": 1,
+          "passed24k": false
+        },
+        "guarded": {
+          "n": 33,
+          "brier": 0.2354110075701499,
+          "logLoss": 0.6634600588247928,
+          "hitRate": 0.6363636363636364,
+          "hits": 1,
+          "passed": false,
+          "hits24k": 1,
+          "passed24k": false
+        },
+        "seedProjected": {
+          "n": 33,
+          "brier": 0.24400776024004106,
+          "logLoss": 0.6811261703460931,
+          "hitRate": 0.5757575757575758,
+          "hits": 2,
+          "passed": false,
+          "hits24k": 2,
+          "passed24k": false
+        },
+        "blend": {
+          "n": 33,
+          "brier": 0.23754667340817343,
+          "logLoss": 0.6678558307842128,
+          "hitRate": 0.5454545454545454,
+          "hits": 4,
+          "passed": false,
+          "hits24k": 2,
+          "passed24k": false
+        },
+        "v2Pooled": {
+          "n": 33,
+          "brier": 0.23529777369191346,
+          "logLoss": 0.662681760658192,
+          "hitRate": 0.6666666666666666,
+          "hits": 2,
+          "passed": false,
+          "hits24k": 2,
+          "passed24k": false
+        },
+        "v2": {
+          "n": 33,
+          "brier": 0.23495743968722313,
+          "logLoss": 0.6619330563247211,
+          "hitRate": 0.6363636363636364,
+          "hits": 2,
+          "passed": false,
+          "hits24k": 2,
+          "passed24k": false
+        },
+        "rolling": {
+          "n": 33,
+          "brier": 0.23564146678605935,
+          "logLoss": 0.6630755159827839,
+          "hitRate": 0.5757575757575758,
+          "hits": 2,
+          "passed": false,
+          "hits24k": 2,
+          "passed24k": false
+        },
+        "rollingFormat": {
+          "n": 33,
+          "brier": 0.23537079536777006,
+          "logLoss": 0.662471855252523,
+          "hitRate": 0.5757575757575758,
+          "hits": 2,
+          "passed": false,
+          "hits24k": 2,
+          "passed24k": false
+        }
+      }
+    }
+  ]
+}

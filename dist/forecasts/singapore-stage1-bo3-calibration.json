@@ -1,0 +1,2344 @@
+{
+  "sha256": "974365c59195d943c967d29a7812924c0df99844ad0133eb1288c712b3cc511b",
+  "forecast": {
+    "edition": "singapore-2026",
+    "stage": 1,
+    "frozenAt": "2026-11-21T10:23:48.709Z",
+    "startAt": "2026-11-24T04:00:00Z",
+    "verifiedValveLockAt": null,
+    "format": "mixed",
+    "reference": {
+      "file": "forecast_archive/singapore-stage1-seed-conditional-2026-11-21.json",
+      "sha256LF": "ae1c25551ac4ce23737b2e69ef3aa5ad57488f5bc7e67bc3f1d088d1725c594c",
+      "matrixReference": {
+        "file": "forecast_archive/singapore-stage1-region-vrs-2026-11-21.json",
+        "sha256": "09017b0d6a57c4e38859b94ed518c7f00242e3808af839cf4576860f01fbd246",
+        "field": "seriesMatrices"
+      }
+    },
+    "protocol": {
+      "file": "tail_calibration/PROTOCOL.md",
+      "sha256LF": "6cb48c9f7e5ee3a71730e67678a920b67a7da401fab40dd0fed45edb05448c20"
+    },
+    "pointsAsOf": "2026-11-02",
+    "startingFiveAsOf": "2026-11-10",
+    "training": {
+      "vrs": {
+        "b": 0.29687254015981057,
+        "n": 545,
+        "newest": "2026-11-14",
+        "cutoffExclusive": "2026-11-21",
+        "windowStart": "2026-05-25",
+        "excluded": {
+          "incompleteMatchOrFives": 340,
+          "vrsMissingOrAmbiguous": 41
+        },
+        "archiveSha256": "11072635a348e12715aecdc15ea8aef39a18b4cb2ef66d98fa1bd7e32ff4abc1"
+      },
+      "recommended": {
+        "b": 1.1495476720486648,
+        "n": 189,
+        "stages": [
+          "copenhagen",
+          "copenhagen-2024-2",
+          "shanghai",
+          "shanghai-2024-2",
+          "austin",
+          "austin-2025-2",
+          "austin-2025-3",
+          "budapest",
+          "budapest-2025-2",
+          "budapest-2025-3",
+          "cologne",
+          "cologne-2026-2",
+          "cologne-2026-3"
+        ],
+        "newest": "2026-06-15",
+        "cutoffExclusive": "2026-11-24",
+        "completedBefore": "2026-11-21",
+        "reportFile": "tail_calibration/report.json",
+        "reportSha256LF": "430b7499c9effae198c04040fee135e635666e6f31820554642b24b5e2ed9334"
+      }
+    },
+    "searchSeed": 33719,
+    "evaluationSeed": 3308850710,
+    "searchPaths": 12000,
+    "evaluationPaths": 12000,
+    "categoryOrder": [
+      "3-0",
+      "3-1 / 3-2",
+      "0-3",
+      "other"
+    ],
+    "teams": [
+      {
+        "seed": 1,
+        "name": "Ninjas in Pyjamas",
+        "roster": [
+          "adamb",
+          "Krimbo",
+          "sjuush",
+          "stavn",
+          "xKacpersky"
+        ],
+        "points": 1564,
+        "vrsRoster": [
+          "adamb",
+          "Krimbo",
+          "sjuush",
+          "stavn",
+          "xKacpersky"
+        ],
+        "vrsCoreOverlap": 5,
+        "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0015--ninjas_in_pyjamas--adamb-krimbo-sjuush-stavn-xkacpersky.md"
+      },
+      {
+        "seed": 2,
+        "name": "PARIVISION",
+        "roster": [
+          "FL1T",
+          "HObbit",
+          "Jame",
+          "xiELO",
+          "zweih"
+        ],
+        "points": 1560,
+        "vrsRoster": [
+          "FL1T",
+          "HObbit",
+          "Jame",
+          "xiELO",
+          "zweih"
+        ],
+        "vrsCoreOverlap": 5,
+        "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0016--parivision--fl1t-hobbit-jame-xielo-zweih.md"
+      },
+      {
+        "seed": 3,
+        "name": "HEROIC",
+        "roster": [
+          "Brollan",
+          "Chr1zN",
+          "MartinezSa",
+          "nilo",
+          "susp"
+        ],
+        "points": 1548,
+        "vrsRoster": [
+          "Brollan",
+          "Chr1zN",
+          "MartinezSa",
+          "nilo",
+          "susp"
+        ],
+        "vrsCoreOverlap": 5,
+        "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0018--heroic--brollan-chr1zn-martinezsa-nilo-susp.md"
+      },
+      {
+        "seed": 4,
+        "name": "FaZe",
+        "roster": [
+          "frozen",
+          "JBOEN",
+          "jcobbb",
+          "Neityu",
+          "Twistzz"
+        ],
+        "points": 1539,
+        "vrsRoster": [
+          "frozen",
+          "JBOEN",
+          "jcobbb",
+          "Neityu",
+          "Twistzz"
+        ],
+        "vrsCoreOverlap": 5,
+        "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0020--faze--frozen-jboen-jcobbb-neityu-twistzz.md"
+      },
+      {
+        "seed": 5,
+        "name": "Liquid",
+        "roster": [
+          "EliGE",
+          "Jorko",
+          "JT",
+          "malbsMd",
+          "NAF"
+        ],
+        "points": 1528,
+        "vrsRoster": [
+          "EliGE",
+          "Jorko",
+          "JT",
+          "malbsMd",
+          "NAF"
+        ],
+        "vrsCoreOverlap": 5,
+        "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0021--liquid--elige-jorko-jt-malbsmd-naf.md"
+      },
+      {
+        "seed": 6,
+        "name": "Eternal Fire",
+        "roster": [
+          "jottAAA",
+          "Kvem",
+          "MisteM",
+          "regali",
+          "soulfly"
+        ],
+        "points": 1513,
+        "vrsRoster": [
+          "jottAAA",
+          "Kvem",
+          "MisteM",
+          "regali",
+          "soulfly"
+        ],
+        "vrsCoreOverlap": 5,
+        "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0022--eternal_fire--jottaaa-kvem-mistem-regali-soulfly.md"
+      },
+      {
+        "seed": 7,
+        "name": "100 Thieves",
+        "roster": [
+          "device",
+          "Gizmy",
+          "poiii",
+          "rain",
+          "sirah"
+        ],
+        "points": 1511,
+        "vrsRoster": [
+          "device",
+          "Gizmy",
+          "poiii",
+          "rain",
+          "sirah"
+        ],
+        "vrsCoreOverlap": 5,
+        "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0023--100_thieves--device-gizmy-poiii-rain-sirah.md"
+      },
+      {
+        "seed": 8,
+        "name": "9z",
+        "roster": [
+          "dgt",
+          "HUASOPEEK",
+          "luchov",
+          "max",
+          "history"
+        ],
+        "points": 1490,
+        "vrsRoster": [
+          "dgt",
+          "HUASOPEEK",
+          "luchov",
+          "max",
+          "meyern"
+        ],
+        "vrsCoreOverlap": 4,
+        "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0024--9z--dgt-huasopeek-luchov-max-meyern.md"
+      },
+      {
+        "seed": 9,
+        "name": "M80",
+        "roster": [
+          "JBa",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "points": 1489,
+        "vrsRoster": [
+          "JBa",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "vrsCoreOverlap": 5,
+        "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0025--m80--jba-lake-s1n-slaxz--swisher.md"
+      },
+      {
+        "seed": 10,
+        "name": "DENDELE",
+        "roster": [
+          "doc",
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao"
+        ],
+        "points": 1466,
+        "vrsRoster": [
+          "doc",
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao"
+        ],
+        "vrsCoreOverlap": 5,
+        "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0029--dendele--doc-gafolo-koala-maxxkor-rdnzao.md"
+      },
+      {
+        "seed": 11,
+        "name": "Imperial",
+        "roster": [
+          "chelo",
+          "decenty",
+          "noway",
+          "saadzin",
+          "VINI"
+        ],
+        "points": 1406,
+        "vrsRoster": [
+          "chelo",
+          "decenty",
+          "noway",
+          "saadzin",
+          "VINI"
+        ],
+        "vrsCoreOverlap": 5,
+        "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0035--imperial--chelo-decenty-noway-saadzin-vini.md"
+      },
+      {
+        "seed": 12,
+        "name": "Wildcard",
+        "roster": [
+          "Cxzi",
+          "fr3nd",
+          "HexT",
+          "nEMANHA",
+          "reck"
+        ],
+        "points": 1391,
+        "vrsRoster": [
+          "Cxzi",
+          "fr3nd",
+          "HexT",
+          "nEMANHA",
+          "reck"
+        ],
+        "vrsCoreOverlap": 5,
+        "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0038--wildcard--cxzi-fr3nd-hext-nemanha-reck.md"
+      },
+      {
+        "seed": 13,
+        "name": "GOSH",
+        "roster": [
+          "asap",
+          "Magisk",
+          "mzinho",
+          "s1mple",
+          "Senzu"
+        ],
+        "points": 1337,
+        "vrsRoster": [
+          "asap",
+          "Magisk",
+          "mzinho",
+          "s1mple",
+          "Senzu"
+        ],
+        "vrsCoreOverlap": 5,
+        "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0045--bc_game--asap-magisk-mzinho-s1mple-senzu.md"
+      },
+      {
+        "seed": 14,
+        "name": "FlyQuest",
+        "roster": [
+          "aliStair",
+          "INS",
+          "jks",
+          "nettik",
+          "Vexite"
+        ],
+        "points": 1318,
+        "vrsRoster": [
+          "aliStair",
+          "INS",
+          "jks",
+          "nettik",
+          "Vexite"
+        ],
+        "vrsCoreOverlap": 5,
+        "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0048--flyquest--alistair-ins-jks-nettik-vexite.md"
+      },
+      {
+        "seed": 15,
+        "name": "Chinggis Warriors",
+        "roster": [
+          "cool4st",
+          "fury5k",
+          "ROUX",
+          "sk0R",
+          "tikuak"
+        ],
+        "points": 1272,
+        "vrsRoster": [
+          "cool4st",
+          "fury5k",
+          "ROUX",
+          "sk0R",
+          "tikuak"
+        ],
+        "vrsCoreOverlap": 5,
+        "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0055--chinggis_warriors--cool4st-fury5k-roux-sk0r-tikuak.md"
+      },
+      {
+        "seed": 16,
+        "name": "Lynn Vision",
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4KR"
+        ],
+        "points": 1267,
+        "vrsRoster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4KR"
+        ],
+        "vrsCoreOverlap": 5,
+        "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0056--lynn_vision--c4llm3su3-emiliaqaq-starry-westmelon-z4kr.md"
+      }
+    ],
+    "probabilities": [
+      {
+        "a": "Ninjas in Pyjamas",
+        "b": "PARIVISION",
+        "bo1": 0.5302628014081862,
+        "bo3": {
+          "recommended": 0.5302628014081862,
+          "recommendedCal": 0.5347748734428324,
+          "vrs": 0.5057562084111449,
+          "vrsCal": 0.5017089290592518
+        }
+      },
+      {
+        "a": "Ninjas in Pyjamas",
+        "b": "HEROIC",
+        "bo1": 0.4882616377297034,
+        "bo3": {
+          "recommended": 0.4882616377297034,
+          "recommendedCal": 0.4865069899303735,
+          "vrs": 0.5230095872975623,
+          "vrsCal": 0.5068353169982758
+        }
+      },
+      {
+        "a": "Ninjas in Pyjamas",
+        "b": "FaZe",
+        "bo1": 0.5332418684187409,
+        "bo3": {
+          "recommended": 0.5332418684187409,
+          "recommendedCal": 0.5381950079698775,
+          "vrs": 0.5359159269451023,
+          "vrsCal": 0.5106792238716863
+        }
+      },
+      {
+        "a": "Ninjas in Pyjamas",
+        "b": "Liquid",
+        "bo1": 0.5943520037867683,
+        "bo3": {
+          "recommended": 0.5943520037867683,
+          "recommendedCal": 0.6080471974133527,
+          "vrs": 0.5516235473109605,
+          "vrsCal": 0.5153755721230502
+        }
+      },
+      {
+        "a": "Ninjas in Pyjamas",
+        "b": "Eternal Fire",
+        "bo1": 0.4841386256467289,
+        "bo3": {
+          "recommended": 0.4841386256467289,
+          "recommendedCal": 0.4817685603202156,
+          "vrs": 0.5728722513945045,
+          "vrsCal": 0.5217751482086305
+        }
+      },
+      {
+        "a": "Ninjas in Pyjamas",
+        "b": "100 Thieves",
+        "bo1": 0.5317476072238003,
+        "bo3": {
+          "recommended": 0.5317476072238003,
+          "recommendedCal": 0.536479617283571,
+          "vrs": 0.5756869523764296,
+          "vrsCal": 0.5226279311593088
+        }
+      },
+      {
+        "a": "Ninjas in Pyjamas",
+        "b": "9z",
+        "bo1": 0.6706047066245726,
+        "bo3": {
+          "recommended": 0.6706047066245726,
+          "recommendedCal": 0.6936497196992986,
+          "vrs": 0.6049129020079569,
+          "vrsCal": 0.5315732441318334
+        }
+      },
+      {
+        "a": "Ninjas in Pyjamas",
+        "b": "M80",
+        "bo1": 0.5984375824094547,
+        "bo3": {
+          "recommended": 0.5984375824094547,
+          "recommendedCal": 0.61268738528341,
+          "vrs": 0.6062878237854281,
+          "vrsCal": 0.5319987514114547
+        }
+      },
+      {
+        "a": "Ninjas in Pyjamas",
+        "b": "DENDELE",
+        "bo1": 0.6106134671896535,
+        "bo3": {
+          "recommended": 0.6106134671896535,
+          "recommendedCal": 0.6264862182959167,
+          "vrs": 0.6374083767444846,
+          "vrsCal": 0.5417713366759183
+        }
+      },
+      {
+        "a": "Ninjas in Pyjamas",
+        "b": "Imperial",
+        "bo1": 0.5926842416552776,
+        "bo3": {
+          "recommended": 0.5926842416552776,
+          "recommendedCal": 0.6061516780231695,
+          "vrs": 0.712902157405454,
+          "vrsCal": 0.5670958123456795
+        }
+      },
+      {
+        "a": "Ninjas in Pyjamas",
+        "b": "Wildcard",
+        "bo1": 0.6289603159475481,
+        "bo3": {
+          "recommended": 0.6289603159475481,
+          "recommendedCal": 0.6471840740104544,
+          "vrs": 0.730245413297424,
+          "vrsCal": 0.5733777721793484
+        }
+      },
+      {
+        "a": "Ninjas in Pyjamas",
+        "b": "GOSH",
+        "bo1": 0.6703793921617403,
+        "bo3": {
+          "recommended": 0.6703793921617403,
+          "recommendedCal": 0.6934005394634482,
+          "vrs": 0.7869632793894692,
+          "vrsCal": 0.5957839061496458
+        }
+      },
+      {
+        "a": "Ninjas in Pyjamas",
+        "b": "FlyQuest",
+        "bo1": 0.6615304485085016,
+        "bo3": {
+          "recommended": 0.6615304485085016,
+          "recommendedCal": 0.6835937980386256,
+          "vrs": 0.8047246934992595,
+          "vrsCal": 0.6035785282488109
+        }
+      },
+      {
+        "a": "Ninjas in Pyjamas",
+        "b": "Chinggis Warriors",
+        "bo1": 0.6908201712054782,
+        "bo3": {
+          "recommended": 0.6908201712054782,
+          "recommendedCal": 0.7158943218917317,
+          "vrs": 0.8430219644140362,
+          "vrsCal": 0.6222264679658682
+        }
+      },
+      {
+        "a": "Ninjas in Pyjamas",
+        "b": "Lynn Vision",
+        "bo1": 0.707802400387329,
+        "bo3": {
+          "recommended": 0.707802400387329,
+          "recommendedCal": 0.7343965404873366,
+          "vrs": 0.8467934030726807,
+          "vrsCal": 0.6242328783363181
+        }
+      },
+      {
+        "a": "PARIVISION",
+        "b": "HEROIC",
+        "bo1": 0.45781900926006225,
+        "bo3": {
+          "recommended": 0.45781900926006225,
+          "recommendedCal": 0.4515479371144829,
+          "vrs": 0.5172625244323762,
+          "vrsCal": 0.5051266274770395
+        }
+      },
+      {
+        "a": "PARIVISION",
+        "b": "FaZe",
+        "bo1": 0.5025610596482872,
+        "bo3": {
+          "recommended": 0.5025610596482872,
+          "recommendedCal": 0.502944051880059,
+          "vrs": 0.5301846800039021,
+          "vrsCal": 0.5089709496930542
+        }
+      },
+      {
+        "a": "PARIVISION",
+        "b": "Liquid",
+        "bo1": 0.5642089813446212,
+        "bo3": {
+          "recommended": 0.5642089813446212,
+          "recommendedCal": 0.5736806991392326,
+          "vrs": 0.5459219227804837,
+          "vrsCal": 0.5136680796206271
+        }
+      },
+      {
+        "a": "PARIVISION",
+        "b": "Eternal Fire",
+        "bo1": 0.4670782165148995,
+        "bo3": {
+          "recommended": 0.4670782165148995,
+          "recommendedCal": 0.462172426850518,
+          "vrs": 0.5672288443429522,
+          "vrsCal": 0.520069206425351
+        }
+      },
+      {
+        "a": "PARIVISION",
+        "b": "100 Thieves",
+        "bo1": 0.5005053382148423,
+        "bo3": {
+          "recommended": 0.5005053382148423,
+          "recommendedCal": 0.5005809103048865,
+          "vrs": 0.5700528235839882,
+          "vrsCal": 0.5209222383124709
+        }
+      },
+      {
+        "a": "PARIVISION",
+        "b": "9z",
+        "bo1": 0.6419980196475523,
+        "bo3": {
+          "recommended": 0.6419980196475523,
+          "recommendedCal": 0.6618142273328111,
+          "vrs": 0.5993967967092568,
+          "vrsCal": 0.5298707619518115
+        }
+      },
+      {
+        "a": "PARIVISION",
+        "b": "M80",
+        "bo1": 0.5676081898394615,
+        "bo3": {
+          "recommended": 0.5676081898394615,
+          "recommendedCal": 0.5775663745537015,
+          "vrs": 0.600778245890011,
+          "vrsCal": 0.5302964492273798
+        }
+      },
+      {
+        "a": "PARIVISION",
+        "b": "DENDELE",
+        "bo1": 0.5796041409370009,
+        "bo3": {
+          "recommended": 0.5796041409370009,
+          "recommendedCal": 0.5912597560200392,
+          "vrs": 0.6320700121000735,
+          "vrsCal": 0.5400738501838009
+        }
+      },
+      {
+        "a": "PARIVISION",
+        "b": "Imperial",
+        "bo1": 0.5601323328063255,
+        "bo3": {
+          "recommended": 0.5601323328063255,
+          "recommendedCal": 0.5690177401728252,
+          "vrs": 0.7081663882812006,
+          "vrsCal": 0.565416886606311
+        }
+      },
+      {
+        "a": "PARIVISION",
+        "b": "Wildcard",
+        "bo1": 0.5970433576242188,
+        "bo3": {
+          "recommended": 0.5970433576242188,
+          "recommendedCal": 0.6111044380850765,
+          "vrs": 0.7256856462717871,
+          "vrsCal": 0.5717048095088757
+        }
+      },
+      {
+        "a": "PARIVISION",
+        "b": "GOSH",
+        "bo1": 0.63905976954346,
+        "bo3": {
+          "recommended": 0.63905976954346,
+          "recommendedCal": 0.6585232066955111,
+          "vrs": 0.7830774434096761,
+          "vrsCal": 0.5941366131887342
+        }
+      },
+      {
+        "a": "PARIVISION",
+        "b": "FlyQuest",
+        "bo1": 0.6425722311104828,
+        "bo3": {
+          "recommended": 0.6425722311104828,
+          "recommendedCal": 0.662456949578518,
+          "vrs": 0.8010809398289457,
+          "vrsCal": 0.601941777375585
+        }
+      },
+      {
+        "a": "PARIVISION",
+        "b": "Chinggis Warriors",
+        "bo1": 0.6719258796326428,
+        "bo3": {
+          "recommended": 0.6719258796326428,
+          "recommendedCal": 0.6951103009107545,
+          "vrs": 0.8399506946347535,
+          "vrsCal": 0.620618316167345
+        }
+      },
+      {
+        "a": "PARIVISION",
+        "b": "Lynn Vision",
+        "bo1": 0.6771668500762141,
+        "bo3": {
+          "recommended": 0.6771668500762141,
+          "recommendedCal": 0.7008951883348841,
+          "vrs": 0.8437822479242926,
+          "vrsCal": 0.6226280875878906
+        }
+      },
+      {
+        "a": "HEROIC",
+        "b": "FaZe",
+        "bo1": 0.5446985350976487,
+        "bo3": {
+          "recommended": 0.5446985350976487,
+          "recommendedCal": 0.5513390697351842,
+          "vrs": 0.5129491448928638,
+          "vrsCal": 0.5038450295586826
+        }
+      },
+      {
+        "a": "HEROIC",
+        "b": "Liquid",
+        "bo1": 0.6052831156129326,
+        "bo3": {
+          "recommended": 0.6052831156129326,
+          "recommendedCal": 0.6204510874128806,
+          "vrs": 0.5287505638922686,
+          "vrsCal": 0.5085438468523719
+        }
+      },
+      {
+        "a": "HEROIC",
+        "b": "Eternal Fire",
+        "bo1": 0.4928287837075065,
+        "bo3": {
+          "recommended": 0.4928287837075065,
+          "recommendedCal": 0.4917565267145699,
+          "vrs": 0.550199353253537,
+          "vrsCal": 0.5149487310893291
+        }
+      },
+      {
+        "a": "HEROIC",
+        "b": "100 Thieves",
+        "bo1": 0.5426787585854542,
+        "bo3": {
+          "recommended": 0.5426787585854542,
+          "recommendedCal": 0.5490229449979218,
+          "vrs": 0.5530468951694625,
+          "vrsCal": 0.5158023907261321
+        }
+      },
+      {
+        "a": "HEROIC",
+        "b": "9z",
+        "bo1": 0.679832124417834,
+        "bo3": {
+          "recommended": 0.679832124417834,
+          "recommendedCal": 0.7038313855233095,
+          "vrs": 0.5827018849642301,
+          "vrsCal": 0.5247593006624761
+        }
+      },
+      {
+        "a": "HEROIC",
+        "b": "M80",
+        "bo1": 0.6085775803656367,
+        "bo3": {
+          "recommended": 0.6085775803656367,
+          "recommendedCal": 0.6241822314280208,
+          "vrs": 0.584100958813678,
+          "vrsCal": 0.5251854688382948
+        }
+      },
+      {
+        "a": "HEROIC",
+        "b": "DENDELE",
+        "bo1": 0.6201651415472366,
+        "bo3": {
+          "recommended": 0.6201651415472366,
+          "recommendedCal": 0.6372769770204323,
+          "vrs": 0.615864104253756,
+          "vrsCal": 0.5349759650736693
+        }
+      },
+      {
+        "a": "HEROIC",
+        "b": "Imperial",
+        "bo1": 0.6013705741590736,
+        "bo3": {
+          "recommended": 0.6013705741590736,
+          "recommendedCal": 0.6160155125632449,
+          "vrs": 0.6936879164219655,
+          "vrsCal": 0.5603712454666837
+        }
+      },
+      {
+        "a": "HEROIC",
+        "b": "Wildcard",
+        "bo1": 0.6370316317741517,
+        "bo3": {
+          "recommended": 0.6370316317741517,
+          "recommendedCal": 0.6562494503144983,
+          "vrs": 0.7117225243427553,
+          "vrsCal": 0.5666762237772023
+        }
+      },
+      {
+        "a": "HEROIC",
+        "b": "GOSH",
+        "bo1": 0.6772528835151934,
+        "bo3": {
+          "recommended": 0.6772528835151934,
+          "recommendedCal": 0.700990027504391,
+          "vrs": 0.7711142606875975,
+          "vrsCal": 0.5891821441169429
+        }
+      },
+      {
+        "a": "HEROIC",
+        "b": "FlyQuest",
+        "bo1": 0.6660352617603477,
+        "bo3": {
+          "recommended": 0.6660352617603477,
+          "recommendedCal": 0.6885911536039478,
+          "vrs": 0.7898441797581306,
+          "vrsCal": 0.5970179630463335
+        }
+      },
+      {
+        "a": "HEROIC",
+        "b": "Chinggis Warriors",
+        "bo1": 0.6943863881696777,
+        "bo3": {
+          "recommended": 0.6943863881696777,
+          "recommendedCal": 0.7197943561870715,
+          "vrs": 0.8304449113532373,
+          "vrsCal": 0.6157780611740311
+        }
+      },
+      {
+        "a": "HEROIC",
+        "b": "Lynn Vision",
+        "bo1": 0.7131258489254819,
+        "bo3": {
+          "recommended": 0.7131258489254819,
+          "recommendedCal": 0.740158887313657,
+          "vrs": 0.834459181708983,
+          "vrsCal": 0.617797682892252
+        }
+      },
+      {
+        "a": "FaZe",
+        "b": "Liquid",
+        "bo1": 0.5618127353412847,
+        "bo3": {
+          "recommended": 0.5618127353412847,
+          "recommendedCal": 0.5709401917261455,
+          "vrs": 0.515824985264735,
+          "vrsCal": 0.5046994348246835
+        }
+      },
+      {
+        "a": "FaZe",
+        "b": "Eternal Fire",
+        "bo1": 0.46104658742411364,
+        "bo3": {
+          "recommended": 0.46104658742411364,
+          "recommendedCal": 0.45525033044883406,
+          "vrs": 0.5373473171664928,
+          "vrsCal": 0.511106255005848
+        }
+      },
+      {
+        "a": "FaZe",
+        "b": "100 Thieves",
+        "bo1": 0.49803690879627666,
+        "bo3": {
+          "recommended": 0.49803690879627666,
+          "recommendedCal": 0.4977433368042124,
+          "vrs": 0.5402082283237456,
+          "vrsCal": 0.5119602680225379
+        }
+      },
+      {
+        "a": "FaZe",
+        "b": "9z",
+        "bo1": 0.6397016959023799,
+        "bo3": {
+          "recommended": 0.6397016959023799,
+          "recommendedCal": 0.659242515606903,
+          "vrs": 0.5700528235839882,
+          "vrsCal": 0.5209222383124709
+        }
+      },
+      {
+        "a": "FaZe",
+        "b": "M80",
+        "bo1": 0.5652821331092157,
+        "bo3": {
+          "recommended": 0.5652821331092157,
+          "recommendedCal": 0.5749076750419225,
+          "vrs": 0.5714631174083814,
+          "vrsCal": 0.5213487088191462
+        }
+      },
+      {
+        "a": "FaZe",
+        "b": "DENDELE",
+        "bo1": 0.5772814353621984,
+        "bo3": {
+          "recommended": 0.5772814353621984,
+          "recommendedCal": 0.5886108858782577,
+          "vrs": 0.6035363185261781,
+          "vrsCal": 0.5311476909318553
+        }
+      },
+      {
+        "a": "FaZe",
+        "b": "Imperial",
+        "bo1": 0.5580672505709037,
+        "bo3": {
+          "recommended": 0.5580672505709037,
+          "recommendedCal": 0.566654510353448,
+          "vrs": 0.6825703854747719,
+          "vrsCal": 0.556578750233392
+        }
+      },
+      {
+        "a": "FaZe",
+        "b": "Wildcard",
+        "bo1": 0.5949973129359819,
+        "bo3": {
+          "recommended": 0.5949973129359819,
+          "recommendedCal": 0.6087804236961148,
+          "vrs": 0.700977398610108,
+          "vrsCal": 0.5628956930098552
+        }
+      },
+      {
+        "a": "FaZe",
+        "b": "GOSH",
+        "bo1": 0.6374180568542024,
+        "bo3": {
+          "recommended": 0.6374180568542024,
+          "recommendedCal": 0.6566828054320398,
+          "vrs": 0.761842109917936,
+          "vrsCal": 0.5854543264401884
+        }
+      },
+      {
+        "a": "FaZe",
+        "b": "FlyQuest",
+        "bo1": 0.6375752639845902,
+        "bo3": {
+          "recommended": 0.6375752639845902,
+          "recommendedCal": 0.6568590871499493,
+          "vrs": 0.7811154027299616,
+          "vrsCal": 0.5933121690300208
+        }
+      },
+      {
+        "a": "FaZe",
+        "b": "Chinggis Warriors",
+        "bo1": 0.6672203677774204,
+        "bo3": {
+          "recommended": 0.6672203677774204,
+          "recommendedCal": 0.6899041422520538,
+          "vrs": 0.8230246289217321,
+          "vrsCal": 0.6121327041091599
+        }
+      },
+      {
+        "a": "FaZe",
+        "b": "Lynn Vision",
+        "bo1": 0.6757074642970394,
+        "bo3": {
+          "recommended": 0.6757074642970394,
+          "recommendedCal": 0.6992858210563253,
+          "vrs": 0.8271780169631395,
+          "vrsCal": 0.614159480892983
+        }
+      },
+      {
+        "a": "Liquid",
+        "b": "Eternal Fire",
+        "bo1": 0.4127363214632831,
+        "bo3": {
+          "recommended": 0.4127363214632831,
+          "recommendedCal": 0.40001437818678204,
+          "vrs": 0.5215733330511455,
+          "vrsCal": 0.506408158028248
+        }
+      },
+      {
+        "a": "Liquid",
+        "b": "100 Thieves",
+        "bo1": 0.4361373564623417,
+        "bo3": {
+          "recommended": 0.4361373564623417,
+          "recommendedCal": 0.42671532929065015,
+          "vrs": 0.5244454611206615,
+          "vrsCal": 0.5072624659890345
+        }
+      },
+      {
+        "a": "Liquid",
+        "b": "9z",
+        "bo1": 0.58042298398363,
+        "bo3": {
+          "recommended": 0.58042298398363,
+          "recommendedCal": 0.5921932819875863,
+          "vrs": 0.554469374021676,
+          "vrsCal": 0.5162291862771389
+        }
+      },
+      {
+        "a": "Liquid",
+        "b": "M80",
+        "bo1": 0.503389029132833,
+        "bo3": {
+          "recommended": 0.503389029132833,
+          "recommendedCal": 0.5038958313714256,
+          "vrs": 0.5558909611168531,
+          "vrsCal": 0.5166559581547695
+        }
+      },
+      {
+        "a": "Liquid",
+        "b": "DENDELE",
+        "bo1": 0.5169072492816996,
+        "bo3": {
+          "recommended": 0.5169072492816996,
+          "recommendedCal": 0.5194333075731936,
+          "vrs": 0.5882899718631628,
+          "vrsCal": 0.5264637507966478
+        }
+      },
+      {
+        "a": "Liquid",
+        "b": "Imperial",
+        "bo1": 0.49713135307150985,
+        "bo3": {
+          "recommended": 0.49713135307150985,
+          "recommendedCal": 0.49670236523263145,
+          "vrs": 0.6686949563073317,
+          "vrsCal": 0.55193455053479
+        }
+      },
+      {
+        "a": "Liquid",
+        "b": "Wildcard",
+        "bo1": 0.5348056781823273,
+        "bo3": {
+          "recommended": 0.5348056781823273,
+          "recommendedCal": 0.5399900040346758,
+          "vrs": 0.6875382482123418,
+          "vrsCal": 0.5582651448818601
+        }
+      },
+      {
+        "a": "Liquid",
+        "b": "GOSH",
+        "bo1": 0.5774936447858761,
+        "bo3": {
+          "recommended": 0.5774936447858761,
+          "recommendedCal": 0.5888529467163869,
+          "vrs": 0.7501634818286421,
+          "vrsCal": 0.5808848207977866
+        }
+      },
+      {
+        "a": "Liquid",
+        "b": "FlyQuest",
+        "bo1": 0.5902611696587609,
+        "bo3": {
+          "recommended": 0.5902611696587609,
+          "recommendedCal": 0.603396334350579,
+          "vrs": 0.770096676660982,
+          "vrsCal": 0.5887684391808577
+        }
+      },
+      {
+        "a": "Liquid",
+        "b": "Chinggis Warriors",
+        "bo1": 0.6212828008613455,
+        "bo3": {
+          "recommended": 0.6212828008613455,
+          "recommendedCal": 0.6385375261900654,
+          "vrs": 0.8136122105055869,
+          "vrsCal": 0.6076601999043683
+        }
+      },
+      {
+        "a": "Liquid",
+        "b": "Lynn Vision",
+        "bo1": 0.6179970132945255,
+        "bo3": {
+          "recommended": 0.6179970132945255,
+          "recommendedCal": 0.6348303788822416,
+          "vrs": 0.8179376310581157,
+          "vrsCal": 0.6096954459311256
+        }
+      },
+      {
+        "a": "Eternal Fire",
+        "b": "100 Thieves",
+        "bo1": 0.5428747057333887,
+        "bo3": {
+          "recommended": 0.5428747057333887,
+          "recommendedCal": 0.5492476651298258,
+          "vrs": 0.502878199574811,
+          "vrsCal": 0.5008544670250517
+        }
+      },
+      {
+        "a": "Eternal Fire",
+        "b": "9z",
+        "bo1": 0.6607838059046267,
+        "bo3": {
+          "recommended": 0.6607838059046267,
+          "recommendedCal": 0.6827645489530528,
+          "vrs": 0.5330513938844411,
+          "vrsCal": 0.5098251154651041
+        }
+      },
+      {
+        "a": "Eternal Fire",
+        "b": "M80",
+        "bo1": 0.5945852765270315,
+        "bo3": {
+          "recommended": 0.5945852765270315,
+          "recommendedCal": 0.608312264876252,
+          "vrs": 0.5344839447268315,
+          "vrsCal": 0.5102521771505161
+        }
+      },
+      {
+        "a": "Eternal Fire",
+        "b": "DENDELE",
+        "bo1": 0.6245243710405459,
+        "bo3": {
+          "recommended": 0.6245243710405459,
+          "recommendedCal": 0.6421909356278076,
+          "vrs": 0.5672288443429522,
+          "vrsCal": 0.520069206425351
+        }
+      },
+      {
+        "a": "Eternal Fire",
+        "b": "Imperial",
+        "bo1": 0.5896323617940233,
+        "bo3": {
+          "recommended": 0.5896323617940233,
+          "recommendedCal": 0.6026810393016866,
+          "vrs": 0.6492949471109635,
+          "vrsCal": 0.5455870789025168
+        }
+      },
+      {
+        "a": "Eternal Fire",
+        "b": "Wildcard",
+        "bo1": 0.6291947959941653,
+        "bo3": {
+          "recommended": 0.6291947959941653,
+          "recommendedCal": 0.6474477968273975,
+          "vrs": 0.6686949563073317,
+          "vrsCal": 0.55193455053479
+        }
+      },
+      {
+        "a": "Eternal Fire",
+        "b": "GOSH",
+        "bo1": 0.6796599060796268,
+        "bo3": {
+          "recommended": 0.6796599060796268,
+          "recommendedCal": 0.7036417789799776,
+          "vrs": 0.7336337024138074,
+          "vrsCal": 0.574631395359035
+        }
+      },
+      {
+        "a": "Eternal Fire",
+        "b": "FlyQuest",
+        "bo1": 0.671839709165844,
+        "bo3": {
+          "recommended": 0.671839709165844,
+          "recommendedCal": 0.6950150657204291,
+          "vrs": 0.7544540419421866,
+          "vrsCal": 0.5825481085387184
+        }
+      },
+      {
+        "a": "Eternal Fire",
+        "b": "Chinggis Warriors",
+        "bo1": 0.6997437438565486,
+        "bo3": {
+          "recommended": 0.6997437438565486,
+          "recommendedCal": 0.7256387971364121,
+          "vrs": 0.8001620559151359,
+          "vrsCal": 0.6015322316742914
+        }
+      },
+      {
+        "a": "Eternal Fire",
+        "b": "Lynn Vision",
+        "bo1": 0.7051228509086033,
+        "bo3": {
+          "recommended": 0.7051228509086033,
+          "recommendedCal": 0.7314891088845108,
+          "vrs": 0.8047246934992595,
+          "vrsCal": 0.6035785282488109
+        }
+      },
+      {
+        "a": "100 Thieves",
+        "b": "9z",
+        "bo1": 0.6413925918187227,
+        "bo3": {
+          "recommended": 0.6413925918187227,
+          "recommendedCal": 0.6611364111139799,
+          "vrs": 0.5301846800039021,
+          "vrsCal": 0.5089709496930542
+        }
+      },
+      {
+        "a": "100 Thieves",
+        "b": "M80",
+        "bo1": 0.5672473859606015,
+        "bo3": {
+          "recommended": 0.5672473859606015,
+          "recommendedCal": 0.5771540433594569,
+          "vrs": 0.5316182978281073,
+          "vrsCal": 0.5093980394383042
+        }
+      },
+      {
+        "a": "100 Thieves",
+        "b": "DENDELE",
+        "bo1": 0.5791165779007774,
+        "bo3": {
+          "recommended": 0.5791165779007774,
+          "recommendedCal": 0.5907038319061183,
+          "vrs": 0.5644004902404213,
+          "vrsCal": 0.5192160575046346
+        }
+      },
+      {
+        "a": "100 Thieves",
+        "b": "Imperial",
+        "bo1": 0.5600419793966543,
+        "bo3": {
+          "recommended": 0.5600419793966543,
+          "recommendedCal": 0.5689143576542705,
+          "vrs": 0.6466688423256146,
+          "vrsCal": 0.5447395827797202
+        }
+      },
+      {
+        "a": "100 Thieves",
+        "b": "Wildcard",
+        "bo1": 0.5968246783779835,
+        "bo3": {
+          "recommended": 0.5968246783779835,
+          "recommendedCal": 0.6108561071124925,
+          "vrs": 0.6661394245831221,
+          "vrsCal": 0.5510891521123458
+        }
+      },
+      {
+        "a": "100 Thieves",
+        "b": "GOSH",
+        "bo1": 0.6393851201282478,
+        "bo3": {
+          "recommended": 0.6393851201282478,
+          "recommendedCal": 0.658887799102402,
+          "vrs": 0.7313778578393884,
+          "vrsCal": 0.5737957521740386
+        }
+      },
+      {
+        "a": "100 Thieves",
+        "b": "FlyQuest",
+        "bo1": 0.6339286459924004,
+        "bo3": {
+          "recommended": 0.6339286459924004,
+          "recommendedCal": 0.6527673961798754,
+          "vrs": 0.7523149936056823,
+          "vrsCal": 0.5817166969438005
+        }
+      },
+      {
+        "a": "100 Thieves",
+        "b": "Chinggis Warriors",
+        "bo1": 0.6636688338185774,
+        "bo3": {
+          "recommended": 0.6636688338185774,
+          "recommendedCal": 0.6859672486753761,
+          "vrs": 0.7983147441549777,
+          "vrsCal": 0.6007127143556449
+        }
+      },
+      {
+        "a": "100 Thieves",
+        "b": "Lynn Vision",
+        "bo1": 0.6774440869087363,
+        "bo3": {
+          "recommended": 0.6774440869087363,
+          "recommendedCal": 0.7012007866437195,
+          "vrs": 0.8029091701538159,
+          "vrsCal": 0.6027604402433533
+        }
+      },
+      {
+        "a": "9z",
+        "b": "M80",
+        "bo1": 0.42310857900096166,
+        "bo3": {
+          "recommended": 0.42310857900096166,
+          "recommendedCal": 0.4118340186157316,
+          "vrs": 0.5014391117091528,
+          "vrsCal": 0.5004272338244554
+        }
+      },
+      {
+        "a": "9z",
+        "b": "DENDELE",
+        "bo1": 0.4364052603260864,
+        "bo3": {
+          "recommended": 0.4364052603260864,
+          "recommendedCal": 0.42702168611313635,
+          "vrs": 0.5344839447268315,
+          "vrsCal": 0.5102521771505161
+        }
+      },
+      {
+        "a": "9z",
+        "b": "Imperial",
+        "bo1": 0.41772340038228134,
+        "bo3": {
+          "recommended": 0.41772340038228134,
+          "recommendedCal": 0.4056940897667825,
+          "vrs": 0.6185841220890308,
+          "vrsCal": 0.5358261493249223
+        }
+      },
+      {
+        "a": "9z",
+        "b": "Wildcard",
+        "bo1": 0.4548102070763332,
+        "bo3": {
+          "recommended": 0.4548102070763332,
+          "recommendedCal": 0.44809767420615254,
+          "vrs": 0.6387377491117249,
+          "vrsCal": 0.5421955583910427
+        }
+      },
+      {
+        "a": "9z",
+        "b": "GOSH",
+        "bo1": 0.49873343839561707,
+        "bo3": {
+          "recommended": 0.49873343839561707,
+          "recommendedCal": 0.49854402805726195,
+          "vrs": 0.7069752948085409,
+          "vrsCal": 0.564996918997149
+        }
+      },
+      {
+        "a": "9z",
+        "b": "FlyQuest",
+        "bo1": 0.5144452287593193,
+        "bo3": {
+          "recommended": 0.5144452287593193,
+          "recommendedCal": 0.5166039938696,
+          "vrs": 0.7291099628977525,
+          "vrsCal": 0.5729596873439134
+        }
+      },
+      {
+        "a": "9z",
+        "b": "Chinggis Warriors",
+        "bo1": 0.5471176900012483,
+        "bo3": {
+          "recommended": 0.5471176900012483,
+          "recommendedCal": 0.5541124579837585,
+          "vrs": 0.7781484542191325,
+          "vrsCal": 0.5920745178059396
+        }
+      },
+      {
+        "a": "9z",
+        "b": "Lynn Vision",
+        "bo1": 0.5411770488598993,
+        "bo3": {
+          "recommended": 0.5411770488598993,
+          "recommendedCal": 0.5473005639525322,
+          "vrs": 0.7830774434096761,
+          "vrsCal": 0.5941366131887342
+        }
+      },
+      {
+        "a": "M80",
+        "b": "DENDELE",
+        "bo1": 0.513422593494117,
+        "bo3": {
+          "recommended": 0.513422593494117,
+          "recommendedCal": 0.5154287195214657,
+          "vrs": 0.5330513938844411,
+          "vrsCal": 0.5098251154651041
+        }
+      },
+      {
+        "a": "M80",
+        "b": "Imperial",
+        "bo1": 0.49398818268541295,
+        "bo3": {
+          "recommended": 0.49398818268541295,
+          "recommendedCal": 0.4930892364580376,
+          "vrs": 0.6172250309049464,
+          "vrsCal": 0.5354010829165873
+        }
+      },
+      {
+        "a": "M80",
+        "b": "Wildcard",
+        "bo1": 0.5315725450575631,
+        "bo3": {
+          "recommended": 0.5315725450575631,
+          "recommendedCal": 0.5362786344788671,
+          "vrs": 0.6374083767444846,
+          "vrsCal": 0.5417713366759183
+        }
+      },
+      {
+        "a": "M80",
+        "b": "GOSH",
+        "bo1": 0.5748515820334725,
+        "bo3": {
+          "recommended": 0.5748515820334725,
+          "recommendedCal": 0.5858384955412029,
+          "vrs": 0.7057813597120025,
+          "vrsCal": 0.5645768580813741
+        }
+      },
+      {
+        "a": "M80",
+        "b": "FlyQuest",
+        "bo1": 0.5834814337690488,
+        "bo3": {
+          "recommended": 0.5834814337690488,
+          "recommendedCal": 0.5956786504079788,
+          "vrs": 0.7279715135441962,
+          "vrsCal": 0.572541498239013
+        }
+      },
+      {
+        "a": "M80",
+        "b": "Chinggis Warriors",
+        "bo1": 0.6147351737281859,
+        "bo3": {
+          "recommended": 0.6147351737281859,
+          "recommendedCal": 0.6311464721051683,
+          "vrs": 0.777153105314726,
+          "vrsCal": 0.5916617068954722
+        }
+      },
+      {
+        "a": "M80",
+        "b": "Lynn Vision",
+        "bo1": 0.6154316631572955,
+        "bo3": {
+          "recommended": 0.6154316631572955,
+          "recommendedCal": 0.6319333948263867,
+          "vrs": 0.7820980161313187,
+          "vrsCal": 0.5937244571345895
+        }
+      },
+      {
+        "a": "DENDELE",
+        "b": "Imperial",
+        "bo1": 0.4809272993289734,
+        "bo3": {
+          "recommended": 0.4809272993289734,
+          "recommendedCal": 0.4780784401479784,
+          "vrs": 0.5854986786718095,
+          "vrsCal": 0.5256116003308487
+        }
+      },
+      {
+        "a": "DENDELE",
+        "b": "Wildcard",
+        "bo1": 0.5185126442020815,
+        "bo3": {
+          "recommended": 0.5185126442020815,
+          "recommendedCal": 0.5212780406759525,
+          "vrs": 0.6062878237854281,
+          "vrsCal": 0.5319987514114547
+        }
+      },
+      {
+        "a": "DENDELE",
+        "b": "GOSH",
+        "bo1": 0.5638174795025379,
+        "bo3": {
+          "recommended": 0.5638174795025379,
+          "recommendedCal": 0.5732330251111846,
+          "vrs": 0.6775605800851006,
+          "vrsCal": 0.5548910506327782
+        }
+      },
+      {
+        "a": "DENDELE",
+        "b": "FlyQuest",
+        "bo1": 0.5534436235554837,
+        "bo3": {
+          "recommended": 0.5534436235554837,
+          "recommendedCal": 0.5613607204508205,
+          "vrs": 0.700977398610108,
+          "vrsCal": 0.5628956930098552
+        }
+      },
+      {
+        "a": "DENDELE",
+        "b": "Chinggis Warriors",
+        "bo1": 0.5854939705406742,
+        "bo3": {
+          "recommended": 0.5854939705406742,
+          "recommendedCal": 0.5979708477297477,
+          "vrs": 0.7533860777856145,
+          "vrsCal": 0.5821324610893351
+        }
+      },
+      {
+        "a": "DENDELE",
+        "b": "Lynn Vision",
+        "bo1": 0.6048890701152698,
+        "bo3": {
+          "recommended": 0.6048890701152698,
+          "recommendedCal": 0.6200045805585693,
+          "vrs": 0.7586946201468556,
+          "vrsCal": 0.5842095202333938
+        }
+      },
+      {
+        "a": "Imperial",
+        "b": "Wildcard",
+        "bo1": 0.5372398584471233,
+        "bo3": {
+          "recommended": 0.5372398584471233,
+          "recommendedCal": 0.542783536645507,
+          "vrs": 0.5215733330511455,
+          "vrsCal": 0.506408158028248
+        }
+      },
+      {
+        "a": "Imperial",
+        "b": "GOSH",
+        "bo1": 0.5824696967252775,
+        "bo3": {
+          "recommended": 0.5824696967252775,
+          "recommendedCal": 0.5945259414628754,
+          "vrs": 0.5980137657693436,
+          "vrsCal": 0.5294450312137379
+        }
+      },
+      {
+        "a": "Imperial",
+        "b": "FlyQuest",
+        "bo1": 0.5884812366856338,
+        "bo3": {
+          "recommended": 0.5884812366856338,
+          "recommendedCal": 0.60137131362059,
+          "vrs": 0.6240017586176672,
+          "vrsCal": 0.537525888392025
+        }
+      },
+      {
+        "a": "Imperial",
+        "b": "Chinggis Warriors",
+        "bo1": 0.6194544541334736,
+        "bo3": {
+          "recommended": 0.6194544541334736,
+          "recommendedCal": 0.6364751955622068,
+          "vrs": 0.6838163141936586,
+          "vrsCal": 0.5570004727150081
+        }
+      },
+      {
+        "a": "Imperial",
+        "b": "Lynn Vision",
+        "bo1": 0.6223772495017055,
+        "bo3": {
+          "recommended": 0.6223772495017055,
+          "recommendedCal": 0.6397714566935376,
+          "vrs": 0.6900062072803139,
+          "vrsCal": 0.5591078410189502
+        }
+      },
+      {
+        "a": "Wildcard",
+        "b": "GOSH",
+        "bo1": 0.5461233596299381,
+        "bo3": {
+          "recommended": 0.5461233596299381,
+          "recommendedCal": 0.552972625742217,
+          "vrs": 0.577092475825329,
+          "vrsCal": 0.5230542734826102
+        }
+      },
+      {
+        "a": "Wildcard",
+        "b": "FlyQuest",
+        "bo1": 0.5484428493336576,
+        "bo3": {
+          "recommended": 0.5484428493336576,
+          "recommendedCal": 0.5556313148562407,
+          "vrs": 0.6035363185261781,
+          "vrsCal": 0.5311476909318553
+        }
+      },
+      {
+        "a": "Wildcard",
+        "b": "Chinggis Warriors",
+        "bo1": 0.5804229417125651,
+        "bo3": {
+          "recommended": 0.5804229417125651,
+          "recommendedCal": 0.5921932338003811,
+          "vrs": 0.6648579785547648,
+          "vrsCal": 0.5506663418676722
+        }
+      },
+      {
+        "a": "Wildcard",
+        "b": "Lynn Vision",
+        "bo1": 0.587221369468092,
+        "bo3": {
+          "recommended": 0.587221369468092,
+          "recommendedCal": 0.5999374632896959,
+          "vrs": 0.6712405808158318,
+          "vrsCal": 0.5527796488848548
+        }
+      },
+      {
+        "a": "GOSH",
+        "b": "FlyQuest",
+        "bo1": 0.4911188646169047,
+        "bo3": {
+          "recommended": 0.4911188646169047,
+          "recommendedCal": 0.48979105664508804,
+          "vrs": 0.527315973006493,
+          "vrsCal": 0.5081167315393516
+        }
+      },
+      {
+        "a": "GOSH",
+        "b": "Chinggis Warriors",
+        "bo1": 0.5231426568213714,
+        "bo3": {
+          "recommended": 0.5231426568213714,
+          "recommendedCal": 0.5265974792795486,
+          "vrs": 0.5924662305843318,
+          "vrsCal": 0.5277416859421638
+        }
+      },
+      {
+        "a": "GOSH",
+        "b": "Lynn Vision",
+        "bo1": 0.5408909754226845,
+        "bo3": {
+          "recommended": 0.5408909754226845,
+          "recommendedCal": 0.5469724214745049,
+          "vrs": 0.5993967967092568,
+          "vrsCal": 0.5298707619518115
+        }
+      },
+      {
+        "a": "FlyQuest",
+        "b": "Chinggis Warriors",
+        "bo1": 0.5319485562059885,
+        "bo3": {
+          "recommended": 0.5319485562059885,
+          "recommendedCal": 0.5367103162941647,
+          "vrs": 0.5658152030692333,
+          "vrsCal": 0.5196426462842493
+        }
+      },
+      {
+        "a": "FlyQuest",
+        "b": "Lynn Vision",
+        "bo1": 0.537615833965495,
+        "bo3": {
+          "recommended": 0.537615833965495,
+          "recommendedCal": 0.543214959391287,
+          "vrs": 0.5728722513945045,
+          "vrsCal": 0.5217751482086305
+        }
+      },
+      {
+        "a": "Chinggis Warriors",
+        "b": "Lynn Vision",
+        "bo1": 0.5055271698261176,
+        "bo3": {
+          "recommended": 0.5055271698261176,
+          "recommendedCal": 0.5063536620102036,
+          "vrs": 0.5071950817090514,
+          "vrsCal": 0.5021361566451702
+        }
+      }
+    ],
+    "cards": {
+      "recommended": {
+        "name": "生产推荐 · 原始 BO3",
+        "card": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          3,
+          3,
+          3,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "groups": [
+          [
+            "Ninjas in Pyjamas",
+            "Eternal Fire"
+          ],
+          [
+            "PARIVISION",
+            "HEROIC",
+            "FaZe",
+            "Liquid",
+            "100 Thieves",
+            "Imperial"
+          ],
+          [
+            "Chinggis Warriors",
+            "Lynn Vision"
+          ]
+        ],
+        "probabilities": [
+          [
+            0.23504166666666668,
+            0.4779583333333333,
+            0.04841666666666666,
+            0.23858333333333334
+          ],
+          [
+            0.198875,
+            0.45729166666666665,
+            0.05479166666666667,
+            0.28904166666666664
+          ],
+          [
+            0.21920833333333334,
+            0.49070833333333336,
+            0.04829166666666666,
+            0.24179166666666665
+          ],
+          [
+            0.18204166666666666,
+            0.46166666666666667,
+            0.06129166666666667,
+            0.295
+          ],
+          [
+            0.13170833333333334,
+            0.39916666666666667,
+            0.08891666666666667,
+            0.3802083333333333
+          ],
+          [
+            0.22658333333333333,
+            0.48583333333333334,
+            0.04416666666666667,
+            0.24341666666666667
+          ],
+          [
+            0.188375,
+            0.46441666666666664,
+            0.05629166666666666,
+            0.29091666666666666
+          ],
+          [
+            0.07975,
+            0.3000833333333333,
+            0.14358333333333334,
+            0.47658333333333336
+          ],
+          [
+            0.093125,
+            0.384125,
+            0.12383333333333334,
+            0.39891666666666664
+          ],
+          [
+            0.08566666666666667,
+            0.3602916666666667,
+            0.13833333333333334,
+            0.41570833333333335
+          ],
+          [
+            0.09008333333333333,
+            0.38958333333333334,
+            0.13341666666666666,
+            0.3869166666666667
+          ],
+          [
+            0.074125,
+            0.33791666666666664,
+            0.15816666666666668,
+            0.4297916666666667
+          ],
+          [
+            0.058416666666666665,
+            0.27620833333333333,
+            0.191625,
+            0.47375
+          ],
+          [
+            0.048375,
+            0.260875,
+            0.22566666666666665,
+            0.46508333333333335
+          ],
+          [
+            0.04020833333333333,
+            0.223875,
+            0.25833333333333336,
+            0.47758333333333336
+          ],
+          [
+            0.04841666666666666,
+            0.23,
+            0.224875,
+            0.4967083333333333
+          ]
+        ],
+        "passProbability": 0.25266666666666665,
+        "expectedHits": 3.6195,
+        "scoreDistribution": [
+          54,
+          587,
+          1933,
+          3164,
+          3230,
+          1927,
+          844,
+          224,
+          31,
+          6,
+          0
+        ]
+      },
+      "recommendedCal": {
+        "name": "生产推荐 · 校准 BO3",
+        "card": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          3,
+          3,
+          3,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "groups": [
+          [
+            "Ninjas in Pyjamas",
+            "Eternal Fire"
+          ],
+          [
+            "PARIVISION",
+            "HEROIC",
+            "FaZe",
+            "Liquid",
+            "100 Thieves",
+            "Imperial"
+          ],
+          [
+            "Chinggis Warriors",
+            "Lynn Vision"
+          ]
+        ],
+        "probabilities": [
+          [
+            0.23908333333333334,
+            0.48641666666666666,
+            0.04658333333333333,
+            0.22791666666666666
+          ],
+          [
+            0.20033333333333334,
+            0.46266666666666667,
+            0.05325,
+            0.28375
+          ],
+          [
+            0.22358333333333333,
+            0.49754166666666666,
+            0.04570833333333333,
+            0.23316666666666666
+          ],
+          [
+            0.18345833333333333,
+            0.467625,
+            0.059416666666666666,
+            0.2895
+          ],
+          [
+            0.13041666666666665,
+            0.39891666666666664,
+            0.087875,
+            0.38279166666666664
+          ],
+          [
+            0.23066666666666666,
+            0.49333333333333335,
+            0.042166666666666665,
+            0.23383333333333334
+          ],
+          [
+            0.18966666666666668,
+            0.4698333333333333,
+            0.054875,
+            0.285625
+          ],
+          [
+            0.076,
+            0.29441666666666666,
+            0.1455,
+            0.4840833333333333
+          ],
+          [
+            0.09258333333333334,
+            0.38395833333333335,
+            0.12216666666666667,
+            0.40129166666666666
+          ],
+          [
+            0.08466666666666667,
+            0.36025,
+            0.13691666666666666,
+            0.4181666666666667
+          ],
+          [
+            0.08995833333333333,
+            0.390625,
+            0.13166666666666665,
+            0.38775
+          ],
+          [
+            0.07275,
+            0.337375,
+            0.15770833333333334,
+            0.43216666666666664
+          ],
+          [
+            0.056416666666666664,
+            0.26966666666666667,
+            0.19408333333333333,
+            0.47983333333333333
+          ],
+          [
+            0.04683333333333333,
+            0.25416666666666665,
+            0.22795833333333335,
+            0.4710416666666667
+          ],
+          [
+            0.03808333333333333,
+            0.21408333333333332,
+            0.2638333333333333,
+            0.484
+          ],
+          [
+            0.0455,
+            0.219125,
+            0.23029166666666667,
+            0.5050833333333333
+          ]
+        ],
+        "passProbability": 0.2639166666666667,
+        "expectedHits": 3.6620833333333334,
+        "scoreDistribution": [
+          56,
+          556,
+          1852,
+          3117,
+          3252,
+          2007,
+          877,
+          242,
+          34,
+          7,
+          0
+        ]
+      },
+      "vrs": {
+        "name": "Valve 积分 / 400 · 原始 BO3",
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "groups": [
+          [
+            "Ninjas in Pyjamas",
+            "PARIVISION"
+          ],
+          [
+            "HEROIC",
+            "FaZe",
+            "Liquid",
+            "Eternal Fire",
+            "100 Thieves",
+            "M80"
+          ],
+          [
+            "Chinggis Warriors",
+            "Lynn Vision"
+          ]
+        ],
+        "probabilities": [
+          [
+            0.25225,
+            0.5023333333333333,
+            0.03879166666666667,
+            0.206625
+          ],
+          [
+            0.22154166666666666,
+            0.49995833333333334,
+            0.041625,
+            0.236875
+          ],
+          [
+            0.22079166666666666,
+            0.5010416666666667,
+            0.0425,
+            0.23566666666666666
+          ],
+          [
+            0.193625,
+            0.493,
+            0.050625,
+            0.26275
+          ],
+          [
+            0.15395833333333334,
+            0.4663333333333333,
+            0.066625,
+            0.3130833333333333
+          ],
+          [
+            0.20625,
+            0.4804583333333333,
+            0.04604166666666667,
+            0.26725
+          ],
+          [
+            0.184,
+            0.4720416666666667,
+            0.053375,
+            0.29058333333333336
+          ],
+          [
+            0.10225,
+            0.393,
+            0.10566666666666667,
+            0.39908333333333335
+          ],
+          [
+            0.09891666666666667,
+            0.43091666666666667,
+            0.098875,
+            0.3712916666666667
+          ],
+          [
+            0.09129166666666666,
+            0.39629166666666665,
+            0.11708333333333333,
+            0.3953333333333333
+          ],
+          [
+            0.07441666666666667,
+            0.3345416666666667,
+            0.14283333333333334,
+            0.4482083333333333
+          ],
+          [
+            0.062625,
+            0.30183333333333334,
+            0.163625,
+            0.47191666666666665
+          ],
+          [
+            0.04625,
+            0.231375,
+            0.2065,
+            0.515875
+          ],
+          [
+            0.034333333333333334,
+            0.193875,
+            0.25483333333333336,
+            0.5169583333333333
+          ],
+          [
+            0.026458333333333334,
+            0.14658333333333334,
+            0.30633333333333335,
+            0.520625
+          ],
+          [
+            0.031041666666666665,
+            0.15641666666666668,
+            0.26466666666666666,
+            0.547875
+          ]
+        ],
+        "passProbability": 0.323,
+        "expectedHits": 3.9055833333333334,
+        "scoreDistribution": [
+          17,
+          322,
+          1532,
+          2914,
+          3339,
+          2384,
+          1080,
+          324,
+          77,
+          11,
+          0
+        ]
+      },
+      "vrsCal": {
+        "name": "Valve 积分 / 400 · 校准 BO3",
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "groups": [
+          [
+            "Ninjas in Pyjamas",
+            "PARIVISION"
+          ],
+          [
+            "HEROIC",
+            "FaZe",
+            "Liquid",
+            "Eternal Fire",
+            "100 Thieves",
+            "M80"
+          ],
+          [
+            "Chinggis Warriors",
+            "Lynn Vision"
+          ]
+        ],
+        "probabilities": [
+          [
+            0.22145833333333334,
+            0.45545833333333335,
+            0.054875,
+            0.2682083333333333
+          ],
+          [
+            0.19820833333333332,
+            0.44733333333333336,
+            0.05925,
+            0.29520833333333335
+          ],
+          [
+            0.19858333333333333,
+            0.45808333333333334,
+            0.057541666666666665,
+            0.28579166666666667
+          ],
+          [
+            0.17966666666666667,
+            0.44345833333333334,
+            0.0675,
+            0.309375
+          ],
+          [
+            0.14425,
+            0.41683333333333333,
+            0.085375,
+            0.35354166666666664
+          ],
+          [
+            0.20075,
+            0.4492083333333333,
+            0.05525,
+            0.2947916666666667
+          ],
+          [
+            0.181125,
+            0.43704166666666666,
+            0.063625,
+            0.3182083333333333
+          ],
+          [
+            0.10466666666666667,
+            0.36325,
+            0.12066666666666667,
+            0.41141666666666665
+          ],
+          [
+            0.09770833333333333,
+            0.39075,
+            0.12458333333333334,
+            0.38695833333333335
+          ],
+          [
+            0.09208333333333334,
+            0.3730833333333333,
+            0.1365,
+            0.3983333333333333
+          ],
+          [
+            0.08675,
+            0.3605,
+            0.14566666666666667,
+            0.40708333333333335
+          ],
+          [
+            0.07758333333333334,
+            0.3355,
+            0.16220833333333334,
+            0.42470833333333335
+          ],
+          [
+            0.06545833333333333,
+            0.29833333333333334,
+            0.18454166666666666,
+            0.45166666666666666
+          ],
+          [
+            0.051416666666666666,
+            0.2713333333333333,
+            0.22204166666666666,
+            0.4552083333333333
+          ],
+          [
+            0.044458333333333336,
+            0.24008333333333334,
+            0.24920833333333334,
+            0.46625
+          ],
+          [
+            0.05583333333333333,
+            0.25975,
+            0.21116666666666667,
+            0.47325
+          ]
+        ],
+        "passProbability": 0.22641666666666665,
+        "expectedHits": 3.4905,
+        "scoreDistribution": [
+          65,
+          628,
+          2228,
+          3371,
+          2991,
+          1839,
+          668,
+          161,
+          46,
+          3,
+          0
+        ]
+      }
+    }
+  }
+}

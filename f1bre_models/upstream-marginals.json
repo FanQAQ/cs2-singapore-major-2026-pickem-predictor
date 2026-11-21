@@ -1,0 +1,275 @@
+{
+  "id": "singapore",
+  "stage": 1,
+  "source": "https://www.xiaoheihe.cn/app/bbs/link/197229714",
+  "author": "F1bre",
+  "observedAt": "2026-11-21T11:03:59Z",
+  "units": "percent",
+  "decimals": 4,
+  "columnLabels": {
+    "perfect": "3-0",
+    "qualified": "Qualified",
+    "zero": "0-3",
+    "advance": "3-1/3-2"
+  },
+  "canonicalNames": {
+    "BC.Game": "GOSH"
+  },
+  "sourceFigures": {
+    "elo": {
+      "figure": 2,
+      "url": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/968fa99dd99faa38318e1f4c1f03ca2e/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+      "sha256": "9346bfbffd6d8839ecf3f97fbee89e7e7f94a1474e0ffba8e8a1ad086ebb5d80"
+    },
+    "ml": {
+      "figure": 5,
+      "url": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/c678973b77e529fe0613b6011dcfa4d6/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+      "sha256": "d21bd6ee686746d93359b90ab3c86c8262958b005f74f829a02dfd44a23e9fff"
+    }
+  },
+  "methods": {
+    "elo": [
+      {
+        "name": "100 Thieves",
+        "perfect": "18.9875",
+        "qualified": "62.7397",
+        "zero": "7.2723",
+        "advance": "43.7522"
+      },
+      {
+        "name": "PARIVISION",
+        "perfect": "18.6969",
+        "qualified": "63.3681",
+        "zero": "7.4122",
+        "advance": "44.6712"
+      },
+      {
+        "name": "Ninjas in Pyjamas",
+        "perfect": "16.9699",
+        "qualified": "60.2351",
+        "zero": "8.4122",
+        "advance": "43.2652"
+      },
+      {
+        "name": "HEROIC",
+        "perfect": "15.1378",
+        "qualified": "56.7493",
+        "zero": "9.5040",
+        "advance": "41.6115"
+      },
+      {
+        "name": "Liquid",
+        "perfect": "14.1970",
+        "qualified": "52.5567",
+        "zero": "10.2013",
+        "advance": "38.3596"
+      },
+      {
+        "name": "Eternal Fire",
+        "perfect": "12.8516",
+        "qualified": "51.3707",
+        "zero": "11.3201",
+        "advance": "38.5191"
+      },
+      {
+        "name": "9z",
+        "perfect": "12.3599",
+        "qualified": "50.5178",
+        "zero": "11.8003",
+        "advance": "38.1579"
+      },
+      {
+        "name": "FaZe",
+        "perfect": "12.0751",
+        "qualified": "49.2480",
+        "zero": "12.0580",
+        "advance": "37.1729"
+      },
+      {
+        "name": "Imperial",
+        "perfect": "11.9254",
+        "qualified": "50.4316",
+        "zero": "12.2998",
+        "advance": "38.5062"
+      },
+      {
+        "name": "M80",
+        "perfect": "11.5118",
+        "qualified": "49.5138",
+        "zero": "12.6907",
+        "advance": "38.0021"
+      },
+      {
+        "name": "Wildcard",
+        "perfect": "11.1794",
+        "qualified": "47.5656",
+        "zero": "13.0784",
+        "advance": "36.3862"
+      },
+      {
+        "name": "DENDELE",
+        "perfect": "10.5778",
+        "qualified": "47.5067",
+        "zero": "13.7784",
+        "advance": "36.9288"
+      },
+      {
+        "name": "FlyQuest",
+        "perfect": "10.4809",
+        "qualified": "46.0550",
+        "zero": "13.9945",
+        "advance": "35.5741"
+      },
+      {
+        "name": "Lynn Vision",
+        "perfect": "10.2041",
+        "qualified": "45.5680",
+        "zero": "14.4883",
+        "advance": "35.3639"
+      },
+      {
+        "name": "GOSH",
+        "perfect": "6.5367",
+        "qualified": "32.9806",
+        "zero": "20.4950",
+        "advance": "26.4440"
+      },
+      {
+        "name": "Chinggis Warriors",
+        "perfect": "6.3083",
+        "qualified": "33.5933",
+        "zero": "21.1943",
+        "advance": "27.2851"
+      }
+    ],
+    "ml": [
+      {
+        "name": "Ninjas in Pyjamas",
+        "perfect": "22.1106",
+        "qualified": "71.0506",
+        "zero": "5.4906",
+        "advance": "48.9400"
+      },
+      {
+        "name": "100 Thieves",
+        "perfect": "21.0861",
+        "qualified": "67.1646",
+        "zero": "5.9405",
+        "advance": "46.0785"
+      },
+      {
+        "name": "DENDELE",
+        "perfect": "15.8481",
+        "qualified": "59.7572",
+        "zero": "8.5429",
+        "advance": "43.9091"
+      },
+      {
+        "name": "FlyQuest",
+        "perfect": "15.7916",
+        "qualified": "59.6772",
+        "zero": "8.6286",
+        "advance": "43.8856"
+      },
+      {
+        "name": "Lynn Vision",
+        "perfect": "15.4166",
+        "qualified": "59.9281",
+        "zero": "9.0880",
+        "advance": "44.5115"
+      },
+      {
+        "name": "HEROIC",
+        "perfect": "15.3613",
+        "qualified": "57.5754",
+        "zero": "8.7896",
+        "advance": "42.2141"
+      },
+      {
+        "name": "Liquid",
+        "perfect": "12.4492",
+        "qualified": "48.9672",
+        "zero": "10.8243",
+        "advance": "36.5179"
+      },
+      {
+        "name": "FaZe",
+        "perfect": "12.0831",
+        "qualified": "49.7267",
+        "zero": "11.8491",
+        "advance": "37.6436"
+      },
+      {
+        "name": "Wildcard",
+        "perfect": "11.7035",
+        "qualified": "49.1988",
+        "zero": "12.1260",
+        "advance": "37.4952"
+      },
+      {
+        "name": "PARIVISION",
+        "perfect": "11.6483",
+        "qualified": "50.9767",
+        "zero": "12.2464",
+        "advance": "39.3284"
+      },
+      {
+        "name": "9z",
+        "perfect": "9.5790",
+        "qualified": "42.2593",
+        "zero": "15.1989",
+        "advance": "32.6803"
+      },
+      {
+        "name": "Eternal Fire",
+        "perfect": "9.0695",
+        "qualified": "42.8870",
+        "zero": "14.5083",
+        "advance": "33.8175"
+      },
+      {
+        "name": "Imperial",
+        "perfect": "8.8805",
+        "qualified": "42.4681",
+        "zero": "15.2933",
+        "advance": "33.5876"
+      },
+      {
+        "name": "M80",
+        "perfect": "7.5523",
+        "qualified": "38.3955",
+        "zero": "17.4556",
+        "advance": "30.8433"
+      },
+      {
+        "name": "GOSH",
+        "perfect": "6.5450",
+        "qualified": "32.1101",
+        "zero": "20.2701",
+        "advance": "25.5651"
+      },
+      {
+        "name": "Chinggis Warriors",
+        "perfect": "4.8753",
+        "qualified": "27.8573",
+        "zero": "23.7477",
+        "advance": "22.9821"
+      }
+    ]
+  },
+  "roundedTotals": {
+    "elo": {
+      "perfect": "200.0001",
+      "qualified": "800.0000",
+      "zero": "199.9998",
+      "advance": "600.0000"
+    },
+    "ml": {
+      "perfect": "200.0000",
+      "qualified": "799.9998",
+      "zero": "199.9999",
+      "advance": "599.9998"
+    }
+  },
+  "maxPerTeamResidualPercentagePoints": "0.0001"
+}

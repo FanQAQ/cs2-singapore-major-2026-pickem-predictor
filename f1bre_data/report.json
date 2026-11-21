@@ -1,0 +1,273 @@
+{
+  "cutoff": "2026-11-20",
+  "anchorDate": "2026-05-24",
+  "vrsDate": "2026-05-04",
+  "snapshotSha256": "7f59cac3f0cf75f2fc16d37425fcc770fe5036bf4d46796863bc771f3510e28f",
+  "snapshotCommit": "aac2074bc10fd62a8bf0b2146d7edfb67d224bcf",
+  "neutralRatingAudit": {
+    "assumedPlayerRating": 1,
+    "uniqueNames": 326,
+    "mean": 898.625767,
+    "populationSd": 337.410776,
+    "percentile5": 456.25,
+    "nameFallback": 737.782075,
+    "confirmedCore": 1180.647439
+  },
+  "anchor": [
+    {
+      "seed": 1,
+      "team": "Ninjas in Pyjamas",
+      "exactName": "Ninjas in Pyjamas",
+      "nameOverlap": 3,
+      "coreName": "Ninjas in Pyjamas",
+      "coreOverlap": 3,
+      "coreRank": 26,
+      "corePoints": 1411
+    },
+    {
+      "seed": 2,
+      "team": "PARIVISION",
+      "exactName": "PARIVISION",
+      "nameOverlap": 3,
+      "coreName": "PARIVISION",
+      "coreOverlap": 3,
+      "coreRank": 8,
+      "corePoints": 1747
+    },
+    {
+      "seed": 3,
+      "team": "HEROIC",
+      "exactName": "HEROIC",
+      "nameOverlap": 3,
+      "coreName": "HEROIC",
+      "coreOverlap": 3,
+      "coreRank": 20,
+      "corePoints": 1482
+    },
+    {
+      "seed": 4,
+      "team": "FaZe",
+      "exactName": "FaZe",
+      "nameOverlap": 3,
+      "coreName": "FaZe",
+      "coreOverlap": 3,
+      "coreRank": 22,
+      "corePoints": 1460
+    },
+    {
+      "seed": 5,
+      "team": "Liquid",
+      "exactName": "Liquid",
+      "nameOverlap": 3,
+      "coreName": "Liquid",
+      "coreOverlap": 3,
+      "coreRank": 47,
+      "corePoints": 1267
+    },
+    {
+      "seed": 6,
+      "team": "Eternal Fire",
+      "exactName": "Eternal Fire",
+      "nameOverlap": 3,
+      "coreName": "Eternal Fire",
+      "coreOverlap": 3,
+      "coreRank": 71,
+      "corePoints": 1171
+    },
+    {
+      "seed": 7,
+      "team": "100 Thieves",
+      "exactName": "100 Thieves",
+      "nameOverlap": 4,
+      "coreName": "100 Thieves",
+      "coreOverlap": 4,
+      "coreRank": 45,
+      "corePoints": 1276
+    },
+    {
+      "seed": 8,
+      "team": "9z",
+      "exactName": "9z",
+      "nameOverlap": 4,
+      "coreName": "9z",
+      "coreOverlap": 4,
+      "coreRank": 19,
+      "corePoints": 1508
+    },
+    {
+      "seed": 9,
+      "team": "M80",
+      "exactName": "M80",
+      "nameOverlap": 5,
+      "coreName": "M80",
+      "coreOverlap": 5,
+      "coreRank": 24,
+      "corePoints": 1417
+    },
+    {
+      "seed": 10,
+      "team": "DENDELE",
+      "exactName": null,
+      "nameOverlap": null,
+      "coreName": "Sharks",
+      "coreOverlap": 5,
+      "coreRank": 37,
+      "corePoints": 1334
+    },
+    {
+      "seed": 11,
+      "team": "Imperial",
+      "exactName": "Imperial",
+      "nameOverlap": 4,
+      "coreName": "Imperial",
+      "coreOverlap": 4,
+      "coreRank": 54,
+      "corePoints": 1226
+    },
+    {
+      "seed": 12,
+      "team": "Wildcard",
+      "exactName": "Wildcard",
+      "nameOverlap": 4,
+      "coreName": "Wildcard",
+      "coreOverlap": 4,
+      "coreRank": 32,
+      "corePoints": 1374
+    },
+    {
+      "seed": 13,
+      "team": "GOSH",
+      "exactName": null,
+      "nameOverlap": null,
+      "coreName": null,
+      "coreOverlap": null,
+      "coreRank": null,
+      "corePoints": null
+    },
+    {
+      "seed": 14,
+      "team": "FlyQuest",
+      "exactName": "FlyQuest",
+      "nameOverlap": 4,
+      "coreName": "FlyQuest",
+      "coreOverlap": 4,
+      "coreRank": 74,
+      "corePoints": 1164
+    },
+    {
+      "seed": 15,
+      "team": "Chinggis Warriors",
+      "exactName": "Chinggis Warriors",
+      "nameOverlap": 2,
+      "coreName": null,
+      "coreOverlap": null,
+      "coreRank": null,
+      "corePoints": null
+    },
+    {
+      "seed": 16,
+      "team": "Lynn Vision",
+      "exactName": "Lynn Vision",
+      "nameOverlap": 5,
+      "coreName": "Lynn Vision",
+      "coreOverlap": 5,
+      "coreRank": 49,
+      "corePoints": 1249
+    }
+  ],
+  "officialFive": [
+    "doc",
+    "gafolo",
+    "koala",
+    "maxxkor",
+    "rdnzao"
+  ],
+  "sourceRoster": "https://news.pglesports.com/news/1794219566606-pgl-major-singapore-2026-team-rosters",
+  "cologne": {
+    "nameThen": "Sharks",
+    "points": 1354,
+    "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_06_01/0038--sharks--doc-gafolo-koala-maxxkor-rdnzao.md",
+    "matches": [
+      {
+        "id": "7301543",
+        "date": "2026-06-02",
+        "labelInResults": "DENDELE CS",
+        "opponent": "Heroic",
+        "won": 1,
+        "overlap": 5
+      },
+      {
+        "id": "7302346",
+        "date": "2026-06-02",
+        "labelInResults": "DENDELE CS",
+        "opponent": "M80",
+        "won": 0,
+        "overlap": 5
+      },
+      {
+        "id": "7302378",
+        "date": "2026-06-03",
+        "labelInResults": "DENDELE CS",
+        "opponent": "Lynn Vision Gaming",
+        "won": 0,
+        "overlap": 5
+      },
+      {
+        "id": "7302403",
+        "date": "2026-06-04",
+        "labelInResults": "DENDELE CS",
+        "opponent": "TYLOO",
+        "won": 0,
+        "overlap": 5
+      }
+    ]
+  },
+  "singapore": {
+    "nameNow": "DENDELE",
+    "rank": 29,
+    "points": 1466,
+    "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0029--dendele--doc-gafolo-koala-maxxkor-rdnzao.md",
+    "date": "2026-11-02",
+    "coreRetained": {
+      "3": 0,
+      "4": 0,
+      "5": 21
+    },
+    "recentUsed": 21,
+    "v4Used": 21,
+    "majorSeries": 4,
+    "majorWins": 1,
+    "appliedMajorAdjustment": 0,
+    "sealInputCutoff": "2026-11-02",
+    "startingFiveAsOf": "2026-11-10",
+    "flags": {
+      "family": "v4",
+      "form": true,
+      "strong": true,
+      "weak": true,
+      "roundMargin": true,
+      "format": true,
+      "shrinkBO": true,
+      "regionVrs": true,
+      "lanSignal": false,
+      "pickSignal": false
+    },
+    "matrixSha256": "ea71c1eb92629292825192a210a5b337c86d540d567daca431dc27afa3fcad84",
+    "firstOpponent": "PARIVISION",
+    "firstBo1": 0.42039585906299914,
+    "firstBo3": 0.42039585906299914,
+    "card": 3,
+    "categoryOrder": [
+      "3-0",
+      "3-1 / 3-2",
+      "0-3",
+      "other"
+    ],
+    "stageProbabilities": [
+      0.08566666666666667,
+      0.3602916666666667,
+      0.13833333333333334,
+      0.41570833333333335
+    ]
+  }
+}

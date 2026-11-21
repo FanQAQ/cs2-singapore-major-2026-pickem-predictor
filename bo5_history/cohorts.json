@@ -1,0 +1,283 @@
+{
+  "S3": {
+    "stages": [
+      "austin-2025-3",
+      "budapest-2025-3",
+      "cologne-2026-3"
+    ],
+    "rows": {
+      "direct": {
+        "n": 24,
+        "actualZero": 2,
+        "actualQualified": 15,
+        "arms": {
+          "original": {
+            "expectedZero": 1.5565000000000002,
+            "chosen": 0,
+            "correct": 0,
+            "qualified": 0,
+            "brier": 0.05831218460648149
+          },
+          "candidate": {
+            "expectedZero": 1.4989166666666667,
+            "chosen": 0,
+            "correct": 0,
+            "qualified": 0,
+            "brier": 0.05870948813657407
+          }
+        }
+      },
+      "3-0": {
+        "n": 6,
+        "actualZero": 0,
+        "actualQualified": 3,
+        "arms": {
+          "original": {
+            "expectedZero": 0.7251666666666666,
+            "chosen": 0,
+            "correct": 0,
+            "qualified": 0,
+            "brier": 0.020020819444444445
+          },
+          "candidate": {
+            "expectedZero": 0.7459166666666667,
+            "chosen": 0,
+            "correct": 0,
+            "qualified": 0,
+            "brier": 0.02092616782407408
+          }
+        }
+      },
+      "3-1": {
+        "n": 9,
+        "actualZero": 1,
+        "actualQualified": 5,
+        "arms": {
+          "original": {
+            "expectedZero": 1.5550833333333336,
+            "chosen": 0,
+            "correct": 0,
+            "qualified": 0,
+            "brier": 0.0891387276234568
+          },
+          "candidate": {
+            "expectedZero": 1.5163333333333333,
+            "chosen": 0,
+            "correct": 0,
+            "qualified": 0,
+            "brier": 0.09153807407407406
+          }
+        }
+      },
+      "3-2": {
+        "n": 9,
+        "actualZero": 3,
+        "actualQualified": 1,
+        "arms": {
+          "original": {
+            "expectedZero": 2.16325,
+            "chosen": 6,
+            "correct": 2,
+            "qualified": 0,
+            "brier": 0.22888837731481482
+          },
+          "candidate": {
+            "expectedZero": 2.2388333333333335,
+            "chosen": 6,
+            "correct": 2,
+            "qualified": 0,
+            "brier": 0.22760284567901237
+          }
+        }
+      }
+    }
+  },
+  "EPL": {
+    "stages": [
+      "epl23-stage2",
+      "epl21-stage2",
+      "epl22-stage2"
+    ],
+    "rows": {
+      "direct": {
+        "n": 24,
+        "actualZero": 0,
+        "actualQualified": 18,
+        "arms": {
+          "original": {
+            "expectedZero": 1.0652500000000003,
+            "chosen": 1,
+            "correct": 0,
+            "qualified": 0,
+            "brier": 0.007979557002314813
+          },
+          "candidate": {
+            "expectedZero": 1.0906666666666665,
+            "chosen": 1,
+            "correct": 0,
+            "qualified": 0,
+            "brier": 0.0076919589120370375
+          }
+        }
+      },
+      "3-0": {
+        "n": 6,
+        "actualZero": 0,
+        "actualQualified": 2,
+        "arms": {
+          "original": {
+            "expectedZero": 1.5085,
+            "chosen": 1,
+            "correct": 0,
+            "qualified": 0,
+            "brier": 0.08001634027777778
+          },
+          "candidate": {
+            "expectedZero": 1.465,
+            "chosen": 1,
+            "correct": 0,
+            "qualified": 0,
+            "brier": 0.07370665740740741
+          }
+        }
+      },
+      "3-1": {
+        "n": 9,
+        "actualZero": 3,
+        "actualQualified": 3,
+        "arms": {
+          "original": {
+            "expectedZero": 1.6534166666666668,
+            "chosen": 2,
+            "correct": 1,
+            "qualified": 0,
+            "brier": 0.20884288348765434
+          },
+          "candidate": {
+            "expectedZero": 1.6776666666666666,
+            "chosen": 2,
+            "correct": 1,
+            "qualified": 0,
+            "brier": 0.20373277314814814
+          }
+        }
+      },
+      "3-2": {
+        "n": 9,
+        "actualZero": 3,
+        "actualQualified": 1,
+        "arms": {
+          "original": {
+            "expectedZero": 1.7728333333333335,
+            "chosen": 2,
+            "correct": 1,
+            "qualified": 0,
+            "brier": 0.19473212654320993
+          },
+          "candidate": {
+            "expectedZero": 1.7666666666666664,
+            "chosen": 2,
+            "correct": 1,
+            "qualified": 0,
+            "brier": 0.19548875462962964
+          }
+        }
+      }
+    }
+  },
+  "S2": {
+    "stages": [
+      "copenhagen-2024-2",
+      "shanghai-2024-2",
+      "austin-2025-2",
+      "budapest-2025-2",
+      "cologne-2026-2"
+    ],
+    "rows": {
+      "direct": {
+        "n": 40,
+        "actualZero": 1,
+        "actualQualified": 27,
+        "arms": {
+          "original": {
+            "expectedZero": 2.88375,
+            "chosen": 0,
+            "correct": 0,
+            "qualified": 0,
+            "brier": 0.023675717534722224
+          },
+          "candidate": {
+            "expectedZero": 2.94475,
+            "chosen": 0,
+            "correct": 0,
+            "qualified": 0,
+            "brier": 0.023045531423611116
+          }
+        }
+      },
+      "3-0": {
+        "n": 10,
+        "actualZero": 1,
+        "actualQualified": 5,
+        "arms": {
+          "original": {
+            "expectedZero": 1.2819166666666666,
+            "chosen": 0,
+            "correct": 0,
+            "qualified": 0,
+            "brier": 0.08525042847222222
+          },
+          "candidate": {
+            "expectedZero": 1.3018333333333332,
+            "chosen": 0,
+            "correct": 0,
+            "qualified": 0,
+            "brier": 0.08723941805555555
+          }
+        }
+      },
+      "3-1": {
+        "n": 15,
+        "actualZero": 3,
+        "actualQualified": 3,
+        "arms": {
+          "original": {
+            "expectedZero": 2.78825,
+            "chosen": 0,
+            "correct": 0,
+            "qualified": 0,
+            "brier": 0.17618123472222222
+          },
+          "candidate": {
+            "expectedZero": 2.718,
+            "chosen": 0,
+            "correct": 0,
+            "qualified": 0,
+            "brier": 0.17341734166666667
+          }
+        }
+      },
+      "3-2": {
+        "n": 15,
+        "actualZero": 5,
+        "actualQualified": 5,
+        "arms": {
+          "original": {
+            "expectedZero": 3.0460833333333333,
+            "chosen": 10,
+            "correct": 4,
+            "qualified": 4,
+            "brier": 0.21126276898148147
+          },
+          "candidate": {
+            "expectedZero": 3.035416666666667,
+            "chosen": 10,
+            "correct": 4,
+            "qualified": 4,
+            "brier": 0.2061644986111111
+          }
+        }
+      }
+    }
+  }
+}

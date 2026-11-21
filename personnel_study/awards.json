@@ -1,0 +1,146 @@
+[
+  {
+    "id": "dreamhack-winter-2013",
+    "day": "2013-11-30",
+    "player": "JW",
+    "source": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+  },
+  {
+    "id": "ems-one-katowice-2014",
+    "day": "2014-03-16",
+    "player": "pashaBiceps",
+    "source": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+  },
+  {
+    "id": "esl-one-cologne-2014",
+    "day": "2014-08-17",
+    "player": "friberg",
+    "source": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+  },
+  {
+    "id": "dreamhack-winter-2014",
+    "day": "2014-11-29",
+    "player": "Happy",
+    "source": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+  },
+  {
+    "id": "esl-one-katowice-2015",
+    "day": "2015-03-15",
+    "player": "olofmeister",
+    "source": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+  },
+  {
+    "id": "esl-one-cologne-2015",
+    "day": "2015-08-23",
+    "player": "flusha",
+    "source": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+  },
+  {
+    "id": "dreamhack-open-cluj-napoca-2015",
+    "day": "2015-11-01",
+    "player": "kennyS",
+    "source": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+  },
+  {
+    "id": "mlg-columbus-2016",
+    "day": "2016-04-03",
+    "player": "coldzera",
+    "source": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+  },
+  {
+    "id": "esl-one-cologne-2016",
+    "day": "2016-07-10",
+    "player": "coldzera",
+    "source": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+  },
+  {
+    "id": "eleague-major-2017",
+    "day": "2017-01-29",
+    "player": "Kjaerbye",
+    "source": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+  },
+  {
+    "id": "pgl-major-krakow-2017",
+    "day": "2017-07-23",
+    "player": "AdreN",
+    "source": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+  },
+  {
+    "id": "eleague-major-2018",
+    "day": "2018-01-28",
+    "player": "tarik",
+    "source": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+  },
+  {
+    "id": "faceit-major-2018",
+    "day": "2018-09-23",
+    "player": "device",
+    "source": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+  },
+  {
+    "id": "iem-katowice-2019",
+    "day": "2019-03-03",
+    "player": "Magisk",
+    "source": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+  },
+  {
+    "id": "starladder-major-berlin-2019",
+    "day": "2019-09-08",
+    "player": "device",
+    "source": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+  },
+  {
+    "id": "pgl-major-stockholm-2021",
+    "day": "2021-11-07",
+    "player": "s1mple",
+    "source": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+  },
+  {
+    "id": "pgl-major-antwerp-2022",
+    "day": "2022-05-22",
+    "player": "rain",
+    "source": "https://www.hltv.org/news/33884/rain-claims-pgl-major-antwerp-mvp-award"
+  },
+  {
+    "id": "iem-rio-major-2022",
+    "day": "2022-11-13",
+    "player": "Jame",
+    "source": "https://www.hltv.org/news/35071/jame-claims-iem-rio-major-mvp-award"
+  },
+  {
+    "id": "blast-tv-paris-major-2023",
+    "day": "2023-05-21",
+    "player": "ZywOo",
+    "source": "https://www.hltv.org/news/36341/zywoo-claims-blasttv-paris-major-mvp-medal"
+  },
+  {
+    "id": "pgl-major-copenhagen-2024",
+    "day": "2024-03-31",
+    "player": "jL",
+    "source": "https://www.hltv.org/news/38667/jl-claims-pgl-major-copenhagen-mvp-award"
+  },
+  {
+    "id": "perfect-world-shanghai-major-2024",
+    "day": "2024-12-15",
+    "player": "donk",
+    "source": "https://www.hltv.org/news/40566/donk-becomes-youngest-and-highest-rated-major-mvp-in-shanghai"
+  },
+  {
+    "id": "blast-tv-austin-major-2025",
+    "day": "2025-06-22",
+    "player": "ZywOo",
+    "source": "https://www.hltv.org/news/42037/zywoo-earns-seventh-straight-mvp-at-the-austin-major"
+  },
+  {
+    "id": "starladder-budapest-major-2025",
+    "day": "2025-12-14",
+    "player": "ZywOo",
+    "source": "https://www.hltv.org/news/43450/zywoo-earns-historic-third-major-mvp-at-starladder-budapest"
+  },
+  {
+    "id": "iem-cologne-major-2026",
+    "day": "2026-06-21",
+    "player": "m0NESY",
+    "source": "https://www.hltv.org/news/44973/m0nesy-clinches-iem-cologne-major-2026-mvp"
+  }
+]

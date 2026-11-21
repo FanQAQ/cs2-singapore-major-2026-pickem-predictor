@@ -1,0 +1,3804 @@
+{
+  "major": {
+    "baseDefault": {
+      "fixedHits": 9,
+      "fixedPasses": 1,
+      "fixedByStage": [
+        5,
+        2,
+        2
+      ],
+      "fixedSlots": [
+        1,
+        6,
+        2
+      ],
+      "meanHits": 10.4,
+      "meanPasses": 0.96666667,
+      "meanSimulatedPass": 0.32413889,
+      "bySeed": [
+        {
+          "hits": 9,
+          "passes": 1
+        },
+        {
+          "hits": 9,
+          "passes": 1
+        },
+        {
+          "hits": 9,
+          "passes": 1
+        },
+        {
+          "hits": 10,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 10,
+          "passes": 1
+        },
+        {
+          "hits": 10,
+          "passes": 1
+        },
+        {
+          "hits": 10,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 10,
+          "passes": 1
+        },
+        {
+          "hits": 8,
+          "passes": 0
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 10,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 10,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 10,
+          "passes": 1
+        },
+        {
+          "hits": 10,
+          "passes": 1
+        }
+      ]
+    },
+    "baseGrouped": {
+      "fixedHits": 13,
+      "fixedPasses": 2,
+      "fixedByStage": [
+        5,
+        3,
+        5
+      ],
+      "fixedSlots": [
+        2,
+        10,
+        1
+      ],
+      "meanHits": 12.96666667,
+      "meanPasses": 1.96666667,
+      "meanSimulatedPass": 0.25316204,
+      "bySeed": [
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        }
+      ]
+    },
+    "roundDefault": {
+      "fixedHits": 11,
+      "fixedPasses": 1,
+      "fixedByStage": [
+        5,
+        2,
+        4
+      ],
+      "fixedSlots": [
+        2,
+        7,
+        2
+      ],
+      "meanHits": 11.56666667,
+      "meanPasses": 0.96666667,
+      "meanSimulatedPass": 0.30702407,
+      "bySeed": [
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 0
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 10,
+          "passes": 0
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        },
+        {
+          "hits": 12,
+          "passes": 2
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        },
+        {
+          "hits": 11,
+          "passes": 1
+        },
+        {
+          "hits": 12,
+          "passes": 1
+        }
+      ]
+    },
+    "roundGrouped": {
+      "fixedHits": 13,
+      "fixedPasses": 2,
+      "fixedByStage": [
+        5,
+        3,
+        5
+      ],
+      "fixedSlots": [
+        2,
+        10,
+        1
+      ],
+      "meanHits": 13,
+      "meanPasses": 2,
+      "meanSimulatedPass": 0.23863426,
+      "bySeed": [
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        },
+        {
+          "hits": 13,
+          "passes": 2
+        }
+      ]
+    },
+    "effects": {
+      "probabilityDefault": {
+        "hits": {
+          "fixed": 2,
+          "mean": 1.16666667,
+          "better": 28,
+          "equal": 2,
+          "worse": 0
+        },
+        "passes": {
+          "fixed": 0,
+          "mean": 0,
+          "better": 1,
+          "equal": 28,
+          "worse": 1
+        }
+      },
+      "probabilityGrouped": {
+        "hits": {
+          "fixed": 0,
+          "mean": 0.03333333,
+          "better": 1,
+          "equal": 29,
+          "worse": 0
+        },
+        "passes": {
+          "fixed": 0,
+          "mean": 0.03333333,
+          "better": 1,
+          "equal": 29,
+          "worse": 0
+        }
+      },
+      "allocationBase": {
+        "hits": {
+          "fixed": 4,
+          "mean": 2.56666667,
+          "better": 30,
+          "equal": 0,
+          "worse": 0
+        },
+        "passes": {
+          "fixed": 1,
+          "mean": 1,
+          "better": 29,
+          "equal": 1,
+          "worse": 0
+        }
+      },
+      "allocationRound": {
+        "hits": {
+          "fixed": 2,
+          "mean": 1.43333333,
+          "better": 30,
+          "equal": 0,
+          "worse": 0
+        },
+        "passes": {
+          "fixed": 1,
+          "mean": 1.03333333,
+          "better": 29,
+          "equal": 1,
+          "worse": 0
+        }
+      },
+      "interaction": {
+        "hits": {
+          "fixed": -2,
+          "mean": -1.13333333,
+          "better": 0,
+          "equal": 2,
+          "worse": 28
+        },
+        "passes": {
+          "fixed": 0,
+          "mean": 0.03333333,
+          "better": 2,
+          "equal": 27,
+          "worse": 1
+        }
+      }
+    }
+  },
+  "byStage": {
+    "austin-2025-3": {
+      "baseDefault": {
+        "fixedHits": 5,
+        "fixedPasses": 1,
+        "fixedByStage": [
+          5
+        ],
+        "fixedSlots": [
+          1,
+          3,
+          1
+        ],
+        "meanHits": 4.93333333,
+        "meanPasses": 0.96666667,
+        "meanSimulatedPass": 0.39671667,
+        "bySeed": [
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          }
+        ]
+      },
+      "baseGrouped": {
+        "fixedHits": 5,
+        "fixedPasses": 1,
+        "fixedByStage": [
+          5
+        ],
+        "fixedSlots": [
+          1,
+          4,
+          0
+        ],
+        "meanHits": 4.96666667,
+        "meanPasses": 0.96666667,
+        "meanSimulatedPass": 0.290325,
+        "bySeed": [
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          }
+        ]
+      },
+      "roundDefault": {
+        "fixedHits": 5,
+        "fixedPasses": 1,
+        "fixedByStage": [
+          5
+        ],
+        "fixedSlots": [
+          1,
+          3,
+          1
+        ],
+        "meanHits": 4.9,
+        "meanPasses": 0.93333333,
+        "meanSimulatedPass": 0.376975,
+        "bySeed": [
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          }
+        ]
+      },
+      "roundGrouped": {
+        "fixedHits": 5,
+        "fixedPasses": 1,
+        "fixedByStage": [
+          5
+        ],
+        "fixedSlots": [
+          1,
+          4,
+          0
+        ],
+        "meanHits": 5,
+        "meanPasses": 1,
+        "meanSimulatedPass": 0.26555556,
+        "bySeed": [
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          }
+        ]
+      },
+      "effects": {
+        "probabilityDefault": {
+          "hits": {
+            "fixed": 0,
+            "mean": -0.03333333,
+            "better": 0,
+            "equal": 29,
+            "worse": 1
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": -0.03333333,
+            "better": 0,
+            "equal": 29,
+            "worse": 1
+          }
+        },
+        "probabilityGrouped": {
+          "hits": {
+            "fixed": 0,
+            "mean": 0.03333333,
+            "better": 1,
+            "equal": 29,
+            "worse": 0
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0.03333333,
+            "better": 1,
+            "equal": 29,
+            "worse": 0
+          }
+        },
+        "allocationBase": {
+          "hits": {
+            "fixed": 0,
+            "mean": 0.03333333,
+            "better": 1,
+            "equal": 28,
+            "worse": 1
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 1,
+            "equal": 28,
+            "worse": 1
+          }
+        },
+        "allocationRound": {
+          "hits": {
+            "fixed": 0,
+            "mean": 0.1,
+            "better": 2,
+            "equal": 28,
+            "worse": 0
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0.06666667,
+            "better": 2,
+            "equal": 28,
+            "worse": 0
+          }
+        },
+        "interaction": {
+          "hits": {
+            "fixed": 0,
+            "mean": 0.06666667,
+            "better": 2,
+            "equal": 28,
+            "worse": 0
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0.06666667,
+            "better": 2,
+            "equal": 28,
+            "worse": 0
+          }
+        }
+      }
+    },
+    "budapest-2025-3": {
+      "baseDefault": {
+        "fixedHits": 2,
+        "fixedPasses": 0,
+        "fixedByStage": [
+          2
+        ],
+        "fixedSlots": [
+          0,
+          2,
+          0
+        ],
+        "meanHits": 2.66666667,
+        "meanPasses": 0,
+        "meanSimulatedPass": 0.30486389,
+        "bySeed": [
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          }
+        ]
+      },
+      "baseGrouped": {
+        "fixedHits": 3,
+        "fixedPasses": 0,
+        "fixedByStage": [
+          3
+        ],
+        "fixedSlots": [
+          0,
+          3,
+          0
+        ],
+        "meanHits": 3,
+        "meanPasses": 0,
+        "meanSimulatedPass": 0.30681667,
+        "bySeed": [
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          }
+        ]
+      },
+      "roundDefault": {
+        "fixedHits": 2,
+        "fixedPasses": 0,
+        "fixedByStage": [
+          2
+        ],
+        "fixedSlots": [
+          0,
+          2,
+          0
+        ],
+        "meanHits": 2.63333333,
+        "meanPasses": 0,
+        "meanSimulatedPass": 0.28760833,
+        "bySeed": [
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          }
+        ]
+      },
+      "roundGrouped": {
+        "fixedHits": 3,
+        "fixedPasses": 0,
+        "fixedByStage": [
+          3
+        ],
+        "fixedSlots": [
+          0,
+          3,
+          0
+        ],
+        "meanHits": 3,
+        "meanPasses": 0,
+        "meanSimulatedPass": 0.29155,
+        "bySeed": [
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          }
+        ]
+      },
+      "effects": {
+        "probabilityDefault": {
+          "hits": {
+            "fixed": 0,
+            "mean": -0.03333333,
+            "better": 1,
+            "equal": 27,
+            "worse": 2
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 0,
+            "equal": 30,
+            "worse": 0
+          }
+        },
+        "probabilityGrouped": {
+          "hits": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 0,
+            "equal": 30,
+            "worse": 0
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 0,
+            "equal": 30,
+            "worse": 0
+          }
+        },
+        "allocationBase": {
+          "hits": {
+            "fixed": 1,
+            "mean": 0.33333333,
+            "better": 10,
+            "equal": 20,
+            "worse": 0
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 0,
+            "equal": 30,
+            "worse": 0
+          }
+        },
+        "allocationRound": {
+          "hits": {
+            "fixed": 1,
+            "mean": 0.36666667,
+            "better": 11,
+            "equal": 19,
+            "worse": 0
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 0,
+            "equal": 30,
+            "worse": 0
+          }
+        },
+        "interaction": {
+          "hits": {
+            "fixed": 0,
+            "mean": 0.03333333,
+            "better": 2,
+            "equal": 27,
+            "worse": 1
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 0,
+            "equal": 30,
+            "worse": 0
+          }
+        }
+      }
+    },
+    "cologne-2026-3": {
+      "baseDefault": {
+        "fixedHits": 2,
+        "fixedPasses": 0,
+        "fixedByStage": [
+          2
+        ],
+        "fixedSlots": [
+          0,
+          1,
+          1
+        ],
+        "meanHits": 2.8,
+        "meanPasses": 0,
+        "meanSimulatedPass": 0.27083611,
+        "bySeed": [
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          }
+        ]
+      },
+      "baseGrouped": {
+        "fixedHits": 5,
+        "fixedPasses": 1,
+        "fixedByStage": [
+          5
+        ],
+        "fixedSlots": [
+          1,
+          3,
+          1
+        ],
+        "meanHits": 5,
+        "meanPasses": 1,
+        "meanSimulatedPass": 0.16234444,
+        "bySeed": [
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          }
+        ]
+      },
+      "roundDefault": {
+        "fixedHits": 4,
+        "fixedPasses": 0,
+        "fixedByStage": [
+          4
+        ],
+        "fixedSlots": [
+          1,
+          2,
+          1
+        ],
+        "meanHits": 4.03333333,
+        "meanPasses": 0.03333333,
+        "meanSimulatedPass": 0.25648889,
+        "bySeed": [
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          }
+        ]
+      },
+      "roundGrouped": {
+        "fixedHits": 5,
+        "fixedPasses": 1,
+        "fixedByStage": [
+          5
+        ],
+        "fixedSlots": [
+          1,
+          3,
+          1
+        ],
+        "meanHits": 5,
+        "meanPasses": 1,
+        "meanSimulatedPass": 0.15879722,
+        "bySeed": [
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          }
+        ]
+      },
+      "effects": {
+        "probabilityDefault": {
+          "hits": {
+            "fixed": 2,
+            "mean": 1.23333333,
+            "better": 30,
+            "equal": 0,
+            "worse": 0
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0.03333333,
+            "better": 1,
+            "equal": 29,
+            "worse": 0
+          }
+        },
+        "probabilityGrouped": {
+          "hits": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 0,
+            "equal": 30,
+            "worse": 0
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 0,
+            "equal": 30,
+            "worse": 0
+          }
+        },
+        "allocationBase": {
+          "hits": {
+            "fixed": 3,
+            "mean": 2.2,
+            "better": 30,
+            "equal": 0,
+            "worse": 0
+          },
+          "passes": {
+            "fixed": 1,
+            "mean": 1,
+            "better": 30,
+            "equal": 0,
+            "worse": 0
+          }
+        },
+        "allocationRound": {
+          "hits": {
+            "fixed": 1,
+            "mean": 0.96666667,
+            "better": 29,
+            "equal": 1,
+            "worse": 0
+          },
+          "passes": {
+            "fixed": 1,
+            "mean": 0.96666667,
+            "better": 29,
+            "equal": 1,
+            "worse": 0
+          }
+        },
+        "interaction": {
+          "hits": {
+            "fixed": -2,
+            "mean": -1.23333333,
+            "better": 0,
+            "equal": 0,
+            "worse": 30
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": -0.03333333,
+            "better": 0,
+            "equal": 29,
+            "worse": 1
+          }
+        }
+      }
+    },
+    "epl22-stage2": {
+      "baseDefault": {
+        "fixedHits": 4,
+        "fixedPasses": 0,
+        "fixedByStage": [
+          4
+        ],
+        "fixedSlots": [
+          1,
+          3,
+          0
+        ],
+        "meanHits": 4,
+        "meanPasses": 0,
+        "meanSimulatedPass": 0.88773611,
+        "bySeed": [
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          }
+        ]
+      },
+      "baseGrouped": {
+        "fixedHits": 2,
+        "fixedPasses": 0,
+        "fixedByStage": [
+          2
+        ],
+        "fixedSlots": [
+          0,
+          2,
+          0
+        ],
+        "meanHits": 2.03333333,
+        "meanPasses": 0,
+        "meanSimulatedPass": 0.84110556,
+        "bySeed": [
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 3,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          }
+        ]
+      },
+      "roundDefault": {
+        "fixedHits": 4,
+        "fixedPasses": 0,
+        "fixedByStage": [
+          4
+        ],
+        "fixedSlots": [
+          1,
+          3,
+          0
+        ],
+        "meanHits": 4.06666667,
+        "meanPasses": 0.06666667,
+        "meanSimulatedPass": 0.87598333,
+        "bySeed": [
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          },
+          {
+            "hits": 4,
+            "passes": 0
+          }
+        ]
+      },
+      "roundGrouped": {
+        "fixedHits": 2,
+        "fixedPasses": 0,
+        "fixedByStage": [
+          2
+        ],
+        "fixedSlots": [
+          0,
+          2,
+          0
+        ],
+        "meanHits": 2,
+        "meanPasses": 0,
+        "meanSimulatedPass": 0.8492,
+        "bySeed": [
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          },
+          {
+            "hits": 2,
+            "passes": 0
+          }
+        ]
+      },
+      "effects": {
+        "probabilityDefault": {
+          "hits": {
+            "fixed": 0,
+            "mean": 0.06666667,
+            "better": 2,
+            "equal": 28,
+            "worse": 0
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0.06666667,
+            "better": 2,
+            "equal": 28,
+            "worse": 0
+          }
+        },
+        "probabilityGrouped": {
+          "hits": {
+            "fixed": 0,
+            "mean": -0.03333333,
+            "better": 0,
+            "equal": 29,
+            "worse": 1
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 0,
+            "equal": 30,
+            "worse": 0
+          }
+        },
+        "allocationBase": {
+          "hits": {
+            "fixed": -2,
+            "mean": -1.96666667,
+            "better": 0,
+            "equal": 0,
+            "worse": 30
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 0,
+            "equal": 30,
+            "worse": 0
+          }
+        },
+        "allocationRound": {
+          "hits": {
+            "fixed": -2,
+            "mean": -2.06666667,
+            "better": 0,
+            "equal": 0,
+            "worse": 30
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": -0.06666667,
+            "better": 0,
+            "equal": 28,
+            "worse": 2
+          }
+        },
+        "interaction": {
+          "hits": {
+            "fixed": 0,
+            "mean": -0.1,
+            "better": 0,
+            "equal": 27,
+            "worse": 3
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": -0.06666667,
+            "better": 0,
+            "equal": 28,
+            "worse": 2
+          }
+        }
+      }
+    },
+    "epl23-stage2": {
+      "baseDefault": {
+        "fixedHits": 5,
+        "fixedPasses": 1,
+        "fixedByStage": [
+          5
+        ],
+        "fixedSlots": [
+          1,
+          4,
+          0
+        ],
+        "meanHits": 5,
+        "meanPasses": 1,
+        "meanSimulatedPass": 0.79530833,
+        "bySeed": [
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          }
+        ]
+      },
+      "baseGrouped": {
+        "fixedHits": 5,
+        "fixedPasses": 1,
+        "fixedByStage": [
+          5
+        ],
+        "fixedSlots": [
+          1,
+          4,
+          0
+        ],
+        "meanHits": 5,
+        "meanPasses": 1,
+        "meanSimulatedPass": 0.76080278,
+        "bySeed": [
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          }
+        ]
+      },
+      "roundDefault": {
+        "fixedHits": 6,
+        "fixedPasses": 1,
+        "fixedByStage": [
+          6
+        ],
+        "fixedSlots": [
+          1,
+          5,
+          0
+        ],
+        "meanHits": 5.63333333,
+        "meanPasses": 1,
+        "meanSimulatedPass": 0.79341667,
+        "bySeed": [
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 6,
+            "passes": 1
+          }
+        ]
+      },
+      "roundGrouped": {
+        "fixedHits": 5,
+        "fixedPasses": 1,
+        "fixedByStage": [
+          5
+        ],
+        "fixedSlots": [
+          1,
+          4,
+          0
+        ],
+        "meanHits": 5,
+        "meanPasses": 1,
+        "meanSimulatedPass": 0.73215,
+        "bySeed": [
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          },
+          {
+            "hits": 5,
+            "passes": 1
+          }
+        ]
+      },
+      "effects": {
+        "probabilityDefault": {
+          "hits": {
+            "fixed": 1,
+            "mean": 0.63333333,
+            "better": 19,
+            "equal": 11,
+            "worse": 0
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 0,
+            "equal": 30,
+            "worse": 0
+          }
+        },
+        "probabilityGrouped": {
+          "hits": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 0,
+            "equal": 30,
+            "worse": 0
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 0,
+            "equal": 30,
+            "worse": 0
+          }
+        },
+        "allocationBase": {
+          "hits": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 0,
+            "equal": 30,
+            "worse": 0
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 0,
+            "equal": 30,
+            "worse": 0
+          }
+        },
+        "allocationRound": {
+          "hits": {
+            "fixed": -1,
+            "mean": -0.63333333,
+            "better": 0,
+            "equal": 11,
+            "worse": 19
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 0,
+            "equal": 30,
+            "worse": 0
+          }
+        },
+        "interaction": {
+          "hits": {
+            "fixed": -1,
+            "mean": -0.63333333,
+            "better": 0,
+            "equal": 11,
+            "worse": 19
+          },
+          "passes": {
+            "fixed": 0,
+            "mean": 0,
+            "better": 0,
+            "equal": 30,
+            "worse": 0
+          }
+        }
+      }
+    }
+  }
+}

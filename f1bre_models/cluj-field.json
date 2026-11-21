@@ -1,0 +1,458 @@
+{
+  "id": "cluj-2026",
+  "label": "PGL Cluj-Napoca 2026 Swiss",
+  "start": "2026-02-14",
+  "end": "2026-02-18",
+  "cutoffExclusive": "2026-02-14",
+  "cutoff": "2026-02-13T23:59:59Z",
+  "allBo3": true,
+  "entrants": [
+    "FURIA",
+    "Vitality",
+    "Falcons",
+    "Natus Vincere",
+    "MOUZ",
+    "FaZe",
+    "The MongolZ",
+    "Aurora",
+    "B8",
+    "G2",
+    "3DMAX",
+    "Astralis",
+    "PARIVISION",
+    "HEROIC",
+    "paiN",
+    "FUT"
+  ],
+  "teams": [
+    {
+      "seed": 1,
+      "name": "FURIA",
+      "roster": [
+        "FalleN",
+        "yuurih",
+        "KSCERATO",
+        "molodoy",
+        "YEKINDAR"
+      ],
+      "rosterDay": "2026-02-04",
+      "rosterSource": "https://news.pglesports.com/news/1770210703731-pgl-cluj-napoca-2026-confirmed-team-rosters",
+      "points": 1951,
+      "rank": 1,
+      "ratingTeam": "FURIA",
+      "vrsRoster": [
+        "FalleN",
+        "KSCERATO",
+        "molodoy",
+        "YEKINDAR",
+        "yuurih"
+      ],
+      "overlap": 5
+    },
+    {
+      "seed": 2,
+      "name": "Vitality",
+      "roster": [
+        "apEX",
+        "ZywOo",
+        "flameZ",
+        "mezii",
+        "ropz"
+      ],
+      "rosterDay": "2026-02-04",
+      "rosterSource": "https://news.pglesports.com/news/1770210703731-pgl-cluj-napoca-2026-confirmed-team-rosters",
+      "points": 1940,
+      "rank": 2,
+      "ratingTeam": "Vitality",
+      "vrsRoster": [
+        "apEX",
+        "flameZ",
+        "mezii",
+        "ropz",
+        "ZywOo"
+      ],
+      "overlap": 5
+    },
+    {
+      "seed": 3,
+      "name": "Falcons",
+      "roster": [
+        "kyxsan",
+        "NiKo",
+        "m0NESY",
+        "TeSeS",
+        "kyousuke"
+      ],
+      "rosterDay": "2026-02-04",
+      "rosterSource": "https://news.pglesports.com/news/1770210703731-pgl-cluj-napoca-2026-confirmed-team-rosters",
+      "points": 1906,
+      "rank": 4,
+      "ratingTeam": "Falcons",
+      "vrsRoster": [
+        "kyousuke",
+        "kyxsan",
+        "m0NESY",
+        "NiKo",
+        "TeSeS"
+      ],
+      "overlap": 5
+    },
+    {
+      "seed": 4,
+      "name": "Natus Vincere",
+      "roster": [
+        "Aleksib",
+        "b1t",
+        "w0nderful",
+        "makazze",
+        "iM"
+      ],
+      "rosterDay": "2026-02-04",
+      "rosterSource": "https://news.pglesports.com/news/1770210703731-pgl-cluj-napoca-2026-confirmed-team-rosters",
+      "points": 1777,
+      "rank": 5,
+      "ratingTeam": "Natus Vincere",
+      "vrsRoster": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "makazze",
+        "w0nderful"
+      ],
+      "overlap": 5
+    },
+    {
+      "seed": 5,
+      "name": "MOUZ",
+      "roster": [
+        "Brollan",
+        "Jimpphat",
+        "Spinx",
+        "torzsi",
+        "xertioN"
+      ],
+      "rosterDay": "2026-02-04",
+      "rosterSource": "https://news.pglesports.com/news/1770210703731-pgl-cluj-napoca-2026-confirmed-team-rosters",
+      "points": 1752,
+      "rank": 7,
+      "ratingTeam": "MOUZ",
+      "vrsRoster": [
+        "Brollan",
+        "Jimpphat",
+        "Spinx",
+        "torzsi",
+        "xertioN"
+      ],
+      "overlap": 5
+    },
+    {
+      "seed": 6,
+      "name": "FaZe",
+      "roster": [
+        "karrigan",
+        "frozen",
+        "Twistzz",
+        "broky",
+        "jcobbb"
+      ],
+      "rosterDay": "2026-02-04",
+      "rosterSource": "https://news.pglesports.com/news/1770210703731-pgl-cluj-napoca-2026-confirmed-team-rosters",
+      "points": 1737,
+      "rank": 8,
+      "ratingTeam": "FaZe",
+      "vrsRoster": [
+        "broky",
+        "frozen",
+        "jcobbb",
+        "karrigan",
+        "Twistzz"
+      ],
+      "overlap": 5
+    },
+    {
+      "seed": 7,
+      "name": "The MongolZ",
+      "roster": [
+        "bLitz",
+        "Techno",
+        "910",
+        "cobrazera",
+        "Mzinho"
+      ],
+      "rosterDay": "2026-02-04",
+      "rosterSource": "https://news.pglesports.com/news/1770210703731-pgl-cluj-napoca-2026-confirmed-team-rosters",
+      "points": 1698,
+      "rank": 10,
+      "ratingTeam": "The MongolZ",
+      "vrsRoster": [
+        "910",
+        "bLitz",
+        "controlez",
+        "mzinho",
+        "Techno"
+      ],
+      "overlap": 4
+    },
+    {
+      "seed": 8,
+      "name": "Aurora",
+      "roster": [
+        "MAJ3R",
+        "soulfly",
+        "woxic",
+        "XANTARES",
+        "Wicadia"
+      ],
+      "rosterDay": "2026-02-04",
+      "rosterSource": "https://news.pglesports.com/news/1770210703731-pgl-cluj-napoca-2026-confirmed-team-rosters",
+      "points": 1730,
+      "rank": 9,
+      "ratingTeam": "Aurora",
+      "vrsRoster": [
+        "MAJ3R",
+        "soulfly",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "overlap": 5
+    },
+    {
+      "seed": 9,
+      "name": "B8",
+      "roster": [
+        "alex666",
+        "s1zzi",
+        "npl",
+        "kensizor",
+        "esenthial"
+      ],
+      "rosterDay": "2026-02-04",
+      "rosterSource": "https://news.pglesports.com/news/1770210703731-pgl-cluj-napoca-2026-confirmed-team-rosters",
+      "points": 1641,
+      "rank": 12,
+      "ratingTeam": "B8",
+      "vrsRoster": [
+        "alex666",
+        "esenthial",
+        "headtr1ck",
+        "kensizor",
+        "npl"
+      ],
+      "overlap": 4
+    },
+    {
+      "seed": 10,
+      "name": "G2",
+      "roster": [
+        "huNter-",
+        "HeavyGoD",
+        "MATYS",
+        "SunPayus",
+        "malbsMd"
+      ],
+      "rosterDay": "2026-02-04",
+      "rosterSource": "https://news.pglesports.com/news/1770210703731-pgl-cluj-napoca-2026-confirmed-team-rosters",
+      "points": 1623,
+      "rank": 13,
+      "ratingTeam": "G2",
+      "vrsRoster": [
+        "HeavyGod",
+        "huNter-",
+        "malbsMd",
+        "MATYS",
+        "SunPayus"
+      ],
+      "overlap": 5
+    },
+    {
+      "seed": 11,
+      "name": "3DMAX",
+      "roster": [
+        "Graviti",
+        "Maka",
+        "Ex3rcice",
+        "Lucky",
+        "bodyy"
+      ],
+      "rosterDay": "2026-02-04",
+      "rosterSource": "https://news.pglesports.com/news/1770210703731-pgl-cluj-napoca-2026-confirmed-team-rosters",
+      "points": 1611,
+      "rank": 14,
+      "ratingTeam": "3DMAX",
+      "vrsRoster": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "overlap": 5
+    },
+    {
+      "seed": 12,
+      "name": "Astralis",
+      "roster": [
+        "HooXi",
+        "phzy",
+        "jabbi",
+        "Staehr",
+        "ryu"
+      ],
+      "rosterDay": "2026-02-04",
+      "rosterSource": "https://news.pglesports.com/news/1770210703731-pgl-cluj-napoca-2026-confirmed-team-rosters",
+      "points": 1610,
+      "rank": 15,
+      "ratingTeam": "Astralis",
+      "vrsRoster": [
+        "HooXi",
+        "jabbi",
+        "phzy",
+        "ryu",
+        "Staehr"
+      ],
+      "overlap": 5
+    },
+    {
+      "seed": 13,
+      "name": "PARIVISION",
+      "roster": [
+        "Jame",
+        "nota",
+        "xiELO",
+        "BELCHONOKK",
+        "zweih"
+      ],
+      "rosterDay": "2026-02-04",
+      "rosterSource": "https://news.pglesports.com/news/1770210703731-pgl-cluj-napoca-2026-confirmed-team-rosters",
+      "points": 1939,
+      "rank": 3,
+      "ratingTeam": "PARIVISION",
+      "vrsRoster": [
+        "BELCHONOKK",
+        "Jame",
+        "nota",
+        "xiELO",
+        "zweih"
+      ],
+      "overlap": 5
+    },
+    {
+      "seed": 14,
+      "name": "HEROIC",
+      "roster": [
+        "Chr1zN",
+        "xfl0ud",
+        "nilo",
+        "susp",
+        "yxngstxr"
+      ],
+      "rosterDay": "2026-02-04",
+      "rosterSource": "https://news.pglesports.com/news/1770210703731-pgl-cluj-napoca-2026-confirmed-team-rosters",
+      "points": 1536,
+      "rank": 25,
+      "ratingTeam": "HEROIC",
+      "vrsRoster": [
+        "Chr1zN",
+        "nilo",
+        "susp",
+        "xfl0ud",
+        "yxngstxr"
+      ],
+      "overlap": 5
+    },
+    {
+      "seed": 15,
+      "name": "paiN",
+      "roster": [
+        "biguzera",
+        "nqz",
+        "snow",
+        "vsm",
+        "piriajr"
+      ],
+      "rosterDay": "2026-02-04",
+      "rosterSource": "https://news.pglesports.com/news/1770210703731-pgl-cluj-napoca-2026-confirmed-team-rosters",
+      "points": 1556,
+      "rank": 20,
+      "ratingTeam": "paiN",
+      "vrsRoster": [
+        "biguzera",
+        "nqz",
+        "piriajr",
+        "snow",
+        "vsm"
+      ],
+      "overlap": 5
+    },
+    {
+      "seed": 16,
+      "name": "FUT",
+      "roster": [
+        "Krabeni",
+        "dziugss",
+        "lauNX",
+        "dem0n",
+        "cmtry"
+      ],
+      "rosterDay": "2026-02-04",
+      "rosterSource": "https://news.pglesports.com/news/1770210703731-pgl-cluj-napoca-2026-confirmed-team-rosters",
+      "points": 1558,
+      "rank": 19,
+      "ratingTeam": "FUT",
+      "vrsRoster": [
+        "cmtry",
+        "dem0n",
+        "dziugss",
+        "Krabeni",
+        "lauNX"
+      ],
+      "overlap": 5
+    }
+  ],
+  "pointsAsOf": "2026-02-02",
+  "rankingPublishedAt": "2026-02-02T18:03:49Z",
+  "rankingSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/73c71008fb393980255103b93d6b868fb616f5ce/invitation/2026/standings_global_2026_02_02.md",
+  "rankingSha256": "2dcc74d27a58e5d6ad06ee26479346afe4b41d5bb67dd93fff65bee66af80bca",
+  "rosterApi": "https://news.pglesports.com/api/articles/1770210703731",
+  "rosterPublishedAt": "2026-02-04T14:53:55.587Z",
+  "rosterSha256": "947d461c4a1ab4e1ab642d3c834e2dfb7d937f40f0e8ef07f0b456ec8751bf67",
+  "drawPublishedAt": "2026-02-05T15:00:02Z",
+  "openingPairs": [
+    [
+      "FURIA",
+      "B8"
+    ],
+    [
+      "Vitality",
+      "G2"
+    ],
+    [
+      "Falcons",
+      "3DMAX"
+    ],
+    [
+      "Natus Vincere",
+      "Astralis"
+    ],
+    [
+      "MOUZ",
+      "PARIVISION"
+    ],
+    [
+      "FaZe",
+      "HEROIC"
+    ],
+    [
+      "The MongolZ",
+      "paiN"
+    ],
+    [
+      "Aurora",
+      "FUT"
+    ]
+  ],
+  "drawSource": "https://x.com/pglesports/status/2019425790954516977",
+  "seedOrderSource": "https://www.youtube.com/watch?v=1bOnCMYtXNI",
+  "pairingSource": "https://navi.gg/en/tournaments/pgl-clujnapoca-2026/news"
+}

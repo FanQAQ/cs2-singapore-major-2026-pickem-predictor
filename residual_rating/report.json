@@ -1,0 +1,503 @@
+{
+  "simulationPaths": 24000,
+  "seeds": [
+    33719,
+    2654469480,
+    1013937945,
+    3668373706,
+    2027842171,
+    387310636,
+    3041746397,
+    1401214862,
+    4055650623,
+    2415119088,
+    774587553,
+    3429023314,
+    1788491779,
+    147960244,
+    2802396005,
+    1161864470,
+    3816300231,
+    2175768696,
+    535237161,
+    3189672922,
+    1549141387,
+    4203577148,
+    2563045613,
+    922514078,
+    3576949839,
+    1936418304,
+    295886769,
+    2950322530,
+    1309790995,
+    3964226756
+  ],
+  "stages": [
+    {
+      "id": "copenhagen",
+      "base": {
+        "hits": 5,
+        "passed": true,
+        "bucketHits": [
+          1,
+          3,
+          1
+        ]
+      },
+      "candidate": {
+        "hits": 5,
+        "passed": true,
+        "bucketHits": [
+          1,
+          3,
+          1
+        ]
+      },
+      "coverage": 15,
+      "officialSeedCard": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        3,
+        1,
+        3,
+        1,
+        2,
+        3,
+        3,
+        2,
+        3,
+        3
+      ],
+      "hitsBySeed": [
+        5,
+        5,
+        4,
+        5,
+        5,
+        5,
+        4,
+        5,
+        4,
+        5,
+        4,
+        5,
+        5,
+        4,
+        5,
+        4,
+        5,
+        5,
+        5,
+        4,
+        5,
+        4,
+        5,
+        5,
+        5,
+        4,
+        4,
+        4,
+        5,
+        5
+      ],
+      "matrixSha256": "07d86d451fc087bb521cf57139c613cfcd58f1ff78586eeca38d83b8dcc97eb1"
+    },
+    {
+      "id": "shanghai",
+      "base": {
+        "hits": 3,
+        "passed": false,
+        "bucketHits": [
+          1,
+          2,
+          0
+        ]
+      },
+      "candidate": {
+        "hits": 3,
+        "passed": false,
+        "bucketHits": [
+          1,
+          2,
+          0
+        ]
+      },
+      "coverage": 16,
+      "officialSeedCard": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        3,
+        0,
+        1,
+        3,
+        3,
+        2,
+        1,
+        3,
+        3,
+        2,
+        3
+      ],
+      "hitsBySeed": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        5,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "matrixSha256": "a8856536b67174f8a38f5c0e0ff1c34800b542039093644e63852988577c0769"
+    },
+    {
+      "id": "austin",
+      "base": {
+        "hits": 5,
+        "passed": true,
+        "bucketHits": [
+          1,
+          4,
+          0
+        ]
+      },
+      "candidate": {
+        "hits": 5,
+        "passed": true,
+        "bucketHits": [
+          1,
+          4,
+          0
+        ]
+      },
+      "coverage": 16,
+      "officialSeedCard": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        3,
+        2,
+        0,
+        1,
+        2,
+        3,
+        1,
+        3,
+        3,
+        3,
+        3
+      ],
+      "hitsBySeed": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "matrixSha256": "f8a8c79124413708ee83ab5fa78a549dc9f4dafa06fe99e01ec66654aa64abc9"
+    },
+    {
+      "id": "budapest",
+      "base": {
+        "hits": 6,
+        "passed": true,
+        "bucketHits": [
+          0,
+          5,
+          1
+        ]
+      },
+      "candidate": {
+        "hits": 4,
+        "passed": false,
+        "bucketHits": [
+          0,
+          4,
+          0
+        ]
+      },
+      "coverage": 16,
+      "officialSeedCard": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        3,
+        3,
+        3,
+        1,
+        2,
+        3,
+        2,
+        3,
+        3
+      ],
+      "hitsBySeed": [
+        4,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        4,
+        5
+      ],
+      "matrixSha256": "3f09f51cedf42c20316df5263603f0d6dcd301893c30a04fcb6ac452bfa6dd40"
+    },
+    {
+      "id": "cologne",
+      "base": {
+        "hits": 4,
+        "passed": false,
+        "bucketHits": [
+          1,
+          3,
+          0
+        ]
+      },
+      "candidate": {
+        "hits": 4,
+        "passed": false,
+        "bucketHits": [
+          1,
+          3,
+          0
+        ]
+      },
+      "coverage": 16,
+      "officialSeedCard": [
+        0,
+        1,
+        3,
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        1,
+        3,
+        2
+      ],
+      "hitsBySeed": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "matrixSha256": "91338dbecbfbc4623c3958c01c063a18bc1908b40ca260c226b1005e6c389c33"
+    }
+  ],
+  "base": {
+    "all": {
+      "n": 165,
+      "correct": 98,
+      "brier": 0.22721785,
+      "logLoss": 0.64413236,
+      "changed": 0
+    },
+    "bo1": {
+      "n": 100,
+      "correct": 58,
+      "brier": 0.23910082,
+      "logLoss": 0.66891354,
+      "changed": 0
+    },
+    "bo3": {
+      "n": 65,
+      "correct": 40,
+      "brier": 0.20893637,
+      "logLoss": 0.60600746,
+      "changed": 0
+    },
+    "card": {
+      "hits": 23,
+      "passes": 3,
+      "bucketHits": [
+        4,
+        17,
+        2
+      ]
+    },
+    "stability": {
+      "meanHits": 22.8,
+      "meanPasses": 2.86666667,
+      "more": 0,
+      "same": 30,
+      "fewer": 0
+    }
+  },
+  "withoutOutcomeForm": {
+    "bo1": {
+      "n": 100,
+      "correct": 57,
+      "brier": 0.23922214,
+      "logLoss": 0.66950393,
+      "changed": 100
+    },
+    "bo3": {
+      "n": 65,
+      "correct": 41,
+      "brier": 0.20674882,
+      "logLoss": 0.60229713,
+      "changed": 65
+    },
+    "all": {
+      "n": 165,
+      "correct": 98,
+      "brier": 0.22642962,
+      "logLoss": 0.64302852,
+      "changed": 165
+    }
+  },
+  "candidate": {
+    "all": {
+      "n": 165,
+      "correct": 101,
+      "brier": 0.22416237,
+      "logLoss": 0.63740612,
+      "changed": 165
+    },
+    "bo1": {
+      "n": 100,
+      "correct": 59,
+      "brier": 0.23588459,
+      "logLoss": 0.66180525,
+      "changed": 100
+    },
+    "bo3": {
+      "n": 65,
+      "correct": 42,
+      "brier": 0.2061282,
+      "logLoss": 0.599869,
+      "changed": 65
+    },
+    "card": {
+      "hits": 21,
+      "passes": 2,
+      "bucketHits": [
+        4,
+        16,
+        1
+      ]
+    },
+    "stability": {
+      "meanHits": 20.73333333,
+      "meanPasses": 1.7,
+      "more": 2,
+      "same": 3,
+      "fewer": 25
+    }
+  }
+}

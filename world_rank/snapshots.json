@@ -1,0 +1,1439 @@
+{
+  "copenhagen": {
+    "date": "2024-03-11",
+    "totalRanks": 30,
+    "source": "https://www.hltv.org/ranking/teams/2024/march/11",
+    "archive": "https://raw.githubusercontent.com/julienc91/hltv-ranking/rankings/2024/2024-03-11.json",
+    "sha256": "3020b0748ca6e3b7a6c043b89745acf5ca7408ce47affdb0c6e001efcfa84eb9",
+    "rows": [
+      {
+        "rank": 1,
+        "team": "FaZe",
+        "roster": [
+          "broky",
+          "frozen",
+          "karrigan",
+          "rain",
+          "ropz"
+        ]
+      },
+      {
+        "rank": 2,
+        "team": "Spirit",
+        "roster": [
+          "chopper",
+          "donk",
+          "magixx",
+          "sh1ro",
+          "zont1x"
+        ]
+      },
+      {
+        "rank": 3,
+        "team": "Vitality",
+        "roster": [
+          "apEX",
+          "flameZ",
+          "mezii",
+          "Spinx",
+          "ZywOo"
+        ]
+      },
+      {
+        "rank": 4,
+        "team": "MOUZ",
+        "roster": [
+          "Brollan",
+          "Jimpphat",
+          "siuhy",
+          "torzsi",
+          "xertioN"
+        ]
+      },
+      {
+        "rank": 5,
+        "team": "G2",
+        "roster": [
+          "HooXi",
+          "huNter-",
+          "m0NESY",
+          "nexa",
+          "NiKo"
+        ]
+      },
+      {
+        "rank": 6,
+        "team": "Natus Vincere",
+        "roster": [
+          "Aleksib",
+          "b1t",
+          "iM",
+          "jL",
+          "w0nderful"
+        ]
+      },
+      {
+        "rank": 7,
+        "team": "Virtus.pro",
+        "roster": [
+          "fame",
+          "FL1T",
+          "Jame",
+          "mir",
+          "n0rb3r7"
+        ]
+      },
+      {
+        "rank": 8,
+        "team": "Falcons",
+        "roster": [
+          "Maden",
+          "Magisk",
+          "s1mple",
+          "Snappi",
+          "SunPayus"
+        ]
+      },
+      {
+        "rank": 9,
+        "team": "ENCE",
+        "roster": [
+          "dycha",
+          "gla1ve",
+          "Goofy",
+          "hades",
+          "Kylar"
+        ]
+      },
+      {
+        "rank": 10,
+        "team": "Cloud9",
+        "roster": [
+          "Ax1Le",
+          "Boombl4",
+          "electroNic",
+          "HObbit",
+          "Perfecto"
+        ]
+      },
+      {
+        "rank": 11,
+        "team": "Eternal Fire",
+        "roster": [
+          "Calyx",
+          "MAJ3R",
+          "Wicadia",
+          "woxic",
+          "XANTARES"
+        ]
+      },
+      {
+        "rank": 12,
+        "team": "HEROIC",
+        "roster": [
+          "kyxsan",
+          "NertZ",
+          "nicoodoz",
+          "sjuush",
+          "TeSeS"
+        ]
+      },
+      {
+        "rank": 13,
+        "team": "Complexity",
+        "roster": [
+          "EliGE",
+          "floppy",
+          "Grim",
+          "hallzerk",
+          "JT"
+        ]
+      },
+      {
+        "rank": 14,
+        "team": "Apeks",
+        "roster": [
+          "CacaNito",
+          "jkaem",
+          "nawwk",
+          "sense",
+          "STYKO"
+        ]
+      },
+      {
+        "rank": 15,
+        "team": "GamerLegion",
+        "roster": [
+          "acoR",
+          "isak",
+          "Keoz",
+          "Snax",
+          "volt"
+        ]
+      },
+      {
+        "rank": 16,
+        "team": "FURIA",
+        "roster": [
+          "arT",
+          "chelo",
+          "FalleN",
+          "KSCERATO",
+          "yuurih"
+        ]
+      },
+      {
+        "rank": 17,
+        "team": "Monte",
+        "roster": [
+          "DemQQ",
+          "kRaSnaL",
+          "Woro2k"
+        ]
+      },
+      {
+        "rank": 18,
+        "team": "SAW",
+        "roster": [
+          "arrozdoce",
+          "ewjerkz",
+          "MUTiRiS",
+          "roman",
+          "story"
+        ]
+      },
+      {
+        "rank": 19,
+        "team": "Astralis",
+        "roster": [
+          "br0",
+          "device",
+          "jabbi",
+          "Staehr",
+          "stavn"
+        ]
+      },
+      {
+        "rank": 20,
+        "team": "9 Pandas",
+        "roster": [
+          "clax",
+          "d1Ledez",
+          "glowiing",
+          "iDISBALANCE",
+          "seized"
+        ]
+      },
+      {
+        "rank": 21,
+        "team": "BetBoom",
+        "roster": [
+          "danistzz",
+          "KaiR0N-",
+          "nafany",
+          "s1ren",
+          "zorte"
+        ]
+      },
+      {
+        "rank": 22,
+        "team": "TheMongolz",
+        "roster": [
+          "910",
+          "bLitz",
+          "mzinho",
+          "Senzu",
+          "Techno"
+        ]
+      },
+      {
+        "rank": 23,
+        "team": "MIBR",
+        "roster": [
+          "brnz4n",
+          "drop",
+          "exit",
+          "insani",
+          "saffee"
+        ]
+      },
+      {
+        "rank": 24,
+        "team": "Liquid",
+        "roster": [
+          "cadiaN",
+          "NAF",
+          "skullz",
+          "Twistzz",
+          "YEKINDAR"
+        ]
+      },
+      {
+        "rank": 25,
+        "team": "BIG",
+        "roster": [
+          "JDC",
+          "Krimbo",
+          "prosus",
+          "syrsoN",
+          "tabseN"
+        ]
+      },
+      {
+        "rank": 26,
+        "team": "AMKAL",
+        "roster": [
+          "Forester",
+          "ICY",
+          "Krad",
+          "NickelBack",
+          "TRAVIS"
+        ]
+      },
+      {
+        "rank": 27,
+        "team": "KOI",
+        "roster": [
+          "adamS",
+          "dav1g",
+          "JUST",
+          "mopoz",
+          "stadodo"
+        ]
+      },
+      {
+        "rank": 28,
+        "team": "ECSTATIC",
+        "roster": [
+          "kraghen",
+          "Nodios",
+          "Patti",
+          "Queenix",
+          "salazar"
+        ]
+      },
+      {
+        "rank": 29,
+        "team": "OG",
+        "roster": [
+          "F1KU",
+          "HeavyGod",
+          "k1to",
+          "Nexius",
+          "regali"
+        ]
+      },
+      {
+        "rank": 30,
+        "team": "Metizport",
+        "roster": [
+          "adamb",
+          "Jackinho",
+          "nilo",
+          "susp",
+          "ztr"
+        ]
+      }
+    ]
+  },
+  "shanghai": {
+    "date": "2024-11-25",
+    "totalRanks": 261,
+    "source": "https://www.hltv.org/ranking/teams/2024/november/25",
+    "archive": "https://raw.githubusercontent.com/julienc91/hltv-ranking/rankings/2024/2024-11-25.json",
+    "sha256": "61b943d1601186a86577158623f7228224324c5bd0ea8e72ba454047f409086c",
+    "rows": [
+      {
+        "rank": 1,
+        "team": "Natus Vincere",
+        "roster": [
+          "Aleksib",
+          "b1t",
+          "iM",
+          "jL",
+          "w0nderful"
+        ]
+      },
+      {
+        "rank": 2,
+        "team": "G2",
+        "roster": [
+          "huNter-",
+          "m0NESY",
+          "malbsMd",
+          "NiKo",
+          "Snax"
+        ]
+      },
+      {
+        "rank": 3,
+        "team": "Vitality",
+        "roster": [
+          "apEX",
+          "flameZ",
+          "mezii",
+          "Spinx",
+          "ZywOo"
+        ]
+      },
+      {
+        "rank": 4,
+        "team": "Spirit",
+        "roster": [
+          "chopper",
+          "donk",
+          "magixx",
+          "sh1ro",
+          "zont1x"
+        ]
+      },
+      {
+        "rank": 5,
+        "team": "MOUZ",
+        "roster": [
+          "Brollan",
+          "Jimpphat",
+          "siuhy",
+          "torzsi",
+          "xertioN"
+        ]
+      },
+      {
+        "rank": 6,
+        "team": "FaZe",
+        "roster": [
+          "broky",
+          "frozen",
+          "karrigan",
+          "rain",
+          "ropz"
+        ]
+      },
+      {
+        "rank": 7,
+        "team": "HEROIC",
+        "roster": [
+          "degster",
+          "kyxsan",
+          "NertZ",
+          "sjuush",
+          "TeSeS"
+        ]
+      },
+      {
+        "rank": 8,
+        "team": "FURIA",
+        "roster": [
+          "chelo",
+          "FalleN",
+          "KSCERATO",
+          "skullz",
+          "yuurih"
+        ]
+      },
+      {
+        "rank": 9,
+        "team": "Eternal Fire",
+        "roster": [
+          "Calyx",
+          "MAJ3R",
+          "Wicadia",
+          "woxic",
+          "XANTARES"
+        ]
+      },
+      {
+        "rank": 10,
+        "team": "Astralis",
+        "roster": [
+          "cadiaN",
+          "device",
+          "jabbi",
+          "Staehr",
+          "stavn"
+        ]
+      },
+      {
+        "rank": 11,
+        "team": "The MongolZ",
+        "roster": [
+          "910",
+          "bLitz",
+          "mzinho",
+          "Senzu",
+          "Techno"
+        ]
+      },
+      {
+        "rank": 12,
+        "team": "Virtus.pro",
+        "roster": [
+          "electroNic",
+          "fame",
+          "FL1T",
+          "Jame",
+          "n0rb3r7"
+        ]
+      },
+      {
+        "rank": 13,
+        "team": "Liquid",
+        "roster": [
+          "jks",
+          "NAF",
+          "Twistzz",
+          "ultimate",
+          "YEKINDAR"
+        ]
+      },
+      {
+        "rank": 14,
+        "team": "Complexity",
+        "roster": [
+          "EliGE",
+          "floppy",
+          "Grim",
+          "hallzerk",
+          "JT"
+        ]
+      },
+      {
+        "rank": 15,
+        "team": "SAW",
+        "roster": [
+          "Ag1l",
+          "ewjerkz",
+          "MUTiRiS",
+          "roman",
+          "story"
+        ]
+      },
+      {
+        "rank": 16,
+        "team": "3DMAX",
+        "roster": [
+          "Djoko",
+          "Ex3rcice",
+          "Graviti",
+          "Lucky",
+          "Maka"
+        ]
+      },
+      {
+        "rank": 17,
+        "team": "paiN",
+        "roster": [
+          "biguzera",
+          "kauez",
+          "lux",
+          "nqz",
+          "snow"
+        ]
+      },
+      {
+        "rank": 18,
+        "team": "BIG",
+        "roster": [
+          "JDC",
+          "Krimbo",
+          "rigoN",
+          "syrsoN",
+          "tabseN"
+        ]
+      },
+      {
+        "rank": 19,
+        "team": "MIBR",
+        "roster": [
+          "drop",
+          "exit",
+          "insani",
+          "Lucaozy",
+          "saffee"
+        ]
+      },
+      {
+        "rank": 20,
+        "team": "FlyQuest",
+        "roster": [
+          "aliStair",
+          "dexter",
+          "INS",
+          "Liazz",
+          "Vexite"
+        ]
+      },
+      {
+        "rank": 21,
+        "team": "M80",
+        "roster": [
+          "Lake",
+          "reck",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ]
+      },
+      {
+        "rank": 22,
+        "team": "GamerLegion",
+        "roster": [
+          "FL4MUS",
+          "sl3nd",
+          "Tauson",
+          "volt",
+          "ztr"
+        ]
+      },
+      {
+        "rank": 23,
+        "team": "ENCE",
+        "roster": [
+          "gla1ve",
+          "Neityu",
+          "podi",
+          "sdy",
+          "xKacpersky"
+        ]
+      },
+      {
+        "rank": 24,
+        "team": "Wildcard",
+        "roster": [
+          "JBa",
+          "phzy",
+          "Sonic",
+          "stanislaw",
+          "susp"
+        ]
+      },
+      {
+        "rank": 25,
+        "team": "B8",
+        "roster": [
+          "alex666",
+          "cptkurtka023",
+          "esenthial",
+          "headtr1ck",
+          "npl"
+        ]
+      },
+      {
+        "rank": 26,
+        "team": "Imperial",
+        "roster": [
+          "decenty",
+          "felps",
+          "noway",
+          "try",
+          "VINI"
+        ]
+      },
+      {
+        "rank": 27,
+        "team": "BetBoom",
+        "roster": [
+          "KaiR0N-",
+          "Magnojez",
+          "nafany",
+          "s1ren",
+          "zorte"
+        ]
+      },
+      {
+        "rank": 28,
+        "team": "Passion UA",
+        "roster": [
+          "fear",
+          "jackasmo",
+          "jambo",
+          "s-chilla",
+          "zeRRoFIX"
+        ]
+      },
+      {
+        "rank": 29,
+        "team": "fnatic",
+        "roster": [
+          "blameF",
+          "bodyy",
+          "KRIMZ",
+          "MATYS",
+          "nawwk"
+        ]
+      },
+      {
+        "rank": 30,
+        "team": "BESTIA",
+        "roster": [
+          "luchov",
+          "naz",
+          "Noktse",
+          "tomaszin",
+          "zock"
+        ]
+      },
+      {
+        "rank": 35,
+        "team": "Cloud9",
+        "roster": [
+          "Ax1Le",
+          "Boombl4",
+          "HeavyGod",
+          "ICY",
+          "interz"
+        ]
+      },
+      {
+        "rank": 58,
+        "team": "Rare Atom",
+        "roster": [
+          "ChildKing",
+          "kaze",
+          "L1haNg",
+          "somebody",
+          "Summer"
+        ]
+      }
+    ]
+  },
+  "austin": {
+    "date": "2025-06-02",
+    "totalRanks": 257,
+    "source": "https://www.hltv.org/ranking/teams/2025/june/2",
+    "archive": "https://raw.githubusercontent.com/julienc91/hltv-ranking/rankings/2025/2025-06-02.json",
+    "sha256": "fd60ca389bf1fed721cfc032b9ebd729b9b83089e7d135114bd0d12bf707b844",
+    "rows": [
+      {
+        "rank": 15,
+        "team": "HEROIC",
+        "roster": [
+          "LNZ",
+          "SunPayus",
+          "tN1R",
+          "xfl0ud",
+          "yxngstxr"
+        ]
+      },
+      {
+        "rank": 17,
+        "team": "Complexity",
+        "roster": [
+          "Cxzi",
+          "Grim",
+          "hallzerk",
+          "JT",
+          "nicx"
+        ]
+      },
+      {
+        "rank": 22,
+        "team": "FlyQuest",
+        "roster": [
+          "INS",
+          "Liazz",
+          "nettik",
+          "regali",
+          "Vexite"
+        ]
+      },
+      {
+        "rank": 23,
+        "team": "B8",
+        "roster": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ]
+      },
+      {
+        "rank": 24,
+        "team": "Wildcard",
+        "roster": [
+          "JBa",
+          "phzy",
+          "Sonic",
+          "stanislaw",
+          "susp"
+        ]
+      },
+      {
+        "rank": 25,
+        "team": "TYLOO",
+        "roster": [
+          "Attacker",
+          "JamYoung",
+          "Jee",
+          "Mercury",
+          "Moseyuh"
+        ]
+      },
+      {
+        "rank": 30,
+        "team": "Lynn Vision",
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4kr"
+        ]
+      },
+      {
+        "rank": 31,
+        "team": "Legacy",
+        "roster": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ]
+      },
+      {
+        "rank": 33,
+        "team": "BetBoom",
+        "roster": [
+          "Ax1Le",
+          "Boombl4",
+          "Magnojez",
+          "S1ren",
+          "zorte"
+        ]
+      },
+      {
+        "rank": 34,
+        "team": "NRG",
+        "roster": [
+          "br0",
+          "HexT",
+          "Jeorge",
+          "nitr0",
+          "oSee"
+        ]
+      },
+      {
+        "rank": 37,
+        "team": "Chinggis Warriors",
+        "roster": [
+          "ariucle",
+          "controlez",
+          "cool4st",
+          "Efire",
+          "ROUX"
+        ]
+      },
+      {
+        "rank": 39,
+        "team": "Imperial",
+        "roster": [
+          "chayJESUS",
+          "decenty",
+          "noway",
+          "try",
+          "VINI"
+        ]
+      },
+      {
+        "rank": 42,
+        "team": "OG",
+        "roster": [
+          "Buzz",
+          "Chr1zN",
+          "F1KU",
+          "nicoodoz",
+          "spooke"
+        ]
+      },
+      {
+        "rank": 45,
+        "team": "Fluxo",
+        "roster": [
+          "arT",
+          "kye",
+          "mlhzin",
+          "piriajr",
+          "zevy"
+        ]
+      },
+      {
+        "rank": 49,
+        "team": "Nemiga",
+        "roster": [
+          "1eeR",
+          "khaN",
+          "riskyb0b",
+          "Xant3r",
+          "zweih"
+        ]
+      },
+      {
+        "rank": 55,
+        "team": "Metizport",
+        "roster": [
+          "adamb",
+          "hampus",
+          "isak",
+          "L00m1",
+          "Plopski"
+        ]
+      }
+    ]
+  },
+  "budapest": {
+    "date": "2025-11-17",
+    "totalRanks": 275,
+    "source": "https://www.hltv.org/ranking/teams/2025/november/17",
+    "archive": "https://raw.githubusercontent.com/julienc91/hltv-ranking/rankings/2025/2025-11-17.json",
+    "sha256": "eda4054efaab86ecfba788fcf03fa71582545bf2a1f959250c02e394784b015d",
+    "rows": [
+      {
+        "rank": 13,
+        "team": "FaZe",
+        "roster": [
+          "broky",
+          "frozen",
+          "jcobbb",
+          "karrigan",
+          "Twistzz"
+        ]
+      },
+      {
+        "rank": 14,
+        "team": "Legacy",
+        "roster": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ]
+      },
+      {
+        "rank": 17,
+        "team": "GamerLegion",
+        "roster": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Tauson",
+          "ztr"
+        ]
+      },
+      {
+        "rank": 21,
+        "team": "B8",
+        "roster": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ]
+      },
+      {
+        "rank": 22,
+        "team": "Lynn Vision",
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4kr"
+        ]
+      },
+      {
+        "rank": 26,
+        "team": "M80",
+        "roster": [
+          "HexT",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ]
+      },
+      {
+        "rank": 27,
+        "team": "fnatic",
+        "roster": [
+          "blameF",
+          "fEAR",
+          "jackasmo",
+          "jambo",
+          "KRIMZ"
+        ]
+      },
+      {
+        "rank": 30,
+        "team": "Ninjas in Pyjamas",
+        "roster": [
+          "ewjerkz",
+          "r1nkle",
+          "sjuush",
+          "Snappi",
+          "xKacpersky"
+        ]
+      },
+      {
+        "rank": 32,
+        "team": "FlyQuest",
+        "roster": [
+          "INS",
+          "jks",
+          "nettik",
+          "regali",
+          "Vexite"
+        ]
+      },
+      {
+        "rank": 35,
+        "team": "PARIVISION",
+        "roster": [
+          "AW",
+          "BELCHONOKK",
+          "Jame",
+          "nota",
+          "xiELO"
+        ]
+      },
+      {
+        "rank": 38,
+        "team": "NRG",
+        "roster": [
+          "br0",
+          "Jeorge",
+          "nitr0",
+          "Sonic",
+          "XotiC"
+        ]
+      },
+      {
+        "rank": 39,
+        "team": "Fluxo",
+        "roster": [
+          "arT",
+          "decenty",
+          "kye",
+          "Lucaozy",
+          "zevy"
+        ]
+      },
+      {
+        "rank": 46,
+        "team": "Imperial",
+        "roster": [
+          "chelo",
+          "noway",
+          "skullz",
+          "try",
+          "VINI"
+        ]
+      },
+      {
+        "rank": 48,
+        "team": "Rare Atom",
+        "roster": [
+          "ChildKing",
+          "L1haNg",
+          "Marek",
+          "Summer",
+          "Tiger"
+        ]
+      },
+      {
+        "rank": 64,
+        "team": "RED Canids",
+        "roster": [
+          "chayJESUS",
+          "drop",
+          "history",
+          "kauez",
+          "venomzera"
+        ]
+      },
+      {
+        "rank": 79,
+        "team": "The Huns",
+        "roster": [
+          "Bart4k",
+          "cobrazera",
+          "nin9",
+          "sk0R",
+          "xerolte"
+        ]
+      }
+    ]
+  },
+  "cologne": {
+    "date": "2026-06-01",
+    "totalRanks": 246,
+    "source": "https://www.hltv.org/ranking/teams/2026/june/1",
+    "archive": "https://raw.githubusercontent.com/julienc91/hltv-ranking/rankings/2026/2026-06-01.json",
+    "sha256": "ac0ec09ff0b53aca4ffa2bccc6e0e199cc0a95819dc2bed1b81964664c1c618d",
+    "rows": [
+      {
+        "rank": 10,
+        "team": "GamerLegion",
+        "roster": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Snax",
+          "Tauson"
+        ]
+      },
+      {
+        "rank": 16,
+        "team": "B8",
+        "roster": [
+          "alex666",
+          "esenthial",
+          "kensizor",
+          "npl",
+          "s1zzi"
+        ]
+      },
+      {
+        "rank": 19,
+        "team": "MIBR",
+        "roster": [
+          "brnz4n",
+          "insani",
+          "kl1m",
+          "LNZ",
+          "venomzera"
+        ]
+      },
+      {
+        "rank": 21,
+        "team": "BetBoom",
+        "roster": [
+          "Boombl4",
+          "d1Ledez",
+          "Magnojez",
+          "S1ren",
+          "zorte"
+        ]
+      },
+      {
+        "rank": 25,
+        "team": "Liquid",
+        "roster": [
+          "EliGE",
+          "malbsMd",
+          "NAF",
+          "siuhy",
+          "ultimate"
+        ]
+      },
+      {
+        "rank": 27,
+        "team": "HEROIC",
+        "roster": [
+          "Chr1zN",
+          "nilo",
+          "susp",
+          "xfl0ud",
+          "yxngstxr"
+        ]
+      },
+      {
+        "rank": 28,
+        "team": "M80",
+        "roster": [
+          "JBa",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ]
+      },
+      {
+        "rank": 29,
+        "team": "TYLOO",
+        "roster": [
+          "JamYoung",
+          "Jee",
+          "Mercury",
+          "Moseyuh",
+          "Zero"
+        ]
+      },
+      {
+        "rank": 30,
+        "team": "SINNERS",
+        "roster": [
+          "beastik",
+          "kisserek",
+          "MoDo",
+          "SHOCK",
+          "stressarN"
+        ]
+      },
+      {
+        "rank": 31,
+        "team": "Lynn Vision",
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4KR"
+        ]
+      },
+      {
+        "rank": 33,
+        "team": "NRG",
+        "roster": [
+          "br0",
+          "Grim",
+          "nitr0",
+          "oSee",
+          "Sonic"
+        ]
+      },
+      {
+        "rank": 35,
+        "team": "Sharks",
+        "roster": [
+          "doc",
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao"
+        ]
+      },
+      {
+        "rank": 39,
+        "team": "BIG",
+        "roster": [
+          "blameF",
+          "faveN",
+          "gr1ks",
+          "JDC",
+          "tabseN"
+        ]
+      },
+      {
+        "rank": 69,
+        "team": "THUNDER dOWNUNDER",
+        "roster": [
+          "aliStair",
+          "asap",
+          "dexter",
+          "Liazz",
+          "TjP"
+        ]
+      },
+      {
+        "rank": 81,
+        "team": "FlyQuest",
+        "roster": [
+          "INS",
+          "jks",
+          "nettik",
+          "story",
+          "Vexite"
+        ]
+      },
+      {
+        "rank": 142,
+        "team": "Gaimin Gladiators",
+        "roster": [
+          "fer",
+          "HEN1",
+          "JOTA",
+          "Luken",
+          "NEKIZ"
+        ]
+      }
+    ]
+  },
+  "singapore": {
+    "date": "2026-11-16",
+    "totalRanks": 248,
+    "source": "https://www.hltv.org/ranking/teams/2026/november/16",
+    "archive": "https://raw.githubusercontent.com/julienc91/hltv-ranking/rankings/2026/2026-11-16.json",
+    "sha256": "5bea9388d732d8491826d7128b15206b4ec02f26ff636187cb4474d1921f4e70",
+    "rows": [
+      {
+        "rank": 13,
+        "team": "PARIVISION",
+        "roster": [
+          "FL1T",
+          "HObbit",
+          "Jame",
+          "xiELO",
+          "zweih"
+        ]
+      },
+      {
+        "rank": 16,
+        "team": "Liquid",
+        "roster": [
+          "EliGE",
+          "Jorko",
+          "JT",
+          "malbsMd",
+          "NAF"
+        ]
+      },
+      {
+        "rank": 18,
+        "team": "Ninjas in Pyjamas",
+        "roster": [
+          "adamb",
+          "Krimbo",
+          "sjuush",
+          "stavn",
+          "xKacpersky"
+        ]
+      },
+      {
+        "rank": 19,
+        "team": "FaZe",
+        "roster": [
+          "frozen",
+          "JBOEN",
+          "jcobbb",
+          "Neityu",
+          "Twistzz"
+        ]
+      },
+      {
+        "rank": 21,
+        "team": "9z",
+        "roster": [
+          "dgt",
+          "HUASOPEEK",
+          "luchov",
+          "max"
+        ]
+      },
+      {
+        "rank": 22,
+        "team": "Eternal Fire",
+        "roster": [
+          "jottAAA",
+          "Kvem",
+          "MisteM",
+          "regali",
+          "soulfly"
+        ]
+      },
+      {
+        "rank": 23,
+        "team": "HEROIC",
+        "roster": [
+          "Brollan",
+          "Chr1zN",
+          "MartinezSa",
+          "nilo",
+          "susp"
+        ]
+      },
+      {
+        "rank": 24,
+        "team": "M80",
+        "roster": [
+          "JBa",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ]
+      },
+      {
+        "rank": 29,
+        "team": "100 Thieves",
+        "roster": [
+          "device",
+          "Gizmy",
+          "poiii",
+          "rain",
+          "sirah"
+        ]
+      },
+      {
+        "rank": 33,
+        "team": "DENDELE",
+        "roster": [
+          "doc",
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao"
+        ]
+      },
+      {
+        "rank": 42,
+        "team": "Wildcard",
+        "roster": [
+          "Cxzi",
+          "fr3nd",
+          "HexT",
+          "nEMANHA",
+          "reck"
+        ]
+      },
+      {
+        "rank": 44,
+        "team": "Lynn Vision",
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4KR"
+        ]
+      },
+      {
+        "rank": 46,
+        "team": "BC.Game",
+        "roster": [
+          "asap",
+          "Magisk",
+          "mzinho",
+          "s1mple",
+          "Senzu"
+        ]
+      },
+      {
+        "rank": 48,
+        "team": "Imperial",
+        "roster": [
+          "chelo",
+          "decenty",
+          "noway",
+          "saadzin",
+          "VINI"
+        ]
+      },
+      {
+        "rank": 58,
+        "team": "FlyQuest",
+        "roster": [
+          "aliStair",
+          "INS",
+          "jks",
+          "nettik",
+          "Vexite"
+        ]
+      },
+      {
+        "rank": 59,
+        "team": "Chinggis Warriors",
+        "roster": [
+          "cool4st",
+          "fury5k",
+          "ROUX",
+          "sk0R",
+          "tikuak"
+        ]
+      }
+    ]
+  }
+}

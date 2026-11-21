@@ -1,0 +1,244 @@
+{
+  "team": "HEROIC",
+  "roster": [
+    "Brollan",
+    "Chr1zN",
+    "MartinezSa",
+    "nilo",
+    "susp"
+  ],
+  "cologneRoster": [
+    "Chr1zN",
+    "nilo",
+    "susp",
+    "xfl0ud",
+    "yxngstxr"
+  ],
+  "coreOverlap": 3,
+  "windows": [
+    {
+      "coach": "doto",
+      "start": "2026-09-12",
+      "end": "2026-09-30",
+      "n": 6,
+      "wins": 5,
+      "expected": 4.185,
+      "residual": 0.815,
+      "series": [
+        {
+          "day": "2026-09-12",
+          "id": "2150",
+          "opponent": [
+            "artfr0st",
+            "ax1le",
+            "belchonokk",
+            "fame",
+            "nafany"
+          ],
+          "gap": 65,
+          "won": 1,
+          "expected": 0.59246623
+        },
+        {
+          "day": "2026-09-13",
+          "id": "2115",
+          "opponent": [
+            "aquars",
+            "b1st",
+            "f0r3ver",
+            "mir",
+            "to0ro"
+          ],
+          "gap": 109,
+          "won": 0,
+          "expected": 0.65191204
+        },
+        {
+          "day": "2026-09-22",
+          "id": "1783",
+          "opponent": [
+            "boye",
+            "iceberg",
+            "leakz",
+            "nickyb",
+            "salazar"
+          ],
+          "gap": 243,
+          "won": 1,
+          "expected": 0.80199664
+        },
+        {
+          "day": "2026-09-25",
+          "id": "1581",
+          "opponent": [
+            "cairne",
+            "fear",
+            "jackasmo",
+            "jambo",
+            "mazay"
+          ],
+          "gap": 69,
+          "won": 1,
+          "expected": 0.59801377
+        },
+        {
+          "day": "2026-09-26",
+          "id": "1451",
+          "opponent": [
+            "device",
+            "gizmy",
+            "poiii",
+            "rain",
+            "sirah"
+          ],
+          "gap": 32,
+          "won": 1,
+          "expected": 0.54592192
+        },
+        {
+          "day": "2026-09-26",
+          "id": "1471",
+          "opponent": [
+            "adams",
+            "bnox",
+            "joey",
+            "puuha",
+            "r4dyx"
+          ],
+          "gap": 901,
+          "won": 1,
+          "expected": 0.99443995
+        }
+      ]
+    },
+    {
+      "coach": "Snappi",
+      "start": "2026-10-12",
+      "end": "2026-10-30",
+      "n": 8,
+      "wins": 5,
+      "expected": 5.238,
+      "residual": -0.238,
+      "series": [
+        {
+          "day": "2026-10-15",
+          "id": "637",
+          "opponent": [
+            "asap",
+            "magisk",
+            "mzinho",
+            "s1mple",
+            "senzu"
+          ],
+          "gap": 232,
+          "won": 1,
+          "expected": 0.79174884
+        },
+        {
+          "day": "2026-10-15",
+          "id": "646",
+          "opponent": [
+            "graviti",
+            "kursy",
+            "lucky",
+            "maka",
+            "misutaaa"
+          ],
+          "gap": 50,
+          "won": 1,
+          "expected": 0.57146312
+        },
+        {
+          "day": "2026-10-16",
+          "id": "602",
+          "opponent": [
+            "cairne",
+            "fear",
+            "jackasmo",
+            "jambo",
+            "mazay"
+          ],
+          "gap": 133,
+          "won": 1,
+          "expected": 0.68257039
+        },
+        {
+          "day": "2026-10-17",
+          "id": "541",
+          "opponent": [
+            "device",
+            "gizmy",
+            "poiii",
+            "rain",
+            "sirah"
+          ],
+          "gap": 72,
+          "won": 1,
+          "expected": 0.60215809
+        },
+        {
+          "day": "2026-10-17",
+          "id": "562",
+          "opponent": [
+            "adamb",
+            "krimbo",
+            "sjuush",
+            "stavn",
+            "xkacpersky"
+          ],
+          "gap": 16,
+          "won": 0,
+          "expected": 0.52300959
+        },
+        {
+          "day": "2026-10-21",
+          "id": "337",
+          "opponent": [
+            "frozen",
+            "jboen",
+            "jcobbb",
+            "neityu",
+            "twistzz"
+          ],
+          "gap": 68,
+          "won": 0,
+          "expected": 0.59662917
+        },
+        {
+          "day": "2026-10-21",
+          "id": "355",
+          "opponent": [
+            "iceberg",
+            "leakz",
+            "mistr",
+            "nickyb",
+            "salazar"
+          ],
+          "gap": 164,
+          "won": 1,
+          "expected": 0.71991901
+        },
+        {
+          "day": "2026-10-21",
+          "id": "371",
+          "opponent": [
+            "beastik",
+            "kisserek",
+            "modo",
+            "shock",
+            "stressarn"
+          ],
+          "gap": 191,
+          "won": 0,
+          "expected": 0.75016348
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://heroic.gg/atc/the-future-of-heroic",
+    "https://heroic.gg/atc/snappi-returns-home-as-head-coach",
+    "https://www.hltv.org/news/45602/snappi-takes-over-as-heroic-coach"
+  ],
+  "asOf": "2026-11-21"
+}

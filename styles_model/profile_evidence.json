@@ -1,0 +1,134 @@
+{
+  "copenhagen": {
+    "FURIA": {
+      "profile": "tempo",
+      "date": "2023-12-07",
+      "title": "HLTV 采访 · KSCERATO 谈配合 arT 突然提速",
+      "url": "https://www.hltv.org/news/37714/kscerato-fallen-made-an-impressive-performance-in-game-leading-on-ct-mirage",
+      "evidence": "KSCERATO 说他能预判 arT 何时主动出击，全队会利用对手未预料到的侵略性。FalleN 同时参与指挥中盘。此标签指突然加压的节奏。",
+      "rosterAtSource": ["arT", "chelo", "FalleN", "KSCERATO", "yuurih"]
+    },
+    "Imperial": {
+      "profile": "duel",
+      "date": "2024-03-04",
+      "title": "HLTV 采访 · VINI 谈围绕 felps 主动出击组织进攻",
+      "url": "https://www.hltv.org/news/38410/vini-we-made-the-right-call-picking-up-noway-and-decenty-they-are-incredible",
+      "evidence": "VINI 说，他围绕 felps 主动找对抗的特点安排打法，也给 noway 和 decenty 足够的发挥空间。采访发生在美洲 RMR 结束时。",
+      "rosterAtSource": ["VINI", "felps", "HEN1", "noway", "decenty"]
+    }
+  },
+  "shanghai": {
+    "FlyQuest": {
+      "profile": "system",
+      "date": "2024-05-07",
+      "title": "HLTV 采访 · Liazz 谈 dexter 的战术和防守分工",
+      "url": "https://www.hltv.org/news/38932/liazz-if-anyone-fcks-up-a-strat-dexter-is-going-to-shit-on-them-and-we-needed-that",
+      "evidence": "Liazz 描述了 dexter 引入的成套战术、训练中对道具执行的要求，以及 dexter 与 INS 分区指挥防守的方式。",
+      "rosterAtSource": ["aliStair", "dexter", "INS", "Liazz", "Vexite"]
+    },
+    "Complexity": {
+      "profile": "duel",
+      "date": "2023-10-20",
+      "title": "HLTV 采访 · JT 谈三名步枪手的主动进攻",
+      "url": "https://www.hltv.org/news/37295/jt-its-really-easy-to-be-creative-in-cs2-in-terms-of-strategies",
+      "evidence": "JT 说他为 EliGE、floppy 和 Grim 创造主动出击的机会，自己负责后半段回合。这是同一首发五人在 2023 年悉尼站描述的分工。",
+      "rosterAtSource": ["EliGE", "floppy", "Grim", "hallzerk", "JT"]
+    },
+    "Virtus.pro": {
+      "profile": "tempo",
+      "date": "2024-06-23",
+      "title": "HLTV · Jame 谈引入 electroNic 后的节奏变化",
+      "url": "https://www.hltv.org/news/39298/jame-there-is-an-option-where-electronic-becomes-the-captain",
+      "evidence": "Jame 谈到队伍要融合两套不同的指挥习惯。报道记录了原有慢速控图中加入更多提速和即兴决策，electroNic 参与场上指挥。",
+      "rosterAtSource": ["electroNic", "fame", "FL1T", "Jame", "n0rb3r7"]
+    }
+  },
+  "austin": {
+    "HEROIC": {
+      "profile": "duel",
+      "date": "2025-01-22",
+      "title": "HLTV 采访 · sAw 谈 HEROIC 步枪核心的主动对抗",
+      "url": "https://www.hltv.org/news/40811/saw-i-think-sunpayus-will-feel-the-joy-again-with-this-team",
+      "evidence": "sAw 描述了以 xfl0ud 为主动突破点、靠步枪手读局制造机会的打法。采访说的是有 tN1R 的正式阵容，他在该场线下赛临时缺席。",
+      "rosterAtSource": ["LNZ", "SunPayus", "tN1R", "xfl0ud", "yxngstxr"]
+    },
+    "Fluxo": {
+      "profile": "system",
+      "date": "2025-03-28",
+      "title": "Dust2 Brasil 采访 · arT 谈双线推进和收尾分工",
+      "url": "https://www.dust2.com.br/noticias/59549/art-explica-mudancas-no-fluxo-e-diz-o-que-falta-para-o-time-se-estabilizar",
+      "evidence": "arT 解释双线协同推进的布置，并将主动找空间与支援、收尾分给不同选手。他说，当时球队倾向于用有组织的回合提高稳定性。",
+      "rosterAtSource": ["arT", "kye", "mlhzin", "piriajr", "zevy"]
+    }
+  },
+  "budapest": {
+    "Legacy": {
+      "profile": "duel",
+      "date": "2025-10-27",
+      "title": "HLTV 采访 · saadzin 谈让资源给步枪突破",
+      "url": "https://www.hltv.org/news/43028/saadzin-i-just-want-to-win-i-dont-want-to-have-the-best-stats-in-the-game",
+      "evidence": "saadzin 描述了为 dumau 和 latto 留出发挥空间的分工。例如在 Inferno，他会把 AK 交给第一身位的 dumau，自己用较差的枪。",
+      "rosterAtSource": ["dumau", "latto", "lux", "n1ssim", "saadzin"]
+    },
+    "FlyQuest": {
+      "profile": "system",
+      "date": "2025-10-27",
+      "title": "HLTV 采访 · AZR 谈按地图安排中盘指挥",
+      "url": "https://www.hltv.org/news/43030/azr-ive-changed-a-lot-of-stuff-with-positions-in-the-team-that-i-feel-like-make-more-sense",
+      "evidence": "AZR 解释了按地图重新分配读局和沟通职责的方法。原由 nettik 承担的关键位置按图交给 INS 或 Vexite，以协调中盘。",
+      "rosterAtSource": ["INS", "jks", "nettik", "regali", "Vexite"]
+    }
+  },
+  "cologne": {
+    "GamerLegion": {
+      "profile": "system",
+      "date": "2026-05-16",
+      "title": "HLTV 采访 · Tauson 谈 Snax 如何指挥中盘",
+      "url": "https://www.hltv.org/news/44633/tauson-i-would-like-to-play-navi-it-makes-it-more-deserved-for-us-to-win",
+      "evidence": "Tauson 说，Snax 会在中盘定下这一回合的思路，让队友按同一计划行动。该描述对应科隆赛前的五人阵容。",
+      "rosterAtSource": ["Snax", "REZ", "Tauson", "PR", "hypex"]
+    },
+    "BetBoom": {
+      "profile": "duel",
+      "date": "2026-05-12",
+      "title": "HLTV 战报 · BetBoom 主动接枪与补枪",
+      "url": "https://www.hltv.org/news/44581/betboom-upset-vitality-to-make-atlanta-playoffs",
+      "evidence": "在亚特兰大对 Vitality 的三图系列赛中，报道记录了 BetBoom 主动对枪并频繁补枪的处理。该观察限于这个系列赛，五人中四人出战科隆。",
+      "rosterAtSource": ["Boombl4", "FL4MUS", "Magnojez", "S1ren", "zorte"]
+    },
+    "NRG": {
+      "profile": "tempo",
+      "date": "2025-11-22",
+      "title": "HLTV 赛前资料 · Sonic 谈 nitr0 指挥时的自由度",
+      "url": "https://www.hltv.org/news/43230/visualized-every-team-at-starladder-budapest-major-stage-1",
+      "evidence": "Sonic 在 Dust2.us 采访中描述了 nitr0 指挥下队员可以自行判断、按局势行动的打法。该指挥和两名队员进入科隆首发；布达佩斯由 daps 代打，因此这份描述仅用于科隆。",
+      "rosterAtSource": ["br0", "Jeorge", "nitr0", "Sonic", "XotiC"]
+    }
+  },
+  "singapore": {
+    "PARIVISION": {
+      "profile": "system",
+      "date": "2026-10-07",
+      "title": "HLTV 采访 · HObbit 谈 Jame 与 dastan 的战术体系",
+      "url": "https://www.hltv.org/news/45670/hobbit-for-me-nowadays-its-like-a-dream",
+      "evidence": "HObbit 说，加入 PV 后要记住并理解大量战术细节。他也在帮队伍筛选方案，让临场决策更简单。受访时五人与新加坡快照一致。",
+      "rosterAtSource": ["HObbit", "FL1T", "Jame", "xiELO", "zweih"]
+    },
+    "Ninjas in Pyjamas": {
+      "profile": "tempo",
+      "date": "2026-09-25",
+      "title": "HLTV 采访 · Krimbo 谈接任 NIP 指挥后的调整",
+      "url": "https://www.hltv.org/news/45577/krimbo-on-calling-i-had-no-doubts-in-my-mind-or-fear-about-it",
+      "evidence": "Krimbo 希望增加默认控图，让队员根据局面提出想法，少一些从开局照固定路线执行的回合。这里的“特殊节奏”指这次调整方向。",
+      "rosterAtSource": ["adamb", "Krimbo", "sjuush", "stavn", "xKacpersky"]
+    },
+    "GOSH": {
+      "profile": "duel",
+      "date": "2026-08-07",
+      "title": "HLTV 采访 · Magisk 谈 BC.Game 初期的对枪与战术取舍",
+      "url": "https://www.hltv.org/news/45246/magisk-im-impressed-with-the-older-guys-theyre-trying-their-absolute-best-to-remove-some-of-the-habits-theyve-played-with-for-many-years",
+      "evidence": "Magisk 说，磨合初期先简化复杂战术，让敢接枪的选手发挥。采访时队名为 BC.Game，五人中四人仍在本届快照，electroNic 的位置已换成 asap。",
+      "rosterAtSource": ["Magisk", "s1mple", "mzinho", "Senzu", "electroNic"]
+    }
+  }
+}

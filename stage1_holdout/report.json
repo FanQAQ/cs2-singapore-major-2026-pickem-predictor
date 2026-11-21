@@ -1,0 +1,3616 @@
+{
+  "event": "epl23-stage1",
+  "asOf": "2026-11-21",
+  "start": "2026-03-01",
+  "end": "2026-03-05",
+  "source": "https://www.hltv.org/results?event=8241",
+  "seeds": [
+    33719,
+    2654469480,
+    1013937945,
+    3668373706,
+    2027842171,
+    387310636,
+    3041746397,
+    1401214862,
+    4055650623,
+    2415119088,
+    774587553,
+    3429023314,
+    1788491779,
+    147960244,
+    2802396005,
+    1161864470,
+    3816300231,
+    2175768696,
+    535237161,
+    3189672922,
+    1549141387,
+    4203577148,
+    2563045613,
+    922514078,
+    3576949839,
+    1936418304,
+    295886769,
+    2950322530,
+    1309790995,
+    3964226756
+  ],
+  "trainingN": 12000,
+  "evaluationN": 12000,
+  "pairedMatchups": 33,
+  "fieldSha256": "3ecde04023e2b63fa24e79bb6d590e91b56d62adb8643cea050028a69d98ec0c",
+  "matrixSha256": {
+    "vrs": "8a729661239f9c139a96d126c80af3bf1a67fa51bb057057dffe46afaffc3e78",
+    "targetOnly": "cd05b3fa3addb71ae7972e6ec7e142bab6e00923b1ca1483d52b3a484e280c37",
+    "earlierDonors": "a9504e5845608cf8d570741d27271259005677fc4c9c3c41f09d6a6eb8cb2e58"
+  },
+  "sources": [
+    {
+      "stageId": "copenhagen",
+      "stage": 1,
+      "majorEnd": "2024-03-31",
+      "lastStageMatch": "2024-03-20",
+      "series": 33
+    },
+    {
+      "stageId": "copenhagen-2024-2",
+      "stage": 2,
+      "majorEnd": "2024-03-31",
+      "lastStageMatch": "2024-03-24",
+      "series": 33
+    },
+    {
+      "stageId": "shanghai",
+      "stage": 1,
+      "majorEnd": "2024-12-15",
+      "lastStageMatch": "2024-12-03",
+      "series": 33
+    },
+    {
+      "stageId": "shanghai-2024-2",
+      "stage": 2,
+      "majorEnd": "2024-12-15",
+      "lastStageMatch": "2024-12-08",
+      "series": 33
+    },
+    {
+      "stageId": "austin",
+      "stage": 1,
+      "majorEnd": "2025-06-22",
+      "lastStageMatch": "2025-06-06",
+      "series": 33
+    },
+    {
+      "stageId": "austin-2025-2",
+      "stage": 2,
+      "majorEnd": "2025-06-22",
+      "lastStageMatch": "2025-06-10",
+      "series": 33
+    },
+    {
+      "stageId": "austin-2025-3",
+      "stage": 3,
+      "majorEnd": "2025-06-22",
+      "lastStageMatch": "2025-06-16",
+      "series": 33
+    },
+    {
+      "stageId": "budapest",
+      "stage": 1,
+      "majorEnd": "2025-12-14",
+      "lastStageMatch": "2025-11-27",
+      "series": 33
+    },
+    {
+      "stageId": "budapest-2025-2",
+      "stage": 2,
+      "majorEnd": "2025-12-14",
+      "lastStageMatch": "2025-12-02",
+      "series": 33
+    },
+    {
+      "stageId": "budapest-2025-3",
+      "stage": 3,
+      "majorEnd": "2025-12-14",
+      "lastStageMatch": "2025-12-07",
+      "series": 33
+    }
+  ],
+  "teams": [
+    "PARIVISION",
+    "G2",
+    "FUT",
+    "Astralis",
+    "Liquid",
+    "3DMAX",
+    "Ninjas in Pyjamas",
+    "HEROIC",
+    "NRG",
+    "Legacy",
+    "paiN",
+    "Passion UA",
+    "Monte",
+    "M80",
+    "Gaimin Gladiators",
+    "SemperFi"
+  ],
+  "teamEvidence": [
+    {
+      "team": "PARIVISION",
+      "nSame": 5,
+      "nLater": 7,
+      "weightedSame": 4,
+      "weightedLater": 5.6,
+      "shift": {
+        "vrs": 0,
+        "targetOnly": 0.0099869,
+        "earlierDonors": -0.02181551
+      }
+    },
+    {
+      "team": "G2",
+      "nSame": 0,
+      "nLater": 10,
+      "weightedSame": 0,
+      "weightedLater": 8,
+      "shift": {
+        "vrs": 0,
+        "targetOnly": 0,
+        "earlierDonors": -0.19846394
+      }
+    },
+    {
+      "team": "FUT",
+      "nSame": 0,
+      "nLater": 0,
+      "weightedSame": 0,
+      "weightedLater": 0,
+      "shift": {
+        "vrs": 0,
+        "targetOnly": 0,
+        "earlierDonors": 0
+      }
+    },
+    {
+      "team": "Astralis",
+      "nSame": 0,
+      "nLater": 5,
+      "weightedSame": 0,
+      "weightedLater": 3,
+      "shift": {
+        "vrs": 0,
+        "targetOnly": 0,
+        "earlierDonors": -0.08323929
+      }
+    },
+    {
+      "team": "Liquid",
+      "nSame": 0,
+      "nLater": 11,
+      "weightedSame": 0,
+      "weightedLater": 10.4,
+      "shift": {
+        "vrs": 0,
+        "targetOnly": 0,
+        "earlierDonors": -0.43606411
+      }
+    },
+    {
+      "team": "3DMAX",
+      "nSame": 0,
+      "nLater": 21,
+      "weightedSame": 0,
+      "weightedLater": 16.8,
+      "shift": {
+        "vrs": 0,
+        "targetOnly": 0,
+        "earlierDonors": -0.20510153
+      }
+    },
+    {
+      "team": "Ninjas in Pyjamas",
+      "nSame": 4,
+      "nLater": 5,
+      "weightedSame": 3.2,
+      "weightedLater": 4,
+      "shift": {
+        "vrs": 0,
+        "targetOnly": 0.11644449,
+        "earlierDonors": 0.10210613
+      }
+    },
+    {
+      "team": "HEROIC",
+      "nSame": 0,
+      "nLater": 0,
+      "weightedSame": 0,
+      "weightedLater": 0,
+      "shift": {
+        "vrs": 0,
+        "targetOnly": 0,
+        "earlierDonors": 0
+      }
+    },
+    {
+      "team": "NRG",
+      "nSame": 5,
+      "nLater": 0,
+      "weightedSame": 3,
+      "weightedLater": 0,
+      "shift": {
+        "vrs": 0,
+        "targetOnly": 0.00060518,
+        "earlierDonors": 0.00060518
+      }
+    },
+    {
+      "team": "Legacy",
+      "nSame": 10,
+      "nLater": 8,
+      "weightedSame": 8,
+      "weightedLater": 6.4,
+      "shift": {
+        "vrs": 0,
+        "targetOnly": -0.09213448,
+        "earlierDonors": 0.16175993
+      }
+    },
+    {
+      "team": "paiN",
+      "nSame": 4,
+      "nLater": 17,
+      "weightedSame": 2.4,
+      "weightedLater": 10.2,
+      "shift": {
+        "vrs": 0,
+        "targetOnly": 0.06384404,
+        "earlierDonors": 0.19743467
+      }
+    },
+    {
+      "team": "Passion UA",
+      "nSame": 0,
+      "nLater": 10,
+      "weightedSame": 0,
+      "weightedLater": 6,
+      "shift": {
+        "vrs": 0,
+        "targetOnly": 0,
+        "earlierDonors": 0.15328934
+      }
+    },
+    {
+      "team": "Monte",
+      "nSame": 0,
+      "nLater": 0,
+      "weightedSame": 0,
+      "weightedLater": 0,
+      "shift": {
+        "vrs": 0,
+        "targetOnly": 0,
+        "earlierDonors": 0
+      }
+    },
+    {
+      "team": "M80",
+      "nSame": 3,
+      "nLater": 9,
+      "weightedSame": 2.4,
+      "weightedLater": 7.2,
+      "shift": {
+        "vrs": 0,
+        "targetOnly": 0.25564883,
+        "earlierDonors": 0.13407336
+      }
+    },
+    {
+      "team": "Gaimin Gladiators",
+      "nSame": 0,
+      "nLater": 0,
+      "weightedSame": 0,
+      "weightedLater": 0,
+      "shift": {
+        "vrs": 0,
+        "targetOnly": 0,
+        "earlierDonors": 0
+      }
+    },
+    {
+      "team": "SemperFi",
+      "nSame": 0,
+      "nLater": 0,
+      "weightedSame": 0,
+      "weightedLater": 0,
+      "shift": {
+        "vrs": 0,
+        "targetOnly": 0,
+        "earlierDonors": 0
+      }
+    }
+  ],
+  "actual": [
+    3,
+    1,
+    0,
+    1,
+    3,
+    1,
+    3,
+    1,
+    2,
+    0,
+    1,
+    3,
+    1,
+    3,
+    3,
+    2
+  ],
+  "summary": {
+    "vrs": {
+      "hits": 3,
+      "passed": false,
+      "bySlot": [
+        0,
+        2,
+        1
+      ],
+      "fixedCard": [
+        [
+          "PARIVISION",
+          "G2"
+        ],
+        [
+          "FUT",
+          "Astralis",
+          "Liquid",
+          "3DMAX",
+          "NRG",
+          "Legacy"
+        ],
+        [
+          "Gaimin Gladiators",
+          "SemperFi"
+        ]
+      ],
+      "meanHits": 3,
+      "passingSeeds": 0,
+      "meanSimulatedPass": 0.86763611,
+      "bo1": {
+        "n": 0,
+        "brier": null,
+        "logLoss": null
+      },
+      "bo3": {
+        "n": 33,
+        "brier": 0.28538097,
+        "logLoss": 0.82767422
+      }
+    },
+    "targetOnly": {
+      "hits": 3,
+      "passed": false,
+      "bySlot": [
+        0,
+        2,
+        1
+      ],
+      "fixedCard": [
+        [
+          "PARIVISION",
+          "G2"
+        ],
+        [
+          "FUT",
+          "Astralis",
+          "Liquid",
+          "3DMAX",
+          "NRG",
+          "Legacy"
+        ],
+        [
+          "Gaimin Gladiators",
+          "SemperFi"
+        ]
+      ],
+      "meanHits": 3,
+      "passingSeeds": 0,
+      "meanSimulatedPass": 0.85144444,
+      "bo1": {
+        "n": 0,
+        "brier": null,
+        "logLoss": null
+      },
+      "bo3": {
+        "n": 33,
+        "brier": 0.29015054,
+        "logLoss": 0.83928897
+      }
+    },
+    "earlierDonors": {
+      "hits": 3,
+      "passed": false,
+      "bySlot": [
+        0,
+        2,
+        1
+      ],
+      "fixedCard": [
+        [
+          "PARIVISION",
+          "G2"
+        ],
+        [
+          "FUT",
+          "Astralis",
+          "Liquid",
+          "3DMAX",
+          "NRG",
+          "Legacy"
+        ],
+        [
+          "Gaimin Gladiators",
+          "SemperFi"
+        ]
+      ],
+      "meanHits": 3,
+      "passingSeeds": 0,
+      "meanSimulatedPass": 0.82483056,
+      "bo1": {
+        "n": 0,
+        "brier": null,
+        "logLoss": null
+      },
+      "bo3": {
+        "n": 33,
+        "brier": 0.27395819,
+        "logLoss": 0.79490212
+      }
+    }
+  },
+  "pairs": {
+    "earlierDonorsVstargetOnly": {
+      "actualHits": {
+        "more": 0,
+        "same": 30,
+        "fewer": 0
+      },
+      "passes": {
+        "more": 0,
+        "same": 30,
+        "fewer": 0
+      }
+    },
+    "earlierDonorsVsvrs": {
+      "actualHits": {
+        "more": 0,
+        "same": 30,
+        "fewer": 0
+      },
+      "passes": {
+        "more": 0,
+        "same": 30,
+        "fewer": 0
+      }
+    },
+    "targetOnlyVsvrs": {
+      "actualHits": {
+        "more": 0,
+        "same": 30,
+        "fewer": 0
+      },
+      "passes": {
+        "more": 0,
+        "same": 30,
+        "fewer": 0
+      }
+    }
+  },
+  "rows": {
+    "vrs": [
+      {
+        "seed": 33719,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10429,
+        "auditHits": 72201,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2654469480,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10411,
+        "auditHits": 71928,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1013937945,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10399,
+        "auditHits": 72133,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3668373706,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10412,
+        "auditHits": 72099,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2027842171,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10371,
+        "auditHits": 71851,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 387310636,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10420,
+        "auditHits": 71977,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3041746397,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10434,
+        "auditHits": 72315,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1401214862,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10382,
+        "auditHits": 72162,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 4055650623,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10360,
+        "auditHits": 71950,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2415119088,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10412,
+        "auditHits": 72143,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 774587553,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10435,
+        "auditHits": 72107,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3429023314,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10391,
+        "auditHits": 72103,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1788491779,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10422,
+        "auditHits": 72088,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 147960244,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10385,
+        "auditHits": 72222,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2802396005,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10396,
+        "auditHits": 71996,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1161864470,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10442,
+        "auditHits": 72324,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3816300231,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10451,
+        "auditHits": 72224,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2175768696,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10449,
+        "auditHits": 72263,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 535237161,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10422,
+        "auditHits": 72105,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3189672922,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10465,
+        "auditHits": 72391,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1549141387,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10356,
+        "auditHits": 72045,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 4203577148,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10396,
+        "auditHits": 72255,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2563045613,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10450,
+        "auditHits": 72237,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 922514078,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10316,
+        "auditHits": 71741,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3576949839,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10452,
+        "auditHits": 72268,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1936418304,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10411,
+        "auditHits": 72216,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 295886769,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10422,
+        "auditHits": 72293,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2950322530,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10470,
+        "auditHits": 72246,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1309790995,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10401,
+        "auditHits": 72192,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3964226756,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10387,
+        "auditHits": 71903,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      }
+    ],
+    "targetOnly": [
+      {
+        "seed": 33719,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10161,
+        "auditHits": 70743,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2654469480,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10224,
+        "auditHits": 70736,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1013937945,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10200,
+        "auditHits": 70749,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3668373706,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10200,
+        "auditHits": 70749,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2027842171,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10177,
+        "auditHits": 70678,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 387310636,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10218,
+        "auditHits": 70783,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3041746397,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10274,
+        "auditHits": 71137,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1401214862,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10188,
+        "auditHits": 70877,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 4055650623,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10165,
+        "auditHits": 70581,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2415119088,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10193,
+        "auditHits": 70744,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 774587553,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10243,
+        "auditHits": 70909,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3429023314,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10210,
+        "auditHits": 70839,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1788491779,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10226,
+        "auditHits": 70769,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 147960244,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10173,
+        "auditHits": 70934,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2802396005,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10200,
+        "auditHits": 70788,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1161864470,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10226,
+        "auditHits": 71082,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3816300231,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10251,
+        "auditHits": 70934,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2175768696,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10260,
+        "auditHits": 71049,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 535237161,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10246,
+        "auditHits": 70803,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3189672922,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10278,
+        "auditHits": 71203,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1549141387,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10194,
+        "auditHits": 70760,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 4203577148,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10240,
+        "auditHits": 71038,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2563045613,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10244,
+        "auditHits": 70746,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 922514078,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10141,
+        "auditHits": 70522,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3576949839,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10258,
+        "auditHits": 71034,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1936418304,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10179,
+        "auditHits": 70960,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 295886769,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10223,
+        "auditHits": 71029,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2950322530,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10310,
+        "auditHits": 70950,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1309790995,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10211,
+        "auditHits": 70956,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3964226756,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 10207,
+        "auditHits": 70769,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      }
+    ],
+    "earlierDonors": [
+      {
+        "seed": 33719,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9901,
+        "auditHits": 68742,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2654469480,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9925,
+        "auditHits": 68720,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1013937945,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9817,
+        "auditHits": 68472,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3668373706,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9896,
+        "auditHits": 68788,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2027842171,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9861,
+        "auditHits": 68572,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 387310636,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9935,
+        "auditHits": 68773,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3041746397,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9936,
+        "auditHits": 69180,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1401214862,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9857,
+        "auditHits": 68684,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 4055650623,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9840,
+        "auditHits": 68538,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2415119088,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9890,
+        "auditHits": 68708,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 774587553,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9897,
+        "auditHits": 68720,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3429023314,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9847,
+        "auditHits": 68679,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1788491779,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9905,
+        "auditHits": 68822,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 147960244,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9924,
+        "auditHits": 68856,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2802396005,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9915,
+        "auditHits": 68815,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1161864470,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9896,
+        "auditHits": 68966,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3816300231,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9958,
+        "auditHits": 68948,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2175768696,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9897,
+        "auditHits": 68794,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 535237161,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9955,
+        "auditHits": 68827,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3189672922,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9970,
+        "auditHits": 68998,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1549141387,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9827,
+        "auditHits": 68718,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 4203577148,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9950,
+        "auditHits": 69125,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2563045613,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9875,
+        "auditHits": 68736,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 922514078,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9875,
+        "auditHits": 68618,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3576949839,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9943,
+        "auditHits": 69062,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1936418304,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9874,
+        "auditHits": 68807,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 295886769,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9918,
+        "auditHits": 68834,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 2950322530,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9913,
+        "auditHits": 68905,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 1309790995,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9878,
+        "auditHits": 68877,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      },
+      {
+        "seed": 3964226756,
+        "card": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "auditPasses": 9864,
+        "auditHits": 68709,
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "actualHits": 3,
+        "passed": false
+      }
+    ]
+  },
+  "matches": [
+    {
+      "round": 1,
+      "w": 7,
+      "l": 8,
+      "loserMaps": 0,
+      "hltvId": 2391011,
+      "winnerProbability": {
+        "vrs": 0.4089244036850566,
+        "targetOnly": 0.40877813756367737,
+        "earlierDonors": 0.40877813756367737
+      }
+    },
+    {
+      "round": 1,
+      "w": 0,
+      "l": 15,
+      "loserMaps": 0,
+      "hltvId": 2391012,
+      "winnerProbability": {
+        "vrs": 0.996124625506375,
+        "targetOnly": 0.9961629880827124,
+        "earlierDonors": 0.9960394918123099
+      }
+    },
+    {
+      "round": 1,
+      "w": 1,
+      "l": 14,
+      "loserMaps": 0,
+      "hltvId": 2391013,
+      "winnerProbability": {
+        "vrs": 0.9032184042951807,
+        "targetOnly": 0.9032184042951807,
+        "earlierDonors": 0.8844276121832294
+      }
+    },
+    {
+      "round": 1,
+      "w": 3,
+      "l": 12,
+      "loserMaps": 1,
+      "hltvId": 2391014,
+      "winnerProbability": {
+        "vrs": 0.8187932901343153,
+        "targetOnly": 0.8187932901343153,
+        "earlierDonors": 0.8061138637631549
+      }
+    },
+    {
+      "round": 1,
+      "w": 9,
+      "l": 6,
+      "loserMaps": 1,
+      "hltvId": 2391015,
+      "winnerProbability": {
+        "vrs": 0.6035363185261781,
+        "targetOnly": 0.5527140834664359,
+        "earlierDonors": 0.6177184952316652
+      }
+    },
+    {
+      "round": 1,
+      "w": 2,
+      "l": 13,
+      "loserMaps": 1,
+      "hltvId": 2391016,
+      "winnerProbability": {
+        "vrs": 0.5230095872975623,
+        "targetOnly": 0.45920453235681197,
+        "earlierDonors": 0.4895090503301208
+      }
+    },
+    {
+      "round": 1,
+      "w": 11,
+      "l": 4,
+      "loserMaps": 0,
+      "hltvId": 2391017,
+      "winnerProbability": {
+        "vrs": 0.29064536940123664,
+        "targetOnly": 0.29064536940123664,
+        "earlierDonors": 0.4248491295333764
+      }
+    },
+    {
+      "round": 1,
+      "w": 10,
+      "l": 5,
+      "loserMaps": 1,
+      "hltvId": 2391018,
+      "winnerProbability": {
+        "vrs": 0.42150324765525726,
+        "targetOnly": 0.43714393792877704,
+        "earlierDonors": 0.5214694761525888
+      }
+    },
+    {
+      "round": 2,
+      "w": 3,
+      "l": 7,
+      "loserMaps": 0,
+      "hltvId": 2391019,
+      "winnerProbability": {
+        "vrs": 0.6049129020079569,
+        "targetOnly": 0.6049129020079569,
+        "earlierDonors": 0.5848556925600819
+      }
+    },
+    {
+      "round": 2,
+      "w": 12,
+      "l": 8,
+      "loserMaps": 0,
+      "hltvId": 2391020,
+      "winnerProbability": {
+        "vrs": 0.1899048413952433,
+        "targetOnly": 0.18981175800262196,
+        "earlierDonors": 0.18981175800262196
+      }
+    },
+    {
+      "round": 2,
+      "w": 0,
+      "l": 10,
+      "loserMaps": 0,
+      "hltvId": 2391021,
+      "winnerProbability": {
+        "vrs": 0.9006730359903561,
+        "targetOnly": 0.8957498684358962,
+        "earlierDonors": 0.8792635961372893
+      }
+    },
+    {
+      "round": 2,
+      "w": 5,
+      "l": 15,
+      "loserMaps": 0,
+      "hltvId": 2391022,
+      "winnerProbability": {
+        "vrs": 0.974940178760618,
+        "targetOnly": 0.974940178760618,
+        "earlierDonors": 0.969409830703621
+      }
+    },
+    {
+      "round": 2,
+      "w": 2,
+      "l": 11,
+      "loserMaps": 1,
+      "hltvId": 2391023,
+      "winnerProbability": {
+        "vrs": 0.596629173305774,
+        "targetOnly": 0.596629173305774,
+        "earlierDonors": 0.5592577259719351
+      }
+    },
+    {
+      "round": 2,
+      "w": 13,
+      "l": 6,
+      "loserMaps": 1,
+      "hltvId": 2391024,
+      "winnerProbability": {
+        "vrs": 0.5086338358210827,
+        "targetOnly": 0.5433268446595545,
+        "earlierDonors": 0.5166203771886478
+      }
+    },
+    {
+      "round": 2,
+      "w": 9,
+      "l": 1,
+      "loserMaps": 0,
+      "hltvId": 2391025,
+      "winnerProbability": {
+        "vrs": 0.47986327796418354,
+        "targetOnly": 0.45692579676147804,
+        "earlierDonors": 0.5694563426975862
+      }
+    },
+    {
+      "round": 2,
+      "w": 14,
+      "l": 4,
+      "loserMaps": 1,
+      "hltvId": 2391026,
+      "winnerProbability": {
+        "vrs": 0.08626239263083382,
+        "targetOnly": 0.08626239263083382,
+        "earlierDonors": 0.1274066597313137
+      }
+    },
+    {
+      "round": 3,
+      "w": 2,
+      "l": 3,
+      "loserMaps": 0,
+      "hltvId": 2391027,
+      "winnerProbability": {
+        "vrs": 0.42571979634547563,
+        "targetOnly": 0.42571979634547563,
+        "earlierDonors": 0.44618506498704746
+      }
+    },
+    {
+      "round": 3,
+      "w": 12,
+      "l": 7,
+      "loserMaps": 0,
+      "hltvId": 2391028,
+      "winnerProbability": {
+        "vrs": 0.2530870785710568,
+        "targetOnly": 0.2530870785710568,
+        "earlierDonors": 0.2530870785710568
+      }
+    },
+    {
+      "round": 3,
+      "w": 9,
+      "l": 0,
+      "loserMaps": 0,
+      "hltvId": 2391029,
+      "winnerProbability": {
+        "vrs": 0.13015005092569085,
+        "targetOnly": 0.11901887822222068,
+        "earlierDonors": 0.15237971132767592
+      }
+    },
+    {
+      "round": 3,
+      "w": 4,
+      "l": 15,
+      "loserMaps": 1,
+      "hltvId": 2391030,
+      "winnerProbability": {
+        "vrs": 0.9793025479815687,
+        "targetOnly": 0.9793025479815687,
+        "earlierDonors": 0.968347256236141
+      }
+    },
+    {
+      "round": 3,
+      "w": 5,
+      "l": 14,
+      "loserMaps": 0,
+      "hltvId": 2391031,
+      "winnerProbability": {
+        "vrs": 0.8970095263772729,
+        "targetOnly": 0.8970095263772729,
+        "earlierDonors": 0.8764602581791734
+      }
+    },
+    {
+      "round": 3,
+      "w": 10,
+      "l": 11,
+      "loserMaps": 1,
+      "hltvId": 2391032,
+      "winnerProbability": {
+        "vrs": 0.5938553852361779,
+        "targetOnly": 0.6091571158313498,
+        "earlierDonors": 0.6044571994919256
+      }
+    },
+    {
+      "round": 3,
+      "w": 1,
+      "l": 13,
+      "loserMaps": 1,
+      "hltvId": 2391033,
+      "winnerProbability": {
+        "vrs": 0.6145013610085578,
+        "targetOnly": 0.5524623576170433,
+        "earlierDonors": 0.5333843025193933
+      }
+    },
+    {
+      "round": 3,
+      "w": 6,
+      "l": 8,
+      "loserMaps": 1,
+      "hltvId": 2391034,
+      "winnerProbability": {
+        "vrs": 0.4089244036850566,
+        "targetOnly": 0.4371899764733822,
+        "earlierDonors": 0.43366518806636917
+      }
+    },
+    {
+      "round": 4,
+      "w": 12,
+      "l": 0,
+      "loserMaps": 1,
+      "hltvId": 2391035,
+      "winnerProbability": {
+        "vrs": 0.03223085106388676,
+        "targetOnly": 0.03192079062750086,
+        "earlierDonors": 0.03291830907666515
+      }
+    },
+    {
+      "round": 4,
+      "w": 3,
+      "l": 5,
+      "loserMaps": 0,
+      "hltvId": 2391036,
+      "winnerProbability": {
+        "vrs": 0.4985608882908471,
+        "targetOnly": 0.4985608882908471,
+        "earlierDonors": 0.5289938786773134
+      }
+    },
+    {
+      "round": 4,
+      "w": 7,
+      "l": 11,
+      "loserMaps": 0,
+      "hltvId": 2391037,
+      "winnerProbability": {
+        "vrs": 0.5658152030692333,
+        "targetOnly": 0.5658152030692333,
+        "earlierDonors": 0.5278481363838545
+      }
+    },
+    {
+      "round": 4,
+      "w": 6,
+      "l": 14,
+      "loserMaps": 0,
+      "hltvId": 2391038,
+      "winnerProbability": {
+        "vrs": 0.8497568518427462,
+        "targetOnly": 0.864026070201217,
+        "earlierDonors": 0.8623327184530403
+      }
+    },
+    {
+      "round": 4,
+      "w": 4,
+      "l": 13,
+      "loserMaps": 1,
+      "hltvId": 2391039,
+      "winnerProbability": {
+        "vrs": 0.6440338538222926,
+        "targetOnly": 0.5835264506135674,
+        "earlierDonors": 0.5056943017213956
+      }
+    },
+    {
+      "round": 4,
+      "w": 10,
+      "l": 1,
+      "loserMaps": 0,
+      "hltvId": 2391040,
+      "winnerProbability": {
+        "vrs": 0.4047569603484281,
+        "targetOnly": 0.42022764285527103,
+        "earlierDonors": 0.5025538782507216
+      }
+    },
+    {
+      "round": 5,
+      "w": 7,
+      "l": 0,
+      "loserMaps": 0,
+      "hltvId": 2391041,
+      "winnerProbability": {
+        "vrs": 0.08949191595077233,
+        "targetOnly": 0.08868148188337266,
+        "earlierDonors": 0.0912855031939207
+      }
+    },
+    {
+      "round": 5,
+      "w": 1,
+      "l": 6,
+      "loserMaps": 0,
+      "hltvId": 2391042,
+      "winnerProbability": {
+        "vrs": 0.6226501957872621,
+        "targetOnly": 0.5949261231738987,
+        "earlierDonors": 0.5498939431547081
+      }
+    },
+    {
+      "round": 5,
+      "w": 5,
+      "l": 4,
+      "loserMaps": 0,
+      "hltvId": 2391043,
+      "winnerProbability": {
+        "vrs": 0.4512256641402582,
+        "targetOnly": 0.4512256641402582,
+        "earlierDonors": 0.5088098003535964
+      }
+    }
+  ]
+}

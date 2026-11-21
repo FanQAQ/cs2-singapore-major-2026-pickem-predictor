@@ -1,0 +1,1815 @@
+{
+  "archiveQuery": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=GlobalOffensive&after=2026-06-06&before=2026-06-10&title=IEM%20Cologne%20Major%202026%20Stage%202&limit=100&sort=asc",
+  "stage3ScheduledStartUtc": "2026-06-11T09:00:00Z",
+  "stage3ScheduleSource": "https://blast.tv/cs/news/everything-you-need-to-know-about-iem-cologne-major-stage-3-and-playoffs",
+  "auditUrl": "https://cs2metahistory.com/tournaments/iem-cologne-major-2026-stage-2/",
+  "auditColumns": [
+    "pick",
+    "ban",
+    "left",
+    "firstBan",
+    "firstPick"
+  ],
+  "auditTotals": {
+    "Mirage": [
+      6,
+      17,
+      10,
+      0,
+      3
+    ],
+    "Nuke": [
+      6,
+      20,
+      7,
+      1,
+      4
+    ],
+    "Dust2": [
+      2,
+      24,
+      7,
+      8,
+      1
+    ],
+    "Ancient": [
+      1,
+      27,
+      5,
+      8,
+      1
+    ],
+    "Inferno": [
+      5,
+      27,
+      1,
+      3,
+      2
+    ],
+    "Overpass": [
+      4,
+      26,
+      3,
+      3,
+      1
+    ],
+    "Anubis": [
+      2,
+      31,
+      0,
+      10,
+      1
+    ]
+  },
+  "records": [
+    {
+      "hltvId": 2394865,
+      "round": 1,
+      "utcPublishedAt": "2026-06-06T14:45:04Z",
+      "utcFirstCapture": "2026-06-06T14:45:34Z",
+      "utcSecondCapture": "2026-06-08T02:45:25Z",
+      "archiveMarksEdited": true,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tyj5jt/spirit_vs_bb_iem_cologne_major_2026_stage_2_swiss/",
+      "hltvUrl": "https://www.hltv.org/matches/2394865/spirit-vs-betboom-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "Spirit",
+          "MAP",
+          "BB"
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "",
+          "Overpass",
+          "X"
+        ],
+        [
+          "X",
+          "Nuke",
+          ""
+        ],
+        [
+          "X",
+          "Anubis",
+          ""
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "",
+          "Dust2",
+          "X"
+        ],
+        [
+          "",
+          "Mirage",
+          ""
+        ]
+      ],
+      "tableSha256": "1d26bb0df14e5356d30e29447e1d88754d088f9d58299fa992d48abfc3fa94e2"
+    },
+    {
+      "hltvId": 2394866,
+      "round": 1,
+      "utcPublishedAt": "2026-06-06T11:17:14Z",
+      "utcFirstCapture": "2026-06-06T11:17:38Z",
+      "utcSecondCapture": "2026-06-07T23:17:28Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tyej4n/astralis_vs_gamerlegion_iem_cologne_major_2026/",
+      "hltvUrl": "https://www.hltv.org/matches/2394866/astralis-vs-gamerlegion-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "Astralis",
+          "MAP",
+          "GamerLegion"
+        ],
+        [
+          "",
+          "Dust2",
+          "X"
+        ],
+        [
+          "",
+          "Inferno",
+          "X"
+        ],
+        [
+          "X",
+          "Anubis",
+          ""
+        ],
+        [
+          "X",
+          "Mirage",
+          ""
+        ],
+        [
+          "X",
+          "Nuke",
+          ""
+        ],
+        [
+          "",
+          "Overpass",
+          "X"
+        ],
+        [
+          "",
+          "Ancient",
+          ""
+        ]
+      ],
+      "tableSha256": "8275e7b93a3e3c7bc64383da88ecbb198905431e8004451879da00fef9bc1341"
+    },
+    {
+      "hltvId": 2394867,
+      "round": 1,
+      "utcPublishedAt": "2026-06-06T13:37:57Z",
+      "utcFirstCapture": "2026-06-06T13:38:15Z",
+      "utcSecondCapture": "2026-06-08T01:38:27Z",
+      "archiveMarksEdited": true,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tyhiqp/g2_vs_m80_iem_cologne_major_2026_stage_2_swiss/",
+      "hltvUrl": "https://www.hltv.org/matches/2394867/g2-vs-m80-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "G2",
+          "MAP",
+          "M80"
+        ],
+        [
+          "",
+          "Overpass",
+          "X"
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "X",
+          "Anubis",
+          ""
+        ],
+        [
+          "X",
+          "Nuke",
+          ""
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "",
+          "Dust2",
+          "X"
+        ],
+        [
+          "",
+          "Mirage",
+          ""
+        ]
+      ],
+      "tableSha256": "14cb3f5c5b29ce467cd374fb5c2e8febf07a841bb99e32fa68a5c5f9f6d4476f"
+    },
+    {
+      "hltvId": 2394868,
+      "round": 1,
+      "utcPublishedAt": "2026-06-06T13:39:13Z",
+      "utcFirstCapture": "2026-06-06T13:39:52Z",
+      "utcSecondCapture": "2026-06-08T01:39:30Z",
+      "archiveMarksEdited": true,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tyhjsr/fut_vs_b8_iem_cologne_major_2026_stage_2_swiss/",
+      "hltvUrl": "https://www.hltv.org/matches/2394868/fut-vs-b8-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "FUT",
+          "MAP",
+          "B8"
+        ],
+        [
+          "",
+          "Anubis",
+          "X"
+        ],
+        [
+          "",
+          "Overpass",
+          "X"
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "X",
+          "Mirage",
+          ""
+        ],
+        [
+          "X",
+          "Dust2",
+          ""
+        ],
+        [
+          "",
+          "Nuke",
+          "X"
+        ],
+        [
+          "",
+          "Ancient",
+          ""
+        ]
+      ],
+      "tableSha256": "7ab4c01816eae683a5fe58a91ec4b63ff88084e7165a864dbf7d34123ef1fec3"
+    },
+    {
+      "hltvId": 2394869,
+      "round": 1,
+      "utcPublishedAt": "2026-06-06T15:00:18Z",
+      "utcFirstCapture": "2026-06-06T15:00:49Z",
+      "utcSecondCapture": "2026-06-08T03:00:38Z",
+      "archiveMarksEdited": true,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tyjj0k/legacy_vs_mibr_iem_cologne_major_2026_stage_2/",
+      "hltvUrl": "https://www.hltv.org/matches/2394869/legacy-vs-mibr-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "Legacy",
+          "MAP",
+          "MIBR"
+        ],
+        [
+          "",
+          "Dust2",
+          "X"
+        ],
+        [
+          "",
+          "Inferno",
+          "X"
+        ],
+        [
+          "X",
+          "Anubis",
+          ""
+        ],
+        [
+          "X",
+          "Ancient",
+          ""
+        ],
+        [
+          "X",
+          "Overpass",
+          ""
+        ],
+        [
+          "",
+          "Mirage",
+          "X"
+        ],
+        [
+          "",
+          "Nuke",
+          ""
+        ]
+      ],
+      "tableSha256": "77f086e0102497d84c4ebc0faf7736c79a6e032c92d4701d5aae4552afcadcd0"
+    },
+    {
+      "hltvId": 2394870,
+      "round": 1,
+      "utcPublishedAt": "2026-06-06T11:29:41Z",
+      "utcFirstCapture": "2026-06-06T11:30:08Z",
+      "utcSecondCapture": "2026-06-07T23:29:57Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tyes2b/9z_vs_flyquest_iem_cologne_major_2026_stage_2/",
+      "hltvUrl": "https://www.hltv.org/matches/2394870/9z-vs-flyquest-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "9z",
+          "MAP",
+          "FlyQuest"
+        ],
+        [
+          "",
+          "Overpass",
+          "X"
+        ],
+        [
+          "",
+          "Nuke",
+          "X"
+        ],
+        [
+          "X",
+          "Anubis",
+          ""
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "X",
+          "Mirage",
+          ""
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "",
+          "Dust2",
+          ""
+        ]
+      ],
+      "tableSha256": "198c6e6594c97b09ae6309a48f49e57aa1d6ff145185a9b8ac354af6603f8c73"
+    },
+    {
+      "hltvId": 2394871,
+      "round": 1,
+      "utcPublishedAt": "2026-06-06T13:26:14Z",
+      "utcFirstCapture": "2026-06-06T13:26:45Z",
+      "utcSecondCapture": "2026-06-08T01:26:31Z",
+      "archiveMarksEdited": true,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tyh94d/pain_vs_tyloo_iem_cologne_major_2026_stage_2/",
+      "hltvUrl": "https://www.hltv.org/matches/2394871/pain-vs-tyloo-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "paiN",
+          "MAP",
+          "TYLOO"
+        ],
+        [
+          "",
+          "Dust2",
+          "X"
+        ],
+        [
+          "",
+          "Anubis",
+          "X"
+        ],
+        [
+          "X",
+          "Ancient",
+          ""
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "X",
+          "Overpass",
+          ""
+        ],
+        [
+          "",
+          "Nuke",
+          "X"
+        ],
+        [
+          "",
+          "Mirage",
+          ""
+        ]
+      ],
+      "tableSha256": "2fda9a09fe79452a75845df419253e9bda62bcc4711bb8f43d21cad5b6f288d5"
+    },
+    {
+      "hltvId": 2394872,
+      "round": 1,
+      "utcPublishedAt": "2026-06-06T14:47:34Z",
+      "utcFirstCapture": "2026-06-06T14:47:58Z",
+      "utcSecondCapture": "2026-06-08T02:47:53Z",
+      "archiveMarksEdited": true,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tyj7sg/monte_vs_big_iem_cologne_major_2026_stage_2_swiss/",
+      "hltvUrl": "https://www.hltv.org/matches/2394872/monte-vs-big-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "Monte",
+          "MAP",
+          "BIG"
+        ],
+        [
+          "",
+          "Anubis",
+          "X"
+        ],
+        [
+          "",
+          "Dust2",
+          "X"
+        ],
+        [
+          "X",
+          "Overpass",
+          ""
+        ],
+        [
+          "X",
+          "Ancient",
+          ""
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "",
+          "Nuke",
+          "X"
+        ],
+        [
+          "",
+          "Mirage",
+          ""
+        ]
+      ],
+      "tableSha256": "b8451a321f15782593bc135faae8f4bbefb32a8944aaada5d65e5a1d1f6736e6"
+    },
+    {
+      "hltvId": 2394873,
+      "round": 2,
+      "utcPublishedAt": "2026-06-06T16:42:17Z",
+      "utcFirstCapture": "2026-06-06T16:42:48Z",
+      "utcSecondCapture": "2026-06-08T04:42:36Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tym547/fut_vs_tyloo_iem_cologne_major_2026_stage_2_swiss/",
+      "hltvUrl": "https://www.hltv.org/matches/2394873/fut-vs-tyloo-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "FUT",
+          "MAP",
+          "TYLOO"
+        ],
+        [
+          "",
+          "Dust2",
+          "X"
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "X",
+          "Mirage",
+          ""
+        ],
+        [
+          "X",
+          "Nuke",
+          ""
+        ],
+        [
+          "",
+          "Anubis",
+          "X"
+        ],
+        [
+          "",
+          "Overpass",
+          ""
+        ]
+      ],
+      "tableSha256": "bdcee0399b9d92fc4d34a3717676b4d11433cdc12d679d651a70601f811cfd36"
+    },
+    {
+      "hltvId": 2394874,
+      "round": 2,
+      "utcPublishedAt": "2026-06-06T16:41:02Z",
+      "utcFirstCapture": "2026-06-06T16:41:20Z",
+      "utcSecondCapture": "2026-06-08T04:41:20Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tym3ze/astralis_vs_9z_iem_cologne_major_2026_stage_2/",
+      "hltvUrl": "https://www.hltv.org/matches/2394874/astralis-vs-9z-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "Astralis",
+          "MAP",
+          "9z"
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "",
+          "Overpass",
+          "X"
+        ],
+        [
+          "X",
+          "Anubis",
+          ""
+        ],
+        [
+          "X",
+          "Dust2",
+          ""
+        ],
+        [
+          "X",
+          "Mirage",
+          ""
+        ],
+        [
+          "",
+          "Inferno",
+          "X"
+        ],
+        [
+          "",
+          "Nuke",
+          ""
+        ]
+      ],
+      "tableSha256": "b0f8200e3bfd5c21eb11771f8c52be707fb494361c3dcfd0a57ee11a53f66272"
+    },
+    {
+      "hltvId": 2394875,
+      "round": 2,
+      "utcPublishedAt": "2026-06-06T18:17:00Z",
+      "utcFirstCapture": "2026-06-06T18:17:20Z",
+      "utcSecondCapture": "2026-06-08T06:28:19Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tyom25/g2_vs_monte_iem_cologne_major_2026_stage_2_swiss/",
+      "hltvUrl": "https://www.hltv.org/matches/2394875/g2-vs-monte-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "G2",
+          "MAP",
+          "Monte"
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "",
+          "Overpass",
+          "X"
+        ],
+        [
+          "X",
+          "Anubis",
+          ""
+        ],
+        [
+          "X",
+          "Nuke",
+          ""
+        ],
+        [
+          "X",
+          "Dust2",
+          ""
+        ],
+        [
+          "",
+          "Inferno",
+          "X"
+        ],
+        [
+          "",
+          "Mirage",
+          ""
+        ]
+      ],
+      "tableSha256": "9598136ea9fe39cff532f066f1fb45f068c96584ad3ae06a8621c2c1baf16895"
+    },
+    {
+      "hltvId": 2394876,
+      "round": 2,
+      "utcPublishedAt": "2026-06-06T18:05:45Z",
+      "utcFirstCapture": "2026-06-06T18:06:01Z",
+      "utcSecondCapture": "2026-06-08T06:24:02Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tyobl6/pain_vs_big_iem_cologne_major_2026_stage_2_swiss/",
+      "hltvUrl": "https://www.hltv.org/matches/2394876/pain-vs-big-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "paiN",
+          "MAP",
+          "BIG"
+        ],
+        [
+          "",
+          "Anubis",
+          "X"
+        ],
+        [
+          "",
+          "Nuke",
+          "X"
+        ],
+        [
+          "X",
+          "Ancient",
+          ""
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "X",
+          "Mirage",
+          ""
+        ],
+        [
+          "",
+          "Dust2",
+          "X"
+        ],
+        [
+          "",
+          "Overpass",
+          ""
+        ]
+      ],
+      "tableSha256": "b7144725abfeb54a6c14fc83de41d95ac29fdf2c160ab56d3600710202836808"
+    },
+    {
+      "hltvId": 2394877,
+      "round": 2,
+      "utcPublishedAt": "2026-06-06T19:36:51Z",
+      "utcFirstCapture": "2026-06-06T19:37:12Z",
+      "utcSecondCapture": "2026-06-08T07:37:13Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tyqnl4/bb_vs_gamerlegion_iem_cologne_major_2026_stage_2/",
+      "hltvUrl": "https://www.hltv.org/matches/2394877/betboom-vs-gamerlegion-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "BB",
+          "MAP",
+          "GamerLegion"
+        ],
+        [
+          "",
+          "Dust2",
+          "X"
+        ],
+        [
+          "",
+          "Anubis",
+          "X"
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "X",
+          "Ancient",
+          ""
+        ],
+        [
+          "X",
+          "Overpass",
+          ""
+        ],
+        [
+          "",
+          "Mirage",
+          "X"
+        ],
+        [
+          "",
+          "Nuke",
+          ""
+        ]
+      ],
+      "tableSha256": "c47d962eb33a3484d3ccc62be95b9fb67a853b8b957d8ec1668021bfbb30a3fd"
+    },
+    {
+      "hltvId": 2394878,
+      "round": 2,
+      "utcPublishedAt": "2026-06-06T19:08:36Z",
+      "utcFirstCapture": "2026-06-06T19:09:02Z",
+      "utcSecondCapture": "2026-06-08T07:08:57Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1typy1g/legacy_vs_flyquest_iem_cologne_major_2026_stage_2/",
+      "hltvUrl": "https://www.hltv.org/matches/2394878/legacy-vs-flyquest-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "Legacy",
+          "MAP",
+          "FlyQuest"
+        ],
+        [
+          "",
+          "Overpass",
+          "X"
+        ],
+        [
+          "",
+          "Mirage",
+          "X"
+        ],
+        [
+          "X",
+          "Anubis",
+          ""
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "X",
+          "Ancient",
+          ""
+        ],
+        [
+          "",
+          "Nuke",
+          "X"
+        ],
+        [
+          "",
+          "Dust2",
+          ""
+        ]
+      ],
+      "tableSha256": "2c2a4a23593ab00f0131c2941597ae37ca39f35f215d7f7e45737a5712495e95"
+    },
+    {
+      "hltvId": 2394879,
+      "round": 2,
+      "utcPublishedAt": "2026-06-06T20:14:50Z",
+      "utcFirstCapture": "2026-06-06T20:15:18Z",
+      "utcSecondCapture": "2026-06-08T08:15:21Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tyrm1i/spirit_vs_mibr_iem_cologne_major_2026_stage_2/",
+      "hltvUrl": "https://www.hltv.org/matches/2394879/spirit-vs-mibr-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "Spirit",
+          "MAP",
+          "MIBR"
+        ],
+        [
+          "",
+          "Dust2",
+          "X"
+        ],
+        [
+          "",
+          "Overpass",
+          "X"
+        ],
+        [
+          "X",
+          "Ancient",
+          ""
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "X",
+          "Anubis",
+          ""
+        ],
+        [
+          "",
+          "Nuke",
+          "X"
+        ],
+        [
+          "",
+          "Mirage",
+          ""
+        ]
+      ],
+      "tableSha256": "3d8e9a436dcde6b3c43832e2dbf5fc0d557f7546130fa2fa833a94afead0b485"
+    },
+    {
+      "hltvId": 2394880,
+      "round": 2,
+      "utcPublishedAt": "2026-06-06T20:20:25Z",
+      "utcFirstCapture": "2026-06-06T20:20:47Z",
+      "utcSecondCapture": "2026-06-08T08:20:44Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tyrqyl/b8_vs_m80_iem_cologne_major_2026_stage_2_swiss/",
+      "hltvUrl": "https://www.hltv.org/matches/2394880/b8-vs-m80-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "B8",
+          "MAP",
+          "M80"
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "",
+          "Overpass",
+          "X"
+        ],
+        [
+          "X",
+          "Anubis",
+          ""
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "X",
+          "Dust2",
+          ""
+        ],
+        [
+          "",
+          "Nuke",
+          "X"
+        ],
+        [
+          "",
+          "Mirage",
+          ""
+        ]
+      ],
+      "tableSha256": "9728d2400a1791f0e699d120ab5b58bbb51bf66d69a44c1009a01734dcaef33c"
+    },
+    {
+      "hltvId": 2394881,
+      "round": 3,
+      "utcPublishedAt": "2026-06-07T14:09:55Z",
+      "utcFirstCapture": "2026-06-07T14:10:28Z",
+      "utcSecondCapture": "2026-06-09T02:10:21Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tzd5xn/monte_vs_legacy_iem_cologne_major_2026_stage_2/",
+      "hltvUrl": "https://www.hltv.org/matches/2394881/monte-vs-legacy-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "Monte",
+          "MAP",
+          "Legacy"
+        ],
+        [
+          "",
+          "Anubis",
+          "X"
+        ],
+        [
+          "",
+          "Dust2",
+          "X"
+        ],
+        [
+          "X",
+          "Overpass",
+          ""
+        ],
+        [
+          "X",
+          "Mirage",
+          ""
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "",
+          "Nuke",
+          "X"
+        ],
+        [
+          "",
+          "Ancient",
+          ""
+        ]
+      ],
+      "tableSha256": "db58a88acc13b3a1504e5cb940b0560333300c2e1c51f18a6476c194a69341d3"
+    },
+    {
+      "hltvId": 2394882,
+      "round": 3,
+      "utcPublishedAt": "2026-06-07T13:11:32Z",
+      "utcFirstCapture": "2026-06-07T13:11:57Z",
+      "utcSecondCapture": "2026-06-09T01:12:01Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tzbryf/astralis_vs_tyloo_iem_cologne_major_2026_stage_2/",
+      "hltvUrl": "https://www.hltv.org/matches/2394882/astralis-vs-tyloo-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "Astralis",
+          "MAP",
+          "TYLOO"
+        ],
+        [
+          "",
+          "Dust2",
+          "X"
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "X",
+          "Anubis",
+          ""
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "X",
+          "Mirage",
+          ""
+        ],
+        [
+          "",
+          "Overpass",
+          "X"
+        ],
+        [
+          "",
+          "Nuke",
+          ""
+        ]
+      ],
+      "tableSha256": "2240868d7b584600eb8da8f2cfea84f4e810452e13dbebc7c965e52467d148ff"
+    },
+    {
+      "hltvId": 2394883,
+      "round": 3,
+      "utcPublishedAt": "2026-06-07T15:07:32Z",
+      "utcFirstCapture": "2026-06-07T15:07:56Z",
+      "utcSecondCapture": "2026-06-09T03:07:44Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tzem5o/bb_vs_m80_iem_cologne_major_2026_stage_2_swiss/",
+      "hltvUrl": "https://www.hltv.org/matches/2394883/betboom-vs-m80-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "BB",
+          "MAP",
+          "M80"
+        ],
+        [
+          "",
+          "Nuke",
+          "X"
+        ],
+        [
+          "",
+          "Anubis",
+          "X"
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "X",
+          "Overpass",
+          ""
+        ],
+        [
+          "X",
+          "Mirage",
+          ""
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "",
+          "Dust2",
+          ""
+        ]
+      ],
+      "tableSha256": "d3b46062a0c2c52cfa8756e9bf20cf36c52517a93088698fde108092f23f54f9"
+    },
+    {
+      "hltvId": 2394884,
+      "round": 3,
+      "utcPublishedAt": "2026-06-07T14:29:48Z",
+      "utcFirstCapture": "2026-06-07T14:30:12Z",
+      "utcSecondCapture": "2026-06-09T02:30:33Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tzdnvr/mibr_vs_big_iem_cologne_major_2026_stage_2_swiss/",
+      "hltvUrl": "https://www.hltv.org/matches/2394884/mibr-vs-big-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "MIBR",
+          "MAP",
+          "BIG"
+        ],
+        [
+          "",
+          "Anubis",
+          "X"
+        ],
+        [
+          "",
+          "Nuke",
+          "X"
+        ],
+        [
+          "X",
+          "Dust2",
+          ""
+        ],
+        [
+          "X",
+          "Overpass",
+          ""
+        ],
+        [
+          "X",
+          "Mirage",
+          ""
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "",
+          "Inferno",
+          ""
+        ]
+      ],
+      "tableSha256": "41c487610c5f0a8b3ae0332c2b3f2fbcc1d506b9b601bec8872762f66064667b"
+    },
+    {
+      "hltvId": 2394885,
+      "round": 3,
+      "utcPublishedAt": "2026-06-07T18:39:43Z",
+      "utcFirstCapture": "2026-06-07T18:40:02Z",
+      "utcSecondCapture": "2026-06-09T06:40:01Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tzk8ic/b8_vs_gamerlegion_iem_cologne_major_2026_stage_2/",
+      "hltvUrl": "https://www.hltv.org/matches/2394885/b8-vs-gamerlegion-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "B8",
+          "MAP",
+          "GamerLegion"
+        ],
+        [
+          "",
+          "Dust2",
+          "X"
+        ],
+        [
+          "X",
+          "Anubis",
+          ""
+        ],
+        [
+          "",
+          "Inferno",
+          "✔"
+        ],
+        [
+          "✔",
+          "Mirage",
+          ""
+        ],
+        [
+          "X",
+          "Overpass",
+          ""
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "",
+          "Nuke",
+          ""
+        ]
+      ],
+      "tableSha256": "c04522d246bacdf7fddf8a4b3076f7e21c1a2b31e551108cb9db305cbbc79067"
+    },
+    {
+      "hltvId": 2394886,
+      "round": 3,
+      "utcPublishedAt": "2026-06-07T16:51:57Z",
+      "utcFirstCapture": "2026-06-07T16:52:29Z",
+      "utcSecondCapture": "2026-06-09T04:52:18Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tzhbmi/flyquest_vs_pain_iem_cologne_major_2026_stage_2/",
+      "hltvUrl": "https://www.hltv.org/matches/2394886/flyquest-vs-pain-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "FlyQuest",
+          "MAP",
+          "paiN"
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "X",
+          "Overpass",
+          ""
+        ],
+        [
+          "",
+          "Nuke",
+          "✔"
+        ],
+        [
+          "✔",
+          "Anubis",
+          ""
+        ],
+        [
+          "X",
+          "Mirage",
+          ""
+        ],
+        [
+          "",
+          "Inferno",
+          "X"
+        ],
+        [
+          "",
+          "Dust2",
+          ""
+        ]
+      ],
+      "tableSha256": "d0ff166e89148320fa4df6445ec35c0d93f4f9b924b964456f3ea8706ca01642"
+    },
+    {
+      "hltvId": 2394887,
+      "round": 3,
+      "utcPublishedAt": "2026-06-07T21:56:41Z",
+      "utcFirstCapture": "2026-06-07T21:57:09Z",
+      "utcSecondCapture": "2026-06-09T10:00:30Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tzpb0h/g2_vs_fut_iem_cologne_major_2026_stage_2_swiss/",
+      "hltvUrl": "https://www.hltv.org/matches/2394887/g2-vs-fut-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "G2",
+          "MAP",
+          "FUT"
+        ],
+        [
+          "",
+          "Inferno",
+          "X"
+        ],
+        [
+          "X",
+          "Nuke",
+          ""
+        ],
+        [
+          "",
+          "Anubis",
+          "✔"
+        ],
+        [
+          "✔",
+          "Overpass",
+          ""
+        ],
+        [
+          "X",
+          "Mirage",
+          ""
+        ],
+        [
+          "",
+          "Dust2",
+          "X"
+        ],
+        [
+          "",
+          "Ancient",
+          ""
+        ]
+      ],
+      "tableSha256": "42cd12a84d4a4b5d9ac5a82d3b56aab22a998dd6401a4133e5ae1943dedf7030"
+    },
+    {
+      "hltvId": 2394888,
+      "round": 3,
+      "utcPublishedAt": "2026-06-07T18:28:10Z",
+      "utcFirstCapture": "2026-06-07T18:28:31Z",
+      "utcSecondCapture": "2026-06-09T06:28:32Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1tzjx68/spirit_vs_9z_iem_cologne_major_2026_stage_2_swiss/",
+      "hltvUrl": "https://www.hltv.org/matches/2394888/spirit-vs-9z-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "Spirit",
+          "MAP",
+          "9z"
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "",
+          "Anubis",
+          "X"
+        ],
+        [
+          "✔",
+          "Mirage",
+          ""
+        ],
+        [
+          "",
+          "Nuke",
+          "✔"
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "X",
+          "Overpass",
+          ""
+        ],
+        [
+          "",
+          "Dust2",
+          ""
+        ]
+      ],
+      "tableSha256": "8a70f7a74cca9f8758cd95157e1f5607cbed54524bc3fb8ca21252f34d2deb6c"
+    },
+    {
+      "hltvId": 2394889,
+      "round": 4,
+      "utcPublishedAt": "2026-06-08T13:51:35Z",
+      "utcFirstCapture": "2026-06-08T13:52:03Z",
+      "utcSecondCapture": "2026-06-10T01:51:58Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1u08jbd/astralis_vs_pain_iem_cologne_major_2026_stage_2/",
+      "hltvUrl": "https://www.hltv.org/matches/2394889/astralis-vs-pain-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "Astralis",
+          "MAP",
+          "paiN"
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "X",
+          "Anubis",
+          ""
+        ],
+        [
+          "",
+          "Nuke",
+          "✔"
+        ],
+        [
+          "✔",
+          "Overpass",
+          ""
+        ],
+        [
+          "X",
+          "Dust2",
+          ""
+        ],
+        [
+          "",
+          "Inferno",
+          "X"
+        ],
+        [
+          "",
+          "Mirage",
+          ""
+        ]
+      ],
+      "tableSha256": "0cdf770206ce345456deb2d0dbefa9892253580c62cf8e2eebeebe5df10daee2"
+    },
+    {
+      "hltvId": 2394890,
+      "round": 4,
+      "utcPublishedAt": "2026-06-08T14:49:24Z",
+      "utcFirstCapture": "2026-06-08T14:49:50Z",
+      "utcSecondCapture": "2026-06-10T02:49:43Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1u0a3zc/mibr_vs_b8_iem_cologne_major_2026_stage_2_swiss/",
+      "hltvUrl": "https://www.hltv.org/matches/2394890/mibr-vs-b8-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "MIBR",
+          "MAP",
+          "B8"
+        ],
+        [
+          "",
+          "Anubis",
+          "X"
+        ],
+        [
+          "X",
+          "Dust2",
+          ""
+        ],
+        [
+          "",
+          "Mirage",
+          "✔"
+        ],
+        [
+          "✔",
+          "Nuke",
+          ""
+        ],
+        [
+          "X",
+          "Overpass",
+          ""
+        ],
+        [
+          "",
+          "Inferno",
+          "X"
+        ],
+        [
+          "",
+          "Ancient",
+          ""
+        ]
+      ],
+      "tableSha256": "376dce68c3c736ae4d1428c02c68c1ade9c7bb53abb2dbeea3578a25854918de"
+    },
+    {
+      "hltvId": 2394891,
+      "round": 4,
+      "utcPublishedAt": "2026-06-08T17:16:49Z",
+      "utcFirstCapture": "2026-06-08T17:17:25Z",
+      "utcSecondCapture": "2026-06-10T05:17:14Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1u0e9h0/monte_vs_bb_iem_cologne_major_2026_stage_2_swiss/",
+      "hltvUrl": "https://www.hltv.org/matches/2394891/monte-vs-betboom-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "Monte",
+          "MAP",
+          "BB"
+        ],
+        [
+          "",
+          "Inferno",
+          "X"
+        ],
+        [
+          "X",
+          "Overpass",
+          ""
+        ],
+        [
+          "",
+          "Nuke",
+          "✔"
+        ],
+        [
+          "✔",
+          "Mirage",
+          ""
+        ],
+        [
+          "X",
+          "Anubis",
+          ""
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "",
+          "Dust2",
+          ""
+        ]
+      ],
+      "tableSha256": "1ae748c4e71ad8f677ef70db4b10fbcd2940cb4b280a9d422f0e109963c1a01e"
+    },
+    {
+      "hltvId": 2394892,
+      "round": 4,
+      "utcPublishedAt": "2026-06-08T17:06:54Z",
+      "utcFirstCapture": "2026-06-08T17:07:17Z",
+      "utcSecondCapture": "2026-06-10T05:07:17Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1u0dyyh/tyloo_vs_9z_iem_cologne_major_2026_stage_2_swiss/",
+      "hltvUrl": "https://www.hltv.org/matches/2394892/tyloo-vs-9z-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "TYLOO",
+          "MAP",
+          "9z"
+        ],
+        [
+          "",
+          "Anubis",
+          "X"
+        ],
+        [
+          "X",
+          "Dust2",
+          ""
+        ],
+        [
+          "",
+          "Overpass",
+          "✔"
+        ],
+        [
+          "✔",
+          "Inferno",
+          ""
+        ],
+        [
+          "X",
+          "Ancient",
+          ""
+        ],
+        [
+          "",
+          "Mirage",
+          "X"
+        ],
+        [
+          "",
+          "Nuke",
+          ""
+        ]
+      ],
+      "tableSha256": "b461009960f08ce0ea2d5812b6bba236fac2781817e83e297000881b318c8262"
+    },
+    {
+      "hltvId": 2394893,
+      "round": 4,
+      "utcPublishedAt": "2026-06-08T19:11:38Z",
+      "utcFirstCapture": "2026-06-08T19:12:08Z",
+      "utcSecondCapture": "2026-06-10T07:11:58Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1u0hmm2/g2_vs_big_iem_cologne_major_2026_stage_2_swiss/",
+      "hltvUrl": "https://www.hltv.org/matches/2394893/g2-vs-big-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "G2",
+          "MAP",
+          "BIG"
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "X",
+          "Nuke",
+          ""
+        ],
+        [
+          "",
+          "Inferno",
+          "✔"
+        ],
+        [
+          "✔",
+          "Mirage",
+          ""
+        ],
+        [
+          "X",
+          "Anubis",
+          ""
+        ],
+        [
+          "",
+          "Dust2",
+          "X"
+        ],
+        [
+          "",
+          "Overpass",
+          ""
+        ]
+      ],
+      "tableSha256": "d87959ffd00d26fa649a19919a1c8c62a3d9a4762aa777ea3868cd48c394b1e0"
+    },
+    {
+      "hltvId": 2394894,
+      "round": 4,
+      "utcPublishedAt": "2026-06-08T19:49:29Z",
+      "utcFirstCapture": "2026-06-08T19:50:05Z",
+      "utcSecondCapture": "2026-06-10T07:49:51Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1u0ipf0/m80_vs_legacy_iem_cologne_major_2026_stage_2/",
+      "hltvUrl": "https://www.hltv.org/matches/2394894/m80-vs-legacy-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "M80",
+          "MAP",
+          "Legacy"
+        ],
+        [
+          "",
+          "Anubis",
+          "X"
+        ],
+        [
+          "X",
+          "Nuke",
+          ""
+        ],
+        [
+          "",
+          "Dust2",
+          "✔"
+        ],
+        [
+          "✔",
+          "Inferno",
+          ""
+        ],
+        [
+          "X",
+          "Ancient",
+          ""
+        ],
+        [
+          "",
+          "Overpass",
+          "X"
+        ],
+        [
+          "",
+          "Mirage",
+          ""
+        ]
+      ],
+      "tableSha256": "9a2f4118e8f4347b9b06b52c63cfe25d572a882a726688939fc6c44c8aef0cb3"
+    },
+    {
+      "hltvId": 2394895,
+      "round": 5,
+      "utcPublishedAt": "2026-06-09T14:05:59Z",
+      "utcFirstCapture": "2026-06-09T14:06:28Z",
+      "utcSecondCapture": "2026-06-11T02:06:27Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1u15z50/monte_vs_pain_iem_cologne_major_2026_stage_2/",
+      "hltvUrl": "https://www.hltv.org/matches/2394895/monte-vs-pain-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "Monte",
+          "MAP",
+          "paiN"
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "X",
+          "Overpass",
+          ""
+        ],
+        [
+          "",
+          "Nuke",
+          "✔"
+        ],
+        [
+          "✔",
+          "Dust2",
+          ""
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "",
+          "Anubis",
+          "X"
+        ],
+        [
+          "",
+          "Mirage",
+          ""
+        ]
+      ],
+      "tableSha256": "dc69e9cf08888ac5e16eb222bd8b5c03060b549933b511fe664b729761f96e41"
+    },
+    {
+      "hltvId": 2394896,
+      "round": 5,
+      "utcPublishedAt": "2026-06-09T16:21:40Z",
+      "utcFirstCapture": "2026-06-09T16:22:06Z",
+      "utcSecondCapture": "2026-06-11T04:22:00Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1u19u7a/legacy_vs_tyloo_iem_cologne_major_2026_stage_2/",
+      "hltvUrl": "https://www.hltv.org/matches/2394896/legacy-vs-tyloo-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "Legacy",
+          "MAP",
+          "TYLOO"
+        ],
+        [
+          "X",
+          "Anubis",
+          ""
+        ],
+        [
+          "",
+          "Dust2",
+          "X"
+        ],
+        [
+          "✔",
+          "Mirage",
+          ""
+        ],
+        [
+          "",
+          "Inferno",
+          "✔"
+        ],
+        [
+          "",
+          "Ancient",
+          "X"
+        ],
+        [
+          "X",
+          "Overpass",
+          ""
+        ],
+        [
+          "",
+          "Nuke",
+          ""
+        ]
+      ],
+      "tableSha256": "f67637644d60a0293de961291cc08041b86abb8c705703a1642dbb16afc552d7"
+    },
+    {
+      "hltvId": 2394897,
+      "round": 5,
+      "utcPublishedAt": "2026-06-09T19:46:19Z",
+      "utcFirstCapture": "2026-06-09T19:46:35Z",
+      "utcSecondCapture": "2026-06-11T07:46:42Z",
+      "archiveMarksEdited": false,
+      "url": "https://www.reddit.com/r/GlobalOffensive/comments/1u1fnsz/big_vs_b8_iem_cologne_major_2026_stage_2_swiss/",
+      "hltvUrl": "https://www.hltv.org/matches/2394897/big-vs-b8-iem-cologne-major-2026-stage-2",
+      "table": [
+        [
+          "BIG",
+          "MAP",
+          "B8"
+        ],
+        [
+          "",
+          "Anubis",
+          "X"
+        ],
+        [
+          "X",
+          "Mirage",
+          ""
+        ],
+        [
+          "",
+          "Ancient",
+          "✔"
+        ],
+        [
+          "✔",
+          "Overpass",
+          ""
+        ],
+        [
+          "X",
+          "Inferno",
+          ""
+        ],
+        [
+          "",
+          "Nuke",
+          "X"
+        ],
+        [
+          "",
+          "Dust2",
+          ""
+        ]
+      ],
+      "tableSha256": "0f71533782a7e643ea0ebb1bd32130acb72a6ff13f1c75dabd6a119ea2acbe97"
+    }
+  ]
+}

@@ -1,0 +1,2260 @@
+{
+  "labels": [
+    "earlyContact",
+    "trade",
+    "awp"
+  ],
+  "split": "2026-09-01",
+  "n": 217,
+  "training": {
+    "n": 139,
+    "wins": 56,
+    "expectedWins": 61.63,
+    "base": {
+      "brier": 0.23744,
+      "logLoss": 0.661041
+    },
+    "main": {
+      "brier": 0.23376,
+      "logLoss": 0.653569
+    },
+    "pair": {
+      "brier": 0.233513,
+      "logLoss": 0.652538
+    }
+  },
+  "test": {
+    "n": 78,
+    "wins": 38,
+    "expectedWins": 40.3,
+    "base": {
+      "brier": 0.256895,
+      "logLoss": 0.731653
+    },
+    "main": {
+      "brier": 0.250614,
+      "logLoss": 0.725132
+    },
+    "pair": {
+      "brier": 0.255039,
+      "logLoss": 0.732497
+    }
+  },
+  "first": "2026-05-03",
+  "last": "2026-10-30",
+  "pairs": [
+    {
+      "first": "earlyContact",
+      "second": "trade",
+      "overall": {
+        "n": 51,
+        "wins": 18,
+        "expectedWins": 21.25,
+        "base": {
+          "brier": 0.199626,
+          "logLoss": 0.576643
+        },
+        "main": {
+          "brier": 0.191355,
+          "logLoss": 0.565681
+        },
+        "pair": {
+          "brier": 0.191068,
+          "logLoss": 0.565903
+        }
+      },
+      "training": {
+        "n": 27,
+        "wins": 8,
+        "expectedWins": 11.48,
+        "base": {
+          "brier": 0.148707,
+          "logLoss": 0.446653
+        },
+        "main": {
+          "brier": 0.132495,
+          "logLoss": 0.411025
+        },
+        "pair": {
+          "brier": 0.131517,
+          "logLoss": 0.408822
+        }
+      },
+      "test": {
+        "n": 24,
+        "wins": 10,
+        "expectedWins": 9.76,
+        "base": {
+          "brier": 0.256909,
+          "logLoss": 0.72288
+        },
+        "main": {
+          "brier": 0.257573,
+          "logLoss": 0.739668
+        },
+        "pair": {
+          "brier": 0.258062,
+          "logLoss": 0.74262
+        }
+      },
+      "evenMatchShiftPP": -9.93
+    },
+    {
+      "first": "earlyContact",
+      "second": "awp",
+      "overall": {
+        "n": 71,
+        "wins": 26,
+        "expectedWins": 31.19,
+        "base": {
+          "brier": 0.215046,
+          "logLoss": 0.602051
+        },
+        "main": {
+          "brier": 0.207597,
+          "logLoss": 0.588105
+        },
+        "pair": {
+          "brier": 0.211034,
+          "logLoss": 0.593749
+        }
+      },
+      "training": {
+        "n": 48,
+        "wins": 17,
+        "expectedWins": 18.69,
+        "base": {
+          "brier": 0.224562,
+          "logLoss": 0.621358
+        },
+        "main": {
+          "brier": 0.222444,
+          "logLoss": 0.618765
+        },
+        "pair": {
+          "brier": 0.223049,
+          "logLoss": 0.618179
+        }
+      },
+      "test": {
+        "n": 23,
+        "wins": 9,
+        "expectedWins": 12.51,
+        "base": {
+          "brier": 0.195187,
+          "logLoss": 0.561757
+        },
+        "main": {
+          "brier": 0.176612,
+          "logLoss": 0.52412
+        },
+        "pair": {
+          "brier": 0.185961,
+          "logLoss": 0.542765
+        }
+      },
+      "evenMatchShiftPP": -3.42
+    },
+    {
+      "first": "trade",
+      "second": "awp",
+      "overall": {
+        "n": 95,
+        "wins": 50,
+        "expectedWins": 49.5,
+        "base": {
+          "brier": 0.29045,
+          "logLoss": 0.808414
+        },
+        "main": {
+          "brier": 0.289916,
+          "logLoss": 0.808434
+        },
+        "pair": {
+          "brier": 0.290773,
+          "logLoss": 0.808634
+        }
+      },
+      "training": {
+        "n": 64,
+        "wins": 31,
+        "expectedWins": 31.46,
+        "base": {
+          "brier": 0.284532,
+          "logLoss": 0.781248
+        },
+        "main": {
+          "brier": 0.284969,
+          "logLoss": 0.781995
+        },
+        "pair": {
+          "brier": 0.28439,
+          "logLoss": 0.781124
+        }
+      },
+      "test": {
+        "n": 31,
+        "wins": 19,
+        "expectedWins": 18.03,
+        "base": {
+          "brier": 0.302667,
+          "logLoss": 0.864498
+        },
+        "main": {
+          "brier": 0.30013,
+          "logLoss": 0.863016
+        },
+        "pair": {
+          "brier": 0.303949,
+          "logLoss": 0.865429
+        }
+      },
+      "evenMatchShiftPP": -0.69
+    }
+  ],
+  "testByFormat": {
+    "bo1": {
+      "n": 4,
+      "wins": 1,
+      "expectedWins": 1.44,
+      "base": {
+        "brier": 0.176347,
+        "logLoss": 0.513515
+      },
+      "main": {
+        "brier": 0.171733,
+        "logLoss": 0.497451
+      },
+      "pair": {
+        "brier": 0.19043,
+        "logLoss": 0.53976
+      }
+    },
+    "bo3": {
+      "n": 33,
+      "wins": 18,
+      "expectedWins": 18.47,
+      "base": {
+        "brier": 0.260516,
+        "logLoss": 0.741592
+      },
+      "main": {
+        "brier": 0.265213,
+        "logLoss": 0.758
+      },
+      "pair": {
+        "brier": 0.265115,
+        "logLoss": 0.753547
+      }
+    },
+    "unknown": {
+      "n": 41,
+      "wins": 19,
+      "expectedWins": 20.39,
+      "base": {
+        "brier": 0.261839,
+        "logLoss": 0.744936
+      },
+      "main": {
+        "brier": 0.246559,
+        "logLoss": 0.72089
+      },
+      "pair": {
+        "brier": 0.253232,
+        "logLoss": 0.734358
+      }
+    }
+  },
+  "series": [
+    {
+      "event": "cologne",
+      "id": "882",
+      "day": "2026-05-03",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.339001
+    },
+    {
+      "event": "cologne",
+      "id": "790",
+      "day": "2026-05-08",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.033141
+    },
+    {
+      "event": "cologne",
+      "id": "805",
+      "day": "2026-05-08",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.788887
+    },
+    {
+      "event": "cologne",
+      "id": "764",
+      "day": "2026-05-09",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.570053
+    },
+    {
+      "event": "cologne",
+      "id": "777",
+      "day": "2026-05-09",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.760796
+    },
+    {
+      "event": "cologne",
+      "id": "744",
+      "day": "2026-05-10",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.935987
+    },
+    {
+      "event": "cologne",
+      "id": "754",
+      "day": "2026-05-10",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.021897
+    },
+    {
+      "event": "cologne",
+      "id": "756",
+      "day": "2026-05-10",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.027411
+    },
+    {
+      "event": "cologne",
+      "id": "689",
+      "day": "2026-05-11",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.302655
+    },
+    {
+      "event": "cologne",
+      "id": "696",
+      "day": "2026-05-11",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.935987
+    },
+    {
+      "event": "cologne",
+      "id": "710",
+      "day": "2026-05-11",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.662288
+    },
+    {
+      "event": "cologne",
+      "id": "713",
+      "day": "2026-05-11",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.782098
+    },
+    {
+      "event": "cologne",
+      "id": "654",
+      "day": "2026-05-12",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.169555
+    },
+    {
+      "event": "cologne",
+      "id": "670",
+      "day": "2026-05-12",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.395087
+    },
+    {
+      "event": "cologne",
+      "id": "678",
+      "day": "2026-05-12",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.087633
+    },
+    {
+      "event": "cologne",
+      "id": "685",
+      "day": "2026-05-12",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.482737
+    },
+    {
+      "event": "cologne",
+      "id": "631",
+      "day": "2026-05-13",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.771114
+    },
+    {
+      "event": "cologne",
+      "id": "640",
+      "day": "2026-05-13",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.696129
+    },
+    {
+      "event": "cologne",
+      "id": "596",
+      "day": "2026-05-14",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.355966
+    },
+    {
+      "event": "cologne",
+      "id": "566",
+      "day": "2026-05-15",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.36927
+    },
+    {
+      "event": "cologne",
+      "id": "580",
+      "day": "2026-05-15",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.592466
+    },
+    {
+      "event": "cologne",
+      "id": "584",
+      "day": "2026-05-15",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.482737
+    },
+    {
+      "event": "cologne",
+      "id": "450",
+      "day": "2026-05-20",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.088095
+    },
+    {
+      "event": "cologne",
+      "id": "455",
+      "day": "2026-05-20",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.120683
+    },
+    {
+      "event": "cologne",
+      "id": "376",
+      "day": "2026-05-21",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.242361
+    },
+    {
+      "event": "cologne",
+      "id": "377",
+      "day": "2026-05-21",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.302655
+    },
+    {
+      "event": "cologne",
+      "id": "378",
+      "day": "2026-05-21",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.182062
+    },
+    {
+      "event": "cologne",
+      "id": "381",
+      "day": "2026-05-21",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.570053
+    },
+    {
+      "event": "cologne",
+      "id": "388",
+      "day": "2026-05-21",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.57428
+    },
+    {
+      "event": "cologne",
+      "id": "399",
+      "day": "2026-05-21",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.053824
+    },
+    {
+      "event": "cologne",
+      "id": "401",
+      "day": "2026-05-21",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.462653
+    },
+    {
+      "event": "cologne",
+      "id": "404",
+      "day": "2026-05-21",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.664858
+    },
+    {
+      "event": "cologne",
+      "id": "405",
+      "day": "2026-05-21",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.36793
+    },
+    {
+      "event": "cologne",
+      "id": "410",
+      "day": "2026-05-21",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.141635
+    },
+    {
+      "event": "cologne",
+      "id": "418",
+      "day": "2026-05-21",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.572872
+    },
+    {
+      "event": "cologne",
+      "id": "336",
+      "day": "2026-05-22",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.370611
+    },
+    {
+      "event": "cologne",
+      "id": "343",
+      "day": "2026-05-22",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.699769
+    },
+    {
+      "event": "cologne",
+      "id": "359",
+      "day": "2026-05-22",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.284747
+    },
+    {
+      "event": "cologne",
+      "id": "367",
+      "day": "2026-05-22",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.741434
+    },
+    {
+      "event": "cologne",
+      "id": "320",
+      "day": "2026-05-23",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.775153
+    },
+    {
+      "event": "cologne",
+      "id": "334",
+      "day": "2026-05-23",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.36927
+    },
+    {
+      "event": "cologne",
+      "id": "268",
+      "day": "2026-05-24",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.592466
+    },
+    {
+      "event": "cologne",
+      "id": "275",
+      "day": "2026-05-24",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.182062
+    },
+    {
+      "event": "cologne",
+      "id": "110",
+      "day": "2026-05-28",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.716424
+    },
+    {
+      "event": "cologne",
+      "id": "137",
+      "day": "2026-05-28",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.690006
+    },
+    {
+      "event": "cologne",
+      "id": "96",
+      "day": "2026-05-29",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.869197
+    },
+    {
+      "event": "singapore",
+      "id": "5021",
+      "day": "2026-06-02",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.177815
+    },
+    {
+      "event": "singapore",
+      "id": "4978",
+      "day": "2026-06-03",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.243419
+    },
+    {
+      "event": "singapore",
+      "id": "4961",
+      "day": "2026-06-04",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.370611
+    },
+    {
+      "event": "singapore",
+      "id": "4900",
+      "day": "2026-06-06",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.243419
+    },
+    {
+      "event": "singapore",
+      "id": "4904",
+      "day": "2026-06-06",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.013616
+    },
+    {
+      "event": "singapore",
+      "id": "4906",
+      "day": "2026-06-06",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.722235
+    },
+    {
+      "event": "singapore",
+      "id": "4907",
+      "day": "2026-06-06",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.68257
+    },
+    {
+      "event": "singapore",
+      "id": "4918",
+      "day": "2026-06-06",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.152461
+    },
+    {
+      "event": "singapore",
+      "id": "4924",
+      "day": "2026-06-06",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.047466
+    },
+    {
+      "event": "singapore",
+      "id": "4873",
+      "day": "2026-06-07",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.484175
+    },
+    {
+      "event": "singapore",
+      "id": "4887",
+      "day": "2026-06-07",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.664858
+    },
+    {
+      "event": "singapore",
+      "id": "4888",
+      "day": "2026-06-07",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.875604
+    },
+    {
+      "event": "singapore",
+      "id": "4854",
+      "day": "2026-06-08",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.06231
+    },
+    {
+      "event": "singapore",
+      "id": "4857",
+      "day": "2026-06-08",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.823025
+    },
+    {
+      "event": "singapore",
+      "id": "4862",
+      "day": "2026-06-08",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.432771
+    },
+    {
+      "event": "singapore",
+      "id": "4840",
+      "day": "2026-06-09",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.545922
+    },
+    {
+      "event": "singapore",
+      "id": "4802",
+      "day": "2026-06-11",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.173646
+    },
+    {
+      "event": "singapore",
+      "id": "4805",
+      "day": "2026-06-11",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.683816
+    },
+    {
+      "event": "singapore",
+      "id": "4785",
+      "day": "2026-06-12",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.484175
+    },
+    {
+      "event": "singapore",
+      "id": "4789",
+      "day": "2026-06-12",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.30509
+    },
+    {
+      "event": "singapore",
+      "id": "4725",
+      "day": "2026-06-13",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.734757
+    },
+    {
+      "event": "singapore",
+      "id": "4738",
+      "day": "2026-06-13",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.417298
+    },
+    {
+      "event": "singapore",
+      "id": "4744",
+      "day": "2026-06-13",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.862512
+    },
+    {
+      "event": "singapore",
+      "id": "4690",
+      "day": "2026-06-14",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.123771
+    },
+    {
+      "event": "singapore",
+      "id": "4696",
+      "day": "2026-06-14",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.160049
+    },
+    {
+      "event": "singapore",
+      "id": "4700",
+      "day": "2026-06-14",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.721078
+    },
+    {
+      "event": "singapore",
+      "id": "4706",
+      "day": "2026-06-14",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.42572
+    },
+    {
+      "event": "singapore",
+      "id": "4709",
+      "day": "2026-06-14",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.133443
+    },
+    {
+      "event": "singapore",
+      "id": "4653",
+      "day": "2026-06-17",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.678817
+    },
+    {
+      "event": "singapore",
+      "id": "4635",
+      "day": "2026-06-18",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.617225
+    },
+    {
+      "event": "singapore",
+      "id": "4609",
+      "day": "2026-06-20",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.464084
+    },
+    {
+      "event": "singapore",
+      "id": "4614",
+      "day": "2026-06-20",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.678817
+    },
+    {
+      "event": "singapore",
+      "id": "4591",
+      "day": "2026-06-21",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.202614
+    },
+    {
+      "event": "singapore",
+      "id": "4593",
+      "day": "2026-06-21",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.541638
+    },
+    {
+      "event": "singapore",
+      "id": "4418",
+      "day": "2026-07-01",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.432771
+    },
+    {
+      "event": "singapore",
+      "id": "4420",
+      "day": "2026-07-01",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.538778
+    },
+    {
+      "event": "singapore",
+      "id": "4427",
+      "day": "2026-07-01",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.307537
+    },
+    {
+      "event": "singapore",
+      "id": "4401",
+      "day": "2026-07-02",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.234005
+    },
+    {
+      "event": "singapore",
+      "id": "4411",
+      "day": "2026-07-02",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.395087
+    },
+    {
+      "event": "singapore",
+      "id": "4389",
+      "day": "2026-07-03",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.664858
+    },
+    {
+      "event": "singapore",
+      "id": "4390",
+      "day": "2026-07-03",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.236075
+    },
+    {
+      "event": "singapore",
+      "id": "4393",
+      "day": "2026-07-03",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.20448
+    },
+    {
+      "event": "singapore",
+      "id": "4375",
+      "day": "2026-07-04",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.303871
+    },
+    {
+      "event": "singapore",
+      "id": "4376",
+      "day": "2026-07-04",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.309994
+    },
+    {
+      "event": "singapore",
+      "id": "4360",
+      "day": "2026-07-05",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.362592
+    },
+    {
+      "event": "singapore",
+      "id": "4301",
+      "day": "2026-07-09",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.456934
+    },
+    {
+      "event": "singapore",
+      "id": "4319",
+      "day": "2026-07-09",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.36927
+    },
+    {
+      "event": "singapore",
+      "id": "4240",
+      "day": "2026-07-12",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.082265
+    },
+    {
+      "event": "singapore",
+      "id": "4208",
+      "day": "2026-07-14",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.504317
+    },
+    {
+      "event": "singapore",
+      "id": "4209",
+      "day": "2026-07-14",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.242361
+    },
+    {
+      "event": "singapore",
+      "id": "4176",
+      "day": "2026-07-16",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.703385
+    },
+    {
+      "event": "singapore",
+      "id": "4096",
+      "day": "2026-07-18",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.456934
+    },
+    {
+      "event": "singapore",
+      "id": "4030",
+      "day": "2026-07-21",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.461222
+    },
+    {
+      "event": "singapore",
+      "id": "4009",
+      "day": "2026-07-22",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.069386
+    },
+    {
+      "event": "singapore",
+      "id": "4014",
+      "day": "2026-07-22",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.498561
+    },
+    {
+      "event": "singapore",
+      "id": "3962",
+      "day": "2026-07-24",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.498561
+    },
+    {
+      "event": "singapore",
+      "id": "3893",
+      "day": "2026-07-26",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.090434
+    },
+    {
+      "event": "singapore",
+      "id": "3810",
+      "day": "2026-07-28",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.363923
+    },
+    {
+      "event": "singapore",
+      "id": "3624",
+      "day": "2026-08-03",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.527316
+    },
+    {
+      "event": "singapore",
+      "id": "3603",
+      "day": "2026-08-04",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.782098
+    },
+    {
+      "event": "singapore",
+      "id": "3523",
+      "day": "2026-08-07",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.934593
+    },
+    {
+      "event": "singapore",
+      "id": "3444",
+      "day": "2026-08-08",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.295415
+    },
+    {
+      "event": "singapore",
+      "id": "3411",
+      "day": "2026-08-09",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.578497
+    },
+    {
+      "event": "singapore",
+      "id": "3412",
+      "day": "2026-08-09",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.638738
+    },
+    {
+      "event": "singapore",
+      "id": "3367",
+      "day": "2026-08-12",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.090434
+    },
+    {
+      "event": "singapore",
+      "id": "3368",
+      "day": "2026-08-12",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.072807
+    },
+    {
+      "event": "singapore",
+      "id": "3382",
+      "day": "2026-08-12",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.132118
+    },
+    {
+      "event": "singapore",
+      "id": "3355",
+      "day": "2026-08-13",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.72911
+    },
+    {
+      "event": "singapore",
+      "id": "3356",
+      "day": "2026-08-13",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.130803
+    },
+    {
+      "event": "singapore",
+      "id": "3324",
+      "day": "2026-08-14",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.770097
+    },
+    {
+      "event": "singapore",
+      "id": "3285",
+      "day": "2026-08-15",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.392339
+    },
+    {
+      "event": "singapore",
+      "id": "3260",
+      "day": "2026-08-16",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.746913
+    },
+    {
+      "event": "singapore",
+      "id": "3170",
+      "day": "2026-08-19",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.614501
+    },
+    {
+      "event": "singapore",
+      "id": "3152",
+      "day": "2026-08-20",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.617225
+    },
+    {
+      "event": "singapore",
+      "id": "3133",
+      "day": "2026-08-21",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.265243
+    },
+    {
+      "event": "singapore",
+      "id": "3138",
+      "day": "2026-08-21",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.770097
+    },
+    {
+      "event": "singapore",
+      "id": "3106",
+      "day": "2026-08-22",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.650605
+    },
+    {
+      "event": "singapore",
+      "id": "3090",
+      "day": "2026-08-23",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.497122
+    },
+    {
+      "event": "singapore",
+      "id": "2959",
+      "day": "2026-08-26",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.4813
+    },
+    {
+      "event": "singapore",
+      "id": "2963",
+      "day": "2026-08-26",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.698559
+    },
+    {
+      "event": "singapore",
+      "id": "2992",
+      "day": "2026-08-26",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.497122
+    },
+    {
+      "event": "singapore",
+      "id": "2917",
+      "day": "2026-08-27",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.603536
+    },
+    {
+      "event": "singapore",
+      "id": "2918",
+      "day": "2026-08-27",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.047989
+    },
+    {
+      "event": "singapore",
+      "id": "2925",
+      "day": "2026-08-27",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.653217
+    },
+    {
+      "event": "singapore",
+      "id": "2936",
+      "day": "2026-08-27",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.537347
+    },
+    {
+      "event": "singapore",
+      "id": "2827",
+      "day": "2026-08-29",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.265243
+    },
+    {
+      "event": "singapore",
+      "id": "2833",
+      "day": "2026-08-29",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.208251
+    },
+    {
+      "event": "singapore",
+      "id": "2772",
+      "day": "2026-08-30",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.241305
+    },
+    {
+      "event": "singapore",
+      "id": "2789",
+      "day": "2026-08-30",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.130803
+    },
+    {
+      "event": "singapore",
+      "id": "2711",
+      "day": "2026-08-31",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.604913
+    },
+    {
+      "event": "singapore",
+      "id": "2716",
+      "day": "2026-08-31",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.390967
+    },
+    {
+      "event": "singapore",
+      "id": "2726",
+      "day": "2026-08-31",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.497122
+    },
+    {
+      "event": "singapore",
+      "id": "2727",
+      "day": "2026-08-31",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.603536
+    },
+    {
+      "event": "singapore",
+      "id": "2634",
+      "day": "2026-09-02",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.400603
+    },
+    {
+      "event": "singapore",
+      "id": "2654",
+      "day": "2026-09-02",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.614501
+    },
+    {
+      "event": "singapore",
+      "id": "2657",
+      "day": "2026-09-02",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.698559
+    },
+    {
+      "event": "singapore",
+      "id": "2596",
+      "day": "2026-09-03",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.5644
+    },
+    {
+      "event": "singapore",
+      "id": "2598",
+      "day": "2026-09-03",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.6863
+    },
+    {
+      "event": "singapore",
+      "id": "2627",
+      "day": "2026-09-03",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.688774
+    },
+    {
+      "event": "singapore",
+      "id": "2532",
+      "day": "2026-09-04",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.285921
+    },
+    {
+      "event": "singapore",
+      "id": "2549",
+      "day": "2026-09-04",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.894863
+    },
+    {
+      "event": "singapore",
+      "id": "2564",
+      "day": "2026-09-04",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.181207
+    },
+    {
+      "event": "singapore",
+      "id": "2571",
+      "day": "2026-09-04",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.690006
+    },
+    {
+      "event": "singapore",
+      "id": "2439",
+      "day": "2026-09-06",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.4813
+    },
+    {
+      "event": "singapore",
+      "id": "2458",
+      "day": "2026-09-06",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.285921
+    },
+    {
+      "event": "singapore",
+      "id": "2303",
+      "day": "2026-09-09",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.662288
+    },
+    {
+      "event": "singapore",
+      "id": "2342",
+      "day": "2026-09-09",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.843782
+    },
+    {
+      "event": "singapore",
+      "id": "2356",
+      "day": "2026-09-09",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.655821
+    },
+    {
+      "event": "singapore",
+      "id": "2357",
+      "day": "2026-09-09",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.801997
+    },
+    {
+      "event": "singapore",
+      "id": "2363",
+      "day": "2026-09-09",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.20448
+    },
+    {
+      "event": "singapore",
+      "id": "2364",
+      "day": "2026-09-09",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.899638
+    },
+    {
+      "event": "singapore",
+      "id": "2368",
+      "day": "2026-09-09",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.242361
+    },
+    {
+      "event": "singapore",
+      "id": "2250",
+      "day": "2026-09-10",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.741434
+    },
+    {
+      "event": "singapore",
+      "id": "2281",
+      "day": "2026-09-10",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.30509
+    },
+    {
+      "event": "singapore",
+      "id": "2296",
+      "day": "2026-09-10",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.458362
+    },
+    {
+      "event": "singapore",
+      "id": "2231",
+      "day": "2026-09-11",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.544495
+    },
+    {
+      "event": "singapore",
+      "id": "2235",
+      "day": "2026-09-11",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.4813
+    },
+    {
+      "event": "singapore",
+      "id": "2238",
+      "day": "2026-09-11",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.508634
+    },
+    {
+      "event": "singapore",
+      "id": "2101",
+      "day": "2026-09-13",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.558731
+    },
+    {
+      "event": "singapore",
+      "id": "2105",
+      "day": "2026-09-13",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.584101
+    },
+    {
+      "event": "singapore",
+      "id": "2122",
+      "day": "2026-09-13",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.558731
+    },
+    {
+      "event": "singapore",
+      "id": "2001",
+      "day": "2026-09-16",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.22686
+    },
+    {
+      "event": "singapore",
+      "id": "1956",
+      "day": "2026-09-17",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.879927
+    },
+    {
+      "event": "singapore",
+      "id": "1961",
+      "day": "2026-09-17",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.195275
+    },
+    {
+      "event": "singapore",
+      "id": "1964",
+      "day": "2026-09-17",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.558731
+    },
+    {
+      "event": "singapore",
+      "id": "1989",
+      "day": "2026-09-17",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.326224
+    },
+    {
+      "event": "singapore",
+      "id": "1998",
+      "day": "2026-09-17",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.084911
+    },
+    {
+      "event": "singapore",
+      "id": "1893",
+      "day": "2026-09-18",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.316184
+    },
+    {
+      "event": "singapore",
+      "id": "1862",
+      "day": "2026-09-19",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.879927
+    },
+    {
+      "event": "singapore",
+      "id": "1869",
+      "day": "2026-09-19",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.458362
+    },
+    {
+      "event": "singapore",
+      "id": "1873",
+      "day": "2026-09-19",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.299023
+    },
+    {
+      "event": "singapore",
+      "id": "1671",
+      "day": "2026-09-23",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.599397
+    },
+    {
+      "event": "singapore",
+      "id": "1476",
+      "day": "2026-09-26",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.22686
+    },
+    {
+      "event": "singapore",
+      "id": "1497",
+      "day": "2026-09-26",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.354648
+    },
+    {
+      "event": "singapore",
+      "id": "1414",
+      "day": "2026-09-27",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.316184
+    },
+    {
+      "event": "singapore",
+      "id": "1422",
+      "day": "2026-09-27",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.384136
+    },
+    {
+      "event": "singapore",
+      "id": "1239",
+      "day": "2026-10-01",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.30509
+    },
+    {
+      "event": "singapore",
+      "id": "1253",
+      "day": "2026-10-01",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.27317
+    },
+    {
+      "event": "singapore",
+      "id": "1202",
+      "day": "2026-10-02",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.471249
+    },
+    {
+      "event": "singapore",
+      "id": "1218",
+      "day": "2026-10-02",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.235039
+    },
+    {
+      "event": "singapore",
+      "id": "1097",
+      "day": "2026-10-03",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.399222
+    },
+    {
+      "event": "singapore",
+      "id": "1103",
+      "day": "2026-10-03",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.025485
+    },
+    {
+      "event": "singapore",
+      "id": "1112",
+      "day": "2026-10-03",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.370611
+    },
+    {
+      "event": "singapore",
+      "id": "1123",
+      "day": "2026-10-03",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.864547
+    },
+    {
+      "event": "singapore",
+      "id": "1071",
+      "day": "2026-10-04",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.913283
+    },
+    {
+      "event": "singapore",
+      "id": "1075",
+      "day": "2026-10-04",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.299023
+    },
+    {
+      "event": "singapore",
+      "id": "1053",
+      "day": "2026-10-05",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.937014
+    },
+    {
+      "event": "singapore",
+      "id": "1055",
+      "day": "2026-10-05",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.843782
+    },
+    {
+      "event": "singapore",
+      "id": "1033",
+      "day": "2026-10-06",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.073588
+    },
+    {
+      "event": "singapore",
+      "id": "1035",
+      "day": "2026-10-06",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.657119
+    },
+    {
+      "event": "singapore",
+      "id": "1039",
+      "day": "2026-10-06",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.924827
+    },
+    {
+      "event": "singapore",
+      "id": "1005",
+      "day": "2026-10-07",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.838397
+    },
+    {
+      "event": "singapore",
+      "id": "928",
+      "day": "2026-10-08",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.634743
+    },
+    {
+      "event": "singapore",
+      "id": "937",
+      "day": "2026-10-08",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.680071
+    },
+    {
+      "event": "singapore",
+      "id": "868",
+      "day": "2026-10-09",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.451226
+    },
+    {
+      "event": "singapore",
+      "id": "885",
+      "day": "2026-10-09",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.20076
+    },
+    {
+      "event": "singapore",
+      "id": "830",
+      "day": "2026-10-10",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.471249
+    },
+    {
+      "event": "singapore",
+      "id": "732",
+      "day": "2026-10-12",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.4356
+    },
+    {
+      "event": "singapore",
+      "id": "678",
+      "day": "2026-10-14",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.952273
+    },
+    {
+      "event": "singapore",
+      "id": "679",
+      "day": "2026-10-14",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.471249
+    },
+    {
+      "event": "singapore",
+      "id": "698",
+      "day": "2026-10-14",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.471249
+    },
+    {
+      "event": "singapore",
+      "id": "624",
+      "day": "2026-10-15",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.357287
+    },
+    {
+      "event": "singapore",
+      "id": "545",
+      "day": "2026-10-17",
+      "first": "earlyContact",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.657119
+    },
+    {
+      "event": "singapore",
+      "id": "395",
+      "day": "2026-10-20",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.508634
+    },
+    {
+      "event": "singapore",
+      "id": "219",
+      "day": "2026-10-25",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": false,
+      "firstExpected": 0.680071
+    },
+    {
+      "event": "singapore",
+      "id": "222",
+      "day": "2026-10-25",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.863193
+    },
+    {
+      "event": "singapore",
+      "id": "166",
+      "day": "2026-10-27",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": false,
+      "firstExpected": 0.413105
+    },
+    {
+      "event": "singapore",
+      "id": "140",
+      "day": "2026-10-28",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.432771
+    },
+    {
+      "event": "singapore",
+      "id": "141",
+      "day": "2026-10-28",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.407534
+    },
+    {
+      "event": "singapore",
+      "id": "122",
+      "day": "2026-10-29",
+      "first": "trade",
+      "second": "awp",
+      "firstWon": true,
+      "firstExpected": 0.699769
+    },
+    {
+      "event": "singapore",
+      "id": "79",
+      "day": "2026-10-30",
+      "first": "earlyContact",
+      "second": "trade",
+      "firstWon": true,
+      "firstExpected": 0.451226
+    }
+  ],
+  "lineupMergeCheck": {
+    "n": 220,
+    "training": {
+      "n": 142,
+      "wins": 58,
+      "expectedWins": 63.04,
+      "base": {
+        "brier": 0.235298,
+        "logLoss": 0.655827
+      },
+      "main": {
+        "brier": 0.232398,
+        "logLoss": 0.649656
+      },
+      "pair": {
+        "brier": 0.231767,
+        "logLoss": 0.648053
+      }
+    },
+    "test": {
+      "n": 78,
+      "wins": 38,
+      "expectedWins": 40.3,
+      "base": {
+        "brier": 0.256895,
+        "logLoss": 0.731653
+      },
+      "main": {
+        "brier": 0.250815,
+        "logLoss": 0.725614
+      },
+      "pair": {
+        "brier": 0.255625,
+        "logLoss": 0.733892
+      }
+    }
+  }
+}

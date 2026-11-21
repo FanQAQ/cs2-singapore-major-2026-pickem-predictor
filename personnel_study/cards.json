@@ -1,0 +1,1364 @@
+[
+  {
+    "id": "copenhagen",
+    "accuracy": {
+      "bo1": {
+        "n": 20,
+        "baseBrier": 0.246138,
+        "candidateBrier": 0.246273
+      },
+      "bo3": {
+        "n": 13,
+        "baseBrier": 0.217425,
+        "candidateBrier": 0.21789
+      }
+    },
+    "trials": [
+      {
+        "seed": 33719,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2654469480,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1013937945,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3668373706,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2027842171,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 387310636,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3041746397,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1401214862,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 4055650623,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2415119088,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 774587553,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3429023314,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1788491779,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 147960244,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2802396005,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1161864470,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3816300231,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2175768696,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 535237161,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3189672922,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1549141387,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 4203577148,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2563045613,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 922514078,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3576949839,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1936418304,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 295886769,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2950322530,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1309790995,
+        "base": 5,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3964226756,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      }
+    ]
+  },
+  {
+    "id": "shanghai",
+    "accuracy": {
+      "bo1": {
+        "n": 20,
+        "baseBrier": 0.227261,
+        "candidateBrier": 0.220289
+      },
+      "bo3": {
+        "n": 13,
+        "baseBrier": 0.219307,
+        "candidateBrier": 0.211928
+      }
+    },
+    "trials": [
+      {
+        "seed": 33719,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2654469480,
+        "base": 4,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1013937945,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3668373706,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2027842171,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 387310636,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3041746397,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1401214862,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 4055650623,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2415119088,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 774587553,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3429023314,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1788491779,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 147960244,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2802396005,
+        "base": 4,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1161864470,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3816300231,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2175768696,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 535237161,
+        "base": 6,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3189672922,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1549141387,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 4203577148,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2563045613,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 922514078,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3576949839,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1936418304,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 295886769,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2950322530,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1309790995,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3964226756,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      }
+    ]
+  },
+  {
+    "id": "austin",
+    "accuracy": {
+      "bo1": {
+        "n": 20,
+        "baseBrier": 0.225167,
+        "candidateBrier": 0.225167
+      },
+      "bo3": {
+        "n": 13,
+        "baseBrier": 0.182766,
+        "candidateBrier": 0.182766
+      }
+    },
+    "trials": [
+      {
+        "seed": 33719,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 2654469480,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 1013937945,
+        "base": 7,
+        "candidate": 7,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 3668373706,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 2027842171,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 387310636,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 3041746397,
+        "base": 7,
+        "candidate": 7,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 1401214862,
+        "base": 7,
+        "candidate": 7,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 4055650623,
+        "base": 7,
+        "candidate": 7,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 2415119088,
+        "base": 7,
+        "candidate": 7,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 774587553,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 3429023314,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 1788491779,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 147960244,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 2802396005,
+        "base": 7,
+        "candidate": 7,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 1161864470,
+        "base": 7,
+        "candidate": 7,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 3816300231,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 2175768696,
+        "base": 7,
+        "candidate": 7,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 535237161,
+        "base": 7,
+        "candidate": 7,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 3189672922,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 1549141387,
+        "base": 7,
+        "candidate": 7,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 4203577148,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 2563045613,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 922514078,
+        "base": 7,
+        "candidate": 7,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 3576949839,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 1936418304,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 295886769,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 2950322530,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 1309790995,
+        "base": 7,
+        "candidate": 7,
+        "baseZero": 2,
+        "candidateZero": 2
+      },
+      {
+        "seed": 3964226756,
+        "base": 8,
+        "candidate": 8,
+        "baseZero": 2,
+        "candidateZero": 2
+      }
+    ]
+  },
+  {
+    "id": "budapest",
+    "accuracy": {
+      "bo1": {
+        "n": 20,
+        "baseBrier": 0.283487,
+        "candidateBrier": 0.280907
+      },
+      "bo3": {
+        "n": 13,
+        "baseBrier": 0.172092,
+        "candidateBrier": 0.176718
+      }
+    },
+    "trials": [
+      {
+        "seed": 33719,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2654469480,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1013937945,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3668373706,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2027842171,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 387310636,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3041746397,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1401214862,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 4055650623,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2415119088,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 774587553,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3429023314,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1788491779,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 147960244,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2802396005,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1161864470,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3816300231,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2175768696,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 535237161,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3189672922,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1549141387,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 4203577148,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2563045613,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 922514078,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3576949839,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1936418304,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 295886769,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2950322530,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1309790995,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3964226756,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      }
+    ]
+  },
+  {
+    "id": "cologne",
+    "accuracy": {
+      "bo1": {
+        "n": 20,
+        "baseBrier": 0.21345,
+        "candidateBrier": 0.21345
+      },
+      "bo3": {
+        "n": 13,
+        "baseBrier": 0.253093,
+        "candidateBrier": 0.253093
+      }
+    },
+    "trials": [
+      {
+        "seed": 33719,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 2654469480,
+        "base": 3,
+        "candidate": 3,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 1013937945,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 3668373706,
+        "base": 3,
+        "candidate": 3,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 2027842171,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 387310636,
+        "base": 3,
+        "candidate": 3,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 3041746397,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 1401214862,
+        "base": 3,
+        "candidate": 3,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 4055650623,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 2415119088,
+        "base": 3,
+        "candidate": 3,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 774587553,
+        "base": 3,
+        "candidate": 3,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 3429023314,
+        "base": 3,
+        "candidate": 3,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 1788491779,
+        "base": 3,
+        "candidate": 3,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 147960244,
+        "base": 3,
+        "candidate": 3,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 2802396005,
+        "base": 3,
+        "candidate": 3,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 1161864470,
+        "base": 3,
+        "candidate": 3,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 3816300231,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 2175768696,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 535237161,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 3189672922,
+        "base": 3,
+        "candidate": 3,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 1549141387,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 4203577148,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 2563045613,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 922514078,
+        "base": 3,
+        "candidate": 3,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 3576949839,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 1936418304,
+        "base": 3,
+        "candidate": 3,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 295886769,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 2950322530,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 1309790995,
+        "base": 3,
+        "candidate": 3,
+        "baseZero": 0,
+        "candidateZero": 0
+      },
+      {
+        "seed": 3964226756,
+        "base": 4,
+        "candidate": 4,
+        "baseZero": 0,
+        "candidateZero": 0
+      }
+    ]
+  },
+  {
+    "id": "shanghai-2024-elimination",
+    "accuracy": {
+      "bo1": {
+        "n": 20,
+        "baseBrier": 0.213449,
+        "candidateBrier": 0.21662
+      },
+      "bo3": {
+        "n": 13,
+        "baseBrier": 0.169516,
+        "candidateBrier": 0.170726
+      }
+    },
+    "trials": [
+      {
+        "seed": 33719,
+        "base": 6,
+        "candidate": 3,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2654469480,
+        "base": 6,
+        "candidate": 3,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1013937945,
+        "base": 6,
+        "candidate": 3,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3668373706,
+        "base": 6,
+        "candidate": 3,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2027842171,
+        "base": 6,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 387310636,
+        "base": 6,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3041746397,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1401214862,
+        "base": 6,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 4055650623,
+        "base": 6,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2415119088,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 774587553,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3429023314,
+        "base": 6,
+        "candidate": 3,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1788491779,
+        "base": 6,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 147960244,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2802396005,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1161864470,
+        "base": 6,
+        "candidate": 3,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3816300231,
+        "base": 6,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2175768696,
+        "base": 6,
+        "candidate": 3,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 535237161,
+        "base": 6,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3189672922,
+        "base": 6,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1549141387,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 4203577148,
+        "base": 6,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2563045613,
+        "base": 6,
+        "candidate": 6,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 922514078,
+        "base": 6,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3576949839,
+        "base": 6,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1936418304,
+        "base": 6,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 295886769,
+        "base": 6,
+        "candidate": 4,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 2950322530,
+        "base": 6,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 1309790995,
+        "base": 6,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      },
+      {
+        "seed": 3964226756,
+        "base": 5,
+        "candidate": 5,
+        "baseZero": 1,
+        "candidateZero": 1
+      }
+    ]
+  }
+]

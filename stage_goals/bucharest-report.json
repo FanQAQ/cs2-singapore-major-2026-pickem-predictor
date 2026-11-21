@@ -1,0 +1,216 @@
+{
+  "start": "2026-10-24",
+  "seed": 33719,
+  "budget": 24000,
+  "trainingStages": [
+    "copenhagen-2024-2",
+    "shanghai-2024-2",
+    "austin-2025-2",
+    "austin-2025-3",
+    "budapest-2025-2",
+    "budapest-2025-3",
+    "cologne-2026-2",
+    "cologne-2026-3"
+  ],
+  "replayed": 33,
+  "summary": {
+    "base": {
+      "hits": 4,
+      "passes": 0,
+      "meanHits": 4,
+      "picks": [
+        [
+          "Spirit",
+          "Legacy"
+        ],
+        [
+          "Vitality",
+          "MOUZ",
+          "G2",
+          "FURIA",
+          "FUT",
+          "Aurora"
+        ],
+        [
+          "TYLOO",
+          "The MongolZ"
+        ]
+      ]
+    },
+    "grouped": {
+      "hits": 4,
+      "passes": 0,
+      "meanHits": 4,
+      "picks": [
+        [
+          "Spirit",
+          "BetBoom"
+        ],
+        [
+          "Legacy",
+          "Vitality",
+          "MOUZ",
+          "G2",
+          "FURIA",
+          "FUT"
+        ],
+        [
+          "TYLOO",
+          "The MongolZ"
+        ]
+      ]
+    }
+  },
+  "rows": [
+    {
+      "seed": 33719,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 2654469480,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 1013937945,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 3668373706,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 2027842171,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 387310636,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 3041746397,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 1401214862,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 4055650623,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 2415119088,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 774587553,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 3429023314,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 1788491779,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 147960244,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 2802396005,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 1161864470,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 3816300231,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 2175768696,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 535237161,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 3189672922,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 1549141387,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 4203577148,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 2563045613,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 922514078,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 3576949839,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 1936418304,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 295886769,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 2950322530,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 1309790995,
+      "base": 4,
+      "grouped": 4
+    },
+    {
+      "seed": 3964226756,
+      "base": 4,
+      "grouped": 4
+    }
+  ]
+}

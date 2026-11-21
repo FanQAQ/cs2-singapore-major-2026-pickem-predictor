@@ -1,0 +1,858 @@
+{
+  "austin": {
+    "asOf": "2025-06-02",
+    "shareBO3": 0.9234694,
+    "scale": {
+      "bo1": 0.5334846,
+      "bo3": 1.0386615
+    },
+    "nBO1": 30,
+    "nBO3": 362,
+    "validationGlobalOnly": {
+      "n": 70,
+      "bo1": 0,
+      "sharedBrier": 0.212232,
+      "splitBrier": 0.2112
+    },
+    "teams": {
+      "Complexity": {
+        "bo1": {
+          "n": 3,
+          "w": 3
+        },
+        "bo3": {
+          "n": 9,
+          "w": 6
+        },
+        "tilt": -0.129632,
+        "tiltSE": 0.5653284
+      },
+      "HEROIC": {
+        "bo1": {
+          "n": 2,
+          "w": 2
+        },
+        "bo3": {
+          "n": 13,
+          "w": 10
+        },
+        "tilt": -0.1220081,
+        "tiltSE": 0.5713776
+      },
+      "B8": {
+        "bo1": {
+          "n": 2,
+          "w": 0
+        },
+        "bo3": {
+          "n": 12,
+          "w": 9
+        },
+        "tilt": 0.3748281,
+        "tiltSE": 0.5593631
+      },
+      "BetBoom": {
+        "bo1": {
+          "n": 5,
+          "w": 5
+        },
+        "bo3": {
+          "n": 15,
+          "w": 8
+        },
+        "tilt": -0.5293918,
+        "tiltSE": 0.5278742
+      },
+      "TYLOO": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 12,
+          "w": 6
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "Lynn Vision": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 9,
+          "w": 5
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "Wildcard": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 9,
+          "w": 4
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "FlyQuest": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 12,
+          "w": 6
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "OG": {
+        "bo1": {
+          "n": 2,
+          "w": 2
+        },
+        "bo3": {
+          "n": 17,
+          "w": 13
+        },
+        "tilt": -0.1616929,
+        "tiltSE": 0.5670635
+      },
+      "Chinggis Warriors": {
+        "bo1": {
+          "n": 1,
+          "w": 0
+        },
+        "bo3": {
+          "n": 8,
+          "w": 3
+        },
+        "tilt": 0.1403766,
+        "tiltSE": 0.5781742
+      },
+      "Imperial": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 8,
+          "w": 5
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "Nemiga": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 0,
+          "w": 0
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "NRG": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 8,
+          "w": 4
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "Legacy": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 13,
+          "w": 6
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "Metizport": {
+        "bo1": {
+          "n": 7,
+          "w": 4
+        },
+        "bo3": {
+          "n": 8,
+          "w": 4
+        },
+        "tilt": -0.051942,
+        "tiltSE": 0.5200828
+      },
+      "Fluxo": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 3,
+          "w": 2
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      }
+    },
+    "sources": [
+      "https://www.kaggle.com/datasets/pushbuild/open-data/versions/1",
+      "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+    ]
+  },
+  "budapest": {
+    "asOf": "2025-11-03",
+    "shareBO3": 0.9924051,
+    "scale": {
+      "bo1": 0.804952,
+      "bo3": 1.0014927
+    },
+    "nBO1": 3,
+    "nBO3": 392,
+    "validationGlobalOnly": {
+      "n": 82,
+      "bo1": 3,
+      "sharedBrier": 0.237365,
+      "splitBrier": 0.237439
+    },
+    "teams": {
+      "Legacy": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 24,
+          "w": 12
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "FaZe": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 17,
+          "w": 8
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "B8": {
+        "bo1": {
+          "n": 1,
+          "w": 0
+        },
+        "bo3": {
+          "n": 12,
+          "w": 6
+        },
+        "tilt": 0.1718185,
+        "tiltSE": 0.5766199
+      },
+      "GamerLegion": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 24,
+          "w": 9
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "fnatic": {
+        "bo1": {
+          "n": 1,
+          "w": 1
+        },
+        "bo3": {
+          "n": 29,
+          "w": 16
+        },
+        "tilt": -0.1607009,
+        "tiltSE": 0.5757598
+      },
+      "PARIVISION": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 17,
+          "w": 13
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "Ninjas in Pyjamas": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 12,
+          "w": 3
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "Imperial": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 6,
+          "w": 3
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "FlyQuest": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 9,
+          "w": 3
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "Lynn Vision": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 6,
+          "w": 1
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "M80": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 9,
+          "w": 3
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "Fluxo": {
+        "bo1": {
+          "n": 1,
+          "w": 0
+        },
+        "bo3": {
+          "n": 5,
+          "w": 1
+        },
+        "tilt": 0.0584957,
+        "tiltSE": 0.5852036
+      },
+      "RED Canids": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 0,
+          "w": 0
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "The Huns": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 2,
+          "w": 1
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "NRG": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 4,
+          "w": 0
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "Rare Atom": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 1,
+          "w": 0
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      }
+    },
+    "sources": [
+      "https://www.kaggle.com/datasets/pushbuild/open-data/versions/1",
+      "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+    ]
+  },
+  "cologne": {
+    "asOf": "2026-06-01",
+    "shareBO3": 0.942492,
+    "scale": {
+      "bo1": 0.5230556,
+      "bo3": 1.0291017
+    },
+    "nBO1": 18,
+    "nBO3": 295,
+    "validationGlobalOnly": {
+      "n": 77,
+      "bo1": 1,
+      "sharedBrier": 0.245622,
+      "splitBrier": 0.245711
+    },
+    "teams": {
+      "GamerLegion": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 15,
+          "w": 10
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "B8": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 8,
+          "w": 3
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "HEROIC": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 12,
+          "w": 3
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "BetBoom": {
+        "bo1": {
+          "n": 2,
+          "w": 0
+        },
+        "bo3": {
+          "n": 16,
+          "w": 11
+        },
+        "tilt": 0.4632098,
+        "tiltSE": 0.5600671
+      },
+      "BIG": {
+        "bo1": {
+          "n": 3,
+          "w": 1
+        },
+        "bo3": {
+          "n": 8,
+          "w": 7
+        },
+        "tilt": 0.3937354,
+        "tiltSE": 0.5552018
+      },
+      "M80": {
+        "bo1": {
+          "n": 3,
+          "w": 2
+        },
+        "bo3": {
+          "n": 10,
+          "w": 6
+        },
+        "tilt": 0.0062348,
+        "tiltSE": 0.5511725
+      },
+      "MIBR": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 6,
+          "w": 3
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "SINNERS": {
+        "bo1": {
+          "n": 3,
+          "w": 2
+        },
+        "bo3": {
+          "n": 7,
+          "w": 4
+        },
+        "tilt": 0.0116437,
+        "tiltSE": 0.5544263
+      },
+      "NRG": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 5,
+          "w": 0
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "TYLOO": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 9,
+          "w": 3
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "Sharks": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 0,
+          "w": 0
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "Gaimin Gladiators": {
+        "bo1": {
+          "n": 2,
+          "w": 2
+        },
+        "bo3": {
+          "n": 2,
+          "w": 0
+        },
+        "tilt": -0.3037629,
+        "tiltSE": 0.575405
+      },
+      "Liquid": {
+        "bo1": {
+          "n": 2,
+          "w": 1
+        },
+        "bo3": {
+          "n": 15,
+          "w": 4
+        },
+        "tilt": -0.0862424,
+        "tiltSE": 0.5599414
+      },
+      "Lynn Vision": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 5,
+          "w": 4
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "THUNDER dOWNUNDER": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 1,
+          "w": 0
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "FlyQuest": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 3,
+          "w": 1
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      }
+    },
+    "sources": [
+      "https://www.kaggle.com/datasets/pushbuild/open-data/versions/1",
+      "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+    ]
+  },
+  "singapore": {
+    "asOf": "2026-11-02",
+    "shareBO3": 0.9021164,
+    "scale": {
+      "bo1": 1.0416093,
+      "bo3": 0.9954852
+    },
+    "nBO1": 37,
+    "nBO3": 341,
+    "validationGlobalOnly": {
+      "n": 117,
+      "bo1": 1,
+      "sharedBrier": 0.270171,
+      "splitBrier": 0.271156
+    },
+    "teams": {
+      "Ninjas in Pyjamas": {
+        "bo1": {
+          "n": 6,
+          "w": 2
+        },
+        "bo3": {
+          "n": 19,
+          "w": 12
+        },
+        "tilt": 0.334258,
+        "tiltSE": 0.509299
+      },
+      "PARIVISION": {
+        "bo1": {
+          "n": 1,
+          "w": 0
+        },
+        "bo3": {
+          "n": 16,
+          "w": 8
+        },
+        "tilt": 0.2093448,
+        "tiltSE": 0.5766843
+      },
+      "HEROIC": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 18,
+          "w": 12
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "FaZe": {
+        "bo1": {
+          "n": 1,
+          "w": 1
+        },
+        "bo3": {
+          "n": 12,
+          "w": 5
+        },
+        "tilt": -0.2053036,
+        "tiltSE": 0.5769099
+      },
+      "Liquid": {
+        "bo1": {
+          "n": 3,
+          "w": 1
+        },
+        "bo3": {
+          "n": 10,
+          "w": 4
+        },
+        "tilt": 0.114918,
+        "tiltSE": 0.5481033
+      },
+      "Eternal Fire": {
+        "bo1": {
+          "n": 2,
+          "w": 1
+        },
+        "bo3": {
+          "n": 23,
+          "w": 13
+        },
+        "tilt": 0.0361482,
+        "tiltSE": 0.5567759
+      },
+      "100 Thieves": {
+        "bo1": {
+          "n": 3,
+          "w": 1
+        },
+        "bo3": {
+          "n": 13,
+          "w": 6
+        },
+        "tilt": 0.1002648,
+        "tiltSE": 0.5495318
+      },
+      "9z": {
+        "bo1": {
+          "n": 1,
+          "w": 1
+        },
+        "bo3": {
+          "n": 16,
+          "w": 3
+        },
+        "tilt": -0.1906369,
+        "tiltSE": 0.576585
+      },
+      "M80": {
+        "bo1": {
+          "n": 5,
+          "w": 3
+        },
+        "bo3": {
+          "n": 9,
+          "w": 3
+        },
+        "tilt": -0.1185612,
+        "tiltSE": 0.5319945
+      },
+      "DENDELE": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 9,
+          "w": 2
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "Imperial": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 3,
+          "w": 2
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "Wildcard": {
+        "bo1": {
+          "n": 1,
+          "w": 0
+        },
+        "bo3": {
+          "n": 3,
+          "w": 1
+        },
+        "tilt": 0.0565556,
+        "tiltSE": 0.5864223
+      },
+      "GOSH": {
+        "bo1": {
+          "n": 1,
+          "w": 1
+        },
+        "bo3": {
+          "n": 8,
+          "w": 2
+        },
+        "tilt": -0.1558883,
+        "tiltSE": 0.5782681
+      },
+      "FlyQuest": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 1,
+          "w": 1
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "Chinggis Warriors": {
+        "bo1": {
+          "n": 0,
+          "w": 0
+        },
+        "bo3": {
+          "n": 0,
+          "w": 0
+        },
+        "tilt": 0.0,
+        "tiltSE": 0.6
+      },
+      "Lynn Vision": {
+        "bo1": {
+          "n": 1,
+          "w": 0
+        },
+        "bo3": {
+          "n": 4,
+          "w": 2
+        },
+        "tilt": 0.094398,
+        "tiltSE": 0.5837327
+      }
+    },
+    "sources": [
+      "https://www.kaggle.com/datasets/pushbuild/open-data/versions/1",
+      "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+    ]
+  }
+}

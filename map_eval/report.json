@@ -1,0 +1,1065 @@
+{
+  "seed": 33719,
+  "simulationCount": 24000,
+  "searchPaths": 12000,
+  "evaluationPaths": 12000,
+  "baseSettings": {
+    "family": "v4",
+    "form": true,
+    "strong": true,
+    "weak": true,
+    "roundMargin": true,
+    "format": true,
+    "shrinkBO": true
+  },
+  "candidateSettings": {
+    "family": "v4",
+    "form": true,
+    "strong": true,
+    "weak": true,
+    "roundMargin": true,
+    "format": true,
+    "shrinkBO": true,
+    "mapVeto": true
+  },
+  "stages": [
+    {
+      "id": "copenhagen",
+      "label": "哥本哈根 2024",
+      "asOf": "2024-03-04",
+      "coverage": {
+        "possible": {
+          "bo1": {
+            "n": 120,
+            "used": 78,
+            "changed": 78,
+            "reasons": {
+              "both": 78,
+              "no-strength": 42
+            }
+          },
+          "bo3": {
+            "n": 120,
+            "used": 78,
+            "changed": 78,
+            "reasons": {
+              "both": 78,
+              "no-strength": 42
+            }
+          }
+        },
+        "actual": {
+          "bo1": {
+            "n": 20,
+            "used": 14,
+            "changed": 14,
+            "reasons": {
+              "both": 14,
+              "no-strength": 6
+            }
+          },
+          "bo3": {
+            "n": 13,
+            "used": 9,
+            "changed": 9,
+            "reasons": {
+              "no-strength": 4,
+              "both": 9
+            }
+          }
+        }
+      },
+      "base": {
+        "bo1": {
+          "n": 20,
+          "brier": 0.24613827,
+          "logLoss": 0.68412801,
+          "correct": 12
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.21742472,
+          "logLoss": 0.62572972,
+          "correct": 7
+        },
+        "moderateBo1": {
+          "n": 15,
+          "brier": 0.27412604,
+          "logLoss": 0.74280737,
+          "correct": 7
+        },
+        "coveredOnly": {
+          "bo1": {
+            "n": 14,
+            "brier": 0.25402,
+            "logLoss": 0.69992399,
+            "correct": 8
+          },
+          "bo3": {
+            "n": 9,
+            "brier": 0.19828421,
+            "logLoss": 0.58691034,
+            "correct": 6
+          }
+        },
+        "card": {
+          "hits": 5,
+          "passed": true,
+          "bucketHits": [
+            1,
+            3,
+            1
+          ],
+          "buckets": [
+            2,
+            6,
+            2
+          ],
+          "modelPassRate": 0.32491667,
+          "modelExpectedHits": 3.89858333,
+          "seedOrder": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            3,
+            1,
+            3,
+            1,
+            3,
+            3,
+            3,
+            2,
+            3,
+            2
+          ]
+        }
+      },
+      "candidate": {
+        "bo1": {
+          "n": 20,
+          "brier": 0.24267607,
+          "logLoss": 0.67651536,
+          "correct": 12
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.21744477,
+          "logLoss": 0.62507077,
+          "correct": 7
+        },
+        "moderateBo1": {
+          "n": 15,
+          "brier": 0.26932959,
+          "logLoss": 0.7325378,
+          "correct": 7
+        },
+        "coveredOnly": {
+          "bo1": {
+            "n": 14,
+            "brier": 0.24907401,
+            "logLoss": 0.68904878,
+            "correct": 8
+          },
+          "bo3": {
+            "n": 9,
+            "brier": 0.19831318,
+            "logLoss": 0.58595853,
+            "correct": 6
+          }
+        },
+        "card": {
+          "hits": 5,
+          "passed": true,
+          "bucketHits": [
+            1,
+            3,
+            1
+          ],
+          "buckets": [
+            2,
+            6,
+            2
+          ],
+          "modelPassRate": 0.32983333,
+          "modelExpectedHits": 3.919,
+          "seedOrder": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            3,
+            1,
+            3,
+            1,
+            3,
+            3,
+            3,
+            2,
+            3,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "id": "shanghai",
+      "label": "上海 2024",
+      "asOf": "2024-11-06",
+      "coverage": {
+        "possible": {
+          "bo1": {
+            "n": 120,
+            "used": 120,
+            "changed": 120,
+            "reasons": {
+              "both": 120
+            }
+          },
+          "bo3": {
+            "n": 120,
+            "used": 120,
+            "changed": 120,
+            "reasons": {
+              "both": 120
+            }
+          }
+        },
+        "actual": {
+          "bo1": {
+            "n": 20,
+            "used": 20,
+            "changed": 20,
+            "reasons": {
+              "both": 20
+            }
+          },
+          "bo3": {
+            "n": 13,
+            "used": 13,
+            "changed": 13,
+            "reasons": {
+              "both": 13
+            }
+          }
+        }
+      },
+      "base": {
+        "bo1": {
+          "n": 20,
+          "brier": 0.22726146,
+          "logLoss": 0.64206795,
+          "correct": 10
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.21930664,
+          "logLoss": 0.62985548,
+          "correct": 9
+        },
+        "moderateBo1": {
+          "n": 9,
+          "brier": 0.25286305,
+          "logLoss": 0.69974511,
+          "correct": 5
+        },
+        "coveredOnly": {
+          "bo1": {
+            "n": 20,
+            "brier": 0.22726146,
+            "logLoss": 0.64206795,
+            "correct": 10
+          },
+          "bo3": {
+            "n": 13,
+            "brier": 0.21930664,
+            "logLoss": 0.62985548,
+            "correct": 9
+          }
+        },
+        "card": {
+          "hits": 3,
+          "passed": false,
+          "bucketHits": [
+            1,
+            2,
+            0
+          ],
+          "buckets": [
+            2,
+            6,
+            2
+          ],
+          "modelPassRate": 0.35341667,
+          "modelExpectedHits": 3.95975,
+          "seedOrder": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            3,
+            0,
+            1,
+            3,
+            3,
+            3,
+            1,
+            2,
+            3,
+            2,
+            3
+          ]
+        }
+      },
+      "candidate": {
+        "bo1": {
+          "n": 20,
+          "brier": 0.22604256,
+          "logLoss": 0.64006903,
+          "correct": 10
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.21891735,
+          "logLoss": 0.62900528,
+          "correct": 9
+        },
+        "moderateBo1": {
+          "n": 9,
+          "brier": 0.25389969,
+          "logLoss": 0.70269116,
+          "correct": 5
+        },
+        "coveredOnly": {
+          "bo1": {
+            "n": 20,
+            "brier": 0.22604256,
+            "logLoss": 0.64006903,
+            "correct": 10
+          },
+          "bo3": {
+            "n": 13,
+            "brier": 0.21891735,
+            "logLoss": 0.62900528,
+            "correct": 9
+          }
+        },
+        "card": {
+          "hits": 3,
+          "passed": false,
+          "bucketHits": [
+            1,
+            2,
+            0
+          ],
+          "buckets": [
+            2,
+            6,
+            2
+          ],
+          "modelPassRate": 0.35466667,
+          "modelExpectedHits": 3.96983333,
+          "seedOrder": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            3,
+            0,
+            1,
+            3,
+            3,
+            2,
+            1,
+            3,
+            3,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "id": "austin",
+      "label": "奥斯汀 Major 2025",
+      "asOf": "2025-06-02",
+      "coverage": {
+        "possible": {
+          "bo1": {
+            "n": 120,
+            "used": 117,
+            "changed": 117,
+            "reasons": {
+              "both": 78,
+              "one": 39,
+              "no-veto": 3
+            }
+          },
+          "bo3": {
+            "n": 120,
+            "used": 120,
+            "changed": 120,
+            "reasons": {
+              "both": 120
+            }
+          }
+        },
+        "actual": {
+          "bo1": {
+            "n": 20,
+            "used": 20,
+            "changed": 20,
+            "reasons": {
+              "both": 14,
+              "one": 6
+            }
+          },
+          "bo3": {
+            "n": 13,
+            "used": 13,
+            "changed": 13,
+            "reasons": {
+              "both": 13
+            }
+          }
+        }
+      },
+      "base": {
+        "bo1": {
+          "n": 20,
+          "brier": 0.24262137,
+          "logLoss": 0.67574114,
+          "correct": 9
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.19086004,
+          "logLoss": 0.56747211,
+          "correct": 9
+        },
+        "moderateBo1": {
+          "n": 10,
+          "brier": 0.23157021,
+          "logLoss": 0.65476848,
+          "correct": 6
+        },
+        "coveredOnly": {
+          "bo1": {
+            "n": 20,
+            "brier": 0.24262137,
+            "logLoss": 0.67574114,
+            "correct": 9
+          },
+          "bo3": {
+            "n": 13,
+            "brier": 0.19086004,
+            "logLoss": 0.56747211,
+            "correct": 9
+          }
+        },
+        "card": {
+          "hits": 4,
+          "passed": false,
+          "bucketHits": [
+            1,
+            3,
+            0
+          ],
+          "buckets": [
+            2,
+            6,
+            2
+          ],
+          "modelPassRate": 0.31258333,
+          "modelExpectedHits": 3.80125,
+          "seedOrder": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            3,
+            2,
+            3,
+            3,
+            1,
+            3,
+            3,
+            3
+          ]
+        }
+      },
+      "candidate": {
+        "bo1": {
+          "n": 20,
+          "brier": 0.24179494,
+          "logLoss": 0.67414353,
+          "correct": 9
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.19158109,
+          "logLoss": 0.56928734,
+          "correct": 9
+        },
+        "moderateBo1": {
+          "n": 10,
+          "brier": 0.23148546,
+          "logLoss": 0.65443722,
+          "correct": 6
+        },
+        "coveredOnly": {
+          "bo1": {
+            "n": 20,
+            "brier": 0.24179494,
+            "logLoss": 0.67414353,
+            "correct": 9
+          },
+          "bo3": {
+            "n": 13,
+            "brier": 0.19158109,
+            "logLoss": 0.56928734,
+            "correct": 9
+          }
+        },
+        "card": {
+          "hits": 5,
+          "passed": true,
+          "bucketHits": [
+            1,
+            4,
+            0
+          ],
+          "buckets": [
+            2,
+            6,
+            2
+          ],
+          "modelPassRate": 0.315,
+          "modelExpectedHits": 3.82983333,
+          "seedOrder": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "id": "budapest",
+      "label": "布达佩斯 Major 2025",
+      "asOf": "2025-11-03",
+      "coverage": {
+        "possible": {
+          "bo1": {
+            "n": 120,
+            "used": 83,
+            "changed": 83,
+            "reasons": {
+              "both": 28,
+              "one": 55,
+              "no-strength": 9,
+              "no-veto": 28
+            }
+          },
+          "bo3": {
+            "n": 120,
+            "used": 104,
+            "changed": 104,
+            "reasons": {
+              "both": 104,
+              "no-strength": 16
+            }
+          }
+        },
+        "actual": {
+          "bo1": {
+            "n": 20,
+            "used": 13,
+            "changed": 13,
+            "reasons": {
+              "one": 9,
+              "no-veto": 4,
+              "both": 4,
+              "no-strength": 3
+            }
+          },
+          "bo3": {
+            "n": 13,
+            "used": 12,
+            "changed": 12,
+            "reasons": {
+              "both": 12,
+              "no-strength": 1
+            }
+          }
+        }
+      },
+      "base": {
+        "bo1": {
+          "n": 20,
+          "brier": 0.26920199,
+          "logLoss": 0.73193103,
+          "correct": 8
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.19953492,
+          "logLoss": 0.58868919,
+          "correct": 10
+        },
+        "moderateBo1": {
+          "n": 12,
+          "brier": 0.3046975,
+          "logLoss": 0.80819009,
+          "correct": 5
+        },
+        "coveredOnly": {
+          "bo1": {
+            "n": 13,
+            "brier": 0.28531106,
+            "logLoss": 0.76569196,
+            "correct": 5
+          },
+          "bo3": {
+            "n": 12,
+            "brier": 0.2070265,
+            "logLoss": 0.60423491,
+            "correct": 9
+          }
+        },
+        "card": {
+          "hits": 5,
+          "passed": true,
+          "bucketHits": [
+            0,
+            4,
+            1
+          ],
+          "buckets": [
+            2,
+            6,
+            2
+          ],
+          "modelPassRate": 0.29091667,
+          "modelExpectedHits": 3.76866667,
+          "seedOrder": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            3,
+            1,
+            1,
+            3,
+            3,
+            2,
+            3,
+            3,
+            3,
+            2
+          ]
+        }
+      },
+      "candidate": {
+        "bo1": {
+          "n": 20,
+          "brier": 0.27083599,
+          "logLoss": 0.7356302,
+          "correct": 8
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.19723107,
+          "logLoss": 0.58362393,
+          "correct": 10
+        },
+        "moderateBo1": {
+          "n": 12,
+          "brier": 0.30726496,
+          "logLoss": 0.81405423,
+          "correct": 5
+        },
+        "coveredOnly": {
+          "bo1": {
+            "n": 13,
+            "brier": 0.2878249,
+            "logLoss": 0.771383,
+            "correct": 5
+          },
+          "bo3": {
+            "n": 12,
+            "brier": 0.20453066,
+            "logLoss": 0.59874755,
+            "correct": 9
+          }
+        },
+        "card": {
+          "hits": 5,
+          "passed": true,
+          "bucketHits": [
+            0,
+            4,
+            1
+          ],
+          "buckets": [
+            2,
+            6,
+            2
+          ],
+          "modelPassRate": 0.30133333,
+          "modelExpectedHits": 3.80383333,
+          "seedOrder": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            3,
+            1,
+            1,
+            3,
+            3,
+            2,
+            3,
+            3,
+            3,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "id": "cologne",
+      "label": "科隆 Major 2026",
+      "asOf": "2026-06-01",
+      "coverage": {
+        "possible": {
+          "bo1": {
+            "n": 120,
+            "used": 71,
+            "changed": 71,
+            "reasons": {
+              "one": 36,
+              "no-veto": 10,
+              "no-strength": 39,
+              "both": 35
+            }
+          },
+          "bo3": {
+            "n": 120,
+            "used": 77,
+            "changed": 77,
+            "reasons": {
+              "both": 77,
+              "no-strength": 43
+            }
+          }
+        },
+        "actual": {
+          "bo1": {
+            "n": 20,
+            "used": 11,
+            "changed": 11,
+            "reasons": {
+              "both": 5,
+              "no-strength": 8,
+              "one": 6,
+              "no-veto": 1
+            }
+          },
+          "bo3": {
+            "n": 13,
+            "used": 10,
+            "changed": 10,
+            "reasons": {
+              "both": 10,
+              "no-strength": 3
+            }
+          }
+        }
+      },
+      "base": {
+        "bo1": {
+          "n": 20,
+          "brier": 0.21307651,
+          "logLoss": 0.6143028,
+          "correct": 15
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.24547947,
+          "logLoss": 0.68194231,
+          "correct": 6
+        },
+        "moderateBo1": {
+          "n": 13,
+          "brier": 0.23924745,
+          "logLoss": 0.67203632,
+          "correct": 8
+        },
+        "coveredOnly": {
+          "bo1": {
+            "n": 11,
+            "brier": 0.20472879,
+            "logLoss": 0.59716285,
+            "correct": 8
+          },
+          "bo3": {
+            "n": 10,
+            "brier": 0.22907917,
+            "logLoss": 0.64823568,
+            "correct": 5
+          }
+        },
+        "card": {
+          "hits": 3,
+          "passed": false,
+          "bucketHits": [
+            0,
+            3,
+            0
+          ],
+          "buckets": [
+            2,
+            6,
+            2
+          ],
+          "modelPassRate": 0.34691667,
+          "modelExpectedHits": 3.95358333,
+          "seedOrder": [
+            0,
+            1,
+            3,
+            1,
+            1,
+            1,
+            1,
+            0,
+            2,
+            3,
+            3,
+            3,
+            3,
+            1,
+            3,
+            2
+          ]
+        }
+      },
+      "candidate": {
+        "bo1": {
+          "n": 20,
+          "brier": 0.21321884,
+          "logLoss": 0.61449325,
+          "correct": 15
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.24469417,
+          "logLoss": 0.68032098,
+          "correct": 6
+        },
+        "moderateBo1": {
+          "n": 13,
+          "brier": 0.23916895,
+          "logLoss": 0.67180825,
+          "correct": 8
+        },
+        "coveredOnly": {
+          "bo1": {
+            "n": 11,
+            "brier": 0.20498757,
+            "logLoss": 0.59750912,
+            "correct": 8
+          },
+          "bo3": {
+            "n": 10,
+            "brier": 0.22805829,
+            "logLoss": 0.64612795,
+            "correct": 5
+          }
+        },
+        "card": {
+          "hits": 3,
+          "passed": false,
+          "bucketHits": [
+            0,
+            3,
+            0
+          ],
+          "buckets": [
+            2,
+            6,
+            2
+          ],
+          "modelPassRate": 0.34791667,
+          "modelExpectedHits": 3.95741667,
+          "seedOrder": [
+            0,
+            1,
+            3,
+            1,
+            1,
+            1,
+            1,
+            0,
+            2,
+            3,
+            3,
+            3,
+            3,
+            1,
+            3,
+            2
+          ]
+        }
+      }
+    }
+  ],
+  "total": {
+    "coverage": {
+      "bo1": {
+        "n": 100,
+        "used": 78,
+        "changed": 78,
+        "reasons": {
+          "both": 57,
+          "no-strength": 17,
+          "one": 21,
+          "no-veto": 5
+        }
+      },
+      "bo3": {
+        "n": 65,
+        "used": 57,
+        "changed": 57,
+        "reasons": {
+          "no-strength": 8,
+          "both": 57
+        }
+      }
+    },
+    "base": {
+      "bo1": {
+        "n": 100,
+        "brier": 0.23965992,
+        "logLoss": 0.66963419,
+        "correct": 54
+      },
+      "bo3": {
+        "n": 65,
+        "brier": 0.21452116,
+        "logLoss": 0.61873776,
+        "correct": 41
+      },
+      "moderateBo1": {
+        "n": 59,
+        "brier": 0.26220249,
+        "logLoss": 0.71902126,
+        "correct": 31
+      },
+      "coveredOnly": {
+        "bo1": {
+          "n": 78,
+          "brier": 0.24249996,
+          "logLoss": 0.67535775,
+          "correct": 40
+        },
+        "bo3": {
+          "n": 57,
+          "brier": 0.20862868,
+          "logLoss": 0.60667767,
+          "correct": 38
+        }
+      },
+      "card": {
+        "hits": 20,
+        "passes": 2,
+        "bucketHits": [
+          3,
+          15,
+          2
+        ],
+        "buckets": [
+          10,
+          30,
+          10
+        ]
+      }
+    },
+    "candidate": {
+      "bo1": {
+        "n": 100,
+        "brier": 0.23891368,
+        "logLoss": 0.66817028,
+        "correct": 54
+      },
+      "bo3": {
+        "n": 65,
+        "brier": 0.21397369,
+        "logLoss": 0.61746166,
+        "correct": 41
+      },
+      "moderateBo1": {
+        "n": 59,
+        "brier": 0.26163172,
+        "logLoss": 0.71794606,
+        "correct": 31
+      },
+      "coveredOnly": {
+        "bo1": {
+          "n": 78,
+          "brier": 0.24154325,
+          "logLoss": 0.67348094,
+          "correct": 40
+        },
+        "bo3": {
+          "n": 57,
+          "brier": 0.20800437,
+          "logLoss": 0.60522247,
+          "correct": 38
+        }
+      },
+      "card": {
+        "hits": 21,
+        "passes": 3,
+        "bucketHits": [
+          3,
+          16,
+          2
+        ],
+        "buckets": [
+          10,
+          30,
+          10
+        ]
+      }
+    }
+  }
+}

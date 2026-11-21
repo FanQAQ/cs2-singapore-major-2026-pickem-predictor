@@ -1,0 +1,359 @@
+{
+  "id": "copenhagen-2024-elimination",
+  "strengthAsOf": "2024-03-04",
+  "stageStart": "2024-03-21",
+  "matrixSha256": "2fa681fcc4c664d3d83ff461eb27d73432d92d1aa0ab3ee29eccdcb56b1f42da",
+  "seed": 33719,
+  "searchPaths": 12000,
+  "evaluationPaths": 12000,
+  "score": {
+    "hits": 5,
+    "passed": true,
+    "bucketHits": [
+      1,
+      4,
+      0
+    ]
+  },
+  "bo1": {
+    "n": 20,
+    "brier": 0.20241272,
+    "logLoss": 0.59321511
+  },
+  "bo3": {
+    "n": 13,
+    "brier": 0.22137808,
+    "logLoss": 0.62657863
+  },
+  "teams": [
+    {
+      "seed": 1,
+      "team": "FaZe",
+      "card": 0,
+      "record": "3–2"
+    },
+    {
+      "seed": 2,
+      "team": "Spirit",
+      "card": 0,
+      "record": "3–0"
+    },
+    {
+      "seed": 3,
+      "team": "Vitality",
+      "card": 1,
+      "record": "3–1"
+    },
+    {
+      "seed": 4,
+      "team": "MOUZ",
+      "card": 1,
+      "record": "3–0"
+    },
+    {
+      "seed": 5,
+      "team": "Complexity",
+      "card": 3,
+      "record": "2–3"
+    },
+    {
+      "seed": 6,
+      "team": "Virtus.pro",
+      "card": 1,
+      "record": "2–3"
+    },
+    {
+      "seed": 7,
+      "team": "Natus Vincere",
+      "card": 1,
+      "record": "3–2"
+    },
+    {
+      "seed": 8,
+      "team": "G2",
+      "card": 1,
+      "record": "3–2"
+    },
+    {
+      "seed": 9,
+      "team": "HEROIC",
+      "card": 3,
+      "record": "1–3"
+    },
+    {
+      "seed": 10,
+      "team": "Cloud9",
+      "card": 1,
+      "record": "3–1"
+    },
+    {
+      "seed": 11,
+      "team": "Eternal Fire",
+      "card": 3,
+      "record": "3–1"
+    },
+    {
+      "seed": 12,
+      "team": "ECSTATIC",
+      "card": 2,
+      "record": "1–3"
+    },
+    {
+      "seed": 13,
+      "team": "paiN",
+      "card": 3,
+      "record": "2–3"
+    },
+    {
+      "seed": 14,
+      "team": "Imperial",
+      "card": 2,
+      "record": "1–3"
+    },
+    {
+      "seed": 15,
+      "team": "The MongolZ",
+      "card": 3,
+      "record": "0–3"
+    },
+    {
+      "seed": 16,
+      "team": "FURIA",
+      "card": 3,
+      "record": "0–3"
+    }
+  ],
+  "games": [
+    {
+      "round": 1,
+      "bestOf": 1,
+      "winner": "G2",
+      "loser": "FURIA",
+      "winnerProbability": 0.6494818210408874
+    },
+    {
+      "round": 1,
+      "bestOf": 1,
+      "winner": "Imperial",
+      "loser": "Virtus.pro",
+      "winnerProbability": 0.2361471776517987
+    },
+    {
+      "round": 1,
+      "bestOf": 1,
+      "winner": "Natus Vincere",
+      "loser": "The MongolZ",
+      "winnerProbability": 0.6279390831444064
+    },
+    {
+      "round": 1,
+      "bestOf": 1,
+      "winner": "Complexity",
+      "loser": "paiN",
+      "winnerProbability": 0.6522983594881027
+    },
+    {
+      "round": 1,
+      "bestOf": 1,
+      "winner": "Eternal Fire",
+      "loser": "Vitality",
+      "winnerProbability": 0.341686576384131
+    },
+    {
+      "round": 1,
+      "bestOf": 1,
+      "winner": "MOUZ",
+      "loser": "ECSTATIC",
+      "winnerProbability": 0.7633248963680239
+    },
+    {
+      "round": 1,
+      "bestOf": 1,
+      "winner": "HEROIC",
+      "loser": "FaZe",
+      "winnerProbability": 0.2740803709392028
+    },
+    {
+      "round": 1,
+      "bestOf": 1,
+      "winner": "Spirit",
+      "loser": "Cloud9",
+      "winnerProbability": 0.6922342896854156
+    },
+    {
+      "round": 2,
+      "bestOf": 1,
+      "winner": "FaZe",
+      "loser": "FURIA",
+      "winnerProbability": 0.7387403945567755
+    },
+    {
+      "round": 2,
+      "bestOf": 1,
+      "winner": "Cloud9",
+      "loser": "ECSTATIC",
+      "winnerProbability": 0.670212787799513
+    },
+    {
+      "round": 2,
+      "bestOf": 1,
+      "winner": "Natus Vincere",
+      "loser": "G2",
+      "winnerProbability": 0.5057938784550167
+    },
+    {
+      "round": 2,
+      "bestOf": 1,
+      "winner": "Virtus.pro",
+      "loser": "paiN",
+      "winnerProbability": 0.7872428597142467
+    },
+    {
+      "round": 2,
+      "bestOf": 1,
+      "winner": "Complexity",
+      "loser": "HEROIC",
+      "winnerProbability": 0.507447022333052
+    },
+    {
+      "round": 2,
+      "bestOf": 1,
+      "winner": "Vitality",
+      "loser": "The MongolZ",
+      "winnerProbability": 0.675559576132701
+    },
+    {
+      "round": 2,
+      "bestOf": 1,
+      "winner": "MOUZ",
+      "loser": "Eternal Fire",
+      "winnerProbability": 0.6378037038150877
+    },
+    {
+      "round": 2,
+      "bestOf": 1,
+      "winner": "Spirit",
+      "loser": "Imperial",
+      "winnerProbability": 0.8070202941652507
+    },
+    {
+      "round": 3,
+      "bestOf": 3,
+      "winner": "Spirit",
+      "loser": "Natus Vincere",
+      "winnerProbability": 0.6181577949145359
+    },
+    {
+      "round": 3,
+      "bestOf": 3,
+      "winner": "ECSTATIC",
+      "loser": "FURIA",
+      "winnerProbability": 0.3992323892826557
+    },
+    {
+      "round": 3,
+      "bestOf": 3,
+      "winner": "MOUZ",
+      "loser": "Complexity",
+      "winnerProbability": 0.6640786572440672
+    },
+    {
+      "round": 3,
+      "bestOf": 3,
+      "winner": "paiN",
+      "loser": "The MongolZ",
+      "winnerProbability": 0.3411896812923194
+    },
+    {
+      "round": 3,
+      "bestOf": 1,
+      "winner": "Eternal Fire",
+      "loser": "FaZe",
+      "winnerProbability": 0.301075179250778
+    },
+    {
+      "round": 3,
+      "bestOf": 1,
+      "winner": "Vitality",
+      "loser": "Imperial",
+      "winnerProbability": 0.7796654635310416
+    },
+    {
+      "round": 3,
+      "bestOf": 1,
+      "winner": "Virtus.pro",
+      "loser": "HEROIC",
+      "winnerProbability": 0.6545829503547123
+    },
+    {
+      "round": 3,
+      "bestOf": 1,
+      "winner": "Cloud9",
+      "loser": "G2",
+      "winnerProbability": 0.42350294204537886
+    },
+    {
+      "round": 4,
+      "bestOf": 3,
+      "winner": "paiN",
+      "loser": "HEROIC",
+      "winnerProbability": 0.32180959471024895
+    },
+    {
+      "round": 4,
+      "bestOf": 3,
+      "winner": "Cloud9",
+      "loser": "Natus Vincere",
+      "winnerProbability": 0.4176553697000702
+    },
+    {
+      "round": 4,
+      "bestOf": 3,
+      "winner": "G2",
+      "loser": "ECSTATIC",
+      "winnerProbability": 0.7356374941097549
+    },
+    {
+      "round": 4,
+      "bestOf": 3,
+      "winner": "Vitality",
+      "loser": "Complexity",
+      "winnerProbability": 0.6837478079034162
+    },
+    {
+      "round": 4,
+      "bestOf": 3,
+      "winner": "FaZe",
+      "loser": "Imperial",
+      "winnerProbability": 0.8188735465378825
+    },
+    {
+      "round": 4,
+      "bestOf": 3,
+      "winner": "Eternal Fire",
+      "loser": "Virtus.pro",
+      "winnerProbability": 0.3633762808759563
+    },
+    {
+      "round": 5,
+      "bestOf": 3,
+      "winner": "Natus Vincere",
+      "loser": "paiN",
+      "winnerProbability": 0.7671202151567115
+    },
+    {
+      "round": 5,
+      "bestOf": 3,
+      "winner": "G2",
+      "loser": "Virtus.pro",
+      "winnerProbability": 0.46515047935345377
+    },
+    {
+      "round": 5,
+      "bestOf": 3,
+      "winner": "FaZe",
+      "loser": "Complexity",
+      "winnerProbability": 0.7225983354584284
+    }
+  ]
+}

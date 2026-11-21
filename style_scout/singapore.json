@@ -1,0 +1,387 @@
+{
+  "asOf": "2026-11-21",
+  "teams": {
+    "Ninjas in Pyjamas": {
+      "profile": "tempo",
+      "title": "先分散控图，再由队员读局",
+      "summary": "Krimbo 接任指挥后，提到想让队员用默认站位取得信息、在回合内提出方案。这是训练方向，尚缺少全队提速频率的测量。",
+      "date": "2026-09-25",
+      "url": "https://www.hltv.org/news/45577/krimbo-on-calling-i-had-no-doubts-in-my-mind-or-fear-about-it",
+      "roster": [
+        "adamb",
+        "Krimbo",
+        "sjuush",
+        "stavn",
+        "xKacpersky"
+      ],
+      "overlap": 5,
+      "confidence": "medium",
+      "kind": "interview",
+      "scope": "指挥描述新体系的调整方向",
+      "usableForHistory": true,
+      "requiredPlayers": [
+        "Krimbo"
+      ],
+      "rosterUrl": "https://www.hltv.org/matches/2398094/ninjas-in-pyjamas-vs-3dmax-1win-private-club-season-1"
+    },
+    "PARIVISION": {
+      "profile": "system",
+      "title": "用成套战术起手，由指挥收敛选择",
+      "summary": "HObbit 说，Jame 和教练 dastan 的体系有大量需要记忆、理解的战术细节。他给队伍的建议是精简场上选项，帮助队员及时做出选择。",
+      "date": "2026-10-07",
+      "url": "https://www.hltv.org/news/45670/hobbit-for-me-nowadays-its-like-a-dream",
+      "roster": [
+        "HObbit",
+        "FL1T",
+        "Jame",
+        "xiELO",
+        "zweih"
+      ],
+      "overlap": 5,
+      "confidence": "high",
+      "kind": "interview",
+      "scope": "队员描述全队战术和决策流程",
+      "usableForHistory": true,
+      "requiredPlayers": [
+        "Jame",
+        "HObbit"
+      ],
+      "rosterUrl": "https://www.hltv.org/matches/2398748/parivision-vs-natus-vincere-esl-pro-league-season-24"
+    },
+    "HEROIC": {
+      "profile": "system",
+      "title": "副指挥分担防守，闪光服务主动接战",
+      "summary": "MartinezSa 说，Brollan 会在部分地图指挥 CT。轮到 susp 或 MartinezSa 主动出击时，他们会向队友要求支援；nilo 负责单摸。可以据此看谁为突破提供道具，尚无闪光效率数据。",
+      "date": "2026-09-27",
+      "url": "https://www.hltv.org/news/45580/martinezsa-this-kind-of-tournament-is-really-important-its-not-tier-one-but-its-the-way-to-tier-one",
+      "roster": [
+        "Brollan",
+        "Chr1zN",
+        "MartinezSa",
+        "nilo",
+        "susp"
+      ],
+      "overlap": 5,
+      "confidence": "high",
+      "kind": "interview",
+      "scope": "队员说明多张图上的防守指挥与突破分工",
+      "usableForHistory": true,
+      "requiredPlayers": [
+        "Brollan",
+        "Chr1zN",
+        "MartinezSa",
+        "susp"
+      ],
+      "rosterUrl": "https://www.hltv.org/matches/2398074/100-thieves-vs-heroic-stake-pulse-beat-ii"
+    },
+    "FaZe": {
+      "profile": "tempo",
+      "title": "队员可以提议打哪边，Twistzz 随时接手",
+      "summary": "Neityu 描述训练中的指挥方式：Twistzz 允许每人参与构建回合，必要时接过指挥。采访时狙击手还是 broky，本届已换成 JBOEN。",
+      "date": "2026-04-29",
+      "url": "https://www.dust2.us/news/73302/neityu-im-pretty-satisfied-with-how-twistzz-calls-i-had-this-style-when-i-played-with-shox",
+      "roster": [
+        "broky",
+        "frozen",
+        "jcobbb",
+        "Neityu",
+        "Twistzz"
+      ],
+      "overlap": 4,
+      "confidence": "medium",
+      "kind": "interview",
+      "scope": "队员描述新指挥上任初期的训练",
+      "usableForHistory": true,
+      "requiredPlayers": [
+        "Twistzz",
+        "Neityu"
+      ],
+      "rosterUrl": "https://www.hltv.org/news/44481/navi-move-past-new-look-faze-to-make-playoffs"
+    },
+    "Liquid": {
+      "profile": "system",
+      "title": "JT 搭建框架，EliGE 有主动权",
+      "summary": "JT 说沿用自己熟悉的指挥体系，给 EliGE 主动接战和场上发言的空间；另两名步枪手负责单摸和守点，Jorko 担任狙击手。采访时新阵容只打过两场正式比赛。",
+      "date": "2026-07-29",
+      "url": "https://www.hltv.org/news/45197/jt-elige-needs-space-and-have-his-own-voice-to-feel-comfortable-and-im-always-giving-him-that",
+      "roster": [
+        "EliGE",
+        "Jorko",
+        "JT",
+        "malbsMd",
+        "NAF"
+      ],
+      "overlap": 5,
+      "confidence": "medium",
+      "kind": "interview",
+      "scope": "指挥说明新阵容各角色的配合方式",
+      "usableForHistory": true,
+      "requiredPlayers": [
+        "JT",
+        "EliGE"
+      ],
+      "rosterUrl": "https://www.hltv.org/news/45197/jt-elige-needs-space-and-have-his-own-voice-to-feel-comfortable-and-im-always-giving-him-that"
+    },
+    "Eternal Fire": {
+      "profile": "duel",
+      "title": "两人争空间，后排补枪收尾",
+      "summary": "HLTV 对 Major 资格期的复盘指出，soulfly 和 Kvem 在进攻方主动争取空间，给 jottAAA 和 regali 留出补枪和处理残局的机会，MisteM 负责指挥。",
+      "date": "2026-11-13",
+      "url": "https://www.hltv.org/news/45973/the-highs-and-lows-of-the-major-qualification-rollercoaster",
+      "roster": [
+        "jottAAA",
+        "Kvem",
+        "MisteM",
+        "regali",
+        "soulfly"
+      ],
+      "overlap": 5,
+      "confidence": "medium",
+      "kind": "analysis",
+      "scope": "记者综合资格期多项赛事的观察",
+      "usableForHistory": true,
+      "requiredPlayers": [
+        "Kvem",
+        "MisteM",
+        "soulfly"
+      ],
+      "rosterUrl": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/invitation/2026/standings_global_2026_11_02.md"
+    },
+    "100 Thieves": {
+      "profile": "system",
+      "title": "磨合默认控图，用配合惩罚前压",
+      "summary": "Gizmy 说 100 Thieves 的进攻沿用他在 Monte 的体系。训练重点之一是反复演练默认站位，让队员遇到意料之外的前压时能马上配合反击。",
+      "date": "2026-08-08",
+      "url": "https://www.hltv.org/news/45250/gizmy-ill-only-be-happy-with-qualifying-for-ewc",
+      "roster": [
+        "device",
+        "Gizmy",
+        "poiii",
+        "rain",
+        "sirah"
+      ],
+      "overlap": 5,
+      "confidence": "high",
+      "kind": "interview",
+      "scope": "指挥描述常规进攻体系与训练目的",
+      "usableForHistory": true,
+      "requiredPlayers": [
+        "Gizmy"
+      ],
+      "rosterUrl": "https://www.hltv.org/stats/matches/129130/100-thieves-vs-sadfamous"
+    },
+    "9z": {
+      "profile": "duel",
+      "title": "luchov 向前接战，需要队友跟进",
+      "summary": "luchov 说，他的主动打法受信心影响，和队友连接得好时才能发挥。这个观察对应其个人突破角色。采访时 meyern 在队，本届席位由 history 接替。",
+      "date": "2026-10-04",
+      "url": "https://www.hltv.org/news/45630/luchov-my-playstyle-really-depends-on-confidence-i-need-to-be-useful-also-without-it",
+      "roster": [
+        "dgt",
+        "HUASOPEEK",
+        "luchov",
+        "max",
+        "meyern"
+      ],
+      "overlap": 4,
+      "confidence": "medium",
+      "kind": "interview",
+      "scope": "个人角色",
+      "usableForHistory": false,
+      "requiredPlayers": [
+        "luchov"
+      ],
+      "rosterUrl": "https://www.hltv.org/matches/2398727/9z-vs-tyloo-esl-pro-league-season-24"
+    },
+    "M80": {
+      "profile": "system",
+      "title": "JBa 减少重复探身，Swisher 转做协防",
+      "summary": "Swisher 讲到 M80 如何帮助 JBa 融入团队配合，明白何时停止重复探身，也能主动提出回合内的方案。防守方的 Swisher 则从固定守点转向更多轮转支援。",
+      "date": "2026-06-04",
+      "url": "https://www.hltv.org/news/44792/swisher-i-feel-like-jba-was-told-what-to-do-and-not-why-on-wildcard-were-trying-to-get-him-to-be-more-independent",
+      "roster": [
+        "JBa",
+        "Lake",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ],
+      "overlap": 5,
+      "confidence": "medium",
+      "kind": "interview",
+      "scope": "两名队员的角色调整",
+      "usableForHistory": false,
+      "requiredPlayers": [
+        "JBa",
+        "Swisher"
+      ],
+      "rosterUrl": "https://www.hltv.org/matches/2394854/m80-vs-b8-iem-cologne-major-2026-stage-1"
+    },
+    "DENDELE": {
+      "profile": "duel",
+      "title": "doc 常争首杀，也会按地图转任单摸",
+      "summary": "RetakeCS 统计到 7 月底，doc 在 2026 年进攻回合中参与了 31.1% 的首轮交火。作者观察到，他在 Mirage 常负责 B 区单摸，在其他地图也会跟进补枪。该占比只描述 doc。",
+      "date": "2026-07-31",
+      "url": "https://retakecs.com/analise-retake-doc/",
+      "roster": [
+        "doc",
+        "gafolo",
+        "koala",
+        "maxxkor",
+        "rdnzao"
+      ],
+      "overlap": 5,
+      "confidence": "medium",
+      "kind": "analysis",
+      "scope": "分析师结合多张地图观察个人角色",
+      "usableForHistory": false,
+      "requiredPlayers": [
+        "doc"
+      ],
+      "rosterUrl": "https://www.hltv.org/news/45166/sharks-to-play-as-dendele-following-partnership"
+    },
+    "Imperial": {
+      "profile": "duel",
+      "title": "步枪手主动找机会，狙击手配合",
+      "summary": "HLTV 回顾资格期时写到，Imperial 的步枪手喜欢在回合中主动找机会。报道认为比起此前的 levi，接任狙击手的 saadzin 更适合这组步枪手。",
+      "date": "2026-11-13",
+      "url": "https://www.hltv.org/news/45973/the-highs-and-lows-of-the-major-qualification-rollercoaster",
+      "roster": [
+        "chelo",
+        "decenty",
+        "noway",
+        "saadzin",
+        "VINI"
+      ],
+      "overlap": 5,
+      "confidence": "medium",
+      "kind": "analysis",
+      "scope": "记者综合资格期阵容更换前后的观察",
+      "usableForHistory": true,
+      "requiredPlayers": [
+        "saadzin",
+        "VINI"
+      ],
+      "rosterUrl": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/invitation/2026/standings_global_2026_11_02.md"
+    },
+    "Wildcard": {
+      "profile": "tempo",
+      "title": "多人读局，nEMANHA 调整最后决定",
+      "summary": "Cxzi 说，队员会随获得的信息提出方案，HexT 也参与指挥；nEMANHA 决定采纳、修改或取消。对 DENDELE 的 Nuke 上，即使先阵亡，他也会继续帮存活队友整理信息。",
+      "date": "2026-09-29",
+      "url": "https://www.dust2.us/news/78298/cxzi-splawik-is-harder-on-me-and-its-a-good-thing",
+      "roster": [
+        "Cxzi",
+        "fr3nd",
+        "HexT",
+        "nEMANHA",
+        "reck"
+      ],
+      "overlap": 5,
+      "confidence": "high",
+      "kind": "interview",
+      "scope": "队员解释一贯的决策方式并给出比赛实例",
+      "usableForHistory": true,
+      "requiredPlayers": [
+        "nEMANHA",
+        "Cxzi"
+      ],
+      "rosterUrl": "https://www.hltv.org/matches/2398298/dendele-vs-wildcard-ibuypower-masters-fml-2026"
+    },
+    "GOSH": {
+      "profile": "duel",
+      "title": "先简化战术，让队员敢于接枪",
+      "summary": "Magisk 描述 BC.Game 磨合初期的取舍：简化战术，让擅长对枪的队员敢于出击。他自己和教练承担战术设计。其后四人进入新加坡 GOSH 首发，asap 接替 electroNic。",
+      "date": "2026-08-07",
+      "url": "https://www.hltv.org/news/45246/magisk-im-impressed-with-the-older-guys-theyre-trying-their-absolute-best-to-remove-some-of-the-habits-theyve-played-with-for-many-years",
+      "roster": [
+        "electroNic",
+        "Magisk",
+        "mzinho",
+        "s1mple",
+        "Senzu"
+      ],
+      "overlap": 4,
+      "confidence": "medium",
+      "kind": "interview",
+      "scope": "指挥描述前身 BC.Game 新阵容的磨合策略",
+      "usableForHistory": true,
+      "requiredPlayers": [
+        "Magisk"
+      ],
+      "rosterUrl": "https://www.hltv.org/news/45222/bcgame-win-elisa-esports-breakout-series-1-on-new-rosters-debut"
+    },
+    "FlyQuest": {
+      "profile": "tempo",
+      "title": "进攻留给队员读局，防守由 INS 协调",
+      "summary": "INS 说，aliStair 接任指挥后，进攻方让队员有自己的空间，由 aliStair 最后决定；在防守方，INS 会尽可能协调队友。两侧的临场指挥分工不同。",
+      "date": "2026-10-31",
+      "url": "https://dfrag.gg/counterstrike/news/ins-when-youre-always-the-heavy-favourite-theres-always-pressure/",
+      "roster": [
+        "aliStair",
+        "INS",
+        "jks",
+        "nettik",
+        "Vexite"
+      ],
+      "overlap": 5,
+      "confidence": "high",
+      "kind": "interview",
+      "scope": "副指挥说明现有首发的攻守分工",
+      "usableForHistory": true,
+      "requiredPlayers": [
+        "aliStair",
+        "INS"
+      ],
+      "rosterUrl": "https://www.hltv.org/news/45437/alistair-returns-to-flyquest"
+    },
+    "Chinggis Warriors": {
+      "profile": "duel",
+      "title": "两场系列赛里，cool4st 和 tikuak 拿到首杀",
+      "summary": "对 The Audacity 的三图中，cool4st 拿到 15 次首杀、6 次首死。更早对 The Huns 的两图中，tikuak 拿到 8 次首杀、0 次首死。统计合并攻守方，样本限于这两场地区系列赛。",
+      "date": "2026-10-29",
+      "url": "https://www.hltv.org/stats/matches/132542/the-audacity-vs-chinggis-warriors",
+      "roster": [
+        "cool4st",
+        "fury5k",
+        "ROUX",
+        "sk0R",
+        "tikuak"
+      ],
+      "overlap": 5,
+      "confidence": "low",
+      "kind": "match",
+      "scope": "两场地区 BO3 的具体交火记录",
+      "usableForHistory": false,
+      "requiredPlayers": [
+        "cool4st",
+        "tikuak"
+      ],
+      "rosterUrl": "https://www.hltv.org/stats/matches/132542/the-audacity-vs-chinggis-warriors",
+      "secondaryUrl": "https://www.hltv.org/stats/matches/131826/the-huns-vs-chinggis-warriors"
+    },
+    "Lynn Vision": {
+      "profile": "system",
+      "title": "针对 Falcons 的 Nuke，用赛前信息组织回合",
+      "summary": "C4LLM3SU3 回顾奥斯汀 Major 对 Falcons 的 BO1：教练预判了对手习惯，队员在回合内据此沟通。五位首发与新加坡相同，但这场比赛距今已超过一年。",
+      "date": "2025-06-07",
+      "url": "https://blast.tv/cs/news/c4llm3su3-on-win-over-falcons",
+      "roster": [
+        "C4LLM3SU3",
+        "EmiliaQAQ",
+        "Starry",
+        "Westmelon",
+        "z4KR"
+      ],
+      "overlap": 5,
+      "confidence": "low",
+      "kind": "interview",
+      "scope": "单张 Nuke 的赛后解释",
+      "usableForHistory": false,
+      "requiredPlayers": [
+        "C4LLM3SU3"
+      ],
+      "rosterUrl": "https://blast.tv/cs/tournaments/BLAST.tv%20Austin%20Major%202025%20Finals/match/42d5b4af/falcons-lynn"
+    }
+  }
+}

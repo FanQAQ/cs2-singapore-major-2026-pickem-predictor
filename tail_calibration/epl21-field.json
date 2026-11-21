@@ -1,0 +1,862 @@
+{
+  "id": "epl21-stage2",
+  "start": "2025-03-07",
+  "end": "2025-03-11",
+  "cutoff": "2025-03-06T23:59:59Z",
+  "entrants": [
+    "Spirit",
+    "Vitality",
+    "Natus Vincere",
+    "MOUZ",
+    "G2",
+    "The MongolZ",
+    "Eternal Fire",
+    "Falcons",
+    "Liquid",
+    "3DMAX",
+    "GamerLegion",
+    "paiN",
+    "FURIA",
+    "SAW",
+    "MIBR",
+    "TYLOO"
+  ],
+  "teams": [
+    {
+      "name": "Spirit",
+      "seed": 1,
+      "roster": [
+        "chopper",
+        "donk",
+        "magixx",
+        "sh1ro",
+        "zont1x"
+      ],
+      "points": 1963,
+      "rank": 1,
+      "ratingTeam": "Spirit",
+      "ratingRoster": [
+        "chopper",
+        "donk",
+        "magixx",
+        "sh1ro",
+        "zont1x"
+      ],
+      "overlap": 5,
+      "rosterDay": "2025-02-08",
+      "rosterSource": "https://www.hltv.org/matches/2378916/natus-vincere-vs-spirit-iem-katowice-2025"
+    },
+    {
+      "name": "Vitality",
+      "seed": 2,
+      "roster": [
+        "apEX",
+        "flameZ",
+        "mezii",
+        "ropz",
+        "ZywOo"
+      ],
+      "points": 1939,
+      "rank": 2,
+      "ratingTeam": "Vitality",
+      "ratingRoster": [
+        "apEX",
+        "flameZ",
+        "mezii",
+        "ropz",
+        "ZywOo"
+      ],
+      "overlap": 5,
+      "rosterDay": "2025-02-08",
+      "rosterSource": "https://www.hltv.org/matches/2378915/vitality-vs-the-mongolz-iem-katowice-2025"
+    },
+    {
+      "name": "Natus Vincere",
+      "seed": 3,
+      "roster": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "jL",
+        "w0nderful"
+      ],
+      "points": 1751,
+      "rank": 9,
+      "ratingTeam": "Natus Vincere",
+      "ratingRoster": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "jL",
+        "w0nderful"
+      ],
+      "overlap": 5,
+      "rosterDay": "2025-02-08",
+      "rosterSource": "https://www.hltv.org/matches/2378916/natus-vincere-vs-spirit-iem-katowice-2025"
+    },
+    {
+      "name": "MOUZ",
+      "seed": 4,
+      "roster": [
+        "Brollan",
+        "Jimpphat",
+        "Spinx",
+        "torzsi",
+        "xertioN"
+      ],
+      "points": 1874,
+      "rank": 4,
+      "ratingTeam": "MOUZ",
+      "ratingRoster": [
+        "Brollan",
+        "Jimpphat",
+        "Spinx",
+        "torzsi",
+        "xertioN"
+      ],
+      "overlap": 5,
+      "rosterDay": "2025-02-22",
+      "rosterSource": "https://www.hltv.org/matches/2379363/mouz-vs-astralis-pgl-cluj-napoca-2025"
+    },
+    {
+      "name": "G2",
+      "seed": 5,
+      "roster": [
+        "HeavyGod",
+        "huNter-",
+        "m0NESY",
+        "malbsMd",
+        "Snax"
+      ],
+      "points": 1781,
+      "rank": 8,
+      "ratingTeam": "G2",
+      "ratingRoster": [
+        "HeavyGod",
+        "huNter-",
+        "m0NESY",
+        "malbsMd",
+        "Snax"
+      ],
+      "overlap": 5,
+      "rosterDay": "2025-02-03",
+      "rosterSource": "https://www.hltv.org/matches/2378905/g2-vs-faze-iem-katowice-2025"
+    },
+    {
+      "name": "The MongolZ",
+      "seed": 6,
+      "roster": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "points": 1885,
+      "rank": 3,
+      "ratingTeam": "The MongolZ",
+      "ratingRoster": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "overlap": 5,
+      "rosterDay": "2025-02-21",
+      "rosterSource": "https://www.hltv.org/matches/2379360/the-mongolz-vs-astralis-pgl-cluj-napoca-2025"
+    },
+    {
+      "name": "Eternal Fire",
+      "seed": 7,
+      "roster": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "points": 1809,
+      "rank": 7,
+      "ratingTeam": "Eternal Fire",
+      "ratingRoster": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "overlap": 5,
+      "rosterDay": "2025-03-04",
+      "rosterSource": "https://www.hltv.org/matches/2380032/eternal-fire-vs-flyquest-esl-pro-league-season-21-stage-1"
+    },
+    {
+      "name": "Falcons",
+      "seed": 8,
+      "roster": [
+        "degster",
+        "kyxsan",
+        "Magisk",
+        "NiKo",
+        "TeSeS"
+      ],
+      "points": 1830,
+      "rank": 6,
+      "ratingTeam": "Falcons",
+      "ratingRoster": [
+        "degster",
+        "kyxsan",
+        "Magisk",
+        "NiKo",
+        "TeSeS"
+      ],
+      "overlap": 5,
+      "rosterDay": "2025-02-22",
+      "rosterSource": "https://www.hltv.org/matches/2379364/falcons-vs-faze-pgl-cluj-napoca-2025"
+    },
+    {
+      "name": "Liquid",
+      "seed": 9,
+      "roster": [
+        "jks",
+        "NAF",
+        "NertZ",
+        "Twistzz",
+        "ultimate"
+      ],
+      "points": 1451,
+      "rank": 15,
+      "ratingTeam": "Liquid",
+      "ratingRoster": [
+        "jks",
+        "NAF",
+        "NertZ",
+        "Twistzz",
+        "ultimate"
+      ],
+      "overlap": 5,
+      "rosterDay": "2025-02-04",
+      "rosterSource": "https://www.hltv.org/matches/2378908/liquid-vs-spirit-iem-katowice-2025"
+    },
+    {
+      "name": "3DMAX",
+      "seed": 10,
+      "roster": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "points": 1494,
+      "rank": 14,
+      "ratingTeam": "3DMAX",
+      "ratingRoster": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "overlap": 5,
+      "rosterDay": "2025-03-04",
+      "rosterSource": "https://www.hltv.org/matches/2380034/3dmax-vs-m80-esl-pro-league-season-21-stage-1"
+    },
+    {
+      "name": "GamerLegion",
+      "seed": 11,
+      "roster": [
+        "PR",
+        "REZ",
+        "sl3nd",
+        "Tauson",
+        "ztr"
+      ],
+      "points": 1497,
+      "rank": 13,
+      "ratingTeam": "GamerLegion",
+      "ratingRoster": [
+        "PR",
+        "REZ",
+        "sl3nd",
+        "Tauson",
+        "ztr"
+      ],
+      "overlap": 5,
+      "rosterDay": "2025-03-03",
+      "rosterSource": "https://www.hltv.org/matches/2380024/gamerlegion-vs-tyloo-esl-pro-league-season-21-stage-1"
+    },
+    {
+      "name": "paiN",
+      "seed": 12,
+      "roster": [
+        "biguzera",
+        "dav1deuS",
+        "kauez",
+        "nqz",
+        "snow"
+      ],
+      "points": 1539,
+      "rank": 11,
+      "ratingTeam": "paiN",
+      "ratingRoster": [
+        "biguzera",
+        "dav1deuS",
+        "kauez",
+        "nqz",
+        "snow"
+      ],
+      "overlap": 5,
+      "rosterDay": "2025-03-05",
+      "rosterSource": "https://www.hltv.org/matches/2380037/pain-vs-nemiga-esl-pro-league-season-21-stage-1"
+    },
+    {
+      "name": "FURIA",
+      "seed": 13,
+      "roster": [
+        "chelo",
+        "FalleN",
+        "KSCERATO",
+        "skullz",
+        "yuurih"
+      ],
+      "points": 1352,
+      "rank": 16,
+      "ratingTeam": "FURIA",
+      "ratingRoster": [
+        "chelo",
+        "FalleN",
+        "KSCERATO",
+        "skullz",
+        "yuurih"
+      ],
+      "overlap": 5,
+      "rosterDay": "2025-03-05",
+      "rosterSource": "https://www.hltv.org/matches/2380038/furia-vs-m80-esl-pro-league-season-21-stage-1"
+    },
+    {
+      "name": "SAW",
+      "seed": 14,
+      "roster": [
+        "Ag1l",
+        "AZUWU",
+        "cej0t",
+        "MUTiRiS",
+        "story"
+      ],
+      "points": 1250,
+      "rank": 19,
+      "ratingTeam": "SAW",
+      "ratingRoster": [
+        "Ag1l",
+        "MUTiRiS",
+        "roman",
+        "Shr",
+        "story"
+      ],
+      "overlap": 3,
+      "rosterDay": "2025-03-03",
+      "rosterSource": "https://www.hltv.org/matches/2380027/m80-vs-saw-esl-pro-league-season-21-stage-1"
+    },
+    {
+      "name": "MIBR",
+      "seed": 15,
+      "roster": [
+        "brnz4n",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "points": 1264,
+      "rank": 18,
+      "ratingTeam": "MIBR",
+      "ratingRoster": [
+        "drop",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "overlap": 4,
+      "rosterDay": "2025-03-04",
+      "rosterSource": "https://www.hltv.org/matches/2380030/mibr-vs-tyloo-esl-pro-league-season-21-stage-1"
+    },
+    {
+      "name": "TYLOO",
+      "seed": 16,
+      "roster": [
+        "Attacker",
+        "JamYoung",
+        "Jee",
+        "Mercury",
+        "Moseyuh"
+      ],
+      "points": 740,
+      "rank": 117,
+      "ratingTeam": "TYLOO",
+      "ratingRoster": [
+        "Attacker",
+        "JamYoung",
+        "Jee",
+        "Mercury",
+        "Moseyuh"
+      ],
+      "overlap": 5,
+      "rosterDay": "2025-03-05",
+      "rosterSource": "https://www.hltv.org/matches/2380036/flyquest-vs-tyloo-esl-pro-league-season-21-stage-1"
+    }
+  ],
+  "direct": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+  ],
+  "allBo3": true,
+  "ratingMargin": "full",
+  "liveRatings": [
+    1.4,
+    1.5,
+    2.857142857142857,
+    4,
+    5.230769230769231,
+    5.785714285714286,
+    6.285714285714286,
+    7,
+    8.692307692307692,
+    10,
+    10.142857142857142,
+    11.5,
+    11.571428571428571,
+    13.142857142857142,
+    13.5,
+    15
+  ],
+  "seedingDate": "2025-03-06",
+  "seedingSource": "https://x.com/ESLCS/status/1897655742146007083",
+  "ballotSource": "https://x.com/ESLCS/status/1897716421922045960",
+  "ballotRanksByVoter": {
+    "G2": [
+      1,
+      3,
+      2,
+      4,
+      7,
+      8,
+      6,
+      10,
+      9,
+      13,
+      11,
+      14,
+      15,
+      12,
+      16
+    ],
+    "Spirit": [
+      2,
+      3,
+      4,
+      5,
+      9,
+      6,
+      8,
+      7,
+      10,
+      13,
+      11,
+      14,
+      15,
+      12,
+      16
+    ],
+    "The MongolZ": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      7,
+      5,
+      9,
+      10,
+      11,
+      13,
+      12,
+      14,
+      15,
+      16
+    ],
+    "Vitality": [
+      1,
+      3,
+      7,
+      4,
+      5,
+      8,
+      6,
+      9,
+      11,
+      10,
+      12,
+      13,
+      15,
+      14,
+      16
+    ],
+    "MOUZ": [
+      2,
+      1,
+      3,
+      5,
+      7,
+      6,
+      9,
+      8,
+      12,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16
+    ],
+    "Natus Vincere": [
+      1,
+      2,
+      4,
+      7,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      12,
+      15,
+      16
+    ],
+    "Falcons": [
+      1,
+      2,
+      3,
+      7,
+      4,
+      5,
+      6,
+      9,
+      13,
+      11,
+      12,
+      10,
+      15,
+      14,
+      16
+    ],
+    "Liquid": [
+      2,
+      1,
+      4,
+      3,
+      6,
+      7,
+      8,
+      5,
+      10,
+      12,
+      11,
+      13,
+      15,
+      16,
+      14
+    ],
+    "GamerLegion": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      4,
+      8,
+      7,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "SAW": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      7,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16
+    ],
+    "MIBR": [
+      2,
+      1,
+      3,
+      5,
+      4,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      10,
+      13,
+      14,
+      16
+    ],
+    "Eternal Fire": [
+      2,
+      1,
+      3,
+      6,
+      4,
+      5,
+      10,
+      11,
+      8,
+      13,
+      12,
+      15,
+      14,
+      9,
+      16
+    ],
+    "3DMAX": [
+      2,
+      1,
+      3,
+      4,
+      6,
+      8,
+      5,
+      7,
+      9,
+      11,
+      12,
+      13,
+      15,
+      14,
+      16
+    ],
+    "TYLOO": [
+      1,
+      2,
+      6,
+      4,
+      3,
+      5,
+      8,
+      7,
+      11,
+      9,
+      13,
+      12,
+      10,
+      14,
+      15
+    ],
+    "paiN": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      4,
+      6,
+      8,
+      9,
+      11,
+      10,
+      15,
+      13,
+      14,
+      16
+    ],
+    "FURIA": [
+      2,
+      1,
+      3,
+      4,
+      6,
+      5,
+      7,
+      8,
+      11,
+      9,
+      10,
+      14,
+      12,
+      15,
+      16
+    ]
+  },
+  "ballotCounts": [
+    {
+      "team": "Spirit",
+      "accepted": 15,
+      "total": 21,
+      "rejected": {}
+    },
+    {
+      "team": "Vitality",
+      "accepted": 14,
+      "total": 21,
+      "rejected": {
+        "G2": 3
+      }
+    },
+    {
+      "team": "Natus Vincere",
+      "accepted": 14,
+      "total": 40,
+      "rejected": {
+        "TYLOO": 5
+      }
+    },
+    {
+      "team": "MOUZ",
+      "accepted": 13,
+      "total": 52,
+      "rejected": {
+        "GamerLegion": 6,
+        "paiN": 6
+      }
+    },
+    {
+      "team": "G2",
+      "accepted": 13,
+      "total": 68,
+      "rejected": {
+        "Liquid": 8,
+        "SAW": 8
+      }
+    },
+    {
+      "team": "The MongolZ",
+      "accepted": 14,
+      "total": 81,
+      "rejected": {
+        "TYLOO": 3
+      }
+    },
+    {
+      "team": "Eternal Fire",
+      "accepted": 14,
+      "total": 88,
+      "rejected": {
+        "Vitality": 3
+      }
+    },
+    {
+      "team": "Falcons",
+      "accepted": 13,
+      "total": 91,
+      "rejected": {
+        "The MongolZ": 5,
+        "Eternal Fire": 9
+      }
+    },
+    {
+      "team": "Liquid",
+      "accepted": 13,
+      "total": 113,
+      "rejected": {
+        "Spirit": 5,
+        "Eternal Fire": 14
+      }
+    },
+    {
+      "team": "3DMAX",
+      "accepted": 13,
+      "total": 130,
+      "rejected": {
+        "Eternal Fire": 7,
+        "TYLOO": 13
+      }
+    },
+    {
+      "team": "GamerLegion",
+      "accepted": 14,
+      "total": 142,
+      "rejected": {
+        "Eternal Fire": 8
+      }
+    },
+    {
+      "team": "paiN",
+      "accepted": 12,
+      "total": 138,
+      "rejected": {
+        "G2": 14,
+        "Spirit": 14,
+        "MOUZ": 9
+      }
+    },
+    {
+      "team": "FURIA",
+      "accepted": 14,
+      "total": 162,
+      "rejected": {
+        "Falcons": 9
+      }
+    },
+    {
+      "team": "SAW",
+      "accepted": 14,
+      "total": 184,
+      "rejected": {
+        "Liquid": 15
+      }
+    },
+    {
+      "team": "MIBR",
+      "accepted": 12,
+      "total": 162,
+      "rejected": {
+        "Eternal Fire": 12,
+        "TYLOO": 15,
+        "paiN": 12
+      }
+    },
+    {
+      "team": "TYLOO",
+      "accepted": 14,
+      "total": 210,
+      "rejected": {
+        "Liquid": 14
+      }
+    }
+  ],
+  "pairingSource": "https://pro.eslgaming.com/tour/zh/2025/03/esl-live-ratings/",
+  "rankingDate": "2025-03-03",
+  "fieldAnnouncement": {
+    "day": "2025-03-06",
+    "source": "https://www.hltv.org/news/41133/esl-pro-league-21-stage-2-first-round-matches-set"
+  },
+  "rankingPublishedAt": "2025-03-03T17:49:38Z",
+  "rankingSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/293e01e588b5e751ee0b306dc2958765dc63dce0/invitation/2025/standings_global_2025_03_03.md"
+}

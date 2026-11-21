@@ -1,0 +1,1590 @@
+{
+  "sourceType": "Reloader third-party comparison with archived post-match reports; no input overrides",
+  "index": "https://reloader.gg/esports/cs2/event/iem-cologne-2026",
+  "summary": {
+    "BO1": {
+      "verified": 20,
+      "allStepsAgree": 20,
+      "fields": {},
+      "stepChanges": {}
+    },
+    "BO3": {
+      "verified": 13,
+      "allStepsAgree": 7,
+      "fields": {
+        "team": 12,
+        "action": 1
+      },
+      "stepChanges": {
+        "5": 6,
+        "6": 6
+      }
+    }
+  },
+  "matches": [
+    {
+      "stage2Id": 2394865,
+      "bo": 1,
+      "day": "2026-06-06",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/team-spirit-vs-betboom-iem-cologne-2026-2026-06-06",
+      "retrieval": "indexed-page",
+      "sourceSteps": [
+        {
+          "team": "BetBoom Team",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "BetBoom Team",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "Team Spirit",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "Team Spirit",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "Team Spirit",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "BetBoom Team",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394866,
+      "bo": 1,
+      "day": "2026-06-06",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/astralis-vs-gamerlegion-iem-cologne-2026-2026-06-06",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "GamerLegion",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "GamerLegion",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "GamerLegion",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Ancient"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394867,
+      "bo": 1,
+      "day": "2026-06-06",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/g2-esports-vs-m80-iem-cologne-2026-2026-06-06",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "G2 Esports",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "G2 Esports",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "G2 Esports",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394868,
+      "bo": 1,
+      "day": "2026-06-06",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/fut-esports-vs-b8-esports-iem-cologne-2026-2026-06-06",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "FUT Esports",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "FUT Esports",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "FUT Esports",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Ancient"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394869,
+      "bo": 1,
+      "day": "2026-06-06",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/legacy-vs-mibr-iem-cologne-2026-2026-06-06",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "LGCY",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "LGCY",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "LGCY",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Nuke"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394870,
+      "bo": 1,
+      "day": "2026-06-06",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/flyquest-vs-9z-team-iem-cologne-2026-2026-06-06",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "FlyQuest",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "FlyQuest",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "FlyQuest",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Dust2"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394871,
+      "bo": 1,
+      "day": "2026-06-06",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/pain-gaming-vs-tyloo-iem-cologne-2026-2026-06-06",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394872,
+      "bo": 1,
+      "day": "2026-06-06",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/monte-vs-big-iem-cologne-2026-2026-06-06",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394873,
+      "bo": 1,
+      "day": "2026-06-06",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/fut-esports-vs-tyloo-iem-cologne-2026-2026-06-06",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "FUT Esports",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "FUT Esports",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "FUT Esports",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Overpass"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394874,
+      "bo": 1,
+      "day": "2026-06-06",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/astralis-vs-9z-team-iem-cologne-2026-2026-06-06",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Nuke"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394875,
+      "bo": 1,
+      "day": "2026-06-06",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/g2-esports-vs-monte-iem-cologne-2026-2026-06-06",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "G2 Esports",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "G2 Esports",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "G2 Esports",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394876,
+      "bo": 1,
+      "day": "2026-06-06",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/pain-gaming-vs-big-iem-cologne-2026-2026-06-06",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Overpass"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394877,
+      "bo": 1,
+      "day": "2026-06-06",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/betboom-vs-gamerlegion-iem-cologne-2026-2026-06-06",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "GamerLegion",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "GamerLegion",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "BetBoom Team",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "BetBoom Team",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "BetBoom Team",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "GamerLegion",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Nuke"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394878,
+      "bo": 1,
+      "day": "2026-06-06",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/legacy-vs-flyquest-iem-cologne-2026-2026-06-06",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "FlyQuest",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "FlyQuest",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "LGCY",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "LGCY",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "LGCY",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "FlyQuest",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Dust2"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394879,
+      "bo": 1,
+      "day": "2026-06-06",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/team-spirit-vs-mibr-iem-cologne-2026-2026-06-06",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "Team Spirit",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "Team Spirit",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "Team Spirit",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394880,
+      "bo": 1,
+      "day": "2026-06-06",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/b8-esports-vs-m80-iem-cologne-2026-2026-06-06",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394881,
+      "bo": 1,
+      "day": "2026-06-07",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/monte-vs-legacy-iem-cologne-2026-2026-06-07",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "LGCY",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "LGCY",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "LGCY",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Ancient"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394882,
+      "bo": 1,
+      "day": "2026-06-07",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/astralis-vs-tyloo-iem-cologne-2026-2026-06-07",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Nuke"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394883,
+      "bo": 1,
+      "day": "2026-06-07",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/betboom-vs-m80-iem-cologne-2026-2026-06-07",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "BetBoom Team",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "BetBoom Team",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "BetBoom Team",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Dust2"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394884,
+      "bo": 1,
+      "day": "2026-06-07",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/mibr-vs-big-iem-cologne-2026-2026-06-07",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Inferno"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394885,
+      "bo": 3,
+      "day": "2026-06-07",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/b8-esports-vs-gamerlegion-iem-cologne-2026-2026-06-07",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "GamerLegion",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "GamerLegion",
+          "action": "pick",
+          "map": "Inferno"
+        },
+        {
+          "team": "B8",
+          "action": "pick",
+          "map": "Mirage"
+        },
+        {
+          "team": "GamerLegion",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Nuke"
+        }
+      ],
+      "differences": [
+        {
+          "step": 5,
+          "fields": [
+            "team"
+          ]
+        },
+        {
+          "step": 6,
+          "fields": [
+            "team"
+          ]
+        }
+      ]
+    },
+    {
+      "stage2Id": 2394886,
+      "bo": 3,
+      "day": "2026-06-07",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/flyquest-vs-pain-gaming-iem-cologne-2026-2026-06-07",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "FlyQuest",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "paiN",
+          "action": "pick",
+          "map": "Nuke"
+        },
+        {
+          "team": "FlyQuest",
+          "action": "pick",
+          "map": "Anubis"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "FlyQuest",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Dust2"
+        }
+      ],
+      "differences": [
+        {
+          "step": 5,
+          "fields": [
+            "team"
+          ]
+        },
+        {
+          "step": 6,
+          "fields": [
+            "team"
+          ]
+        }
+      ]
+    },
+    {
+      "stage2Id": 2394887,
+      "bo": 3,
+      "day": "2026-06-07",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/g2-esports-vs-fut-esports-iem-cologne-2026-2026-06-07",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "FUT Esports",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "G2 Esports",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "FUT Esports",
+          "action": "pick",
+          "map": "Anubis"
+        },
+        {
+          "team": "G2 Esports",
+          "action": "pick",
+          "map": "Overpass"
+        },
+        {
+          "team": "FUT Esports",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "G2 Esports",
+          "action": "pick",
+          "map": "Dust2"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Ancient"
+        }
+      ],
+      "differences": [
+        {
+          "step": 5,
+          "fields": [
+            "team"
+          ]
+        },
+        {
+          "step": 6,
+          "fields": [
+            "action",
+            "team"
+          ]
+        }
+      ]
+    },
+    {
+      "stage2Id": 2394888,
+      "bo": 3,
+      "day": "2026-06-07",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/team-spirit-vs-9z-team-iem-cologne-2026-2026-06-07",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "Team Spirit",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "Team Spirit",
+          "action": "pick",
+          "map": "Mirage"
+        },
+        {
+          "team": "9z",
+          "action": "pick",
+          "map": "Nuke"
+        },
+        {
+          "team": "Team Spirit",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Dust2"
+        }
+      ],
+      "differences": [
+        {
+          "step": 5,
+          "fields": [
+            "team"
+          ]
+        },
+        {
+          "step": 6,
+          "fields": [
+            "team"
+          ]
+        }
+      ]
+    },
+    {
+      "stage2Id": 2394889,
+      "bo": 3,
+      "day": "2026-06-08",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/astralis-vs-pain-gaming-iem-cologne-2026-2026-06-08",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "paiN",
+          "action": "pick",
+          "map": "Nuke"
+        },
+        {
+          "team": "Astralis",
+          "action": "pick",
+          "map": "Overpass"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394890,
+      "bo": 3,
+      "day": "2026-06-08",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/mibr-vs-b8-esports-iem-cologne-2026-2026-06-08",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "B8",
+          "action": "pick",
+          "map": "Mirage"
+        },
+        {
+          "team": "MIBR",
+          "action": "pick",
+          "map": "Nuke"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Ancient"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394891,
+      "bo": 3,
+      "day": "2026-06-08",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/monte-vs-betboom-iem-cologne-2026-2026-06-08",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "BetBoom Team",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "BetBoom Team",
+          "action": "pick",
+          "map": "Nuke"
+        },
+        {
+          "team": "Monte",
+          "action": "pick",
+          "map": "Mirage"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "BetBoom Team",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Dust2"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394892,
+      "bo": 3,
+      "day": "2026-06-08",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/tyloo-vs-9z-team-iem-cologne-2026-2026-06-08",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "9z",
+          "action": "pick",
+          "map": "Overpass"
+        },
+        {
+          "team": "TYLOO",
+          "action": "pick",
+          "map": "Inferno"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Nuke"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394893,
+      "bo": 3,
+      "day": "2026-06-08",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/g2-esports-vs-big-iem-cologne-2026-2026-06-08",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "G2 Esports",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "BIG",
+          "action": "pick",
+          "map": "Inferno"
+        },
+        {
+          "team": "G2 Esports",
+          "action": "pick",
+          "map": "Mirage"
+        },
+        {
+          "team": "G2 Esports",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Overpass"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394894,
+      "bo": 3,
+      "day": "2026-06-08",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/m80-vs-legacy-iem-cologne-2026-2026-06-08",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "LGCY",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "LGCY",
+          "action": "pick",
+          "map": "Dust2"
+        },
+        {
+          "team": "M80",
+          "action": "pick",
+          "map": "Inferno"
+        },
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "LGCY",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394895,
+      "bo": 3,
+      "day": "2026-06-09",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/monte-vs-pain-gaming-iem-cologne-2026-2026-06-09",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "paiN",
+          "action": "pick",
+          "map": "Nuke"
+        },
+        {
+          "team": "Monte",
+          "action": "pick",
+          "map": "Dust2"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "differences": []
+    },
+    {
+      "stage2Id": 2394896,
+      "bo": 3,
+      "day": "2026-06-09",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/legacy-vs-tyloo-iem-cologne-2026-2026-06-09",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "LGCY",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "LGCY",
+          "action": "pick",
+          "map": "Mirage"
+        },
+        {
+          "team": "TYLOO",
+          "action": "pick",
+          "map": "Inferno"
+        },
+        {
+          "team": "LGCY",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Nuke"
+        }
+      ],
+      "differences": [
+        {
+          "step": 5,
+          "fields": [
+            "team"
+          ]
+        },
+        {
+          "step": 6,
+          "fields": [
+            "team"
+          ]
+        }
+      ]
+    },
+    {
+      "stage2Id": 2394897,
+      "bo": 3,
+      "day": "2026-06-09",
+      "sourceUrl": "https://reloader.gg/esports/cs2/match/big-vs-b8-esports-iem-cologne-2026-2026-06-09",
+      "retrieval": "html",
+      "sourceSteps": [
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "B8",
+          "action": "pick",
+          "map": "Ancient"
+        },
+        {
+          "team": "BIG",
+          "action": "pick",
+          "map": "Overpass"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Dust2"
+        }
+      ],
+      "differences": [
+        {
+          "step": 5,
+          "fields": [
+            "team"
+          ]
+        },
+        {
+          "step": 6,
+          "fields": [
+            "team"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1097 @@
+{
+  "id": "astana-2025",
+  "label": "PGL Astana 2025 Swiss",
+  "start": "2025-05-10",
+  "end": "2025-05-14",
+  "cutoffExclusive": "2025-05-10",
+  "allBo3": true,
+  "teams": [
+    {
+      "name": "Spirit",
+      "roster": [
+        "chopper",
+        "donk",
+        "magixx",
+        "sh1ro",
+        "zont1x"
+      ],
+      "announcedRoster": [
+        "chopper",
+        "magixx",
+        "donk",
+        "sh1ro",
+        "zont1x"
+      ],
+      "rosterWitness": {
+        "id": 2381917,
+        "day": "2025-05-03",
+        "roster": [
+          "chopper",
+          "donk",
+          "magixx",
+          "sh1ro",
+          "zont1x"
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2381917/vitality-vs-spirit-blast-rivals-2025-season-1"
+      },
+      "standIn": null,
+      "changes": null,
+      "points": 1852,
+      "rank": 4,
+      "ratingTeam": "Spirit",
+      "vrsRoster": [
+        "chopper",
+        "donk",
+        "magixx",
+        "sh1ro",
+        "zont1x"
+      ],
+      "overlap": 5,
+      "seedRank": 1,
+      "seedRatingTeam": "Spirit",
+      "seedRoster": [
+        "chopper",
+        "donk",
+        "magixx",
+        "sh1ro",
+        "zont1x"
+      ],
+      "seedOverlap": 5,
+      "seed": 1
+    },
+    {
+      "name": "The MongolZ",
+      "roster": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "announcedRoster": [
+        "bLitz",
+        "Techno",
+        "Senzu",
+        "910",
+        "Mzinho"
+      ],
+      "rosterWitness": {
+        "id": 2381772,
+        "day": "2025-04-26",
+        "roster": [
+          "910",
+          "bLitz",
+          "mzinho",
+          "Senzu",
+          "Techno"
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2381772/vitality-vs-the-mongolz-iem-melbourne-2025"
+      },
+      "standIn": null,
+      "changes": null,
+      "points": 1800,
+      "rank": 6,
+      "ratingTeam": "The MongolZ",
+      "vrsRoster": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "overlap": 5,
+      "seedRank": 3,
+      "seedRatingTeam": "The MongolZ",
+      "seedRoster": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "seedOverlap": 5,
+      "seed": 2
+    },
+    {
+      "name": "Aurora",
+      "roster": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "announcedRoster": [
+        "MAJ3R",
+        "woxic",
+        "Wicadia",
+        "jottAAA",
+        "XANTARES"
+      ],
+      "rosterWitness": {
+        "id": 2381327,
+        "day": "2025-04-11",
+        "roster": [
+          "jottAAA",
+          "MAJ3R",
+          "Wicadia",
+          "woxic",
+          "XANTARES"
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2381327/complexity-vs-aurora-pgl-bucharest-2025"
+      },
+      "standIn": null,
+      "changes": null,
+      "points": 1754,
+      "rank": 7,
+      "ratingTeam": "Aurora",
+      "vrsRoster": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "overlap": 5,
+      "seedRank": 7,
+      "seedRatingTeam": "Eternal Fire",
+      "seedRoster": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "seedOverlap": 5,
+      "seed": 3
+    },
+    {
+      "name": "G2",
+      "roster": [
+        "hades",
+        "HeavyGod",
+        "malbsMd",
+        "Snax",
+        "TaZ"
+      ],
+      "announcedRoster": [
+        "Snax",
+        "huNter-",
+        "malbsMd",
+        "hades",
+        "HeavyGoD"
+      ],
+      "rosterWitness": {
+        "id": 2381330,
+        "day": "2025-04-12",
+        "roster": [
+          "HeavyGod",
+          "huNter-",
+          "m0NESY",
+          "malbsMd",
+          "Snax"
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2381330/complexity-vs-g2-pgl-bucharest-2025"
+      },
+      "standIn": {
+        "outgoing": "huNter-",
+        "incoming": "TaZ",
+        "announcedDay": "2025-05-09",
+        "earliestVisaDay": null,
+        "url": "https://x.com/G2CSGO/status/1920782752246309324",
+        "report": "https://www.hltv.org/news/41642/taz-to-stand-in-for-hunter-at-pgl-astana"
+      },
+      "changes": {
+        "outgoing": [
+          "m0NESY"
+        ],
+        "incoming": [
+          "hades"
+        ],
+        "sourceUrl": "https://www.hltv.org/news/41597/pgl-astana-opening-matchups-revealed"
+      },
+      "points": 1830,
+      "rank": 5,
+      "ratingTeam": "G2",
+      "vrsRoster": [
+        "HeavyGod",
+        "huNter-",
+        "m0NESY",
+        "malbsMd",
+        "Snax"
+      ],
+      "overlap": 3,
+      "seedRank": 8,
+      "seedRatingTeam": "G2",
+      "seedRoster": [
+        "HeavyGod",
+        "huNter-",
+        "m0NESY",
+        "malbsMd",
+        "Snax"
+      ],
+      "seedOverlap": 4,
+      "seed": 4
+    },
+    {
+      "name": "Natus Vincere",
+      "roster": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "jL",
+        "w0nderful"
+      ],
+      "announcedRoster": [
+        "w0nderful",
+        "Aleksib",
+        "jL",
+        "B1t",
+        "iM"
+      ],
+      "rosterWitness": {
+        "id": 2381767,
+        "day": "2025-04-23",
+        "roster": [
+          "Aleksib",
+          "b1t",
+          "iM",
+          "jL",
+          "w0nderful"
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2381767/liquid-vs-natus-vincere-iem-melbourne-2025"
+      },
+      "standIn": null,
+      "changes": null,
+      "points": 1632,
+      "rank": 11,
+      "ratingTeam": "Natus Vincere",
+      "vrsRoster": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "jL",
+        "w0nderful"
+      ],
+      "overlap": 5,
+      "seedRank": 9,
+      "seedRatingTeam": "Natus Vincere",
+      "seedRoster": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "jL",
+        "w0nderful"
+      ],
+      "seedOverlap": 5,
+      "seed": 5
+    },
+    {
+      "name": "Astralis",
+      "roster": [
+        "device",
+        "HooXi",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "announcedRoster": [
+        "device",
+        "stavn",
+        "jabbi",
+        "Staehr",
+        "HooXi"
+      ],
+      "rosterWitness": {
+        "id": 2381602,
+        "day": "2025-04-17",
+        "roster": [
+          "cadiaN",
+          "device",
+          "jabbi",
+          "Staehr",
+          "stavn"
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2381602/astralis-vs-b8-blasttv-austin-major-2025-europe-regional-qualifier"
+      },
+      "standIn": null,
+      "changes": {
+        "outgoing": [
+          "cadiaN"
+        ],
+        "incoming": [
+          "HooXi"
+        ],
+        "sourceUrl": "https://www.hltv.org/news/41597/pgl-astana-opening-matchups-revealed"
+      },
+      "points": 1418,
+      "rank": 16,
+      "ratingTeam": "Astralis",
+      "vrsRoster": [
+        "cadiaN",
+        "device",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "overlap": 4,
+      "seedRank": 10,
+      "seedRatingTeam": "Astralis",
+      "seedRoster": [
+        "cadiaN",
+        "device",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "seedOverlap": 4,
+      "seed": 6
+    },
+    {
+      "name": "paiN",
+      "roster": [
+        "biguzera",
+        "dav1deuS",
+        "nqz",
+        "rikz",
+        "snow"
+      ],
+      "announcedRoster": [
+        "biguzera",
+        "nqz",
+        "snow",
+        "dav1deuS",
+        "dgt"
+      ],
+      "rosterWitness": {
+        "id": 2381910,
+        "day": "2025-05-01",
+        "roster": [
+          "biguzera",
+          "dav1deuS",
+          "dgt",
+          "nqz",
+          "snow"
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2381910/pain-vs-wildcard-blast-rivals-2025-season-1"
+      },
+      "standIn": {
+        "outgoing": "dgt",
+        "incoming": "rikz",
+        "announcedDay": "2025-05-09",
+        "earliestVisaDay": "2025-05-12",
+        "url": "https://x.com/paiNGamingBR/status/1920856435350437976",
+        "report": "https://www.hltv.org/news/41643/rikz-to-stand-in-for-dgt-during-pgl-astana-opening-weekend"
+      },
+      "changes": null,
+      "points": 1345,
+      "rank": 17,
+      "ratingTeam": "paiN",
+      "vrsRoster": [
+        "biguzera",
+        "dav1deuS",
+        "dgt",
+        "nqz",
+        "snow"
+      ],
+      "overlap": 4,
+      "seedRank": 11,
+      "seedRatingTeam": "paiN",
+      "seedRoster": [
+        "biguzera",
+        "dav1deuS",
+        "kauez",
+        "nqz",
+        "snow"
+      ],
+      "seedOverlap": 4,
+      "seed": 7
+    },
+    {
+      "name": "Virtus.pro",
+      "roster": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "announcedRoster": [
+        "FL1T",
+        "fame",
+        "electroNic",
+        "FL4MUS",
+        "ICY"
+      ],
+      "rosterWitness": {
+        "id": 2381757,
+        "day": "2025-04-22",
+        "roster": [
+          "electroNic",
+          "fame",
+          "FL1T",
+          "FL4MUS",
+          "ICY"
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2381757/virtuspro-vs-flyquest-iem-melbourne-2025"
+      },
+      "standIn": null,
+      "changes": null,
+      "points": 1566,
+      "rank": 13,
+      "ratingTeam": "Virtus.pro",
+      "vrsRoster": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "overlap": 5,
+      "seedRank": 12,
+      "seedRatingTeam": "Virtus.pro",
+      "seedRoster": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "seedOverlap": 5,
+      "seed": 8
+    },
+    {
+      "name": "GamerLegion",
+      "roster": [
+        "PR",
+        "REZ",
+        "sl3nd",
+        "Tauson",
+        "ztr"
+      ],
+      "announcedRoster": [
+        "sl3nd",
+        "REZ",
+        "Tauson",
+        "PR",
+        "ztr"
+      ],
+      "rosterWitness": {
+        "id": 2381769,
+        "day": "2025-04-25",
+        "roster": [
+          "PR",
+          "REZ",
+          "sl3nd",
+          "Tauson",
+          "ztr"
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2381769/gamerlegion-vs-falcons-iem-melbourne-2025"
+      },
+      "standIn": null,
+      "changes": null,
+      "points": 1672,
+      "rank": 9,
+      "ratingTeam": "GamerLegion",
+      "vrsRoster": [
+        "PR",
+        "REZ",
+        "sl3nd",
+        "Tauson",
+        "ztr"
+      ],
+      "overlap": 5,
+      "seedRank": 13,
+      "seedRatingTeam": "GamerLegion",
+      "seedRoster": [
+        "PR",
+        "REZ",
+        "sl3nd",
+        "Tauson",
+        "ztr"
+      ],
+      "seedOverlap": 5,
+      "seed": 9
+    },
+    {
+      "name": "FURIA",
+      "roster": [
+        "FalleN",
+        "KSCERATO",
+        "molodoy",
+        "YEKINDAR",
+        "yuurih"
+      ],
+      "announcedRoster": [
+        "molodoy",
+        "KSCERATO",
+        "YEKINDAR",
+        "yuurih",
+        "FalleN"
+      ],
+      "rosterWitness": {
+        "id": 2381321,
+        "day": "2025-04-09",
+        "roster": [
+          "chelo",
+          "FalleN",
+          "KSCERATO",
+          "skullz",
+          "yuurih"
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2381321/furia-vs-the-mongolz-pgl-bucharest-2025"
+      },
+      "standIn": null,
+      "changes": {
+        "outgoing": [
+          "chelo",
+          "skullz"
+        ],
+        "incoming": [
+          "YEKINDAR",
+          "molodoy"
+        ],
+        "sourceUrl": "https://www.hltv.org/news/41597/pgl-astana-opening-matchups-revealed"
+      },
+      "points": 1192,
+      "rank": 20,
+      "ratingTeam": "FURIA",
+      "vrsRoster": [
+        "chelo",
+        "FalleN",
+        "KSCERATO",
+        "skullz",
+        "yuurih"
+      ],
+      "overlap": 3,
+      "seedRank": 16,
+      "seedRatingTeam": "FURIA",
+      "seedRoster": [
+        "chelo",
+        "FalleN",
+        "KSCERATO",
+        "skullz",
+        "yuurih"
+      ],
+      "seedOverlap": 3,
+      "seed": 10
+    },
+    {
+      "name": "BIG",
+      "roster": [
+        "hyped",
+        "JDC",
+        "Krimbo",
+        "kyuubii",
+        "tabseN"
+      ],
+      "announcedRoster": [
+        "tabseN",
+        "Krimbo",
+        "JDC",
+        "hyped",
+        "kyuubii"
+      ],
+      "rosterWitness": {
+        "id": 2382123,
+        "day": "2025-05-03",
+        "roster": [
+          "hyped",
+          "JDC",
+          "Krimbo",
+          "kyuubii",
+          "tabseN"
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2382123/b8-vs-big-mesa-nomadic-masters-spring-2025"
+      },
+      "standIn": null,
+      "changes": null,
+      "points": 1182,
+      "rank": 23,
+      "ratingTeam": "BIG",
+      "vrsRoster": [
+        "hyped",
+        "JDC",
+        "Krimbo",
+        "kyuubii",
+        "tabseN"
+      ],
+      "overlap": 5,
+      "seedRank": 17,
+      "seedRatingTeam": "BIG",
+      "seedRoster": [
+        "hyped",
+        "JDC",
+        "Krimbo",
+        "kyuubii",
+        "tabseN"
+      ],
+      "seedOverlap": 5,
+      "seed": 11
+    },
+    {
+      "name": "MIBR",
+      "roster": [
+        "brnz4n",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "announcedRoster": [
+        "exit",
+        "insani",
+        "Lucaozy",
+        "brnz4n",
+        "saffee"
+      ],
+      "rosterWitness": {
+        "id": 2381764,
+        "day": "2025-04-23",
+        "roster": [
+          "brnz4n",
+          "exit",
+          "insani",
+          "Lucaozy",
+          "saffee"
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2381764/liquid-vs-mibr-iem-melbourne-2025"
+      },
+      "standIn": null,
+      "changes": null,
+      "points": 1183,
+      "rank": 22,
+      "ratingTeam": "MIBR",
+      "vrsRoster": [
+        "brnz4n",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "overlap": 5,
+      "seedRank": 18,
+      "seedRatingTeam": "MIBR",
+      "seedRoster": [
+        "drop",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "seedOverlap": 4,
+      "seed": 12
+    },
+    {
+      "name": "M80",
+      "roster": [
+        "Lake",
+        "reck",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ],
+      "announcedRoster": [
+        "reck",
+        "Lake",
+        "s1n",
+        "Swisher",
+        "slaxz-"
+      ],
+      "rosterWitness": {
+        "id": 2381130,
+        "day": "2025-03-31",
+        "roster": [
+          "Lake",
+          "reck",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2381130/wildcard-vs-m80-pgl-astana-2025-north-america-closed-qualifier"
+      },
+      "standIn": null,
+      "changes": null,
+      "points": 1060,
+      "rank": 34,
+      "ratingTeam": "M80",
+      "vrsRoster": [
+        "Lake",
+        "reck",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ],
+      "overlap": 5,
+      "seedRank": 36,
+      "seedRatingTeam": "M80",
+      "seedRoster": [
+        "Lake",
+        "reck",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ],
+      "seedOverlap": 5,
+      "seed": 13
+    },
+    {
+      "name": "ODDIK",
+      "roster": [
+        "ksloks",
+        "matios",
+        "naitte",
+        "pancc",
+        "WOOD7"
+      ],
+      "announcedRoster": [
+        "Ksloks",
+        "WOOD7",
+        "Matios",
+        "Pancc",
+        "Naitte"
+      ],
+      "rosterWitness": {
+        "id": 2381623,
+        "day": "2025-04-17",
+        "roster": [
+          "ksloks",
+          "matios",
+          "naitte",
+          "pancc",
+          "WOOD7"
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2381623/legacy-vs-oddik-blasttv-austin-major-2025-south-america-regional-qualifier"
+      },
+      "standIn": null,
+      "changes": null,
+      "points": 790,
+      "rank": 83,
+      "ratingTeam": "ODDIK",
+      "vrsRoster": [
+        "ksloks",
+        "matios",
+        "naitte",
+        "pancc",
+        "WOOD7"
+      ],
+      "overlap": 5,
+      "seedRank": 67,
+      "seedRatingTeam": "ODDIK",
+      "seedRoster": [
+        "Ceruttera",
+        "matios",
+        "naitte",
+        "togs",
+        "WOOD7"
+      ],
+      "seedOverlap": 3,
+      "seed": 14
+    },
+    {
+      "name": "HOTU",
+      "roster": [
+        "dukefissura",
+        "kade0",
+        "lampada",
+        "mizu",
+        "youka"
+      ],
+      "announcedRoster": [
+        "youka",
+        "lampada",
+        "kade0",
+        "mizu",
+        "dukefissura"
+      ],
+      "rosterWitness": {
+        "id": 2381137,
+        "day": "2025-03-31",
+        "roster": [
+          "dukefissura",
+          "kade0",
+          "lampada",
+          "mizu",
+          "youka"
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2381137/rare-atom-vs-hotu-pgl-astana-2025-asia-closed-qualifier"
+      },
+      "standIn": null,
+      "changes": null,
+      "points": 926,
+      "rank": 54,
+      "ratingTeam": "HOTU",
+      "vrsRoster": [
+        "dukefissura",
+        "kade0",
+        "lampada",
+        "mizu",
+        "youka"
+      ],
+      "overlap": 5,
+      "seedRank": 151,
+      "seedRatingTeam": "HOTU",
+      "seedRoster": [
+        "kade0",
+        "lampada",
+        "mizu",
+        "Re1GN",
+        "youka"
+      ],
+      "seedOverlap": 4,
+      "seed": 15
+    },
+    {
+      "name": "Ninjas in Pyjamas",
+      "roster": [
+        "arrozdoce",
+        "ewjerkz",
+        "r1nkle",
+        "sjuush",
+        "Snappi"
+      ],
+      "announcedRoster": [
+        "Snappi",
+        "sjuush",
+        "r1nkle",
+        "arrozdoce",
+        "ewjerkz"
+      ],
+      "rosterWitness": {
+        "id": 2382110,
+        "day": "2025-04-27",
+        "roster": [
+          "arrozdoce",
+          "ewjerkz",
+          "r1nkle",
+          "sjuush",
+          "Snappi"
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2382110/nrg-vs-ninjas-in-pyjamas-fragadelphia-las-vegas-2025"
+      },
+      "standIn": null,
+      "changes": null,
+      "points": 977,
+      "rank": 44,
+      "ratingTeam": "Ninjas in Pyjamas",
+      "vrsRoster": [
+        "arrozdoce",
+        "ewjerkz",
+        "r1nkle",
+        "sjuush",
+        "Snappi"
+      ],
+      "overlap": 5,
+      "seedRank": 185,
+      "seedRatingTeam": "Ninjas in Pyjamas",
+      "seedRoster": [
+        "ewjerkz",
+        "JACKZ",
+        "r1nkle",
+        "sjuush",
+        "Snappi"
+      ],
+      "seedOverlap": 4,
+      "seed": 16
+    }
+  ],
+  "entrants": [
+    "Spirit",
+    "The MongolZ",
+    "Aurora",
+    "G2",
+    "Natus Vincere",
+    "Astralis",
+    "paiN",
+    "Virtus.pro",
+    "GamerLegion",
+    "FURIA",
+    "BIG",
+    "MIBR",
+    "M80",
+    "ODDIK",
+    "HOTU",
+    "Ninjas in Pyjamas"
+  ],
+  "seedOrder": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "openingPairs": [
+    [
+      "Aurora",
+      "BIG"
+    ],
+    [
+      "Astralis",
+      "ODDIK"
+    ],
+    [
+      "G2",
+      "MIBR"
+    ],
+    [
+      "The MongolZ",
+      "FURIA"
+    ],
+    [
+      "Virtus.pro",
+      "Ninjas in Pyjamas"
+    ],
+    [
+      "Natus Vincere",
+      "M80"
+    ],
+    [
+      "Spirit",
+      "GamerLegion"
+    ],
+    [
+      "paiN",
+      "HOTU"
+    ]
+  ],
+  "openingSource": "https://www.hltv.org/news/41597/pgl-astana-opening-matchups-revealed",
+  "drawPublishedDay": "2025-05-02",
+  "formatSource": "https://www.hltv.org/news/41628/pgl-astana-teams-format-schedule-prizes-talent-fantasy",
+  "groupStructure": "single_field",
+  "pool": [
+    "Ancient",
+    "Anubis",
+    "Dust2",
+    "Inferno",
+    "Mirage",
+    "Nuke",
+    "Train"
+  ],
+  "rosterApi": "https://news.pglesports.com/api/articles/1749531500230",
+  "rosterHtmlSha256": "ce1192c6b2b1a6c1c76ddc8039c0e5932a9f6351bc652fc1d7ba5ef3e745329d",
+  "rosterPublishedAt": "2025-04-28T11:26:29.404Z",
+  "rosterUpdatedAt": "2025-06-10T05:20:26.786Z",
+  "rankSnapshot": {
+    "asOf": "2025-05-05",
+    "publishedAt": "2025-05-05T16:56:18Z",
+    "sha256": "d3ee81ee607581990a9090f66566e735c6e14f245b322f53121f7207f8d4c5a8",
+    "url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/5426fc070e21ff44d85cf83a73abcddef601aae6/invitation/2025/standings_global_2025_05_05.md"
+  },
+  "seedSnapshot": {
+    "asOf": "2025-03-03",
+    "publishedAt": "2025-03-03T17:49:38Z",
+    "sha256": "44279195ac8808fceb743c7c83252f0cd7e70e3536fa12f67021724e519f23cd",
+    "url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/293e01e588b5e751ee0b306dc2958765dc63dce0/invitation/2025/standings_global_2025_03_03.md"
+  },
+  "bo3Actors": "ABABBA",
+  "priorRuleEvidence": {
+    "PGL Astana 2025 Asia Closed Qualifier": {
+      "counts": {
+        "ABABBA": 2
+      },
+      "example": "https://www.hltv.org/matches/2381137/rare-atom-vs-hotu-pgl-astana-2025-asia-closed-qualifier",
+      "exceptions": []
+    },
+    "PGL Astana 2025 China Closed Qualifier": {
+      "counts": {
+        "ABABBA": 11
+      },
+      "example": "https://www.hltv.org/matches/2380930/rare-atom-vs-steel-helmet-pgl-astana-2025-china-closed-qualifier",
+      "exceptions": []
+    },
+    "PGL Astana 2025 Europe Closed Qualifier": {
+      "counts": {
+        "ABABBA": 58
+      },
+      "example": "https://www.hltv.org/matches/2380908/b8-vs-roler-coaster-pgl-astana-2025-europe-closed-qualifier",
+      "exceptions": []
+    },
+    "PGL Astana 2025 Europe Open Qualifier 1": {
+      "counts": {
+        "ABABBA": 6
+      },
+      "example": "https://www.hltv.org/matches/2380689/lausanne-vs-tnl-pgl-astana-2025-europe-open-qualifier-1",
+      "exceptions": []
+    },
+    "PGL Astana 2025 Europe Open Qualifier 2": {
+      "counts": {
+        "ABABBA": 6
+      },
+      "example": "https://www.hltv.org/matches/2380729/ecstatic-vs-betera-pgl-astana-2025-europe-open-qualifier-2",
+      "exceptions": []
+    },
+    "PGL Astana 2025 Europe Open Qualifier 3": {
+      "counts": {
+        "ABABBA": 6
+      },
+      "example": "https://www.hltv.org/matches/2380835/eyeballers-vs-hesta-pgl-astana-2025-europe-open-qualifier-3",
+      "exceptions": []
+    },
+    "PGL Astana 2025 Europe Open Qualifier 4": {
+      "counts": {
+        "ABABBA": 6
+      },
+      "example": "https://www.hltv.org/matches/2380879/ghoulsw-vs-xi-pgl-astana-2025-europe-open-qualifier-4",
+      "exceptions": []
+    },
+    "PGL Astana 2025 MENA Closed Qualifier": {
+      "counts": {
+        "ABABBA": 6
+      },
+      "example": "https://www.hltv.org/matches/2380924/jijiehao-vs-scarx-pgl-astana-2025-mena-closed-qualifier",
+      "exceptions": []
+    },
+    "PGL Astana 2025 North America Closed Qualifier": {
+      "counts": {
+        "ABABAB": 2,
+        "ABABBA": 49
+      },
+      "example": "https://www.hltv.org/matches/2380954/wildcard-vs-daaku-pgl-astana-2025-north-america-closed-qualifier",
+      "exceptions": [
+        "https://www.hltv.org/matches/2381061/nouns-vs-wanted-goons-pgl-astana-2025-north-america-closed-qualifier",
+        "https://www.hltv.org/matches/2381131/bluejays-vs-nrg-pgl-astana-2025-north-america-closed-qualifier"
+      ]
+    },
+    "PGL Astana 2025 Oceania Closed Qualifier": {
+      "counts": {
+        "ABABBA": 13
+      },
+      "example": "https://www.hltv.org/matches/2380934/only-one-word-vs-vantage-pgl-astana-2025-oceania-closed-qualifier",
+      "exceptions": []
+    },
+    "PGL Astana 2025 Rest of Asia Closed Qualifier": {
+      "counts": {
+        "ABABBA": 14
+      },
+      "example": "https://www.hltv.org/matches/2380926/eruption-vs-hotu-pgl-astana-2025-rest-of-asia-closed-qualifier",
+      "exceptions": []
+    },
+    "PGL Astana 2025 South America Closed Qualifier": {
+      "counts": {
+        "ABABBA": 53
+      },
+      "example": "https://www.hltv.org/matches/2380938/imperial-vs-martians-pgl-astana-2025-south-america-closed-qualifier",
+      "exceptions": []
+    },
+    "PGL Bucharest 2025": {
+      "counts": {
+        "ABABBA": 40
+      },
+      "example": "https://www.hltv.org/matches/2381251/the-mongolz-vs-3dmax-pgl-bucharest-2025",
+      "exceptions": []
+    }
+  },
+  "archiveSource": "https://raw.githubusercontent.com/zugzugs/hltvy/1a00ba2893a63646f0d940e626b6da95d342a187/results.json.gz",
+  "archiveSha256": "750b0da45142fc797eddb708698d14d269237e59784d6a1d066eddba0ba31551"
+}

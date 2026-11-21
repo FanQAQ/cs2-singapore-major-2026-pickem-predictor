@@ -1,0 +1,11 @@
+{
+  "id": "epl23-stage2",
+  "start": "2026-03-06",
+  "entrants": ["FURIA","Spirit","MOUZ","Natus Vincere","The MongolZ","Aurora","FUT","G2","FaZe","Astralis","Legacy","paiN","Monte","HEROIC","3DMAX","B8"],
+  "liveRatings": [1.31,2.13,2.42,4.33,4.64,5.85,6.83,7.93,8.93,9.31,10.42,12.31,12.33,12.83,13.31,14.43],
+  "direct": [0,1,2,3,4,5,8,15],
+  "seeding": "https://pro.eslgaming.com/tour/2026/03/esl-pro-league-season-23-team-seeding-and-live-ratings-stage-2/",
+  "invitations": "https://pro.eslgaming.com/tour/2026/01/esl-pro-league-season-23-team-invites/",
+  "pairing": "https://pro.eslgaming.com/tour/2025/03/esl-live-ratings/",
+  "margin": "https://pro.eslgaming.com/tour/2025/09/epl-s22-team-seeding-and-live-ratings/"
+}

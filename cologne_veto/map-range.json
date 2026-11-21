@@ -1,0 +1,2923 @@
+{
+  "id": "cologne-2026-3",
+  "asOf": "2026-06-10",
+  "start": "2026-06-11",
+  "summary": {
+    "potentialPairs": 120,
+    "triplesPerPair": 35,
+    "verifiedAgainstEngine": 114,
+    "potentialEitherFavorite": 27,
+    "games": 33,
+    "playedEitherFavorite": 12,
+    "upsets": 14,
+    "alwaysUnderdog": 8
+  },
+  "games": [
+    {
+      "id": "cologne:7302561",
+      "winner": "MOUZ",
+      "loser": "Legacy",
+      "base": 0.47362763,
+      "min": 0.38140127,
+      "max": 0.5788112
+    },
+    {
+      "id": "cologne:7302562",
+      "winner": "BetBoom",
+      "loser": "The MongolZ",
+      "base": 0.47687477,
+      "min": 0.45560046,
+      "max": 0.49709377
+    },
+    {
+      "id": "cologne:7302563",
+      "winner": "9z",
+      "loser": "PARIVISION",
+      "base": 0.57427391,
+      "min": 0.55148619,
+      "max": 0.59495293
+    },
+    {
+      "id": "cologne:7302564",
+      "winner": "Aurora",
+      "loser": "Monte",
+      "base": 0.61325896,
+      "min": 0.55346525,
+      "max": 0.6742126
+    },
+    {
+      "id": "cologne:7302565",
+      "winner": "FURIA",
+      "loser": "B8",
+      "base": 0.48224058,
+      "min": 0.42962308,
+      "max": 0.5402756
+    },
+    {
+      "id": "cologne:7302566",
+      "winner": "Spirit",
+      "loser": "Natus Vincere",
+      "base": 0.53716903,
+      "min": 0.49997553,
+      "max": 0.5754394
+    },
+    {
+      "id": "cologne:7302567",
+      "winner": "Falcons",
+      "loser": "G2",
+      "base": 0.63550177,
+      "min": 0.59219143,
+      "max": 0.68074649
+    },
+    {
+      "id": "cologne:7302568",
+      "winner": "Vitality",
+      "loser": "FUT",
+      "base": 0.68192262,
+      "min": 0.6070569,
+      "max": 0.75288226
+    },
+    {
+      "id": "cologne:7302611",
+      "winner": "FURIA",
+      "loser": "MOUZ",
+      "base": 0.3633725,
+      "min": 0.30190125,
+      "max": 0.4277497
+    },
+    {
+      "id": "cologne:7302612",
+      "winner": "9z",
+      "loser": "Vitality",
+      "base": 0.27721171,
+      "min": 0.23808313,
+      "max": 0.32629119
+    },
+    {
+      "id": "cologne:7302613",
+      "winner": "Spirit",
+      "loser": "Aurora",
+      "base": 0.68322147,
+      "min": 0.66596991,
+      "max": 0.70413575
+    },
+    {
+      "id": "cologne:7302614",
+      "winner": "BetBoom",
+      "loser": "Falcons",
+      "base": 0.3035954,
+      "min": 0.27060927,
+      "max": 0.3353013
+    },
+    {
+      "id": "cologne:7302615",
+      "winner": "Natus Vincere",
+      "loser": "Legacy",
+      "base": 0.57353889,
+      "min": 0.49840894,
+      "max": 0.64708022
+    },
+    {
+      "id": "cologne:7302616",
+      "winner": "Monte",
+      "loser": "PARIVISION",
+      "base": 0.51130517,
+      "min": 0.4884977,
+      "max": 0.5327278
+    },
+    {
+      "id": "cologne:7302617",
+      "winner": "G2",
+      "loser": "FUT",
+      "base": 0.50136819,
+      "min": 0.43774992,
+      "max": 0.56602664
+    },
+    {
+      "id": "cologne:7302618",
+      "winner": "The MongolZ",
+      "loser": "B8",
+      "base": 0.5352223,
+      "min": 0.48415895,
+      "max": 0.58521589
+    },
+    {
+      "id": "cologne:7302662",
+      "winner": "Spirit",
+      "loser": "9z",
+      "base": 0.71887455,
+      "min": 0.68149707,
+      "max": 0.75719294
+    },
+    {
+      "id": "cologne:7302663",
+      "winner": "FURIA",
+      "loser": "BetBoom",
+      "base": 0.47016462,
+      "min": 0.45463453,
+      "max": 0.48893736
+    },
+    {
+      "id": "cologne:7302664",
+      "winner": "Legacy",
+      "loser": "PARIVISION",
+      "base": 0.6878442,
+      "min": 0.61473262,
+      "max": 0.75296599
+    },
+    {
+      "id": "cologne:7302665",
+      "winner": "Vitality",
+      "loser": "MOUZ",
+      "base": 0.63688974,
+      "min": 0.58619638,
+      "max": 0.6955977
+    },
+    {
+      "id": "cologne:7302666",
+      "winner": "Falcons",
+      "loser": "Monte",
+      "base": 0.74305345,
+      "min": 0.71739575,
+      "max": 0.7676059
+    },
+    {
+      "id": "cologne:7302667",
+      "winner": "Aurora",
+      "loser": "G2",
+      "base": 0.49104149,
+      "min": 0.4369881,
+      "max": 0.54693362
+    },
+    {
+      "id": "cologne:7302668",
+      "winner": "FUT",
+      "loser": "B8",
+      "base": 0.58224191,
+      "min": 0.51802885,
+      "max": 0.64640835
+    },
+    {
+      "id": "cologne:7302669",
+      "winner": "Natus Vincere",
+      "loser": "The MongolZ",
+      "base": 0.6883805,
+      "min": 0.66389704,
+      "max": 0.71046026
+    },
+    {
+      "id": "cologne:7302731",
+      "winner": "G2",
+      "loser": "Legacy",
+      "base": 0.43560672,
+      "min": 0.3946404,
+      "max": 0.48493363
+    },
+    {
+      "id": "cologne:7302732",
+      "winner": "Falcons",
+      "loser": "Natus Vincere",
+      "base": 0.48925742,
+      "min": 0.46212804,
+      "max": 0.51448691
+    },
+    {
+      "id": "cologne:7302733",
+      "winner": "Aurora",
+      "loser": "9z",
+      "base": 0.54935094,
+      "min": 0.48076412,
+      "max": 0.61668889
+    },
+    {
+      "id": "cologne:7302734",
+      "winner": "Vitality",
+      "loser": "BetBoom",
+      "base": 0.73733735,
+      "min": 0.67969342,
+      "max": 0.78391011
+    },
+    {
+      "id": "cologne:7302735",
+      "winner": "The MongolZ",
+      "loser": "Monte",
+      "base": 0.57665573,
+      "min": 0.54284331,
+      "max": 0.61095566
+    },
+    {
+      "id": "cologne:7302736",
+      "winner": "FUT",
+      "loser": "MOUZ",
+      "base": 0.45295718,
+      "min": 0.40032202,
+      "max": 0.50083659
+    },
+    {
+      "id": "cologne:7302759",
+      "winner": "G2",
+      "loser": "Natus Vincere",
+      "base": 0.35358647,
+      "min": 0.31616961,
+      "max": 0.38680921
+    },
+    {
+      "id": "cologne:7302760",
+      "winner": "BetBoom",
+      "loser": "FUT",
+      "base": 0.42961939,
+      "min": 0.37504324,
+      "max": 0.48480669
+    },
+    {
+      "id": "cologne:7302761",
+      "winner": "9z",
+      "loser": "The MongolZ",
+      "base": 0.49667359,
+      "min": 0.44885315,
+      "max": 0.5448404
+    }
+  ],
+  "pairs": [
+    {
+      "a": "Vitality",
+      "b": "Natus Vincere",
+      "base": 0.54223401,
+      "min": {
+        "p": 0.49139266,
+        "maps": [
+          "Anubis",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.58969291,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Vitality",
+      "b": "Falcons",
+      "base": 0.55264195,
+      "min": {
+        "p": 0.49300317,
+        "maps": [
+          "Anubis",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.61194221,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Vitality",
+      "b": "The MongolZ",
+      "base": 0.72209208,
+      "min": {
+        "p": 0.69881938,
+        "maps": [
+          "Anubis",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.74790767,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Vitality",
+      "b": "PARIVISION",
+      "base": 0.78366621,
+      "min": {
+        "p": 0.75638923,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.80971608,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Vitality",
+      "b": "Aurora",
+      "base": 0.68735093,
+      "min": {
+        "p": 0.63050844,
+        "maps": [
+          "Anubis",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "max": {
+        "p": 0.74047269,
+        "maps": [
+          "Dust2",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Vitality",
+      "b": "FURIA",
+      "base": 0.75691876,
+      "min": {
+        "p": 0.72884539,
+        "maps": [
+          "Anubis",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.78542702,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Vitality",
+      "b": "MOUZ",
+      "base": 0.63688974,
+      "min": {
+        "p": 0.58619638,
+        "maps": [
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.6955977,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Vitality",
+      "b": "FUT",
+      "base": 0.68192262,
+      "min": {
+        "p": 0.6070569,
+        "maps": [
+          "Anubis",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.75288226,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Vitality",
+      "b": "Spirit",
+      "base": 0.50478238,
+      "min": {
+        "p": 0.43983075,
+        "maps": [
+          "Anubis",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.56970771,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Vitality",
+      "b": "G2",
+      "base": 0.68212026,
+      "min": {
+        "p": 0.63734672,
+        "maps": [
+          "Anubis",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.72754227,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Vitality",
+      "b": "BetBoom",
+      "base": 0.73733735,
+      "min": {
+        "p": 0.67969342,
+        "maps": [
+          "Anubis",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.78391011,
+        "maps": [
+          "Dust2",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Vitality",
+      "b": "9z",
+      "base": 0.72278829,
+      "min": {
+        "p": 0.67370881,
+        "maps": [
+          "Anubis",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.76191687,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Vitality",
+      "b": "Monte",
+      "base": 0.78047386,
+      "min": {
+        "p": 0.74018222,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.81607343,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Vitality",
+      "b": "B8",
+      "base": 0.7468547,
+      "min": {
+        "p": 0.68634579,
+        "maps": [
+          "Anubis",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.79970245,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Vitality",
+      "b": "Legacy",
+      "base": 0.61258104,
+      "min": {
+        "p": 0.51243485,
+        "maps": [
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.71172335,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "Falcons",
+      "base": 0.51074258,
+      "min": {
+        "p": 0.48551309,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.53787196,
+        "maps": [
+          "Anubis",
+          "Inferno",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "The MongolZ",
+      "base": 0.6883805,
+      "min": {
+        "p": 0.66389704,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "max": {
+        "p": 0.71046026,
+        "maps": [
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "PARIVISION",
+      "base": 0.75597845,
+      "min": {
+        "p": 0.73560472,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "max": {
+        "p": 0.77685351,
+        "maps": [
+          "Anubis",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "Aurora",
+      "base": 0.65221999,
+      "min": {
+        "p": 0.6067136,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "max": {
+        "p": 0.69411399,
+        "maps": [
+          "Anubis",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "FURIA",
+      "base": 0.72615378,
+      "min": {
+        "p": 0.69983846,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.75234936,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "MOUZ",
+      "base": 0.59888419,
+      "min": {
+        "p": 0.56935078,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.63087755,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "FUT",
+      "base": 0.64648632,
+      "min": {
+        "p": 0.6266589,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.66188516,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "Spirit",
+      "base": 0.46283097,
+      "min": {
+        "p": 0.4245606,
+        "maps": [
+          "Dust2",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.50002447,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "G2",
+      "base": 0.64641353,
+      "min": {
+        "p": 0.61319079,
+        "maps": [
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.68383039,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "BetBoom",
+      "base": 0.70689944,
+      "min": {
+        "p": 0.68140149,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.73176329,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "9z",
+      "base": 0.69049599,
+      "min": {
+        "p": 0.64329659,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.73510122,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "Monte",
+      "base": 0.75243592,
+      "min": {
+        "p": 0.72666204,
+        "maps": [
+          "Ancient",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.7770959,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "B8",
+      "base": 0.71692705,
+      "min": {
+        "p": 0.65991976,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.76768509,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "Legacy",
+      "base": 0.57353889,
+      "min": {
+        "p": 0.49840894,
+        "maps": [
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.64708022,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Falcons",
+      "b": "The MongolZ",
+      "base": 0.67838947,
+      "min": {
+        "p": 0.63858673,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "max": {
+        "p": 0.71590981,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Falcons",
+      "b": "PARIVISION",
+      "base": 0.74699476,
+      "min": {
+        "p": 0.71888694,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "max": {
+        "p": 0.77368323,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Falcons",
+      "b": "Aurora",
+      "base": 0.64148629,
+      "min": {
+        "p": 0.58579953,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "max": {
+        "p": 0.69191128,
+        "maps": [
+          "Anubis",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Falcons",
+      "b": "FURIA",
+      "base": 0.71671306,
+      "min": {
+        "p": 0.68305822,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.75066632,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Falcons",
+      "b": "MOUZ",
+      "base": 0.58795676,
+      "min": {
+        "p": 0.5698282,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Mirage"
+        ]
+      },
+      "max": {
+        "p": 0.60973549,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Falcons",
+      "b": "FUT",
+      "base": 0.63555526,
+      "min": {
+        "p": 0.62466454,
+        "maps": [
+          "Anubis",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.64458983,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Falcons",
+      "b": "Spirit",
+      "base": 0.45225535,
+      "min": {
+        "p": 0.42421439,
+        "maps": [
+          "Dust2",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.48177847,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Falcons",
+      "b": "G2",
+      "base": 0.63550177,
+      "min": {
+        "p": 0.59219143,
+        "maps": [
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.68074649,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Falcons",
+      "b": "BetBoom",
+      "base": 0.6964046,
+      "min": {
+        "p": 0.6646987,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "max": {
+        "p": 0.72939073,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Falcons",
+      "b": "9z",
+      "base": 0.67999436,
+      "min": {
+        "p": 0.62479241,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.73291517,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Falcons",
+      "b": "Monte",
+      "base": 0.74305345,
+      "min": {
+        "p": 0.71739575,
+        "maps": [
+          "Anubis",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.7676059,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Falcons",
+      "b": "B8",
+      "base": 0.70671488,
+      "min": {
+        "p": 0.6417702,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.76551268,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Falcons",
+      "b": "Legacy",
+      "base": 0.56244994,
+      "min": {
+        "p": 0.48127676,
+        "maps": [
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.64304367,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "The MongolZ",
+      "b": "PARIVISION",
+      "base": 0.584652,
+      "min": {
+        "p": 0.56663901,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2"
+        ]
+      },
+      "max": {
+        "p": 0.60669172,
+        "maps": [
+          "Inferno",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "The MongolZ",
+      "b": "Aurora",
+      "base": 0.45994248,
+      "min": {
+        "p": 0.42855901,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "max": {
+        "p": 0.48965092,
+        "maps": [
+          "Anubis",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "The MongolZ",
+      "b": "FURIA",
+      "base": 0.5454462,
+      "min": {
+        "p": 0.50181101,
+        "maps": [
+          "Anubis",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.58694733,
+        "maps": [
+          "Ancient",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "The MongolZ",
+      "b": "MOUZ",
+      "base": 0.40586604,
+      "min": {
+        "p": 0.34379817,
+        "maps": [
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.47670312,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "The MongolZ",
+      "b": "FUT",
+      "base": 0.45271402,
+      "min": {
+        "p": 0.40849777,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.49572158,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "The MongolZ",
+      "b": "Spirit",
+      "base": 0.28197434,
+      "min": {
+        "p": 0.24820681,
+        "maps": [
+          "Dust2",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.31405444,
+        "maps": [
+          "Ancient",
+          "Inferno",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "The MongolZ",
+      "b": "G2",
+      "base": 0.45173906,
+      "min": {
+        "p": 0.39318004,
+        "maps": [
+          "Anubis",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.51009453,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "The MongolZ",
+      "b": "BetBoom",
+      "base": 0.52312523,
+      "min": {
+        "p": 0.50290623,
+        "maps": [
+          "Anubis",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.54439954,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "The MongolZ",
+      "b": "9z",
+      "base": 0.50332641,
+      "min": {
+        "p": 0.4551596,
+        "maps": [
+          "Dust2",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.55114685,
+        "maps": [
+          "Ancient",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "The MongolZ",
+      "b": "Monte",
+      "base": 0.57665573,
+      "min": {
+        "p": 0.54284331,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.61095566,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "The MongolZ",
+      "b": "B8",
+      "base": 0.5352223,
+      "min": {
+        "p": 0.48415895,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.58521589,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "The MongolZ",
+      "b": "Legacy",
+      "base": 0.38047239,
+      "min": {
+        "p": 0.29034024,
+        "maps": [
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.47554322,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "PARIVISION",
+      "b": "Aurora",
+      "base": 0.3773967,
+      "min": {
+        "p": 0.33431218,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "max": {
+        "p": 0.41375825,
+        "maps": [
+          "Anubis",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "PARIVISION",
+      "b": "FURIA",
+      "base": 0.46772166,
+      "min": {
+        "p": 0.4569183,
+        "maps": [
+          "Anubis",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.4803046,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "PARIVISION",
+      "b": "MOUZ",
+      "base": 0.3280548,
+      "min": {
+        "p": 0.28648438,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Mirage"
+        ]
+      },
+      "max": {
+        "p": 0.37331933,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "PARIVISION",
+      "b": "FUT",
+      "base": 0.36975426,
+      "min": {
+        "p": 0.34282279,
+        "maps": [
+          "Anubis",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "max": {
+        "p": 0.39320459,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "PARIVISION",
+      "b": "Spirit",
+      "base": 0.21957429,
+      "min": {
+        "p": 0.1913722,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "max": {
+        "p": 0.24839506,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "PARIVISION",
+      "b": "G2",
+      "base": 0.36834019,
+      "min": {
+        "p": 0.31421673,
+        "maps": [
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.42612007,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "PARIVISION",
+      "b": "BetBoom",
+      "base": 0.43713623,
+      "min": {
+        "p": 0.41927337,
+        "maps": [
+          "Anubis",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "max": {
+        "p": 0.45434525,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "PARIVISION",
+      "b": "9z",
+      "base": 0.42572609,
+      "min": {
+        "p": 0.40504707,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "max": {
+        "p": 0.44851381,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "PARIVISION",
+      "b": "Monte",
+      "base": 0.48869483,
+      "min": {
+        "p": 0.4672722,
+        "maps": [
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.5115023,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "PARIVISION",
+      "b": "B8",
+      "base": 0.44924275,
+      "min": {
+        "p": 0.40893559,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "max": {
+        "p": 0.49034037,
+        "maps": [
+          "Ancient",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "PARIVISION",
+      "b": "Legacy",
+      "base": 0.3121558,
+      "min": {
+        "p": 0.24703401,
+        "maps": [
+          "Anubis",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "max": {
+        "p": 0.38526738,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Aurora",
+      "b": "FURIA",
+      "base": 0.59124925,
+      "min": {
+        "p": 0.52260704,
+        "maps": [
+          "Ancient",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.65824246,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Aurora",
+      "b": "MOUZ",
+      "base": 0.44559148,
+      "min": {
+        "p": 0.36776364,
+        "maps": [
+          "Ancient",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.52764535,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Aurora",
+      "b": "FUT",
+      "base": 0.49222551,
+      "min": {
+        "p": 0.44674054,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.53504702,
+        "maps": [
+          "Dust2",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Aurora",
+      "b": "Spirit",
+      "base": 0.31677853,
+      "min": {
+        "p": 0.29586425,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.33403009,
+        "maps": [
+          "Anubis",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Aurora",
+      "b": "G2",
+      "base": 0.49104149,
+      "min": {
+        "p": 0.4369881,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.54693362,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Aurora",
+      "b": "BetBoom",
+      "base": 0.56163934,
+      "min": {
+        "p": 0.50060842,
+        "maps": [
+          "Anubis",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.61795073,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Aurora",
+      "b": "9z",
+      "base": 0.54935094,
+      "min": {
+        "p": 0.48076412,
+        "maps": [
+          "Ancient",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.61668889,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Aurora",
+      "b": "Monte",
+      "base": 0.61325896,
+      "min": {
+        "p": 0.55346525,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.6742126,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Aurora",
+      "b": "B8",
+      "base": 0.57369387,
+      "min": {
+        "p": 0.52190395,
+        "maps": [
+          "Inferno",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.61964444,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Aurora",
+      "b": "Legacy",
+      "base": 0.42672704,
+      "min": {
+        "p": 0.35837131,
+        "maps": [
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.48760809,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "FURIA",
+      "b": "MOUZ",
+      "base": 0.3633725,
+      "min": {
+        "p": 0.30190125,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.4277497,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "FURIA",
+      "b": "FUT",
+      "base": 0.40045568,
+      "min": {
+        "p": 0.34485775,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.45783642,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "FURIA",
+      "b": "Spirit",
+      "base": 0.24681578,
+      "min": {
+        "p": 0.21048506,
+        "maps": [
+          "Dust2",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.28378472,
+        "maps": [
+          "Ancient",
+          "Inferno",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "FURIA",
+      "b": "G2",
+      "base": 0.39928109,
+      "min": {
+        "p": 0.35311894,
+        "maps": [
+          "Anubis",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.44289772,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "FURIA",
+      "b": "BetBoom",
+      "base": 0.47016462,
+      "min": {
+        "p": 0.45463453,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Mirage"
+        ]
+      },
+      "max": {
+        "p": 0.48893736,
+        "maps": [
+          "Ancient",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "FURIA",
+      "b": "9z",
+      "base": 0.45815202,
+      "min": {
+        "p": 0.43183261,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.48470116,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "FURIA",
+      "b": "Monte",
+      "base": 0.52322951,
+      "min": {
+        "p": 0.49324589,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.55102941,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "FURIA",
+      "b": "B8",
+      "base": 0.48224058,
+      "min": {
+        "p": 0.42962308,
+        "maps": [
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.5402756,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "FURIA",
+      "b": "Legacy",
+      "base": 0.33900674,
+      "min": {
+        "p": 0.26153445,
+        "maps": [
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.42175993,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "MOUZ",
+      "b": "FUT",
+      "base": 0.54704282,
+      "min": {
+        "p": 0.49916341,
+        "maps": [
+          "Dust2",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.59967798,
+        "maps": [
+          "Ancient",
+          "Inferno",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "MOUZ",
+      "b": "Spirit",
+      "base": 0.36734465,
+      "min": {
+        "p": 0.31413336,
+        "maps": [
+          "Dust2",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.42550373,
+        "maps": [
+          "Ancient",
+          "Inferno",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "MOUZ",
+      "b": "G2",
+      "base": 0.5463981,
+      "min": {
+        "p": 0.50288141,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "max": {
+        "p": 0.58726284,
+        "maps": [
+          "Ancient",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "MOUZ",
+      "b": "BetBoom",
+      "base": 0.61308889,
+      "min": {
+        "p": 0.56287555,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.6693662,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "MOUZ",
+      "b": "9z",
+      "base": 0.59503662,
+      "min": {
+        "p": 0.50275115,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.68348453,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "MOUZ",
+      "b": "Monte",
+      "base": 0.66429147,
+      "min": {
+        "p": 0.62561109,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.69812553,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "MOUZ",
+      "b": "B8",
+      "base": 0.62485207,
+      "min": {
+        "p": 0.51657535,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.72523747,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "MOUZ",
+      "b": "Legacy",
+      "base": 0.47362763,
+      "min": {
+        "p": 0.38140127,
+        "maps": [
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.5788112,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "FUT",
+      "b": "Spirit",
+      "base": 0.32239513,
+      "min": {
+        "p": 0.29142914,
+        "maps": [
+          "Dust2",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.35498595,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Nuke"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "FUT",
+      "b": "G2",
+      "base": 0.49863181,
+      "min": {
+        "p": 0.43397336,
+        "maps": [
+          "Inferno",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.56225008,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "FUT",
+      "b": "BetBoom",
+      "base": 0.57038061,
+      "min": {
+        "p": 0.51519331,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.62495676,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "FUT",
+      "b": "9z",
+      "base": 0.55857424,
+      "min": {
+        "p": 0.49433175,
+        "maps": [
+          "Dust2",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.62273222,
+        "maps": [
+          "Ancient",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "FUT",
+      "b": "Monte",
+      "base": 0.62091998,
+      "min": {
+        "p": 0.60215917,
+        "maps": [
+          "Ancient",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.64434021,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "FUT",
+      "b": "B8",
+      "base": 0.58224191,
+      "min": {
+        "p": 0.51802885,
+        "maps": [
+          "Dust2",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.64640835,
+        "maps": [
+          "Ancient",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "FUT",
+      "b": "Legacy",
+      "base": 0.43498118,
+      "min": {
+        "p": 0.35710978,
+        "maps": [
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.51506067,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Spirit",
+      "b": "G2",
+      "base": 0.67766258,
+      "min": {
+        "p": 0.63575713,
+        "maps": [
+          "Inferno",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.71669528,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Spirit",
+      "b": "BetBoom",
+      "base": 0.73368488,
+      "min": {
+        "p": 0.68864704,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.7759046,
+        "maps": [
+          "Dust2",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Spirit",
+      "b": "9z",
+      "base": 0.71887455,
+      "min": {
+        "p": 0.68149707,
+        "maps": [
+          "Ancient",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.75719294,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Spirit",
+      "b": "Monte",
+      "base": 0.77679515,
+      "min": {
+        "p": 0.7448062,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.80845015,
+        "maps": [
+          "Dust2",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Spirit",
+      "b": "B8",
+      "base": 0.74327584,
+      "min": {
+        "p": 0.7102787,
+        "maps": [
+          "Anubis",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.7773962,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Spirit",
+      "b": "Legacy",
+      "base": 0.60815031,
+      "min": {
+        "p": 0.53972611,
+        "maps": [
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.6769444,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "G2",
+      "b": "BetBoom",
+      "base": 0.57248423,
+      "min": {
+        "p": 0.49795956,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Dust2"
+        ]
+      },
+      "max": {
+        "p": 0.6455103,
+        "maps": [
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 0
+    },
+    {
+      "a": "G2",
+      "b": "9z",
+      "base": 0.56026819,
+      "min": {
+        "p": 0.50131105,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "max": {
+        "p": 0.6237131,
+        "maps": [
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "G2",
+      "b": "Monte",
+      "base": 0.62292767,
+      "min": {
+        "p": 0.57568059,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Inferno"
+        ]
+      },
+      "max": {
+        "p": 0.66655547,
+        "maps": [
+          "Dust2",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 0
+    },
+    {
+      "a": "G2",
+      "b": "B8",
+      "base": 0.58422327,
+      "min": {
+        "p": 0.52320364,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "max": {
+        "p": 0.64901414,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 0
+    },
+    {
+      "a": "G2",
+      "b": "Legacy",
+      "base": 0.43560672,
+      "min": {
+        "p": 0.3946404,
+        "maps": [
+          "Anubis",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "max": {
+        "p": 0.48493363,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "BetBoom",
+      "b": "9z",
+      "base": 0.48786142,
+      "min": {
+        "p": 0.45994932,
+        "maps": [
+          "Dust2",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.51398294,
+        "maps": [
+          "Ancient",
+          "Inferno",
+          "Mirage"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "BetBoom",
+      "b": "Monte",
+      "base": 0.54901251,
+      "min": {
+        "p": 0.51104392,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.58727053,
+        "maps": [
+          "Anubis",
+          "Dust2",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 0
+    },
+    {
+      "a": "BetBoom",
+      "b": "B8",
+      "base": 0.5122354,
+      "min": {
+        "p": 0.4749511,
+        "maps": [
+          "Dust2",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.5481265,
+        "maps": [
+          "Ancient",
+          "Inferno",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 0
+    },
+    {
+      "a": "BetBoom",
+      "b": "Legacy",
+      "base": 0.36943923,
+      "min": {
+        "p": 0.2881331,
+        "maps": [
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.45277626,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "9z",
+      "b": "Monte",
+      "base": 0.56283057,
+      "min": {
+        "p": 0.52077855,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Mirage"
+        ]
+      },
+      "max": {
+        "p": 0.60385387,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "9z",
+      "b": "B8",
+      "base": 0.52428921,
+      "min": {
+        "p": 0.48272109,
+        "maps": [
+          "Inferno",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.5660947,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "9z",
+      "b": "Legacy",
+      "base": 0.3792471,
+      "min": {
+        "p": 0.30152683,
+        "maps": [
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.46070861,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "Monte",
+      "b": "B8",
+      "base": 0.46265812,
+      "min": {
+        "p": 0.40824507,
+        "maps": [
+          "Dust2",
+          "Inferno",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.51537426,
+        "maps": [
+          "Ancient",
+          "Mirage",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 0
+    },
+    {
+      "a": "Monte",
+      "b": "Legacy",
+      "base": 0.31929993,
+      "min": {
+        "p": 0.26008194,
+        "maps": [
+          "Dust2",
+          "Mirage",
+          "Nuke"
+        ]
+      },
+      "max": {
+        "p": 0.38804031,
+        "maps": [
+          "Ancient",
+          "Anubis",
+          "Overpass"
+        ]
+      },
+      "crossCheckedMaps": 7
+    },
+    {
+      "a": "B8",
+      "b": "Legacy",
+      "base": 0.3579457,
+      "min": {
+        "p": 0.29817966,
+        "maps": [
+          "Mirage",
+          "Nuke",
+          "Overpass"
+        ]
+      },
+      "max": {
+        "p": 0.42180348,
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Inferno"
+        ]
+      },
+      "crossCheckedMaps": 7
+    }
+  ]
+}

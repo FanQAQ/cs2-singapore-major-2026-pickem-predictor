@@ -1,0 +1,4916 @@
+{
+  "austin": {
+    "date": "2025-06-02",
+    "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/standings_global_2025_06_02.md",
+    "teams": {
+      "3DMAX": {
+        "name": "3DMAX",
+        "points": 1585,
+        "rank": 12,
+        "roster": [
+          "Maka",
+          "Ex3rcice",
+          "Lucky",
+          "Graviti",
+          "bodyy"
+        ],
+        "vrsRoster": [
+          "bodyy",
+          "Ex3rcice",
+          "Graviti",
+          "Lucky",
+          "Maka"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0719649,
+        "strong": 0.2027855,
+        "weak": 0.009721,
+        "n": 15,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 15
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 15
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 7,
+            "w": 4
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Aurora": {
+        "name": "Aurora",
+        "points": 1742,
+        "rank": 6,
+        "roster": [
+          "MAJ3R",
+          "XANTARES",
+          "jottAAA",
+          "Wicadia",
+          "woxic"
+        ],
+        "vrsRoster": [
+          "jottAAA",
+          "MAJ3R",
+          "Wicadia",
+          "woxic",
+          "XANTARES"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.1529726,
+        "strong": -0.0486389,
+        "weak": -0.2264474,
+        "n": 28,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 28
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 28
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 17,
+            "w": 11
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "B8": {
+        "name": "B8",
+        "points": 1275,
+        "rank": 20,
+        "roster": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ],
+        "vrsRoster": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0460344,
+        "strong": 0.1123631,
+        "weak": -0.0159874,
+        "n": 28,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 29
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 28
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        },
+        "format": {
+          "bo1": {
+            "n": 2,
+            "w": 0
+          },
+          "bo3": {
+            "n": 12,
+            "w": 9
+          },
+          "tilt": 0.3748281,
+          "tiltSE": 0.5593631
+        }
+      },
+      "BetBoom": {
+        "name": "BetBoom",
+        "points": 1102,
+        "rank": 36,
+        "roster": [
+          "Ax1Le",
+          "Boombl4",
+          "Magnojez",
+          "S1ren",
+          "zorte"
+        ],
+        "vrsRoster": [
+          "Ax1Le",
+          "Boombl4",
+          "Magnojez",
+          "S1ren",
+          "zorte"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0129607,
+        "strong": 0.1465529,
+        "weak": -0.1156069,
+        "n": 37,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 39
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 37
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 2
+        },
+        "format": {
+          "bo1": {
+            "n": 5,
+            "w": 5
+          },
+          "bo3": {
+            "n": 15,
+            "w": 8
+          },
+          "tilt": -0.5293918,
+          "tiltSE": 0.5278742
+        }
+      },
+      "Chinggis Warriors": {
+        "name": "Chinggis Warriors",
+        "points": 1087,
+        "rank": 40,
+        "roster": [
+          "ariucle",
+          "controlez",
+          "cool4st",
+          "Efire",
+          "ROUX"
+        ],
+        "vrsRoster": [
+          "ariucle",
+          "controlez",
+          "cool4st",
+          "Efire",
+          "ROUX"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.1061865,
+        "strong": 0.0229357,
+        "weak": -0.2508949,
+        "n": 24,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 31,
+            "5": 14
+          },
+          "retained": {
+            "3": 0,
+            "4": 15,
+            "5": 9
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 21
+        },
+        "format": {
+          "bo1": {
+            "n": 1,
+            "w": 0
+          },
+          "bo3": {
+            "n": 8,
+            "w": 3
+          },
+          "tilt": 0.1403766,
+          "tiltSE": 0.5781742
+        }
+      },
+      "Complexity": {
+        "name": "Complexity",
+        "points": 1433,
+        "rank": 17,
+        "roster": [
+          "Cxzi",
+          "Grim",
+          "junior",
+          "JT",
+          "nicx"
+        ],
+        "vrsRoster": [
+          "Cxzi",
+          "Grim",
+          "hallzerk",
+          "JT",
+          "nicx"
+        ],
+        "vrsCoreOverlap": 4,
+        "form": 0.3046107,
+        "strong": 0.3207331,
+        "weak": 0.1289437,
+        "n": 21,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 23,
+            "5": 0
+          },
+          "retained": {
+            "3": 0,
+            "4": 21,
+            "5": 0
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 2
+        },
+        "format": {
+          "bo1": {
+            "n": 3,
+            "w": 3
+          },
+          "bo3": {
+            "n": 9,
+            "w": 6
+          },
+          "tilt": -0.129632,
+          "tiltSE": 0.5653284
+        }
+      },
+      "FURIA": {
+        "name": "FURIA",
+        "points": 1443,
+        "rank": 16,
+        "roster": [
+          "FalleN",
+          "yuurih",
+          "KSCERATO",
+          "YEKINDAR",
+          "molodoy"
+        ],
+        "vrsRoster": [
+          "FalleN",
+          "KSCERATO",
+          "molodoy",
+          "YEKINDAR",
+          "yuurih"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0128777,
+        "strong": 0.0238418,
+        "weak": -0.1425084,
+        "n": 21,
+        "coreAudit": {
+          "candidates": {
+            "3": 11,
+            "4": 0,
+            "5": 10
+          },
+          "retained": {
+            "3": 11,
+            "4": 0,
+            "5": 10
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 19,
+            "w": 7
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "FaZe": {
+        "name": "FaZe",
+        "points": 1609,
+        "rank": 10,
+        "roster": [
+          "karrigan",
+          "s1mple",
+          "EliGE",
+          "frozen",
+          "rain"
+        ],
+        "vrsRoster": [
+          "EliGE",
+          "frozen",
+          "karrigan",
+          "s1mple",
+          "skullz"
+        ],
+        "vrsCoreOverlap": 4,
+        "form": -0.2038498,
+        "strong": -0.1010323,
+        "weak": -0.1673742,
+        "n": 21,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 21,
+            "5": 0
+          },
+          "retained": {
+            "3": 0,
+            "4": 21,
+            "5": 0
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 18,
+            "w": 8
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Falcons": {
+        "name": "Falcons",
+        "points": 1888,
+        "rank": 4,
+        "roster": [
+          "NiKo",
+          "kyxsan",
+          "m0NESY",
+          "TeSeS",
+          "Magisk"
+        ],
+        "vrsRoster": [
+          "kyxsan",
+          "m0NESY",
+          "Magisk",
+          "NiKo",
+          "TeSeS"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0095972,
+        "strong": 0.1937276,
+        "weak": -0.1180175,
+        "n": 31,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 16,
+            "5": 15
+          },
+          "retained": {
+            "3": 0,
+            "4": 16,
+            "5": 15
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 26,
+            "w": 18
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Fluxo": {
+        "name": "Fluxo",
+        "points": 999,
+        "rank": 55,
+        "roster": [
+          "arT",
+          "kye",
+          "mlhzin",
+          "piriajr",
+          "zevy"
+        ],
+        "vrsRoster": [
+          "arT",
+          "kye",
+          "mlhzin",
+          "piriajr",
+          "zevy"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0115778,
+        "strong": -0.0979661,
+        "weak": -0.1063398,
+        "n": 25,
+        "coreAudit": {
+          "candidates": {
+            "3": 2,
+            "4": 10,
+            "5": 27
+          },
+          "retained": {
+            "3": 0,
+            "4": 4,
+            "5": 21
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 14
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 3,
+            "w": 2
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "FlyQuest": {
+        "name": "FlyQuest",
+        "points": 1213,
+        "rank": 24,
+        "roster": [
+          "INS",
+          "Liazz",
+          "nettik",
+          "regali",
+          "Vexite"
+        ],
+        "vrsRoster": [
+          "INS",
+          "Liazz",
+          "nettik",
+          "regali",
+          "Vexite"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0878058,
+        "strong": 0.093051,
+        "weak": -0.0435857,
+        "n": 14,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 1,
+            "5": 13
+          },
+          "retained": {
+            "3": 0,
+            "4": 1,
+            "5": 13
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 12,
+            "w": 6
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "G2": {
+        "name": "G2",
+        "points": 1636,
+        "rank": 7,
+        "roster": [
+          "Snax",
+          "huNter-",
+          "malbsMd",
+          "HeavyGod",
+          "hades"
+        ],
+        "vrsRoster": [
+          "hades",
+          "HeavyGod",
+          "huNter-",
+          "malbsMd",
+          "Snax"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.1602324,
+        "strong": 0.0,
+        "weak": -0.1056065,
+        "n": 26,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 22,
+            "5": 4
+          },
+          "retained": {
+            "3": 0,
+            "4": 22,
+            "5": 4
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 22,
+            "w": 15
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "HEROIC": {
+        "name": "HEROIC",
+        "points": 1552,
+        "rank": 13,
+        "roster": [
+          "LNZ",
+          "SunPayus",
+          "tN1R",
+          "xfl0ud",
+          "yxngstxr"
+        ],
+        "vrsRoster": [
+          "LNZ",
+          "SunPayus",
+          "tN1R",
+          "xfl0ud",
+          "yxngstxr"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.2282539,
+        "strong": 0.1727272,
+        "weak": 0.0916828,
+        "n": 21,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 22
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 21
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        },
+        "format": {
+          "bo1": {
+            "n": 2,
+            "w": 2
+          },
+          "bo3": {
+            "n": 13,
+            "w": 10
+          },
+          "tilt": -0.1220081,
+          "tiltSE": 0.5713776
+        }
+      },
+      "Imperial": {
+        "name": "Imperial",
+        "points": 1074,
+        "rank": 41,
+        "roster": [
+          "chayJESUS",
+          "decenty",
+          "noway",
+          "try",
+          "VINI"
+        ],
+        "vrsRoster": [
+          "chayJESUS",
+          "decenty",
+          "noway",
+          "try",
+          "VINI"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0332816,
+        "strong": -0.016336,
+        "weak": 0.0942343,
+        "n": 13,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 13
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 5
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 8,
+            "w": 5
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Legacy": {
+        "name": "Legacy",
+        "points": 1035,
+        "rank": 49,
+        "roster": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ],
+        "vrsRoster": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0523705,
+        "strong": 0.1288928,
+        "weak": 0.016023,
+        "n": 31,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 46
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 31
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 15
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 13,
+            "w": 6
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Liquid": {
+        "name": "Liquid",
+        "points": 1538,
+        "rank": 14,
+        "roster": [
+          "Twistzz",
+          "ultimate",
+          "NertZ",
+          "siuhy",
+          "NAF"
+        ],
+        "vrsRoster": [
+          "NAF",
+          "NertZ",
+          "siuhy",
+          "Twistzz",
+          "ultimate"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0592819,
+        "strong": 0.0656458,
+        "weak": -0.0903243,
+        "n": 20,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 9,
+            "5": 11
+          },
+          "retained": {
+            "3": 0,
+            "4": 9,
+            "5": 11
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 16,
+            "w": 5
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Lynn Vision": {
+        "name": "Lynn Vision",
+        "points": 1212,
+        "rank": 25,
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4kr"
+        ],
+        "vrsRoster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4kr"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0634986,
+        "strong": 0.1848266,
+        "weak": -0.0438981,
+        "n": 18,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 32
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 14
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 9,
+            "w": 5
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "M80": {
+        "name": "M80",
+        "points": 1029,
+        "rank": 50,
+        "roster": [
+          "reck",
+          "Lake",
+          "Swisher",
+          "slaxz-",
+          "s1n"
+        ],
+        "vrsRoster": [
+          "Lake",
+          "reck",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.1613349,
+        "strong": 0.1091305,
+        "weak": 0.0889218,
+        "n": 11,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 13
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 11
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 2
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 9,
+            "w": 3
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "MIBR": {
+        "name": "MIBR",
+        "points": 1352,
+        "rank": 19,
+        "roster": [
+          "exit",
+          "insani",
+          "Lucaozy",
+          "brnz4n",
+          "saffee"
+        ],
+        "vrsRoster": [
+          "brnz4n",
+          "exit",
+          "insani",
+          "Lucaozy",
+          "saffee"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0998523,
+        "strong": 0.2176849,
+        "weak": 0.0,
+        "n": 12,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 12
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 12
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 9,
+            "w": 4
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "MOUZ": {
+        "name": "MOUZ",
+        "points": 1922,
+        "rank": 2,
+        "roster": [
+          "torzsi",
+          "Jimpphat",
+          "Brollan",
+          "Spinx",
+          "xertioN"
+        ],
+        "vrsRoster": [
+          "Brollan",
+          "Jimpphat",
+          "Spinx",
+          "torzsi",
+          "xertioN"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0412179,
+        "strong": -0.0804201,
+        "weak": -0.0424872,
+        "n": 26,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 26
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 26
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 21,
+            "w": 16
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Metizport": {
+        "name": "Metizport",
+        "points": 959,
+        "rank": 60,
+        "roster": [
+          "adamb",
+          "hampus",
+          "isak",
+          "L00m1",
+          "Plopski"
+        ],
+        "vrsRoster": [
+          "adamb",
+          "hampus",
+          "isak",
+          "L00m1",
+          "Plopski"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0048801,
+        "strong": 0.0889193,
+        "weak": -0.3126435,
+        "n": 32,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 1,
+            "5": 35
+          },
+          "retained": {
+            "3": 0,
+            "4": 1,
+            "5": 31
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 4
+        },
+        "format": {
+          "bo1": {
+            "n": 7,
+            "w": 4
+          },
+          "bo3": {
+            "n": 8,
+            "w": 4
+          },
+          "tilt": -0.051942,
+          "tiltSE": 0.5200828
+        }
+      },
+      "NRG": {
+        "name": "NRG",
+        "points": 1121,
+        "rank": 32,
+        "roster": [
+          "br0",
+          "HexT",
+          "Jeorge",
+          "nitr0",
+          "oSee"
+        ],
+        "vrsRoster": [
+          "br0",
+          "HexT",
+          "Jeorge",
+          "nitr0",
+          "oSee"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0654012,
+        "strong": -0.04564,
+        "weak": 0.0764071,
+        "n": 27,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 43
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 27
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 16
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 8,
+            "w": 4
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Natus Vincere": {
+        "name": "Natus Vincere",
+        "points": 1632,
+        "rank": 8,
+        "roster": [
+          "w0nderful",
+          "Aleksib",
+          "jL",
+          "b1t",
+          "iM"
+        ],
+        "vrsRoster": [
+          "Aleksib",
+          "b1t",
+          "iM",
+          "jL",
+          "w0nderful"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0824717,
+        "strong": 0.0532995,
+        "weak": -0.132653,
+        "n": 18,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 16,
+            "w": 9
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Nemiga": {
+        "name": "Nemiga",
+        "points": 1045,
+        "rank": 45,
+        "roster": [
+          "1eeR",
+          "khaN",
+          "riskyb0b",
+          "Xant3r",
+          "zweih"
+        ],
+        "vrsRoster": [
+          "1eeR",
+          "khaN",
+          "riskyb0b",
+          "Xant3r",
+          "zweih"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0534001,
+        "strong": 0.0664454,
+        "weak": -0.1365872,
+        "n": 31,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 34
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 31
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 3
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 0,
+            "w": 0
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "OG": {
+        "name": "OG",
+        "points": 1097,
+        "rank": 38,
+        "roster": [
+          "Buzz",
+          "Chr1zN",
+          "F1KU",
+          "nicoodoz",
+          "spooke"
+        ],
+        "vrsRoster": [
+          "Buzz",
+          "Chr1zN",
+          "F1KU",
+          "nicoodoz",
+          "spooke"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.170182,
+        "strong": 0.2706238,
+        "weak": -0.0300535,
+        "n": 34,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 35
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 34
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        },
+        "format": {
+          "bo1": {
+            "n": 2,
+            "w": 2
+          },
+          "bo3": {
+            "n": 17,
+            "w": 13
+          },
+          "tilt": -0.1616929,
+          "tiltSE": 0.5670635
+        }
+      },
+      "Spirit": {
+        "name": "Spirit",
+        "points": 1905,
+        "rank": 3,
+        "roster": [
+          "chopper",
+          "magixx",
+          "donk",
+          "sh1ro",
+          "zont1x"
+        ],
+        "vrsRoster": [
+          "chopper",
+          "donk",
+          "magixx",
+          "sh1ro",
+          "zont1x"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0406755,
+        "strong": -0.0480462,
+        "weak": 0.029824,
+        "n": 21,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 21
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 21
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 19,
+            "w": 14
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "TYLOO": {
+        "name": "TYLOO",
+        "points": 1358,
+        "rank": 18,
+        "roster": [
+          "Attacker",
+          "JamYoung",
+          "Jee",
+          "Mercury",
+          "Moseyuh"
+        ],
+        "vrsRoster": [
+          "Attacker",
+          "JamYoung",
+          "Jee",
+          "Mercury",
+          "Moseyuh"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.1696048,
+        "strong": 0.2294965,
+        "weak": -0.0440419,
+        "n": 25,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 1,
+            "5": 41
+          },
+          "retained": {
+            "3": 0,
+            "4": 1,
+            "5": 24
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 17
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 12,
+            "w": 6
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "The MongolZ": {
+        "name": "The MongolZ",
+        "points": 1790,
+        "rank": 5,
+        "roster": [
+          "bLitz",
+          "Techno",
+          "Senzu",
+          "910",
+          "mzinho"
+        ],
+        "vrsRoster": [
+          "910",
+          "bLitz",
+          "mzinho",
+          "Senzu",
+          "Techno"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.1019895,
+        "strong": -0.084743,
+        "weak": -0.0745125,
+        "n": 29,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 29
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 29
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 23,
+            "w": 12
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Virtus.pro": {
+        "name": "Virtus.pro",
+        "points": 1452,
+        "rank": 15,
+        "roster": [
+          "FL1T",
+          "fame",
+          "electronic",
+          "FL4MUS",
+          "ICY"
+        ],
+        "vrsRoster": [
+          "electroNic",
+          "fame",
+          "FL1T",
+          "FL4MUS",
+          "ICY"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.1426624,
+        "strong": 0.1283877,
+        "weak": -0.3234606,
+        "n": 17,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 17
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 17
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 16,
+            "w": 6
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Vitality": {
+        "name": "Vitality",
+        "points": 2124,
+        "rank": 1,
+        "roster": [
+          "apEX",
+          "ZywOo",
+          "flameZ",
+          "mezii",
+          "ropz"
+        ],
+        "vrsRoster": [
+          "apEX",
+          "flameZ",
+          "mezii",
+          "ropz",
+          "ZywOo"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.1629244,
+        "strong": 0.0,
+        "weak": 0.0958419,
+        "n": 25,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 25
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 25
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 18,
+            "w": 18
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Wildcard": {
+        "name": "Wildcard",
+        "points": 1037,
+        "rank": 48,
+        "roster": [
+          "JBa",
+          "phzy",
+          "Sonic",
+          "stanislaw",
+          "susp"
+        ],
+        "vrsRoster": [
+          "JBa",
+          "phzy",
+          "Sonic",
+          "stanislaw",
+          "susp"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0809408,
+        "strong": 0.1103735,
+        "weak": -0.1425498,
+        "n": 12,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 5,
+            "5": 16
+          },
+          "retained": {
+            "3": 0,
+            "4": 1,
+            "5": 11
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 9
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 9,
+            "w": 4
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "paiN": {
+        "name": "paiN",
+        "points": 1225,
+        "rank": 23,
+        "roster": [
+          "biguzera",
+          "nqz",
+          "snow",
+          "dav1deuS",
+          "dgt"
+        ],
+        "vrsRoster": [
+          "biguzera",
+          "dav1deuS",
+          "dgt",
+          "nqz",
+          "snow"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.2241115,
+        "strong": -0.1079244,
+        "weak": -0.3042463,
+        "n": 16,
+        "coreAudit": {
+          "candidates": {
+            "3": 2,
+            "4": 10,
+            "5": 4
+          },
+          "retained": {
+            "3": 2,
+            "4": 10,
+            "5": 4
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 12,
+            "w": 2
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      }
+    }
+  },
+  "budapest": {
+    "date": "2025-11-03",
+    "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/standings_global_2025_11_03.md",
+    "teams": {
+      "3DMAX": {
+        "name": "3DMAX",
+        "points": 1677,
+        "rank": 12,
+        "roster": [
+          "Lucky",
+          "Ex3rcice",
+          "Maka",
+          "Graviti",
+          "bodyy"
+        ],
+        "vrsRoster": [
+          "bodyy",
+          "Ex3rcice",
+          "Graviti",
+          "Lucky",
+          "Maka"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0423576,
+        "strong": 0.140491,
+        "weak": -0.2321623,
+        "n": 29,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 1,
+            "5": 29
+          },
+          "retained": {
+            "3": 0,
+            "4": 1,
+            "5": 28
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 11,
+            "w": 6
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Astralis": {
+        "name": "Astralis",
+        "points": 1613,
+        "rank": 14,
+        "roster": [
+          "device",
+          "Staehr",
+          "jabbi",
+          "HooXi",
+          "Magisk"
+        ],
+        "vrsRoster": [
+          "device",
+          "HooXi",
+          "jabbi",
+          "Magisk",
+          "Staehr"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.1598014,
+        "strong": -0.0211159,
+        "weak": -0.1361686,
+        "n": 23,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 5,
+            "5": 18
+          },
+          "retained": {
+            "3": 0,
+            "4": 5,
+            "5": 18
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 23,
+            "w": 10
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Aurora": {
+        "name": "Aurora",
+        "points": 1829,
+        "rank": 5,
+        "roster": [
+          "XANTARES",
+          "MAJ3R",
+          "Wicadia",
+          "woxic",
+          "jottAAA"
+        ],
+        "vrsRoster": [
+          "jottAAA",
+          "MAJ3R",
+          "Wicadia",
+          "woxic",
+          "XANTARES"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0501608,
+        "strong": -0.103338,
+        "weak": -0.0770021,
+        "n": 29,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 29
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 29
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 25,
+            "w": 15
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "B8": {
+        "name": "B8",
+        "points": 1571,
+        "rank": 17,
+        "roster": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ],
+        "vrsRoster": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0037613,
+        "strong": 0.0689495,
+        "weak": -0.1361872,
+        "n": 21,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 2,
+            "5": 19
+          },
+          "retained": {
+            "3": 0,
+            "4": 2,
+            "5": 19
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 1,
+            "w": 0
+          },
+          "bo3": {
+            "n": 12,
+            "w": 6
+          },
+          "tilt": 0.1718185,
+          "tiltSE": 0.5766199
+        }
+      },
+      "FURIA": {
+        "name": "FURIA",
+        "points": 1948,
+        "rank": 1,
+        "roster": [
+          "yuurih",
+          "KSCERATO",
+          "FalleN",
+          "molodoy",
+          "YEKINDAR"
+        ],
+        "vrsRoster": [
+          "FalleN",
+          "KSCERATO",
+          "molodoy",
+          "YEKINDAR",
+          "yuurih"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0630488,
+        "strong": 0.3127359,
+        "weak": -0.124118,
+        "n": 27,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 27
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 27
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 23,
+            "w": 16
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "FaZe": {
+        "name": "FaZe",
+        "points": 1659,
+        "rank": 13,
+        "roster": [
+          "broky",
+          "frozen",
+          "karrigan",
+          "jcobbb",
+          "Twistzz"
+        ],
+        "vrsRoster": [
+          "broky",
+          "frozen",
+          "karrigan",
+          "rain",
+          "Twistzz"
+        ],
+        "vrsCoreOverlap": 4,
+        "form": -0.0825231,
+        "strong": 0.088879,
+        "weak": -0.2690651,
+        "n": 23,
+        "coreAudit": {
+          "candidates": {
+            "3": 2,
+            "4": 16,
+            "5": 5
+          },
+          "retained": {
+            "3": 2,
+            "4": 16,
+            "5": 5
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 17,
+            "w": 8
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Falcons": {
+        "name": "Falcons",
+        "points": 1869,
+        "rank": 3,
+        "roster": [
+          "NiKo",
+          "TeSeS",
+          "kyxsan",
+          "m0NESY",
+          "kyousuke"
+        ],
+        "vrsRoster": [
+          "kyousuke",
+          "kyxsan",
+          "m0NESY",
+          "NiKo",
+          "TeSeS"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.1706558,
+        "strong": 0.2987589,
+        "weak": 0.1213528,
+        "n": 15,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 15
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 15
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 13,
+            "w": 11
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Fluxo": {
+        "name": "Fluxo",
+        "points": 1164,
+        "rank": 42,
+        "roster": [
+          "arT",
+          "decenty",
+          "kye",
+          "Lucaozy",
+          "zevy"
+        ],
+        "vrsRoster": [
+          "arT",
+          "decenty",
+          "kye",
+          "Lucaozy",
+          "zevy"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.1097997,
+        "strong": -0.0614681,
+        "weak": -0.2051152,
+        "n": 23,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 32
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 23
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 9
+        },
+        "format": {
+          "bo1": {
+            "n": 1,
+            "w": 0
+          },
+          "bo3": {
+            "n": 5,
+            "w": 1
+          },
+          "tilt": 0.0584957,
+          "tiltSE": 0.5852036
+        }
+      },
+      "FlyQuest": {
+        "name": "FlyQuest",
+        "points": 1327,
+        "rank": 33,
+        "roster": [
+          "INS",
+          "jks",
+          "nettik",
+          "regali",
+          "Vexite"
+        ],
+        "vrsRoster": [
+          "INS",
+          "jks",
+          "nettik",
+          "regali",
+          "Vexite"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.1039265,
+        "strong": 0.0697577,
+        "weak": 0.0155527,
+        "n": 10,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 13
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 10
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 3
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 9,
+            "w": 3
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "G2": {
+        "name": "G2",
+        "points": 1755,
+        "rank": 9,
+        "roster": [
+          "huNter-",
+          "malbsMd",
+          "HeavyGod",
+          "SunPayus",
+          "MATYS"
+        ],
+        "vrsRoster": [
+          "HeavyGod",
+          "huNter-",
+          "malbsMd",
+          "MATYS",
+          "SunPayus"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0928005,
+        "strong": 0.2415032,
+        "weak": -0.1097107,
+        "n": 23,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 24
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 23
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 19,
+            "w": 11
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "GamerLegion": {
+        "name": "GamerLegion",
+        "points": 1561,
+        "rank": 18,
+        "roster": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Tauson",
+          "ztr"
+        ],
+        "vrsRoster": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Tauson",
+          "ztr"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0885122,
+        "strong": 0.0196343,
+        "weak": -0.1165101,
+        "n": 27,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 10,
+            "5": 17
+          },
+          "retained": {
+            "3": 0,
+            "4": 10,
+            "5": 17
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 24,
+            "w": 9
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Imperial": {
+        "name": "Imperial",
+        "points": 1336,
+        "rank": 30,
+        "roster": [
+          "chelo",
+          "noway",
+          "skullz",
+          "try",
+          "VINI"
+        ],
+        "vrsRoster": [
+          "chelo",
+          "noway",
+          "skullz",
+          "try",
+          "VINI"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0740931,
+        "strong": 0.0475671,
+        "weak": -0.0905902,
+        "n": 22,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 8,
+            "5": 17
+          },
+          "retained": {
+            "3": 0,
+            "4": 8,
+            "5": 14
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 3
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 6,
+            "w": 3
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Legacy": {
+        "name": "Legacy",
+        "points": 1748,
+        "rank": 10,
+        "roster": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ],
+        "vrsRoster": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.1096095,
+        "strong": 0.1660832,
+        "weak": 0.0422429,
+        "n": 29,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 29
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 29
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 24,
+            "w": 12
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Liquid": {
+        "name": "Liquid",
+        "points": 1730,
+        "rank": 11,
+        "roster": [
+          "NAF",
+          "ultimate",
+          "NertZ",
+          "siuhy",
+          "EliGE"
+        ],
+        "vrsRoster": [
+          "EliGE",
+          "NAF",
+          "NertZ",
+          "siuhy",
+          "ultimate"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.1001292,
+        "strong": 0.1973323,
+        "weak": -0.0254005,
+        "n": 29,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 13,
+            "5": 16
+          },
+          "retained": {
+            "3": 0,
+            "4": 13,
+            "5": 16
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 23,
+            "w": 12
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Lynn Vision": {
+        "name": "Lynn Vision",
+        "points": 1269,
+        "rank": 35,
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4kr"
+        ],
+        "vrsRoster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4kr"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0619708,
+        "strong": 0.0145944,
+        "weak": 0.0641409,
+        "n": 13,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 15
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 13
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 2
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 6,
+            "w": 1
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "M80": {
+        "name": "M80",
+        "points": 1252,
+        "rank": 39,
+        "roster": [
+          "HexT",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "vrsRoster": [
+          "HexT",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.01366,
+        "strong": 0.1414329,
+        "weak": -0.0595341,
+        "n": 18,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 23
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 5
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 9,
+            "w": 3
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "MIBR": {
+        "name": "MIBR",
+        "points": 1365,
+        "rank": 26,
+        "roster": [
+          "exit",
+          "brnz4n",
+          "insani",
+          "kl1m",
+          "Qikert"
+        ],
+        "vrsRoster": [
+          "brnz4n",
+          "exit",
+          "insani",
+          "kl1m",
+          "Qikert"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0475819,
+        "strong": -0.1098055,
+        "weak": 0.0054471,
+        "n": 19,
+        "coreAudit": {
+          "candidates": {
+            "3": 3,
+            "4": 6,
+            "5": 14
+          },
+          "retained": {
+            "3": 3,
+            "4": 5,
+            "5": 11
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 4
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 6,
+            "w": 0
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "MOUZ": {
+        "name": "MOUZ",
+        "points": 1795,
+        "rank": 7,
+        "roster": [
+          "torzsi",
+          "xertioN",
+          "Jimpphat",
+          "Brollan",
+          "Spinx"
+        ],
+        "vrsRoster": [
+          "Brollan",
+          "Jimpphat",
+          "Spinx",
+          "torzsi",
+          "xertioN"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0892434,
+        "strong": 0.0,
+        "weak": -0.0621608,
+        "n": 18,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 17,
+            "w": 11
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "NRG": {
+        "name": "NRG",
+        "points": 1129,
+        "rank": 49,
+        "roster": [
+          "br0",
+          "Jeorge",
+          "daps",
+          "Sonic",
+          "XotiC"
+        ],
+        "vrsRoster": [
+          "br0",
+          "Jeorge",
+          "nitr0",
+          "Sonic",
+          "XotiC"
+        ],
+        "vrsCoreOverlap": 4,
+        "form": 0.0692174,
+        "strong": 0.032898,
+        "weak": 0.0777715,
+        "n": 14,
+        "coreAudit": {
+          "candidates": {
+            "3": 10,
+            "4": 11,
+            "5": 0
+          },
+          "retained": {
+            "3": 6,
+            "4": 8,
+            "5": 0
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 7
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 4,
+            "w": 0
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Natus Vincere": {
+        "name": "Natus Vincere",
+        "points": 1821,
+        "rank": 6,
+        "roster": [
+          "b1t",
+          "Aleksib",
+          "iM",
+          "w0nderful",
+          "makazze"
+        ],
+        "vrsRoster": [
+          "Aleksib",
+          "b1t",
+          "iM",
+          "makazze",
+          "w0nderful"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0620441,
+        "strong": 0.1524911,
+        "weak": -0.1497042,
+        "n": 20,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 20
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 20
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 17,
+            "w": 11
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Ninjas in Pyjamas": {
+        "name": "Ninjas in Pyjamas",
+        "points": 1336,
+        "rank": 29,
+        "roster": [
+          "ewjerkz",
+          "r1nkle",
+          "sjuush",
+          "Snappi",
+          "xKacpersky"
+        ],
+        "vrsRoster": [
+          "ewjerkz",
+          "r1nkle",
+          "sjuush",
+          "Snappi",
+          "xKacpersky"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.2511918,
+        "strong": -0.0268012,
+        "weak": -0.2852261,
+        "n": 18,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 4,
+            "5": 15
+          },
+          "retained": {
+            "3": 0,
+            "4": 3,
+            "5": 15
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 12,
+            "w": 3
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "PARIVISION": {
+        "name": "PARIVISION",
+        "points": 1420,
+        "rank": 23,
+        "roster": [
+          "AW",
+          "BELCHONOKK",
+          "Jame",
+          "nota",
+          "xiELO"
+        ],
+        "vrsRoster": [
+          "AW",
+          "BELCHONOKK",
+          "Jame",
+          "nota",
+          "xiELO"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.2281806,
+        "strong": 0.3083192,
+        "weak": 0.0367814,
+        "n": 27,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 28
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 27
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 17,
+            "w": 13
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Passion UA": {
+        "name": "Passion UA",
+        "points": 1347,
+        "rank": 27,
+        "roster": [
+          "Kvem",
+          "JT",
+          "Grim",
+          "hallzerk",
+          "nicx"
+        ],
+        "vrsRoster": [
+          "Grim",
+          "hallzerk",
+          "JT",
+          "Kvem",
+          "nicx"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0674849,
+        "strong": -0.0563022,
+        "weak": -0.0802138,
+        "n": 12,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 1,
+            "5": 16
+          },
+          "retained": {
+            "3": 0,
+            "4": 1,
+            "5": 11
+          },
+          "belowCore": 13,
+          "unknownLineup": 0,
+          "unverified": 5
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 5,
+            "w": 1
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "RED Canids": {
+        "name": "RED Canids",
+        "points": 1141,
+        "rank": 47,
+        "roster": [
+          "chayJESUS",
+          "drop",
+          "history",
+          "kauez",
+          "venomzera"
+        ],
+        "vrsRoster": [
+          "chayJESUS",
+          "drop",
+          "history",
+          "kauez",
+          "venomzera"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0343481,
+        "strong": 0.0935795,
+        "weak": -0.1023186,
+        "n": 25,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 12,
+            "5": 18
+          },
+          "retained": {
+            "3": 0,
+            "4": 9,
+            "5": 16
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 5
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 0,
+            "w": 0
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Rare Atom": {
+        "name": "Rare Atom",
+        "points": 1071,
+        "rank": 57,
+        "roster": [
+          "ChildKing",
+          "L1haNg",
+          "Marek",
+          "Summer",
+          "Tiger"
+        ],
+        "vrsRoster": [
+          "ChildKing",
+          "L1haNg",
+          "Marek",
+          "Summer",
+          "Tiger"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0066357,
+        "strong": -0.0043676,
+        "weak": -0.0388285,
+        "n": 15,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 16,
+            "5": 11
+          },
+          "retained": {
+            "3": 0,
+            "4": 6,
+            "5": 9
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 12
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 1,
+            "w": 0
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Spirit": {
+        "name": "Spirit",
+        "points": 1773,
+        "rank": 8,
+        "roster": [
+          "chopper",
+          "donk",
+          "sh1ro",
+          "zweih",
+          "tN1R"
+        ],
+        "vrsRoster": [
+          "chopper",
+          "donk",
+          "sh1ro",
+          "zont1x",
+          "zweih"
+        ],
+        "vrsCoreOverlap": 4,
+        "form": -0.1384734,
+        "strong": 0.0,
+        "weak": -0.1675073,
+        "n": 14,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 10,
+            "5": 4
+          },
+          "retained": {
+            "3": 0,
+            "4": 10,
+            "5": 4
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 13,
+            "w": 9
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "TYLOO": {
+        "name": "TYLOO",
+        "points": 1436,
+        "rank": 21,
+        "roster": [
+          "Attacker",
+          "JamYoung",
+          "Moseyuh",
+          "Mercury",
+          "Jee"
+        ],
+        "vrsRoster": [
+          "Attacker",
+          "JamYoung",
+          "Jee",
+          "Mercury",
+          "Moseyuh"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.1855389,
+        "strong": -0.0347741,
+        "weak": -0.1505678,
+        "n": 14,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 15
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 14
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        },
+        "format": {
+          "bo1": {
+            "n": 1,
+            "w": 1
+          },
+          "bo3": {
+            "n": 8,
+            "w": 3
+          },
+          "tilt": -0.1521124,
+          "tiltSE": 0.578069
+        }
+      },
+      "The Huns": {
+        "name": "The Huns",
+        "points": 1136,
+        "rank": 48,
+        "roster": [
+          "Bart4k",
+          "cobrazera",
+          "nin9",
+          "sk0R",
+          "xerolte"
+        ],
+        "vrsRoster": [
+          "Bart4k",
+          "cobrazera",
+          "nin9",
+          "sk0R",
+          "xerolte"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0368219,
+        "strong": -0.0546052,
+        "weak": -0.0001681,
+        "n": 13,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 32
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 13
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 19
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 2,
+            "w": 1
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "The MongolZ": {
+        "name": "The MongolZ",
+        "points": 1859,
+        "rank": 4,
+        "roster": [
+          "bLitz",
+          "Techno",
+          "910",
+          "mzinho",
+          "controlez"
+        ],
+        "vrsRoster": [
+          "910",
+          "bLitz",
+          "mzinho",
+          "Senzu",
+          "Techno"
+        ],
+        "vrsCoreOverlap": 4,
+        "form": -0.0776502,
+        "strong": 0.1714753,
+        "weak": -0.1179668,
+        "n": 26,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 26,
+            "5": 0
+          },
+          "retained": {
+            "3": 0,
+            "4": 26,
+            "5": 0
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 22,
+            "w": 17
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Vitality": {
+        "name": "Vitality",
+        "points": 1908,
+        "rank": 2,
+        "roster": [
+          "apEX",
+          "ZywOo",
+          "flameZ",
+          "mezii",
+          "ropz"
+        ],
+        "vrsRoster": [
+          "apEX",
+          "flameZ",
+          "mezii",
+          "ropz",
+          "ZywOo"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0846789,
+        "strong": 0.0,
+        "weak": -0.1846752,
+        "n": 20,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 20
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 20
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 18,
+            "w": 14
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "fnatic": {
+        "name": "fnatic",
+        "points": 1424,
+        "rank": 22,
+        "roster": [
+          "blameF",
+          "fear",
+          "jackasmo",
+          "jambo",
+          "KRIMZ"
+        ],
+        "vrsRoster": [
+          "blameF",
+          "fear",
+          "jackasmo",
+          "jambo",
+          "KRIMZ"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0089176,
+        "strong": 0.0901089,
+        "weak": -0.0914564,
+        "n": 40,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 37,
+            "5": 8
+          },
+          "retained": {
+            "3": 0,
+            "4": 32,
+            "5": 8
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 5
+        },
+        "format": {
+          "bo1": {
+            "n": 1,
+            "w": 1
+          },
+          "bo3": {
+            "n": 29,
+            "w": 16
+          },
+          "tilt": -0.1607009,
+          "tiltSE": 0.5757598
+        }
+      },
+      "paiN": {
+        "name": "paiN",
+        "points": 1555,
+        "rank": 19,
+        "roster": [
+          "biguzera",
+          "nqz",
+          "snow",
+          "dav1deuS",
+          "dgt"
+        ],
+        "vrsRoster": [
+          "biguzera",
+          "dav1deuS",
+          "dgt",
+          "nqz",
+          "snow"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0272236,
+        "strong": -0.0056148,
+        "weak": -0.1255736,
+        "n": 15,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 15
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 15
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 1,
+            "w": 0
+          },
+          "bo3": {
+            "n": 12,
+            "w": 7
+          },
+          "tilt": 0.1965874,
+          "tiltSE": 0.576684
+        }
+      }
+    }
+  },
+  "cologne": {
+    "date": "2026-06-01",
+    "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/standings_global_2026_06_01.md",
+    "teams": {
+      "9z": {
+        "name": "9z",
+        "points": 1633,
+        "rank": 15,
+        "roster": [
+          "dgt",
+          "HUASOPEEK",
+          "luchov",
+          "max",
+          "meyern"
+        ],
+        "vrsRoster": [
+          "dgt",
+          "HUASOPEEK",
+          "luchov",
+          "max",
+          "meyern"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.1172835,
+        "strong": 0.2973823,
+        "weak": -0.00384,
+        "n": 22,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 29
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 22
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 7
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 9,
+            "w": 5
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Astralis": {
+        "name": "Astralis",
+        "points": 1721,
+        "rank": 10,
+        "roster": [
+          "HooXi",
+          "jabbi",
+          "phzy",
+          "ryu",
+          "Staehr"
+        ],
+        "vrsRoster": [
+          "HooXi",
+          "jabbi",
+          "phzy",
+          "ryu",
+          "Staehr"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0029096,
+        "strong": 0.1236744,
+        "weak": -0.1417261,
+        "n": 21,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 22
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 21
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 15,
+            "w": 9
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Aurora": {
+        "name": "Aurora",
+        "points": 1741,
+        "rank": 8,
+        "roster": [
+          "MAJ3R",
+          "soulfly",
+          "Wicadia",
+          "woxic",
+          "XANTARES"
+        ],
+        "vrsRoster": [
+          "MAJ3R",
+          "soulfly",
+          "Wicadia",
+          "woxic",
+          "XANTARES"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0845056,
+        "strong": 0.0353817,
+        "weak": -0.0573875,
+        "n": 25,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 26
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 25
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 23,
+            "w": 14
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "B8": {
+        "name": "B8",
+        "points": 1582,
+        "rank": 16,
+        "roster": [
+          "alex666",
+          "esenthial",
+          "kensizor",
+          "npl",
+          "s1zzi"
+        ],
+        "vrsRoster": [
+          "alex666",
+          "esenthial",
+          "kensizor",
+          "npl",
+          "s1zzi"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0322281,
+        "strong": 0.0941819,
+        "weak": -0.0007652,
+        "n": 13,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 34
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 13
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 21
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 8,
+            "w": 3
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "BIG": {
+        "name": "BIG",
+        "points": 1416,
+        "rank": 28,
+        "roster": [
+          "blameF",
+          "faveN",
+          "gr1ks",
+          "JDC",
+          "tabseN"
+        ],
+        "vrsRoster": [
+          "blameF",
+          "faveN",
+          "gr1ks",
+          "JDC",
+          "tabseN"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.014201,
+        "strong": 0.208347,
+        "weak": -0.1127674,
+        "n": 25,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 1,
+            "5": 32
+          },
+          "retained": {
+            "3": 0,
+            "4": 1,
+            "5": 24
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 8
+        },
+        "format": {
+          "bo1": {
+            "n": 3,
+            "w": 1
+          },
+          "bo3": {
+            "n": 8,
+            "w": 7
+          },
+          "tilt": 0.3937354,
+          "tiltSE": 0.5552018
+        }
+      },
+      "BetBoom": {
+        "name": "BetBoom",
+        "points": 1562,
+        "rank": 17,
+        "roster": [
+          "Boombl4",
+          "FL4MUS",
+          "Magnojez",
+          "d1Ledez",
+          "zorte"
+        ],
+        "vrsRoster": [
+          "Boombl4",
+          "FL4MUS",
+          "Magnojez",
+          "S1ren",
+          "zorte"
+        ],
+        "vrsCoreOverlap": 4,
+        "form": 0.133363,
+        "strong": 0.1573283,
+        "weak": -0.1155254,
+        "n": 20,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 23,
+            "5": 0
+          },
+          "retained": {
+            "3": 0,
+            "4": 20,
+            "5": 0
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 3
+        },
+        "format": {
+          "bo1": {
+            "n": 2,
+            "w": 0
+          },
+          "bo3": {
+            "n": 16,
+            "w": 11
+          },
+          "tilt": 0.4632098,
+          "tiltSE": 0.5600671
+        }
+      },
+      "FURIA": {
+        "name": "FURIA",
+        "points": 1716,
+        "rank": 11,
+        "roster": [
+          "FalleN",
+          "KSCERATO",
+          "molodoy",
+          "YEKINDAR",
+          "yuurih"
+        ],
+        "vrsRoster": [
+          "FalleN",
+          "KSCERATO",
+          "molodoy",
+          "YEKINDAR",
+          "yuurih"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.1724084,
+        "strong": 0.0719925,
+        "weak": -0.1914736,
+        "n": 20,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 21
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 20
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 19,
+            "w": 10
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "FUT": {
+        "name": "FUT",
+        "points": 1694,
+        "rank": 12,
+        "roster": [
+          "cmtry",
+          "dem0n",
+          "dziugss",
+          "Krabeni",
+          "lauNX"
+        ],
+        "vrsRoster": [
+          "cmtry",
+          "dem0n",
+          "dziugss",
+          "Krabeni",
+          "lauNX"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0431961,
+        "strong": 0.2078776,
+        "weak": -0.2176133,
+        "n": 18,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 2,
+            "5": 17
+          },
+          "retained": {
+            "3": 0,
+            "4": 2,
+            "5": 16
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 0,
+            "w": 0
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Falcons": {
+        "name": "Falcons",
+        "points": 1954,
+        "rank": 3,
+        "roster": [
+          "kyousuke",
+          "karrigan",
+          "m0NESY",
+          "NiKo",
+          "TeSeS"
+        ],
+        "vrsRoster": [
+          "karrigan",
+          "kyousuke",
+          "m0NESY",
+          "NiKo",
+          "TeSeS"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.014746,
+        "strong": 0.1407566,
+        "weak": -0.1017561,
+        "n": 21,
+        "coreAudit": {
+          "candidates": {
+            "3": 1,
+            "4": 9,
+            "5": 12
+          },
+          "retained": {
+            "3": 1,
+            "4": 9,
+            "5": 11
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 18,
+            "w": 14
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "FlyQuest": {
+        "name": "FlyQuest",
+        "points": 1112,
+        "rank": 83,
+        "roster": [
+          "INS",
+          "jks",
+          "nettik",
+          "story",
+          "Vexite"
+        ],
+        "vrsRoster": [
+          "INS",
+          "jks",
+          "nettik",
+          "story",
+          "Vexite"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.1865104,
+        "strong": 0.0,
+        "weak": -0.1878902,
+        "n": 7,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 12
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 7
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 5
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 3,
+            "w": 1
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "G2": {
+        "name": "G2",
+        "points": 1683,
+        "rank": 13,
+        "roster": [
+          "HeavyGod",
+          "huNter-",
+          "MATYS",
+          "NertZ",
+          "SunPayus"
+        ],
+        "vrsRoster": [
+          "HeavyGod",
+          "huNter-",
+          "MATYS",
+          "NertZ",
+          "SunPayus"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0436748,
+        "strong": -0.1291054,
+        "weak": -0.0640403,
+        "n": 30,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 11,
+            "5": 22
+          },
+          "retained": {
+            "3": 0,
+            "4": 11,
+            "5": 19
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 3
+        },
+        "format": {
+          "bo1": {
+            "n": 1,
+            "w": 1
+          },
+          "bo3": {
+            "n": 21,
+            "w": 11
+          },
+          "tilt": -0.1096069,
+          "tiltSE": 0.5791423
+        }
+      },
+      "Gaimin Gladiators": {
+        "name": "Gaimin Gladiators",
+        "points": 1233,
+        "rank": 55,
+        "roster": [
+          "fer",
+          "HEN1",
+          "JOTA",
+          "Luken",
+          "NEKIZ"
+        ],
+        "vrsRoster": [
+          "felps",
+          "HEN1",
+          "JOTA",
+          "Luken",
+          "NEKIZ"
+        ],
+        "vrsCoreOverlap": 4,
+        "form": 0.0430624,
+        "strong": 0.0450746,
+        "weak": -0.0356059,
+        "n": 15,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 17,
+            "5": 2
+          },
+          "retained": {
+            "3": 0,
+            "4": 13,
+            "5": 2
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 4
+        },
+        "format": {
+          "bo1": {
+            "n": 2,
+            "w": 2
+          },
+          "bo3": {
+            "n": 2,
+            "w": 0
+          },
+          "tilt": -0.3037629,
+          "tiltSE": 0.575405
+        }
+      },
+      "GamerLegion": {
+        "name": "GamerLegion",
+        "points": 1724,
+        "rank": 9,
+        "roster": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Snax",
+          "Tauson"
+        ],
+        "vrsRoster": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Snax",
+          "Tauson"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0824736,
+        "strong": 0.1579799,
+        "weak": -0.0500907,
+        "n": 17,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 17
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 17
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 15,
+            "w": 10
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "HEROIC": {
+        "name": "HEROIC",
+        "points": 1420,
+        "rank": 27,
+        "roster": [
+          "Chr1zN",
+          "nilo",
+          "susp",
+          "xfl0ud",
+          "yxngstxr"
+        ],
+        "vrsRoster": [
+          "Chr1zN",
+          "nilo",
+          "susp",
+          "xfl0ud",
+          "yxngstxr"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.1198106,
+        "strong": 0.1363231,
+        "weak": -0.1898881,
+        "n": 21,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 25
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 21
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 4
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 12,
+            "w": 3
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Legacy": {
+        "name": "Legacy",
+        "points": 1856,
+        "rank": 6,
+        "roster": [
+          "arT",
+          "dumau",
+          "latto",
+          "n1ssim",
+          "saadzin"
+        ],
+        "vrsRoster": [
+          "arT",
+          "dumau",
+          "latto",
+          "n1ssim",
+          "saadzin"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.1748204,
+        "strong": 0.2676717,
+        "weak": 0.0903087,
+        "n": 29,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 32
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 29
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 3
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 18,
+            "w": 10
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Liquid": {
+        "name": "Liquid",
+        "points": 1304,
+        "rank": 45,
+        "roster": [
+          "EliGE",
+          "malbsMd",
+          "NAF",
+          "siuhy",
+          "ultimate"
+        ],
+        "vrsRoster": [
+          "EliGE",
+          "malbsMd",
+          "NAF",
+          "siuhy",
+          "ultimate"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0921909,
+        "strong": 0.0571914,
+        "weak": -0.1782413,
+        "n": 21,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 10,
+            "5": 14
+          },
+          "retained": {
+            "3": 0,
+            "4": 8,
+            "5": 13
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 3
+        },
+        "format": {
+          "bo1": {
+            "n": 2,
+            "w": 1
+          },
+          "bo3": {
+            "n": 15,
+            "w": 4
+          },
+          "tilt": -0.0862424,
+          "tiltSE": 0.5599414
+        }
+      },
+      "Lynn Vision": {
+        "name": "Lynn Vision",
+        "points": 1443,
+        "rank": 24,
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4KR"
+        ],
+        "vrsRoster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4KR"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.2348256,
+        "strong": 0.0776848,
+        "weak": 0.0802353,
+        "n": 10,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 22
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 10
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 12
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 5,
+            "w": 4
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "M80": {
+        "name": "M80",
+        "points": 1385,
+        "rank": 33,
+        "roster": [
+          "JBa",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "vrsRoster": [
+          "JBa",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0152743,
+        "strong": 0.1017211,
+        "weak": -0.1159118,
+        "n": 18,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 26
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 8
+        },
+        "format": {
+          "bo1": {
+            "n": 3,
+            "w": 2
+          },
+          "bo3": {
+            "n": 10,
+            "w": 6
+          },
+          "tilt": 0.0062348,
+          "tiltSE": 0.5511725
+        }
+      },
+      "MIBR": {
+        "name": "MIBR",
+        "points": 1535,
+        "rank": 20,
+        "roster": [
+          "brnz4n",
+          "insani",
+          "kl1m",
+          "LNZ",
+          "venomzera"
+        ],
+        "vrsRoster": [
+          "brnz4n",
+          "insani",
+          "kl1m",
+          "LNZ",
+          "venomzera"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0274202,
+        "strong": 0.1457328,
+        "weak": -0.2426165,
+        "n": 11,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 13
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 11
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 2
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 6,
+            "w": 3
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "MOUZ": {
+        "name": "MOUZ",
+        "points": 1859,
+        "rank": 5,
+        "roster": [
+          "Brollan",
+          "xelex",
+          "Spinx",
+          "torzsi",
+          "xertioN"
+        ],
+        "vrsRoster": [
+          "jL",
+          "Spinx",
+          "torzsi",
+          "xelex",
+          "xertioN"
+        ],
+        "vrsCoreOverlap": 4,
+        "form": -0.087181,
+        "strong": 0.0,
+        "weak": -0.1276841,
+        "n": 24,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 24,
+            "5": 0
+          },
+          "retained": {
+            "3": 0,
+            "4": 24,
+            "5": 0
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 19,
+            "w": 12
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Monte": {
+        "name": "Monte",
+        "points": 1517,
+        "rank": 21,
+        "roster": [
+          "afro",
+          "AZUWU",
+          "Bymas",
+          "Gizmy",
+          "Rainwaker"
+        ],
+        "vrsRoster": [
+          "afro",
+          "AZUWU",
+          "Bymas",
+          "Gizmy",
+          "Rainwaker"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0102332,
+        "strong": -0.0260106,
+        "weak": 0.1551504,
+        "n": 20,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 21
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 20
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 15,
+            "w": 7
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "NRG": {
+        "name": "NRG",
+        "points": 1247,
+        "rank": 52,
+        "roster": [
+          "br0",
+          "Grim",
+          "nitr0",
+          "oSee",
+          "Sonic"
+        ],
+        "vrsRoster": [
+          "br0",
+          "Grim",
+          "nitr0",
+          "oSee",
+          "Sonic"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.2067484,
+        "strong": -0.0850305,
+        "weak": -0.1316407,
+        "n": 10,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 1,
+            "5": 13
+          },
+          "retained": {
+            "3": 0,
+            "4": 1,
+            "5": 9
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 4
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 5,
+            "w": 0
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Natus Vincere": {
+        "name": "Natus Vincere",
+        "points": 1940,
+        "rank": 4,
+        "roster": [
+          "Aleksib",
+          "b1t",
+          "iM",
+          "makazze",
+          "w0nderful"
+        ],
+        "vrsRoster": [
+          "Aleksib",
+          "b1t",
+          "iM",
+          "makazze",
+          "w0nderful"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0536119,
+        "strong": 0.1382252,
+        "weak": -0.0324164,
+        "n": 26,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 28
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 26
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 2
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 20,
+            "w": 15
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "PARIVISION": {
+        "name": "PARIVISION",
+        "points": 1679,
+        "rank": 14,
+        "roster": [
+          "BELCHONOKK",
+          "Jame",
+          "nota",
+          "xiELO",
+          "zweih"
+        ],
+        "vrsRoster": [
+          "BELCHONOKK",
+          "Jame",
+          "nota",
+          "xiELO",
+          "zweih"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.283091,
+        "strong": -0.0482433,
+        "weak": -0.303667,
+        "n": 21,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 21
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 21
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 19,
+            "w": 8
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "SINNERS": {
+        "name": "SINNERS",
+        "points": 1378,
+        "rank": 34,
+        "roster": [
+          "beastik",
+          "kisserek",
+          "MoDo",
+          "SHOCK",
+          "stressarN"
+        ],
+        "vrsRoster": [
+          "beastik",
+          "kisserek",
+          "MoDo",
+          "SHOCK",
+          "stressarN"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0198403,
+        "strong": 0.0589809,
+        "weak": -0.1072928,
+        "n": 18,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 21
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 3
+        },
+        "format": {
+          "bo1": {
+            "n": 3,
+            "w": 2
+          },
+          "bo3": {
+            "n": 7,
+            "w": 4
+          },
+          "tilt": 0.0116437,
+          "tiltSE": 0.5544263
+        }
+      },
+      "Sharks": {
+        "name": "Sharks",
+        "points": 1354,
+        "rank": 38,
+        "roster": [
+          "doc",
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao"
+        ],
+        "vrsRoster": [
+          "doc",
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0253923,
+        "strong": 0.008591,
+        "weak": 0.1431981,
+        "n": 16,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 16
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 2
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 0,
+            "w": 0
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Spirit": {
+        "name": "Spirit",
+        "points": 1990,
+        "rank": 2,
+        "roster": [
+          "donk",
+          "magixx",
+          "sh1ro",
+          "tN1R",
+          "zont1x"
+        ],
+        "vrsRoster": [
+          "donk",
+          "magixx",
+          "sh1ro",
+          "tN1R",
+          "zont1x"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0803318,
+        "strong": -0.0204212,
+        "weak": -0.0273653,
+        "n": 20,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 21
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 20
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 17,
+            "w": 13
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "THUNDER dOWNUNDER": {
+        "name": "THUNDER dOWNUNDER",
+        "points": 1181,
+        "rank": 64,
+        "roster": [
+          "aliStair",
+          "asap",
+          "dexter",
+          "Liazz",
+          "TjP"
+        ],
+        "vrsRoster": [
+          "aliStair",
+          "asap",
+          "dexter",
+          "Liazz",
+          "TjP"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0056027,
+        "strong": 0.0,
+        "weak": 0.0,
+        "n": 7,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 22
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 7
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 15
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 1,
+            "w": 0
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "TYLOO": {
+        "name": "TYLOO",
+        "points": 1395,
+        "rank": 32,
+        "roster": [
+          "JamYoung",
+          "Jee",
+          "Mercury",
+          "Moseyuh",
+          "Zero"
+        ],
+        "vrsRoster": [
+          "JamYoung",
+          "Jee",
+          "Mercury",
+          "Moseyuh",
+          "Zero"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.0316017,
+        "strong": 0.2567885,
+        "weak": -0.035699,
+        "n": 24,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 1,
+            "5": 37
+          },
+          "retained": {
+            "3": 0,
+            "4": 1,
+            "5": 23
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 14
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 9,
+            "w": 3
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "The MongolZ": {
+        "name": "The MongolZ",
+        "points": 1763,
+        "rank": 7,
+        "roster": [
+          "910",
+          "bLitz",
+          "cobrazera",
+          "mzinho",
+          "Techno"
+        ],
+        "vrsRoster": [
+          "910",
+          "bLitz",
+          "cobrazera",
+          "mzinho",
+          "Techno"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0269181,
+        "strong": 0.1425072,
+        "weak": -0.0522816,
+        "n": 26,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 27
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 26
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 23,
+            "w": 13
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "Vitality": {
+        "name": "Vitality",
+        "points": 2024,
+        "rank": 1,
+        "roster": [
+          "apEX",
+          "ZywOo",
+          "flameZ",
+          "mezii",
+          "ropz"
+        ],
+        "vrsRoster": [
+          "apEX",
+          "flameZ",
+          "mezii",
+          "ropz",
+          "ZywOo"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": -0.0283259,
+        "strong": 0.0,
+        "weak": -0.0283259,
+        "n": 19,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 20
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 19
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        },
+        "format": {
+          "bo1": {
+            "n": 0,
+            "w": 0
+          },
+          "bo3": {
+            "n": 15,
+            "w": 12
+          },
+          "tilt": 0.0,
+          "tiltSE": 0.6
+        }
+      },
+      "paiN": {
+        "name": "paiN",
+        "points": 1549,
+        "rank": 19,
+        "roster": [
+          "biguzera",
+          "saffee",
+          "piriajr",
+          "snow",
+          "vsm"
+        ],
+        "vrsRoster": [
+          "biguzera",
+          "piriajr",
+          "saffee",
+          "snow",
+          "vsm"
+        ],
+        "vrsCoreOverlap": 5,
+        "form": 0.075155,
+        "strong": 0.1628311,
+        "weak": 0.0690282,
+        "n": 21,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 15,
+            "5": 8
+          },
+          "retained": {
+            "3": 0,
+            "4": 14,
+            "5": 7
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 2
+        },
+        "format": {
+          "bo1": {
+            "n": 1,
+            "w": 0
+          },
+          "bo3": {
+            "n": 9,
+            "w": 4
+          },
+          "tilt": 0.1709906,
+          "tiltSE": 0.577383
+        }
+      }
+    }
+  }
+}

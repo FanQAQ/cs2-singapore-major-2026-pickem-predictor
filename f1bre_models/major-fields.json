@@ -1,0 +1,4414 @@
+{
+  "fields": {
+    "copenhagen": {
+      "id": "copenhagen",
+      "label": "哥本哈根 2024",
+      "stage": 1,
+      "start": "2024-03-17",
+      "cutoffExclusive": "2024-03-17",
+      "allBo3": false,
+      "pointsAsOf": "2024-03-04",
+      "teams": [
+        {
+          "seed": 1,
+          "name": "Cloud9",
+          "roster": [
+            "Ax1Le",
+            "Boombl4",
+            "electronic",
+            "HObbit",
+            "Perfecto"
+          ],
+          "points": 1520,
+          "vrsRoster": [
+            "HObbit",
+            "electroNic",
+            "Boombl4",
+            "Ax1Le",
+            "Perfecto"
+          ]
+        },
+        {
+          "seed": 2,
+          "name": "Eternal Fire",
+          "roster": [
+            "Calyx",
+            "MAJ3R",
+            "Wicadia",
+            "woxic",
+            "XANTARES"
+          ],
+          "points": 1508,
+          "vrsRoster": [
+            "MAJ3R",
+            "XANTARES",
+            "woxic",
+            "Calyx",
+            "Wicadia"
+          ]
+        },
+        {
+          "seed": 3,
+          "name": "ENCE",
+          "roster": [
+            "dycha",
+            "gla1ve",
+            "Goofy",
+            "hades",
+            "Kylar"
+          ],
+          "points": 1454,
+          "vrsRoster": [
+            "gla1ve",
+            "Goofy",
+            "dycha",
+            "hades",
+            "Kylar"
+          ]
+        },
+        {
+          "seed": 4,
+          "name": "Apeks",
+          "roster": [
+            "CacaNito",
+            "jkaem",
+            "nawwk",
+            "sense",
+            "STYKO"
+          ],
+          "points": 1436,
+          "vrsRoster": [
+            "STYKO",
+            "jkaem",
+            "nawwk",
+            "sense",
+            "CacaNito"
+          ]
+        },
+        {
+          "seed": 5,
+          "name": "HEROIC",
+          "roster": [
+            "kyxsan",
+            "Nertz",
+            "nicoodoz",
+            "sjuush",
+            "TeSeS"
+          ],
+          "points": 1433,
+          "vrsRoster": [
+            "NertZ",
+            "TeSeS",
+            "nicoodoz",
+            "sjuush",
+            "kyxsan"
+          ]
+        },
+        {
+          "seed": 6,
+          "name": "GamerLegion",
+          "roster": [
+            "acoR",
+            "isak",
+            "Keoz",
+            "Snax",
+            "volt"
+          ],
+          "points": 1413,
+          "vrsRoster": [
+            "Snax",
+            "acoR",
+            "Keoz",
+            "isak",
+            "volt"
+          ]
+        },
+        {
+          "seed": 7,
+          "name": "SAW",
+          "roster": [
+            "arrozdoce",
+            "ewjerkz",
+            "MUTiRiS",
+            "rmn",
+            "story"
+          ],
+          "points": 1140,
+          "vrsRoster": [
+            "MUTiRiS",
+            "roman",
+            "story",
+            "ewjerkz",
+            "arrozdoce"
+          ]
+        },
+        {
+          "seed": 8,
+          "name": "FURIA",
+          "roster": [
+            "arT",
+            "chelo",
+            "FalleN",
+            "KSCERATO",
+            "yuurih"
+          ],
+          "points": 1391,
+          "vrsRoster": [
+            "FalleN",
+            "chelo",
+            "arT",
+            "yuurih",
+            "KSCERATO"
+          ]
+        },
+        {
+          "seed": 9,
+          "name": "ECSTATIC",
+          "roster": [
+            "kraghen",
+            "Nodios",
+            "Patti",
+            "Queenix",
+            "salazar"
+          ],
+          "points": 1127,
+          "vrsRoster": [
+            "Nodios",
+            "Patti",
+            "Queenix",
+            "kraghen",
+            "salazar"
+          ]
+        },
+        {
+          "seed": 10,
+          "name": "The MongolZ",
+          "roster": [
+            "910",
+            "bLitz",
+            "mzinho",
+            "senzu",
+            "Techno"
+          ],
+          "points": 1433,
+          "vrsRoster": [
+            "bLitz",
+            "Techno",
+            "Senzu",
+            "mzinho",
+            "910"
+          ]
+        },
+        {
+          "seed": 11,
+          "name": "Imperial",
+          "roster": [
+            "Decenty",
+            "felps",
+            "HEN1",
+            "noway",
+            "VINI"
+          ],
+          "points": 1152,
+          "vrsRoster": [
+            "HEN1",
+            "felps",
+            "VINI",
+            "decenty",
+            "noway"
+          ]
+        },
+        {
+          "seed": 12,
+          "name": "paiN",
+          "roster": [
+            "biguzera",
+            "kauez",
+            "lux",
+            "n1ssim",
+            "nqz"
+          ],
+          "points": 1048,
+          "vrsRoster": [
+            "biguzera",
+            "n1ssim",
+            "nqz",
+            "kauez",
+            "lux"
+          ]
+        },
+        {
+          "seed": 13,
+          "name": "Lynn Vision",
+          "roster": [
+            "EmiliaQAQ",
+            "Jee",
+            "Starry",
+            "Westmelon",
+            "z4kr"
+          ],
+          "points": 1152,
+          "vrsRoster": [
+            "Westmelon",
+            "z4kr",
+            "Starry",
+            "Jee",
+            "EmiliaQAQ"
+          ]
+        },
+        {
+          "seed": 14,
+          "name": "AMKAL",
+          "roster": [
+            "Forester",
+            "ICY",
+            "Krad",
+            "NickelBack",
+            "TRAVIS"
+          ],
+          "points": 1083,
+          "vrsRoster": [
+            "NickelBack",
+            "Krad",
+            "Forester",
+            "TRAVIS",
+            "ICY"
+          ]
+        },
+        {
+          "seed": 15,
+          "name": "KOI",
+          "roster": [
+            "adamS",
+            "dav1g",
+            "JUST",
+            "mopoz",
+            "stadodo"
+          ],
+          "points": 1046,
+          "vrsRoster": [
+            "JUST",
+            "mopoz",
+            "stadodo",
+            "dav1g",
+            "adamS"
+          ]
+        },
+        {
+          "seed": 16,
+          "name": "Legacy",
+          "roster": [
+            "b4rtiN",
+            "coldzera",
+            "dumau",
+            "latto",
+            "NEKIZ"
+          ],
+          "points": 1009,
+          "vrsRoster": [
+            "coldzera",
+            "NEKIZ",
+            "dumau",
+            "b4rtiN",
+            "latto"
+          ]
+        }
+      ]
+    },
+    "copenhagen-2024-2": {
+      "id": "copenhagen-2024-2",
+      "label": "哥本哈根 2024 · Stage 2",
+      "stage": 2,
+      "start": "2024-03-21",
+      "cutoffExclusive": "2024-03-21",
+      "allBo3": false,
+      "pointsAsOf": "2024-03-04",
+      "teams": [
+        {
+          "seed": 1,
+          "name": "FaZe",
+          "roster": [
+            "karrigan",
+            "rain",
+            "frozen",
+            "ropz",
+            "broky"
+          ],
+          "points": 1942,
+          "vrsRoster": [
+            "broky",
+            "frozen",
+            "karrigan",
+            "rain",
+            "ropz"
+          ]
+        },
+        {
+          "seed": 2,
+          "name": "Spirit",
+          "roster": [
+            "chopper",
+            "sh1ro",
+            "magixx",
+            "zont1x",
+            "donk"
+          ],
+          "points": 1933,
+          "vrsRoster": [
+            "chopper",
+            "donk",
+            "magixx",
+            "sh1ro",
+            "zont1x"
+          ]
+        },
+        {
+          "seed": 3,
+          "name": "Vitality",
+          "roster": [
+            "apEX",
+            "ZywOo",
+            "flameZ",
+            "Spinx",
+            "mezii"
+          ],
+          "points": 1822,
+          "vrsRoster": [
+            "apex",
+            "flamez",
+            "mezii",
+            "spinx",
+            "zywoo"
+          ]
+        },
+        {
+          "seed": 4,
+          "name": "MOUZ",
+          "roster": [
+            "Brollan",
+            "siuhy",
+            "torzsi",
+            "Jimpphat",
+            "xertioN"
+          ],
+          "points": 1801,
+          "vrsRoster": [
+            "brollan",
+            "jimpphat",
+            "siuhy",
+            "torzsi",
+            "xertion"
+          ]
+        },
+        {
+          "seed": 5,
+          "name": "Complexity",
+          "roster": [
+            "hallzerk",
+            "JT",
+            "floppy",
+            "Grim",
+            "EliGE"
+          ],
+          "points": 1434,
+          "vrsRoster": [
+            "elige",
+            "floppy",
+            "grim",
+            "hallzerk",
+            "jt"
+          ]
+        },
+        {
+          "seed": 6,
+          "name": "Virtus.pro",
+          "roster": [
+            "Jame",
+            "FL1T",
+            "fame",
+            "n0rb3r7",
+            "mir"
+          ],
+          "points": 1779,
+          "vrsRoster": [
+            "fame",
+            "fl1t",
+            "jame",
+            "mir",
+            "n0rb3r7"
+          ]
+        },
+        {
+          "seed": 7,
+          "name": "Natus Vincere",
+          "roster": [
+            "Aleksib",
+            "iM",
+            "b1t",
+            "jL",
+            "w0nderful"
+          ],
+          "points": 1744,
+          "vrsRoster": [
+            "aleksib",
+            "b1t",
+            "im",
+            "jl",
+            "w0nderful"
+          ]
+        },
+        {
+          "seed": 8,
+          "name": "G2",
+          "roster": [
+            "NiKo",
+            "huNter-",
+            "nexa",
+            "HooXi",
+            "m0NESY"
+          ],
+          "points": 1704,
+          "vrsRoster": [
+            "hooxi",
+            "hunter-",
+            "m0nesy",
+            "nexa",
+            "niko"
+          ]
+        },
+        {
+          "seed": 9,
+          "name": "HEROIC",
+          "roster": [
+            "kyxsan",
+            "Nertz",
+            "nicoodoz",
+            "sjuush",
+            "TeSeS"
+          ],
+          "points": 1433,
+          "vrsRoster": [
+            "kyxsan",
+            "nertz",
+            "nicoodoz",
+            "sjuush",
+            "teses"
+          ]
+        },
+        {
+          "seed": 10,
+          "name": "Cloud9",
+          "roster": [
+            "Ax1Le",
+            "Boombl4",
+            "electronic",
+            "HObbit",
+            "Perfecto"
+          ],
+          "points": 1520,
+          "vrsRoster": [
+            "ax1le",
+            "boombl4",
+            "electronic",
+            "hobbit",
+            "perfecto"
+          ]
+        },
+        {
+          "seed": 11,
+          "name": "Eternal Fire",
+          "roster": [
+            "Calyx",
+            "MAJ3R",
+            "Wicadia",
+            "woxic",
+            "XANTARES"
+          ],
+          "points": 1508,
+          "vrsRoster": [
+            "calyx",
+            "maj3r",
+            "wicadia",
+            "woxic",
+            "xantares"
+          ]
+        },
+        {
+          "seed": 12,
+          "name": "ECSTATIC",
+          "roster": [
+            "kraghen",
+            "Nodios",
+            "Patti",
+            "Queenix",
+            "salazar"
+          ],
+          "points": 1127,
+          "vrsRoster": [
+            "kraghen",
+            "nodios",
+            "patti",
+            "queenix",
+            "salazar"
+          ]
+        },
+        {
+          "seed": 13,
+          "name": "paiN",
+          "roster": [
+            "biguzera",
+            "kauez",
+            "lux",
+            "n1ssim",
+            "nqz"
+          ],
+          "points": 1048,
+          "vrsRoster": [
+            "biguzera",
+            "kauez",
+            "lux",
+            "n1ssim",
+            "nqz"
+          ]
+        },
+        {
+          "seed": 14,
+          "name": "Imperial",
+          "roster": [
+            "Decenty",
+            "felps",
+            "HEN1",
+            "noway",
+            "VINI"
+          ],
+          "points": 1152,
+          "vrsRoster": [
+            "decenty",
+            "felps",
+            "hen1",
+            "noway",
+            "vini"
+          ]
+        },
+        {
+          "seed": 15,
+          "name": "The MongolZ",
+          "roster": [
+            "910",
+            "bLitz",
+            "mzinho",
+            "senzu",
+            "Techno"
+          ],
+          "points": 1433,
+          "vrsRoster": [
+            "910",
+            "blitz",
+            "mzinho",
+            "senzu",
+            "techno"
+          ]
+        },
+        {
+          "seed": 16,
+          "name": "FURIA",
+          "roster": [
+            "arT",
+            "chelo",
+            "FalleN",
+            "KSCERATO",
+            "yuurih"
+          ],
+          "points": 1391,
+          "vrsRoster": [
+            "art",
+            "chelo",
+            "fallen",
+            "kscerato",
+            "yuurih"
+          ]
+        }
+      ]
+    },
+    "shanghai": {
+      "id": "shanghai",
+      "label": "上海 2024",
+      "stage": 1,
+      "start": "2024-11-30",
+      "cutoffExclusive": "2024-11-30",
+      "allBo3": false,
+      "pointsAsOf": "2024-11-06",
+      "teams": [
+        {
+          "seed": 1,
+          "name": "FURIA",
+          "roster": [
+            "chelo",
+            "FalleN",
+            "KSCERATO",
+            "skullz",
+            "yuurih"
+          ],
+          "points": 1593,
+          "vrsRoster": [
+            "chelo",
+            "FalleN",
+            "KSCERATO",
+            "skullz",
+            "yuurih"
+          ]
+        },
+        {
+          "seed": 2,
+          "name": "Virtus.pro",
+          "roster": [
+            "electronic",
+            "fame",
+            "FL1T",
+            "Jame",
+            "n0rb3r7"
+          ],
+          "points": 1451,
+          "vrsRoster": [
+            "electroNic",
+            "fame",
+            "FL1T",
+            "Jame",
+            "n0rb3r7"
+          ]
+        },
+        {
+          "seed": 3,
+          "name": "Liquid",
+          "roster": [
+            "jks",
+            "NAF",
+            "Twistzz",
+            "ultimate",
+            "YEKINDAR"
+          ],
+          "points": 1544,
+          "vrsRoster": [
+            "jks",
+            "NAF",
+            "Twistzz",
+            "ultimate",
+            "YEKINDAR"
+          ]
+        },
+        {
+          "seed": 4,
+          "name": "Complexity",
+          "roster": [
+            "EliGE",
+            "floppy",
+            "Grim",
+            "Hallzerk",
+            "JT"
+          ],
+          "points": 1468,
+          "vrsRoster": [
+            "EliGE",
+            "floppy",
+            "Grim",
+            "hallzerk",
+            "JT"
+          ]
+        },
+        {
+          "seed": 5,
+          "name": "BIG",
+          "roster": [
+            "JDC",
+            "Krimbo",
+            "rigoN",
+            "syrsoN",
+            "tabseN"
+          ],
+          "points": 1314,
+          "vrsRoster": [
+            "JDC",
+            "Krimbo",
+            "rigoN",
+            "syrsoN",
+            "tabseN"
+          ]
+        },
+        {
+          "seed": 6,
+          "name": "fnatic",
+          "roster": [
+            "blameF",
+            "bodyy",
+            "KRIMZ",
+            "MATYS",
+            "nawwk"
+          ],
+          "points": 1209,
+          "vrsRoster": [
+            "blameF",
+            "bodyy",
+            "KRIMZ",
+            "MATYS",
+            "nawwk"
+          ]
+        },
+        {
+          "seed": 7,
+          "name": "The MongolZ",
+          "roster": [
+            "910",
+            "bLitz",
+            "mzinho",
+            "senzu",
+            "Techno"
+          ],
+          "points": 1716,
+          "vrsRoster": [
+            "910",
+            "bLitz",
+            "mzinho",
+            "Senzu",
+            "Techno"
+          ]
+        },
+        {
+          "seed": 8,
+          "name": "paiN",
+          "roster": [
+            "biguzera",
+            "kauez",
+            "lux",
+            "nqz",
+            "Snowzin"
+          ],
+          "points": 1402,
+          "vrsRoster": [
+            "biguzera",
+            "kauez",
+            "lux",
+            "nqz",
+            "snow"
+          ]
+        },
+        {
+          "seed": 9,
+          "name": "GamerLegion",
+          "roster": [
+            "FL4MUS",
+            "sl3nd",
+            "Tauson",
+            "volt",
+            "ztr"
+          ],
+          "points": 1114,
+          "vrsRoster": [
+            "FL4MUS",
+            "sl3nd",
+            "Tauson",
+            "volt",
+            "ztr"
+          ]
+        },
+        {
+          "seed": 10,
+          "name": "MIBR",
+          "roster": [
+            "drop",
+            "exit",
+            "insani",
+            "Lucaozy",
+            "saffee"
+          ],
+          "points": 1172,
+          "vrsRoster": [
+            "drop",
+            "exit",
+            "insani",
+            "Lucaozy",
+            "saffee"
+          ]
+        },
+        {
+          "seed": 11,
+          "name": "Cloud9",
+          "roster": [
+            "Ax1Le",
+            "Boombl4",
+            "HeavyGod",
+            "ICY",
+            "interz"
+          ],
+          "points": 1030,
+          "vrsRoster": [
+            "Ax1Le",
+            "Boombl4",
+            "HeavyGod",
+            "ICY",
+            "interz"
+          ]
+        },
+        {
+          "seed": 12,
+          "name": "FlyQuest",
+          "roster": [
+            "aliStair",
+            "dexter",
+            "INS",
+            "Liazz",
+            "Vexite"
+          ],
+          "points": 1274,
+          "vrsRoster": [
+            "aliStair",
+            "dexter",
+            "INS",
+            "Liazz",
+            "Vexite"
+          ]
+        },
+        {
+          "seed": 13,
+          "name": "Passion UA",
+          "roster": [
+            "fear",
+            "jackasmo",
+            "Jambo",
+            "s-chilla",
+            "zeRRoFIX"
+          ],
+          "points": 999,
+          "vrsRoster": [
+            "fear",
+            "jackasmo",
+            "jambo",
+            "s-chilla",
+            "zeRRoFIX"
+          ]
+        },
+        {
+          "seed": 14,
+          "name": "Wildcard",
+          "roster": [
+            "JBa",
+            "phzy",
+            "Sonic",
+            "stanislaw",
+            "susp"
+          ],
+          "points": 1112,
+          "vrsRoster": [
+            "JBa",
+            "phzy",
+            "Sonic",
+            "stanislaw",
+            "susp"
+          ]
+        },
+        {
+          "seed": 15,
+          "name": "Rare Atom",
+          "roster": [
+            "AhaNg",
+            "ChildKing",
+            "Kaze",
+            "somebody",
+            "Summer"
+          ],
+          "points": 857,
+          "vrsRoster": [
+            "ChildKing",
+            "kaze",
+            "L1haNg",
+            "somebody",
+            "Summer"
+          ]
+        },
+        {
+          "seed": 16,
+          "name": "Imperial",
+          "roster": [
+            "Decenty",
+            "felps",
+            "noway",
+            "try",
+            "VINI"
+          ],
+          "points": 1148,
+          "vrsRoster": [
+            "decenty",
+            "felps",
+            "noway",
+            "try",
+            "VINI"
+          ]
+        }
+      ]
+    },
+    "shanghai-2024-2": {
+      "id": "shanghai-2024-2",
+      "label": "上海 2024 · Stage 2",
+      "stage": 2,
+      "start": "2024-12-05",
+      "cutoffExclusive": "2024-12-05",
+      "allBo3": false,
+      "pointsAsOf": "2024-11-06",
+      "teams": [
+        {
+          "seed": 1,
+          "name": "G2",
+          "roster": [
+            "NiKo",
+            "huNter-",
+            "Snax",
+            "m0NESY",
+            "malbsMd"
+          ],
+          "points": 1970,
+          "vrsRoster": [
+            "hunter-",
+            "m0nesy",
+            "malbsmd",
+            "niko",
+            "snax"
+          ]
+        },
+        {
+          "seed": 2,
+          "name": "Natus Vincere",
+          "roster": [
+            "Aleksib",
+            "iM",
+            "b1t",
+            "jL",
+            "w0nderful"
+          ],
+          "points": 1887,
+          "vrsRoster": [
+            "aleksib",
+            "b1t",
+            "im",
+            "jl",
+            "w0nderful"
+          ]
+        },
+        {
+          "seed": 3,
+          "name": "Vitality",
+          "roster": [
+            "apEX",
+            "ZywOo",
+            "flameZ",
+            "Spinx",
+            "mezii"
+          ],
+          "points": 1817,
+          "vrsRoster": [
+            "apex",
+            "flamez",
+            "jackz",
+            "spinx",
+            "zywoo"
+          ]
+        },
+        {
+          "seed": 4,
+          "name": "Spirit",
+          "roster": [
+            "chopper",
+            "sh1ro",
+            "magixx",
+            "zont1x",
+            "donk"
+          ],
+          "points": 1843,
+          "vrsRoster": [
+            "chopper",
+            "donk",
+            "magixx",
+            "sh1ro",
+            "zont1x"
+          ]
+        },
+        {
+          "seed": 5,
+          "name": "MOUZ",
+          "roster": [
+            "Brollan",
+            "siuhy",
+            "torzsi",
+            "Jimpphat",
+            "xertioN"
+          ],
+          "points": 1678,
+          "vrsRoster": [
+            "brollan",
+            "jimpphat",
+            "siuhy",
+            "torzsi",
+            "xertion"
+          ]
+        },
+        {
+          "seed": 6,
+          "name": "FaZe",
+          "roster": [
+            "karrigan",
+            "rain",
+            "frozen",
+            "ropz",
+            "broky"
+          ],
+          "points": 1605,
+          "vrsRoster": [
+            "broky",
+            "frozen",
+            "karrigan",
+            "rain",
+            "ropz"
+          ]
+        },
+        {
+          "seed": 7,
+          "name": "HEROIC",
+          "roster": [
+            "NertZ",
+            "TeSeS",
+            "sjuush",
+            "degster",
+            "kyxsan"
+          ],
+          "points": 1603,
+          "vrsRoster": [
+            "degster",
+            "kyxsan",
+            "nertz",
+            "sjuush",
+            "teses"
+          ]
+        },
+        {
+          "seed": 8,
+          "name": "3DMAX",
+          "roster": [
+            "Maka",
+            "Lucky",
+            "Djoko",
+            "Ex3rcice",
+            "Graviti"
+          ],
+          "points": 1367,
+          "vrsRoster": [
+            "djoko",
+            "ex3rcice",
+            "graviti",
+            "lucky",
+            "maka"
+          ]
+        },
+        {
+          "seed": 9,
+          "name": "The MongolZ",
+          "roster": [
+            "910",
+            "bLitz",
+            "mzinho",
+            "senzu",
+            "Techno"
+          ],
+          "points": 1716,
+          "vrsRoster": [
+            "910",
+            "blitz",
+            "mzinho",
+            "senzu",
+            "techno"
+          ]
+        },
+        {
+          "seed": 10,
+          "name": "Liquid",
+          "roster": [
+            "jks",
+            "NAF",
+            "Twistzz",
+            "ultimate",
+            "YEKINDAR"
+          ],
+          "points": 1544,
+          "vrsRoster": [
+            "jks",
+            "naf",
+            "twistzz",
+            "ultimate",
+            "yekindar"
+          ]
+        },
+        {
+          "seed": 11,
+          "name": "GamerLegion",
+          "roster": [
+            "FL4MUS",
+            "sl3nd",
+            "Tauson",
+            "volt",
+            "ztr"
+          ],
+          "points": 1114,
+          "vrsRoster": [
+            "fl4mus",
+            "sl3nd",
+            "tauson",
+            "volt",
+            "ztr"
+          ]
+        },
+        {
+          "seed": 12,
+          "name": "FURIA",
+          "roster": [
+            "chelo",
+            "FalleN",
+            "KSCERATO",
+            "skullz",
+            "yuurih"
+          ],
+          "points": 1593,
+          "vrsRoster": [
+            "chelo",
+            "fallen",
+            "kscerato",
+            "skullz",
+            "yuurih"
+          ]
+        },
+        {
+          "seed": 13,
+          "name": "paiN",
+          "roster": [
+            "biguzera",
+            "kauez",
+            "lux",
+            "nqz",
+            "Snowzin"
+          ],
+          "points": 1402,
+          "vrsRoster": [
+            "biguzera",
+            "kauez",
+            "lux",
+            "nqz",
+            "snow"
+          ]
+        },
+        {
+          "seed": 14,
+          "name": "Wildcard",
+          "roster": [
+            "JBa",
+            "phzy",
+            "Sonic",
+            "stanislaw",
+            "susp"
+          ],
+          "points": 1112,
+          "vrsRoster": [
+            "jba",
+            "phzy",
+            "sonic",
+            "stanislaw",
+            "susp"
+          ]
+        },
+        {
+          "seed": 15,
+          "name": "BIG",
+          "roster": [
+            "JDC",
+            "Krimbo",
+            "rigoN",
+            "syrsoN",
+            "tabseN"
+          ],
+          "points": 1314,
+          "vrsRoster": [
+            "jdc",
+            "krimbo",
+            "rigon",
+            "syrson",
+            "tabsen"
+          ]
+        },
+        {
+          "seed": 16,
+          "name": "MIBR",
+          "roster": [
+            "drop",
+            "exit",
+            "insani",
+            "Lucaozy",
+            "saffee"
+          ],
+          "points": 1172,
+          "vrsRoster": [
+            "drop",
+            "exit",
+            "insani",
+            "lucaozy",
+            "saffee"
+          ]
+        }
+      ]
+    },
+    "austin": {
+      "id": "austin",
+      "label": "奥斯汀 Major 2025",
+      "stage": 1,
+      "start": "2025-06-03",
+      "cutoffExclusive": "2025-06-03",
+      "allBo3": false,
+      "pointsAsOf": "2025-06-02",
+      "teams": [
+        {
+          "seed": 1,
+          "name": "Complexity",
+          "roster": [
+            "Cxzi",
+            "Grim",
+            "junior",
+            "JT",
+            "nicx"
+          ],
+          "points": 1433,
+          "vrsRoster": [
+            "Cxzi",
+            "Grim",
+            "hallzerk",
+            "JT",
+            "nicx"
+          ]
+        },
+        {
+          "seed": 2,
+          "name": "HEROIC",
+          "roster": [
+            "LNZ",
+            "SunPayus",
+            "tN1R",
+            "xfl0ud",
+            "yxngstxr"
+          ],
+          "points": 1552,
+          "vrsRoster": [
+            "LNZ",
+            "SunPayus",
+            "tN1R",
+            "xfl0ud",
+            "yxngstxr"
+          ]
+        },
+        {
+          "seed": 3,
+          "name": "B8",
+          "roster": [
+            "alex666",
+            "esenthial",
+            "headtr1ck",
+            "kensizor",
+            "npl"
+          ],
+          "points": 1275,
+          "vrsRoster": [
+            "alex666",
+            "esenthial",
+            "headtr1ck",
+            "kensizor",
+            "npl"
+          ]
+        },
+        {
+          "seed": 4,
+          "name": "BetBoom",
+          "roster": [
+            "Ax1Le",
+            "Boombl4",
+            "Magnojez",
+            "S1ren",
+            "zorte"
+          ],
+          "points": 1102,
+          "vrsRoster": [
+            "Ax1Le",
+            "Boombl4",
+            "Magnojez",
+            "S1ren",
+            "zorte"
+          ]
+        },
+        {
+          "seed": 5,
+          "name": "TYLOO",
+          "roster": [
+            "Attacker",
+            "JamYoung",
+            "Jee",
+            "Mercury",
+            "Moseyuh"
+          ],
+          "points": 1358,
+          "vrsRoster": [
+            "Attacker",
+            "JamYoung",
+            "Jee",
+            "Mercury",
+            "Moseyuh"
+          ]
+        },
+        {
+          "seed": 6,
+          "name": "Lynn Vision",
+          "roster": [
+            "C4LLM3SU3",
+            "EmiliaQAQ",
+            "Starry",
+            "Westmelon",
+            "z4kr"
+          ],
+          "points": 1212,
+          "vrsRoster": [
+            "C4LLM3SU3",
+            "EmiliaQAQ",
+            "Starry",
+            "Westmelon",
+            "z4kr"
+          ]
+        },
+        {
+          "seed": 7,
+          "name": "Wildcard",
+          "roster": [
+            "JBa",
+            "phzy",
+            "Sonic",
+            "stanislaw",
+            "susp"
+          ],
+          "points": 1037,
+          "vrsRoster": [
+            "JBa",
+            "phzy",
+            "Sonic",
+            "stanislaw",
+            "susp"
+          ]
+        },
+        {
+          "seed": 8,
+          "name": "FlyQuest",
+          "roster": [
+            "INS",
+            "Liazz",
+            "nettik",
+            "regali",
+            "Vexite"
+          ],
+          "points": 1213,
+          "vrsRoster": [
+            "INS",
+            "Liazz",
+            "nettik",
+            "regali",
+            "Vexite"
+          ]
+        },
+        {
+          "seed": 9,
+          "name": "OG",
+          "roster": [
+            "Buzz",
+            "Chr1zN",
+            "F1KU",
+            "nicoodoz",
+            "spooke"
+          ],
+          "points": 1097,
+          "vrsRoster": [
+            "Buzz",
+            "Chr1zN",
+            "F1KU",
+            "nicoodoz",
+            "spooke"
+          ]
+        },
+        {
+          "seed": 10,
+          "name": "Chinggis Warriors",
+          "roster": [
+            "ariucle",
+            "controlez",
+            "cool4st",
+            "Efire",
+            "ROUX"
+          ],
+          "points": 1087,
+          "vrsRoster": [
+            "ariucle",
+            "controlez",
+            "cool4st",
+            "Efire",
+            "ROUX"
+          ]
+        },
+        {
+          "seed": 11,
+          "name": "Imperial",
+          "roster": [
+            "chayJESUS",
+            "decenty",
+            "noway",
+            "try",
+            "VINI"
+          ],
+          "points": 1074,
+          "vrsRoster": [
+            "chayJESUS",
+            "decenty",
+            "noway",
+            "try",
+            "VINI"
+          ]
+        },
+        {
+          "seed": 12,
+          "name": "Nemiga",
+          "roster": [
+            "1eeR",
+            "khaN",
+            "riskyb0b",
+            "Xant3r",
+            "zweih"
+          ],
+          "points": 1045,
+          "vrsRoster": [
+            "1eeR",
+            "khaN",
+            "riskyb0b",
+            "Xant3r",
+            "zweih"
+          ]
+        },
+        {
+          "seed": 13,
+          "name": "NRG",
+          "roster": [
+            "br0",
+            "HexT",
+            "Jeorge",
+            "nitr0",
+            "oSee"
+          ],
+          "points": 1121,
+          "vrsRoster": [
+            "br0",
+            "HexT",
+            "Jeorge",
+            "nitr0",
+            "oSee"
+          ]
+        },
+        {
+          "seed": 14,
+          "name": "Legacy",
+          "roster": [
+            "dumau",
+            "latto",
+            "lux",
+            "n1ssim",
+            "saadzin"
+          ],
+          "points": 1035,
+          "vrsRoster": [
+            "dumau",
+            "latto",
+            "lux",
+            "n1ssim",
+            "saadzin"
+          ]
+        },
+        {
+          "seed": 15,
+          "name": "Metizport",
+          "roster": [
+            "adamb",
+            "hampus",
+            "isak",
+            "L00m1",
+            "Plopski"
+          ],
+          "points": 959,
+          "vrsRoster": [
+            "adamb",
+            "hampus",
+            "isak",
+            "L00m1",
+            "Plopski"
+          ]
+        },
+        {
+          "seed": 16,
+          "name": "Fluxo",
+          "roster": [
+            "arT",
+            "kye",
+            "mlhzin",
+            "piriajr",
+            "zevy"
+          ],
+          "points": 999,
+          "vrsRoster": [
+            "arT",
+            "kye",
+            "mlhzin",
+            "piriajr",
+            "zevy"
+          ]
+        }
+      ]
+    },
+    "austin-2025-2": {
+      "id": "austin-2025-2",
+      "label": "奥斯汀 Major 2025 · Stage 2",
+      "stage": 2,
+      "start": "2025-06-07",
+      "cutoffExclusive": "2025-06-07",
+      "allBo3": false,
+      "pointsAsOf": "2025-06-02",
+      "teams": [
+        {
+          "seed": 1,
+          "name": "Falcons",
+          "roster": [
+            "NiKo",
+            "kyxsan",
+            "m0NESY",
+            "TeSeS",
+            "Magisk"
+          ],
+          "points": 1888,
+          "vrsRoster": [
+            "kyxsan",
+            "m0NESY",
+            "Magisk",
+            "NiKo",
+            "TeSeS"
+          ]
+        },
+        {
+          "seed": 2,
+          "name": "FaZe",
+          "roster": [
+            "karrigan",
+            "s1mple",
+            "EliGE",
+            "frozen",
+            "rain"
+          ],
+          "points": 1609,
+          "vrsRoster": [
+            "EliGE",
+            "frozen",
+            "karrigan",
+            "s1mple",
+            "skullz"
+          ]
+        },
+        {
+          "seed": 3,
+          "name": "3DMAX",
+          "roster": [
+            "Maka",
+            "Ex3rcice",
+            "Lucky",
+            "Graviti",
+            "bodyy"
+          ],
+          "points": 1585,
+          "vrsRoster": [
+            "bodyy",
+            "Ex3rcice",
+            "Graviti",
+            "Lucky",
+            "Maka"
+          ]
+        },
+        {
+          "seed": 4,
+          "name": "Virtus.pro",
+          "roster": [
+            "FL1T",
+            "fame",
+            "electronic",
+            "FL4MUS",
+            "ICY"
+          ],
+          "points": 1452,
+          "vrsRoster": [
+            "electroNic",
+            "fame",
+            "FL1T",
+            "FL4MUS",
+            "ICY"
+          ]
+        },
+        {
+          "seed": 5,
+          "name": "paiN",
+          "roster": [
+            "biguzera",
+            "nqz",
+            "snow",
+            "dav1deuS",
+            "dgt"
+          ],
+          "points": 1225,
+          "vrsRoster": [
+            "biguzera",
+            "dav1deuS",
+            "dgt",
+            "nqz",
+            "snow"
+          ]
+        },
+        {
+          "seed": 6,
+          "name": "FURIA",
+          "roster": [
+            "FalleN",
+            "yuurih",
+            "KSCERATO",
+            "YEKINDAR",
+            "molodoy"
+          ],
+          "points": 1443,
+          "vrsRoster": [
+            "FalleN",
+            "KSCERATO",
+            "molodoy",
+            "YEKINDAR",
+            "yuurih"
+          ]
+        },
+        {
+          "seed": 7,
+          "name": "MIBR",
+          "roster": [
+            "exit",
+            "insani",
+            "Lucaozy",
+            "brnz4n",
+            "saffee"
+          ],
+          "points": 1352,
+          "vrsRoster": [
+            "brnz4n",
+            "exit",
+            "insani",
+            "Lucaozy",
+            "saffee"
+          ]
+        },
+        {
+          "seed": 8,
+          "name": "M80",
+          "roster": [
+            "reck",
+            "Lake",
+            "Swisher",
+            "slaxz-",
+            "s1n"
+          ],
+          "points": 1029,
+          "vrsRoster": [
+            "Lake",
+            "reck",
+            "s1n",
+            "slaxz-",
+            "Swisher"
+          ]
+        },
+        {
+          "seed": 9,
+          "name": "B8",
+          "roster": [
+            "alex666",
+            "esenthial",
+            "headtr1ck",
+            "kensizor",
+            "npl"
+          ],
+          "points": 1275,
+          "vrsRoster": [
+            "alex666",
+            "esenthial",
+            "headtr1ck",
+            "kensizor",
+            "npl"
+          ]
+        },
+        {
+          "seed": 10,
+          "name": "HEROIC",
+          "roster": [
+            "LNZ",
+            "SunPayus",
+            "tN1R",
+            "xfl0ud",
+            "yxngstxr"
+          ],
+          "points": 1552,
+          "vrsRoster": [
+            "LNZ",
+            "SunPayus",
+            "tN1R",
+            "xfl0ud",
+            "yxngstxr"
+          ]
+        },
+        {
+          "seed": 11,
+          "name": "BetBoom",
+          "roster": [
+            "Ax1Le",
+            "Boombl4",
+            "Magnojez",
+            "S1ren",
+            "zorte"
+          ],
+          "points": 1102,
+          "vrsRoster": [
+            "Ax1Le",
+            "Boombl4",
+            "Magnojez",
+            "S1ren",
+            "zorte"
+          ]
+        },
+        {
+          "seed": 12,
+          "name": "OG",
+          "roster": [
+            "Buzz",
+            "Chr1zN",
+            "F1KU",
+            "nicoodoz",
+            "spooke"
+          ],
+          "points": 1097,
+          "vrsRoster": [
+            "Buzz",
+            "Chr1zN",
+            "F1KU",
+            "nicoodoz",
+            "spooke"
+          ]
+        },
+        {
+          "seed": 13,
+          "name": "Nemiga",
+          "roster": [
+            "1eeR",
+            "khaN",
+            "riskyb0b",
+            "Xant3r",
+            "zweih"
+          ],
+          "points": 1045,
+          "vrsRoster": [
+            "1eeR",
+            "khaN",
+            "riskyb0b",
+            "Xant3r",
+            "zweih"
+          ]
+        },
+        {
+          "seed": 14,
+          "name": "Lynn Vision",
+          "roster": [
+            "C4LLM3SU3",
+            "EmiliaQAQ",
+            "Starry",
+            "Westmelon",
+            "z4kr"
+          ],
+          "points": 1212,
+          "vrsRoster": [
+            "C4LLM3SU3",
+            "EmiliaQAQ",
+            "Starry",
+            "Westmelon",
+            "z4kr"
+          ]
+        },
+        {
+          "seed": 15,
+          "name": "Legacy",
+          "roster": [
+            "dumau",
+            "latto",
+            "lux",
+            "n1ssim",
+            "saadzin"
+          ],
+          "points": 1035,
+          "vrsRoster": [
+            "dumau",
+            "latto",
+            "lux",
+            "n1ssim",
+            "saadzin"
+          ]
+        },
+        {
+          "seed": 16,
+          "name": "TYLOO",
+          "roster": [
+            "Attacker",
+            "JamYoung",
+            "Jee",
+            "Mercury",
+            "Moseyuh"
+          ],
+          "points": 1358,
+          "vrsRoster": [
+            "Attacker",
+            "JamYoung",
+            "Jee",
+            "Mercury",
+            "Moseyuh"
+          ]
+        }
+      ]
+    },
+    "austin-2025-3": {
+      "id": "austin-2025-3",
+      "label": "奥斯汀 Major 2025 · Stage 3",
+      "stage": 3,
+      "start": "2025-06-12",
+      "cutoffExclusive": "2025-06-12",
+      "allBo3": false,
+      "pointsAsOf": "2025-06-02",
+      "teams": [
+        {
+          "seed": 1,
+          "name": "Vitality",
+          "roster": [
+            "apEX",
+            "ZywOo",
+            "flameZ",
+            "mezii",
+            "ropz"
+          ],
+          "points": 2124,
+          "vrsRoster": [
+            "apEX",
+            "flameZ",
+            "mezii",
+            "ropz",
+            "ZywOo"
+          ]
+        },
+        {
+          "seed": 2,
+          "name": "MOUZ",
+          "roster": [
+            "torzsi",
+            "Jimpphat",
+            "Brollan",
+            "Spinx",
+            "xertioN"
+          ],
+          "points": 1922,
+          "vrsRoster": [
+            "Brollan",
+            "Jimpphat",
+            "Spinx",
+            "torzsi",
+            "xertioN"
+          ]
+        },
+        {
+          "seed": 3,
+          "name": "Spirit",
+          "roster": [
+            "chopper",
+            "magixx",
+            "donk",
+            "sh1ro",
+            "zont1x"
+          ],
+          "points": 1905,
+          "vrsRoster": [
+            "chopper",
+            "donk",
+            "magixx",
+            "sh1ro",
+            "zont1x"
+          ]
+        },
+        {
+          "seed": 4,
+          "name": "G2",
+          "roster": [
+            "Snax",
+            "huNter-",
+            "malbsMd",
+            "HeavyGod",
+            "hades"
+          ],
+          "points": 1636,
+          "vrsRoster": [
+            "hades",
+            "HeavyGod",
+            "huNter-",
+            "malbsMd",
+            "Snax"
+          ]
+        },
+        {
+          "seed": 5,
+          "name": "The MongolZ",
+          "roster": [
+            "bLitz",
+            "Techno",
+            "Senzu",
+            "910",
+            "mzinho"
+          ],
+          "points": 1790,
+          "vrsRoster": [
+            "910",
+            "bLitz",
+            "mzinho",
+            "Senzu",
+            "Techno"
+          ]
+        },
+        {
+          "seed": 6,
+          "name": "Aurora",
+          "roster": [
+            "MAJ3R",
+            "XANTARES",
+            "jottAAA",
+            "Wicadia",
+            "woxic"
+          ],
+          "points": 1742,
+          "vrsRoster": [
+            "jottAAA",
+            "MAJ3R",
+            "Wicadia",
+            "woxic",
+            "XANTARES"
+          ]
+        },
+        {
+          "seed": 7,
+          "name": "Natus Vincere",
+          "roster": [
+            "w0nderful",
+            "Aleksib",
+            "jL",
+            "b1t",
+            "iM"
+          ],
+          "points": 1632,
+          "vrsRoster": [
+            "Aleksib",
+            "b1t",
+            "iM",
+            "jL",
+            "w0nderful"
+          ]
+        },
+        {
+          "seed": 8,
+          "name": "Liquid",
+          "roster": [
+            "Twistzz",
+            "ultimate",
+            "NertZ",
+            "siuhy",
+            "NAF"
+          ],
+          "points": 1538,
+          "vrsRoster": [
+            "NAF",
+            "NertZ",
+            "siuhy",
+            "Twistzz",
+            "ultimate"
+          ]
+        },
+        {
+          "seed": 9,
+          "name": "Legacy",
+          "roster": [
+            "dumau",
+            "latto",
+            "lux",
+            "n1ssim",
+            "saadzin"
+          ],
+          "points": 1035,
+          "vrsRoster": [
+            "dumau",
+            "latto",
+            "lux",
+            "n1ssim",
+            "saadzin"
+          ]
+        },
+        {
+          "seed": 10,
+          "name": "Virtus.pro",
+          "roster": [
+            "FL1T",
+            "fame",
+            "electronic",
+            "FL4MUS",
+            "ICY"
+          ],
+          "points": 1452,
+          "vrsRoster": [
+            "electroNic",
+            "fame",
+            "FL1T",
+            "FL4MUS",
+            "ICY"
+          ]
+        },
+        {
+          "seed": 11,
+          "name": "paiN",
+          "roster": [
+            "biguzera",
+            "nqz",
+            "snow",
+            "dav1deuS",
+            "dgt"
+          ],
+          "points": 1225,
+          "vrsRoster": [
+            "biguzera",
+            "dav1deuS",
+            "dgt",
+            "nqz",
+            "snow"
+          ]
+        },
+        {
+          "seed": 12,
+          "name": "3DMAX",
+          "roster": [
+            "Maka",
+            "Ex3rcice",
+            "Lucky",
+            "Graviti",
+            "bodyy"
+          ],
+          "points": 1585,
+          "vrsRoster": [
+            "bodyy",
+            "Ex3rcice",
+            "Graviti",
+            "Lucky",
+            "Maka"
+          ]
+        },
+        {
+          "seed": 13,
+          "name": "FURIA",
+          "roster": [
+            "FalleN",
+            "yuurih",
+            "KSCERATO",
+            "YEKINDAR",
+            "molodoy"
+          ],
+          "points": 1443,
+          "vrsRoster": [
+            "FalleN",
+            "KSCERATO",
+            "molodoy",
+            "YEKINDAR",
+            "yuurih"
+          ]
+        },
+        {
+          "seed": 14,
+          "name": "FaZe",
+          "roster": [
+            "karrigan",
+            "s1mple",
+            "EliGE",
+            "frozen",
+            "rain"
+          ],
+          "points": 1609,
+          "vrsRoster": [
+            "EliGE",
+            "frozen",
+            "karrigan",
+            "s1mple",
+            "skullz"
+          ]
+        },
+        {
+          "seed": 15,
+          "name": "Nemiga",
+          "roster": [
+            "1eeR",
+            "khaN",
+            "riskyb0b",
+            "Xant3r",
+            "zweih"
+          ],
+          "points": 1045,
+          "vrsRoster": [
+            "1eeR",
+            "khaN",
+            "riskyb0b",
+            "Xant3r",
+            "zweih"
+          ]
+        },
+        {
+          "seed": 16,
+          "name": "Lynn Vision",
+          "roster": [
+            "C4LLM3SU3",
+            "EmiliaQAQ",
+            "Starry",
+            "Westmelon",
+            "z4kr"
+          ],
+          "points": 1212,
+          "vrsRoster": [
+            "C4LLM3SU3",
+            "EmiliaQAQ",
+            "Starry",
+            "Westmelon",
+            "z4kr"
+          ]
+        }
+      ]
+    },
+    "budapest": {
+      "id": "budapest",
+      "label": "布达佩斯 Major 2025",
+      "stage": 1,
+      "start": "2025-11-24",
+      "cutoffExclusive": "2025-11-24",
+      "allBo3": false,
+      "pointsAsOf": "2025-11-03",
+      "teams": [
+        {
+          "seed": 1,
+          "name": "Legacy",
+          "roster": [
+            "dumau",
+            "latto",
+            "lux",
+            "n1ssim",
+            "saadzin"
+          ],
+          "points": 1748,
+          "vrsRoster": [
+            "dumau",
+            "latto",
+            "lux",
+            "n1ssim",
+            "saadzin"
+          ]
+        },
+        {
+          "seed": 2,
+          "name": "FaZe",
+          "roster": [
+            "broky",
+            "frozen",
+            "karrigan",
+            "jcobbb",
+            "Twistzz"
+          ],
+          "points": 1659,
+          "vrsRoster": [
+            "broky",
+            "frozen",
+            "karrigan",
+            "rain",
+            "Twistzz"
+          ]
+        },
+        {
+          "seed": 3,
+          "name": "B8",
+          "roster": [
+            "alex666",
+            "esenthial",
+            "headtr1ck",
+            "kensizor",
+            "npl"
+          ],
+          "points": 1571,
+          "vrsRoster": [
+            "alex666",
+            "esenthial",
+            "headtr1ck",
+            "kensizor",
+            "npl"
+          ]
+        },
+        {
+          "seed": 4,
+          "name": "GamerLegion",
+          "roster": [
+            "hypex",
+            "PR",
+            "REZ",
+            "Tauson",
+            "ztr"
+          ],
+          "points": 1561,
+          "vrsRoster": [
+            "hypex",
+            "PR",
+            "REZ",
+            "Tauson",
+            "ztr"
+          ]
+        },
+        {
+          "seed": 5,
+          "name": "fnatic",
+          "roster": [
+            "blameF",
+            "fear",
+            "jackasmo",
+            "jambo",
+            "KRIMZ"
+          ],
+          "points": 1424,
+          "vrsRoster": [
+            "blameF",
+            "fear",
+            "jackasmo",
+            "jambo",
+            "KRIMZ"
+          ]
+        },
+        {
+          "seed": 6,
+          "name": "PARIVISION",
+          "roster": [
+            "AW",
+            "BELCHONOKK",
+            "Jame",
+            "nota",
+            "xiELO"
+          ],
+          "points": 1420,
+          "vrsRoster": [
+            "AW",
+            "BELCHONOKK",
+            "Jame",
+            "nota",
+            "xiELO"
+          ]
+        },
+        {
+          "seed": 7,
+          "name": "Ninjas in Pyjamas",
+          "roster": [
+            "ewjerkz",
+            "r1nkle",
+            "sjuush",
+            "Snappi",
+            "xKacpersky"
+          ],
+          "points": 1336,
+          "vrsRoster": [
+            "ewjerkz",
+            "r1nkle",
+            "sjuush",
+            "Snappi",
+            "xKacpersky"
+          ]
+        },
+        {
+          "seed": 8,
+          "name": "Imperial",
+          "roster": [
+            "chelo",
+            "noway",
+            "skullz",
+            "try",
+            "VINI"
+          ],
+          "points": 1336,
+          "vrsRoster": [
+            "chelo",
+            "noway",
+            "skullz",
+            "try",
+            "VINI"
+          ]
+        },
+        {
+          "seed": 9,
+          "name": "FlyQuest",
+          "roster": [
+            "INS",
+            "jks",
+            "nettik",
+            "regali",
+            "Vexite"
+          ],
+          "points": 1327,
+          "vrsRoster": [
+            "INS",
+            "jks",
+            "nettik",
+            "regali",
+            "Vexite"
+          ]
+        },
+        {
+          "seed": 10,
+          "name": "Lynn Vision",
+          "roster": [
+            "C4LLM3SU3",
+            "EmiliaQAQ",
+            "Starry",
+            "Westmelon",
+            "z4kr"
+          ],
+          "points": 1269,
+          "vrsRoster": [
+            "C4LLM3SU3",
+            "EmiliaQAQ",
+            "Starry",
+            "Westmelon",
+            "z4kr"
+          ]
+        },
+        {
+          "seed": 11,
+          "name": "M80",
+          "roster": [
+            "HexT",
+            "Lake",
+            "s1n",
+            "slaxz-",
+            "Swisher"
+          ],
+          "points": 1252,
+          "vrsRoster": [
+            "HexT",
+            "Lake",
+            "s1n",
+            "slaxz-",
+            "Swisher"
+          ]
+        },
+        {
+          "seed": 12,
+          "name": "Fluxo",
+          "roster": [
+            "arT",
+            "decenty",
+            "kye",
+            "Lucaozy",
+            "zevy"
+          ],
+          "points": 1164,
+          "vrsRoster": [
+            "arT",
+            "decenty",
+            "kye",
+            "Lucaozy",
+            "zevy"
+          ]
+        },
+        {
+          "seed": 13,
+          "name": "RED Canids",
+          "roster": [
+            "chayJESUS",
+            "drop",
+            "history",
+            "kauez",
+            "venomzera"
+          ],
+          "points": 1141,
+          "vrsRoster": [
+            "chayJESUS",
+            "drop",
+            "history",
+            "kauez",
+            "venomzera"
+          ]
+        },
+        {
+          "seed": 14,
+          "name": "The Huns",
+          "roster": [
+            "Bart4k",
+            "cobrazera",
+            "nin9",
+            "sk0R",
+            "xerolte"
+          ],
+          "points": 1136,
+          "vrsRoster": [
+            "Bart4k",
+            "cobrazera",
+            "nin9",
+            "sk0R",
+            "xerolte"
+          ]
+        },
+        {
+          "seed": 15,
+          "name": "NRG",
+          "roster": [
+            "br0",
+            "Jeorge",
+            "daps",
+            "Sonic",
+            "XotiC"
+          ],
+          "points": 1129,
+          "vrsRoster": [
+            "br0",
+            "Jeorge",
+            "nitr0",
+            "Sonic",
+            "XotiC"
+          ]
+        },
+        {
+          "seed": 16,
+          "name": "Rare Atom",
+          "roster": [
+            "ChildKing",
+            "L1haNg",
+            "Marek",
+            "Summer",
+            "Tiger"
+          ],
+          "points": 1071,
+          "vrsRoster": [
+            "ChildKing",
+            "L1haNg",
+            "Marek",
+            "Summer",
+            "Tiger"
+          ]
+        }
+      ]
+    },
+    "budapest-2025-2": {
+      "id": "budapest-2025-2",
+      "label": "布达佩斯 Major 2025 · Stage 2",
+      "stage": 2,
+      "start": "2025-11-29",
+      "cutoffExclusive": "2025-11-29",
+      "allBo3": false,
+      "pointsAsOf": "2025-11-03",
+      "teams": [
+        {
+          "seed": 1,
+          "name": "Aurora",
+          "roster": [
+            "XANTARES",
+            "MAJ3R",
+            "Wicadia",
+            "woxic",
+            "jottAAA"
+          ],
+          "points": 1829,
+          "vrsRoster": [
+            "jottAAA",
+            "MAJ3R",
+            "Wicadia",
+            "woxic",
+            "XANTARES"
+          ]
+        },
+        {
+          "seed": 2,
+          "name": "Natus Vincere",
+          "roster": [
+            "b1t",
+            "Aleksib",
+            "iM",
+            "w0nderful",
+            "makazze"
+          ],
+          "points": 1821,
+          "vrsRoster": [
+            "Aleksib",
+            "b1t",
+            "iM",
+            "makazze",
+            "w0nderful"
+          ]
+        },
+        {
+          "seed": 3,
+          "name": "Liquid",
+          "roster": [
+            "NAF",
+            "ultimate",
+            "NertZ",
+            "siuhy",
+            "EliGE"
+          ],
+          "points": 1730,
+          "vrsRoster": [
+            "EliGE",
+            "NAF",
+            "NertZ",
+            "siuhy",
+            "ultimate"
+          ]
+        },
+        {
+          "seed": 4,
+          "name": "3DMAX",
+          "roster": [
+            "Lucky",
+            "Ex3rcice",
+            "Maka",
+            "Graviti",
+            "bodyy"
+          ],
+          "points": 1677,
+          "vrsRoster": [
+            "bodyy",
+            "Ex3rcice",
+            "Graviti",
+            "Lucky",
+            "Maka"
+          ]
+        },
+        {
+          "seed": 5,
+          "name": "Astralis",
+          "roster": [
+            "device",
+            "Staehr",
+            "jabbi",
+            "HooXi",
+            "Magisk"
+          ],
+          "points": 1613,
+          "vrsRoster": [
+            "device",
+            "HooXi",
+            "jabbi",
+            "Magisk",
+            "Staehr"
+          ]
+        },
+        {
+          "seed": 6,
+          "name": "TYLOO",
+          "roster": [
+            "Attacker",
+            "JamYoung",
+            "Moseyuh",
+            "Mercury",
+            "Jee"
+          ],
+          "points": 1436,
+          "vrsRoster": [
+            "Attacker",
+            "JamYoung",
+            "Jee",
+            "Mercury",
+            "Moseyuh"
+          ]
+        },
+        {
+          "seed": 7,
+          "name": "MIBR",
+          "roster": [
+            "exit",
+            "brnz4n",
+            "insani",
+            "kl1m",
+            "Qikert"
+          ],
+          "points": 1365,
+          "vrsRoster": [
+            "brnz4n",
+            "exit",
+            "insani",
+            "kl1m",
+            "Qikert"
+          ]
+        },
+        {
+          "seed": 8,
+          "name": "Passion UA",
+          "roster": [
+            "Kvem",
+            "JT",
+            "Grim",
+            "hallzerk",
+            "nicx"
+          ],
+          "points": 1347,
+          "vrsRoster": [
+            "Grim",
+            "hallzerk",
+            "JT",
+            "Kvem",
+            "nicx"
+          ]
+        },
+        {
+          "seed": 9,
+          "name": "M80",
+          "roster": [
+            "HexT",
+            "Lake",
+            "s1n",
+            "slaxz-",
+            "Swisher"
+          ],
+          "points": 1252,
+          "vrsRoster": [
+            "HexT",
+            "Lake",
+            "s1n",
+            "slaxz-",
+            "Swisher"
+          ]
+        },
+        {
+          "seed": 10,
+          "name": "FlyQuest",
+          "roster": [
+            "INS",
+            "jks",
+            "nettik",
+            "regali",
+            "Vexite"
+          ],
+          "points": 1327,
+          "vrsRoster": [
+            "INS",
+            "jks",
+            "nettik",
+            "regali",
+            "Vexite"
+          ]
+        },
+        {
+          "seed": 11,
+          "name": "B8",
+          "roster": [
+            "alex666",
+            "esenthial",
+            "headtr1ck",
+            "kensizor",
+            "npl"
+          ],
+          "points": 1571,
+          "vrsRoster": [
+            "alex666",
+            "esenthial",
+            "headtr1ck",
+            "kensizor",
+            "npl"
+          ]
+        },
+        {
+          "seed": 12,
+          "name": "fnatic",
+          "roster": [
+            "blameF",
+            "fear",
+            "jackasmo",
+            "jambo",
+            "KRIMZ"
+          ],
+          "points": 1424,
+          "vrsRoster": [
+            "blameF",
+            "fear",
+            "jackasmo",
+            "jambo",
+            "KRIMZ"
+          ]
+        },
+        {
+          "seed": 13,
+          "name": "Ninjas in Pyjamas",
+          "roster": [
+            "ewjerkz",
+            "r1nkle",
+            "sjuush",
+            "Snappi",
+            "xKacpersky"
+          ],
+          "points": 1336,
+          "vrsRoster": [
+            "ewjerkz",
+            "r1nkle",
+            "sjuush",
+            "Snappi",
+            "xKacpersky"
+          ]
+        },
+        {
+          "seed": 14,
+          "name": "PARIVISION",
+          "roster": [
+            "AW",
+            "BELCHONOKK",
+            "Jame",
+            "nota",
+            "xiELO"
+          ],
+          "points": 1420,
+          "vrsRoster": [
+            "AW",
+            "BELCHONOKK",
+            "Jame",
+            "nota",
+            "xiELO"
+          ]
+        },
+        {
+          "seed": 15,
+          "name": "Imperial",
+          "roster": [
+            "chelo",
+            "noway",
+            "skullz",
+            "try",
+            "VINI"
+          ],
+          "points": 1336,
+          "vrsRoster": [
+            "chelo",
+            "noway",
+            "skullz",
+            "try",
+            "VINI"
+          ]
+        },
+        {
+          "seed": 16,
+          "name": "FaZe",
+          "roster": [
+            "broky",
+            "frozen",
+            "karrigan",
+            "jcobbb",
+            "Twistzz"
+          ],
+          "points": 1659,
+          "vrsRoster": [
+            "broky",
+            "frozen",
+            "karrigan",
+            "rain",
+            "Twistzz"
+          ]
+        }
+      ]
+    },
+    "budapest-2025-3": {
+      "id": "budapest-2025-3",
+      "label": "布达佩斯 Major 2025 · Stage 3",
+      "stage": 3,
+      "start": "2025-12-04",
+      "cutoffExclusive": "2025-12-04",
+      "allBo3": false,
+      "pointsAsOf": "2025-11-03",
+      "teams": [
+        {
+          "seed": 1,
+          "name": "FURIA",
+          "roster": [
+            "yuurih",
+            "KSCERATO",
+            "FalleN",
+            "molodoy",
+            "YEKINDAR"
+          ],
+          "points": 1948,
+          "vrsRoster": [
+            "FalleN",
+            "KSCERATO",
+            "molodoy",
+            "YEKINDAR",
+            "yuurih"
+          ]
+        },
+        {
+          "seed": 2,
+          "name": "Vitality",
+          "roster": [
+            "apEX",
+            "ZywOo",
+            "flameZ",
+            "mezii",
+            "ropz"
+          ],
+          "points": 1908,
+          "vrsRoster": [
+            "apEX",
+            "flameZ",
+            "mezii",
+            "ropz",
+            "ZywOo"
+          ]
+        },
+        {
+          "seed": 3,
+          "name": "Falcons",
+          "roster": [
+            "NiKo",
+            "TeSeS",
+            "kyxsan",
+            "m0NESY",
+            "kyousuke"
+          ],
+          "points": 1869,
+          "vrsRoster": [
+            "kyousuke",
+            "kyxsan",
+            "m0NESY",
+            "NiKo",
+            "TeSeS"
+          ]
+        },
+        {
+          "seed": 4,
+          "name": "The MongolZ",
+          "roster": [
+            "bLitz",
+            "Techno",
+            "910",
+            "mzinho",
+            "controlez"
+          ],
+          "points": 1859,
+          "vrsRoster": [
+            "910",
+            "bLitz",
+            "mzinho",
+            "Senzu",
+            "Techno"
+          ]
+        },
+        {
+          "seed": 5,
+          "name": "MOUZ",
+          "roster": [
+            "torzsi",
+            "xertioN",
+            "Jimpphat",
+            "Brollan",
+            "Spinx"
+          ],
+          "points": 1795,
+          "vrsRoster": [
+            "Brollan",
+            "Jimpphat",
+            "Spinx",
+            "torzsi",
+            "xertioN"
+          ]
+        },
+        {
+          "seed": 6,
+          "name": "Spirit",
+          "roster": [
+            "chopper",
+            "donk",
+            "sh1ro",
+            "zweih",
+            "tN1R"
+          ],
+          "points": 1773,
+          "vrsRoster": [
+            "chopper",
+            "donk",
+            "sh1ro",
+            "zont1x",
+            "zweih"
+          ]
+        },
+        {
+          "seed": 7,
+          "name": "G2",
+          "roster": [
+            "huNter-",
+            "malbsMd",
+            "HeavyGod",
+            "SunPayus",
+            "MATYS"
+          ],
+          "points": 1755,
+          "vrsRoster": [
+            "HeavyGod",
+            "huNter-",
+            "malbsMd",
+            "MATYS",
+            "SunPayus"
+          ]
+        },
+        {
+          "seed": 8,
+          "name": "paiN",
+          "roster": [
+            "biguzera",
+            "nqz",
+            "snow",
+            "dav1deuS",
+            "dgt"
+          ],
+          "points": 1555,
+          "vrsRoster": [
+            "biguzera",
+            "dav1deuS",
+            "dgt",
+            "nqz",
+            "snow"
+          ]
+        },
+        {
+          "seed": 9,
+          "name": "Natus Vincere",
+          "roster": [
+            "b1t",
+            "Aleksib",
+            "iM",
+            "w0nderful",
+            "makazze"
+          ],
+          "points": 1821,
+          "vrsRoster": [
+            "Aleksib",
+            "b1t",
+            "iM",
+            "makazze",
+            "w0nderful"
+          ]
+        },
+        {
+          "seed": 10,
+          "name": "FaZe",
+          "roster": [
+            "broky",
+            "frozen",
+            "karrigan",
+            "jcobbb",
+            "Twistzz"
+          ],
+          "points": 1659,
+          "vrsRoster": [
+            "broky",
+            "frozen",
+            "karrigan",
+            "rain",
+            "Twistzz"
+          ]
+        },
+        {
+          "seed": 11,
+          "name": "B8",
+          "roster": [
+            "alex666",
+            "esenthial",
+            "headtr1ck",
+            "kensizor",
+            "npl"
+          ],
+          "points": 1571,
+          "vrsRoster": [
+            "alex666",
+            "esenthial",
+            "headtr1ck",
+            "kensizor",
+            "npl"
+          ]
+        },
+        {
+          "seed": 12,
+          "name": "Imperial",
+          "roster": [
+            "chelo",
+            "noway",
+            "skullz",
+            "try",
+            "VINI"
+          ],
+          "points": 1336,
+          "vrsRoster": [
+            "chelo",
+            "noway",
+            "skullz",
+            "try",
+            "VINI"
+          ]
+        },
+        {
+          "seed": 13,
+          "name": "PARIVISION",
+          "roster": [
+            "AW",
+            "BELCHONOKK",
+            "Jame",
+            "nota",
+            "xiELO"
+          ],
+          "points": 1420,
+          "vrsRoster": [
+            "AW",
+            "BELCHONOKK",
+            "Jame",
+            "nota",
+            "xiELO"
+          ]
+        },
+        {
+          "seed": 14,
+          "name": "Liquid",
+          "roster": [
+            "NAF",
+            "ultimate",
+            "NertZ",
+            "siuhy",
+            "EliGE"
+          ],
+          "points": 1730,
+          "vrsRoster": [
+            "EliGE",
+            "NAF",
+            "NertZ",
+            "siuhy",
+            "ultimate"
+          ]
+        },
+        {
+          "seed": 15,
+          "name": "Passion UA",
+          "roster": [
+            "Kvem",
+            "JT",
+            "Grim",
+            "hallzerk",
+            "nicx"
+          ],
+          "points": 1347,
+          "vrsRoster": [
+            "Grim",
+            "hallzerk",
+            "JT",
+            "Kvem",
+            "nicx"
+          ]
+        },
+        {
+          "seed": 16,
+          "name": "3DMAX",
+          "roster": [
+            "Lucky",
+            "Ex3rcice",
+            "Maka",
+            "Graviti",
+            "bodyy"
+          ],
+          "points": 1677,
+          "vrsRoster": [
+            "bodyy",
+            "Ex3rcice",
+            "Graviti",
+            "Lucky",
+            "Maka"
+          ]
+        }
+      ]
+    },
+    "cologne": {
+      "id": "cologne",
+      "label": "科隆 Major 2026",
+      "stage": 1,
+      "start": "2026-06-02",
+      "cutoffExclusive": "2026-06-02",
+      "allBo3": false,
+      "pointsAsOf": "2026-06-01",
+      "teams": [
+        {
+          "seed": 1,
+          "name": "GamerLegion",
+          "roster": [
+            "hypex",
+            "PR",
+            "REZ",
+            "Snax",
+            "Tauson"
+          ],
+          "points": 1724,
+          "vrsRoster": [
+            "hypex",
+            "PR",
+            "REZ",
+            "Snax",
+            "Tauson"
+          ]
+        },
+        {
+          "seed": 2,
+          "name": "B8",
+          "roster": [
+            "alex666",
+            "esenthial",
+            "kensizor",
+            "npl",
+            "s1zzi"
+          ],
+          "points": 1582,
+          "vrsRoster": [
+            "alex666",
+            "esenthial",
+            "kensizor",
+            "npl",
+            "s1zzi"
+          ]
+        },
+        {
+          "seed": 3,
+          "name": "HEROIC",
+          "roster": [
+            "Chr1zN",
+            "nilo",
+            "susp",
+            "xfl0ud",
+            "yxngstxr"
+          ],
+          "points": 1420,
+          "vrsRoster": [
+            "Chr1zN",
+            "nilo",
+            "susp",
+            "xfl0ud",
+            "yxngstxr"
+          ]
+        },
+        {
+          "seed": 4,
+          "name": "BetBoom",
+          "roster": [
+            "Boombl4",
+            "FL4MUS",
+            "Magnojez",
+            "d1Ledez",
+            "zorte"
+          ],
+          "points": 1562,
+          "vrsRoster": [
+            "Boombl4",
+            "FL4MUS",
+            "Magnojez",
+            "S1ren",
+            "zorte"
+          ]
+        },
+        {
+          "seed": 5,
+          "name": "BIG",
+          "roster": [
+            "blameF",
+            "faveN",
+            "gr1ks",
+            "JDC",
+            "tabseN"
+          ],
+          "points": 1416,
+          "vrsRoster": [
+            "blameF",
+            "faveN",
+            "gr1ks",
+            "JDC",
+            "tabseN"
+          ]
+        },
+        {
+          "seed": 6,
+          "name": "M80",
+          "roster": [
+            "JBa",
+            "Lake",
+            "s1n",
+            "slaxz-",
+            "Swisher"
+          ],
+          "points": 1385,
+          "vrsRoster": [
+            "JBa",
+            "Lake",
+            "s1n",
+            "slaxz-",
+            "Swisher"
+          ]
+        },
+        {
+          "seed": 7,
+          "name": "MIBR",
+          "roster": [
+            "brnz4n",
+            "insani",
+            "kl1m",
+            "LNZ",
+            "venomzera"
+          ],
+          "points": 1535,
+          "vrsRoster": [
+            "brnz4n",
+            "insani",
+            "kl1m",
+            "LNZ",
+            "venomzera"
+          ]
+        },
+        {
+          "seed": 8,
+          "name": "SINNERS",
+          "roster": [
+            "beastik",
+            "kisserek",
+            "MoDo",
+            "SHOCK",
+            "stressarN"
+          ],
+          "points": 1378,
+          "vrsRoster": [
+            "beastik",
+            "kisserek",
+            "MoDo",
+            "SHOCK",
+            "stressarN"
+          ]
+        },
+        {
+          "seed": 9,
+          "name": "NRG",
+          "roster": [
+            "br0",
+            "Grim",
+            "nitr0",
+            "oSee",
+            "Sonic"
+          ],
+          "points": 1247,
+          "vrsRoster": [
+            "br0",
+            "Grim",
+            "nitr0",
+            "oSee",
+            "Sonic"
+          ]
+        },
+        {
+          "seed": 10,
+          "name": "TYLOO",
+          "roster": [
+            "JamYoung",
+            "Jee",
+            "Mercury",
+            "Moseyuh",
+            "Zero"
+          ],
+          "points": 1395,
+          "vrsRoster": [
+            "JamYoung",
+            "Jee",
+            "Mercury",
+            "Moseyuh",
+            "Zero"
+          ]
+        },
+        {
+          "seed": 11,
+          "name": "Sharks",
+          "roster": [
+            "doc",
+            "gafolo",
+            "koala",
+            "maxxkor",
+            "rdnzao"
+          ],
+          "points": 1354,
+          "vrsRoster": [
+            "doc",
+            "gafolo",
+            "koala",
+            "maxxkor",
+            "rdnzao"
+          ]
+        },
+        {
+          "seed": 12,
+          "name": "Gaimin Gladiators",
+          "roster": [
+            "fer",
+            "HEN1",
+            "JOTA",
+            "Luken",
+            "NEKIZ"
+          ],
+          "points": 1233,
+          "vrsRoster": [
+            "felps",
+            "HEN1",
+            "JOTA",
+            "Luken",
+            "NEKIZ"
+          ]
+        },
+        {
+          "seed": 13,
+          "name": "Liquid",
+          "roster": [
+            "EliGE",
+            "malbsMd",
+            "NAF",
+            "siuhy",
+            "ultimate"
+          ],
+          "points": 1304,
+          "vrsRoster": [
+            "EliGE",
+            "malbsMd",
+            "NAF",
+            "siuhy",
+            "ultimate"
+          ]
+        },
+        {
+          "seed": 14,
+          "name": "Lynn Vision",
+          "roster": [
+            "C4LLM3SU3",
+            "EmiliaQAQ",
+            "Starry",
+            "Westmelon",
+            "z4KR"
+          ],
+          "points": 1443,
+          "vrsRoster": [
+            "C4LLM3SU3",
+            "EmiliaQAQ",
+            "Starry",
+            "Westmelon",
+            "z4KR"
+          ]
+        },
+        {
+          "seed": 15,
+          "name": "THUNDER dOWNUNDER",
+          "roster": [
+            "aliStair",
+            "asap",
+            "dexter",
+            "Liazz",
+            "TjP"
+          ],
+          "points": 1181,
+          "vrsRoster": [
+            "aliStair",
+            "asap",
+            "dexter",
+            "Liazz",
+            "TjP"
+          ]
+        },
+        {
+          "seed": 16,
+          "name": "FlyQuest",
+          "roster": [
+            "INS",
+            "jks",
+            "nettik",
+            "story",
+            "Vexite"
+          ],
+          "points": 1112,
+          "vrsRoster": [
+            "INS",
+            "jks",
+            "nettik",
+            "story",
+            "Vexite"
+          ]
+        }
+      ]
+    },
+    "cologne-2026-2": {
+      "id": "cologne-2026-2",
+      "label": "科隆 Major 2026 · Stage 2",
+      "stage": 2,
+      "start": "2026-06-06",
+      "cutoffExclusive": "2026-06-06",
+      "allBo3": false,
+      "pointsAsOf": "2026-06-01",
+      "teams": [
+        {
+          "seed": 1,
+          "name": "FUT",
+          "roster": [
+            "cmtry",
+            "dem0n",
+            "dziugss",
+            "Krabeni",
+            "lauNX"
+          ],
+          "points": 1694,
+          "vrsRoster": [
+            "cmtry",
+            "dem0n",
+            "dziugss",
+            "Krabeni",
+            "lauNX"
+          ]
+        },
+        {
+          "seed": 2,
+          "name": "Spirit",
+          "roster": [
+            "donk",
+            "magixx",
+            "sh1ro",
+            "tN1R",
+            "zont1x"
+          ],
+          "points": 1990,
+          "vrsRoster": [
+            "donk",
+            "magixx",
+            "sh1ro",
+            "tN1R",
+            "zont1x"
+          ]
+        },
+        {
+          "seed": 3,
+          "name": "Astralis",
+          "roster": [
+            "HooXi",
+            "jabbi",
+            "phzy",
+            "ryu",
+            "Staehr"
+          ],
+          "points": 1721,
+          "vrsRoster": [
+            "HooXi",
+            "jabbi",
+            "phzy",
+            "ryu",
+            "Staehr"
+          ]
+        },
+        {
+          "seed": 4,
+          "name": "G2",
+          "roster": [
+            "HeavyGod",
+            "huNter-",
+            "MATYS",
+            "NertZ",
+            "SunPayus"
+          ],
+          "points": 1683,
+          "vrsRoster": [
+            "HeavyGod",
+            "huNter-",
+            "MATYS",
+            "NertZ",
+            "SunPayus"
+          ]
+        },
+        {
+          "seed": 5,
+          "name": "Legacy",
+          "roster": [
+            "arT",
+            "dumau",
+            "latto",
+            "n1ssim",
+            "saadzin"
+          ],
+          "points": 1856,
+          "vrsRoster": [
+            "arT",
+            "dumau",
+            "latto",
+            "n1ssim",
+            "saadzin"
+          ]
+        },
+        {
+          "seed": 6,
+          "name": "paiN",
+          "roster": [
+            "biguzera",
+            "saffee",
+            "piriajr",
+            "snow",
+            "vsm"
+          ],
+          "points": 1549,
+          "vrsRoster": [
+            "biguzera",
+            "piriajr",
+            "saffee",
+            "snow",
+            "vsm"
+          ]
+        },
+        {
+          "seed": 7,
+          "name": "Monte",
+          "roster": [
+            "afro",
+            "AZUWU",
+            "Bymas",
+            "Gizmy",
+            "Rainwaker"
+          ],
+          "points": 1517,
+          "vrsRoster": [
+            "afro",
+            "AZUWU",
+            "Bymas",
+            "Gizmy",
+            "Rainwaker"
+          ]
+        },
+        {
+          "seed": 8,
+          "name": "9z",
+          "roster": [
+            "dgt",
+            "HUASOPEEK",
+            "luchov",
+            "max",
+            "meyern"
+          ],
+          "points": 1633,
+          "vrsRoster": [
+            "dgt",
+            "HUASOPEEK",
+            "luchov",
+            "max",
+            "meyern"
+          ]
+        },
+        {
+          "seed": 9,
+          "name": "B8",
+          "roster": [
+            "alex666",
+            "esenthial",
+            "kensizor",
+            "npl",
+            "s1zzi"
+          ],
+          "points": 1582,
+          "vrsRoster": [
+            "alex666",
+            "esenthial",
+            "kensizor",
+            "npl",
+            "s1zzi"
+          ]
+        },
+        {
+          "seed": 10,
+          "name": "BetBoom",
+          "roster": [
+            "Boombl4",
+            "FL4MUS",
+            "Magnojez",
+            "d1Ledez",
+            "zorte"
+          ],
+          "points": 1562,
+          "vrsRoster": [
+            "Boombl4",
+            "FL4MUS",
+            "Magnojez",
+            "S1ren",
+            "zorte"
+          ]
+        },
+        {
+          "seed": 11,
+          "name": "GamerLegion",
+          "roster": [
+            "hypex",
+            "PR",
+            "REZ",
+            "Snax",
+            "Tauson"
+          ],
+          "points": 1724,
+          "vrsRoster": [
+            "hypex",
+            "PR",
+            "REZ",
+            "Snax",
+            "Tauson"
+          ]
+        },
+        {
+          "seed": 12,
+          "name": "M80",
+          "roster": [
+            "JBa",
+            "Lake",
+            "s1n",
+            "slaxz-",
+            "Swisher"
+          ],
+          "points": 1385,
+          "vrsRoster": [
+            "JBa",
+            "Lake",
+            "s1n",
+            "slaxz-",
+            "Swisher"
+          ]
+        },
+        {
+          "seed": 13,
+          "name": "MIBR",
+          "roster": [
+            "brnz4n",
+            "insani",
+            "kl1m",
+            "LNZ",
+            "venomzera"
+          ],
+          "points": 1535,
+          "vrsRoster": [
+            "brnz4n",
+            "insani",
+            "kl1m",
+            "LNZ",
+            "venomzera"
+          ]
+        },
+        {
+          "seed": 14,
+          "name": "TYLOO",
+          "roster": [
+            "JamYoung",
+            "Jee",
+            "Mercury",
+            "Moseyuh",
+            "Zero"
+          ],
+          "points": 1395,
+          "vrsRoster": [
+            "JamYoung",
+            "Jee",
+            "Mercury",
+            "Moseyuh",
+            "Zero"
+          ]
+        },
+        {
+          "seed": 15,
+          "name": "BIG",
+          "roster": [
+            "blameF",
+            "faveN",
+            "gr1ks",
+            "JDC",
+            "tabseN"
+          ],
+          "points": 1416,
+          "vrsRoster": [
+            "blameF",
+            "faveN",
+            "gr1ks",
+            "JDC",
+            "tabseN"
+          ]
+        },
+        {
+          "seed": 16,
+          "name": "FlyQuest",
+          "roster": [
+            "INS",
+            "jks",
+            "nettik",
+            "story",
+            "Vexite"
+          ],
+          "points": 1112,
+          "vrsRoster": [
+            "INS",
+            "jks",
+            "nettik",
+            "story",
+            "Vexite"
+          ]
+        }
+      ]
+    },
+    "cologne-2026-3": {
+      "id": "cologne-2026-3",
+      "label": "科隆 Major 2026 · Stage 3",
+      "stage": 3,
+      "start": "2026-06-11",
+      "cutoffExclusive": "2026-06-11",
+      "allBo3": true,
+      "pointsAsOf": "2026-06-01",
+      "teams": [
+        {
+          "seed": 1,
+          "name": "Vitality",
+          "roster": [
+            "apEX",
+            "ZywOo",
+            "flameZ",
+            "mezii",
+            "ropz"
+          ],
+          "points": 2024,
+          "vrsRoster": [
+            "apEX",
+            "flameZ",
+            "mezii",
+            "ropz",
+            "ZywOo"
+          ]
+        },
+        {
+          "seed": 2,
+          "name": "Natus Vincere",
+          "roster": [
+            "Aleksib",
+            "b1t",
+            "iM",
+            "makazze",
+            "w0nderful"
+          ],
+          "points": 1940,
+          "vrsRoster": [
+            "Aleksib",
+            "b1t",
+            "iM",
+            "makazze",
+            "w0nderful"
+          ]
+        },
+        {
+          "seed": 3,
+          "name": "Falcons",
+          "roster": [
+            "kyousuke",
+            "karrigan",
+            "m0NESY",
+            "NiKo",
+            "TeSeS"
+          ],
+          "points": 1954,
+          "vrsRoster": [
+            "karrigan",
+            "kyousuke",
+            "m0NESY",
+            "NiKo",
+            "TeSeS"
+          ]
+        },
+        {
+          "seed": 4,
+          "name": "The MongolZ",
+          "roster": [
+            "910",
+            "bLitz",
+            "cobrazera",
+            "mzinho",
+            "Techno"
+          ],
+          "points": 1763,
+          "vrsRoster": [
+            "910",
+            "bLitz",
+            "cobrazera",
+            "mzinho",
+            "Techno"
+          ]
+        },
+        {
+          "seed": 5,
+          "name": "PARIVISION",
+          "roster": [
+            "BELCHONOKK",
+            "Jame",
+            "nota",
+            "xiELO",
+            "zweih"
+          ],
+          "points": 1679,
+          "vrsRoster": [
+            "BELCHONOKK",
+            "Jame",
+            "nota",
+            "xiELO",
+            "zweih"
+          ]
+        },
+        {
+          "seed": 6,
+          "name": "Aurora",
+          "roster": [
+            "MAJ3R",
+            "soulfly",
+            "Wicadia",
+            "woxic",
+            "XANTARES"
+          ],
+          "points": 1741,
+          "vrsRoster": [
+            "MAJ3R",
+            "soulfly",
+            "Wicadia",
+            "woxic",
+            "XANTARES"
+          ]
+        },
+        {
+          "seed": 7,
+          "name": "FURIA",
+          "roster": [
+            "FalleN",
+            "KSCERATO",
+            "molodoy",
+            "YEKINDAR",
+            "yuurih"
+          ],
+          "points": 1716,
+          "vrsRoster": [
+            "FalleN",
+            "KSCERATO",
+            "molodoy",
+            "YEKINDAR",
+            "yuurih"
+          ]
+        },
+        {
+          "seed": 8,
+          "name": "MOUZ",
+          "roster": [
+            "Brollan",
+            "xelex",
+            "Spinx",
+            "torzsi",
+            "xertioN"
+          ],
+          "points": 1859,
+          "vrsRoster": [
+            "jL",
+            "Spinx",
+            "torzsi",
+            "xelex",
+            "xertioN"
+          ]
+        },
+        {
+          "seed": 9,
+          "name": "FUT",
+          "roster": [
+            "cmtry",
+            "dem0n",
+            "dziugss",
+            "Krabeni",
+            "lauNX"
+          ],
+          "points": 1694,
+          "vrsRoster": [
+            "cmtry",
+            "dem0n",
+            "dziugss",
+            "Krabeni",
+            "lauNX"
+          ]
+        },
+        {
+          "seed": 10,
+          "name": "Spirit",
+          "roster": [
+            "donk",
+            "magixx",
+            "sh1ro",
+            "tN1R",
+            "zont1x"
+          ],
+          "points": 1990,
+          "vrsRoster": [
+            "donk",
+            "magixx",
+            "sh1ro",
+            "tN1R",
+            "zont1x"
+          ]
+        },
+        {
+          "seed": 11,
+          "name": "G2",
+          "roster": [
+            "HeavyGod",
+            "huNter-",
+            "MATYS",
+            "NertZ",
+            "SunPayus"
+          ],
+          "points": 1683,
+          "vrsRoster": [
+            "HeavyGod",
+            "huNter-",
+            "MATYS",
+            "NertZ",
+            "SunPayus"
+          ]
+        },
+        {
+          "seed": 12,
+          "name": "BetBoom",
+          "roster": [
+            "Boombl4",
+            "FL4MUS",
+            "Magnojez",
+            "d1Ledez",
+            "zorte"
+          ],
+          "points": 1562,
+          "vrsRoster": [
+            "Boombl4",
+            "FL4MUS",
+            "Magnojez",
+            "S1ren",
+            "zorte"
+          ]
+        },
+        {
+          "seed": 13,
+          "name": "9z",
+          "roster": [
+            "dgt",
+            "HUASOPEEK",
+            "luchov",
+            "max",
+            "meyern"
+          ],
+          "points": 1633,
+          "vrsRoster": [
+            "dgt",
+            "HUASOPEEK",
+            "luchov",
+            "max",
+            "meyern"
+          ]
+        },
+        {
+          "seed": 14,
+          "name": "Monte",
+          "roster": [
+            "afro",
+            "AZUWU",
+            "Bymas",
+            "Gizmy",
+            "Rainwaker"
+          ],
+          "points": 1517,
+          "vrsRoster": [
+            "afro",
+            "AZUWU",
+            "Bymas",
+            "Gizmy",
+            "Rainwaker"
+          ]
+        },
+        {
+          "seed": 15,
+          "name": "B8",
+          "roster": [
+            "alex666",
+            "esenthial",
+            "kensizor",
+            "npl",
+            "s1zzi"
+          ],
+          "points": 1582,
+          "vrsRoster": [
+            "alex666",
+            "esenthial",
+            "kensizor",
+            "npl",
+            "s1zzi"
+          ]
+        },
+        {
+          "seed": 16,
+          "name": "Legacy",
+          "roster": [
+            "arT",
+            "dumau",
+            "latto",
+            "n1ssim",
+            "saadzin"
+          ],
+          "points": 1856,
+          "vrsRoster": [
+            "arT",
+            "dumau",
+            "latto",
+            "n1ssim",
+            "saadzin"
+          ]
+        }
+      ]
+    },
+    "singapore": {
+      "id": "singapore",
+      "label": "新加坡 Major 2026",
+      "stage": 1,
+      "start": "2026-11-24",
+      "cutoffExclusive": "2026-11-21",
+      "allBo3": false,
+      "pointsAsOf": "2026-11-02",
+      "teams": [
+        {
+          "seed": 1,
+          "name": "Ninjas in Pyjamas",
+          "roster": [
+            "adamb",
+            "Krimbo",
+            "sjuush",
+            "stavn",
+            "xKacpersky"
+          ],
+          "points": 1564,
+          "vrsRoster": [
+            "adamb",
+            "Krimbo",
+            "sjuush",
+            "stavn",
+            "xKacpersky"
+          ]
+        },
+        {
+          "seed": 2,
+          "name": "PARIVISION",
+          "roster": [
+            "FL1T",
+            "HObbit",
+            "Jame",
+            "xiELO",
+            "zweih"
+          ],
+          "points": 1560,
+          "vrsRoster": [
+            "FL1T",
+            "HObbit",
+            "Jame",
+            "xiELO",
+            "zweih"
+          ]
+        },
+        {
+          "seed": 3,
+          "name": "HEROIC",
+          "roster": [
+            "Brollan",
+            "Chr1zN",
+            "MartinezSa",
+            "nilo",
+            "susp"
+          ],
+          "points": 1548,
+          "vrsRoster": [
+            "Brollan",
+            "Chr1zN",
+            "MartinezSa",
+            "nilo",
+            "susp"
+          ]
+        },
+        {
+          "seed": 4,
+          "name": "FaZe",
+          "roster": [
+            "frozen",
+            "JBOEN",
+            "jcobbb",
+            "Neityu",
+            "Twistzz"
+          ],
+          "points": 1539,
+          "vrsRoster": [
+            "frozen",
+            "JBOEN",
+            "jcobbb",
+            "Neityu",
+            "Twistzz"
+          ]
+        },
+        {
+          "seed": 5,
+          "name": "Liquid",
+          "roster": [
+            "EliGE",
+            "Jorko",
+            "JT",
+            "malbsMd",
+            "NAF"
+          ],
+          "points": 1528,
+          "vrsRoster": [
+            "EliGE",
+            "Jorko",
+            "JT",
+            "malbsMd",
+            "NAF"
+          ]
+        },
+        {
+          "seed": 6,
+          "name": "Eternal Fire",
+          "roster": [
+            "jottAAA",
+            "Kvem",
+            "MisteM",
+            "regali",
+            "soulfly"
+          ],
+          "points": 1513,
+          "vrsRoster": [
+            "jottAAA",
+            "Kvem",
+            "MisteM",
+            "regali",
+            "soulfly"
+          ]
+        },
+        {
+          "seed": 7,
+          "name": "100 Thieves",
+          "roster": [
+            "device",
+            "Gizmy",
+            "poiii",
+            "rain",
+            "sirah"
+          ],
+          "points": 1511,
+          "vrsRoster": [
+            "device",
+            "Gizmy",
+            "poiii",
+            "rain",
+            "sirah"
+          ]
+        },
+        {
+          "seed": 8,
+          "name": "9z",
+          "roster": [
+            "dgt",
+            "HUASOPEEK",
+            "luchov",
+            "max",
+            "history"
+          ],
+          "points": 1490,
+          "vrsRoster": [
+            "dgt",
+            "HUASOPEEK",
+            "luchov",
+            "max",
+            "meyern"
+          ]
+        },
+        {
+          "seed": 9,
+          "name": "M80",
+          "roster": [
+            "JBa",
+            "Lake",
+            "s1n",
+            "slaxz-",
+            "Swisher"
+          ],
+          "points": 1489,
+          "vrsRoster": [
+            "JBa",
+            "Lake",
+            "s1n",
+            "slaxz-",
+            "Swisher"
+          ]
+        },
+        {
+          "seed": 10,
+          "name": "DENDELE",
+          "roster": [
+            "doc",
+            "gafolo",
+            "koala",
+            "maxxkor",
+            "rdnzao"
+          ],
+          "points": 1466,
+          "vrsRoster": [
+            "doc",
+            "gafolo",
+            "koala",
+            "maxxkor",
+            "rdnzao"
+          ]
+        },
+        {
+          "seed": 11,
+          "name": "Imperial",
+          "roster": [
+            "chelo",
+            "decenty",
+            "noway",
+            "saadzin",
+            "VINI"
+          ],
+          "points": 1406,
+          "vrsRoster": [
+            "chelo",
+            "decenty",
+            "noway",
+            "saadzin",
+            "VINI"
+          ]
+        },
+        {
+          "seed": 12,
+          "name": "Wildcard",
+          "roster": [
+            "Cxzi",
+            "fr3nd",
+            "HexT",
+            "nEMANHA",
+            "reck"
+          ],
+          "points": 1391,
+          "vrsRoster": [
+            "Cxzi",
+            "fr3nd",
+            "HexT",
+            "nEMANHA",
+            "reck"
+          ]
+        },
+        {
+          "seed": 13,
+          "name": "GOSH",
+          "roster": [
+            "asap",
+            "Magisk",
+            "mzinho",
+            "s1mple",
+            "Senzu"
+          ],
+          "points": 1337,
+          "vrsRoster": [
+            "asap",
+            "Magisk",
+            "mzinho",
+            "s1mple",
+            "Senzu"
+          ]
+        },
+        {
+          "seed": 14,
+          "name": "FlyQuest",
+          "roster": [
+            "aliStair",
+            "INS",
+            "jks",
+            "nettik",
+            "Vexite"
+          ],
+          "points": 1318,
+          "vrsRoster": [
+            "aliStair",
+            "INS",
+            "jks",
+            "nettik",
+            "Vexite"
+          ]
+        },
+        {
+          "seed": 15,
+          "name": "Chinggis Warriors",
+          "roster": [
+            "cool4st",
+            "fury5k",
+            "ROUX",
+            "sk0R",
+            "tikuak"
+          ],
+          "points": 1272,
+          "vrsRoster": [
+            "cool4st",
+            "fury5k",
+            "ROUX",
+            "sk0R",
+            "tikuak"
+          ]
+        },
+        {
+          "seed": 16,
+          "name": "Lynn Vision",
+          "roster": [
+            "C4LLM3SU3",
+            "EmiliaQAQ",
+            "Starry",
+            "Westmelon",
+            "z4KR"
+          ],
+          "points": 1267,
+          "vrsRoster": [
+            "C4LLM3SU3",
+            "EmiliaQAQ",
+            "Starry",
+            "Westmelon",
+            "z4KR"
+          ]
+        }
+      ]
+    }
+  }
+}

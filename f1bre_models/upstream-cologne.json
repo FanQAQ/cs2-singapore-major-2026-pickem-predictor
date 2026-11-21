@@ -1,0 +1,876 @@
+{
+  "asOf": "2026-11-21",
+  "categoryOrder": [
+    "3-0",
+    "3-1 / 3-2",
+    "0-3"
+  ],
+  "stages": [
+    {
+      "id": "cologne",
+      "stage": 1,
+      "postId": 182421774,
+      "source": "https://www.xiaoheihe.cn/app/bbs/link/182421774",
+      "author": "F1bre",
+      "createdAt": "2026-05-30T11:51:47.000Z",
+      "modifiedAt": "2026-06-10T02:41:29.000Z",
+      "mirror": null,
+      "images": [
+        {
+          "number": 1,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/05/30/0bdcad8fb237c916790adc050062bc60/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "b8759a02907af34f09395e30da4a27f25c7db56b1d43e384a31195637e8777ad",
+          "bytes": 43882,
+          "cdnLastModified": "Thu, 12 Nov 2026 18:25:11 GMT"
+        },
+        {
+          "number": 2,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/05/30/a7eddcc7d48934dd9b81859ee0418fef/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "19c293234f0490cf9faadf9f5f6457bc33b7818c2c3cfbbf38dddd6cca63cd8f",
+          "bytes": 50556,
+          "cdnLastModified": "Sat, 21 Nov 2026 14:09:24 GMT"
+        },
+        {
+          "number": 3,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/05/30/f58188f3576ea4b71f19081870c4f3ab/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "488c6aa6674e40706bef55b73c72e2adfb10c3b4ce77cf39cfe1cfaec7fc3ccb",
+          "bytes": 68954,
+          "cdnLastModified": "Fri, 20 Nov 2026 22:01:42 GMT"
+        },
+        {
+          "number": 4,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/05/30/6e2764a7c8de1d6e1af926a2e11b2c32/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "0fb960c0231292de43676ede6160aaf58a1b10ad161391a4879e00765d22be8c",
+          "bytes": 45258,
+          "cdnLastModified": "Sat, 21 Nov 2026 19:05:07 GMT"
+        },
+        {
+          "number": 5,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/05/30/1943b758d386d1eea0c2c58b61011acc/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "7cb04b82fb77b47d3086fbc5bb5c86d3f0e4452dc8966c17c4e8ea4f2dea76cc",
+          "bytes": 66508,
+          "cdnLastModified": "Sat, 21 Nov 2026 19:05:07 GMT"
+        }
+      ],
+      "actualGroups": [
+        [
+          "B8",
+          "BetBoom"
+        ],
+        [
+          "GamerLegion",
+          "BIG",
+          "M80",
+          "MIBR",
+          "TYLOO",
+          "FlyQuest"
+        ],
+        [
+          "SINNERS",
+          "Gaimin Gladiators"
+        ]
+      ],
+      "site": {
+        "groups": [
+          [
+            "GamerLegion",
+            "BetBoom"
+          ],
+          [
+            "B8",
+            "BIG",
+            "M80",
+            "MIBR",
+            "SINNERS",
+            "Lynn Vision"
+          ],
+          [
+            "THUNDER dOWNUNDER",
+            "FlyQuest"
+          ]
+        ],
+        "hits": 4,
+        "slots": [
+          1,
+          3,
+          0
+        ],
+        "hitTeams": [
+          [
+            "BetBoom"
+          ],
+          [
+            "BIG",
+            "M80",
+            "MIBR"
+          ],
+          []
+        ]
+      },
+      "cards": [
+        {
+          "id": "elo-1",
+          "label": "Elo Top 1",
+          "method": "Elo",
+          "rank": 1,
+          "imageNumbers": [
+            1
+          ],
+          "groups": [
+            [
+              "B8",
+              "MIBR"
+            ],
+            [
+              "GamerLegion",
+              "HEROIC",
+              "BetBoom",
+              "M80",
+              "NRG",
+              "Liquid"
+            ],
+            [
+              "TYLOO",
+              "THUNDER dOWNUNDER"
+            ]
+          ],
+          "hits": 3,
+          "slots": [
+            1,
+            2,
+            0
+          ],
+          "hitTeams": [
+            [
+              "B8"
+            ],
+            [
+              "GamerLegion",
+              "M80"
+            ],
+            []
+          ]
+        },
+        {
+          "id": "ml-1",
+          "label": "ML Top 1",
+          "method": "ML",
+          "rank": 1,
+          "imageNumbers": [
+            4
+          ],
+          "groups": [
+            [
+              "GamerLegion",
+              "BetBoom"
+            ],
+            [
+              "B8",
+              "HEROIC",
+              "M80",
+              "MIBR",
+              "SINNERS",
+              "TYLOO"
+            ],
+            [
+              "Gaimin Gladiators",
+              "Liquid"
+            ]
+          ],
+          "hits": 5,
+          "slots": [
+            1,
+            3,
+            1
+          ],
+          "hitTeams": [
+            [
+              "BetBoom"
+            ],
+            [
+              "M80",
+              "MIBR",
+              "TYLOO"
+            ],
+            [
+              "Gaimin Gladiators"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cologne-2026-2",
+      "stage": 2,
+      "postId": 182820875,
+      "source": "https://www.xiaoheihe.cn/app/bbs/link/182820875",
+      "author": "F1bre",
+      "createdAt": "2026-06-05T23:11:07.000Z",
+      "modifiedAt": "2026-06-10T07:35:03.000Z",
+      "mirror": "https://www.vgover.com/news/218958",
+      "images": [
+        {
+          "number": 1,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/06/05/d1b727ae12bfc7a16ce084575ace42dd/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "39632be9aaaabb5736c0b1caa281bc0cf4f123003a6b623f6786afe973450f07",
+          "bytes": 43678,
+          "cdnLastModified": "Sat, 17 Oct 2026 18:11:48 GMT"
+        },
+        {
+          "number": 2,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/06/05/291888ac6a3f73afa81e815cdb40abb1/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "732eb5c1e6d15b01a8027c848e9bef79bf16efa9981b788e0b5cd33fd66070ab",
+          "bytes": 45656,
+          "cdnLastModified": "Fri, 20 Nov 2026 22:01:42 GMT"
+        },
+        {
+          "number": 3,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/06/05/f092ba41808ea2bf2520875195dfa14f/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "c958d5b151fe2914c2e41459c19e0ba2ef7adbde05f1556bb949d5ecab59e9e5",
+          "bytes": 58034,
+          "cdnLastModified": "Fri, 20 Nov 2026 22:01:42 GMT"
+        },
+        {
+          "number": 4,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/06/05/c9eb89e7e2213d348e908fa79dc75d78/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "7b83c6dcfd6ea2293c9a8e0a16a53fdde6ea881308e05a511518547c36b0b6e6",
+          "bytes": 73984,
+          "cdnLastModified": "Sat, 21 Nov 2026 19:05:35 GMT"
+        },
+        {
+          "number": 5,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/06/05/82926237a619355039187ecf7a635908/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "e77ae7f0a524cfae8952bfe7ec4200f13362fff5db7178dd0ce904b631c74a31",
+          "bytes": 51660,
+          "cdnLastModified": "Sat, 21 Nov 2026 19:05:45 GMT"
+        },
+        {
+          "number": 6,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/06/05/e73fcfc6c5ace3db254e0e1fec33cd30/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "cf194903b467d58ea73aeaf68fff8ef36bc690ff29d62336913e474b0006f94c",
+          "bytes": 61352,
+          "cdnLastModified": "Sat, 21 Nov 2026 19:05:45 GMT"
+        },
+        {
+          "number": 7,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/06/05/d9cc2463f863e183dd3000c6ee692d28/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "7bd0b7bbb80d163320b987dda26d17f08fb5083fcaf60e4736f833b064a83d57",
+          "bytes": 74778,
+          "cdnLastModified": "Sat, 21 Nov 2026 19:05:45 GMT"
+        }
+      ],
+      "actualGroups": [
+        [
+          "FUT",
+          "Spirit"
+        ],
+        [
+          "G2",
+          "Legacy",
+          "Monte",
+          "9z",
+          "B8",
+          "BetBoom"
+        ],
+        [
+          "GamerLegion",
+          "FlyQuest"
+        ]
+      ],
+      "site": {
+        "groups": [
+          [
+            "Spirit",
+            "Legacy"
+          ],
+          [
+            "FUT",
+            "Astralis",
+            "G2",
+            "9z",
+            "B8",
+            "GamerLegion"
+          ],
+          [
+            "BIG",
+            "FlyQuest"
+          ]
+        ],
+        "hits": 5,
+        "slots": [
+          1,
+          3,
+          1
+        ],
+        "hitTeams": [
+          [
+            "Spirit"
+          ],
+          [
+            "G2",
+            "9z",
+            "B8"
+          ],
+          [
+            "FlyQuest"
+          ]
+        ]
+      },
+      "cards": [
+        {
+          "id": "elo-1",
+          "label": "Elo Top 1",
+          "method": "Elo",
+          "rank": 1,
+          "imageNumbers": [
+            1
+          ],
+          "groups": [
+            [
+              "Spirit",
+              "paiN"
+            ],
+            [
+              "FUT",
+              "Astralis",
+              "G2",
+              "Legacy",
+              "B8",
+              "GamerLegion"
+            ],
+            [
+              "TYLOO",
+              "BIG"
+            ]
+          ],
+          "hits": 4,
+          "slots": [
+            1,
+            3,
+            0
+          ],
+          "hitTeams": [
+            [
+              "Spirit"
+            ],
+            [
+              "G2",
+              "Legacy",
+              "B8"
+            ],
+            []
+          ]
+        },
+        {
+          "id": "elo-2",
+          "label": "Elo Top 2",
+          "method": "Elo",
+          "rank": 2,
+          "imageNumbers": [
+            4
+          ],
+          "groups": [
+            [
+              "Spirit",
+              "Legacy"
+            ],
+            [
+              "FUT",
+              "Astralis",
+              "G2",
+              "paiN",
+              "B8",
+              "GamerLegion"
+            ],
+            [
+              "MIBR",
+              "TYLOO"
+            ]
+          ],
+          "hits": 3,
+          "slots": [
+            1,
+            2,
+            0
+          ],
+          "hitTeams": [
+            [
+              "Spirit"
+            ],
+            [
+              "G2",
+              "B8"
+            ],
+            []
+          ]
+        },
+        {
+          "id": "elo-3",
+          "label": "Elo Top 3",
+          "method": "Elo",
+          "rank": 3,
+          "imageNumbers": [
+            4
+          ],
+          "groups": [
+            [
+              "Spirit",
+              "Legacy"
+            ],
+            [
+              "FUT",
+              "Astralis",
+              "G2",
+              "B8",
+              "GamerLegion",
+              "M80"
+            ],
+            [
+              "MIBR",
+              "TYLOO"
+            ]
+          ],
+          "hits": 3,
+          "slots": [
+            1,
+            2,
+            0
+          ],
+          "hitTeams": [
+            [
+              "Spirit"
+            ],
+            [
+              "G2",
+              "B8"
+            ],
+            []
+          ]
+        },
+        {
+          "id": "ml-1",
+          "label": "ML Top 1",
+          "method": "ML",
+          "rank": 1,
+          "imageNumbers": [
+            5
+          ],
+          "groups": [
+            [
+              "Spirit",
+              "paiN"
+            ],
+            [
+              "FUT",
+              "Astralis",
+              "G2",
+              "Legacy",
+              "B8",
+              "MIBR"
+            ],
+            [
+              "Monte",
+              "TYLOO"
+            ]
+          ],
+          "hits": 4,
+          "slots": [
+            1,
+            3,
+            0
+          ],
+          "hitTeams": [
+            [
+              "Spirit"
+            ],
+            [
+              "G2",
+              "Legacy",
+              "B8"
+            ],
+            []
+          ]
+        },
+        {
+          "id": "ml-2",
+          "label": "ML Top 2",
+          "method": "ML",
+          "rank": 2,
+          "imageNumbers": [
+            7
+          ],
+          "groups": [
+            [
+              "Spirit",
+              "paiN"
+            ],
+            [
+              "FUT",
+              "Astralis",
+              "G2",
+              "Legacy",
+              "9z",
+              "B8"
+            ],
+            [
+              "TYLOO",
+              "Monte"
+            ]
+          ],
+          "hits": 5,
+          "slots": [
+            1,
+            4,
+            0
+          ],
+          "hitTeams": [
+            [
+              "Spirit"
+            ],
+            [
+              "G2",
+              "Legacy",
+              "9z",
+              "B8"
+            ],
+            []
+          ]
+        },
+        {
+          "id": "ml-3",
+          "label": "ML Top 3",
+          "method": "ML",
+          "rank": 3,
+          "imageNumbers": [
+            7
+          ],
+          "groups": [
+            [
+              "Spirit",
+              "G2"
+            ],
+            [
+              "FUT",
+              "Astralis",
+              "MIBR",
+              "Legacy",
+              "9z",
+              "B8"
+            ],
+            [
+              "TYLOO",
+              "Monte"
+            ]
+          ],
+          "hits": 4,
+          "slots": [
+            1,
+            3,
+            0
+          ],
+          "hitTeams": [
+            [
+              "Spirit"
+            ],
+            [
+              "Legacy",
+              "9z",
+              "B8"
+            ],
+            []
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cologne-2026-3",
+      "stage": 3,
+      "postId": 183113941,
+      "source": "https://www.xiaoheihe.cn/app/bbs/link/183113941",
+      "author": "F1bre",
+      "createdAt": "2026-06-10T02:26:12.000Z",
+      "modifiedAt": "2026-06-18T18:37:04.000Z",
+      "mirror": null,
+      "images": [
+        {
+          "number": 1,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/06/10/9a49b6584a607ee7ebfeee83f5369aa3/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "91b2e0529f37b9ffbcc313fc439aee1c1da9ce7188eb1c873d1fe7f188fa4506",
+          "bytes": 55584,
+          "cdnLastModified": "Sat, 21 Nov 2026 18:59:08 GMT"
+        },
+        {
+          "number": 2,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/06/10/2ecbd73d3e127e86d9ef58a649949cac/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "2bd40b853a2a38f308d9a387bdd9cc9d9f8c1a7b6dc64d92bd9ce96d3092fc9d",
+          "bytes": 48124,
+          "cdnLastModified": "Sat, 21 Nov 2026 18:59:08 GMT"
+        },
+        {
+          "number": 3,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/06/10/a92848987317a947e4ce19a0e38310ba/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "65cb65aa7cceb22601a1aceb48c24b8d02371ca40c2463361b91d8ab1fa40fb2",
+          "bytes": 30720,
+          "cdnLastModified": "Sat, 21 Nov 2026 18:59:08 GMT"
+        },
+        {
+          "number": 4,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/06/10/40cc095b2c2442cb7f920fd445c74d29/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "b1d7d13afea8731ed43a02085a5e286b22e02d70a3b3aefdd0d19473a272783a",
+          "bytes": 64034,
+          "cdnLastModified": "Sat, 21 Nov 2026 19:05:17 GMT"
+        },
+        {
+          "number": 5,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/06/10/51dff03242cbb720a0b081d2fa8600ee/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "95e35a610bcad7335fbb2e8a4f60a736f507c76872de31a85fbe0ecc6a456efb",
+          "bytes": 102146,
+          "cdnLastModified": "Sat, 21 Nov 2026 19:05:26 GMT"
+        },
+        {
+          "number": 6,
+          "url": "https://imgheybox1.max-c.com/web/bbs/2026/06/10/06bb8cf24bb659c6c4733e57df7f49ae/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+          "sha256": "6a7067be5c6c92b4556cf7b40016450f6c42f130b4d8155ec4975b078d9bc7c2",
+          "bytes": 53316,
+          "cdnLastModified": "Sat, 21 Nov 2026 19:05:26 GMT"
+        }
+      ],
+      "actualGroups": [
+        [
+          "FURIA",
+          "Spirit"
+        ],
+        [
+          "Vitality",
+          "Falcons",
+          "Aurora",
+          "G2",
+          "BetBoom",
+          "9z"
+        ],
+        [
+          "PARIVISION",
+          "B8"
+        ]
+      ],
+      "site": {
+        "groups": [
+          [
+            "Vitality",
+            "Falcons"
+          ],
+          [
+            "Natus Vincere",
+            "Aurora",
+            "MOUZ",
+            "FUT",
+            "Spirit",
+            "Legacy"
+          ],
+          [
+            "Monte",
+            "B8"
+          ]
+        ],
+        "hits": 2,
+        "slots": [
+          0,
+          1,
+          1
+        ],
+        "hitTeams": [
+          [],
+          [
+            "Aurora"
+          ],
+          [
+            "B8"
+          ]
+        ]
+      },
+      "cards": [
+        {
+          "id": "elo-sorted",
+          "label": "Elo 按概率简单排序",
+          "method": "Elo",
+          "rank": null,
+          "imageNumbers": [
+            1,
+            3
+          ],
+          "groups": [
+            [
+              "Vitality",
+              "Falcons"
+            ],
+            [
+              "Natus Vincere",
+              "Aurora",
+              "FURIA",
+              "MOUZ",
+              "Spirit",
+              "G2"
+            ],
+            [
+              "9z",
+              "Monte"
+            ]
+          ],
+          "hits": 2,
+          "slots": [
+            0,
+            2,
+            0
+          ],
+          "hitTeams": [
+            [],
+            [
+              "Aurora",
+              "G2"
+            ],
+            []
+          ]
+        },
+        {
+          "id": "ml-1",
+          "label": "ML Top 1",
+          "method": "ML",
+          "rank": 1,
+          "imageNumbers": [
+            5
+          ],
+          "groups": [
+            [
+              "Vitality",
+              "Spirit"
+            ],
+            [
+              "Natus Vincere",
+              "Falcons",
+              "FURIA",
+              "9z",
+              "BetBoom",
+              "Legacy"
+            ],
+            [
+              "PARIVISION",
+              "Monte"
+            ]
+          ],
+          "hits": 5,
+          "slots": [
+            1,
+            3,
+            1
+          ],
+          "hitTeams": [
+            [
+              "Spirit"
+            ],
+            [
+              "Falcons",
+              "9z",
+              "BetBoom"
+            ],
+            [
+              "PARIVISION"
+            ]
+          ]
+        },
+        {
+          "id": "ml-2",
+          "label": "ML Top 2",
+          "method": "ML",
+          "rank": 2,
+          "imageNumbers": [
+            5
+          ],
+          "groups": [
+            [
+              "Vitality",
+              "Spirit"
+            ],
+            [
+              "Natus Vincere",
+              "Falcons",
+              "G2",
+              "9z",
+              "BetBoom",
+              "Legacy"
+            ],
+            [
+              "PARIVISION",
+              "Monte"
+            ]
+          ],
+          "hits": 6,
+          "slots": [
+            1,
+            4,
+            1
+          ],
+          "hitTeams": [
+            [
+              "Spirit"
+            ],
+            [
+              "Falcons",
+              "G2",
+              "9z",
+              "BetBoom"
+            ],
+            [
+              "PARIVISION"
+            ]
+          ]
+        },
+        {
+          "id": "ml-3",
+          "label": "ML Top 3",
+          "method": "ML",
+          "rank": 3,
+          "imageNumbers": [
+            5
+          ],
+          "groups": [
+            [
+              "Vitality",
+              "Spirit"
+            ],
+            [
+              "Natus Vincere",
+              "Falcons",
+              "The MongolZ",
+              "9z",
+              "BetBoom",
+              "Legacy"
+            ],
+            [
+              "PARIVISION",
+              "Monte"
+            ]
+          ],
+          "hits": 5,
+          "slots": [
+            1,
+            3,
+            1
+          ],
+          "hitTeams": [
+            [
+              "Spirit"
+            ],
+            [
+              "Falcons",
+              "9z",
+              "BetBoom"
+            ],
+            [
+              "PARIVISION"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

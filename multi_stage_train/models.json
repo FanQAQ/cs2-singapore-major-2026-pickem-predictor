@@ -1,0 +1,342 @@
+{
+  "copenhagen": {
+    "editions": [],
+    "cutoff": null,
+    "lastTrainingMatch": null,
+    "role": "initial",
+    "nByStage": {
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "recommended": {
+      "pooled": 1,
+      "bo1": 1,
+      "bo3": 1
+    },
+    "tree": {
+      "pooled": 1,
+      "bo1": 1,
+      "bo3": 1
+    }
+  },
+  "copenhagen-2024-2": {
+    "editions": [],
+    "cutoff": null,
+    "lastTrainingMatch": null,
+    "role": "initial",
+    "nByStage": {
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "recommended": {
+      "pooled": 1,
+      "bo1": 1,
+      "bo3": 1
+    },
+    "tree": {
+      "pooled": 1,
+      "bo1": 1,
+      "bo3": 1
+    }
+  },
+  "shanghai": {
+    "editions": [
+      "copenhagen"
+    ],
+    "cutoff": "2024-03-24",
+    "lastTrainingMatch": "2024-03-24",
+    "role": "forward",
+    "nByStage": {
+      "1": 33,
+      "2": 33,
+      "3": 0
+    },
+    "recommended": {
+      "pooled": 0.998536955,
+      "bo1": 0.978471624,
+      "bo3": 1.022635605
+    },
+    "tree": {
+      "pooled": 0.903568244,
+      "bo1": 0.91976373,
+      "bo3": 0.966327834
+    }
+  },
+  "shanghai-2024-2": {
+    "editions": [
+      "copenhagen"
+    ],
+    "cutoff": "2024-03-24",
+    "lastTrainingMatch": "2024-03-24",
+    "role": "forward",
+    "nByStage": {
+      "1": 33,
+      "2": 33,
+      "3": 0
+    },
+    "recommended": {
+      "pooled": 0.998536955,
+      "bo1": 0.978471624,
+      "bo3": 1.022635605
+    },
+    "tree": {
+      "pooled": 0.903568244,
+      "bo1": 0.91976373,
+      "bo3": 0.966327834
+    }
+  },
+  "austin": {
+    "editions": [
+      "copenhagen",
+      "shanghai"
+    ],
+    "cutoff": "2024-12-08",
+    "lastTrainingMatch": "2024-12-08",
+    "role": "forward",
+    "nByStage": {
+      "1": 66,
+      "2": 66,
+      "3": 0
+    },
+    "recommended": {
+      "pooled": 1.103208316,
+      "bo1": 1.005975603,
+      "bo3": 1.147384744
+    },
+    "tree": {
+      "pooled": 1.029254422,
+      "bo1": 0.942941613,
+      "bo3": 1.105675673
+    }
+  },
+  "austin-2025-2": {
+    "editions": [
+      "copenhagen",
+      "shanghai"
+    ],
+    "cutoff": "2024-12-08",
+    "lastTrainingMatch": "2024-12-08",
+    "role": "forward",
+    "nByStage": {
+      "1": 66,
+      "2": 66,
+      "3": 0
+    },
+    "recommended": {
+      "pooled": 1.103208316,
+      "bo1": 1.005975603,
+      "bo3": 1.147384744
+    },
+    "tree": {
+      "pooled": 1.029254422,
+      "bo1": 0.942941613,
+      "bo3": 1.105675673
+    }
+  },
+  "austin-2025-3": {
+    "editions": [
+      "copenhagen",
+      "shanghai"
+    ],
+    "cutoff": "2024-12-08",
+    "lastTrainingMatch": "2024-12-08",
+    "role": "forward",
+    "nByStage": {
+      "1": 66,
+      "2": 66,
+      "3": 0
+    },
+    "recommended": {
+      "pooled": 1.103208316,
+      "bo1": 1.005975603,
+      "bo3": 1.147384744
+    },
+    "tree": {
+      "pooled": 1.029254422,
+      "bo1": 0.942941613,
+      "bo3": 1.105675673
+    }
+  },
+  "budapest": {
+    "editions": [
+      "copenhagen",
+      "shanghai",
+      "austin"
+    ],
+    "cutoff": "2025-06-16",
+    "lastTrainingMatch": "2025-06-16",
+    "role": "forward",
+    "nByStage": {
+      "1": 99,
+      "2": 99,
+      "3": 33
+    },
+    "recommended": {
+      "pooled": 0.789701531,
+      "bo1": 0.858958626,
+      "bo3": 0.971159757
+    },
+    "tree": {
+      "pooled": 0.790053003,
+      "bo1": 0.78696544,
+      "bo3": 1.078742069
+    }
+  },
+  "budapest-2025-2": {
+    "editions": [
+      "copenhagen",
+      "shanghai",
+      "austin"
+    ],
+    "cutoff": "2025-06-16",
+    "lastTrainingMatch": "2025-06-16",
+    "role": "forward",
+    "nByStage": {
+      "1": 99,
+      "2": 99,
+      "3": 33
+    },
+    "recommended": {
+      "pooled": 0.789701531,
+      "bo1": 0.858958626,
+      "bo3": 0.971159757
+    },
+    "tree": {
+      "pooled": 0.790053003,
+      "bo1": 0.78696544,
+      "bo3": 1.078742069
+    }
+  },
+  "budapest-2025-3": {
+    "editions": [
+      "copenhagen",
+      "shanghai",
+      "austin"
+    ],
+    "cutoff": "2025-06-16",
+    "lastTrainingMatch": "2025-06-16",
+    "role": "forward",
+    "nByStage": {
+      "1": 99,
+      "2": 99,
+      "3": 33
+    },
+    "recommended": {
+      "pooled": 0.789701531,
+      "bo1": 0.858958626,
+      "bo3": 0.971159757
+    },
+    "tree": {
+      "pooled": 0.790053003,
+      "bo1": 0.78696544,
+      "bo3": 1.078742069
+    }
+  },
+  "cologne": {
+    "editions": [
+      "copenhagen",
+      "shanghai",
+      "austin",
+      "budapest"
+    ],
+    "cutoff": "2025-12-07",
+    "lastTrainingMatch": "2025-12-07",
+    "role": "holdout",
+    "nByStage": {
+      "1": 132,
+      "2": 132,
+      "3": 66
+    },
+    "recommended": {
+      "pooled": 0.803546006,
+      "bo1": 0.784057592,
+      "bo3": 1.06256231
+    },
+    "tree": {
+      "pooled": 0.833170245,
+      "bo1": 0.767569824,
+      "bo3": 1.163335584
+    }
+  },
+  "cologne-2026-2": {
+    "editions": [
+      "copenhagen",
+      "shanghai",
+      "austin",
+      "budapest"
+    ],
+    "cutoff": "2025-12-07",
+    "lastTrainingMatch": "2025-12-07",
+    "role": "holdout",
+    "nByStage": {
+      "1": 132,
+      "2": 132,
+      "3": 66
+    },
+    "recommended": {
+      "pooled": 0.803546006,
+      "bo1": 0.784057592,
+      "bo3": 1.06256231
+    },
+    "tree": {
+      "pooled": 0.833170245,
+      "bo1": 0.767569824,
+      "bo3": 1.163335584
+    }
+  },
+  "cologne-2026-3": {
+    "editions": [
+      "copenhagen",
+      "shanghai",
+      "austin",
+      "budapest"
+    ],
+    "cutoff": "2025-12-07",
+    "lastTrainingMatch": "2025-12-07",
+    "role": "holdout",
+    "nByStage": {
+      "1": 132,
+      "2": 132,
+      "3": 66
+    },
+    "recommended": {
+      "pooled": 0.803546006,
+      "bo1": 0.784057592,
+      "bo3": 1.06256231
+    },
+    "tree": {
+      "pooled": 0.833170245,
+      "bo1": 0.767569824,
+      "bo3": 1.163335584
+    }
+  },
+  "singapore": {
+    "editions": [
+      "copenhagen",
+      "shanghai",
+      "austin",
+      "budapest",
+      "cologne"
+    ],
+    "cutoff": "2026-06-15",
+    "lastTrainingMatch": "2026-06-15",
+    "role": "prospective",
+    "nByStage": {
+      "1": 165,
+      "2": 165,
+      "3": 99
+    },
+    "recommended": {
+      "pooled": 0.846809052,
+      "bo1": 0.796278595,
+      "bo3": 1.104897898
+    },
+    "tree": {
+      "pooled": 0.871119068,
+      "bo1": 0.811815267,
+      "bo3": 1.144440519
+    }
+  }
+}

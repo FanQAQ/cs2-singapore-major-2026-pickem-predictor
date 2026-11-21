@@ -1,0 +1,2488 @@
+{
+  "id": "elisa-fall-2024",
+  "end": "2024-09-05",
+  "entrants": [
+    "Zero Tenacity",
+    "Metizport",
+    "Rebels",
+    "Gaimin Gladiators",
+    "MOUZ NXT",
+    "TSM",
+    "Endpoint",
+    "Into the Breach",
+    "FAVBET",
+    "Sampi",
+    "DASH",
+    "Meteor",
+    "kONO",
+    "ALTERNATE aTTaX",
+    "Rhyno",
+    "Enterprise"
+  ],
+  "rounds": [
+    [
+      [
+        8,
+        0
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        14,
+        6
+      ],
+      [
+        7,
+        15
+      ]
+    ],
+    [
+      [
+        0,
+        11
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        10,
+        6
+      ],
+      [
+        13,
+        9
+      ]
+    ],
+    [
+      [
+        10,
+        3
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        11,
+        6
+      ],
+      [
+        0,
+        14
+      ],
+      [
+        7,
+        13
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    [
+      [
+        5,
+        7
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        3,
+        14
+      ]
+    ],
+    [
+      [
+        9,
+        3
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        13,
+        8
+      ]
+    ]
+  ],
+  "matchIds": [
+    [
+      2374648,
+      2374649,
+      2374650,
+      2374651,
+      2374652,
+      2374653,
+      2374654,
+      2374655
+    ],
+    [
+      2374656,
+      2374657,
+      2374658,
+      2374659,
+      2374660,
+      2374661,
+      2374662,
+      2374663
+    ],
+    [
+      2375236,
+      2375237,
+      2375238,
+      2375239,
+      2375240,
+      2375241,
+      2375242,
+      2375243
+    ],
+    [
+      2375429,
+      2375430,
+      2375431,
+      2375432,
+      2375433,
+      2375434
+    ],
+    [
+      2375435,
+      2375436,
+      2375437
+    ]
+  ],
+  "matches": [
+    {
+      "id": 2374648,
+      "day": "2024-08-12",
+      "startUtc": "2024-08-12T09:00:00Z",
+      "round": 1,
+      "bo": 3,
+      "a": "Zero Tenacity",
+      "b": "FAVBET",
+      "w": 8,
+      "l": 0,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Inferno",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Anubis",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "aVN",
+        "brutmonster",
+        "Cjoffo",
+        "nEMANHA",
+        "simke"
+      ],
+      "fiveB": [
+        "bondik",
+        "j3kie",
+        "Marix",
+        "Smash",
+        "t3ns1on"
+      ],
+      "administrative": false,
+      "score": [
+        0,
+        2
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Inferno",
+          10,
+          13
+        ],
+        [
+          "Anubis",
+          10,
+          13
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2374648/zero-tenacity-vs-favbet-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2374649,
+      "day": "2024-08-12",
+      "startUtc": "2024-08-12T12:00:00Z",
+      "round": 1,
+      "bo": 3,
+      "a": "Metizport",
+      "b": "Sampi",
+      "w": 1,
+      "l": 9,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Dust2",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Inferno",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "adamb",
+        "L00m1",
+        "nilo",
+        "Plopski",
+        "Sapec"
+      ],
+      "fiveB": [
+        "fino",
+        "manguss",
+        "sAvana1",
+        "The eLiVe",
+        "ZEDKO"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        0
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Dust2",
+          13,
+          10
+        ],
+        [
+          "Inferno",
+          13,
+          11
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2374649/metizport-vs-sampi-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2374650,
+      "day": "2024-08-13",
+      "startUtc": "2024-08-13T09:00:00Z",
+      "round": 1,
+      "bo": 3,
+      "a": "Rebels",
+      "b": "DASH",
+      "w": 2,
+      "l": 10,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Ancient",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Nuke",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Anubis",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "casey",
+        "flayy",
+        "innocent",
+        "kisserek",
+        "olimp"
+      ],
+      "fiveB": [
+        "cairne",
+        "Dawy",
+        "Flierax",
+        "nifee",
+        "Psycho"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        1
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Ancient",
+          13,
+          5
+        ],
+        [
+          "Nuke",
+          2,
+          13
+        ],
+        [
+          "Anubis",
+          13,
+          7
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2374650/rebels-vs-dash-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2374651,
+      "day": "2024-08-13",
+      "startUtc": "2024-08-13T12:00:00Z",
+      "round": 1,
+      "bo": 3,
+      "a": "Gaimin Gladiators",
+      "b": "Meteor",
+      "w": 3,
+      "l": 11,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Dust2",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Inferno",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Ancient",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "kraghen",
+        "nicoodoz",
+        "Nodios",
+        "Queenix",
+        "roeJ"
+      ],
+      "fiveB": [
+        "dosikzz",
+        "for2na",
+        "ResoLuxe",
+        "rinn",
+        "WANGJ"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        1
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Dust2",
+          13,
+          16
+        ],
+        [
+          "Inferno",
+          13,
+          8
+        ],
+        [
+          "Ancient",
+          13,
+          10
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2374651/gaimin-gladiators-vs-meteor-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2374652,
+      "day": "2024-08-14",
+      "startUtc": "2024-08-14T09:00:00Z",
+      "round": 1,
+      "bo": 3,
+      "a": "MOUZ NXT",
+      "b": "kONO",
+      "w": 4,
+      "l": 12,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 4,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Inferno",
+          "overlapA": 4,
+          "overlapB": 5
+        },
+        {
+          "map": "Vertigo",
+          "overlapA": 4,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "Burmylov",
+        "Neityu",
+        "PR",
+        "sirah",
+        "TMB"
+      ],
+      "fiveB": [
+        "amster",
+        "byr9",
+        "kensizor",
+        "Polbandana",
+        "s4ltovsk1yy"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        0
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Inferno",
+          19,
+          15
+        ],
+        [
+          "Vertigo",
+          13,
+          8
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2374652/mouz-nxt-vs-kono-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2374653,
+      "day": "2024-08-14",
+      "startUtc": "2024-08-14T12:15:00Z",
+      "round": 1,
+      "bo": 3,
+      "a": "TSM",
+      "b": "ALTERNATE aTTaX",
+      "w": 5,
+      "l": 13,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Vertigo",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Inferno",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Ancient",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "acoR",
+        "Altekz",
+        "niko",
+        "valde",
+        "Zyphon"
+      ],
+      "fiveB": [
+        "ArroW",
+        "awzek",
+        "FreeZe",
+        "hyped",
+        "PerX"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        1
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Vertigo",
+          8,
+          13
+        ],
+        [
+          "Inferno",
+          13,
+          4
+        ],
+        [
+          "Ancient",
+          13,
+          2
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2374653/tsm-vs-alternate-attax-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2374654,
+      "day": "2024-08-15",
+      "startUtc": "2024-08-15T09:00:00Z",
+      "round": 1,
+      "bo": 3,
+      "a": "Endpoint",
+      "b": "Rhyno",
+      "w": 14,
+      "l": 6,
+      "played": true,
+      "coreEligible": false,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 0,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Vertigo",
+          "overlapA": 0,
+          "overlapB": 5
+        },
+        {
+          "map": "Inferno",
+          "overlapA": 0,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "AZUWU",
+        "cej0t",
+        "CRUC1AL",
+        "MiGHTYMAX",
+        "Surreal"
+      ],
+      "fiveB": [
+        "Ag1l",
+        "DDias",
+        "krazy",
+        "snapy",
+        "TMKj"
+      ],
+      "administrative": false,
+      "score": [
+        0,
+        2
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Vertigo",
+          4,
+          13
+        ],
+        [
+          "Inferno",
+          13,
+          16
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2374654/endpoint-vs-rhyno-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2374655,
+      "day": "2024-08-15",
+      "startUtc": "2024-08-15T12:00:00Z",
+      "round": 1,
+      "bo": 3,
+      "a": "Into the Breach",
+      "b": "Enterprise",
+      "w": 7,
+      "l": 15,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 4,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Dust2",
+          "overlapA": 4,
+          "overlapB": 5
+        },
+        {
+          "map": "Mirage",
+          "overlapA": 4,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "juanflatroo",
+        "Keoz",
+        "rallen",
+        "sinnopsyy",
+        "smooya"
+      ],
+      "fiveB": [
+        "bajmi",
+        "Demho",
+        "ex1st",
+        "fr3nd",
+        "Sobol"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        0
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Dust2",
+          13,
+          10
+        ],
+        [
+          "Mirage",
+          13,
+          5
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2374655/into-the-breach-vs-enterprise-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2374656,
+      "day": "2024-08-19",
+      "startUtc": "2024-08-19T09:00:00Z",
+      "round": 2,
+      "bo": 3,
+      "a": "Zero Tenacity",
+      "b": "Meteor",
+      "w": 0,
+      "l": 11,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Dust2",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Nuke",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Anubis",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "aVN",
+        "brutmonster",
+        "Cjoffo",
+        "nEMANHA",
+        "simke"
+      ],
+      "fiveB": [
+        "dosikzz",
+        "for2na",
+        "ResoLuxe",
+        "rinn",
+        "WANGJ"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        1
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Dust2",
+          14,
+          16
+        ],
+        [
+          "Nuke",
+          13,
+          4
+        ],
+        [
+          "Anubis",
+          19,
+          17
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2374656/zero-tenacity-vs-meteor-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2374657,
+      "day": "2024-08-19",
+      "startUtc": "2024-08-19T12:35:00Z",
+      "round": 2,
+      "bo": 3,
+      "a": "Enterprise",
+      "b": "kONO",
+      "w": 15,
+      "l": 12,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Vertigo",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Anubis",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "bajmi",
+        "Demho",
+        "ex1st",
+        "fr3nd",
+        "Sobol"
+      ],
+      "fiveB": [
+        "amster",
+        "byr9",
+        "kensizor",
+        "Polbandana",
+        "s4ltovsk1yy"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        0
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Vertigo",
+          13,
+          10
+        ],
+        [
+          "Anubis",
+          13,
+          8
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2374657/enterprise-vs-kono-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2374658,
+      "day": "2024-08-20",
+      "startUtc": "2024-08-20T09:00:00Z",
+      "round": 2,
+      "bo": 3,
+      "a": "Metizport",
+      "b": "TSM",
+      "w": 5,
+      "l": 1,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Ancient",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Mirage",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "adamb",
+        "L00m1",
+        "nilo",
+        "Plopski",
+        "Sapec"
+      ],
+      "fiveB": [
+        "acoR",
+        "Altekz",
+        "niko",
+        "valde",
+        "Zyphon"
+      ],
+      "administrative": false,
+      "score": [
+        0,
+        2
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Ancient",
+          1,
+          13
+        ],
+        [
+          "Mirage",
+          10,
+          13
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2374658/metizport-vs-tsm-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2374659,
+      "day": "2024-08-20",
+      "startUtc": "2024-08-20T12:00:00Z",
+      "round": 2,
+      "bo": 3,
+      "a": "Rebels",
+      "b": "Rhyno",
+      "w": 2,
+      "l": 14,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Anubis",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Ancient",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "casey",
+        "flayy",
+        "innocent",
+        "kisserek",
+        "olimp"
+      ],
+      "fiveB": [
+        "Ag1l",
+        "DDias",
+        "krazy",
+        "snapy",
+        "TMKj"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        0
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Anubis",
+          13,
+          10
+        ],
+        [
+          "Ancient",
+          13,
+          4
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2374659/rebels-vs-rhyno-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2374660,
+      "day": "2024-08-21",
+      "startUtc": "2024-08-21T09:00:00Z",
+      "round": 2,
+      "bo": 3,
+      "a": "MOUZ NXT",
+      "b": "Into the Breach",
+      "w": 4,
+      "l": 7,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 4,
+      "coreByMap": [
+        {
+          "map": "Ancient",
+          "overlapA": 5,
+          "overlapB": 4
+        },
+        {
+          "map": "Vertigo",
+          "overlapA": 5,
+          "overlapB": 4
+        },
+        {
+          "map": "Inferno",
+          "overlapA": 5,
+          "overlapB": 4
+        }
+      ],
+      "fiveA": [
+        "Burmylov",
+        "Neityu",
+        "PR",
+        "sirah",
+        "TOBIZ"
+      ],
+      "fiveB": [
+        "juanflatroo",
+        "Keoz",
+        "REDSTAR",
+        "sinnopsyy",
+        "smooya"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        1
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Ancient",
+          13,
+          7
+        ],
+        [
+          "Vertigo",
+          10,
+          13
+        ],
+        [
+          "Inferno",
+          13,
+          10
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2374660/mouz-nxt-vs-into-the-breach-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2374661,
+      "day": "2024-08-21",
+      "startUtc": "2024-08-21T12:00:00Z",
+      "round": 2,
+      "bo": 3,
+      "a": "Gaimin Gladiators",
+      "b": "FAVBET",
+      "w": 8,
+      "l": 3,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Anubis",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Nuke",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "kraghen",
+        "nicoodoz",
+        "Nodios",
+        "Queenix",
+        "roeJ"
+      ],
+      "fiveB": [
+        "bondik",
+        "j3kie",
+        "Marix",
+        "Smash",
+        "t3ns1on"
+      ],
+      "administrative": false,
+      "score": [
+        0,
+        2
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Anubis",
+          10,
+          13
+        ],
+        [
+          "Nuke",
+          7,
+          13
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2374661/gaimin-gladiators-vs-favbet-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2374662,
+      "day": "2024-08-22",
+      "startUtc": "2024-08-22T09:00:00Z",
+      "round": 2,
+      "bo": 3,
+      "a": "Endpoint",
+      "b": "DASH",
+      "w": 10,
+      "l": 6,
+      "played": true,
+      "coreEligible": false,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 0,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Ancient",
+          "overlapA": 0,
+          "overlapB": 5
+        },
+        {
+          "map": "Inferno",
+          "overlapA": 0,
+          "overlapB": 5
+        },
+        {
+          "map": "Dust2",
+          "overlapA": 0,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "AZUWU",
+        "cej0t",
+        "CRUC1AL",
+        "MiGHTYMAX",
+        "Surreal"
+      ],
+      "fiveB": [
+        "cairne",
+        "Dawy",
+        "Flierax",
+        "nifee",
+        "Psycho"
+      ],
+      "administrative": false,
+      "score": [
+        1,
+        2
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Ancient",
+          7,
+          13
+        ],
+        [
+          "Inferno",
+          13,
+          7
+        ],
+        [
+          "Dust2",
+          8,
+          13
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2374662/endpoint-vs-dash-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2374663,
+      "day": "2024-08-22",
+      "startUtc": "2024-08-22T12:00:00Z",
+      "round": 2,
+      "bo": 3,
+      "a": "ALTERNATE aTTaX",
+      "b": "Sampi",
+      "w": 13,
+      "l": 9,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Ancient",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Inferno",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Dust2",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "ArroW",
+        "awzek",
+        "FreeZe",
+        "hyped",
+        "PerX"
+      ],
+      "fiveB": [
+        "fino",
+        "manguss",
+        "sAvana1",
+        "The eLiVe",
+        "ZEDKO"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        1
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Ancient",
+          6,
+          13
+        ],
+        [
+          "Inferno",
+          16,
+          13
+        ],
+        [
+          "Dust2",
+          13,
+          11
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2374663/alternate-attax-vs-sampi-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2375236,
+      "day": "2024-08-26",
+      "startUtc": "2024-08-26T09:00:00Z",
+      "round": 3,
+      "bo": 3,
+      "a": "Gaimin Gladiators",
+      "b": "DASH",
+      "w": 10,
+      "l": 3,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Ancient",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Anubis",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "kraghen",
+        "nicoodoz",
+        "Nodios",
+        "Queenix",
+        "roeJ"
+      ],
+      "fiveB": [
+        "cairne",
+        "Dawy",
+        "Flierax",
+        "nifee",
+        "Psycho"
+      ],
+      "administrative": false,
+      "score": [
+        0,
+        2
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Ancient",
+          10,
+          13
+        ],
+        [
+          "Anubis",
+          11,
+          13
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2375236/gaimin-gladiators-vs-dash-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2375237,
+      "day": "2024-08-26",
+      "startUtc": "2024-08-26T12:00:00Z",
+      "round": 3,
+      "bo": 3,
+      "a": "Sampi",
+      "b": "kONO",
+      "w": 9,
+      "l": 12,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Dust2",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Ancient",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Mirage",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "fino",
+        "manguss",
+        "sAvana1",
+        "The eLiVe",
+        "ZEDKO"
+      ],
+      "fiveB": [
+        "amster",
+        "byr9",
+        "kensizor",
+        "Polbandana",
+        "s4ltovsk1yy"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        1
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Dust2",
+          13,
+          11
+        ],
+        [
+          "Ancient",
+          10,
+          13
+        ],
+        [
+          "Mirage",
+          13,
+          11
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2375237/sampi-vs-kono-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2375238,
+      "day": "2024-08-27",
+      "startUtc": "2024-08-27T09:00:00Z",
+      "round": 3,
+      "bo": 3,
+      "a": "Metizport",
+      "b": "Enterprise",
+      "w": 1,
+      "l": 15,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Vertigo",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Mirage",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "adamb",
+        "L00m1",
+        "nilo",
+        "Plopski",
+        "Sapec"
+      ],
+      "fiveB": [
+        "bajmi",
+        "Demho",
+        "ex1st",
+        "fr3nd",
+        "Sobol"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        0
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Vertigo",
+          13,
+          7
+        ],
+        [
+          "Mirage",
+          13,
+          2
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2375238/metizport-vs-enterprise-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2375239,
+      "day": "2024-08-27",
+      "startUtc": "2024-08-27T12:30:00Z",
+      "round": 3,
+      "bo": 3,
+      "a": "Rebels",
+      "b": "FAVBET",
+      "w": 2,
+      "l": 8,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 4,
+      "coreOverlapB": 3,
+      "coreByMap": [
+        {
+          "map": "Anubis",
+          "overlapA": 4,
+          "overlapB": 4
+        },
+        {
+          "map": "Nuke",
+          "overlapA": 5,
+          "overlapB": 3
+        },
+        {
+          "map": "Ancient",
+          "overlapA": 5,
+          "overlapB": 3
+        }
+      ],
+      "fiveA": null,
+      "fiveB": null,
+      "administrative": false,
+      "score": [
+        2,
+        1
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Anubis",
+          16,
+          19
+        ],
+        [
+          "Nuke",
+          13,
+          10
+        ],
+        [
+          "Ancient",
+          13,
+          6
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2375239/rebels-vs-favbet-elisa-invitational-fall-2024",
+      "listedPlayersByMap": [
+        {
+          "map": "Anubis",
+          "players": {
+            "Rebels": [
+              "olimp",
+              "flayy",
+              "casey",
+              "innocent",
+              "SZPERO"
+            ],
+            "FAVBET": [
+              "Smash",
+              "Marix",
+              "j3kie",
+              "t3ns1on",
+              "guthriee",
+              "bondik"
+            ]
+          }
+        },
+        {
+          "map": "Nuke",
+          "players": {
+            "Rebels": [
+              "casey",
+              "innocent",
+              "kisserek",
+              "flayy",
+              "olimp"
+            ],
+            "FAVBET": [
+              "j3kie",
+              "Marix",
+              "Smash",
+              "Topa",
+              "guthriee",
+              "bondik"
+            ]
+          }
+        },
+        {
+          "map": "Ancient",
+          "players": {
+            "Rebels": [
+              "olimp",
+              "casey",
+              "kisserek",
+              "flayy",
+              "innocent"
+            ],
+            "FAVBET": [
+              "Topa",
+              "Marix",
+              "j3kie",
+              "Smash",
+              "guthriee"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 2375240,
+      "day": "2024-08-28",
+      "startUtc": "2024-08-28T06:17:08Z",
+      "round": 3,
+      "bo": 3,
+      "a": "Endpoint",
+      "b": "Meteor",
+      "w": 11,
+      "l": 6,
+      "played": false,
+      "coreEligible": false,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": null,
+      "coreOverlapB": null,
+      "coreByMap": [],
+      "fiveA": null,
+      "fiveB": null,
+      "administrative": true,
+      "score": null,
+      "awardedWinner": "Meteor",
+      "maps": [],
+      "sourceUrl": "https://www.hltv.org/matches/2375240/endpoint-vs-meteor-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2375241,
+      "day": "2024-08-28",
+      "startUtc": "2024-08-28T09:00:00Z",
+      "round": 3,
+      "bo": 3,
+      "a": "Zero Tenacity",
+      "b": "Rhyno",
+      "w": 0,
+      "l": 14,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": false,
+      "coreOverlapA": 5,
+      "coreOverlapB": 3,
+      "coreByMap": [
+        {
+          "map": "Vertigo",
+          "overlapA": 5,
+          "overlapB": 3
+        },
+        {
+          "map": "Anubis",
+          "overlapA": 5,
+          "overlapB": 3
+        },
+        {
+          "map": "Inferno",
+          "overlapA": 5,
+          "overlapB": 3
+        }
+      ],
+      "fiveA": [
+        "aVN",
+        "brutmonster",
+        "Cjoffo",
+        "nEMANHA",
+        "simke"
+      ],
+      "fiveB": [
+        "Ag1l",
+        "krazy",
+        "NOPEEJ",
+        "P3R3IIRA",
+        "snapy"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        1
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Vertigo",
+          30,
+          34
+        ],
+        [
+          "Anubis",
+          16,
+          12
+        ],
+        [
+          "Inferno",
+          13,
+          10
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2375241/zero-tenacity-vs-rhyno-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2375242,
+      "day": "2024-08-29",
+      "startUtc": "2024-08-29T09:00:00Z",
+      "round": 3,
+      "bo": 3,
+      "a": "Into the Breach",
+      "b": "ALTERNATE aTTaX",
+      "w": 7,
+      "l": 13,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 4,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Anubis",
+          "overlapA": 4,
+          "overlapB": 5
+        },
+        {
+          "map": "Ancient",
+          "overlapA": 4,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "juanflatroo",
+        "Keoz",
+        "REDSTAR",
+        "sinnopsyy",
+        "smooya"
+      ],
+      "fiveB": [
+        "ArroW",
+        "awzek",
+        "FreeZe",
+        "hyped",
+        "PerX"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        0
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Anubis",
+          13,
+          9
+        ],
+        [
+          "Ancient",
+          13,
+          6
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2375242/into-the-breach-vs-alternate-attax-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2375243,
+      "day": "2024-08-29",
+      "startUtc": "2024-08-29T12:00:00Z",
+      "round": 3,
+      "bo": 3,
+      "a": "MOUZ NXT",
+      "b": "TSM",
+      "w": 4,
+      "l": 5,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Inferno",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Dust2",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Ancient",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "Burmylov",
+        "Neityu",
+        "PR",
+        "sirah",
+        "TOBIZ"
+      ],
+      "fiveB": [
+        "acoR",
+        "Altekz",
+        "niko",
+        "valde",
+        "Zyphon"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        1
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Inferno",
+          3,
+          13
+        ],
+        [
+          "Dust2",
+          13,
+          10
+        ],
+        [
+          "Ancient",
+          13,
+          8
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2375243/mouz-nxt-vs-tsm-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2375429,
+      "day": "2024-09-02",
+      "startUtc": "2024-09-02T09:00:00Z",
+      "round": 4,
+      "bo": 3,
+      "a": "TSM",
+      "b": "Into the Breach",
+      "w": 5,
+      "l": 7,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 4,
+      "coreByMap": [
+        {
+          "map": "Inferno",
+          "overlapA": 5,
+          "overlapB": 4
+        },
+        {
+          "map": "Mirage",
+          "overlapA": 5,
+          "overlapB": 4
+        }
+      ],
+      "fiveA": [
+        "acoR",
+        "Altekz",
+        "niko",
+        "valde",
+        "Zyphon"
+      ],
+      "fiveB": [
+        "juanflatroo",
+        "Keoz",
+        "REDSTAR",
+        "sinnopsyy",
+        "smooya"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        0
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Inferno",
+          13,
+          11
+        ],
+        [
+          "Mirage",
+          13,
+          8
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2375429/tsm-vs-into-the-breach-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2375430,
+      "day": "2024-09-02",
+      "startUtc": "2024-09-02T12:00:00Z",
+      "round": 4,
+      "bo": 3,
+      "a": "Metizport",
+      "b": "FAVBET",
+      "w": 1,
+      "l": 8,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Anubis",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Vertigo",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Ancient",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "adamb",
+        "L00m1",
+        "nilo",
+        "Plopski",
+        "Sapec"
+      ],
+      "fiveB": [
+        "bondik",
+        "j3kie",
+        "Marix",
+        "Smash",
+        "t3ns1on"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        1
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Anubis",
+          7,
+          13
+        ],
+        [
+          "Vertigo",
+          13,
+          8
+        ],
+        [
+          "Ancient",
+          13,
+          7
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2375430/metizport-vs-favbet-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2375431,
+      "day": "2024-09-03",
+      "startUtc": "2024-09-03T09:00:00Z",
+      "round": 4,
+      "bo": 3,
+      "a": "Enterprise",
+      "b": "Sampi",
+      "w": 9,
+      "l": 15,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Ancient",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Inferno",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "bajmi",
+        "Demho",
+        "ex1st",
+        "fr3nd",
+        "Sobol"
+      ],
+      "fiveB": [
+        "fino",
+        "manguss",
+        "sAvana1",
+        "The eLiVe",
+        "ZEDKO"
+      ],
+      "administrative": false,
+      "score": [
+        0,
+        2
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Ancient",
+          7,
+          13
+        ],
+        [
+          "Inferno",
+          8,
+          13
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2375431/enterprise-vs-sampi-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2375432,
+      "day": "2024-09-03",
+      "startUtc": "2024-09-03T12:00:00Z",
+      "round": 4,
+      "bo": 3,
+      "a": "Zero Tenacity",
+      "b": "DASH",
+      "w": 0,
+      "l": 10,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Vertigo",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Anubis",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "aVN",
+        "brutmonster",
+        "Cjoffo",
+        "nEMANHA",
+        "simke"
+      ],
+      "fiveB": [
+        "cairne",
+        "Dawy",
+        "Flierax",
+        "nifee",
+        "Psycho"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        0
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Vertigo",
+          13,
+          11
+        ],
+        [
+          "Anubis",
+          13,
+          7
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2375432/zero-tenacity-vs-dash-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2375433,
+      "day": "2024-09-04",
+      "startUtc": "2024-09-04T09:00:00Z",
+      "round": 4,
+      "bo": 3,
+      "a": "ALTERNATE aTTaX",
+      "b": "Meteor",
+      "w": 13,
+      "l": 11,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Inferno",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Anubis",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Dust2",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "ArroW",
+        "awzek",
+        "FreeZe",
+        "hyped",
+        "PerX"
+      ],
+      "fiveB": [
+        "dosikzz",
+        "for2na",
+        "ResoLuxe",
+        "rinn",
+        "WANGJ"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        1
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Inferno",
+          13,
+          4
+        ],
+        [
+          "Anubis",
+          10,
+          13
+        ],
+        [
+          "Dust2",
+          13,
+          11
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2375433/alternate-attax-vs-meteor-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2375434,
+      "day": "2024-09-04",
+      "startUtc": "2024-09-04T12:00:00Z",
+      "round": 4,
+      "bo": 3,
+      "a": "Gaimin Gladiators",
+      "b": "Rhyno",
+      "w": 3,
+      "l": 14,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": true,
+      "coreOverlapA": 5,
+      "coreOverlapB": 3,
+      "coreByMap": [
+        {
+          "map": "Anubis",
+          "overlapA": 5,
+          "overlapB": 3
+        },
+        {
+          "map": "Nuke",
+          "overlapA": 5,
+          "overlapB": 3
+        }
+      ],
+      "fiveA": [
+        "kraghen",
+        "nicoodoz",
+        "Nodios",
+        "Queenix",
+        "roeJ"
+      ],
+      "fiveB": [
+        "Ag1l",
+        "krazy",
+        "NOPEEJ",
+        "P3R3IIRA",
+        "snapy"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        0
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Anubis",
+          13,
+          6
+        ],
+        [
+          "Nuke",
+          13,
+          8
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2375434/gaimin-gladiators-vs-rhyno-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2375435,
+      "day": "2024-09-05",
+      "startUtc": "2024-09-05T09:50:52Z",
+      "round": 5,
+      "bo": 3,
+      "a": "Gaimin Gladiators",
+      "b": "Sampi",
+      "w": 9,
+      "l": 3,
+      "played": false,
+      "coreEligible": false,
+      "officialPairVerified": true,
+      "officialScoreVerified": false,
+      "coreOverlapA": null,
+      "coreOverlapB": null,
+      "coreByMap": [],
+      "fiveA": null,
+      "fiveB": null,
+      "administrative": true,
+      "score": null,
+      "awardedWinner": "Sampi",
+      "maps": [],
+      "sourceUrl": "https://www.hltv.org/matches/2375435/gaimin-gladiators-vs-sampi-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2375436,
+      "day": "2024-09-05",
+      "startUtc": "2024-09-05T12:00:00Z",
+      "round": 5,
+      "bo": 3,
+      "a": "Into the Breach",
+      "b": "DASH",
+      "w": 7,
+      "l": 10,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": false,
+      "coreOverlapA": 4,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Ancient",
+          "overlapA": 4,
+          "overlapB": 5
+        },
+        {
+          "map": "Anubis",
+          "overlapA": 4,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "juanflatroo",
+        "Keoz",
+        "REDSTAR",
+        "sinnopsyy",
+        "smooya"
+      ],
+      "fiveB": [
+        "cairne",
+        "Dawy",
+        "Flierax",
+        "nifee",
+        "Psycho"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        0
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Ancient",
+          16,
+          12
+        ],
+        [
+          "Anubis",
+          13,
+          9
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2375436/into-the-breach-vs-dash-elisa-invitational-fall-2024"
+    },
+    {
+      "id": 2375437,
+      "day": "2024-09-05",
+      "startUtc": "2024-09-05T15:00:00Z",
+      "round": 5,
+      "bo": 3,
+      "a": "ALTERNATE aTTaX",
+      "b": "FAVBET",
+      "w": 13,
+      "l": 8,
+      "played": true,
+      "coreEligible": true,
+      "officialPairVerified": true,
+      "officialScoreVerified": false,
+      "coreOverlapA": 5,
+      "coreOverlapB": 5,
+      "coreByMap": [
+        {
+          "map": "Dust2",
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "map": "Anubis",
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "fiveA": [
+        "ArroW",
+        "awzek",
+        "FreeZe",
+        "hyped",
+        "PerX"
+      ],
+      "fiveB": [
+        "bondik",
+        "j3kie",
+        "Marix",
+        "Smash",
+        "t3ns1on"
+      ],
+      "administrative": false,
+      "score": [
+        2,
+        0
+      ],
+      "awardedWinner": null,
+      "maps": [
+        [
+          "Dust2",
+          13,
+          5
+        ],
+        [
+          "Anubis",
+          13,
+          9
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2375437/alternate-attax-vs-favbet-elisa-invitational-fall-2024"
+    }
+  ],
+  "actual": [
+    1,
+    1,
+    0,
+    3,
+    0,
+    1,
+    2,
+    1,
+    3,
+    1,
+    3,
+    3,
+    2,
+    1,
+    3,
+    3
+  ],
+  "actualBySlot": [
+    1,
+    1,
+    0,
+    3,
+    0,
+    1,
+    2,
+    1,
+    3,
+    1,
+    3,
+    3,
+    2,
+    1,
+    3,
+    3
+  ],
+  "actualByTeamIdentity": [
+    1,
+    1,
+    0,
+    3,
+    0,
+    1,
+    3,
+    1,
+    3,
+    1,
+    3,
+    3,
+    2,
+    1,
+    3,
+    3
+  ],
+  "actualRecords": [
+    "3-1",
+    "3-1",
+    "3-0",
+    "2-3",
+    "3-0",
+    "3-1",
+    "0-3",
+    "3-2",
+    "2-3",
+    "3-2",
+    "2-3",
+    "1-3",
+    "0-3",
+    "3-2",
+    "1-3",
+    "1-3"
+  ],
+  "administrativeMatchIds": [
+    2375240,
+    2375435
+  ],
+  "changes": [
+    {
+      "day": "2024-08-13",
+      "slot": 6,
+      "original": "Sangal",
+      "replacement": "Endpoint",
+      "source": "https://www.hltv.org/matches/2374654/endpoint-vs-rhyno-elisa-invitational-fall-2024"
+    }
+  ],
+  "legalityReplay": [
+    {
+      "round": 1,
+      "matches": 8,
+      "legalDistinctPairs": 8
+    },
+    {
+      "round": 2,
+      "matches": 8,
+      "legalDistinctPairs": 8
+    },
+    {
+      "round": 3,
+      "matches": 8,
+      "legalDistinctPairs": 8
+    },
+    {
+      "round": 4,
+      "matches": 6,
+      "legalDistinctPairs": 6
+    },
+    {
+      "round": 5,
+      "matches": 3,
+      "legalDistinctPairs": 3
+    }
+  ],
+  "source": "https://elisaesports.com/2024/08/09/elisa-invitational-fall-2024-main-swiss-viewers-guide/",
+  "officialAdvancementSource": "https://elisaesports.com/2024/09/06/elisa-invitational-fall-2024-playoff-stage-viewers-guide/",
+  "officialMapScoreDiscrepancies": [
+    {
+      "id": 2375241,
+      "guide": "2-0",
+      "played": "2-1",
+      "winnerAgrees": true
+    }
+  ],
+  "archiveSource": "https://raw.githubusercontent.com/zugzugs/hltvy/1a00ba2893a63646f0d940e626b6da95d342a187/results.json.gz",
+  "archiveSha256": "750b0da45142fc797eddb708698d14d269237e59784d6a1d066eddba0ba31551"
+}

@@ -1,0 +1,30 @@
+{
+  "id":"epl23-stage1","start":"2026-03-01","end":"2026-03-05",
+  "cutoff":"2026-02-28T23:59:59Z","seedingDate":"2026-02-25",
+  "seedingSource":"https://pro.eslgaming.com/tour/2026/02/epl-s23-team-seeding-and-live-ratings/",
+  "vrs":{"date":"2026-02-02","commit":"73c71008fb393980255103b93d6b868fb616f5ce","commitTime":"2026-02-02T18:03:49Z","blob":"824980586860fd7a45701f8993c36b9268e7e235"},
+  "entrants":[
+    ["PARIVISION",1.36,"BELCHONOKK Jame nota xiELO zweih"],
+    ["G2",1.54,"HeavyGod huNter- malbsMd MATYS SunPayus"],
+    ["FUT",2.92,"cmtry dem0n dziugss Krabeni lauNX"],
+    ["Astralis",3.67,"HooXi jabbi phzy ryu Staehr"],
+    ["Liquid",5.21,"EliGE NAF NertZ siuhy ultimate"],
+    ["3DMAX",5.86,"Ex3rcice Graviti Lucky Maka misutaaa"],
+    ["Ninjas in Pyjamas",8.08,"cairne r1nkle sjuush Snappi xKacpersky"],
+    ["HEROIC",8.69,"Chr1zN nilo susp xfl0ud yxngstxr"],
+    ["NRG",9.38,"br0 Grim nitr0 oSee Sonic"],
+    ["Legacy",9.57,"arT dumau latto n1ssim saadzin"],
+    ["paiN",9.83,"biguzera nqz piriajr snow vsm"],
+    ["Passion UA",10.92,"JT Kvem nicx Senzu try"],
+    ["Monte",11.92,"afro AZUWU Bymas Gizmy Rainwaker"],
+    ["M80",12.29,"JBa Lake s1n slaxz- Swisher"],
+    ["Gaimin Gladiators",14.00,"felps HEN1 JOTA Luken NEKIZ"],
+    ["SemperFi",15.00,"ADDICT hazr keen SaVage shadiy"]
+  ],
+  "datedRosterEvidence":{
+    "NRG":["2026-02-28","https://www.hltv.org/news/43971/nrg-sign-grim"],
+    "3DMAX":["2026-02-24","https://www.hltv.org/news/43953/official-3dmax-add-wasink-and-nbk-to-coaching-staff-replace-bodyy-with-misutaaa"],
+    "Passion UA":["2026-02-13","https://www.hltv.org/news/43865/passion-ua-sign-try-and-senzu"],
+    "Legacy":["2026-02-03","https://www.hltv.org/news/43812/official-legacy-sign-art"]
+  }
+}

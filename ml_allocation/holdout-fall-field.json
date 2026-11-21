@@ -1,0 +1,545 @@
+{
+  "id": "elisa-fall-2024",
+  "label": "Elisa Invitational Fall 2024 Main Swiss",
+  "start": "2024-08-12",
+  "end": "2024-09-05",
+  "cutoffExclusive": "2024-08-12",
+  "firstScheduledUtc": "2024-08-12T09:00:00Z",
+  "allBo3": true,
+  "teams": [
+    {
+      "seed": 1,
+      "name": "Zero Tenacity",
+      "origin": "direct",
+      "roster": [
+        "aVN",
+        "brutmonster",
+        "Cjoffo",
+        "nEMANHA",
+        "simke"
+      ],
+      "rosterDay": "2024-08-07",
+      "rosterSource": "https://www.hltv.org/matches/2374409/zero-tenacity-vs-eyeballers-esl-challenger-league-season-48-europe",
+      "rosterBasis": "latest dated prior played five",
+      "rank": 35,
+      "points": 1153,
+      "vrsRoster": [
+        "aVN",
+        "brutmonster",
+        "Cjoffo",
+        "nEMANHA",
+        "simke"
+      ],
+      "ratingTeam": "Zero Tenacity",
+      "vrsOverlap": 5
+    },
+    {
+      "seed": 2,
+      "name": "Metizport",
+      "origin": "direct",
+      "roster": [
+        "adamb",
+        "L00m1",
+        "nilo",
+        "Plopski",
+        "Sapec"
+      ],
+      "rosterDay": "2024-08-07",
+      "rosterSource": "https://www.hltv.org/matches/2374377/johnny-speeds-vs-metizport-pelaajat-nordic-masters-fall-2024-blast-premier-qualifier",
+      "rosterBasis": "latest dated prior played five",
+      "rank": 79,
+      "points": 956,
+      "vrsRoster": [
+        "adamb",
+        "Jackinho",
+        "nilo",
+        "Plopski",
+        "Sapec"
+      ],
+      "ratingTeam": "Metizport",
+      "vrsOverlap": 4
+    },
+    {
+      "seed": 3,
+      "name": "Rebels",
+      "origin": "direct",
+      "roster": [
+        "casey",
+        "flayy",
+        "innocent",
+        "kisserek",
+        "olimp"
+      ],
+      "rosterDay": "2024-08-07",
+      "rosterSource": "https://www.hltv.org/matches/2374405/sangal-vs-rebels-esl-challenger-league-season-48-europe",
+      "rosterBasis": "latest dated prior played five",
+      "rank": 66,
+      "points": 999,
+      "vrsRoster": [
+        "casey",
+        "Flayy",
+        "innocent",
+        "kisserek",
+        "olimp"
+      ],
+      "ratingTeam": "Rebels",
+      "vrsOverlap": 5
+    },
+    {
+      "seed": 4,
+      "name": "Gaimin Gladiators",
+      "origin": "direct",
+      "roster": [
+        "kraghen",
+        "nicoodoz",
+        "Nodios",
+        "Queenix",
+        "roeJ"
+      ],
+      "rosterDay": "2024-08-04",
+      "rosterSource": "https://www.hltv.org/matches/2374187/tyloo-vs-gaimin-gladiators-xse-pro-league-2024",
+      "rosterBasis": "latest dated prior played five",
+      "rank": 86,
+      "points": 933,
+      "vrsRoster": [
+        "kraghen",
+        "nicoodoz",
+        "Nodios",
+        "Queenix",
+        "roeJ"
+      ],
+      "ratingTeam": "Gaimin Gladiators",
+      "vrsOverlap": 5
+    },
+    {
+      "seed": 5,
+      "name": "MOUZ NXT",
+      "origin": "direct",
+      "roster": [
+        "Burmylov",
+        "Neityu",
+        "PR",
+        "sirah",
+        "TOBIZ"
+      ],
+      "rosterDay": "2024-08-09",
+      "rosterSource": "https://www.hltv.org/matches/2374119/mouz-nxt-vs-endpoint-hellcase-cup-10",
+      "rosterBasis": "latest dated prior played five",
+      "rank": 46,
+      "points": 1109,
+      "vrsRoster": [
+        "Burmylov",
+        "Neityu",
+        "PR",
+        "sirah",
+        "TOBIZ"
+      ],
+      "ratingTeam": "MOUZ NXT",
+      "vrsOverlap": 5
+    },
+    {
+      "seed": 6,
+      "name": "TSM",
+      "origin": "direct",
+      "roster": [
+        "acoR",
+        "Altekz",
+        "niko",
+        "valde",
+        "Zyphon"
+      ],
+      "rosterDay": "2024-08-11",
+      "rosterSource": "https://www.hltv.org/matches/2374505/kono-vs-tsm-united21-league-season-18",
+      "rosterBasis": "latest dated prior played five",
+      "rank": 63,
+      "points": 1009,
+      "vrsRoster": [
+        "acoR",
+        "Altekz",
+        "niko",
+        "valde",
+        "Zyphon"
+      ],
+      "ratingTeam": "TSM",
+      "vrsOverlap": 5
+    },
+    {
+      "seed": 7,
+      "name": "Sangal",
+      "origin": "direct",
+      "roster": [
+        "jottAAA",
+        "LNZ",
+        "SaMey",
+        "xfl0ud",
+        "yxngstxr"
+      ],
+      "rosterDay": "2024-08-07",
+      "rosterSource": "https://www.hltv.org/matches/2374405/sangal-vs-rebels-esl-challenger-league-season-48-europe",
+      "rosterBasis": "latest dated prior played five",
+      "rank": 26,
+      "points": 1292,
+      "vrsRoster": [
+        "Chill",
+        "LNZ",
+        "SaMey",
+        "xfl0ud",
+        "yxngstxr"
+      ],
+      "ratingTeam": "Sangal",
+      "vrsOverlap": 4
+    },
+    {
+      "seed": 8,
+      "name": "Into the Breach",
+      "origin": "direct",
+      "roster": [
+        "BOROS",
+        "juanflatroo",
+        "Keoz",
+        "sinnopsyy",
+        "smooya"
+      ],
+      "rosterDay": "2024-08-09",
+      "rosterSource": "https://www.hltv.org/matches/2374456/into-the-breach-vs-astralis-talent-european-pro-league-2nd-division-season-14",
+      "rosterBasis": "latest dated prior played five",
+      "rank": 144,
+      "points": 743,
+      "vrsRoster": [
+        "BOROS",
+        "juanflatroo",
+        "Keoz",
+        "sinnopsyy",
+        "smooya"
+      ],
+      "ratingTeam": "Into the Breach",
+      "vrsOverlap": 5
+    },
+    {
+      "seed": 9,
+      "name": "FAVBET",
+      "origin": "qualified",
+      "roster": [
+        "bondik",
+        "j3kie",
+        "Marix",
+        "Smash",
+        "t3ns1on"
+      ],
+      "rosterDay": "2024-08-08",
+      "rosterSource": "https://www.hltv.org/matches/2374364/favbet-vs-tnl-elisa-invitational-fall-2024-contenders",
+      "rosterBasis": "latest dated prior played five",
+      "rank": 106,
+      "points": 851,
+      "vrsRoster": [
+        "bondik",
+        "j3kie",
+        "Marix",
+        "Smash",
+        "t3ns1on"
+      ],
+      "ratingTeam": "FAVBET",
+      "vrsOverlap": 5
+    },
+    {
+      "seed": 10,
+      "name": "Sampi",
+      "origin": "qualified",
+      "roster": [
+        "fino",
+        "manguss",
+        "sAvana1",
+        "The eLiVe",
+        "ZEDKO"
+      ],
+      "rosterDay": "2024-08-08",
+      "rosterSource": "https://www.hltv.org/matches/2374116/nemiga-vs-sampi-hellcase-cup-10",
+      "rosterBasis": "latest dated prior played five",
+      "rank": 94,
+      "points": 888,
+      "vrsRoster": [
+        "fino",
+        "manguss",
+        "sAvana1",
+        "The eLiVe",
+        "ZEDKO"
+      ],
+      "ratingTeam": "Sampi",
+      "vrsOverlap": 5
+    },
+    {
+      "seed": 11,
+      "name": "DASH",
+      "origin": "qualified",
+      "roster": [
+        "cairne",
+        "Dawy",
+        "Flierax",
+        "nifee",
+        "Psycho"
+      ],
+      "rosterDay": "2024-08-08",
+      "rosterSource": "https://www.hltv.org/matches/2374362/nexus-vs-dash-elisa-invitational-fall-2024-contenders",
+      "rosterBasis": "latest dated prior played five",
+      "rank": null,
+      "points": null,
+      "vrsRoster": null,
+      "ratingTeam": null,
+      "vrsOverlap": null
+    },
+    {
+      "seed": 12,
+      "name": "Meteor",
+      "origin": "qualified",
+      "roster": [
+        "dosikzz",
+        "for2na",
+        "ResoLuxe",
+        "rinn",
+        "WANGJ"
+      ],
+      "rosterDay": "2024-08-08",
+      "rosterSource": "https://www.hltv.org/matches/2374363/infinite-vs-meteor-elisa-invitational-fall-2024-contenders",
+      "rosterBasis": "latest dated prior played five",
+      "rank": null,
+      "points": null,
+      "vrsRoster": null,
+      "ratingTeam": null,
+      "vrsOverlap": null
+    },
+    {
+      "seed": 13,
+      "name": "kONO",
+      "origin": "qualified",
+      "roster": [
+        "amster",
+        "byr9",
+        "kensizor",
+        "Polbandana",
+        "s4ltovsk1yy"
+      ],
+      "rosterDay": "2024-08-11",
+      "rosterSource": "https://www.hltv.org/matches/2374505/kono-vs-tsm-united21-league-season-18",
+      "rosterBasis": "latest dated prior played five",
+      "rank": 101,
+      "points": 863,
+      "vrsRoster": [
+        "amster",
+        "byr9",
+        "kensizor",
+        "Polbandana",
+        "s4ltovsk1yy"
+      ],
+      "ratingTeam": "kONO",
+      "vrsOverlap": 5
+    },
+    {
+      "seed": 14,
+      "name": "ALTERNATE aTTaX",
+      "origin": "qualified",
+      "roster": [
+        "ArroW",
+        "awzek",
+        "FreeZe",
+        "hyped",
+        "PerX"
+      ],
+      "rosterDay": "2024-08-08",
+      "rosterSource": "https://www.hltv.org/matches/2374267/alternate-attax-vs-falcons-iem-cologne-2024-play-in",
+      "rosterBasis": "latest dated prior played five",
+      "rank": 100,
+      "points": 868,
+      "vrsRoster": [
+        "ArroW",
+        "awzek",
+        "FreeZe",
+        "hyped",
+        "PerX"
+      ],
+      "ratingTeam": "ALTERNATE aTTaX",
+      "vrsOverlap": 5
+    },
+    {
+      "seed": 15,
+      "name": "Rhyno",
+      "origin": "qualified",
+      "roster": [
+        "Ag1l",
+        "DDias",
+        "krazy",
+        "snapy",
+        "TMKj"
+      ],
+      "rosterDay": "2024-08-05",
+      "rosterSource": "https://www.hltv.org/matches/2374357/rhyno-vs-meteor-elisa-invitational-fall-2024-contenders",
+      "rosterBasis": "latest dated prior played five",
+      "rank": 67,
+      "points": 989,
+      "vrsRoster": [
+        "Ag1l",
+        "DDias",
+        "krazy",
+        "snapy",
+        "TMKj"
+      ],
+      "ratingTeam": "Rhyno",
+      "vrsOverlap": 5
+    },
+    {
+      "seed": 16,
+      "name": "Enterprise",
+      "origin": "qualified",
+      "roster": [
+        "bajmi",
+        "Demho",
+        "ex1st",
+        "fr3nd",
+        "Sobol"
+      ],
+      "rosterDay": "2024-08-11",
+      "rosterSource": "https://www.hltv.org/matches/2374460/tsm-vs-enterprise-european-pro-league-2nd-division-season-14",
+      "rosterBasis": "latest dated prior played five",
+      "rank": 75,
+      "points": 960,
+      "vrsRoster": [
+        "bajmi",
+        "Demho",
+        "ex1st",
+        "fr3nd",
+        "Sobol"
+      ],
+      "ratingTeam": "Enterprise",
+      "vrsOverlap": 5
+    }
+  ],
+  "entrants": [
+    "Zero Tenacity",
+    "Metizport",
+    "Rebels",
+    "Gaimin Gladiators",
+    "MOUZ NXT",
+    "TSM",
+    "Sangal",
+    "Into the Breach",
+    "FAVBET",
+    "Sampi",
+    "DASH",
+    "Meteor",
+    "kONO",
+    "ALTERNATE aTTaX",
+    "Rhyno",
+    "Enterprise"
+  ],
+  "direct": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "qualified": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "openingPairs": [
+    [
+      0,
+      8
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      2,
+      10
+    ],
+    [
+      3,
+      11
+    ],
+    [
+      4,
+      12
+    ],
+    [
+      5,
+      13
+    ],
+    [
+      6,
+      14
+    ],
+    [
+      7,
+      15
+    ]
+  ],
+  "openingSource": "https://elisaesports.com/2024/08/09/elisa-invitational-fall-2024-main-swiss-viewers-guide/",
+  "openingPairCaveat": "Organizer's continuously updated Aug 9 guide shows Endpoint in R1. The former Sangal vs Rhyno slot is reconstructed from HLTV's explicit R1 replacement note; no copy of the original draw timestamp was verified.",
+  "pool": [
+    "Ancient",
+    "Anubis",
+    "Dust2",
+    "Inferno",
+    "Mirage",
+    "Nuke",
+    "Vertigo"
+  ],
+  "seedStatus": "Indices follow the order of scheduled opening matches within each invitation group. They are not published ordinal strength seeds.",
+  "pairing": "Published first round. Afterward draw against an unplayed opponent with the same record; no official deterministic tie-break priority found.",
+  "pointsAsOf": "2024-08-06",
+  "rankingPublishedAt": "2024-08-06T18:28:19Z",
+  "rankingSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/48127d4873dec5504dd18f14006e67da888fab80/standings_global.md",
+  "rankingSha256": "ac0efe00a0620d3647ffed193977fb52c2e1ea7df6d1894ec2e9b21a402ccd06",
+  "qualifierSeriesIds": [
+    2373507,
+    2373508,
+    2373509,
+    2373510,
+    2373511,
+    2373512,
+    2373513,
+    2373514,
+    2373515,
+    2373516,
+    2373517,
+    2373518,
+    2373519,
+    2373520,
+    2373521,
+    2373522,
+    2374007,
+    2374008,
+    2374009,
+    2374010,
+    2374011,
+    2374012,
+    2374013,
+    2374014,
+    2374356,
+    2374357,
+    2374358,
+    2374359,
+    2374360,
+    2374361,
+    2374362,
+    2374363,
+    2374364
+  ],
+  "sources": [
+    "https://elisaesports.com/2024/08/09/elisa-invitational-fall-2024-main-swiss-viewers-guide/",
+    "https://liquipedia.net/counterstrike/Elisa/Invitational/2024/Fall",
+    "https://www.hltv.org/matches/2374654/endpoint-vs-rhyno-elisa-invitational-fall-2024",
+    "https://www.hltv.org/events/7945/elisa-invitational-fall-2024-contenders"
+  ]
+}

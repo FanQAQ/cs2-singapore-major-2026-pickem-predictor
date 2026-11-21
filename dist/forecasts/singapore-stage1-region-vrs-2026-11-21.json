@@ -1,0 +1,1812 @@
+{
+  "edition": "新加坡 Major 2026 Stage 1",
+  "sealedOn": "2026-11-21",
+  "startsOn": "2026-11-24",
+  "dataAsOf": "2026-11-02",
+  "signedFiveAsOf": "2026-11-10",
+  "strategy": "近期表现＋赛区排名实力",
+  "settings": {
+    "family": "v4",
+    "form": true,
+    "strong": true,
+    "weak": true,
+    "roundMargin": true,
+    "format": true,
+    "shrinkBO": true,
+    "regionVrs": true
+  },
+  "seed": 33719,
+  "locks": [],
+  "simulationCount": 24000,
+  "categoryOrder": [
+    "3-0",
+    "3-1 / 3-2",
+    "0-3",
+    "other"
+  ],
+  "modelPassProbability": 0.25116666666666665,
+  "modelExpectedHits": 3.59,
+  "correction": {
+    "pairEffects": {
+      "bo1": {
+        "potential": 120,
+        "changed": 84,
+        "maxAbsPP": 6.6067552,
+        "meanAbsPPWhenChanged": 4.22566961
+      },
+      "bo3": {
+        "potential": 120,
+        "changed": 84,
+        "maxAbsPP": 6.6067552,
+        "meanAbsPPWhenChanged": 4.22566961
+      }
+    },
+    "selectedTeamSlotsChanged": 4,
+    "identicalProbabilities": false,
+    "baseMatrixSha256": "3fa7f5a0ea02d38e8693ae7e41ab5fde69efcf1c6e2adab01fa16b2131016c69",
+    "matrixSha256": "ea71c1eb92629292825192a210a5b337c86d540d567daca431dc27afa3fcad84"
+  },
+  "regionalModel": {
+    "asOf": "2026-11-02",
+    "officialGlobal": true,
+    "unitPoints": 400,
+    "maxGap": 1.5,
+    "windowDays": 365,
+    "teams": {
+      "Ninjas in Pyjamas": {
+        "roster": [
+          "adamb",
+          "Krimbo",
+          "sjuush",
+          "stavn",
+          "xKacpersky"
+        ],
+        "region": "europe",
+        "depth": 1775,
+        "excludedSelf": false
+      },
+      "PARIVISION": {
+        "roster": [
+          "FL1T",
+          "HObbit",
+          "Jame",
+          "xiELO",
+          "zweih"
+        ],
+        "region": "europe",
+        "depth": 1775,
+        "excludedSelf": false
+      },
+      "HEROIC": {
+        "roster": [
+          "Brollan",
+          "Chr1zN",
+          "MartinezSa",
+          "nilo",
+          "susp"
+        ],
+        "region": "europe",
+        "depth": 1775,
+        "excludedSelf": false
+      },
+      "FaZe": {
+        "roster": [
+          "frozen",
+          "JBOEN",
+          "jcobbb",
+          "Neityu",
+          "Twistzz"
+        ],
+        "region": "europe",
+        "depth": 1775,
+        "excludedSelf": false
+      },
+      "Liquid": {
+        "roster": [
+          "EliGE",
+          "Jorko",
+          "JT",
+          "malbsMd",
+          "NAF"
+        ],
+        "region": "americas",
+        "depth": 1477.5,
+        "excludedSelf": true
+      },
+      "Eternal Fire": {
+        "roster": [
+          "jottAAA",
+          "Kvem",
+          "MisteM",
+          "regali",
+          "soulfly"
+        ],
+        "region": "europe",
+        "depth": 1775,
+        "excludedSelf": false
+      },
+      "100 Thieves": {
+        "roster": [
+          "device",
+          "Gizmy",
+          "poiii",
+          "rain",
+          "sirah"
+        ],
+        "region": "europe",
+        "depth": 1775,
+        "excludedSelf": false
+      },
+      "9z": {
+        "roster": [
+          "dgt",
+          "HUASOPEEK",
+          "luchov",
+          "max",
+          "history"
+        ],
+        "region": "americas",
+        "depth": 1477.5,
+        "excludedSelf": true
+      },
+      "M80": {
+        "roster": [
+          "JBa",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "region": "americas",
+        "depth": 1478,
+        "excludedSelf": true
+      },
+      "DENDELE": {
+        "roster": [
+          "doc",
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao"
+        ],
+        "region": "americas",
+        "depth": 1489.5,
+        "excludedSelf": true
+      },
+      "Imperial": {
+        "roster": [
+          "chelo",
+          "decenty",
+          "noway",
+          "saadzin",
+          "VINI"
+        ],
+        "region": "americas",
+        "depth": 1489.5,
+        "excludedSelf": true
+      },
+      "Wildcard": {
+        "roster": [
+          "Cxzi",
+          "fr3nd",
+          "HexT",
+          "nEMANHA",
+          "reck"
+        ],
+        "region": "americas",
+        "depth": 1489.5,
+        "excludedSelf": true
+      },
+      "GOSH": {
+        "roster": [
+          "asap",
+          "Magisk",
+          "mzinho",
+          "s1mple",
+          "Senzu"
+        ],
+        "region": "asia",
+        "depth": 1216.5,
+        "excludedSelf": true
+      },
+      "FlyQuest": {
+        "roster": [
+          "aliStair",
+          "INS",
+          "jks",
+          "nettik",
+          "Vexite"
+        ],
+        "region": "asia",
+        "depth": 1216.5,
+        "excludedSelf": true
+      },
+      "Chinggis Warriors": {
+        "roster": [
+          "cool4st",
+          "fury5k",
+          "ROUX",
+          "sk0R",
+          "tikuak"
+        ],
+        "region": "asia",
+        "depth": 1216.5,
+        "excludedSelf": true
+      },
+      "Lynn Vision": {
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4KR"
+        ],
+        "region": "asia",
+        "depth": 1216.5,
+        "excludedSelf": true
+      }
+    },
+    "variants": {
+      "solo": {
+        "coefficient": 0.1976568479878524,
+        "fittedCoefficient": 0.1976568479878524,
+        "trialCoefficient": 0.2149305086977837,
+        "fitN": 195,
+        "validation": {
+          "n": 84,
+          "events": 12,
+          "betterEvents": 8,
+          "trainingN": 111,
+          "baseBrier": 0.22889930954382276,
+          "adjustedBrier": 0.22695517860778489,
+          "baseLogLoss": 0.648118700305931,
+          "adjustedLogLoss": 0.6449195483247395,
+          "passed": true,
+          "byRegion": {
+            "americas": {
+              "n": 56,
+              "wins": 19,
+              "baseExpectedWins": 27.463572108041113,
+              "adjustedExpectedWins": 25.415396724750362,
+              "meanGapPoints": -294.9732142857143
+            },
+            "asia": {
+              "n": 34,
+              "wins": 15,
+              "baseExpectedWins": 12.318424171876245,
+              "adjustedExpectedWins": 10.352698045771984,
+              "meanGapPoints": -658.5588235294117
+            },
+            "europe": {
+              "n": 78,
+              "wins": 50,
+              "baseExpectedWins": 44.21800372008264,
+              "adjustedExpectedWins": 48.231905229477654,
+              "meanGapPoints": 498.8397435897436
+            }
+          },
+          "higherDepth": {
+            "n": 84,
+            "wins": 53,
+            "baseExpectedWins": 48.725449007643704,
+            "adjustedExpectedWins": 52.92693543783971,
+            "meanGapPoints": 487.5833333333333
+          },
+          "holdoutStart": "2026-03-12",
+          "trainEvents": 23,
+          "sameDirection": true
+        }
+      },
+      "withLan": {
+        "coefficient": 0,
+        "fittedCoefficient": 0.03881731149964466,
+        "trialCoefficient": 0.06059987378129367,
+        "fitN": 195,
+        "validation": {
+          "n": 84,
+          "events": 12,
+          "betterEvents": 7,
+          "trainingN": 111,
+          "baseBrier": 0.22586795008675273,
+          "adjustedBrier": 0.22587412754208266,
+          "baseLogLoss": 0.6436811527352466,
+          "adjustedLogLoss": 0.6442713147177767,
+          "passed": false,
+          "byRegion": {
+            "americas": {
+              "n": 56,
+              "wins": 19,
+              "baseExpectedWins": 24.715753947985018,
+              "adjustedExpectedWins": 24.14745375939676,
+              "meanGapPoints": -294.9732142857143
+            },
+            "asia": {
+              "n": 34,
+              "wins": 15,
+              "baseExpectedWins": 11.501601295449746,
+              "adjustedExpectedWins": 10.948572526445638,
+              "meanGapPoints": -658.5588235294117
+            },
+            "europe": {
+              "n": 78,
+              "wins": 50,
+              "baseExpectedWins": 47.78264475656524,
+              "adjustedExpectedWins": 48.9039737141576,
+              "meanGapPoints": 498.8397435897436
+            }
+          },
+          "higherDepth": {
+            "n": 84,
+            "wins": 53,
+            "baseExpectedWins": 52.479023025541274,
+            "adjustedExpectedWins": 53.6503427829679,
+            "meanGapPoints": 487.5833333333333
+          },
+          "holdoutStart": "2026-03-12",
+          "trainEvents": 23,
+          "sameDirection": true
+        }
+      }
+    }
+  },
+  "rankingStats": {
+    "asOf": "2026-11-02",
+    "officialGlobal": true,
+    "globalTeams": 376,
+    "sharedTop30": 0,
+    "regions": {
+      "europe": {
+        "teams": 244,
+        "top10MedianPoints": 1775,
+        "medianPoints": 758.5,
+        "top11": [
+          {
+            "rank": 1,
+            "points": 1960,
+            "name": "MOUZ",
+            "roster": [
+              "pr",
+              "spinx",
+              "torzsi",
+              "xelex",
+              "xertion"
+            ],
+            "worldRank": 1
+          },
+          {
+            "rank": 2,
+            "points": 1922,
+            "name": "Vitality",
+            "roster": [
+              "flamez",
+              "jl",
+              "mezii",
+              "ropz",
+              "zywoo"
+            ],
+            "worldRank": 2
+          },
+          {
+            "rank": 3,
+            "points": 1860,
+            "name": "Aurora",
+            "roster": [
+              "jimpphat",
+              "kyxsan",
+              "wicadia",
+              "woxic",
+              "xantares"
+            ],
+            "worldRank": 4
+          },
+          {
+            "rank": 4,
+            "points": 1842,
+            "name": "Spirit",
+            "roster": [
+              "donk",
+              "magixx",
+              "sh1ro",
+              "tn1r",
+              "zont1x"
+            ],
+            "worldRank": 5
+          },
+          {
+            "rank": 5,
+            "points": 1786,
+            "name": "BETBOOM",
+            "roster": [
+              "boombl4",
+              "d1ledez",
+              "magnojez",
+              "s1ren",
+              "zorte"
+            ],
+            "worldRank": 6
+          },
+          {
+            "rank": 6,
+            "points": 1764,
+            "name": "Falcons",
+            "roster": [
+              "karrigan",
+              "kyousuke",
+              "m0nesy",
+              "niko",
+              "teses"
+            ],
+            "worldRank": 7
+          },
+          {
+            "rank": 7,
+            "points": 1721,
+            "name": "FUT",
+            "roster": [
+              "cmtry",
+              "dem0n",
+              "dziugss",
+              "krabeni",
+              "xfl0ud"
+            ],
+            "worldRank": 8
+          },
+          {
+            "rank": 8,
+            "points": 1650,
+            "name": "Nemiga",
+            "roster": [
+              "kair0n-",
+              "khan",
+              "robo",
+              "syph0",
+              "xant3r"
+            ],
+            "worldRank": 10
+          },
+          {
+            "rank": 9,
+            "points": 1616,
+            "name": "G2",
+            "roster": [
+              "heavygod",
+              "hunter-",
+              "matys",
+              "nertz",
+              "r1nkle"
+            ],
+            "worldRank": 11
+          },
+          {
+            "rank": 10,
+            "points": 1598,
+            "name": "1win",
+            "roster": [
+              "artfr0st",
+              "ax1le",
+              "belchonokk",
+              "fame",
+              "nafany"
+            ],
+            "worldRank": 12
+          },
+          {
+            "rank": 11,
+            "points": 1589,
+            "name": "Natus Vincere",
+            "roster": [
+              "aleksib",
+              "b1t",
+              "im",
+              "makazze",
+              "w0nderful"
+            ],
+            "worldRank": 13
+          }
+        ],
+        "top10World": 8,
+        "top30World": 22,
+        "top50World": 36
+      },
+      "americas": {
+        "teams": 87,
+        "top10MedianPoints": 1489.5,
+        "medianPoints": 666,
+        "top11": [
+          {
+            "rank": 1,
+            "points": 1912,
+            "name": "FURIA",
+            "roster": [
+              "fallen",
+              "kscerato",
+              "molodoy",
+              "yekindar",
+              "yuurih"
+            ],
+            "worldRank": 3
+          },
+          {
+            "rank": 2,
+            "points": 1662,
+            "name": "Legacy",
+            "roster": [
+              "art",
+              "dumau",
+              "latto",
+              "n1ssim",
+              "try"
+            ],
+            "worldRank": 9
+          },
+          {
+            "rank": 3,
+            "points": 1546,
+            "name": "MIBR",
+            "roster": [
+              "insani",
+              "lnz",
+              "nqz",
+              "tomaszin",
+              "venomzera"
+            ],
+            "worldRank": 19
+          },
+          {
+            "rank": 4,
+            "points": 1528,
+            "name": "Liquid",
+            "roster": [
+              "elige",
+              "jorko",
+              "jt",
+              "malbsmd",
+              "naf"
+            ],
+            "worldRank": 21
+          },
+          {
+            "rank": 5,
+            "points": 1490,
+            "name": "9z",
+            "roster": [
+              "dgt",
+              "huasopeek",
+              "luchov",
+              "max",
+              "meyern"
+            ],
+            "worldRank": 24
+          },
+          {
+            "rank": 6,
+            "points": 1489,
+            "name": "M80",
+            "roster": [
+              "jba",
+              "lake",
+              "s1n",
+              "slaxz-",
+              "swisher"
+            ],
+            "worldRank": 25
+          },
+          {
+            "rank": 7,
+            "points": 1466,
+            "name": "DENDELE",
+            "roster": [
+              "doc",
+              "gafolo",
+              "koala",
+              "maxxkor",
+              "rdnzao"
+            ],
+            "worldRank": 29
+          },
+          {
+            "rank": 8,
+            "points": 1406,
+            "name": "Imperial",
+            "roster": [
+              "chelo",
+              "decenty",
+              "noway",
+              "saadzin",
+              "vini"
+            ],
+            "worldRank": 35
+          },
+          {
+            "rank": 9,
+            "points": 1391,
+            "name": "Wildcard",
+            "roster": [
+              "cxzi",
+              "fr3nd",
+              "hext",
+              "nemanha",
+              "reck"
+            ],
+            "worldRank": 38
+          },
+          {
+            "rank": 10,
+            "points": 1322,
+            "name": "NRG",
+            "roster": [
+              "grim",
+              "hallzerk",
+              "jeorge",
+              "nitr0",
+              "sonic"
+            ],
+            "worldRank": 47
+          },
+          {
+            "rank": 11,
+            "points": 1312,
+            "name": "BESTIA",
+            "roster": [
+              "buda",
+              "cass1n",
+              "drop",
+              "kauez",
+              "timo"
+            ],
+            "worldRank": 49
+          }
+        ],
+        "top10World": 2,
+        "top30World": 7,
+        "top50World": 11
+      },
+      "asia": {
+        "teams": 45,
+        "top10MedianPoints": 1265.5,
+        "medianPoints": 708,
+        "top11": [
+          {
+            "rank": 1,
+            "points": 1554,
+            "name": "The MongolZ",
+            "roster": [
+              "910",
+              "blitz",
+              "cobrazera",
+              "nin9",
+              "techno"
+            ],
+            "worldRank": 17
+          },
+          {
+            "rank": 2,
+            "points": 1337,
+            "name": "BC.Game",
+            "roster": [
+              "asap",
+              "magisk",
+              "mzinho",
+              "s1mple",
+              "senzu"
+            ],
+            "worldRank": 45
+          },
+          {
+            "rank": 3,
+            "points": 1318,
+            "name": "FlyQuest",
+            "roster": [
+              "alistair",
+              "ins",
+              "jks",
+              "nettik",
+              "vexite"
+            ],
+            "worldRank": 48
+          },
+          {
+            "rank": 4,
+            "points": 1272,
+            "name": "Chinggis Warriors",
+            "roster": [
+              "cool4st",
+              "fury5k",
+              "roux",
+              "sk0r",
+              "tikuak"
+            ],
+            "worldRank": 55
+          },
+          {
+            "rank": 5,
+            "points": 1267,
+            "name": "Lynn Vision",
+            "roster": [
+              "c4llm3su3",
+              "emiliaqaq",
+              "starry",
+              "westmelon",
+              "z4kr"
+            ],
+            "worldRank": 56
+          },
+          {
+            "rank": 6,
+            "points": 1264,
+            "name": "TYLOO",
+            "roster": [
+              "jamyoung",
+              "mercury",
+              "moseyuh",
+              "zero",
+              "zhoking"
+            ],
+            "worldRank": 59
+          },
+          {
+            "rank": 7,
+            "points": 1169,
+            "name": "5star",
+            "roster": [
+              "ariucle",
+              "clouden",
+              "hoolig4n",
+              "neuz",
+              "rate"
+            ],
+            "worldRank": 68
+          },
+          {
+            "rank": 8,
+            "points": 1158,
+            "name": "NEXVOID",
+            "roster": [
+              "accuracytg",
+              "erkast",
+              "miq",
+              "xerolte",
+              "zesta"
+            ],
+            "worldRank": 71
+          },
+          {
+            "rank": 9,
+            "points": 1069,
+            "name": "Alter Ego",
+            "roster": [
+              "adex",
+              "bloody",
+              "laxiee",
+              "pokemon",
+              "shadiy"
+            ],
+            "worldRank": 92
+          },
+          {
+            "rank": 10,
+            "points": 1032,
+            "name": "The Huns",
+            "roster": [
+              "bart4k",
+              "bexyz",
+              "controlez",
+              "cozen",
+              "darkmeister"
+            ],
+            "worldRank": 104
+          },
+          {
+            "rank": 11,
+            "points": 1030,
+            "name": "Sashi",
+            "roster": [
+              "acor",
+              "anlelele",
+              "hatz",
+              "tjp",
+              "zyphon"
+            ],
+            "worldRank": 105
+          }
+        ],
+        "top10World": 0,
+        "top30World": 1,
+        "top50World": 3
+      }
+    },
+    "sources": [
+      {
+        "title": "Valve 2026-11-02 欧洲榜",
+        "url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/standings_europe_2026_11_02.md"
+      },
+      {
+        "title": "Valve 2026-11-02 美洲榜",
+        "url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/standings_americas_2026_11_02.md"
+      },
+      {
+        "title": "Valve 2026-11-02 亚洲榜",
+        "url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/standings_asia_2026_11_02.md"
+      },
+      {
+        "title": "Valve 2026-11-02 全球榜",
+        "url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/standings_global_2026_11_02.md"
+      }
+    ]
+  },
+  "inputHashes": {
+    "teams": "2a56bc9b15dc262aa35b7dc2e726f2cd7e5631b802c8ae3afdd4709815fb4b56",
+    "formatModel": "40f3a1074b0e2f7cca9497c4c346a87ded5c4e726b49710885d22786edde98cc",
+    "formatWeight": "30f429ad24affd9472a8bf2bfe58fd03758717d3f302f6a967687cd6017cf122",
+    "v4Model": "4d5275323c47f7012819d64a4a9b646b1d068328ba7deace6f7e9c226ddbcbad",
+    "vrsRegionStats": "84c994ca7b4391e2ad682ddfc3a9548960c4d32de4dcd77bf5ddf390c08fbfc6",
+    "regionVrsModel": "39e6b3ad9cfa5b66482ea9faeab68ed2ad3eeed6db4be5457cb57f5216abb3c1",
+    "regionRisk": "0da7f08f974b948978d1bfc370244d51a25aa428f33c1ebc6c62dd55dc311d42"
+  },
+  "implementationSha256": {
+    "engine.js": "5dbd7eca291586ecb8272592b1e0f3945de64c99a22066139e687dbe72a9bf73",
+    "format.js": "7d321eae390e6d998a134e1f52013e4bafe52169530e6e2fbcd3f9bf6e122bf4",
+    "style-model.js": "322edebed19bea20b02c7b5355d6e8c593e3035adb44fab0f96dd0d1d188567b",
+    "rolling.js": "17f020d7856a71067e3a1867fd3da9b550055a41319581f1b6b5d2195c2d1a20",
+    "boost.js": "feb94d659a226b77a8e91ca1efd61d7f89fc14d901e3f106f93ef21c69c966f6",
+    "v4.js": "3e94b99b23a276cb7b34391780eb80c7162caab7d06cd599f3fbba8cc8d4f5a6",
+    "map-model.js": "0f7fbe4c30727a75fcb145bb00cdd8f4a40e6efa07fe4545f251bf080abcb999",
+    "close-model.js": "d25947ed42034c21a4ea72677746a54ff2899d02095866f4f7a44b80971c19f7",
+    "region-risk.js": "cbc70cb74b54001503963cf6518fd0e8cdd712af06921834b07e526cb8606bc4",
+    "robust-card.js": "20454053e1ea51f1c63942021f338e930bf484829558ee70f7bd4ea770d2fa48",
+    "adapter.js": "f1eb8a49935b6e186c96b1e544b2e42b56f09272b9f6868cf3c63a0d87e6687b",
+    "region-vrs.js": "0a7607504d4adda37955806286d81f89c6d7e3630026d04529fd1c51e550a4ec"
+  },
+  "teams": [
+    {
+      "name": "Ninjas in Pyjamas",
+      "seed": 1,
+      "points": 1564,
+      "roster": [
+        "adamb",
+        "Krimbo",
+        "sjuush",
+        "stavn",
+        "xKacpersky"
+      ],
+      "region": "europe",
+      "slot": "3-1 / 3-2",
+      "probabilities": [
+        0.23504166666666668,
+        0.4779583333333333,
+        0.04841666666666666,
+        0.23858333333333334
+      ],
+      "baseSlot": "3-1 / 3-2",
+      "p02": 0.121,
+      "pLossGiven02": 0.400137741046832
+    },
+    {
+      "name": "PARIVISION",
+      "seed": 2,
+      "points": 1560,
+      "roster": [
+        "FL1T",
+        "HObbit",
+        "Jame",
+        "xiELO",
+        "zweih"
+      ],
+      "region": "europe",
+      "slot": "3-0",
+      "probabilities": [
+        0.198875,
+        0.45729166666666665,
+        0.05479166666666667,
+        0.28904166666666664
+      ],
+      "baseSlot": "3-1 / 3-2",
+      "p02": 0.14266666666666666,
+      "pLossGiven02": 0.384053738317757
+    },
+    {
+      "name": "HEROIC",
+      "seed": 3,
+      "points": 1548,
+      "roster": [
+        "Brollan",
+        "Chr1zN",
+        "MartinezSa",
+        "nilo",
+        "susp"
+      ],
+      "region": "europe",
+      "slot": "3-1 / 3-2",
+      "probabilities": [
+        0.21920833333333334,
+        0.49070833333333336,
+        0.04829166666666666,
+        0.24179166666666665
+      ],
+      "baseSlot": "3-1 / 3-2",
+      "p02": 0.12925,
+      "pLossGiven02": 0.37362991618310765
+    },
+    {
+      "name": "FaZe",
+      "seed": 4,
+      "points": 1539,
+      "roster": [
+        "frozen",
+        "JBOEN",
+        "jcobbb",
+        "Neityu",
+        "Twistzz"
+      ],
+      "region": "europe",
+      "slot": "3-1 / 3-2",
+      "probabilities": [
+        0.18204166666666666,
+        0.46166666666666667,
+        0.06129166666666667,
+        0.295
+      ],
+      "baseSlot": "3-1 / 3-2",
+      "p02": 0.15020833333333333,
+      "pLossGiven02": 0.40804438280166433
+    },
+    {
+      "name": "Liquid",
+      "seed": 5,
+      "points": 1528,
+      "roster": [
+        "EliGE",
+        "Jorko",
+        "JT",
+        "malbsMd",
+        "NAF"
+      ],
+      "region": "americas",
+      "slot": "3-1 / 3-2",
+      "probabilities": [
+        0.13170833333333334,
+        0.39916666666666667,
+        0.08891666666666667,
+        0.3802083333333333
+      ],
+      "baseSlot": "3-1 / 3-2",
+      "p02": 0.19141666666666668,
+      "pLossGiven02": 0.4645189377448846
+    },
+    {
+      "name": "Eternal Fire",
+      "seed": 6,
+      "points": 1513,
+      "roster": [
+        "jottAAA",
+        "Kvem",
+        "MisteM",
+        "regali",
+        "soulfly"
+      ],
+      "region": "europe",
+      "slot": "3-0",
+      "probabilities": [
+        0.22658333333333333,
+        0.48583333333333334,
+        0.04416666666666667,
+        0.24341666666666667
+      ],
+      "baseSlot": "3-0",
+      "p02": 0.11758333333333333,
+      "pLossGiven02": 0.3756201275690999
+    },
+    {
+      "name": "100 Thieves",
+      "seed": 7,
+      "points": 1511,
+      "roster": [
+        "device",
+        "Gizmy",
+        "poiii",
+        "rain",
+        "sirah"
+      ],
+      "region": "europe",
+      "slot": "3-1 / 3-2",
+      "probabilities": [
+        0.188375,
+        0.46441666666666664,
+        0.05629166666666666,
+        0.29091666666666666
+      ],
+      "baseSlot": "3-0",
+      "p02": 0.13879166666666667,
+      "pLossGiven02": 0.4055839087361153
+    },
+    {
+      "name": "9z",
+      "seed": 8,
+      "points": 1490,
+      "roster": [
+        "dgt",
+        "HUASOPEEK",
+        "luchov",
+        "max",
+        "history"
+      ],
+      "region": "americas",
+      "slot": "other",
+      "probabilities": [
+        0.07975,
+        0.3000833333333333,
+        0.14358333333333334,
+        0.47658333333333336
+      ],
+      "baseSlot": "other",
+      "p02": 0.25633333333333336,
+      "pLossGiven02": 0.5601430429128739
+    },
+    {
+      "name": "M80",
+      "seed": 9,
+      "points": 1489,
+      "roster": [
+        "JBa",
+        "Lake",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ],
+      "region": "americas",
+      "slot": "other",
+      "probabilities": [
+        0.093125,
+        0.384125,
+        0.12383333333333334,
+        0.39891666666666664
+      ],
+      "baseSlot": "other",
+      "p02": 0.2753333333333333,
+      "pLossGiven02": 0.44975786924939465
+    },
+    {
+      "name": "DENDELE",
+      "seed": 10,
+      "points": 1466,
+      "roster": [
+        "doc",
+        "gafolo",
+        "koala",
+        "maxxkor",
+        "rdnzao"
+      ],
+      "region": "americas",
+      "slot": "other",
+      "probabilities": [
+        0.08566666666666667,
+        0.3602916666666667,
+        0.13833333333333334,
+        0.41570833333333335
+      ],
+      "baseSlot": "3-1 / 3-2",
+      "p02": 0.29591666666666666,
+      "pLossGiven02": 0.4674739509997184
+    },
+    {
+      "name": "Imperial",
+      "seed": 11,
+      "points": 1406,
+      "roster": [
+        "chelo",
+        "decenty",
+        "noway",
+        "saadzin",
+        "VINI"
+      ],
+      "region": "americas",
+      "slot": "3-1 / 3-2",
+      "probabilities": [
+        0.09008333333333333,
+        0.38958333333333334,
+        0.13341666666666666,
+        0.3869166666666667
+      ],
+      "baseSlot": "other",
+      "p02": 0.29154166666666664,
+      "pLossGiven02": 0.4576246962984136
+    },
+    {
+      "name": "Wildcard",
+      "seed": 12,
+      "points": 1391,
+      "roster": [
+        "Cxzi",
+        "fr3nd",
+        "HexT",
+        "nEMANHA",
+        "reck"
+      ],
+      "region": "americas",
+      "slot": "other",
+      "probabilities": [
+        0.074125,
+        0.33791666666666664,
+        0.15816666666666668,
+        0.4297916666666667
+      ],
+      "baseSlot": "other",
+      "p02": 0.32204166666666667,
+      "pLossGiven02": 0.4911372751973088
+    },
+    {
+      "name": "GOSH",
+      "seed": 13,
+      "points": 1337,
+      "roster": [
+        "asap",
+        "Magisk",
+        "mzinho",
+        "s1mple",
+        "Senzu"
+      ],
+      "region": "asia",
+      "slot": "other",
+      "probabilities": [
+        0.058416666666666665,
+        0.27620833333333333,
+        0.191625,
+        0.47375
+      ],
+      "baseSlot": "other",
+      "p02": 0.3444583333333333,
+      "pLossGiven02": 0.5563082133784928
+    },
+    {
+      "name": "FlyQuest",
+      "seed": 14,
+      "points": 1318,
+      "roster": [
+        "aliStair",
+        "INS",
+        "jks",
+        "nettik",
+        "Vexite"
+      ],
+      "region": "asia",
+      "slot": "0-3",
+      "probabilities": [
+        0.048375,
+        0.260875,
+        0.22566666666666665,
+        0.46508333333333335
+      ],
+      "baseSlot": "0-3",
+      "p02": 0.409125,
+      "pLossGiven02": 0.5515836643242693
+    },
+    {
+      "name": "Chinggis Warriors",
+      "seed": 15,
+      "points": 1272,
+      "roster": [
+        "cool4st",
+        "fury5k",
+        "ROUX",
+        "sk0R",
+        "tikuak"
+      ],
+      "region": "asia",
+      "slot": "0-3",
+      "probabilities": [
+        0.04020833333333333,
+        0.223875,
+        0.25833333333333336,
+        0.47758333333333336
+      ],
+      "baseSlot": "0-3",
+      "p02": 0.43666666666666665,
+      "pLossGiven02": 0.5916030534351145
+    },
+    {
+      "name": "Lynn Vision",
+      "seed": 16,
+      "points": 1267,
+      "roster": [
+        "C4LLM3SU3",
+        "EmiliaQAQ",
+        "Starry",
+        "Westmelon",
+        "z4KR"
+      ],
+      "region": "asia",
+      "slot": "other",
+      "probabilities": [
+        0.04841666666666666,
+        0.23,
+        0.224875,
+        0.4967083333333333
+      ],
+      "baseSlot": "other",
+      "p02": 0.37766666666666665,
+      "pLossGiven02": 0.595432480141218
+    }
+  ],
+  "seriesMatrices": {
+    "bo1": [
+      [
+        0.5,
+        0.5302628014081862,
+        0.4882616377297034,
+        0.5332418684187409,
+        0.5943520037867683,
+        0.4841386256467289,
+        0.5317476072238003,
+        0.6706047066245726,
+        0.5984375824094547,
+        0.6106134671896535,
+        0.5926842416552776,
+        0.6289603159475481,
+        0.6703793921617403,
+        0.6615304485085016,
+        0.6908201712054782,
+        0.707802400387329
+      ],
+      [
+        0.46973719859181384,
+        0.5,
+        0.45781900926006225,
+        0.5025610596482872,
+        0.5642089813446212,
+        0.4670782165148995,
+        0.5005053382148423,
+        0.6419980196475523,
+        0.5676081898394615,
+        0.5796041409370009,
+        0.5601323328063255,
+        0.5970433576242188,
+        0.63905976954346,
+        0.6425722311104828,
+        0.6719258796326428,
+        0.6771668500762141
+      ],
+      [
+        0.5117383622702967,
+        0.5421809907399378,
+        0.5,
+        0.5446985350976487,
+        0.6052831156129326,
+        0.4928287837075065,
+        0.5426787585854542,
+        0.679832124417834,
+        0.6085775803656367,
+        0.6201651415472366,
+        0.6013705741590736,
+        0.6370316317741517,
+        0.6772528835151934,
+        0.6660352617603477,
+        0.6943863881696777,
+        0.7131258489254819
+      ],
+      [
+        0.4667581315812591,
+        0.49743894035171277,
+        0.45530146490235135,
+        0.5,
+        0.5618127353412847,
+        0.46104658742411364,
+        0.49803690879627666,
+        0.6397016959023799,
+        0.5652821331092157,
+        0.5772814353621984,
+        0.5580672505709037,
+        0.5949973129359819,
+        0.6374180568542024,
+        0.6375752639845902,
+        0.6672203677774204,
+        0.6757074642970394
+      ],
+      [
+        0.40564799621323167,
+        0.43579101865537884,
+        0.3947168843870674,
+        0.43818726465871527,
+        0.5,
+        0.4127363214632831,
+        0.4361373564623417,
+        0.58042298398363,
+        0.503389029132833,
+        0.5169072492816996,
+        0.49713135307150985,
+        0.5348056781823273,
+        0.5774936447858761,
+        0.5902611696587609,
+        0.6212828008613455,
+        0.6179970132945255
+      ],
+      [
+        0.5158613743532712,
+        0.5329217834851006,
+        0.5071712162924935,
+        0.5389534125758864,
+        0.5872636785367169,
+        0.5,
+        0.5428747057333887,
+        0.6607838059046267,
+        0.5945852765270315,
+        0.6245243710405459,
+        0.5896323617940233,
+        0.6291947959941653,
+        0.6796599060796268,
+        0.671839709165844,
+        0.6997437438565486,
+        0.7051228509086033
+      ],
+      [
+        0.4682523927761997,
+        0.49949466178515767,
+        0.4573212414145458,
+        0.5019630912037234,
+        0.5638626435376584,
+        0.4571252942666113,
+        0.5,
+        0.6413925918187227,
+        0.5672473859606015,
+        0.5791165779007774,
+        0.5600419793966543,
+        0.5968246783779835,
+        0.6393851201282478,
+        0.6339286459924004,
+        0.6636688338185774,
+        0.6774440869087363
+      ],
+      [
+        0.3293952933754274,
+        0.3580019803524477,
+        0.320167875582166,
+        0.3602983040976201,
+        0.41957701601637,
+        0.3392161940953733,
+        0.35860740818127734,
+        0.5,
+        0.42310857900096166,
+        0.4364052603260864,
+        0.41772340038228134,
+        0.4548102070763332,
+        0.49873343839561707,
+        0.5144452287593193,
+        0.5471176900012483,
+        0.5411770488598993
+      ],
+      [
+        0.40156241759054534,
+        0.4323918101605385,
+        0.3914224196343633,
+        0.4347178668907843,
+        0.496610970867167,
+        0.4054147234729685,
+        0.43275261403939846,
+        0.5768914209990383,
+        0.5,
+        0.513422593494117,
+        0.49398818268541295,
+        0.5315725450575631,
+        0.5748515820334725,
+        0.5834814337690488,
+        0.6147351737281859,
+        0.6154316631572955
+      ],
+      [
+        0.3893865328103465,
+        0.42039585906299914,
+        0.37983485845276344,
+        0.42271856463780155,
+        0.4830927507183004,
+        0.3754756289594541,
+        0.4208834220992226,
+        0.5635947396739136,
+        0.486577406505883,
+        0.5,
+        0.4809272993289734,
+        0.5185126442020815,
+        0.5638174795025379,
+        0.5534436235554837,
+        0.5854939705406742,
+        0.6048890701152698
+      ],
+      [
+        0.40731575834472245,
+        0.43986766719367454,
+        0.3986294258409264,
+        0.4419327494290963,
+        0.5028686469284902,
+        0.41036763820597666,
+        0.43995802060334566,
+        0.5822765996177186,
+        0.5060118173145871,
+        0.5190727006710266,
+        0.5,
+        0.5372398584471233,
+        0.5824696967252775,
+        0.5884812366856338,
+        0.6194544541334736,
+        0.6223772495017055
+      ],
+      [
+        0.3710396840524519,
+        0.4029566423757812,
+        0.3629683682258483,
+        0.4050026870640181,
+        0.46519432181767273,
+        0.3708052040058347,
+        0.4031753216220165,
+        0.5451897929236669,
+        0.46842745494243687,
+        0.48148735579791846,
+        0.4627601415528767,
+        0.5,
+        0.5461233596299381,
+        0.5484428493336576,
+        0.5804229417125651,
+        0.587221369468092
+      ],
+      [
+        0.32962060783825975,
+        0.36094023045654,
+        0.3227471164848066,
+        0.3625819431457976,
+        0.42250635521412394,
+        0.3203400939203732,
+        0.3606148798717522,
+        0.501266561604383,
+        0.42514841796652747,
+        0.4361825204974621,
+        0.4175303032747225,
+        0.4538766403700619,
+        0.5,
+        0.4911188646169047,
+        0.5231426568213714,
+        0.5408909754226845
+      ],
+      [
+        0.3384695514914984,
+        0.3574277688895172,
+        0.33396473823965234,
+        0.3624247360154098,
+        0.40973883034123915,
+        0.328160290834156,
+        0.3660713540075996,
+        0.4855547712406807,
+        0.4165185662309512,
+        0.4465563764445163,
+        0.4115187633143662,
+        0.4515571506663424,
+        0.5088811353830953,
+        0.5,
+        0.5319485562059885,
+        0.537615833965495
+      ],
+      [
+        0.30917982879452177,
+        0.32807412036735717,
+        0.3056136118303223,
+        0.33277963222257956,
+        0.37871719913865454,
+        0.3002562561434514,
+        0.33633116618142256,
+        0.4528823099987517,
+        0.38526482627181413,
+        0.4145060294593258,
+        0.38054554586652645,
+        0.41957705828743486,
+        0.4768573431786286,
+        0.46805144379401153,
+        0.5,
+        0.5055271698261176
+      ],
+      [
+        0.292197599612671,
+        0.32283314992378587,
+        0.2868741510745181,
+        0.32429253570296057,
+        0.3820029867054745,
+        0.29487714909139673,
+        0.32255591309126375,
+        0.45882295114010074,
+        0.38456833684270453,
+        0.3951109298847302,
+        0.3776227504982945,
+        0.412778630531908,
+        0.4591090245773155,
+        0.46238416603450505,
+        0.49447283017388244,
+        0.5
+      ]
+    ],
+    "bo3": [
+      [
+        0.5,
+        0.5302628014081862,
+        0.4882616377297034,
+        0.5332418684187409,
+        0.5943520037867683,
+        0.4841386256467289,
+        0.5317476072238003,
+        0.6706047066245726,
+        0.5984375824094547,
+        0.6106134671896535,
+        0.5926842416552776,
+        0.6289603159475481,
+        0.6703793921617403,
+        0.6615304485085016,
+        0.6908201712054782,
+        0.707802400387329
+      ],
+      [
+        0.46973719859181384,
+        0.5,
+        0.45781900926006225,
+        0.5025610596482872,
+        0.5642089813446212,
+        0.4670782165148995,
+        0.5005053382148423,
+        0.6419980196475523,
+        0.5676081898394615,
+        0.5796041409370009,
+        0.5601323328063255,
+        0.5970433576242188,
+        0.63905976954346,
+        0.6425722311104828,
+        0.6719258796326428,
+        0.6771668500762141
+      ],
+      [
+        0.5117383622702967,
+        0.5421809907399378,
+        0.5,
+        0.5446985350976487,
+        0.6052831156129326,
+        0.4928287837075065,
+        0.5426787585854542,
+        0.679832124417834,
+        0.6085775803656367,
+        0.6201651415472366,
+        0.6013705741590736,
+        0.6370316317741517,
+        0.6772528835151934,
+        0.6660352617603477,
+        0.6943863881696777,
+        0.7131258489254819
+      ],
+      [
+        0.4667581315812591,
+        0.49743894035171277,
+        0.45530146490235135,
+        0.5,
+        0.5618127353412847,
+        0.46104658742411364,
+        0.49803690879627666,
+        0.6397016959023799,
+        0.5652821331092157,
+        0.5772814353621984,
+        0.5580672505709037,
+        0.5949973129359819,
+        0.6374180568542024,
+        0.6375752639845902,
+        0.6672203677774204,
+        0.6757074642970394
+      ],
+      [
+        0.40564799621323167,
+        0.43579101865537884,
+        0.3947168843870674,
+        0.43818726465871527,
+        0.5,
+        0.4127363214632831,
+        0.4361373564623417,
+        0.58042298398363,
+        0.503389029132833,
+        0.5169072492816996,
+        0.49713135307150985,
+        0.5348056781823273,
+        0.5774936447858761,
+        0.5902611696587609,
+        0.6212828008613455,
+        0.6179970132945255
+      ],
+      [
+        0.5158613743532712,
+        0.5329217834851006,
+        0.5071712162924935,
+        0.5389534125758864,
+        0.5872636785367169,
+        0.5,
+        0.5428747057333887,
+        0.6607838059046267,
+        0.5945852765270315,
+        0.6245243710405459,
+        0.5896323617940233,
+        0.6291947959941653,
+        0.6796599060796268,
+        0.671839709165844,
+        0.6997437438565486,
+        0.7051228509086033
+      ],
+      [
+        0.4682523927761997,
+        0.49949466178515767,
+        0.4573212414145458,
+        0.5019630912037234,
+        0.5638626435376584,
+        0.4571252942666113,
+        0.5,
+        0.6413925918187227,
+        0.5672473859606015,
+        0.5791165779007774,
+        0.5600419793966543,
+        0.5968246783779835,
+        0.6393851201282478,
+        0.6339286459924004,
+        0.6636688338185774,
+        0.6774440869087363
+      ],
+      [
+        0.3293952933754274,
+        0.3580019803524477,
+        0.320167875582166,
+        0.3602983040976201,
+        0.41957701601637,
+        0.3392161940953733,
+        0.35860740818127734,
+        0.5,
+        0.42310857900096166,
+        0.4364052603260864,
+        0.41772340038228134,
+        0.4548102070763332,
+        0.49873343839561707,
+        0.5144452287593193,
+        0.5471176900012483,
+        0.5411770488598993
+      ],
+      [
+        0.40156241759054534,
+        0.4323918101605385,
+        0.3914224196343633,
+        0.4347178668907843,
+        0.496610970867167,
+        0.4054147234729685,
+        0.43275261403939846,
+        0.5768914209990383,
+        0.5,
+        0.513422593494117,
+        0.49398818268541295,
+        0.5315725450575631,
+        0.5748515820334725,
+        0.5834814337690488,
+        0.6147351737281859,
+        0.6154316631572955
+      ],
+      [
+        0.3893865328103465,
+        0.42039585906299914,
+        0.37983485845276344,
+        0.42271856463780155,
+        0.4830927507183004,
+        0.3754756289594541,
+        0.4208834220992226,
+        0.5635947396739136,
+        0.486577406505883,
+        0.5,
+        0.4809272993289734,
+        0.5185126442020815,
+        0.5638174795025379,
+        0.5534436235554837,
+        0.5854939705406742,
+        0.6048890701152698
+      ],
+      [
+        0.40731575834472245,
+        0.43986766719367454,
+        0.3986294258409264,
+        0.4419327494290963,
+        0.5028686469284902,
+        0.41036763820597666,
+        0.43995802060334566,
+        0.5822765996177186,
+        0.5060118173145871,
+        0.5190727006710266,
+        0.5,
+        0.5372398584471233,
+        0.5824696967252775,
+        0.5884812366856338,
+        0.6194544541334736,
+        0.6223772495017055
+      ],
+      [
+        0.3710396840524519,
+        0.4029566423757812,
+        0.3629683682258483,
+        0.4050026870640181,
+        0.46519432181767273,
+        0.3708052040058347,
+        0.4031753216220165,
+        0.5451897929236669,
+        0.46842745494243687,
+        0.48148735579791846,
+        0.4627601415528767,
+        0.5,
+        0.5461233596299381,
+        0.5484428493336576,
+        0.5804229417125651,
+        0.587221369468092
+      ],
+      [
+        0.32962060783825975,
+        0.36094023045654,
+        0.3227471164848066,
+        0.3625819431457976,
+        0.42250635521412394,
+        0.3203400939203732,
+        0.3606148798717522,
+        0.501266561604383,
+        0.42514841796652747,
+        0.4361825204974621,
+        0.4175303032747225,
+        0.4538766403700619,
+        0.5,
+        0.4911188646169047,
+        0.5231426568213714,
+        0.5408909754226845
+      ],
+      [
+        0.3384695514914984,
+        0.3574277688895172,
+        0.33396473823965234,
+        0.3624247360154098,
+        0.40973883034123915,
+        0.328160290834156,
+        0.3660713540075996,
+        0.4855547712406807,
+        0.4165185662309512,
+        0.4465563764445163,
+        0.4115187633143662,
+        0.4515571506663424,
+        0.5088811353830953,
+        0.5,
+        0.5319485562059885,
+        0.537615833965495
+      ],
+      [
+        0.30917982879452177,
+        0.32807412036735717,
+        0.3056136118303223,
+        0.33277963222257956,
+        0.37871719913865454,
+        0.3002562561434514,
+        0.33633116618142256,
+        0.4528823099987517,
+        0.38526482627181413,
+        0.4145060294593258,
+        0.38054554586652645,
+        0.41957705828743486,
+        0.4768573431786286,
+        0.46805144379401153,
+        0.5,
+        0.5055271698261176
+      ],
+      [
+        0.292197599612671,
+        0.32283314992378587,
+        0.2868741510745181,
+        0.32429253570296057,
+        0.3820029867054745,
+        0.29487714909139673,
+        0.32255591309126375,
+        0.45882295114010074,
+        0.38456833684270453,
+        0.3951109298847302,
+        0.3776227504982945,
+        0.412778630531908,
+        0.4591090245773155,
+        0.46238416603450505,
+        0.49447283017388244,
+        0.5
+      ]
+    ]
+  }
+}

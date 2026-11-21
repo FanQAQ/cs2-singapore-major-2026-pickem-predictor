@@ -1,0 +1,45 @@
+'use strict';
+const assert = require('node:assert/strict');
+const {completedMatches,rolling,build} = require('./rolling.cjs');
+const base = completedMatches(require('../major_form/all_stages.json').editions,require('../final_card/report.json').stages);
+const snapshot = JSON.stringify(base);
+const current={id:'still-playing',start:'2026-11-24',end:'2026-12-13',matches:[{id:'1',stage:1,day:'2026-11-24',y:0}]};
+assert.deepEqual(completedMatches([current],[],'2026-11-25'),[]);
+assert.throws(()=>completedMatches([current],[],'2026-11-23'),/outside the known dates/);
+assert.throws(()=>completedMatches([current],[],'2026-12-14'),/Incomplete stage/);
+const fixture = (day, stage, score, title) => {
+  const major = {edition:'fixture-'+day, label:title, start:day, resultsHosts:['example.org']};
+  const card = {id:'recommended', hits:score, sha256:'1'.repeat(64), webFile:'fixture.json'};
+  const entry = {edition:major.edition, editionStart:day, stageStart:day, stage,
+    cards:[{...card,id:'stage3Candidate',hits:10},card], source:score===null?null:{url:'https://example.org/results'}};
+  return {major,entries:[entry]};
+};
+const actual = build(require('node:path').resolve(__dirname,'../forecast_archive/prospective')).windows;
+assert.equal(actual.length,3);
+const old = rolling(base,[]);
+for (const r of old) assert(r.rows.every((x,i)=>i===0 || r.rows[i-1].start > x.start));
+// Fixed historical development cohort only. Live records continue growing independently of this fixture.
+const oldest = base.filter(r => r.editionStart < '2026-11-24');
+assert.deepEqual(rolling(oldest,[]).map(r=>[r.rows.length,r.passes,r.hits,r.attained]),[[5,3,27,true],[5,4,25,true],[3,1,9,false]]);
+const a = fixture('2027-03-01',1,0,'A');
+const b = fixture('2027-06-01',3,5,'B'), c = fixture('2027-12-01',3,5,'C');
+const pending = fixture('2028-03-01',3,null,'D');
+const alsoInHistory = {label:'B',editionStart:b.major.start,stage:3,start:b.major.start,provenance:'unscored',hits:null};
+const windows = rolling([...oldest,alsoInHistory],[c,pending,a,b]);
+assert.deepEqual(windows.map(r=>[r.windowSize,r.requiredPasses]),[[5,3],[5,3],[3,2]]);
+assert.deepEqual(windows.map(r=>[r.rows.length,r.scored,r.passes,r.hits,r.attained]),[[5,5,2,22,false],[5,5,4,25,true],[3,3,2,12,true]]);
+assert.equal(windows[0].rows[0].hits,0);
+assert.equal(windows[2].rows[1].provenance,'sealed');
+assert.deepEqual(windows[2].pending.map(r=>r.label),['D']);
+assert.equal(rolling(oldest,[b])[2].attained,false,'The new pass replaces Austin, which also passed');
+assert.equal(rolling([],[b,c])[2].attained,false,'Two passes still need a third scored edition');
+const noCard = {...alsoInHistory,label:'E',editionStart:'2029-01-01',start:'2029-01-01'};
+const missing = rolling([...oldest,noCard],[b,c])[2];
+assert.equal(missing.scored,2);assert.equal(missing.attained,false);
+assert.equal(missing.rows[0].hits,null);assert.equal(missing.rows[0].provenance,'unscored');
+assert.throws(()=>rolling(oldest,[b,b]),/Duplicate/);
+assert.throws(()=>rolling([...oldest,oldest[0]],[]));
+const invalid=structuredClone(a);invalid.entries[0].source.url='https://example.org.other.test/';
+assert.throws(()=>rolling(oldest,[invalid]));
+assert.equal(JSON.stringify(base),snapshot);
+console.log('Five/five/three edition windows: rollover, signed zero, duplicate, missing and pending evidence verified.');

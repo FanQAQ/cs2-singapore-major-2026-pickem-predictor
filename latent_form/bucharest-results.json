@@ -1,0 +1,1583 @@
+{
+  "id": "bucharest-2025-april",
+  "rounds": [
+    [
+      [
+        0,
+        13
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    [
+      [
+        8,
+        12
+      ],
+      [
+        9,
+        7
+      ],
+      [
+        14,
+        11
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    [
+      [
+        9,
+        10
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        14,
+        5
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        13,
+        11
+      ]
+    ],
+    [
+      [
+        2,
+        10
+      ],
+      [
+        9,
+        14
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        13,
+        5
+      ]
+    ],
+    [
+      [
+        14,
+        2
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        7,
+        13
+      ]
+    ]
+  ],
+  "matches": [
+    {
+      "id": 2381251,
+      "day": "2025-04-06",
+      "round": 1,
+      "w": 0,
+      "l": 13,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 13,
+      "b": 0,
+      "rosterA": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "rosterB": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "maps": [
+        [
+          "Ancient",
+          13,
+          11
+        ],
+        [
+          "Inferno",
+          10,
+          13
+        ],
+        [
+          "Anubis",
+          10,
+          13
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381251/the-mongolz-vs-3dmax-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381252,
+      "day": "2025-04-06",
+      "round": 1,
+      "w": 12,
+      "l": 14,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 14,
+      "b": 12,
+      "rosterA": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "rosterB": [
+        "ChildKing",
+        "kaze",
+        "L1haNg",
+        "somebody",
+        "Summer"
+      ],
+      "maps": [
+        [
+          "Mirage",
+          3,
+          13
+        ],
+        [
+          "Ancient",
+          7,
+          13
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381252/virtuspro-vs-rare-atom-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381254,
+      "day": "2025-04-06",
+      "round": 1,
+      "w": 8,
+      "l": 9,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 8,
+      "b": 9,
+      "rosterA": [
+        "HeavyGod",
+        "huNter-",
+        "m0NESY",
+        "malbsMd",
+        "Snax"
+      ],
+      "rosterB": [
+        "PR",
+        "REZ",
+        "sl3nd",
+        "Tauson",
+        "ztr"
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          8
+        ],
+        [
+          "Inferno",
+          16,
+          12
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381254/g2-vs-gamerlegion-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381253,
+      "day": "2025-04-06",
+      "round": 1,
+      "w": 4,
+      "l": 7,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 7,
+      "b": 4,
+      "rosterA": [
+        "degster",
+        "kyxsan",
+        "Magisk",
+        "NiKo",
+        "TeSeS"
+      ],
+      "rosterB": [
+        "Cxzi",
+        "Grim",
+        "hallzerk",
+        "JT",
+        "nicx"
+      ],
+      "maps": [
+        [
+          "Train",
+          6,
+          13
+        ],
+        [
+          "Dust2",
+          5,
+          13
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381253/falcons-vs-complexity-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381255,
+      "day": "2025-04-06",
+      "round": 1,
+      "w": 3,
+      "l": 15,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 3,
+      "b": 15,
+      "rosterA": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "rosterB": [
+        "biguzera",
+        "dav1deuS",
+        "deemO",
+        "nqz",
+        "snow"
+      ],
+      "maps": [
+        [
+          "Nuke",
+          13,
+          8
+        ],
+        [
+          "Inferno",
+          14,
+          16
+        ],
+        [
+          "Dust2",
+          19,
+          17
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381255/aurora-vs-pain-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381256,
+      "day": "2025-04-06",
+      "round": 1,
+      "w": 10,
+      "l": 11,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 11,
+      "b": 10,
+      "rosterA": [
+        "NAF",
+        "NertZ",
+        "siuhy",
+        "Twistzz",
+        "ultimate"
+      ],
+      "rosterB": [
+        "dumau",
+        "latto",
+        "lux",
+        "n1ssim",
+        "saadzin"
+      ],
+      "maps": [
+        [
+          "Nuke",
+          4,
+          13
+        ],
+        [
+          "Anubis",
+          10,
+          13
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381256/liquid-vs-legacy-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381257,
+      "day": "2025-04-06",
+      "round": 1,
+      "w": 2,
+      "l": 6,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 6,
+      "b": 2,
+      "rosterA": [
+        "broky",
+        "EliGE",
+        "frozen",
+        "karrigan",
+        "rain"
+      ],
+      "rosterB": [
+        "cadiaN",
+        "device",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "maps": [
+        [
+          "Ancient",
+          4,
+          13
+        ],
+        [
+          "Dust2",
+          16,
+          13
+        ],
+        [
+          "Train",
+          8,
+          13
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381257/faze-vs-astralis-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381258,
+      "day": "2025-04-06",
+      "round": 1,
+      "w": 5,
+      "l": 1,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 5,
+      "b": 1,
+      "rosterA": [
+        "chelo",
+        "FalleN",
+        "KSCERATO",
+        "skullz",
+        "yuurih"
+      ],
+      "rosterB": [
+        "Demho",
+        "hfah",
+        "hypex",
+        "jcobbb",
+        "Prism"
+      ],
+      "maps": [
+        [
+          "Dust2",
+          13,
+          6
+        ],
+        [
+          "Mirage",
+          13,
+          7
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381258/furia-vs-betclic-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381300,
+      "day": "2025-04-07",
+      "round": 2,
+      "w": 8,
+      "l": 12,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 8,
+      "b": 12,
+      "rosterA": [
+        "HeavyGod",
+        "huNter-",
+        "m0NESY",
+        "malbsMd",
+        "Snax"
+      ],
+      "rosterB": [
+        "ChildKing",
+        "kaze",
+        "L1haNg",
+        "somebody",
+        "Summer"
+      ],
+      "maps": [
+        [
+          "Dust2",
+          13,
+          5
+        ],
+        [
+          "Ancient",
+          13,
+          7
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381300/g2-vs-rare-atom-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381301,
+      "day": "2025-04-07",
+      "round": 2,
+      "w": 9,
+      "l": 7,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 7,
+      "b": 9,
+      "rosterA": [
+        "degster",
+        "kyxsan",
+        "Magisk",
+        "NiKo",
+        "TeSeS"
+      ],
+      "rosterB": [
+        "PR",
+        "REZ",
+        "sl3nd",
+        "Tauson",
+        "ztr"
+      ],
+      "maps": [
+        [
+          "Inferno",
+          2,
+          13
+        ],
+        [
+          "Mirage",
+          1,
+          13
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381301/falcons-vs-gamerlegion-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381303,
+      "day": "2025-04-07",
+      "round": 2,
+      "w": 14,
+      "l": 11,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 11,
+      "b": 14,
+      "rosterA": [
+        "NAF",
+        "NertZ",
+        "siuhy",
+        "Twistzz",
+        "ultimate"
+      ],
+      "rosterB": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "maps": [
+        [
+          "Mirage",
+          14,
+          16
+        ],
+        [
+          "Dust2",
+          3,
+          13
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381303/liquid-vs-virtuspro-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381302,
+      "day": "2025-04-07",
+      "round": 2,
+      "w": 3,
+      "l": 10,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 3,
+      "b": 10,
+      "rosterA": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "rosterB": [
+        "dumau",
+        "latto",
+        "lux",
+        "n1ssim",
+        "saadzin"
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          10
+        ],
+        [
+          "Anubis",
+          13,
+          7
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381302/aurora-vs-legacy-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381304,
+      "day": "2025-04-07",
+      "round": 2,
+      "w": 0,
+      "l": 2,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 0,
+      "b": 2,
+      "rosterA": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "rosterB": [
+        "cadiaN",
+        "device",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "maps": [
+        [
+          "Dust2",
+          13,
+          7
+        ],
+        [
+          "Ancient",
+          7,
+          13
+        ],
+        [
+          "Inferno",
+          13,
+          7
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381304/3dmax-vs-astralis-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381305,
+      "day": "2025-04-07",
+      "round": 2,
+      "w": 1,
+      "l": 13,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 13,
+      "b": 1,
+      "rosterA": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "rosterB": [
+        "Demho",
+        "hfah",
+        "hypex",
+        "jcobbb",
+        "Prism"
+      ],
+      "maps": [
+        [
+          "Ancient",
+          8,
+          13
+        ],
+        [
+          "Nuke",
+          11,
+          13
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381305/the-mongolz-vs-betclic-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381307,
+      "day": "2025-04-07",
+      "round": 2,
+      "w": 6,
+      "l": 15,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 6,
+      "b": 15,
+      "rosterA": [
+        "broky",
+        "EliGE",
+        "frozen",
+        "karrigan",
+        "rain"
+      ],
+      "rosterB": [
+        "biguzera",
+        "dav1deuS",
+        "deemO",
+        "nqz",
+        "snow"
+      ],
+      "maps": [
+        [
+          "Dust2",
+          13,
+          7
+        ],
+        [
+          "Inferno",
+          13,
+          11
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381307/faze-vs-pain-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381306,
+      "day": "2025-04-07",
+      "round": 2,
+      "w": 4,
+      "l": 5,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 5,
+      "b": 4,
+      "rosterA": [
+        "chelo",
+        "FalleN",
+        "KSCERATO",
+        "skullz",
+        "yuurih"
+      ],
+      "rosterB": [
+        "Cxzi",
+        "Grim",
+        "hallzerk",
+        "JT",
+        "nicx"
+      ],
+      "maps": [
+        [
+          "Dust2",
+          13,
+          8
+        ],
+        [
+          "Train",
+          1,
+          13
+        ],
+        [
+          "Inferno",
+          4,
+          13
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381306/furia-vs-complexity-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381309,
+      "day": "2025-04-08",
+      "round": 3,
+      "w": 9,
+      "l": 10,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 9,
+      "b": 10,
+      "rosterA": [
+        "PR",
+        "REZ",
+        "sl3nd",
+        "Tauson",
+        "ztr"
+      ],
+      "rosterB": [
+        "dumau",
+        "latto",
+        "lux",
+        "n1ssim",
+        "saadzin"
+      ],
+      "maps": [
+        [
+          "Anubis",
+          13,
+          11
+        ],
+        [
+          "Inferno",
+          13,
+          16
+        ],
+        [
+          "Ancient",
+          13,
+          7
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381309/gamerlegion-vs-legacy-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381308,
+      "day": "2025-04-08",
+      "round": 3,
+      "w": 1,
+      "l": 2,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 2,
+      "b": 1,
+      "rosterA": [
+        "cadiaN",
+        "device",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "rosterB": [
+        "Demho",
+        "hfah",
+        "hypex",
+        "jcobbb",
+        "Prism"
+      ],
+      "maps": [
+        [
+          "Mirage",
+          8,
+          13
+        ],
+        [
+          "Ancient",
+          9,
+          13
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381308/astralis-vs-betclic-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381310,
+      "day": "2025-04-08",
+      "round": 3,
+      "w": 14,
+      "l": 5,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 5,
+      "b": 14,
+      "rosterA": [
+        "chelo",
+        "FalleN",
+        "KSCERATO",
+        "skullz",
+        "yuurih"
+      ],
+      "rosterB": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "maps": [
+        [
+          "Anubis",
+          11,
+          13
+        ],
+        [
+          "Dust2",
+          8,
+          13
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381310/furia-vs-virtuspro-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381311,
+      "day": "2025-04-08",
+      "round": 3,
+      "w": 6,
+      "l": 12,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 12,
+      "b": 6,
+      "rosterA": [
+        "ChildKing",
+        "kaze",
+        "L1haNg",
+        "somebody",
+        "Summer"
+      ],
+      "rosterB": [
+        "broky",
+        "EliGE",
+        "frozen",
+        "karrigan",
+        "rain"
+      ],
+      "maps": [
+        [
+          "Ancient",
+          10,
+          13
+        ],
+        [
+          "Dust2",
+          3,
+          13
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381311/rare-atom-vs-faze-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381312,
+      "day": "2025-04-08",
+      "round": 3,
+      "w": 8,
+      "l": 4,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 8,
+      "b": 4,
+      "rosterA": [
+        "HeavyGod",
+        "huNter-",
+        "m0NESY",
+        "malbsMd",
+        "Snax"
+      ],
+      "rosterB": [
+        "Cxzi",
+        "Grim",
+        "hallzerk",
+        "JT",
+        "nicx"
+      ],
+      "maps": [
+        [
+          "Dust2",
+          16,
+          12
+        ],
+        [
+          "Anubis",
+          10,
+          13
+        ],
+        [
+          "Ancient",
+          13,
+          10
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381312/g2-vs-complexity-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381313,
+      "day": "2025-04-08",
+      "round": 3,
+      "w": 7,
+      "l": 15,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 7,
+      "b": 15,
+      "rosterA": [
+        "degster",
+        "kyxsan",
+        "Magisk",
+        "NiKo",
+        "TeSeS"
+      ],
+      "rosterB": [
+        "biguzera",
+        "dav1deuS",
+        "deemO",
+        "nqz",
+        "snow"
+      ],
+      "maps": [
+        [
+          "Nuke",
+          6,
+          13
+        ],
+        [
+          "Train",
+          13,
+          8
+        ],
+        [
+          "Inferno",
+          13,
+          9
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381313/falcons-vs-pain-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381314,
+      "day": "2025-04-08",
+      "round": 3,
+      "w": 0,
+      "l": 3,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 3,
+      "b": 0,
+      "rosterA": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "rosterB": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "maps": [
+        [
+          "Inferno",
+          9,
+          13
+        ],
+        [
+          "Anubis",
+          13,
+          5
+        ],
+        [
+          "Dust2",
+          14,
+          16
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381314/aurora-vs-3dmax-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381315,
+      "day": "2025-04-08",
+      "round": 3,
+      "w": 13,
+      "l": 11,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 13,
+      "b": 11,
+      "rosterA": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "rosterB": [
+        "NAF",
+        "NertZ",
+        "siuhy",
+        "Twistzz",
+        "ultimate"
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          11
+        ],
+        [
+          "Anubis",
+          13,
+          7
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381315/the-mongolz-vs-liquid-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381317,
+      "day": "2025-04-09",
+      "round": 4,
+      "w": 2,
+      "l": 10,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 2,
+      "b": 10,
+      "rosterA": [
+        "cadiaN",
+        "device",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "rosterB": [
+        "dumau",
+        "latto",
+        "lux",
+        "n1ssim",
+        "saadzin"
+      ],
+      "maps": [
+        [
+          "Dust2",
+          7,
+          13
+        ],
+        [
+          "Ancient",
+          13,
+          7
+        ],
+        [
+          "Nuke",
+          19,
+          16
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381317/astralis-vs-legacy-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381316,
+      "day": "2025-04-09",
+      "round": 4,
+      "w": 9,
+      "l": 14,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 9,
+      "b": 14,
+      "rosterA": [
+        "PR",
+        "REZ",
+        "sl3nd",
+        "Tauson",
+        "ztr"
+      ],
+      "rosterB": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "maps": [
+        [
+          "Ancient",
+          13,
+          7
+        ],
+        [
+          "Mirage",
+          13,
+          8
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381316/gamerlegion-vs-virtuspro-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381318,
+      "day": "2025-04-09",
+      "round": 4,
+      "w": 4,
+      "l": 6,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 4,
+      "b": 6,
+      "rosterA": [
+        "Cxzi",
+        "Grim",
+        "hallzerk",
+        "JT",
+        "nicx"
+      ],
+      "rosterB": [
+        "broky",
+        "EliGE",
+        "frozen",
+        "karrigan",
+        "rain"
+      ],
+      "maps": [
+        [
+          "Dust2",
+          13,
+          7
+        ],
+        [
+          "Anubis",
+          13,
+          10
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381318/complexity-vs-faze-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381319,
+      "day": "2025-04-09",
+      "round": 4,
+      "w": 7,
+      "l": 12,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 12,
+      "b": 7,
+      "rosterA": [
+        "ChildKing",
+        "kaze",
+        "L1haNg",
+        "somebody",
+        "Summer"
+      ],
+      "rosterB": [
+        "degster",
+        "kyxsan",
+        "Magisk",
+        "NiKo",
+        "TeSeS"
+      ],
+      "maps": [
+        [
+          "Inferno",
+          6,
+          13
+        ],
+        [
+          "Train",
+          2,
+          13
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381319/rare-atom-vs-falcons-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381320,
+      "day": "2025-04-09",
+      "round": 4,
+      "w": 3,
+      "l": 1,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 3,
+      "b": 1,
+      "rosterA": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "rosterB": [
+        "Demho",
+        "hfah",
+        "hypex",
+        "jcobbb",
+        "Prism"
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          6
+        ],
+        [
+          "Anubis",
+          16,
+          12
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381320/aurora-vs-betclic-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381321,
+      "day": "2025-04-09",
+      "round": 4,
+      "w": 13,
+      "l": 5,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 5,
+      "b": 13,
+      "rosterA": [
+        "chelo",
+        "FalleN",
+        "KSCERATO",
+        "skullz",
+        "yuurih"
+      ],
+      "rosterB": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "maps": [
+        [
+          "Mirage",
+          9,
+          13
+        ],
+        [
+          "Nuke",
+          11,
+          13
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381321/furia-vs-the-mongolz-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381322,
+      "day": "2025-04-10",
+      "round": 5,
+      "w": 14,
+      "l": 2,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 2,
+      "b": 14,
+      "rosterA": [
+        "cadiaN",
+        "device",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "rosterB": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "maps": [
+        [
+          "Dust2",
+          10,
+          13
+        ],
+        [
+          "Train",
+          6,
+          13
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381322/astralis-vs-virtuspro-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381323,
+      "day": "2025-04-10",
+      "round": 5,
+      "w": 6,
+      "l": 1,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 1,
+      "b": 6,
+      "rosterA": [
+        "Demho",
+        "hfah",
+        "hypex",
+        "jcobbb",
+        "Prism"
+      ],
+      "rosterB": [
+        "broky",
+        "EliGE",
+        "frozen",
+        "karrigan",
+        "rain"
+      ],
+      "maps": [
+        [
+          "Dust2",
+          5,
+          13
+        ],
+        [
+          "Ancient",
+          8,
+          13
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381323/betclic-vs-faze-pgl-bucharest-2025"
+    },
+    {
+      "id": 2381324,
+      "day": "2025-04-10",
+      "round": 5,
+      "w": 7,
+      "l": 13,
+      "bo": 3,
+      "overlap": [
+        5,
+        5
+      ],
+      "a": 7,
+      "b": 13,
+      "rosterA": [
+        "degster",
+        "kyxsan",
+        "Magisk",
+        "NiKo",
+        "TeSeS"
+      ],
+      "rosterB": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "maps": [
+        [
+          "Mirage",
+          9,
+          13
+        ],
+        [
+          "Dust2",
+          13,
+          6
+        ],
+        [
+          "Ancient",
+          16,
+          14
+        ]
+      ],
+      "url": "https://www.hltv.org/matches/2381324/falcons-vs-the-mongolz-pgl-bucharest-2025"
+    }
+  ],
+  "actual": [
+    0,
+    3,
+    3,
+    1,
+    1,
+    3,
+    1,
+    1,
+    0,
+    1,
+    3,
+    2,
+    3,
+    3,
+    1,
+    2
+  ],
+  "matchedByRound": [
+    8,
+    8,
+    8,
+    6,
+    3
+  ],
+  "archiveSha256": "750b0da45142fc797eddb708698d14d269237e59784d6a1d066eddba0ba31551"
+}

@@ -1,0 +1,892 @@
+{
+  "id": "masters-bucharest-2025",
+  "label": "PGL Masters Bucharest 2025 Swiss",
+  "start": "2025-10-26",
+  "end": "2025-10-30",
+  "cutoffExclusive": "2025-10-26",
+  "allBo3": true,
+  "entrants": [
+    "Aurora",
+    "3DMAX",
+    "Astralis",
+    "HEROIC",
+    "GamerLegion",
+    "paiN",
+    "Legacy",
+    "BetBoom",
+    "fnatic",
+    "SAW",
+    "B8",
+    "Ninjas in Pyjamas",
+    "FlyQuest",
+    "Gentle Mates",
+    "Liquid",
+    "MIBR"
+  ],
+  "teams": [
+    {
+      "name": "Aurora",
+      "roster": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "points": 1801,
+      "rank": 8,
+      "overlap": 5,
+      "vrsRoster": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "ratingTeam": "Aurora",
+      "seedRank": 6,
+      "seedRoster": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "seedOverlap": 5,
+      "seedRatingTeam": "Aurora",
+      "rosterWitness": {
+        "id": 2386808,
+        "day": "2025-10-19",
+        "roster": [
+          "jottAAA",
+          "MAJ3R",
+          "Wicadia",
+          "woxic",
+          "XANTARES"
+        ],
+        "event": "Thunderpick World Championship 2025",
+        "url": "https://www.hltv.org/matches/2386808/aurora-vs-the-mongolz-thunderpick-world-championship-2025"
+      },
+      "changes": [],
+      "seed": 1
+    },
+    {
+      "name": "3DMAX",
+      "roster": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "points": 1639,
+      "rank": 11,
+      "overlap": 5,
+      "vrsRoster": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "ratingTeam": "3DMAX",
+      "seedRank": 8,
+      "seedRoster": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "seedOverlap": 5,
+      "seedRatingTeam": "3DMAX",
+      "rosterWitness": {
+        "id": 2386848,
+        "day": "2025-10-19",
+        "roster": [
+          "bodyy",
+          "Ex3rcice",
+          "Graviti",
+          "Lucky",
+          "Maka"
+        ],
+        "event": "CS Asia Championships 2025",
+        "url": "https://www.hltv.org/matches/2386848/3dmax-vs-legacy-cs-asia-championships-2025"
+      },
+      "changes": [],
+      "seed": 2
+    },
+    {
+      "name": "Astralis",
+      "roster": [
+        "device",
+        "HooXi",
+        "jabbi",
+        "Magisk",
+        "Staehr"
+      ],
+      "points": 1664,
+      "rank": 10,
+      "overlap": 5,
+      "vrsRoster": [
+        "device",
+        "HooXi",
+        "jabbi",
+        "Magisk",
+        "Staehr"
+      ],
+      "ratingTeam": "Astralis",
+      "seedRank": 11,
+      "seedRoster": [
+        "device",
+        "HooXi",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "seedOverlap": 4,
+      "seedRatingTeam": "Astralis",
+      "rosterWitness": {
+        "id": 2385951,
+        "day": "2025-10-06",
+        "roster": [
+          "device",
+          "HooXi",
+          "jabbi",
+          "Magisk",
+          "Staehr"
+        ],
+        "event": "ESL Pro League Season 22",
+        "url": "https://www.hltv.org/matches/2385951/astralis-vs-faze-esl-pro-league-season-22"
+      },
+      "changes": [],
+      "seed": 3
+    },
+    {
+      "name": "HEROIC",
+      "roster": [
+        "Alkaren",
+        "LNZ",
+        "nilo",
+        "xfl0ud",
+        "yxngstxr"
+      ],
+      "points": 1381,
+      "rank": 31,
+      "overlap": 5,
+      "vrsRoster": [
+        "Alkaren",
+        "LNZ",
+        "nilo",
+        "xfl0ud",
+        "yxngstxr"
+      ],
+      "ratingTeam": "HEROIC",
+      "seedRank": 14,
+      "seedRoster": [
+        "gr1ks",
+        "LNZ",
+        "nilo",
+        "tN1R",
+        "yxngstxr"
+      ],
+      "seedOverlap": 3,
+      "seedRatingTeam": "HEROIC",
+      "rosterWitness": {
+        "id": 2386847,
+        "day": "2025-10-19",
+        "roster": [
+          "hades",
+          "LNZ",
+          "nilo",
+          "xfl0ud",
+          "yxngstxr"
+        ],
+        "event": "CS Asia Championships 2025",
+        "url": "https://www.hltv.org/matches/2386847/liquid-vs-heroic-cs-asia-championships-2025"
+      },
+      "changes": [
+        {
+          "day": "2025-10-09",
+          "previousEvent": "CS Asia Championships 2025",
+          "outgoing": "hades",
+          "incoming": "Alkaren",
+          "source": "https://www.hltv.org/news/42898/heroic-add-hades-as-sub-for-cac-2025"
+        }
+      ],
+      "seed": 4
+    },
+    {
+      "name": "GamerLegion",
+      "roster": [
+        "hypex",
+        "PR",
+        "REZ",
+        "Tauson",
+        "ztr"
+      ],
+      "points": 1570,
+      "rank": 15,
+      "overlap": 4,
+      "vrsRoster": [
+        "Kursy",
+        "PR",
+        "REZ",
+        "Tauson",
+        "ztr"
+      ],
+      "ratingTeam": "GamerLegion",
+      "seedRank": 16,
+      "seedRoster": [
+        "Kursy",
+        "PR",
+        "REZ",
+        "Tauson",
+        "ztr"
+      ],
+      "seedOverlap": 4,
+      "seedRatingTeam": "GamerLegion",
+      "rosterWitness": {
+        "id": 2386828,
+        "day": "2025-10-14",
+        "roster": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Tauson",
+          "ztr"
+        ],
+        "event": "CS Asia Championships 2025",
+        "url": "https://www.hltv.org/matches/2386828/gamerlegion-vs-lynn-vision-cs-asia-championships-2025"
+      },
+      "changes": [],
+      "seed": 5
+    },
+    {
+      "name": "paiN",
+      "roster": [
+        "biguzera",
+        "dav1deuS",
+        "dgt",
+        "nqz",
+        "snow"
+      ],
+      "points": 1553,
+      "rank": 16,
+      "overlap": 5,
+      "vrsRoster": [
+        "biguzera",
+        "dav1deuS",
+        "dgt",
+        "nqz",
+        "snow"
+      ],
+      "ratingTeam": "paiN",
+      "seedRank": 17,
+      "seedRoster": [
+        "biguzera",
+        "dav1deuS",
+        "dgt",
+        "nqz",
+        "snow"
+      ],
+      "seedOverlap": 5,
+      "seedRatingTeam": "paiN",
+      "rosterWitness": {
+        "id": 2386839,
+        "day": "2025-10-16",
+        "roster": [
+          "biguzera",
+          "dav1deuS",
+          "dgt",
+          "nqz",
+          "snow"
+        ],
+        "event": "CS Asia Championships 2025",
+        "url": "https://www.hltv.org/matches/2386839/pain-vs-fut-cs-asia-championships-2025"
+      },
+      "changes": [],
+      "seed": 6
+    },
+    {
+      "name": "Legacy",
+      "roster": [
+        "dumau",
+        "latto",
+        "lux",
+        "n1ssim",
+        "saadzin"
+      ],
+      "points": 1394,
+      "rank": 29,
+      "overlap": 5,
+      "vrsRoster": [
+        "dumau",
+        "latto",
+        "lux",
+        "n1ssim",
+        "saadzin"
+      ],
+      "ratingTeam": "Legacy",
+      "seedRank": 19,
+      "seedRoster": [
+        "dumau",
+        "latto",
+        "lux",
+        "n1ssim",
+        "saadzin"
+      ],
+      "seedOverlap": 5,
+      "seedRatingTeam": "Legacy",
+      "rosterWitness": {
+        "id": 2386848,
+        "day": "2025-10-19",
+        "roster": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ],
+        "event": "CS Asia Championships 2025",
+        "url": "https://www.hltv.org/matches/2386848/3dmax-vs-legacy-cs-asia-championships-2025"
+      },
+      "changes": [],
+      "seed": 7
+    },
+    {
+      "name": "BetBoom",
+      "roster": [
+        "ArtFr0st",
+        "Boombl4",
+        "d1Ledez",
+        "Magnojez",
+        "S1ren"
+      ],
+      "points": 1383,
+      "rank": 30,
+      "overlap": 5,
+      "vrsRoster": [
+        "ArtFr0st",
+        "Boombl4",
+        "d1Ledez",
+        "Magnojez",
+        "S1ren"
+      ],
+      "ratingTeam": "BetBoom",
+      "seedRank": 20,
+      "seedRoster": [
+        "ArtFr0st",
+        "Boombl4",
+        "d1Ledez",
+        "Magnojez",
+        "S1ren"
+      ],
+      "seedOverlap": 5,
+      "seedRatingTeam": "BetBoom",
+      "rosterWitness": {
+        "id": 2386434,
+        "day": "2025-10-13",
+        "roster": [
+          "ArtFr0st",
+          "Boombl4",
+          "d1Ledez",
+          "Magnojez",
+          "S1ren"
+        ],
+        "event": "Exort The Proving Grounds Season 5",
+        "url": "https://www.hltv.org/matches/2386434/betboom-vs-sinners-exort-the-proving-grounds-season-5"
+      },
+      "changes": [],
+      "seed": 8
+    },
+    {
+      "name": "fnatic",
+      "roster": [
+        "blameF",
+        "fEAR",
+        "jackasmo",
+        "jambo",
+        "KRIMZ"
+      ],
+      "points": 1451,
+      "rank": 21,
+      "overlap": 4,
+      "vrsRoster": [
+        "blameF",
+        "CYPHER",
+        "fear",
+        "jambo",
+        "KRIMZ"
+      ],
+      "ratingTeam": "fnatic",
+      "seedRank": 21,
+      "seedRoster": [
+        "blameF",
+        "CYPHER",
+        "fear",
+        "jambo",
+        "KRIMZ"
+      ],
+      "seedOverlap": 4,
+      "seedRatingTeam": "fnatic",
+      "rosterWitness": {
+        "id": 2386843,
+        "day": "2025-10-17",
+        "roster": [
+          "blameF",
+          "fEAR",
+          "jackasmo",
+          "jambo",
+          "KRIMZ"
+        ],
+        "event": "CS Asia Championships 2025",
+        "url": "https://www.hltv.org/matches/2386843/fnatic-vs-3dmax-cs-asia-championships-2025"
+      },
+      "changes": [],
+      "seed": 9
+    },
+    {
+      "name": "SAW",
+      "roster": [
+        "Ag1l",
+        "aragornN",
+        "krazy",
+        "MUTiRiS",
+        "story"
+      ],
+      "points": 1403,
+      "rank": 27,
+      "overlap": 5,
+      "vrsRoster": [
+        "Ag1l",
+        "aragornN",
+        "krazy",
+        "MUTiRiS",
+        "story"
+      ],
+      "ratingTeam": "SAW",
+      "seedRank": 22,
+      "seedRoster": [
+        "Ag1l",
+        "aragornN",
+        "krazy",
+        "MUTiRiS",
+        "story"
+      ],
+      "seedOverlap": 5,
+      "seedRatingTeam": "SAW",
+      "rosterWitness": {
+        "id": 2386663,
+        "day": "2025-10-04",
+        "roster": [
+          "Ag1l",
+          "aragornN",
+          "krazy",
+          "MUTiRiS",
+          "story"
+        ],
+        "event": "Fragadelphia Blocktober 2025",
+        "url": "https://www.hltv.org/matches/2386663/saw-vs-9ine-fragadelphia-blocktober-2025"
+      },
+      "changes": [],
+      "seed": 10
+    },
+    {
+      "name": "B8",
+      "roster": [
+        "alex666",
+        "esenthial",
+        "headtr1ck",
+        "kensizor",
+        "npl"
+      ],
+      "points": 1466,
+      "rank": 19,
+      "overlap": 5,
+      "vrsRoster": [
+        "alex666",
+        "esenthial",
+        "headtr1ck",
+        "kensizor",
+        "npl"
+      ],
+      "ratingTeam": "B8",
+      "seedRank": 23,
+      "seedRoster": [
+        "alex666",
+        "esenthial",
+        "headtr1ck",
+        "kensizor",
+        "npl"
+      ],
+      "seedOverlap": 5,
+      "seedRatingTeam": "B8",
+      "rosterWitness": {
+        "id": 2386836,
+        "day": "2025-10-15",
+        "roster": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kRaSnaL",
+          "npl"
+        ],
+        "event": "CS Asia Championships 2025",
+        "url": "https://www.hltv.org/matches/2386836/faze-vs-b8-cs-asia-championships-2025"
+      },
+      "changes": [
+        {
+          "day": "2025-10-12",
+          "previousEvent": "CS Asia Championships 2025",
+          "outgoing": "kRaSnaL",
+          "incoming": "kensizor",
+          "source": "https://www.hltv.org/news/42925/krasnal-to-stand-in-for-b8-at-cac-2025"
+        }
+      ],
+      "seed": 11
+    },
+    {
+      "name": "Ninjas in Pyjamas",
+      "roster": [
+        "ewjerkz",
+        "r1nkle",
+        "sjuush",
+        "Snappi",
+        "xKacpersky"
+      ],
+      "points": 1474,
+      "rank": 18,
+      "overlap": 5,
+      "vrsRoster": [
+        "ewjerkz",
+        "r1nkle",
+        "sjuush",
+        "Snappi",
+        "xKacpersky"
+      ],
+      "ratingTeam": "Ninjas in Pyjamas",
+      "seedRank": 24,
+      "seedRoster": [
+        "ewjerkz",
+        "r1nkle",
+        "sjuush",
+        "Snappi",
+        "xKacpersky"
+      ],
+      "seedOverlap": 5,
+      "seedRatingTeam": "Ninjas in Pyjamas",
+      "rosterWitness": {
+        "id": 2385407,
+        "day": "2025-09-21",
+        "roster": [
+          "ewjerkz",
+          "r1nkle",
+          "sjuush",
+          "Snappi",
+          "xKacpersky"
+        ],
+        "event": "StarLadder StarSeries Fall 2025",
+        "url": "https://www.hltv.org/matches/2385407/natus-vincere-vs-ninjas-in-pyjamas-starladder-starseries-fall-2025"
+      },
+      "changes": [
+        {
+          "day": "2025-09-30",
+          "outgoing": "Snappi",
+          "incoming": "susp",
+          "source": "https://www.hltv.org/news/42749/susp-to-stand-in-for-snappi-at-pgl-masters-bucharest"
+        },
+        {
+          "day": "2025-10-22",
+          "outgoing": "susp",
+          "incoming": "Snappi",
+          "source": "https://x.com/NIPCS/status/1981027866759348664",
+          "corroboration": "https://www.hltv.org/news/43003/snappi-to-play-for-nip-at-pgl-masters-bucharest"
+        }
+      ],
+      "seed": 12
+    },
+    {
+      "name": "FlyQuest",
+      "roster": [
+        "INS",
+        "jks",
+        "nettik",
+        "regali",
+        "Vexite"
+      ],
+      "points": 1231,
+      "rank": 41,
+      "overlap": 5,
+      "vrsRoster": [
+        "INS",
+        "jks",
+        "nettik",
+        "regali",
+        "Vexite"
+      ],
+      "ratingTeam": "FlyQuest",
+      "seedRank": 25,
+      "seedRoster": [
+        "INS",
+        "jks",
+        "nettik",
+        "regali",
+        "Vexite"
+      ],
+      "seedOverlap": 5,
+      "seedRatingTeam": "FlyQuest",
+      "rosterWitness": {
+        "id": 2386029,
+        "day": "2025-09-26",
+        "roster": [
+          "INS",
+          "jks",
+          "nettik",
+          "regali",
+          "Vexite"
+        ],
+        "event": "Digital Crusade DraculaN Season 2",
+        "url": "https://www.hltv.org/matches/2386029/genone-vs-flyquest-digital-crusade-draculan-season-2"
+      },
+      "changes": [],
+      "seed": 13
+    },
+    {
+      "name": "Gentle Mates",
+      "roster": [
+        "alex",
+        "dav1g",
+        "MartinezSa",
+        "mopoz",
+        "sausol"
+      ],
+      "points": 1428,
+      "rank": 23,
+      "overlap": 5,
+      "vrsRoster": [
+        "alex",
+        "dav1g",
+        "MartinezSa",
+        "mopoz",
+        "sausol"
+      ],
+      "ratingTeam": "Gentle Mates",
+      "seedRank": 26,
+      "seedRoster": [
+        "alex",
+        "dav1g",
+        "MartinezSa",
+        "mopoz",
+        "sausol"
+      ],
+      "seedOverlap": 5,
+      "seedRatingTeam": "Gentle Mates",
+      "rosterWitness": {
+        "id": 2386213,
+        "day": "2025-10-11",
+        "roster": [
+          "alex",
+          "dav1g",
+          "MartinezSa",
+          "mopoz",
+          "sausol"
+        ],
+        "event": "Galaxy Battle 2025 Phase 4",
+        "url": "https://www.hltv.org/matches/2386213/parivision-vs-gentle-mates-galaxy-battle-2025-phase-4"
+      },
+      "changes": [],
+      "seed": 14
+    },
+    {
+      "name": "Liquid",
+      "roster": [
+        "EliGE",
+        "NAF",
+        "NertZ",
+        "siuhy",
+        "ultimate"
+      ],
+      "points": 1637,
+      "rank": 12,
+      "overlap": 5,
+      "vrsRoster": [
+        "EliGE",
+        "NAF",
+        "NertZ",
+        "siuhy",
+        "ultimate"
+      ],
+      "ratingTeam": "Liquid",
+      "seedRank": 27,
+      "seedRoster": [
+        "NAF",
+        "NertZ",
+        "siuhy",
+        "Twistzz",
+        "ultimate"
+      ],
+      "seedOverlap": 4,
+      "seedRatingTeam": "Liquid",
+      "rosterWitness": {
+        "id": 2386847,
+        "day": "2025-10-19",
+        "roster": [
+          "EliGE",
+          "NAF",
+          "NertZ",
+          "siuhy",
+          "ultimate"
+        ],
+        "event": "CS Asia Championships 2025",
+        "url": "https://www.hltv.org/matches/2386847/liquid-vs-heroic-cs-asia-championships-2025"
+      },
+      "changes": [],
+      "seed": 15
+    },
+    {
+      "name": "MIBR",
+      "roster": [
+        "brn$",
+        "brnz4n",
+        "exit",
+        "insani",
+        "Qikert"
+      ],
+      "points": 1495,
+      "rank": 17,
+      "overlap": 4,
+      "vrsRoster": [
+        "brnz4n",
+        "exit",
+        "insani",
+        "kl1m",
+        "Qikert"
+      ],
+      "ratingTeam": "MIBR",
+      "seedRank": 28,
+      "seedRoster": [
+        "brnz4n",
+        "exit",
+        "insani",
+        "nicks",
+        "saffee"
+      ],
+      "seedOverlap": 3,
+      "seedRatingTeam": "MIBR",
+      "rosterWitness": {
+        "id": 2386831,
+        "day": "2025-10-15",
+        "roster": [
+          "brnz4n",
+          "exit",
+          "insani",
+          "kl1m",
+          "Qikert"
+        ],
+        "event": "CS Asia Championships 2025",
+        "url": "https://www.hltv.org/matches/2386831/virtuspro-vs-mibr-cs-asia-championships-2025"
+      },
+      "changes": [
+        {
+          "day": "2025-10-22",
+          "outgoing": "kl1m",
+          "incoming": "brn$",
+          "source": "https://www.dust2.com.br/noticias/66899/mibr-tera-desfalque-na-pgl-masters-bucharest",
+          "corroboration": "https://www.hltv.org/news/43002/media-kl1m-to-miss-pgl-masters-bucharest"
+        }
+      ],
+      "seed": 16
+    }
+  ],
+  "pool": [
+    "Ancient",
+    "Dust2",
+    "Inferno",
+    "Mirage",
+    "Nuke",
+    "Overpass",
+    "Train"
+  ],
+  "seedOrder": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "openingPairs": [
+    [
+      "Legacy",
+      "Liquid"
+    ],
+    [
+      "paiN",
+      "Gentle Mates"
+    ],
+    [
+      "GamerLegion",
+      "FlyQuest"
+    ],
+    [
+      "HEROIC",
+      "Ninjas in Pyjamas"
+    ],
+    [
+      "3DMAX",
+      "SAW"
+    ],
+    [
+      "BetBoom",
+      "MIBR"
+    ],
+    [
+      "Aurora",
+      "fnatic"
+    ],
+    [
+      "Astralis",
+      "B8"
+    ]
+  ],
+  "openingSource": "https://x.com/pglesports/status/1980198805703385416",
+  "drawPublishedAt": "2025-10-20T09:06:00.251Z",
+  "invitedSource": "https://x.com/pglesports/status/1972613198953230465",
+  "formatSource": "https://www.hltv.org/news/43009/pgl-masters-bucharest-teams-format-schedule-talent-prizes-fantasy",
+  "rankSnapshot": {
+    "asOf": "2025-10-06",
+    "publishedAt": "2025-10-06T16:35:02Z",
+    "sha256": "8a593f9cc908dae045fc76764c728ee85c9a2d8bc413cbe78e01f71cb6ed93c9",
+    "url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/9fd3c0e8b86dbceed3a211cd2a2a34185b99a990/invitation/2025/standings_global_2025_10_06.md"
+  },
+  "seedSnapshot": {
+    "asOf": "2025-09-01",
+    "publishedAt": "2025-09-01T16:58:36Z",
+    "sha256": "bc1aa019cff1ef128e863a026785382461cf762630604ef40dfb065af5a6e846",
+    "url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/ec65cbf461daa5977d57f80561437961326cfc51/invitation/2025/standings_global_2025_09_01.md"
+  },
+  "groupStructure": "single_field",
+  "invitedViaVrs": 16,
+  "openQualifierTeams": 0,
+  "coachNews": [
+    {
+      "team": "Ninjas in Pyjamas",
+      "day": "2025-10-24",
+      "absent": "Xizt",
+      "source": "https://www.hltv.org/news/43013/xizt-to-miss-pgl-masters-bucharest"
+    }
+  ],
+  "archiveSource": "https://raw.githubusercontent.com/zugzugs/hltvy/1a00ba2893a63646f0d940e626b6da95d342a187/results.json.gz",
+  "archiveSha256": "750b0da45142fc797eddb708698d14d269237e59784d6a1d066eddba0ba31551"
+}

@@ -1,0 +1,1502 @@
+{
+  "copenhagen": {
+    "asOf": "2024-03-04",
+    "firstMatch": "2023-12-06",
+    "lastMatch": "2024-03-04",
+    "series": 359,
+    "distinctTriples": 1028,
+    "nuisanceVrsSlope": 0.196678467,
+    "teams": {
+      "Cloud9": {
+        "roster": [
+          "Ax1Le",
+          "Boombl4",
+          "electronic",
+          "HObbit",
+          "Perfecto"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 18
+        },
+        "residual": 0.045125122
+      },
+      "Eternal Fire": {
+        "roster": [
+          "Calyx",
+          "MAJ3R",
+          "Wicadia",
+          "woxic",
+          "XANTARES"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 10
+        },
+        "residual": 0.097037287
+      },
+      "ENCE": {
+        "roster": [
+          "dycha",
+          "gla1ve",
+          "Goofy",
+          "hades",
+          "Kylar"
+        ],
+        "matchesByOverlap": {
+          "3": 4,
+          "4": 0,
+          "5": 11
+        },
+        "residual": 0.425157908
+      },
+      "Apeks": {
+        "roster": [
+          "CacaNito",
+          "jkaem",
+          "nawwk",
+          "sense",
+          "STYKO"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 7,
+          "5": 11
+        },
+        "residual": 0.099566909
+      },
+      "HEROIC": {
+        "roster": [
+          "kyxsan",
+          "Nertz",
+          "nicoodoz",
+          "sjuush",
+          "TeSeS"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "residual": 0.0
+      },
+      "GamerLegion": {
+        "roster": [
+          "acoR",
+          "isak",
+          "Keoz",
+          "Snax",
+          "volt"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 2,
+          "5": 13
+        },
+        "residual": 0.187230583
+      },
+      "SAW": {
+        "roster": [
+          "arrozdoce",
+          "ewjerkz",
+          "MUTiRiS",
+          "rmn",
+          "story"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 7
+        },
+        "residual": -0.079987599
+      },
+      "FURIA": {
+        "roster": [
+          "arT",
+          "chelo",
+          "FalleN",
+          "KSCERATO",
+          "yuurih"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 9
+        },
+        "residual": -0.128746621
+      },
+      "ECSTATIC": {
+        "roster": [
+          "kraghen",
+          "Nodios",
+          "Patti",
+          "Queenix",
+          "salazar"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 17
+        },
+        "residual": 0.150033098
+      },
+      "The MongolZ": {
+        "roster": [
+          "910",
+          "bLitz",
+          "mzinho",
+          "senzu",
+          "Techno"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 11
+        },
+        "residual": 0.19702845
+      },
+      "Imperial": {
+        "roster": [
+          "Decenty",
+          "felps",
+          "HEN1",
+          "noway",
+          "VINI"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 7
+        },
+        "residual": -0.035806262
+      },
+      "paiN": {
+        "roster": [
+          "biguzera",
+          "kauez",
+          "lux",
+          "n1ssim",
+          "nqz"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 9
+        },
+        "residual": 0.194414107
+      },
+      "Lynn Vision": {
+        "roster": [
+          "EmiliaQAQ",
+          "Jee",
+          "Starry",
+          "Westmelon",
+          "z4kr"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 4
+        },
+        "residual": 0.145034031
+      },
+      "AMKAL": {
+        "roster": [
+          "Forester",
+          "ICY",
+          "Krad",
+          "NickelBack",
+          "TRAVIS"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 6
+        },
+        "residual": -0.11753237
+      },
+      "KOI": {
+        "roster": [
+          "adamS",
+          "dav1g",
+          "JUST",
+          "mopoz",
+          "stadodo"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 10
+        },
+        "residual": 0.159228842
+      },
+      "Legacy": {
+        "roster": [
+          "b4rtiN",
+          "coldzera",
+          "dumau",
+          "latto",
+          "NEKIZ"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 7
+        },
+        "residual": 0.177532377
+      }
+    }
+  },
+  "shanghai": {
+    "asOf": "2024-11-06",
+    "firstMatch": "2024-08-09",
+    "lastMatch": "2024-11-06",
+    "series": 656,
+    "distinctTriples": 1190,
+    "nuisanceVrsSlope": 0.158825859,
+    "teams": {
+      "FURIA": {
+        "roster": [
+          "chelo",
+          "FalleN",
+          "KSCERATO",
+          "skullz",
+          "yuurih"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 20
+        },
+        "residual": 0.11681769
+      },
+      "Virtus.pro": {
+        "roster": [
+          "electronic",
+          "fame",
+          "FL1T",
+          "Jame",
+          "n0rb3r7"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 21
+        },
+        "residual": -0.11771108
+      },
+      "Liquid": {
+        "roster": [
+          "jks",
+          "NAF",
+          "Twistzz",
+          "ultimate",
+          "YEKINDAR"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 19
+        },
+        "residual": -0.168889896
+      },
+      "Complexity": {
+        "roster": [
+          "EliGE",
+          "floppy",
+          "Grim",
+          "Hallzerk",
+          "JT"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 16
+        },
+        "residual": -0.027839555
+      },
+      "BIG": {
+        "roster": [
+          "JDC",
+          "Krimbo",
+          "rigoN",
+          "syrsoN",
+          "tabseN"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 20
+        },
+        "residual": 0.016242919
+      },
+      "fnatic": {
+        "roster": [
+          "blameF",
+          "bodyy",
+          "KRIMZ",
+          "MATYS",
+          "nawwk"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 8,
+          "5": 9
+        },
+        "residual": -0.07357645
+      },
+      "The MongolZ": {
+        "roster": [
+          "910",
+          "bLitz",
+          "mzinho",
+          "senzu",
+          "Techno"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 22
+        },
+        "residual": 0.210672219
+      },
+      "paiN": {
+        "roster": [
+          "biguzera",
+          "kauez",
+          "lux",
+          "nqz",
+          "Snowzin"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 23
+        },
+        "residual": 0.068885173
+      },
+      "GamerLegion": {
+        "roster": [
+          "FL4MUS",
+          "sl3nd",
+          "Tauson",
+          "volt",
+          "ztr"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 23,
+          "5": 6
+        },
+        "residual": 0.294079645
+      },
+      "MIBR": {
+        "roster": [
+          "drop",
+          "exit",
+          "insani",
+          "Lucaozy",
+          "saffee"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 8,
+          "5": 2
+        },
+        "residual": -0.158919079
+      },
+      "Cloud9": {
+        "roster": [
+          "Ax1Le",
+          "Boombl4",
+          "HeavyGod",
+          "ICY",
+          "interz"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 6
+        },
+        "residual": -0.128357065
+      },
+      "FlyQuest": {
+        "roster": [
+          "aliStair",
+          "dexter",
+          "INS",
+          "Liazz",
+          "Vexite"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 8
+        },
+        "residual": 0.264305014
+      },
+      "Passion UA": {
+        "roster": [
+          "fear",
+          "jackasmo",
+          "Jambo",
+          "s-chilla",
+          "zeRRoFIX"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 24
+        },
+        "residual": 0.07397634
+      },
+      "Wildcard": {
+        "roster": [
+          "JBa",
+          "phzy",
+          "Sonic",
+          "stanislaw",
+          "susp"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 14
+        },
+        "residual": 0.058762937
+      },
+      "Rare Atom": {
+        "roster": [
+          "AhaNg",
+          "ChildKing",
+          "Kaze",
+          "somebody",
+          "Summer"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 3
+        },
+        "residual": -0.011372768
+      },
+      "Imperial": {
+        "roster": [
+          "Decenty",
+          "felps",
+          "noway",
+          "try",
+          "VINI"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 11
+        },
+        "residual": -0.027081635
+      }
+    }
+  },
+  "austin": {
+    "asOf": "2025-06-02",
+    "firstMatch": "2025-03-05",
+    "lastMatch": "2025-06-01",
+    "series": 1157,
+    "distinctTriples": 1397,
+    "nuisanceVrsSlope": 0.200048794,
+    "teams": {
+      "Complexity": {
+        "roster": [
+          "Cxzi",
+          "Grim",
+          "junior",
+          "JT",
+          "nicx"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 21,
+          "5": 0
+        },
+        "residual": 0.174943709
+      },
+      "HEROIC": {
+        "roster": [
+          "LNZ",
+          "SunPayus",
+          "tN1R",
+          "xfl0ud",
+          "yxngstxr"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 21
+        },
+        "residual": 0.538440622
+      },
+      "B8": {
+        "roster": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 28
+        },
+        "residual": 0.33196829
+      },
+      "BetBoom": {
+        "roster": [
+          "Ax1Le",
+          "Boombl4",
+          "Magnojez",
+          "S1ren",
+          "zorte"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 37
+        },
+        "residual": 0.187948031
+      },
+      "TYLOO": {
+        "roster": [
+          "Attacker",
+          "JamYoung",
+          "Jee",
+          "Mercury",
+          "Moseyuh"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 1,
+          "5": 24
+        },
+        "residual": 0.434633753
+      },
+      "Lynn Vision": {
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4kr"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 18
+        },
+        "residual": 0.153636537
+      },
+      "Wildcard": {
+        "roster": [
+          "JBa",
+          "phzy",
+          "Sonic",
+          "stanislaw",
+          "susp"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 1,
+          "5": 11
+        },
+        "residual": -0.028898659
+      },
+      "FlyQuest": {
+        "roster": [
+          "INS",
+          "Liazz",
+          "nettik",
+          "regali",
+          "Vexite"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 1,
+          "5": 13
+        },
+        "residual": 0.200931456
+      },
+      "OG": {
+        "roster": [
+          "Buzz",
+          "Chr1zN",
+          "F1KU",
+          "nicoodoz",
+          "spooke"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 34
+        },
+        "residual": 0.348714052
+      },
+      "Chinggis Warriors": {
+        "roster": [
+          "ariucle",
+          "controlez",
+          "cool4st",
+          "Efire",
+          "ROUX"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 15,
+          "5": 9
+        },
+        "residual": -0.109392019
+      },
+      "Imperial": {
+        "roster": [
+          "chayJESUS",
+          "decenty",
+          "noway",
+          "try",
+          "VINI"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 13
+        },
+        "residual": 0.131629817
+      },
+      "Nemiga": {
+        "roster": [
+          "1eeR",
+          "khaN",
+          "riskyb0b",
+          "Xant3r",
+          "zweih"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 31
+        },
+        "residual": 0.056828542
+      },
+      "NRG": {
+        "roster": [
+          "br0",
+          "HexT",
+          "Jeorge",
+          "nitr0",
+          "oSee"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 27
+        },
+        "residual": 0.322340888
+      },
+      "Legacy": {
+        "roster": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 31
+        },
+        "residual": 0.20398684
+      },
+      "Metizport": {
+        "roster": [
+          "adamb",
+          "hampus",
+          "isak",
+          "L00m1",
+          "Plopski"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 1,
+          "5": 31
+        },
+        "residual": -0.000112628
+      },
+      "Fluxo": {
+        "roster": [
+          "arT",
+          "kye",
+          "mlhzin",
+          "piriajr",
+          "zevy"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 4,
+          "5": 21
+        },
+        "residual": 0.192106527
+      }
+    }
+  },
+  "budapest": {
+    "asOf": "2025-11-03",
+    "firstMatch": "2025-08-06",
+    "lastMatch": "2025-11-02",
+    "series": 1102,
+    "distinctTriples": 1528,
+    "nuisanceVrsSlope": 0.179129447,
+    "teams": {
+      "Legacy": {
+        "roster": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 29
+        },
+        "residual": 0.290060606
+      },
+      "FaZe": {
+        "roster": [
+          "broky",
+          "frozen",
+          "karrigan",
+          "jcobbb",
+          "Twistzz"
+        ],
+        "matchesByOverlap": {
+          "3": 2,
+          "4": 16,
+          "5": 5
+        },
+        "residual": -0.10751812
+      },
+      "B8": {
+        "roster": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 2,
+          "5": 19
+        },
+        "residual": 0.05639186
+      },
+      "GamerLegion": {
+        "roster": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Tauson",
+          "ztr"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 10,
+          "5": 17
+        },
+        "residual": -0.166439931
+      },
+      "fnatic": {
+        "roster": [
+          "blameF",
+          "fear",
+          "jackasmo",
+          "jambo",
+          "KRIMZ"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 32,
+          "5": 8
+        },
+        "residual": -0.042572688
+      },
+      "PARIVISION": {
+        "roster": [
+          "AW",
+          "BELCHONOKK",
+          "Jame",
+          "nota",
+          "xiELO"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 27
+        },
+        "residual": 0.490465477
+      },
+      "Ninjas in Pyjamas": {
+        "roster": [
+          "ewjerkz",
+          "r1nkle",
+          "sjuush",
+          "Snappi",
+          "xKacpersky"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 3,
+          "5": 15
+        },
+        "residual": -0.346832103
+      },
+      "Imperial": {
+        "roster": [
+          "chelo",
+          "noway",
+          "skullz",
+          "try",
+          "VINI"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 8,
+          "5": 14
+        },
+        "residual": -0.16075337
+      },
+      "FlyQuest": {
+        "roster": [
+          "INS",
+          "jks",
+          "nettik",
+          "regali",
+          "Vexite"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 10
+        },
+        "residual": 0.059603012
+      },
+      "Lynn Vision": {
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4kr"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 13
+        },
+        "residual": -0.107675788
+      },
+      "M80": {
+        "roster": [
+          "HexT",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 18
+        },
+        "residual": 0.078927354
+      },
+      "Fluxo": {
+        "roster": [
+          "arT",
+          "decenty",
+          "kye",
+          "Lucaozy",
+          "zevy"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 23
+        },
+        "residual": -0.21926209
+      },
+      "RED Canids": {
+        "roster": [
+          "chayJESUS",
+          "drop",
+          "history",
+          "kauez",
+          "venomzera"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 9,
+          "5": 16
+        },
+        "residual": 0.151782281
+      },
+      "The Huns": {
+        "roster": [
+          "Bart4k",
+          "cobrazera",
+          "nin9",
+          "sk0R",
+          "xerolte"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 13
+        },
+        "residual": -0.006125409
+      },
+      "NRG": {
+        "roster": [
+          "br0",
+          "Jeorge",
+          "daps",
+          "Sonic",
+          "XotiC"
+        ],
+        "matchesByOverlap": {
+          "3": 6,
+          "4": 8,
+          "5": 0
+        },
+        "residual": 0.034011776
+      },
+      "Rare Atom": {
+        "roster": [
+          "ChildKing",
+          "L1haNg",
+          "Marek",
+          "Summer",
+          "Tiger"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 6,
+          "5": 9
+        },
+        "residual": 0.160886014
+      }
+    }
+  },
+  "cologne": {
+    "asOf": "2026-06-01",
+    "firstMatch": "2026-03-04",
+    "lastMatch": "2026-05-31",
+    "series": 960,
+    "distinctTriples": 1491,
+    "nuisanceVrsSlope": 0.20500266,
+    "teams": {
+      "GamerLegion": {
+        "roster": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Snax",
+          "Tauson"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 17
+        },
+        "residual": 0.267809754
+      },
+      "B8": {
+        "roster": [
+          "alex666",
+          "esenthial",
+          "kensizor",
+          "npl",
+          "s1zzi"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 13
+        },
+        "residual": 0.033584811
+      },
+      "HEROIC": {
+        "roster": [
+          "Chr1zN",
+          "nilo",
+          "susp",
+          "xfl0ud",
+          "yxngstxr"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 21
+        },
+        "residual": -0.24792701
+      },
+      "BetBoom": {
+        "roster": [
+          "Boombl4",
+          "FL4MUS",
+          "Magnojez",
+          "d1Ledez",
+          "zorte"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 20,
+          "5": 0
+        },
+        "residual": 0.113479223
+      },
+      "BIG": {
+        "roster": [
+          "blameF",
+          "faveN",
+          "gr1ks",
+          "JDC",
+          "tabseN"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 1,
+          "5": 24
+        },
+        "residual": 0.098284861
+      },
+      "M80": {
+        "roster": [
+          "JBa",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 18
+        },
+        "residual": 0.074918578
+      },
+      "MIBR": {
+        "roster": [
+          "brnz4n",
+          "insani",
+          "kl1m",
+          "LNZ",
+          "venomzera"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 11
+        },
+        "residual": 0.080476502
+      },
+      "SINNERS": {
+        "roster": [
+          "beastik",
+          "kisserek",
+          "MoDo",
+          "SHOCK",
+          "stressarN"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 18
+        },
+        "residual": 0.067750915
+      },
+      "NRG": {
+        "roster": [
+          "br0",
+          "Grim",
+          "nitr0",
+          "oSee",
+          "Sonic"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 1,
+          "5": 9
+        },
+        "residual": -0.393134872
+      },
+      "TYLOO": {
+        "roster": [
+          "JamYoung",
+          "Jee",
+          "Mercury",
+          "Moseyuh",
+          "Zero"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 1,
+          "5": 23
+        },
+        "residual": 0.110468719
+      },
+      "Sharks": {
+        "roster": [
+          "doc",
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 16
+        },
+        "residual": 0.02840509
+      },
+      "Gaimin Gladiators": {
+        "roster": [
+          "fer",
+          "HEN1",
+          "JOTA",
+          "Luken",
+          "NEKIZ"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 13,
+          "5": 2
+        },
+        "residual": -0.176518256
+      },
+      "Liquid": {
+        "roster": [
+          "EliGE",
+          "malbsMd",
+          "NAF",
+          "siuhy",
+          "ultimate"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 8,
+          "5": 13
+        },
+        "residual": -0.122985505
+      },
+      "Lynn Vision": {
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4KR"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 10
+        },
+        "residual": 0.297102713
+      },
+      "THUNDER dOWNUNDER": {
+        "roster": [
+          "aliStair",
+          "asap",
+          "dexter",
+          "Liazz",
+          "TjP"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 7
+        },
+        "residual": -0.050924503
+      },
+      "FlyQuest": {
+        "roster": [
+          "INS",
+          "jks",
+          "nettik",
+          "story",
+          "Vexite"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 7
+        },
+        "residual": -0.118819296
+      }
+    }
+  },
+  "singapore": {
+    "asOf": "2026-11-02",
+    "firstMatch": "2026-08-05",
+    "lastMatch": "2026-11-01",
+    "series": 989,
+    "distinctTriples": 1457,
+    "nuisanceVrsSlope": 0.161029228,
+    "teams": {
+      "Ninjas in Pyjamas": {
+        "roster": [
+          "adamb",
+          "Krimbo",
+          "sjuush",
+          "stavn",
+          "xKacpersky"
+        ],
+        "matchesByOverlap": {
+          "3": 3,
+          "4": 7,
+          "5": 22
+        },
+        "residual": 0.320502497
+      },
+      "PARIVISION": {
+        "roster": [
+          "FL1T",
+          "HObbit",
+          "Jame",
+          "xiELO",
+          "zweih"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 6,
+          "5": 12
+        },
+        "residual": 0.123814122
+      },
+      "HEROIC": {
+        "roster": [
+          "Brollan",
+          "Chr1zN",
+          "MartinezSa",
+          "nilo",
+          "susp"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 27
+        },
+        "residual": 0.371348692
+      },
+      "FaZe": {
+        "roster": [
+          "frozen",
+          "JBOEN",
+          "jcobbb",
+          "Neityu",
+          "Twistzz"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 20
+        },
+        "residual": 0.16316582
+      },
+      "Liquid": {
+        "roster": [
+          "EliGE",
+          "Jorko",
+          "JT",
+          "malbsMd",
+          "NAF"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 5,
+          "5": 21
+        },
+        "residual": -0.017432502
+      },
+      "Eternal Fire": {
+        "roster": [
+          "jottAAA",
+          "Kvem",
+          "MisteM",
+          "regali",
+          "soulfly"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 1,
+          "5": 36
+        },
+        "residual": 0.556525897
+      },
+      "100 Thieves": {
+        "roster": [
+          "device",
+          "Gizmy",
+          "poiii",
+          "rain",
+          "sirah"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 27
+        },
+        "residual": 0.288383326
+      },
+      "9z": {
+        "roster": [
+          "dgt",
+          "HUASOPEEK",
+          "luchov",
+          "max",
+          "history"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 19,
+          "5": 0
+        },
+        "residual": -0.146905796
+      },
+      "M80": {
+        "roster": [
+          "JBa",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 25
+        },
+        "residual": 0.079215095
+      },
+      "DENDELE": {
+        "roster": [
+          "doc",
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 21
+        },
+        "residual": -0.005321986
+      },
+      "Imperial": {
+        "roster": [
+          "chelo",
+          "decenty",
+          "noway",
+          "saadzin",
+          "VINI"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 29
+        },
+        "residual": 0.304318905
+      },
+      "Wildcard": {
+        "roster": [
+          "Cxzi",
+          "fr3nd",
+          "HexT",
+          "nEMANHA",
+          "reck"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 6,
+          "5": 12
+        },
+        "residual": 0.148564854
+      },
+      "GOSH": {
+        "roster": [
+          "asap",
+          "Magisk",
+          "mzinho",
+          "s1mple",
+          "Senzu"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 4,
+          "5": 13
+        },
+        "residual": 0.08685741
+      },
+      "FlyQuest": {
+        "roster": [
+          "aliStair",
+          "INS",
+          "jks",
+          "nettik",
+          "Vexite"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 7
+        },
+        "residual": 0.159135737
+      },
+      "Chinggis Warriors": {
+        "roster": [
+          "cool4st",
+          "fury5k",
+          "ROUX",
+          "sk0R",
+          "tikuak"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 11
+        },
+        "residual": 0.027167178
+      },
+      "Lynn Vision": {
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4KR"
+        ],
+        "matchesByOverlap": {
+          "3": 0,
+          "4": 0,
+          "5": 12
+        },
+        "residual": 0.176483616
+      }
+    }
+  }
+}

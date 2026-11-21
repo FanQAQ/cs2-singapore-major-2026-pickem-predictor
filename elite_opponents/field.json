@@ -1,0 +1,898 @@
+{
+  "id": "cluj-2025",
+  "label": "PGL Cluj-Napoca 2025 Swiss",
+  "start": "2025-02-14",
+  "cutoffExclusive": "2025-02-14",
+  "end": "2025-02-18",
+  "allBo3": true,
+  "groupStructure": "single_field",
+  "entrants": [
+    "The MongolZ",
+    "FaZe",
+    "MOUZ",
+    "Falcons",
+    "paiN",
+    "MIBR",
+    "3DMAX",
+    "Eternal Fire",
+    "Complexity",
+    "SAW",
+    "BIG",
+    "FlyQuest",
+    "Astralis",
+    "Wildcard",
+    "Virtus.pro",
+    "Imperial Valkyries"
+  ],
+  "teams": [
+    {
+      "name": "The MongolZ",
+      "roster": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "points": 1879,
+      "rank": 3,
+      "vrsRoster": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "overlap": 5,
+      "ratingTeam": "The MongolZ",
+      "seedRank": 3,
+      "seedPoints": 1849,
+      "seedRoster": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "seedOverlap": 5,
+      "seedRatingTeam": "The MongolZ",
+      "rosterWitness": {
+        "id": 2378915,
+        "day": "2025-02-08",
+        "event": "IEM Katowice 2025",
+        "url": "https://www.hltv.org/matches/2378915/vitality-vs-the-mongolz-iem-katowice-2025",
+        "roster": [
+          "910",
+          "bLitz",
+          "mzinho",
+          "Senzu",
+          "Techno"
+        ]
+      },
+      "change": null,
+      "seed": 1
+    },
+    {
+      "name": "FaZe",
+      "roster": [
+        "broky",
+        "EliGE",
+        "frozen",
+        "karrigan",
+        "rain"
+      ],
+      "points": 1805,
+      "rank": 5,
+      "vrsRoster": [
+        "broky",
+        "EliGE",
+        "frozen",
+        "karrigan",
+        "rain"
+      ],
+      "overlap": 5,
+      "ratingTeam": "FaZe",
+      "seedRank": 5,
+      "seedPoints": 1834,
+      "seedRoster": [
+        "broky",
+        "frozen",
+        "karrigan",
+        "rain",
+        "ropz"
+      ],
+      "seedOverlap": 4,
+      "seedRatingTeam": "FaZe",
+      "rosterWitness": {
+        "id": 2378909,
+        "day": "2025-02-04",
+        "event": "IEM Katowice 2025",
+        "url": "https://www.hltv.org/matches/2378909/eternal-fire-vs-faze-iem-katowice-2025",
+        "roster": [
+          "broky",
+          "EliGE",
+          "frozen",
+          "karrigan",
+          "rain"
+        ]
+      },
+      "change": null,
+      "seed": 2
+    },
+    {
+      "name": "MOUZ",
+      "roster": [
+        "Brollan",
+        "Jimpphat",
+        "Spinx",
+        "torzsi",
+        "xertioN"
+      ],
+      "points": 1652,
+      "rank": 8,
+      "vrsRoster": [
+        "Brollan",
+        "Jimpphat",
+        "torzsi",
+        "xelex",
+        "xertioN"
+      ],
+      "overlap": 4,
+      "ratingTeam": "MOUZ",
+      "seedRank": 6,
+      "seedPoints": 1782,
+      "seedRoster": [
+        "Brollan",
+        "Jimpphat",
+        "siuhy",
+        "torzsi",
+        "xertioN"
+      ],
+      "seedOverlap": 4,
+      "seedRatingTeam": "MOUZ",
+      "rosterWitness": {
+        "id": 2378902,
+        "day": "2025-02-03",
+        "event": "IEM Katowice 2025",
+        "url": "https://www.hltv.org/matches/2378902/mouz-vs-liquid-iem-katowice-2025",
+        "roster": [
+          "Brollan",
+          "Jimpphat",
+          "torzsi",
+          "xelex",
+          "xertioN"
+        ]
+      },
+      "change": {
+        "day": "2025-02-10",
+        "outgoing": "xelex",
+        "incoming": "Spinx",
+        "source": "https://www.hltv.org/news/40967/pgl-cluj-napoca-schedule-announced",
+        "signing": "https://www.hltv.org/news/40821/mouz-confirm-spinx-signing"
+      },
+      "seed": 3
+    },
+    {
+      "name": "Falcons",
+      "roster": [
+        "degster",
+        "kyxsan",
+        "Magisk",
+        "NiKo",
+        "TeSeS"
+      ],
+      "points": 1645,
+      "rank": 9,
+      "vrsRoster": [
+        "degster",
+        "kyxsan",
+        "Magisk",
+        "NiKo",
+        "TeSeS"
+      ],
+      "overlap": 5,
+      "ratingTeam": "Falcons",
+      "seedRank": 8,
+      "seedPoints": 1705,
+      "seedRoster": [
+        "degster",
+        "kyxsan",
+        "NertZ",
+        "sjuush",
+        "TeSeS"
+      ],
+      "seedOverlap": 3,
+      "seedRatingTeam": "HEROIC",
+      "rosterWitness": {
+        "id": 2379277,
+        "day": "2025-02-10",
+        "event": "IEM Dallas 2025 Europe Closed Qualifier",
+        "url": "https://www.hltv.org/matches/2379277/falcons-vs-betboom-iem-dallas-2025-europe-closed-qualifier",
+        "roster": [
+          "degster",
+          "kyxsan",
+          "Magisk",
+          "NiKo",
+          "TeSeS"
+        ]
+      },
+      "change": null,
+      "seed": 4
+    },
+    {
+      "name": "paiN",
+      "roster": [
+        "biguzera",
+        "dav1deuS",
+        "kauez",
+        "nqz",
+        "snow"
+      ],
+      "points": 1445,
+      "rank": 16,
+      "vrsRoster": [
+        "biguzera",
+        "dav1deuS",
+        "kauez",
+        "nqz",
+        "snow"
+      ],
+      "overlap": 5,
+      "ratingTeam": "paiN",
+      "seedRank": 11,
+      "seedPoints": 1437,
+      "seedRoster": [
+        "biguzera",
+        "kauez",
+        "lux",
+        "nqz",
+        "snow"
+      ],
+      "seedOverlap": 4,
+      "seedRatingTeam": "paiN",
+      "rosterWitness": {
+        "id": 2379088,
+        "day": "2025-02-09",
+        "event": "ACE SA Masters 2025 Season 1 - BLAST Premier Rising Event",
+        "url": "https://www.hltv.org/matches/2379088/imperial-vs-pain-ace-sa-masters-2025-season-1-blast-premier-rising-event",
+        "roster": [
+          "biguzera",
+          "dav1deuS",
+          "kauez",
+          "nqz",
+          "snow"
+        ]
+      },
+      "change": null,
+      "seed": 5
+    },
+    {
+      "name": "MIBR",
+      "roster": [
+        "drop",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "points": 1393,
+      "rank": 17,
+      "vrsRoster": [
+        "drop",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "overlap": 5,
+      "ratingTeam": "MIBR",
+      "seedRank": 12,
+      "seedPoints": 1428,
+      "seedRoster": [
+        "drop",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "seedOverlap": 5,
+      "seedRatingTeam": "MIBR",
+      "rosterWitness": {
+        "id": 2379090,
+        "day": "2025-02-09",
+        "event": "ACE SA Masters 2025 Season 1 - BLAST Premier Rising Event",
+        "url": "https://www.hltv.org/matches/2379090/imperial-vs-mibr-ace-sa-masters-2025-season-1-blast-premier-rising-event",
+        "roster": [
+          "drop",
+          "exit",
+          "insani",
+          "Lucaozy",
+          "saffee"
+        ]
+      },
+      "change": null,
+      "seed": 6
+    },
+    {
+      "name": "3DMAX",
+      "roster": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "points": 1487,
+      "rank": 14,
+      "vrsRoster": [
+        "Djoko",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "overlap": 4,
+      "ratingTeam": "3DMAX",
+      "seedRank": 13,
+      "seedPoints": 1416,
+      "seedRoster": [
+        "Djoko",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "seedOverlap": 4,
+      "seedRatingTeam": "3DMAX",
+      "rosterWitness": {
+        "id": 2379281,
+        "day": "2025-02-10",
+        "event": "IEM Dallas 2025 Europe Closed Qualifier",
+        "url": "https://www.hltv.org/matches/2379281/heroic-vs-3dmax-iem-dallas-2025-europe-closed-qualifier",
+        "roster": [
+          "bodyy",
+          "Ex3rcice",
+          "Graviti",
+          "Lucky",
+          "Maka"
+        ]
+      },
+      "change": null,
+      "seed": 7
+    },
+    {
+      "name": "Eternal Fire",
+      "roster": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "points": 1687,
+      "rank": 7,
+      "vrsRoster": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "overlap": 5,
+      "ratingTeam": "Eternal Fire",
+      "seedRank": 14,
+      "seedPoints": 1383,
+      "seedRoster": [
+        "Calyx",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "seedOverlap": 4,
+      "seedRatingTeam": "Eternal Fire",
+      "rosterWitness": {
+        "id": 2378913,
+        "day": "2025-02-07",
+        "event": "IEM Katowice 2025",
+        "url": "https://www.hltv.org/matches/2378913/the-mongolz-vs-eternal-fire-iem-katowice-2025",
+        "roster": [
+          "jottAAA",
+          "MAJ3R",
+          "Wicadia",
+          "woxic",
+          "XANTARES"
+        ]
+      },
+      "change": null,
+      "seed": 8
+    },
+    {
+      "name": "Complexity",
+      "roster": [
+        "Cxzi",
+        "Grim",
+        "hallzerk",
+        "JT",
+        "nicx"
+      ],
+      "points": 1226,
+      "rank": 22,
+      "vrsRoster": [
+        "cxzi",
+        "Grim",
+        "hallzerk",
+        "JT",
+        "nicx"
+      ],
+      "overlap": 5,
+      "ratingTeam": "Complexity",
+      "seedRank": 16,
+      "seedPoints": 1355,
+      "seedRoster": [
+        "EliGE",
+        "floppy",
+        "Grim",
+        "hallzerk",
+        "JT"
+      ],
+      "seedOverlap": 3,
+      "seedRatingTeam": "Complexity",
+      "rosterWitness": {
+        "id": 2378686,
+        "day": "2025-01-31",
+        "event": "IEM Katowice 2025 Play-in",
+        "url": "https://www.hltv.org/matches/2378686/complexity-vs-liquid-iem-katowice-2025-play-in",
+        "roster": [
+          "Cxzi",
+          "Grim",
+          "hallzerk",
+          "JT",
+          "nicx"
+        ]
+      },
+      "change": null,
+      "seed": 9
+    },
+    {
+      "name": "SAW",
+      "roster": [
+        "Ag1l",
+        "MUTiRiS",
+        "roman",
+        "Shr",
+        "story"
+      ],
+      "points": 1183,
+      "rank": 28,
+      "vrsRoster": [
+        "Ag1l",
+        "MUTiRiS",
+        "roman",
+        "Shr",
+        "story"
+      ],
+      "overlap": 5,
+      "ratingTeam": "SAW",
+      "seedRank": 17,
+      "seedPoints": 1346,
+      "seedRoster": [
+        "Ag1l",
+        "ewjerkz",
+        "MUTiRiS",
+        "roman",
+        "story"
+      ],
+      "seedOverlap": 4,
+      "seedRatingTeam": "SAW",
+      "rosterWitness": {
+        "id": 2379069,
+        "day": "2025-02-06",
+        "event": "RES Showdown 1 Closed Qualifier",
+        "url": "https://www.hltv.org/matches/2379069/saw-vs-500-res-showdown-1-closed-qualifier",
+        "roster": [
+          "Ag1l",
+          "MUTiRiS",
+          "roman",
+          "Shr",
+          "story"
+        ]
+      },
+      "change": null,
+      "seed": 10
+    },
+    {
+      "name": "BIG",
+      "roster": [
+        "hyped",
+        "JDC",
+        "Krimbo",
+        "kyuubii",
+        "tabseN"
+      ],
+      "points": 1350,
+      "rank": 18,
+      "vrsRoster": [
+        "hyped",
+        "JDC",
+        "Krimbo",
+        "kyuubii",
+        "tabseN"
+      ],
+      "overlap": 5,
+      "ratingTeam": "BIG",
+      "seedRank": 18,
+      "seedPoints": 1333,
+      "seedRoster": [
+        "JDC",
+        "Krimbo",
+        "rigoN",
+        "syrsoN",
+        "tabseN"
+      ],
+      "seedOverlap": 3,
+      "seedRatingTeam": "BIG",
+      "rosterWitness": {
+        "id": 2379286,
+        "day": "2025-02-11",
+        "event": "IEM Dallas 2025 Europe Closed Qualifier",
+        "url": "https://www.hltv.org/matches/2379286/big-vs-heroic-iem-dallas-2025-europe-closed-qualifier",
+        "roster": [
+          "hyped",
+          "JDC",
+          "Krimbo",
+          "kyuubii",
+          "tabseN"
+        ]
+      },
+      "change": null,
+      "seed": 11
+    },
+    {
+      "name": "FlyQuest",
+      "roster": [
+        "dexter",
+        "INS",
+        "Liazz",
+        "regali",
+        "Vexite"
+      ],
+      "points": 1259,
+      "rank": 21,
+      "vrsRoster": [
+        "dexter",
+        "INS",
+        "Liazz",
+        "regali",
+        "Vexite"
+      ],
+      "overlap": 5,
+      "ratingTeam": "FlyQuest",
+      "seedRank": 19,
+      "seedPoints": 1325,
+      "seedRoster": [
+        "aliStair",
+        "dexter",
+        "INS",
+        "Liazz",
+        "Vexite"
+      ],
+      "seedOverlap": 4,
+      "seedRatingTeam": "FlyQuest",
+      "rosterWitness": {
+        "id": 2378687,
+        "day": "2025-01-30",
+        "event": "IEM Katowice 2025 Play-in",
+        "url": "https://www.hltv.org/matches/2378687/flyquest-vs-astralis-iem-katowice-2025-play-in",
+        "roster": [
+          "dexter",
+          "INS",
+          "Liazz",
+          "regali",
+          "Vexite"
+        ]
+      },
+      "change": null,
+      "seed": 12
+    },
+    {
+      "name": "Astralis",
+      "roster": [
+        "cadiaN",
+        "device",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "points": 1468,
+      "rank": 15,
+      "vrsRoster": [
+        "cadiaN",
+        "device",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "overlap": 5,
+      "ratingTeam": "Astralis",
+      "seedRank": 20,
+      "seedPoints": 1318,
+      "seedRoster": [
+        "br0",
+        "cadiaN",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "seedOverlap": 4,
+      "seedRatingTeam": "Astralis",
+      "rosterWitness": {
+        "id": 2379290,
+        "day": "2025-02-11",
+        "event": "IEM Dallas 2025 Europe Closed Qualifier",
+        "url": "https://www.hltv.org/matches/2379290/astralis-vs-betboom-iem-dallas-2025-europe-closed-qualifier",
+        "roster": [
+          "cadiaN",
+          "device",
+          "jabbi",
+          "Staehr",
+          "stavn"
+        ]
+      },
+      "change": null,
+      "seed": 13
+    },
+    {
+      "name": "Wildcard",
+      "roster": [
+        "JBa",
+        "phzy",
+        "Sonic",
+        "stanislaw",
+        "susp"
+      ],
+      "points": 1350,
+      "rank": 19,
+      "vrsRoster": [
+        "JBa",
+        "phzy",
+        "Sonic",
+        "stanislaw",
+        "susp"
+      ],
+      "overlap": 5,
+      "ratingTeam": "Wildcard",
+      "seedRank": 21,
+      "seedPoints": 1303,
+      "seedRoster": [
+        "JBa",
+        "phzy",
+        "Sonic",
+        "stanislaw",
+        "susp"
+      ],
+      "seedOverlap": 5,
+      "seedRatingTeam": "Wildcard",
+      "rosterWitness": {
+        "id": 2378694,
+        "day": "2025-01-31",
+        "event": "IEM Katowice 2025 Play-in",
+        "url": "https://www.hltv.org/matches/2378694/liquid-vs-wildcard-iem-katowice-2025-play-in",
+        "roster": [
+          "JBa",
+          "phzy",
+          "Sonic",
+          "stanislaw",
+          "susp"
+        ]
+      },
+      "change": null,
+      "seed": 14
+    },
+    {
+      "name": "Virtus.pro",
+      "roster": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "points": 1505,
+      "rank": 12,
+      "vrsRoster": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "overlap": 5,
+      "ratingTeam": "Virtus.pro",
+      "seedRank": 22,
+      "seedPoints": 1292,
+      "seedRoster": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "Jame",
+        "n0rb3r7"
+      ],
+      "seedOverlap": 3,
+      "seedRatingTeam": "Virtus.pro",
+      "rosterWitness": {
+        "id": 2378914,
+        "day": "2025-02-07",
+        "event": "IEM Katowice 2025",
+        "url": "https://www.hltv.org/matches/2378914/virtuspro-vs-spirit-iem-katowice-2025",
+        "roster": [
+          "electroNic",
+          "fame",
+          "FL1T",
+          "ICY",
+          "mir"
+        ]
+      },
+      "change": {
+        "day": "2025-02-12",
+        "outgoing": "mir",
+        "incoming": "FL4MUS",
+        "source": "https://www.hltv.org/news/40977/pgl-cluj-napoca-2025-teams-format-schedule-prizes-talent-fantasy"
+      },
+      "seed": 15
+    },
+    {
+      "name": "Imperial Valkyries",
+      "roster": [
+        "ANa",
+        "Kat",
+        "tory",
+        "twenty3",
+        "zAAz"
+      ],
+      "points": 1189,
+      "rank": 26,
+      "vrsRoster": [
+        "ANa",
+        "bubble",
+        "Kat",
+        "twenty3",
+        "zAAz"
+      ],
+      "overlap": 4,
+      "ratingTeam": "Imperial fe",
+      "seedRank": 23,
+      "seedPoints": 1258,
+      "seedRoster": [
+        "ANa",
+        "Kat",
+        "tory",
+        "twenty3",
+        "zAAz"
+      ],
+      "seedOverlap": 5,
+      "seedRatingTeam": "Imperial fe",
+      "rosterWitness": {
+        "id": 2378689,
+        "day": "2025-01-30",
+        "event": "IEM Katowice 2025 Play-in",
+        "url": "https://www.hltv.org/matches/2378689/big-vs-imperial-valkyries-iem-katowice-2025-play-in",
+        "roster": [
+          "ANa",
+          "bubble",
+          "Kat",
+          "twenty3",
+          "zAAz"
+        ]
+      },
+      "change": {
+        "day": "2025-02-12",
+        "outgoing": "bubble",
+        "incoming": "tory",
+        "source": "https://www.hltv.org/news/40977/pgl-cluj-napoca-2025-teams-format-schedule-prizes-talent-fantasy",
+        "katowiceOnly": "https://www.hltv.org/news/40855/tory-to-miss-iem-katowice-play-in"
+      },
+      "seed": 16
+    }
+  ],
+  "pool": [
+    "Ancient",
+    "Anubis",
+    "Dust2",
+    "Inferno",
+    "Mirage",
+    "Nuke",
+    "Train"
+  ],
+  "seedOrder": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "openingPairs": [
+    [
+      "MOUZ",
+      "BIG"
+    ],
+    [
+      "3DMAX",
+      "Virtus.pro"
+    ],
+    [
+      "FaZe",
+      "SAW"
+    ],
+    [
+      "Falcons",
+      "FlyQuest"
+    ],
+    [
+      "The MongolZ",
+      "Complexity"
+    ],
+    [
+      "MIBR",
+      "Wildcard"
+    ],
+    [
+      "paiN",
+      "Astralis"
+    ],
+    [
+      "Eternal Fire",
+      "Imperial Valkyries"
+    ]
+  ],
+  "openingSource": "https://x.com/pglesports/status/1888886605022114084",
+  "drawPublishedAt": "2025-02-10T09:43:55.110Z",
+  "seedOrderSource": "https://www.youtube.com/watch?v=ZZ9dyU0zQIw",
+  "fivePlayerGuide": "https://www.hltv.org/news/40977/pgl-cluj-napoca-2025-teams-format-schedule-prizes-talent-fantasy",
+  "openingCorroboration": "https://www.hltv.org/news/40967/pgl-cluj-napoca-schedule-announced",
+  "invitedSource": "https://x.com/pglesports/status/1884164618484137986",
+  "withdrawal": {
+    "day": "2025-02-04",
+    "outgoing": "FURIA",
+    "incoming": "Imperial Valkyries",
+    "source": "https://www.hltv.org/news/40922/imperial-fe-to-step-in-as-furia-withdraw-from-pgl-cluj-napoca"
+  },
+  "announcedFutureChange": {
+    "team": "SAW",
+    "day": "2025-02-13",
+    "outgoing": [
+      "roman",
+      "Shr"
+    ],
+    "effective": "after PGL Cluj-Napoca 2025",
+    "source": "https://saw.gg/comunicado-fim-de-um-ciclo-nos-saw/"
+  },
+  "rankSnapshot": {
+    "asOf": "2025-02-03",
+    "publishedAt": "2025-02-03T18:47:10Z",
+    "sha256": "13e0e9e489be14d285133df904d42718a498b018b4392320ce1ba62568d836ba",
+    "url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/b3e2791b20488edc40eeedf5062c35cd9665df9b/invitation/2025/standings_global_2025_02_03.md"
+  },
+  "seedSnapshot": {
+    "asOf": "2025-01-06",
+    "publishedAt": "2025-01-06T17:53:54Z",
+    "sha256": "3a9eef73a66f0a895f0369fb83e56c241483a81af0181301989ffa698b6824ca",
+    "url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/a762daa455e0fa1c39ec4db188301a5b468fe92f/invitation/2025/standings_global_2025_01_06.md"
+  },
+  "invitedViaVrs": 16,
+  "openQualifierTeams": 0,
+  "formatSource": "https://www.hltv.org/news/40977/pgl-cluj-napoca-2025-teams-format-schedule-prizes-talent-fantasy",
+  "archiveSource": "https://raw.githubusercontent.com/zugzugs/hltvy/1a00ba2893a63646f0d940e626b6da95d342a187/results.json.gz",
+  "archiveSha256": "750b0da45142fc797eddb708698d14d269237e59784d6a1d066eddba0ba31551"
+}

@@ -1,0 +1,1625 @@
+{
+  "id": "cluj-2026",
+  "end": "2026-02-18",
+  "rounds": [
+    [
+      [
+        3,
+        11,
+        0
+      ],
+      [
+        15,
+        7,
+        1
+      ],
+      [
+        4,
+        12,
+        1
+      ],
+      [
+        5,
+        13,
+        0
+      ],
+      [
+        2,
+        10,
+        0
+      ],
+      [
+        1,
+        9,
+        1
+      ],
+      [
+        6,
+        14,
+        1
+      ],
+      [
+        0,
+        8,
+        0
+      ]
+    ],
+    [
+      [
+        4,
+        3,
+        0
+      ],
+      [
+        11,
+        10,
+        0
+      ],
+      [
+        12,
+        9,
+        1
+      ],
+      [
+        2,
+        5,
+        1
+      ],
+      [
+        7,
+        14,
+        1
+      ],
+      [
+        0,
+        15,
+        1
+      ],
+      [
+        8,
+        13,
+        0
+      ],
+      [
+        1,
+        6,
+        1
+      ]
+    ],
+    [
+      [
+        3,
+        7,
+        1
+      ],
+      [
+        12,
+        5,
+        1
+      ],
+      [
+        15,
+        11,
+        0
+      ],
+      [
+        6,
+        8,
+        1
+      ],
+      [
+        13,
+        10,
+        0
+      ],
+      [
+        1,
+        4,
+        0
+      ],
+      [
+        9,
+        14,
+        0
+      ],
+      [
+        2,
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        4,
+        15,
+        0
+      ],
+      [
+        11,
+        5,
+        0
+      ],
+      [
+        7,
+        8,
+        0
+      ],
+      [
+        6,
+        3,
+        1
+      ],
+      [
+        9,
+        13,
+        0
+      ],
+      [
+        0,
+        12,
+        1
+      ]
+    ],
+    [
+      [
+        7,
+        11,
+        0
+      ],
+      [
+        12,
+        15,
+        1
+      ],
+      [
+        3,
+        9,
+        0
+      ]
+    ]
+  ],
+  "matchIds": [
+    [
+      2389947,
+      2389948,
+      2389949,
+      2389950,
+      2389952,
+      2389951,
+      2389954,
+      2389953
+    ],
+    [
+      2389955,
+      2389956,
+      2389958,
+      2389957,
+      2389960,
+      2389959,
+      2389962,
+      2389961
+    ],
+    [
+      2389963,
+      2389964,
+      2389966,
+      2389965,
+      2389968,
+      2389967,
+      2389970,
+      2389969
+    ],
+    [
+      2389971,
+      2389972,
+      2389974,
+      2389973,
+      2389976,
+      2389975
+    ],
+    [
+      2389977,
+      2389978,
+      2389979
+    ]
+  ],
+  "administrativeMatchIds": [],
+  "matches": [
+    {
+      "id": 2389947,
+      "day": "2026-02-14",
+      "round": 1,
+      "bo": 3,
+      "a": "Natus Vincere",
+      "b": "Astralis",
+      "fiveA": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "makazze",
+        "w0nderful"
+      ],
+      "fiveB": [
+        "HooXi",
+        "jabbi",
+        "phzy",
+        "ryu",
+        "Staehr"
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Nuke",
+          13,
+          10
+        ],
+        [
+          "Mirage",
+          13,
+          6
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389947/natus-vincere-vs-astralis-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389948,
+      "day": "2026-02-14",
+      "round": 1,
+      "bo": 3,
+      "a": "Aurora",
+      "b": "FUT",
+      "fiveA": [
+        "MAJ3R",
+        "soulfly",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "fiveB": [
+        "cmtry",
+        "dem0n",
+        "dziugss",
+        "Krabeni",
+        "lauNX"
+      ],
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Mirage",
+          6,
+          13
+        ],
+        [
+          "Anubis",
+          16,
+          13
+        ],
+        [
+          "Overpass",
+          6,
+          13
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389948/aurora-vs-fut-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389949,
+      "day": "2026-02-14",
+      "round": 1,
+      "bo": 3,
+      "a": "MOUZ",
+      "b": "PARIVISION",
+      "fiveA": [
+        "Brollan",
+        "Jimpphat",
+        "Spinx",
+        "torzsi",
+        "xertioN"
+      ],
+      "fiveB": [
+        "BELCHONOKK",
+        "Jame",
+        "nota",
+        "xiELO",
+        "zweih"
+      ],
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Dust2",
+          7,
+          13
+        ],
+        [
+          "Inferno",
+          13,
+          7
+        ],
+        [
+          "Overpass",
+          13,
+          3
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389949/mouz-vs-parivision-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389950,
+      "day": "2026-02-14",
+      "round": 1,
+      "bo": 3,
+      "a": "FaZe",
+      "b": "HEROIC",
+      "fiveA": [
+        "broky",
+        "frozen",
+        "jcobbb",
+        "karrigan",
+        "Twistzz"
+      ],
+      "fiveB": [
+        "Chr1zN",
+        "nilo",
+        "susp",
+        "xfl0ud",
+        "yxngstxr"
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Overpass",
+          13,
+          5
+        ],
+        [
+          "Ancient",
+          13,
+          9
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389950/faze-vs-heroic-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389952,
+      "day": "2026-02-14",
+      "round": 1,
+      "bo": 3,
+      "a": "Falcons",
+      "b": "3DMAX",
+      "fiveA": [
+        "kyousuke",
+        "kyxsan",
+        "m0NESY",
+        "NiKo",
+        "TeSeS"
+      ],
+      "fiveB": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Nuke",
+          13,
+          7
+        ],
+        [
+          "Dust2",
+          13,
+          10
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389952/falcons-vs-3dmax-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389951,
+      "day": "2026-02-14",
+      "round": 1,
+      "bo": 3,
+      "a": "Vitality",
+      "b": "G2",
+      "fiveA": [
+        "apEX",
+        "flameZ",
+        "mezii",
+        "ropz",
+        "ZywOo"
+      ],
+      "fiveB": [
+        "HeavyGod",
+        "huNter-",
+        "malbsMd",
+        "MATYS",
+        "SunPayus"
+      ],
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          11
+        ],
+        [
+          "Inferno",
+          8,
+          13
+        ],
+        [
+          "Anubis",
+          13,
+          8
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389951/vitality-vs-g2-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389954,
+      "day": "2026-02-14",
+      "round": 1,
+      "bo": 3,
+      "a": "The MongolZ",
+      "b": "paiN",
+      "fiveA": [
+        "910",
+        "bLitz",
+        "cobrazera",
+        "mzinho",
+        "Techno"
+      ],
+      "fiveB": [
+        "biguzera",
+        "nqz",
+        "piriajr",
+        "snow",
+        "vsm"
+      ],
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Nuke",
+          7,
+          13
+        ],
+        [
+          "Mirage",
+          13,
+          1
+        ],
+        [
+          "Dust2",
+          13,
+          2
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389954/the-mongolz-vs-pain-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389953,
+      "day": "2026-02-14",
+      "round": 1,
+      "bo": 3,
+      "a": "FURIA",
+      "b": "B8",
+      "fiveA": [
+        "FalleN",
+        "KSCERATO",
+        "molodoy",
+        "YEKINDAR",
+        "yuurih"
+      ],
+      "fiveB": [
+        "alex666",
+        "esenthial",
+        "kensizor",
+        "npl",
+        "s1zzi"
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          11
+        ],
+        [
+          "Inferno",
+          13,
+          10
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389953/furia-vs-b8-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389955,
+      "day": "2026-02-15",
+      "round": 2,
+      "bo": 3,
+      "a": "Natus Vincere",
+      "b": "MOUZ",
+      "fiveA": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "makazze",
+        "w0nderful"
+      ],
+      "fiveB": [
+        "Brollan",
+        "Jimpphat",
+        "Spinx",
+        "torzsi",
+        "xertioN"
+      ],
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Inferno",
+          9,
+          13
+        ],
+        [
+          "Mirage",
+          7,
+          13
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389955/natus-vincere-vs-mouz-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389956,
+      "day": "2026-02-15",
+      "round": 2,
+      "bo": 3,
+      "a": "3DMAX",
+      "b": "Astralis",
+      "fiveA": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "fiveB": [
+        "HooXi",
+        "jabbi",
+        "phzy",
+        "ryu",
+        "Staehr"
+      ],
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Overpass",
+          2,
+          13
+        ],
+        [
+          "Nuke",
+          11,
+          13
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389956/3dmax-vs-astralis-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389958,
+      "day": "2026-02-15",
+      "round": 2,
+      "bo": 3,
+      "a": "G2",
+      "b": "PARIVISION",
+      "fiveA": [
+        "HeavyGod",
+        "huNter-",
+        "malbsMd",
+        "MATYS",
+        "SunPayus"
+      ],
+      "fiveB": [
+        "BELCHONOKK",
+        "Jame",
+        "nota",
+        "xiELO",
+        "zweih"
+      ],
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          8
+        ],
+        [
+          "Inferno",
+          8,
+          13
+        ],
+        [
+          "Dust2",
+          4,
+          13
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389958/g2-vs-parivision-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389957,
+      "day": "2026-02-15",
+      "round": 2,
+      "bo": 3,
+      "a": "Falcons",
+      "b": "FaZe",
+      "fiveA": [
+        "kyousuke",
+        "kyxsan",
+        "m0NESY",
+        "NiKo",
+        "TeSeS"
+      ],
+      "fiveB": [
+        "broky",
+        "frozen",
+        "jcobbb",
+        "karrigan",
+        "Twistzz"
+      ],
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Anubis",
+          13,
+          9
+        ],
+        [
+          "Dust2",
+          11,
+          13
+        ],
+        [
+          "Ancient",
+          13,
+          4
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389957/falcons-vs-faze-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389960,
+      "day": "2026-02-15",
+      "round": 2,
+      "bo": 3,
+      "a": "Aurora",
+      "b": "paiN",
+      "fiveA": [
+        "MAJ3R",
+        "soulfly",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "fiveB": [
+        "biguzera",
+        "nqz",
+        "piriajr",
+        "snow",
+        "vsm"
+      ],
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Nuke",
+          10,
+          13
+        ],
+        [
+          "Anubis",
+          13,
+          7
+        ],
+        [
+          "Dust2",
+          13,
+          4
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389960/aurora-vs-pain-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389959,
+      "day": "2026-02-15",
+      "round": 2,
+      "bo": 3,
+      "a": "FURIA",
+      "b": "FUT",
+      "fiveA": [
+        "FalleN",
+        "KSCERATO",
+        "molodoy",
+        "YEKINDAR",
+        "yuurih"
+      ],
+      "fiveB": [
+        "cmtry",
+        "dem0n",
+        "dziugss",
+        "Krabeni",
+        "lauNX"
+      ],
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Mirage",
+          9,
+          13
+        ],
+        [
+          "Overpass",
+          22,
+          18
+        ],
+        [
+          "Anubis",
+          13,
+          9
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389959/furia-vs-fut-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389962,
+      "day": "2026-02-15",
+      "round": 2,
+      "bo": 3,
+      "a": "B8",
+      "b": "HEROIC",
+      "fiveA": [
+        "alex666",
+        "esenthial",
+        "kensizor",
+        "npl",
+        "s1zzi"
+      ],
+      "fiveB": [
+        "Chr1zN",
+        "nilo",
+        "susp",
+        "xfl0ud",
+        "yxngstxr"
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Nuke",
+          13,
+          9
+        ],
+        [
+          "Ancient",
+          13,
+          4
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389962/b8-vs-heroic-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389961,
+      "day": "2026-02-15",
+      "round": 2,
+      "bo": 3,
+      "a": "Vitality",
+      "b": "The MongolZ",
+      "fiveA": [
+        "apEX",
+        "flameZ",
+        "mezii",
+        "ropz",
+        "ZywOo"
+      ],
+      "fiveB": [
+        "910",
+        "bLitz",
+        "cobrazera",
+        "mzinho",
+        "Techno"
+      ],
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Mirage",
+          10,
+          13
+        ],
+        [
+          "Dust2",
+          13,
+          4
+        ],
+        [
+          "Nuke",
+          13,
+          4
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389961/vitality-vs-the-mongolz-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389963,
+      "day": "2026-02-16",
+      "round": 3,
+      "bo": 3,
+      "a": "Natus Vincere",
+      "b": "Aurora",
+      "fiveA": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "makazze",
+        "w0nderful"
+      ],
+      "fiveB": [
+        "MAJ3R",
+        "soulfly",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Anubis",
+          13,
+          9
+        ],
+        [
+          "Mirage",
+          9,
+          13
+        ],
+        [
+          "Inferno",
+          16,
+          12
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389963/natus-vincere-vs-aurora-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389964,
+      "day": "2026-02-16",
+      "round": 3,
+      "bo": 3,
+      "a": "FaZe",
+      "b": "PARIVISION",
+      "fiveA": [
+        "broky",
+        "frozen",
+        "jcobbb",
+        "karrigan",
+        "Twistzz"
+      ],
+      "fiveB": [
+        "BELCHONOKK",
+        "Jame",
+        "nota",
+        "xiELO",
+        "zweih"
+      ],
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          2
+        ],
+        [
+          "Ancient",
+          11,
+          13
+        ],
+        [
+          "Inferno",
+          9,
+          13
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389964/faze-vs-parivision-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389966,
+      "day": "2026-02-16",
+      "round": 3,
+      "bo": 3,
+      "a": "FUT",
+      "b": "Astralis",
+      "fiveA": [
+        "cmtry",
+        "dem0n",
+        "dziugss",
+        "Krabeni",
+        "lauNX"
+      ],
+      "fiveB": [
+        "HooXi",
+        "jabbi",
+        "phzy",
+        "ryu",
+        "Staehr"
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Overpass",
+          13,
+          7
+        ],
+        [
+          "Mirage",
+          13,
+          4
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389966/fut-vs-astralis-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389965,
+      "day": "2026-02-16",
+      "round": 3,
+      "bo": 3,
+      "a": "The MongolZ",
+      "b": "B8",
+      "fiveA": [
+        "910",
+        "bLitz",
+        "cobrazera",
+        "mzinho",
+        "Techno"
+      ],
+      "fiveB": [
+        "alex666",
+        "esenthial",
+        "kensizor",
+        "npl",
+        "s1zzi"
+      ],
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Ancient",
+          13,
+          9
+        ],
+        [
+          "Mirage",
+          7,
+          13
+        ],
+        [
+          "Nuke",
+          19,
+          17
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389965/the-mongolz-vs-b8-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389968,
+      "day": "2026-02-16",
+      "round": 3,
+      "bo": 3,
+      "a": "3DMAX",
+      "b": "HEROIC",
+      "fiveA": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "fiveB": [
+        "Chr1zN",
+        "nilo",
+        "susp",
+        "xfl0ud",
+        "yxngstxr"
+      ],
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Nuke",
+          5,
+          13
+        ],
+        [
+          "Inferno",
+          10,
+          13
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389968/3dmax-vs-heroic-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389967,
+      "day": "2026-02-16",
+      "round": 3,
+      "bo": 3,
+      "a": "MOUZ",
+      "b": "Vitality",
+      "fiveA": [
+        "Brollan",
+        "Jimpphat",
+        "Spinx",
+        "torzsi",
+        "xertioN"
+      ],
+      "fiveB": [
+        "apEX",
+        "flameZ",
+        "mezii",
+        "ropz",
+        "ZywOo"
+      ],
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Dust2",
+          5,
+          13
+        ],
+        [
+          "Inferno",
+          8,
+          13
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389967/mouz-vs-vitality-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389970,
+      "day": "2026-02-16",
+      "round": 3,
+      "bo": 3,
+      "a": "G2",
+      "b": "paiN",
+      "fiveA": [
+        "HeavyGod",
+        "huNter-",
+        "malbsMd",
+        "MATYS",
+        "SunPayus"
+      ],
+      "fiveB": [
+        "biguzera",
+        "nqz",
+        "piriajr",
+        "snow",
+        "vsm"
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Inferno",
+          13,
+          10
+        ],
+        [
+          "Mirage",
+          13,
+          9
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389970/g2-vs-pain-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389969,
+      "day": "2026-02-16",
+      "round": 3,
+      "bo": 3,
+      "a": "FURIA",
+      "b": "Falcons",
+      "fiveA": [
+        "FalleN",
+        "KSCERATO",
+        "molodoy",
+        "YEKINDAR",
+        "yuurih"
+      ],
+      "fiveB": [
+        "kyousuke",
+        "kyxsan",
+        "m0NESY",
+        "NiKo",
+        "TeSeS"
+      ],
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Mirage",
+          16,
+          14
+        ],
+        [
+          "Inferno",
+          4,
+          13
+        ],
+        [
+          "Anubis",
+          11,
+          13
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389969/furia-vs-falcons-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389971,
+      "day": "2026-02-17",
+      "round": 4,
+      "bo": 3,
+      "a": "MOUZ",
+      "b": "FUT",
+      "fiveA": [
+        "Brollan",
+        "Jimpphat",
+        "Spinx",
+        "torzsi",
+        "xertioN"
+      ],
+      "fiveB": [
+        "cmtry",
+        "dem0n",
+        "dziugss",
+        "Krabeni",
+        "lauNX"
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          8
+        ],
+        [
+          "Overpass",
+          16,
+          14
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389971/mouz-vs-fut-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389972,
+      "day": "2026-02-17",
+      "round": 4,
+      "bo": 3,
+      "a": "FaZe",
+      "b": "Astralis",
+      "fiveA": [
+        "broky",
+        "frozen",
+        "jcobbb",
+        "karrigan",
+        "Twistzz"
+      ],
+      "fiveB": [
+        "HooXi",
+        "jabbi",
+        "phzy",
+        "ryu",
+        "Staehr"
+      ],
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Ancient",
+          5,
+          13
+        ],
+        [
+          "Mirage",
+          9,
+          13
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389972/faze-vs-astralis-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389974,
+      "day": "2026-02-17",
+      "round": 4,
+      "bo": 3,
+      "a": "B8",
+      "b": "Aurora",
+      "fiveA": [
+        "alex666",
+        "esenthial",
+        "kensizor",
+        "npl",
+        "s1zzi"
+      ],
+      "fiveB": [
+        "MAJ3R",
+        "soulfly",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Overpass",
+          10,
+          13
+        ],
+        [
+          "Mirage",
+          13,
+          16
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389974/b8-vs-aurora-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389973,
+      "day": "2026-02-17",
+      "round": 4,
+      "bo": 3,
+      "a": "Natus Vincere",
+      "b": "The MongolZ",
+      "fiveA": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "makazze",
+        "w0nderful"
+      ],
+      "fiveB": [
+        "910",
+        "bLitz",
+        "cobrazera",
+        "mzinho",
+        "Techno"
+      ],
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Inferno",
+          13,
+          3
+        ],
+        [
+          "Nuke",
+          7,
+          13
+        ],
+        [
+          "Mirage",
+          11,
+          13
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389973/natus-vincere-vs-the-mongolz-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389976,
+      "day": "2026-02-17",
+      "round": 4,
+      "bo": 3,
+      "a": "G2",
+      "b": "HEROIC",
+      "fiveA": [
+        "HeavyGod",
+        "huNter-",
+        "malbsMd",
+        "MATYS",
+        "SunPayus"
+      ],
+      "fiveB": [
+        "Chr1zN",
+        "nilo",
+        "susp",
+        "xfl0ud",
+        "yxngstxr"
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          6
+        ],
+        [
+          "Ancient",
+          13,
+          9
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389976/g2-vs-heroic-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389975,
+      "day": "2026-02-17",
+      "round": 4,
+      "bo": 3,
+      "a": "FURIA",
+      "b": "PARIVISION",
+      "fiveA": [
+        "FalleN",
+        "KSCERATO",
+        "molodoy",
+        "YEKINDAR",
+        "yuurih"
+      ],
+      "fiveB": [
+        "BELCHONOKK",
+        "Jame",
+        "nota",
+        "xiELO",
+        "zweih"
+      ],
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Dust2",
+          16,
+          14
+        ],
+        [
+          "Inferno",
+          14,
+          16
+        ],
+        [
+          "Mirage",
+          13,
+          8
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389975/furia-vs-parivision-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389977,
+      "day": "2026-02-18",
+      "round": 5,
+      "bo": 3,
+      "a": "Aurora",
+      "b": "Astralis",
+      "fiveA": [
+        "MAJ3R",
+        "soulfly",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "fiveB": [
+        "HooXi",
+        "jabbi",
+        "phzy",
+        "ryu",
+        "Staehr"
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Overpass",
+          13,
+          7
+        ],
+        [
+          "Dust2",
+          13,
+          11
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389977/aurora-vs-astralis-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389978,
+      "day": "2026-02-18",
+      "round": 5,
+      "bo": 3,
+      "a": "FUT",
+      "b": "PARIVISION",
+      "fiveA": [
+        "cmtry",
+        "dem0n",
+        "dziugss",
+        "Krabeni",
+        "lauNX"
+      ],
+      "fiveB": [
+        "BELCHONOKK",
+        "Jame",
+        "nota",
+        "xiELO",
+        "zweih"
+      ],
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Dust2",
+          17,
+          19
+        ],
+        [
+          "Mirage",
+          13,
+          10
+        ],
+        [
+          "Ancient",
+          10,
+          13
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389978/fut-vs-parivision-pgl-cluj-napoca-2026"
+    },
+    {
+      "id": 2389979,
+      "day": "2026-02-18",
+      "round": 5,
+      "bo": 3,
+      "a": "Natus Vincere",
+      "b": "G2",
+      "fiveA": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "makazze",
+        "w0nderful"
+      ],
+      "fiveB": [
+        "HeavyGod",
+        "huNter-",
+        "malbsMd",
+        "MATYS",
+        "SunPayus"
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Dust2",
+          13,
+          7
+        ],
+        [
+          "Ancient",
+          13,
+          9
+        ]
+      ],
+      "sourceUrl": "https://www.hltv.org/matches/2389979/natus-vincere-vs-g2-pgl-cluj-napoca-2026"
+    }
+  ],
+  "pairingReplay": [
+    {
+      "round": 1,
+      "expected": 8,
+      "matched": 8
+    },
+    {
+      "round": 2,
+      "expected": 8,
+      "matched": 8
+    },
+    {
+      "round": 3,
+      "expected": 8,
+      "matched": 8
+    },
+    {
+      "round": 4,
+      "expected": 6,
+      "matched": 6
+    },
+    {
+      "round": 5,
+      "expected": 3,
+      "matched": 3
+    }
+  ],
+  "archiveSource": "https://raw.githubusercontent.com/zugzugs/hltvy/1a00ba2893a63646f0d940e626b6da95d342a187/results.json.gz",
+  "archiveSha256": "750b0da45142fc797eddb708698d14d269237e59784d6a1d066eddba0ba31551"
+}

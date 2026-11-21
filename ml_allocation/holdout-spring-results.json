@@ -1,0 +1,3143 @@
+{
+  "id": "elisa-spring-2024",
+  "matches": [
+    {
+      "id": 2371202,
+      "day": "2024-04-08",
+      "officialScheduleDay": "2024-04-08",
+      "round": 1,
+      "bo": 3,
+      "a": 3,
+      "b": 12,
+      "w": 3,
+      "l": 12,
+      "teamA": "SINNERS",
+      "teamB": "ALTERNATE aTTaX",
+      "played": true,
+      "score": [
+        2,
+        0
+      ],
+      "sourceScore": [
+        2,
+        0
+      ],
+      "fiveA": [
+        "AJTT",
+        "beastik",
+        "NEOFRAG",
+        "oskar",
+        "SHOCK"
+      ],
+      "fiveB": [
+        "ArroW",
+        "awzek",
+        "FreeZe",
+        "hyped",
+        "skyye"
+      ],
+      "maps": [
+        {
+          "name": "Inferno",
+          "score": [
+            13,
+            10
+          ],
+          "fiveA": [
+            "AJTT",
+            "beastik",
+            "NEOFRAG",
+            "oskar",
+            "SHOCK"
+          ],
+          "fiveB": [
+            "ArroW",
+            "awzek",
+            "FreeZe",
+            "hyped",
+            "skyye"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Overpass",
+          "score": [
+            13,
+            11
+          ],
+          "fiveA": [
+            "AJTT",
+            "beastik",
+            "NEOFRAG",
+            "oskar",
+            "SHOCK"
+          ],
+          "fiveB": [
+            "ArroW",
+            "awzek",
+            "FreeZe",
+            "hyped",
+            "skyye"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371202/sinners-vs-alternate-attax-elisa-invitational-spring-2024",
+      "officialRow": 1,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371203,
+      "day": "2024-04-08",
+      "officialScheduleDay": "2024-04-08",
+      "round": 1,
+      "bo": 3,
+      "a": 7,
+      "b": 8,
+      "w": 8,
+      "l": 7,
+      "teamA": "B8",
+      "teamB": "MOUZ NXT",
+      "played": true,
+      "score": [
+        1,
+        2
+      ],
+      "sourceScore": [
+        1,
+        2
+      ],
+      "fiveA": [
+        "baz",
+        "cptkurtka023",
+        "esenthial",
+        "headtr1ck",
+        "npl"
+      ],
+      "fiveB": [
+        "Burmylov",
+        "Chr1zN",
+        "Neityu",
+        "PR",
+        "sirah"
+      ],
+      "maps": [
+        {
+          "name": "Ancient",
+          "score": [
+            3,
+            13
+          ],
+          "fiveA": [
+            "baz",
+            "cptkurtka023",
+            "esenthial",
+            "headtr1ck",
+            "npl"
+          ],
+          "fiveB": [
+            "Burmylov",
+            "Chr1zN",
+            "Neityu",
+            "PR",
+            "sirah"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Anubis",
+          "score": [
+            16,
+            14
+          ],
+          "fiveA": [
+            "baz",
+            "cptkurtka023",
+            "esenthial",
+            "headtr1ck",
+            "npl"
+          ],
+          "fiveB": [
+            "Burmylov",
+            "Chr1zN",
+            "Neityu",
+            "PR",
+            "sirah"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Inferno",
+          "score": [
+            6,
+            13
+          ],
+          "fiveA": [
+            "baz",
+            "cptkurtka023",
+            "esenthial",
+            "headtr1ck",
+            "npl"
+          ],
+          "fiveB": [
+            "Burmylov",
+            "Chr1zN",
+            "Neityu",
+            "PR",
+            "sirah"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371203/b8-vs-mouz-nxt-elisa-invitational-spring-2024",
+      "officialRow": 2,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371204,
+      "day": "2024-04-09",
+      "officialScheduleDay": "2024-04-09",
+      "round": 1,
+      "bo": 3,
+      "a": 0,
+      "b": 15,
+      "w": 0,
+      "l": 15,
+      "teamA": "ex-Preasy",
+      "teamB": "ECF",
+      "played": true,
+      "score": [
+        2,
+        0
+      ],
+      "sourceScore": [
+        2,
+        0
+      ],
+      "fiveA": [
+        "Altekz",
+        "Kristou",
+        "refrezh",
+        "roeJ",
+        "TMB"
+      ],
+      "fiveB": [
+        "amster",
+        "byr9",
+        "kensizor",
+        "Polbandana",
+        "s4ltovsk1yy"
+      ],
+      "maps": [
+        {
+          "name": "Overpass",
+          "score": [
+            13,
+            5
+          ],
+          "fiveA": [
+            "Altekz",
+            "Kristou",
+            "refrezh",
+            "roeJ",
+            "TMB"
+          ],
+          "fiveB": [
+            "amster",
+            "byr9",
+            "kensizor",
+            "Polbandana",
+            "s4ltovsk1yy"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Inferno",
+          "score": [
+            13,
+            4
+          ],
+          "fiveA": [
+            "Altekz",
+            "Kristou",
+            "refrezh",
+            "roeJ",
+            "TMB"
+          ],
+          "fiveB": [
+            "amster",
+            "byr9",
+            "kensizor",
+            "Polbandana",
+            "s4ltovsk1yy"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371204/ex-preasy-vs-ecf-elisa-invitational-spring-2024",
+      "officialRow": 3,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371205,
+      "day": "2024-04-09",
+      "officialScheduleDay": "2024-04-09",
+      "round": 1,
+      "bo": 3,
+      "a": 5,
+      "b": 10,
+      "w": 10,
+      "l": 5,
+      "teamA": "HAVU",
+      "teamB": "BLEED",
+      "played": true,
+      "score": [
+        0,
+        2
+      ],
+      "sourceScore": [
+        0,
+        2
+      ],
+      "fiveA": [
+        "Airax",
+        "Jelo",
+        "ottoNd",
+        "puuha",
+        "uli"
+      ],
+      "fiveB": [
+        "CeRq",
+        "CYPHER",
+        "faveN",
+        "hampus",
+        "VLDN"
+      ],
+      "maps": [
+        {
+          "name": "Anubis",
+          "score": [
+            10,
+            13
+          ],
+          "fiveA": [
+            "Airax",
+            "Jelo",
+            "ottoNd",
+            "puuha",
+            "uli"
+          ],
+          "fiveB": [
+            "CeRq",
+            "CYPHER",
+            "faveN",
+            "hampus",
+            "VLDN"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Ancient",
+          "score": [
+            3,
+            13
+          ],
+          "fiveA": [
+            "Airax",
+            "Jelo",
+            "ottoNd",
+            "puuha",
+            "uli"
+          ],
+          "fiveB": [
+            "CeRq",
+            "CYPHER",
+            "faveN",
+            "hampus",
+            "VLDN"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371205/havu-vs-bleed-elisa-invitational-spring-2024",
+      "officialRow": 4,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371206,
+      "day": "2024-04-10",
+      "officialScheduleDay": "2024-04-10",
+      "round": 1,
+      "bo": 3,
+      "a": 4,
+      "b": 11,
+      "w": 11,
+      "l": 4,
+      "teamA": "EYEBALLERS",
+      "teamB": "Permitta",
+      "played": true,
+      "score": [
+        0,
+        2
+      ],
+      "sourceScore": [
+        0,
+        2
+      ],
+      "fiveA": [
+        "Golden",
+        "HEAP",
+        "JW",
+        "Peppzor",
+        "Sapec"
+      ],
+      "fiveB": [
+        "bnox",
+        "maaryy",
+        "mASKED",
+        "morelz",
+        "Vegi"
+      ],
+      "maps": [
+        {
+          "name": "Ancient",
+          "score": [
+            6,
+            13
+          ],
+          "fiveA": [
+            "Golden",
+            "HEAP",
+            "JW",
+            "Peppzor",
+            "Sapec"
+          ],
+          "fiveB": [
+            "bnox",
+            "maaryy",
+            "mASKED",
+            "morelz",
+            "Vegi"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Overpass",
+          "score": [
+            3,
+            13
+          ],
+          "fiveA": [
+            "Golden",
+            "HEAP",
+            "JW",
+            "Peppzor",
+            "Sapec"
+          ],
+          "fiveB": [
+            "bnox",
+            "maaryy",
+            "mASKED",
+            "morelz",
+            "Vegi"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371206/eyeballers-vs-permitta-elisa-invitational-spring-2024",
+      "officialRow": 5,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371207,
+      "day": "2024-04-10",
+      "officialScheduleDay": "2024-04-10",
+      "round": 1,
+      "bo": 3,
+      "a": 1,
+      "b": 14,
+      "w": 1,
+      "l": 14,
+      "teamA": "ECSTATIC",
+      "teamB": "Endpoint",
+      "played": false,
+      "score": [
+        2,
+        0
+      ],
+      "sourceScore": [
+        1,
+        0
+      ],
+      "fiveA": null,
+      "fiveB": null,
+      "maps": [],
+      "coreEligible": false,
+      "sourceUrl": "https://hltv.org/matches/2371207/ecstatic-vs-endpoint-elisa-invitational-spring-2024",
+      "officialRow": 6,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371208,
+      "day": "2024-04-11",
+      "officialScheduleDay": "2024-04-11",
+      "round": 1,
+      "bo": 3,
+      "a": 2,
+      "b": 13,
+      "w": 13,
+      "l": 2,
+      "teamA": "Enterprise",
+      "teamB": "Espionage",
+      "played": true,
+      "score": [
+        1,
+        2
+      ],
+      "sourceScore": [
+        1,
+        2
+      ],
+      "fiveA": [
+        "bajmi",
+        "Demho",
+        "ex1st",
+        "fr3nd",
+        "TOAO"
+      ],
+      "fiveB": [
+        "Cabbi",
+        "IceBerg",
+        "kwezz",
+        "Lucky",
+        "MistR"
+      ],
+      "maps": [
+        {
+          "name": "Nuke",
+          "score": [
+            6,
+            13
+          ],
+          "fiveA": [
+            "bajmi",
+            "Demho",
+            "ex1st",
+            "fr3nd",
+            "TOAO"
+          ],
+          "fiveB": [
+            "Cabbi",
+            "IceBerg",
+            "kwezz",
+            "Lucky",
+            "MistR"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Inferno",
+          "score": [
+            16,
+            13
+          ],
+          "fiveA": [
+            "bajmi",
+            "Demho",
+            "ex1st",
+            "fr3nd",
+            "TOAO"
+          ],
+          "fiveB": [
+            "Cabbi",
+            "IceBerg",
+            "kwezz",
+            "Lucky",
+            "MistR"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Vertigo",
+          "score": [
+            9,
+            13
+          ],
+          "fiveA": [
+            "bajmi",
+            "Demho",
+            "ex1st",
+            "fr3nd",
+            "TOAO"
+          ],
+          "fiveB": [
+            "Cabbi",
+            "IceBerg",
+            "kwezz",
+            "Lucky",
+            "MistR"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371208/enterprise-vs-espionage-elisa-invitational-spring-2024",
+      "officialRow": 7,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371209,
+      "day": "2024-04-11",
+      "officialScheduleDay": "2024-04-11",
+      "round": 1,
+      "bo": 3,
+      "a": 6,
+      "b": 9,
+      "w": 6,
+      "l": 9,
+      "teamA": "Alliance",
+      "teamB": "Zero Tenacity",
+      "played": true,
+      "score": [
+        2,
+        0
+      ],
+      "sourceScore": [
+        2,
+        0
+      ],
+      "fiveA": [
+        "avid",
+        "b0denmaster",
+        "PlesseN",
+        "robiin",
+        "twist"
+      ],
+      "fiveB": [
+        "aVN",
+        "brutmonster",
+        "Cjoffo",
+        "nEMANHA",
+        "simke"
+      ],
+      "maps": [
+        {
+          "name": "Anubis",
+          "score": [
+            13,
+            7
+          ],
+          "fiveA": [
+            "avid",
+            "b0denmaster",
+            "PlesseN",
+            "robiin",
+            "twist"
+          ],
+          "fiveB": [
+            "aVN",
+            "brutmonster",
+            "Cjoffo",
+            "nEMANHA",
+            "simke"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Inferno",
+          "score": [
+            13,
+            10
+          ],
+          "fiveA": [
+            "avid",
+            "b0denmaster",
+            "PlesseN",
+            "robiin",
+            "twist"
+          ],
+          "fiveB": [
+            "aVN",
+            "brutmonster",
+            "Cjoffo",
+            "nEMANHA",
+            "simke"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371209/alliance-vs-zero-tenacity-elisa-invitational-spring-2024",
+      "officialRow": 8,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371364,
+      "day": "2024-04-15",
+      "officialScheduleDay": "2024-04-15",
+      "round": 2,
+      "bo": 3,
+      "a": 6,
+      "b": 8,
+      "w": 8,
+      "l": 6,
+      "teamA": "Alliance",
+      "teamB": "MOUZ NXT",
+      "played": true,
+      "score": [
+        0,
+        2
+      ],
+      "sourceScore": [
+        0,
+        2
+      ],
+      "fiveA": [
+        "avid",
+        "b0denmaster",
+        "PlesseN",
+        "robiin",
+        "twist"
+      ],
+      "fiveB": [
+        "Burmylov",
+        "Chr1zN",
+        "Neityu",
+        "PR",
+        "sirah"
+      ],
+      "maps": [
+        {
+          "name": "Vertigo",
+          "score": [
+            21,
+            25
+          ],
+          "fiveA": [
+            "avid",
+            "b0denmaster",
+            "PlesseN",
+            "robiin",
+            "twist"
+          ],
+          "fiveB": [
+            "Burmylov",
+            "Chr1zN",
+            "Neityu",
+            "PR",
+            "sirah"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Inferno",
+          "score": [
+            3,
+            13
+          ],
+          "fiveA": [
+            "avid",
+            "b0denmaster",
+            "PlesseN",
+            "robiin",
+            "twist"
+          ],
+          "fiveB": [
+            "Burmylov",
+            "Chr1zN",
+            "Neityu",
+            "PR",
+            "sirah"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371364/alliance-vs-mouz-nxt-elisa-invitational-spring-2024",
+      "officialRow": 9,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371365,
+      "day": "2024-04-15",
+      "officialScheduleDay": "2024-04-15",
+      "round": 2,
+      "bo": 3,
+      "a": 0,
+      "b": 13,
+      "w": 13,
+      "l": 0,
+      "teamA": "ex-Preasy",
+      "teamB": "Sashi",
+      "played": true,
+      "score": [
+        1,
+        2
+      ],
+      "sourceScore": [
+        1,
+        2
+      ],
+      "fiveA": [
+        "Altekz",
+        "Kristou",
+        "refrezh",
+        "roeJ",
+        "TMB"
+      ],
+      "fiveB": [
+        "Cabbi",
+        "IceBerg",
+        "kwezz",
+        "Lucky",
+        "MistR"
+      ],
+      "maps": [
+        {
+          "name": "Nuke",
+          "score": [
+            13,
+            11
+          ],
+          "fiveA": [
+            "Altekz",
+            "Kristou",
+            "refrezh",
+            "roeJ",
+            "TMB"
+          ],
+          "fiveB": [
+            "Cabbi",
+            "IceBerg",
+            "kwezz",
+            "Lucky",
+            "MistR"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Overpass",
+          "score": [
+            10,
+            13
+          ],
+          "fiveA": [
+            "Altekz",
+            "Kristou",
+            "refrezh",
+            "roeJ",
+            "TMB"
+          ],
+          "fiveB": [
+            "Cabbi",
+            "IceBerg",
+            "kwezz",
+            "Lucky",
+            "MistR"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Anubis",
+          "score": [
+            6,
+            13
+          ],
+          "fiveA": [
+            "Altekz",
+            "Kristou",
+            "refrezh",
+            "roeJ",
+            "TMB"
+          ],
+          "fiveB": [
+            "Cabbi",
+            "IceBerg",
+            "kwezz",
+            "Lucky",
+            "MistR"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371365/ex-preasy-vs-sashi-elisa-invitational-spring-2024",
+      "officialRow": 10,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371366,
+      "day": "2024-04-16",
+      "officialScheduleDay": "2024-04-16",
+      "round": 2,
+      "bo": 3,
+      "a": 3,
+      "b": 10,
+      "w": 10,
+      "l": 3,
+      "teamA": "SINNERS",
+      "teamB": "BLEED",
+      "played": true,
+      "score": [
+        0,
+        2
+      ],
+      "sourceScore": [
+        0,
+        2
+      ],
+      "fiveA": [
+        "AJTT",
+        "beastik",
+        "NEOFRAG",
+        "oskar",
+        "SHOCK"
+      ],
+      "fiveB": [
+        "CeRq",
+        "CYPHER",
+        "faveN",
+        "hampus",
+        "VLDN"
+      ],
+      "maps": [
+        {
+          "name": "Inferno",
+          "score": [
+            13,
+            16
+          ],
+          "fiveA": [
+            "AJTT",
+            "beastik",
+            "NEOFRAG",
+            "oskar",
+            "SHOCK"
+          ],
+          "fiveB": [
+            "CeRq",
+            "CYPHER",
+            "faveN",
+            "hampus",
+            "VLDN"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Overpass",
+          "score": [
+            4,
+            13
+          ],
+          "fiveA": [
+            "AJTT",
+            "beastik",
+            "NEOFRAG",
+            "oskar",
+            "SHOCK"
+          ],
+          "fiveB": [
+            "CeRq",
+            "CYPHER",
+            "faveN",
+            "hampus",
+            "VLDN"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371366/sinners-vs-bleed-elisa-invitational-spring-2024",
+      "officialRow": 11,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371367,
+      "day": "2024-04-16",
+      "officialScheduleDay": "2024-04-16",
+      "round": 2,
+      "bo": 3,
+      "a": 1,
+      "b": 11,
+      "w": 1,
+      "l": 11,
+      "teamA": "Gaimin Gladiators",
+      "teamB": "Permitta",
+      "played": true,
+      "score": [
+        2,
+        1
+      ],
+      "sourceScore": [
+        2,
+        1
+      ],
+      "fiveA": [
+        "kraghen",
+        "Nodios",
+        "Patti",
+        "Queenix",
+        "salazar"
+      ],
+      "fiveB": [
+        "bnox",
+        "maaryy",
+        "mASKED",
+        "morelz",
+        "Vegi"
+      ],
+      "maps": [
+        {
+          "name": "Ancient",
+          "score": [
+            10,
+            13
+          ],
+          "fiveA": [
+            "kraghen",
+            "Nodios",
+            "Patti",
+            "Queenix",
+            "salazar"
+          ],
+          "fiveB": [
+            "bnox",
+            "maaryy",
+            "mASKED",
+            "morelz",
+            "Vegi"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Anubis",
+          "score": [
+            13,
+            6
+          ],
+          "fiveA": [
+            "kraghen",
+            "Nodios",
+            "Patti",
+            "Queenix",
+            "salazar"
+          ],
+          "fiveB": [
+            "bnox",
+            "maaryy",
+            "mASKED",
+            "morelz",
+            "Vegi"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Overpass",
+          "score": [
+            13,
+            11
+          ],
+          "fiveA": [
+            "kraghen",
+            "Nodios",
+            "Patti",
+            "Queenix",
+            "salazar"
+          ],
+          "fiveB": [
+            "bnox",
+            "maaryy",
+            "mASKED",
+            "morelz",
+            "Vegi"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371367/gaimin-gladiators-vs-permitta-elisa-invitational-spring-2024",
+      "officialRow": 12,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371369,
+      "day": "2024-04-16",
+      "officialScheduleDay": "2024-04-17",
+      "round": 2,
+      "bo": 3,
+      "a": 2,
+      "b": 15,
+      "w": 15,
+      "l": 2,
+      "teamA": "Enterprise",
+      "teamB": "ECF",
+      "played": false,
+      "score": [
+        0,
+        2
+      ],
+      "sourceScore": [
+        0,
+        1
+      ],
+      "fiveA": null,
+      "fiveB": null,
+      "maps": [],
+      "coreEligible": false,
+      "sourceUrl": "https://hltv.org/matches/2371369/enterprise-vs-ecf-elisa-invitational-spring-2024",
+      "officialRow": 14,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371368,
+      "day": "2024-04-17",
+      "officialScheduleDay": "2024-04-17",
+      "round": 2,
+      "bo": 3,
+      "a": 4,
+      "b": 14,
+      "w": 14,
+      "l": 4,
+      "teamA": "EYEBALLERS",
+      "teamB": "Endpoint",
+      "played": true,
+      "score": [
+        0,
+        2
+      ],
+      "sourceScore": [
+        0,
+        2
+      ],
+      "fiveA": [
+        "Golden",
+        "HEAP",
+        "JW",
+        "Peppzor",
+        "Sapec"
+      ],
+      "fiveB": [
+        "AZUWU",
+        "cej0t",
+        "CRUC1AL",
+        "MiGHTYMAX",
+        "Surreal"
+      ],
+      "maps": [
+        {
+          "name": "Ancient",
+          "score": [
+            7,
+            13
+          ],
+          "fiveA": [
+            "Golden",
+            "HEAP",
+            "JW",
+            "Peppzor",
+            "Sapec"
+          ],
+          "fiveB": [
+            "AZUWU",
+            "cej0t",
+            "CRUC1AL",
+            "MiGHTYMAX",
+            "Surreal"
+          ],
+          "overlapA": 5,
+          "overlapB": 3
+        },
+        {
+          "name": "Overpass",
+          "score": [
+            10,
+            13
+          ],
+          "fiveA": [
+            "Golden",
+            "HEAP",
+            "JW",
+            "Peppzor",
+            "Sapec"
+          ],
+          "fiveB": [
+            "AZUWU",
+            "cej0t",
+            "CRUC1AL",
+            "MiGHTYMAX",
+            "Surreal"
+          ],
+          "overlapA": 5,
+          "overlapB": 3
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371368/eyeballers-vs-endpoint-elisa-invitational-spring-2024",
+      "officialRow": 13,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371370,
+      "day": "2024-04-18",
+      "officialScheduleDay": "2024-04-18",
+      "round": 2,
+      "bo": 3,
+      "a": 7,
+      "b": 9,
+      "w": 7,
+      "l": 9,
+      "teamA": "B8",
+      "teamB": "Zero Tenacity",
+      "played": true,
+      "score": [
+        2,
+        0
+      ],
+      "sourceScore": [
+        2,
+        0
+      ],
+      "fiveA": [
+        "alex666",
+        "cptkurtka023",
+        "esenthial",
+        "headtr1ck",
+        "npl"
+      ],
+      "fiveB": [
+        "aVN",
+        "brutmonster",
+        "Cjoffo",
+        "nEMANHA",
+        "simke"
+      ],
+      "maps": [
+        {
+          "name": "Inferno",
+          "score": [
+            13,
+            5
+          ],
+          "fiveA": [
+            "alex666",
+            "cptkurtka023",
+            "esenthial",
+            "headtr1ck",
+            "npl"
+          ],
+          "fiveB": [
+            "aVN",
+            "brutmonster",
+            "Cjoffo",
+            "nEMANHA",
+            "simke"
+          ],
+          "overlapA": 4,
+          "overlapB": 5
+        },
+        {
+          "name": "Mirage",
+          "score": [
+            13,
+            7
+          ],
+          "fiveA": [
+            "alex666",
+            "cptkurtka023",
+            "esenthial",
+            "headtr1ck",
+            "npl"
+          ],
+          "fiveB": [
+            "aVN",
+            "brutmonster",
+            "Cjoffo",
+            "nEMANHA",
+            "simke"
+          ],
+          "overlapA": 4,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371370/b8-vs-zero-tenacity-elisa-invitational-spring-2024",
+      "officialRow": 15,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371371,
+      "day": "2024-04-18",
+      "officialScheduleDay": "2024-04-18",
+      "round": 2,
+      "bo": 3,
+      "a": 5,
+      "b": 12,
+      "w": 5,
+      "l": 12,
+      "teamA": "HAVU",
+      "teamB": "ALTERNATE aTTaX",
+      "played": true,
+      "score": [
+        2,
+        0
+      ],
+      "sourceScore": [
+        2,
+        0
+      ],
+      "fiveA": [
+        "Airax",
+        "Jelo",
+        "ottoNd",
+        "puuha",
+        "uli"
+      ],
+      "fiveB": [
+        "ArroW",
+        "awzek",
+        "FreeZe",
+        "hyped",
+        "skyye"
+      ],
+      "maps": [
+        {
+          "name": "Vertigo",
+          "score": [
+            13,
+            9
+          ],
+          "fiveA": [
+            "Airax",
+            "Jelo",
+            "ottoNd",
+            "puuha",
+            "uli"
+          ],
+          "fiveB": [
+            "ArroW",
+            "awzek",
+            "FreeZe",
+            "hyped",
+            "skyye"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Mirage",
+          "score": [
+            13,
+            11
+          ],
+          "fiveA": [
+            "Airax",
+            "Jelo",
+            "ottoNd",
+            "puuha",
+            "uli"
+          ],
+          "fiveB": [
+            "ArroW",
+            "awzek",
+            "FreeZe",
+            "hyped",
+            "skyye"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371371/havu-vs-alternate-attax-elisa-invitational-spring-2024",
+      "officialRow": 16,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371602,
+      "day": "2024-04-22",
+      "officialScheduleDay": "2024-04-22",
+      "round": 3,
+      "bo": 3,
+      "a": 0,
+      "b": 11,
+      "w": 11,
+      "l": 0,
+      "teamA": "ex-Preasy",
+      "teamB": "Permitta",
+      "played": true,
+      "score": [
+        0,
+        2
+      ],
+      "sourceScore": [
+        0,
+        2
+      ],
+      "fiveA": [
+        "b0RUP",
+        "Kristou",
+        "niko",
+        "refrezh",
+        "TMB"
+      ],
+      "fiveB": [
+        "bnox",
+        "maaryy",
+        "mASKED",
+        "morelz",
+        "Vegi"
+      ],
+      "maps": [
+        {
+          "name": "Ancient",
+          "score": [
+            8,
+            13
+          ],
+          "fiveA": [
+            "b0RUP",
+            "Kristou",
+            "niko",
+            "refrezh",
+            "TMB"
+          ],
+          "fiveB": [
+            "bnox",
+            "maaryy",
+            "mASKED",
+            "morelz",
+            "Vegi"
+          ],
+          "overlapA": 3,
+          "overlapB": 5
+        },
+        {
+          "name": "Anubis",
+          "score": [
+            13,
+            16
+          ],
+          "fiveA": [
+            "b0RUP",
+            "Kristou",
+            "niko",
+            "refrezh",
+            "TMB"
+          ],
+          "fiveB": [
+            "bnox",
+            "maaryy",
+            "mASKED",
+            "morelz",
+            "Vegi"
+          ],
+          "overlapA": 3,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371602/ex-preasy-vs-permitta-elisa-invitational-spring-2024",
+      "officialRow": 17,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371603,
+      "day": "2024-04-22",
+      "officialScheduleDay": "2024-04-22",
+      "round": 3,
+      "bo": 3,
+      "a": 6,
+      "b": 7,
+      "w": 6,
+      "l": 7,
+      "teamA": "Alliance",
+      "teamB": "B8",
+      "played": true,
+      "score": [
+        2,
+        0
+      ],
+      "sourceScore": [
+        2,
+        0
+      ],
+      "fiveA": [
+        "avid",
+        "b0denmaster",
+        "PlesseN",
+        "robiin",
+        "twist"
+      ],
+      "fiveB": [
+        "alex666",
+        "cptkurtka023",
+        "esenthial",
+        "headtr1ck",
+        "npl"
+      ],
+      "maps": [
+        {
+          "name": "Mirage",
+          "score": [
+            13,
+            10
+          ],
+          "fiveA": [
+            "avid",
+            "b0denmaster",
+            "PlesseN",
+            "robiin",
+            "twist"
+          ],
+          "fiveB": [
+            "alex666",
+            "cptkurtka023",
+            "esenthial",
+            "headtr1ck",
+            "npl"
+          ],
+          "overlapA": 5,
+          "overlapB": 4
+        },
+        {
+          "name": "Inferno",
+          "score": [
+            13,
+            11
+          ],
+          "fiveA": [
+            "avid",
+            "b0denmaster",
+            "PlesseN",
+            "robiin",
+            "twist"
+          ],
+          "fiveB": [
+            "alex666",
+            "cptkurtka023",
+            "esenthial",
+            "headtr1ck",
+            "npl"
+          ],
+          "overlapA": 5,
+          "overlapB": 4
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371603/alliance-vs-b8-elisa-invitational-spring-2024",
+      "officialRow": 18,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371600,
+      "day": "2024-04-23",
+      "officialScheduleDay": "2024-04-23",
+      "round": 3,
+      "bo": 3,
+      "a": 2,
+      "b": 12,
+      "w": 12,
+      "l": 2,
+      "teamA": "Enterprise",
+      "teamB": "ALTERNATE aTTaX",
+      "played": true,
+      "score": [
+        1,
+        2
+      ],
+      "sourceScore": [
+        1,
+        2
+      ],
+      "fiveA": [
+        "bajmi",
+        "Demho",
+        "ex1st",
+        "fr3nd",
+        "TOAO"
+      ],
+      "fiveB": [
+        "ArroW",
+        "FreeZe",
+        "hyped",
+        "PerX",
+        "skyye"
+      ],
+      "maps": [
+        {
+          "name": "Anubis",
+          "score": [
+            9,
+            13
+          ],
+          "fiveA": [
+            "bajmi",
+            "Demho",
+            "ex1st",
+            "fr3nd",
+            "TOAO"
+          ],
+          "fiveB": [
+            "ArroW",
+            "FreeZe",
+            "hyped",
+            "PerX",
+            "skyye"
+          ],
+          "overlapA": 5,
+          "overlapB": 4
+        },
+        {
+          "name": "Mirage",
+          "score": [
+            13,
+            9
+          ],
+          "fiveA": [
+            "bajmi",
+            "Demho",
+            "ex1st",
+            "fr3nd",
+            "TOAO"
+          ],
+          "fiveB": [
+            "ArroW",
+            "FreeZe",
+            "hyped",
+            "PerX",
+            "skyye"
+          ],
+          "overlapA": 5,
+          "overlapB": 4
+        },
+        {
+          "name": "Vertigo",
+          "score": [
+            11,
+            13
+          ],
+          "fiveA": [
+            "bajmi",
+            "Demho",
+            "ex1st",
+            "fr3nd",
+            "TOAO"
+          ],
+          "fiveB": [
+            "ArroW",
+            "FreeZe",
+            "hyped",
+            "PerX",
+            "skyye"
+          ],
+          "overlapA": 5,
+          "overlapB": 4
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371600/enterprise-vs-alternate-attax-elisa-invitational-spring-2024",
+      "officialRow": 19,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371606,
+      "day": "2024-04-23",
+      "officialScheduleDay": "2024-04-23",
+      "round": 3,
+      "bo": 3,
+      "a": 1,
+      "b": 13,
+      "w": 13,
+      "l": 1,
+      "teamA": "Gaimin Gladiators",
+      "teamB": "Sashi",
+      "played": true,
+      "score": [
+        0,
+        2
+      ],
+      "sourceScore": [
+        0,
+        2
+      ],
+      "fiveA": [
+        "kraghen",
+        "Nodios",
+        "Patti",
+        "Queenix",
+        "salazar"
+      ],
+      "fiveB": [
+        "Cabbi",
+        "IceBerg",
+        "kwezz",
+        "Lucky",
+        "MistR"
+      ],
+      "maps": [
+        {
+          "name": "Nuke",
+          "score": [
+            9,
+            13
+          ],
+          "fiveA": [
+            "kraghen",
+            "Nodios",
+            "Patti",
+            "Queenix",
+            "salazar"
+          ],
+          "fiveB": [
+            "Cabbi",
+            "IceBerg",
+            "kwezz",
+            "Lucky",
+            "MistR"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Anubis",
+          "score": [
+            8,
+            13
+          ],
+          "fiveA": [
+            "kraghen",
+            "Nodios",
+            "Patti",
+            "Queenix",
+            "salazar"
+          ],
+          "fiveB": [
+            "Cabbi",
+            "IceBerg",
+            "kwezz",
+            "Lucky",
+            "MistR"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371606/gaimin-gladiators-vs-sashi-elisa-invitational-spring-2024",
+      "officialRow": 20,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371607,
+      "day": "2024-04-23",
+      "officialScheduleDay": "2024-04-24",
+      "round": 3,
+      "bo": 3,
+      "a": 8,
+      "b": 10,
+      "w": 8,
+      "l": 10,
+      "teamA": "MOUZ NXT",
+      "teamB": "BLEED",
+      "played": false,
+      "score": [
+        2,
+        0
+      ],
+      "sourceScore": [
+        1,
+        0
+      ],
+      "fiveA": null,
+      "fiveB": null,
+      "maps": [],
+      "coreEligible": false,
+      "sourceUrl": "https://hltv.org/matches/2371607/mouz-nxt-vs-bleed-elisa-invitational-spring-2024",
+      "officialRow": 21,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371604,
+      "day": "2024-04-24",
+      "officialScheduleDay": "2024-04-24",
+      "round": 3,
+      "bo": 3,
+      "a": 3,
+      "b": 14,
+      "w": 14,
+      "l": 3,
+      "teamA": "SINNERS",
+      "teamB": "Endpoint",
+      "played": true,
+      "score": [
+        1,
+        2
+      ],
+      "sourceScore": [
+        1,
+        2
+      ],
+      "fiveA": [
+        "AJTT",
+        "beastik",
+        "NEOFRAG",
+        "oskar",
+        "SHOCK"
+      ],
+      "fiveB": [
+        "AZUWU",
+        "cej0t",
+        "CRUC1AL",
+        "MiGHTYMAX",
+        "Surreal"
+      ],
+      "maps": [
+        {
+          "name": "Inferno",
+          "score": [
+            8,
+            13
+          ],
+          "fiveA": [
+            "AJTT",
+            "beastik",
+            "NEOFRAG",
+            "oskar",
+            "SHOCK"
+          ],
+          "fiveB": [
+            "AZUWU",
+            "cej0t",
+            "CRUC1AL",
+            "MiGHTYMAX",
+            "Surreal"
+          ],
+          "overlapA": 5,
+          "overlapB": 3
+        },
+        {
+          "name": "Overpass",
+          "score": [
+            13,
+            10
+          ],
+          "fiveA": [
+            "AJTT",
+            "beastik",
+            "NEOFRAG",
+            "oskar",
+            "SHOCK"
+          ],
+          "fiveB": [
+            "AZUWU",
+            "cej0t",
+            "CRUC1AL",
+            "MiGHTYMAX",
+            "Surreal"
+          ],
+          "overlapA": 5,
+          "overlapB": 3
+        },
+        {
+          "name": "Ancient",
+          "score": [
+            5,
+            13
+          ],
+          "fiveA": [
+            "AJTT",
+            "beastik",
+            "NEOFRAG",
+            "oskar",
+            "SHOCK"
+          ],
+          "fiveB": [
+            "AZUWU",
+            "cej0t",
+            "CRUC1AL",
+            "MiGHTYMAX",
+            "Surreal"
+          ],
+          "overlapA": 5,
+          "overlapB": 3
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371604/sinners-vs-endpoint-elisa-invitational-spring-2024",
+      "officialRow": 22,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371605,
+      "day": "2024-04-25",
+      "officialScheduleDay": "2024-04-25",
+      "round": 3,
+      "bo": 3,
+      "a": 5,
+      "b": 15,
+      "w": 15,
+      "l": 5,
+      "teamA": "HAVU",
+      "teamB": "ECF",
+      "played": true,
+      "score": [
+        0,
+        2
+      ],
+      "sourceScore": [
+        0,
+        2
+      ],
+      "fiveA": [
+        "Airax",
+        "Jelo",
+        "ottoNd",
+        "puuha",
+        "uli"
+      ],
+      "fiveB": [
+        "amster",
+        "byr9",
+        "kensizor",
+        "Polbandana",
+        "s4ltovsk1yy"
+      ],
+      "maps": [
+        {
+          "name": "Ancient",
+          "score": [
+            6,
+            13
+          ],
+          "fiveA": [
+            "Airax",
+            "Jelo",
+            "ottoNd",
+            "puuha",
+            "uli"
+          ],
+          "fiveB": [
+            "amster",
+            "byr9",
+            "kensizor",
+            "Polbandana",
+            "s4ltovsk1yy"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Anubis",
+          "score": [
+            6,
+            13
+          ],
+          "fiveA": [
+            "Airax",
+            "Jelo",
+            "ottoNd",
+            "puuha",
+            "uli"
+          ],
+          "fiveB": [
+            "amster",
+            "byr9",
+            "kensizor",
+            "Polbandana",
+            "s4ltovsk1yy"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371605/havu-vs-ecf-elisa-invitational-spring-2024",
+      "officialRow": 23,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371601,
+      "day": "2024-04-25",
+      "officialScheduleDay": "2024-04-25",
+      "round": 3,
+      "bo": 3,
+      "a": 4,
+      "b": 9,
+      "w": 4,
+      "l": 9,
+      "teamA": "EYEBALLERS",
+      "teamB": "Zero Tenacity",
+      "played": true,
+      "score": [
+        2,
+        0
+      ],
+      "sourceScore": [
+        2,
+        0
+      ],
+      "fiveA": [
+        "Golden",
+        "HEAP",
+        "JW",
+        "Peppzor",
+        "Sapec"
+      ],
+      "fiveB": [
+        "aVN",
+        "brutmonster",
+        "Cjoffo",
+        "nEMANHA",
+        "simke"
+      ],
+      "maps": [
+        {
+          "name": "Anubis",
+          "score": [
+            13,
+            5
+          ],
+          "fiveA": [
+            "Golden",
+            "HEAP",
+            "JW",
+            "Peppzor",
+            "Sapec"
+          ],
+          "fiveB": [
+            "aVN",
+            "brutmonster",
+            "Cjoffo",
+            "nEMANHA",
+            "simke"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Overpass",
+          "score": [
+            13,
+            4
+          ],
+          "fiveA": [
+            "Golden",
+            "HEAP",
+            "JW",
+            "Peppzor",
+            "Sapec"
+          ],
+          "fiveB": [
+            "aVN",
+            "brutmonster",
+            "Cjoffo",
+            "nEMANHA",
+            "simke"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371601/eyeballers-vs-zero-tenacity-elisa-invitational-spring-2024",
+      "officialRow": 24,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371685,
+      "day": "2024-04-29",
+      "officialScheduleDay": "2024-04-29",
+      "round": 4,
+      "bo": 3,
+      "a": 6,
+      "b": 14,
+      "w": 6,
+      "l": 14,
+      "teamA": "Alliance",
+      "teamB": "Endpoint",
+      "played": true,
+      "score": [
+        2,
+        0
+      ],
+      "sourceScore": [
+        2,
+        0
+      ],
+      "fiveA": [
+        "avid",
+        "b0denmaster",
+        "PlesseN",
+        "robiin",
+        "twist"
+      ],
+      "fiveB": [
+        "AZUWU",
+        "cej0t",
+        "CRUC1AL",
+        "MiGHTYMAX",
+        "Surreal"
+      ],
+      "maps": [
+        {
+          "name": "Ancient",
+          "score": [
+            13,
+            7
+          ],
+          "fiveA": [
+            "avid",
+            "b0denmaster",
+            "PlesseN",
+            "robiin",
+            "twist"
+          ],
+          "fiveB": [
+            "AZUWU",
+            "cej0t",
+            "CRUC1AL",
+            "MiGHTYMAX",
+            "Surreal"
+          ],
+          "overlapA": 5,
+          "overlapB": 3
+        },
+        {
+          "name": "Vertigo",
+          "score": [
+            13,
+            11
+          ],
+          "fiveA": [
+            "avid",
+            "b0denmaster",
+            "PlesseN",
+            "robiin",
+            "twist"
+          ],
+          "fiveB": [
+            "AZUWU",
+            "cej0t",
+            "CRUC1AL",
+            "MiGHTYMAX",
+            "Surreal"
+          ],
+          "overlapA": 5,
+          "overlapB": 3
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371685/alliance-vs-endpoint-elisa-invitational-spring-2024",
+      "officialRow": 25,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371686,
+      "day": "2024-04-29",
+      "officialScheduleDay": "2024-04-29",
+      "round": 4,
+      "bo": 3,
+      "a": 1,
+      "b": 15,
+      "w": 15,
+      "l": 1,
+      "teamA": "Gaimin Gladiators",
+      "teamB": "ECF",
+      "played": true,
+      "score": [
+        1,
+        2
+      ],
+      "sourceScore": [
+        1,
+        2
+      ],
+      "fiveA": [
+        "kraghen",
+        "Nodios",
+        "Patti",
+        "Queenix",
+        "salazar"
+      ],
+      "fiveB": [
+        "amster",
+        "byr9",
+        "kensizor",
+        "Polbandana",
+        "s4ltovsk1yy"
+      ],
+      "maps": [
+        {
+          "name": "Ancient",
+          "score": [
+            8,
+            13
+          ],
+          "fiveA": [
+            "kraghen",
+            "Nodios",
+            "Patti",
+            "Queenix",
+            "salazar"
+          ],
+          "fiveB": [
+            "amster",
+            "byr9",
+            "kensizor",
+            "Polbandana",
+            "s4ltovsk1yy"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Anubis",
+          "score": [
+            13,
+            9
+          ],
+          "fiveA": [
+            "kraghen",
+            "Nodios",
+            "Patti",
+            "Queenix",
+            "salazar"
+          ],
+          "fiveB": [
+            "amster",
+            "byr9",
+            "kensizor",
+            "Polbandana",
+            "s4ltovsk1yy"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Inferno",
+          "score": [
+            6,
+            13
+          ],
+          "fiveA": [
+            "kraghen",
+            "Nodios",
+            "Patti",
+            "Queenix",
+            "salazar"
+          ],
+          "fiveB": [
+            "amster",
+            "byr9",
+            "kensizor",
+            "Polbandana",
+            "s4ltovsk1yy"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371686/gaimin-gladiators-vs-ecf-elisa-invitational-spring-2024",
+      "officialRow": 26,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371687,
+      "day": "2024-04-30",
+      "officialScheduleDay": "2024-04-30",
+      "round": 4,
+      "bo": 3,
+      "a": 10,
+      "b": 11,
+      "w": 10,
+      "l": 11,
+      "teamA": "BLEED",
+      "teamB": "Permitta",
+      "played": true,
+      "score": [
+        2,
+        0
+      ],
+      "sourceScore": [
+        2,
+        0
+      ],
+      "fiveA": [
+        "CeRq",
+        "CYPHER",
+        "faveN",
+        "hampus",
+        "VLDN"
+      ],
+      "fiveB": [
+        "bnox",
+        "maaryy",
+        "mASKED",
+        "morelz",
+        "Vegi"
+      ],
+      "maps": [
+        {
+          "name": "Ancient",
+          "score": [
+            13,
+            8
+          ],
+          "fiveA": [
+            "CeRq",
+            "CYPHER",
+            "faveN",
+            "hampus",
+            "VLDN"
+          ],
+          "fiveB": [
+            "bnox",
+            "maaryy",
+            "mASKED",
+            "morelz",
+            "Vegi"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Anubis",
+          "score": [
+            16,
+            13
+          ],
+          "fiveA": [
+            "CeRq",
+            "CYPHER",
+            "faveN",
+            "hampus",
+            "VLDN"
+          ],
+          "fiveB": [
+            "bnox",
+            "maaryy",
+            "mASKED",
+            "morelz",
+            "Vegi"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371687/bleed-vs-permitta-elisa-invitational-spring-2024",
+      "officialRow": 27,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371682,
+      "day": "2024-04-30",
+      "officialScheduleDay": "2024-04-30",
+      "round": 4,
+      "bo": 3,
+      "a": 4,
+      "b": 5,
+      "w": 5,
+      "l": 4,
+      "teamA": "EYEBALLERS",
+      "teamB": "HAVU",
+      "played": true,
+      "score": [
+        1,
+        2
+      ],
+      "sourceScore": [
+        1,
+        2
+      ],
+      "fiveA": [
+        "Golden",
+        "HEAP",
+        "JW",
+        "Peppzor",
+        "Sapec"
+      ],
+      "fiveB": [
+        "Airax",
+        "Jelo",
+        "ottoNd",
+        "puuha",
+        "uli"
+      ],
+      "maps": [
+        {
+          "name": "Vertigo",
+          "score": [
+            13,
+            9
+          ],
+          "fiveA": [
+            "Golden",
+            "HEAP",
+            "JW",
+            "Peppzor",
+            "Sapec"
+          ],
+          "fiveB": [
+            "Airax",
+            "Jelo",
+            "ottoNd",
+            "puuha",
+            "uli"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Inferno",
+          "score": [
+            11,
+            13
+          ],
+          "fiveA": [
+            "Golden",
+            "HEAP",
+            "JW",
+            "Peppzor",
+            "Sapec"
+          ],
+          "fiveB": [
+            "Airax",
+            "Jelo",
+            "ottoNd",
+            "puuha",
+            "uli"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Ancient",
+          "score": [
+            3,
+            13
+          ],
+          "fiveA": [
+            "Golden",
+            "HEAP",
+            "JW",
+            "Peppzor",
+            "Sapec"
+          ],
+          "fiveB": [
+            "Airax",
+            "Jelo",
+            "ottoNd",
+            "puuha",
+            "uli"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371682/eyeballers-vs-havu-elisa-invitational-spring-2024",
+      "officialRow": 28,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371684,
+      "day": "2024-05-01",
+      "officialScheduleDay": "2024-05-01",
+      "round": 4,
+      "bo": 3,
+      "a": 0,
+      "b": 12,
+      "w": 0,
+      "l": 12,
+      "teamA": "Grannys Knockers",
+      "teamB": "ALTERNATE aTTaX",
+      "played": false,
+      "score": [
+        2,
+        0
+      ],
+      "sourceScore": [
+        1,
+        0
+      ],
+      "fiveA": null,
+      "fiveB": null,
+      "maps": [],
+      "coreEligible": false,
+      "sourceUrl": "https://hltv.org/matches/2371684/grannys-knockers-vs-alternate-attax-elisa-invitational-spring-2024",
+      "officialRow": 30,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371683,
+      "day": "2024-05-01",
+      "officialScheduleDay": "2024-05-01",
+      "round": 4,
+      "bo": 3,
+      "a": 3,
+      "b": 7,
+      "w": 7,
+      "l": 3,
+      "teamA": "SINNERS",
+      "teamB": "B8",
+      "played": true,
+      "score": [
+        0,
+        2
+      ],
+      "sourceScore": [
+        0,
+        2
+      ],
+      "fiveA": [
+        "AJTT",
+        "beastik",
+        "NEOFRAG",
+        "oskar",
+        "SHOCK"
+      ],
+      "fiveB": [
+        "alex666",
+        "cptkurtka023",
+        "esenthial",
+        "headtr1ck",
+        "npl"
+      ],
+      "maps": [
+        {
+          "name": "Mirage",
+          "score": [
+            6,
+            13
+          ],
+          "fiveA": [
+            "AJTT",
+            "beastik",
+            "NEOFRAG",
+            "oskar",
+            "SHOCK"
+          ],
+          "fiveB": [
+            "alex666",
+            "cptkurtka023",
+            "esenthial",
+            "headtr1ck",
+            "npl"
+          ],
+          "overlapA": 5,
+          "overlapB": 4
+        },
+        {
+          "name": "Ancient",
+          "score": [
+            7,
+            13
+          ],
+          "fiveA": [
+            "AJTT",
+            "beastik",
+            "NEOFRAG",
+            "oskar",
+            "SHOCK"
+          ],
+          "fiveB": [
+            "alex666",
+            "cptkurtka023",
+            "esenthial",
+            "headtr1ck",
+            "npl"
+          ],
+          "overlapA": 5,
+          "overlapB": 4
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371683/sinners-vs-b8-elisa-invitational-spring-2024",
+      "officialRow": 29,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371688,
+      "day": "2024-05-02",
+      "officialScheduleDay": "2024-05-02",
+      "round": 5,
+      "bo": 3,
+      "a": 7,
+      "b": 11,
+      "w": 7,
+      "l": 11,
+      "teamA": "B8",
+      "teamB": "Permitta",
+      "played": true,
+      "score": [
+        2,
+        0
+      ],
+      "sourceScore": [
+        2,
+        0
+      ],
+      "fiveA": [
+        "alex666",
+        "cptkurtka023",
+        "esenthial",
+        "headtr1ck",
+        "npl"
+      ],
+      "fiveB": [
+        "bnox",
+        "maaryy",
+        "mASKED",
+        "morelz",
+        "Sobol"
+      ],
+      "maps": [
+        {
+          "name": "Ancient",
+          "score": [
+            13,
+            8
+          ],
+          "fiveA": [
+            "alex666",
+            "cptkurtka023",
+            "esenthial",
+            "headtr1ck",
+            "npl"
+          ],
+          "fiveB": [
+            "bnox",
+            "maaryy",
+            "mASKED",
+            "morelz",
+            "Sobol"
+          ],
+          "overlapA": 4,
+          "overlapB": 4
+        },
+        {
+          "name": "Mirage",
+          "score": [
+            13,
+            10
+          ],
+          "fiveA": [
+            "alex666",
+            "cptkurtka023",
+            "esenthial",
+            "headtr1ck",
+            "npl"
+          ],
+          "fiveB": [
+            "bnox",
+            "maaryy",
+            "mASKED",
+            "morelz",
+            "Sobol"
+          ],
+          "overlapA": 4,
+          "overlapB": 4
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371688/b8-vs-permitta-elisa-invitational-spring-2024",
+      "officialRow": 31,
+      "officialListsBothTeams": true
+    },
+    {
+      "id": 2371689,
+      "day": "2024-05-02",
+      "officialScheduleDay": "2024-05-02",
+      "round": 5,
+      "bo": 3,
+      "a": 0,
+      "b": 14,
+      "w": 14,
+      "l": 0,
+      "teamA": "Grannys Knockers",
+      "teamB": "Endpoint",
+      "played": true,
+      "score": [
+        0,
+        2
+      ],
+      "sourceScore": [
+        0,
+        2
+      ],
+      "fiveA": [
+        "Anlelele",
+        "b0RUP",
+        "Kristou",
+        "niko",
+        "TMB"
+      ],
+      "fiveB": [
+        "AZUWU",
+        "cej0t",
+        "CRUC1AL",
+        "MiGHTYMAX",
+        "Surreal"
+      ],
+      "maps": [
+        {
+          "name": "Ancient",
+          "score": [
+            13,
+            16
+          ],
+          "fiveA": [
+            "Anlelele",
+            "b0RUP",
+            "Kristou",
+            "niko",
+            "TMB"
+          ],
+          "fiveB": [
+            "AZUWU",
+            "cej0t",
+            "CRUC1AL",
+            "MiGHTYMAX",
+            "Surreal"
+          ],
+          "overlapA": 2,
+          "overlapB": 3
+        },
+        {
+          "name": "Anubis",
+          "score": [
+            8,
+            13
+          ],
+          "fiveA": [
+            "Anlelele",
+            "b0RUP",
+            "Kristou",
+            "niko",
+            "TMB"
+          ],
+          "fiveB": [
+            "AZUWU",
+            "cej0t",
+            "CRUC1AL",
+            "MiGHTYMAX",
+            "Surreal"
+          ],
+          "overlapA": 2,
+          "overlapB": 3
+        }
+      ],
+      "coreEligible": false,
+      "sourceUrl": "https://hltv.org/matches/2371689/grannys-knockers-vs-endpoint-elisa-invitational-spring-2024",
+      "officialRow": 32,
+      "officialListsBothTeams": false
+    },
+    {
+      "id": 2371690,
+      "day": "2024-05-02",
+      "officialScheduleDay": "2024-05-02",
+      "round": 5,
+      "bo": 3,
+      "a": 1,
+      "b": 5,
+      "w": 1,
+      "l": 5,
+      "teamA": "Gaimin Gladiators",
+      "teamB": "HAVU",
+      "played": true,
+      "score": [
+        2,
+        0
+      ],
+      "sourceScore": [
+        2,
+        0
+      ],
+      "fiveA": [
+        "kraghen",
+        "Nodios",
+        "Patti",
+        "Queenix",
+        "salazar"
+      ],
+      "fiveB": [
+        "Airax",
+        "Jelo",
+        "ottoNd",
+        "puuha",
+        "uli"
+      ],
+      "maps": [
+        {
+          "name": "Nuke",
+          "score": [
+            13,
+            8
+          ],
+          "fiveA": [
+            "kraghen",
+            "Nodios",
+            "Patti",
+            "Queenix",
+            "salazar"
+          ],
+          "fiveB": [
+            "Airax",
+            "Jelo",
+            "ottoNd",
+            "puuha",
+            "uli"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        },
+        {
+          "name": "Inferno",
+          "score": [
+            13,
+            5
+          ],
+          "fiveA": [
+            "kraghen",
+            "Nodios",
+            "Patti",
+            "Queenix",
+            "salazar"
+          ],
+          "fiveB": [
+            "Airax",
+            "Jelo",
+            "ottoNd",
+            "puuha",
+            "uli"
+          ],
+          "overlapA": 5,
+          "overlapB": 5
+        }
+      ],
+      "coreEligible": true,
+      "sourceUrl": "https://hltv.org/matches/2371690/gaimin-gladiators-vs-havu-elisa-invitational-spring-2024",
+      "officialRow": 33,
+      "officialListsBothTeams": false
+    }
+  ],
+  "rounds": [
+    [
+      [
+        3,
+        12
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        0,
+        15
+      ],
+      [
+        10,
+        5
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        1,
+        14
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        6,
+        9
+      ]
+    ],
+    [
+      [
+        8,
+        6
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        10,
+        3
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        5,
+        12
+      ]
+    ],
+    [
+      [
+        11,
+        0
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        12,
+        2
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        15,
+        5
+      ],
+      [
+        4,
+        9
+      ]
+    ],
+    [
+      [
+        6,
+        14
+      ],
+      [
+        15,
+        1
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        7,
+        3
+      ]
+    ],
+    [
+      [
+        7,
+        11
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        1,
+        5
+      ]
+    ]
+  ],
+  "actual": [
+    3,
+    1,
+    2,
+    3,
+    3,
+    3,
+    1,
+    1,
+    0,
+    2,
+    1,
+    3,
+    3,
+    0,
+    1,
+    1
+  ],
+  "records": [
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "administrativeExcluded": 4,
+  "source": "https://elisaesports.com/2024/04/05/elisa-invitational-spring-2024-main-swiss-viewers-guide/",
+  "administrativeMatchIds": [
+    2371207,
+    2371369,
+    2371607,
+    2371684
+  ],
+  "matchIds": [
+    [
+      2371202,
+      2371203,
+      2371204,
+      2371205,
+      2371206,
+      2371207,
+      2371208,
+      2371209
+    ],
+    [
+      2371364,
+      2371365,
+      2371366,
+      2371367,
+      2371369,
+      2371368,
+      2371370,
+      2371371
+    ],
+    [
+      2371602,
+      2371603,
+      2371600,
+      2371606,
+      2371607,
+      2371604,
+      2371605,
+      2371601
+    ],
+    [
+      2371685,
+      2371686,
+      2371687,
+      2371682,
+      2371684,
+      2371683
+    ],
+    [
+      2371688,
+      2371689,
+      2371690
+    ]
+  ],
+  "changes": [],
+  "coreIneligiblePlayedIds": [
+    2371689
+  ],
+  "eventSource": "https://www.hltv.org/events/7700/elisa-invitational-spring-2024"
+}

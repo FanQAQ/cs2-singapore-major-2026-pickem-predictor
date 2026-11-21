@@ -1,0 +1,945 @@
+event,date,matchInSnapshot,bestOf,y,teamA,teamB,lineupA,lineupB,vrsPer100,formDiff,strongDiff,weakDiff,historicalN_A,historicalN_B
+copenhagen,2023-12-11,10065468,3,0,Alliance,Sprout,avid|b0denmaster|plessen|robiin|twist,cej0t|raalz|sl1m3|spooke|tauson,-0.49,0.1451502527322135,-0.04099033637700736,0.12128162622484176,6,17
+copenhagen,2023-12-11,10065469,3,1,Guild Eagles,Anonymo Esports,gxx-|juanflatroo|rigon|sener1|sinnopsyy,lunatic|reiko|samey|sobol|virtuoso,0.35,0.03767353924438489,-0.020742933175670487,0.05500516434941947,16,12
+copenhagen,2023-12-11,734771,3,1,Preasy Esport,9Pandas,altekz|nicoodoz|refrezh|roej|tmb,clax|d1ledez|glowiing|idisbalance|seized,1.32,-0.09371235809894268,-0.15105410678361908,0.14358180142562907,12,15
+copenhagen,2023-12-11,734773,3,0,SAW,FORZE,arrozdoce|ewjerkz|mutiris|rmn|story,gokushima|krad|r3salt|shalfey|tn1r,0.37,-0.22371619998373268,-0.23078297992150465,-0.07147135718710887,17,16
+copenhagen,2023-12-12,10065470,3,1,BetBoom Team,Preasy Esport,danistzz|kair0n|nafany|s1ren|zorte,altekz|nicoodoz|refrezh|roej|tmb,0.53,-0.0527326287132224,0.009345612842158318,-0.1887756705467601,15,13
+copenhagen,2023-12-12,738803,3,1,Aurora Gaming,Guild Eagles,deko|kensi|lack1|norwi|sellter,gxx-|juanflatroo|rigon|sener1|sinnopsyy,0.33,-0.14780064141233143,0.1596083789684423,-0.15894191315913342,25,17
+copenhagen,2023-12-12,738902,5,0,ALTERNATE aTTaX,Preasy Esport,awzek|freeze|panix|perx|spiidi,altekz|nicoodoz|refrezh|roej|tmb,-2.55,-0.2621680539257052,-0.12519263127289476,-0.24455693584206087,15,13
+copenhagen,2023-12-12,739218,3,1,9INE,FORZE,goofy|hades|jcobbb|kei|kylar,gokushima|krad|r3salt|shalfey|tn1r,-0.85,-0.13115547995721422,-0.020722547411992573,-0.10205457839322886,15,17
+copenhagen,2023-12-12,739488,3,1,BIG,Sprout,krimbo|mantuu|prosus|s1n|tabsen,cej0t|raalz|sl1m3|spooke|tauson,3.87,0.06350877073637576,0.11203297752083724,-0.03690999337469464,23,18
+copenhagen,2023-12-13,10065474,3,0,BetBoom Team,9INE,danistzz|kair0n|nafany|s1ren|zorte,goofy|hades|jcobbb|kei|kylar,2.27,0.0917163293705982,0.043061161194111686,0.029048825904427804,16,16
+copenhagen,2023-12-13,10065476,3,0,9INE,BIG,goofy|hades|jcobbb|kei|kylar,krimbo|mantuu|prosus|s1n|tabsen,-3.35,0.11156881588739187,-0.009282505509717903,0.050508689435623526,16,24
+copenhagen,2023-12-13,718508,3,0,MOUZ,G2 Esports,brollan|jimpphat|siuhy|torzsi|xertion,hooxi|hunter-|m0nesy|nexa|niko,1.31,-0.021110507701083553,0.0,0.042519413636367825,14,4
+copenhagen,2023-12-13,718509,3,1,FaZe Clan,Heroic,broky|frozen|karrigan|rain|ropz,dupreeh|salazar|sjuush|teses|zyphon,6.32,0.300219796621315,0.3668080329453103,0.003613918039693159,19,3
+copenhagen,2023-12-13,718510,3,1,Team Vitality,Natus Vincere,apex|flamez|mezii|spinx|zywoo,aleksib|b1t|im|jl|w0nderful,2.23,0.13202114450412364,0.0,0.07289143434768951,6,3
+copenhagen,2023-12-13,718511,3,1,Cloud9,ENCE,ax1le|boombl4|electronic|hobbit|perfecto,dycha|gla1ve|maden|nertz|sunpayus,-1.29,0.24472794649812069,0.052439729954058066,0.10388215583559172,14,10
+copenhagen,2023-12-13,741744,3,1,BIG,Aurora Gaming,krimbo|mantuu|prosus|s1n|tabsen,deko|kensi|lack1|norwi|sellter,2.24,-0.08709118135673724,-0.05441128087604427,-0.007345684620085516,24,26
+copenhagen,2023-12-14,743205,3,0,Cloud9,Team Vitality,ax1le|boombl4|electronic|hobbit|perfecto,apex|flamez|mezii|spinx|zywoo,-2.66,0.07196772525221512,0.11495181496716231,-0.035778181755726446,15,7
+copenhagen,2023-12-14,743206,3,0,ENCE,Natus Vincere,dycha|gla1ve|maden|nertz|sunpayus,aleksib|b1t|im|jl|w0nderful,0.86,-0.07581322063328405,0.036153759431720646,-0.06643921493610572,11,4
+copenhagen,2023-12-14,743697,3,1,FaZe Clan,G2 Esports,broky|frozen|karrigan|rain|ropz,hooxi|hunter-|m0nesy|nexa|niko,3.28,0.3756341369479953,0.2279284875012202,0.2783497871224663,20,5
+copenhagen,2023-12-14,743698,3,0,Heroic,MOUZ,dupreeh|salazar|sjuush|teses|zyphon,brollan|jimpphat|siuhy|torzsi|xertion,-4.35,0.21978937876603696,-0.02554788236006535,0.2648268858137743,4,15
+copenhagen,2023-12-15,729298,1,0,M80,Virtus.pro,dephh|malbsmd|reck|slaxz-|swisher,fame|fl1t|jame|mir|n0rb3r7,-6.55,0.038364223388717505,-0.008910992111980272,0.03422610286065854,5,19
+copenhagen,2023-12-15,729299,1,1,Monte,BESTIA,br0|demqq|krasnal|sdy|woro2k,deco|meyern|nikom|noktse|reversive,6.2,0.014207265302203812,0.0,0.0738482586293083,22,3
+copenhagen,2023-12-15,729300,1,1,Apeks,GamerLegion,cacanito|jkaem|kyxsan|nawwk|sense,acor|andu|isak|keoz|snax,0.56,0.19583136063497114,0.36205627300230964,0.09522090232804181,27,11
+copenhagen,2023-12-15,729301,1,0,Complexity,The Mongolz,elige|floppy|grim|hallzerk|jt,910|blitz|mzinho|senzu|techno,5.95,-0.04554080041802025,-0.22388602084320314,-0.003966981509235603,14,4
+copenhagen,2023-12-15,745398,3,0,Cloud9,MOUZ,ax1le|boombl4|electronic|hobbit|perfecto,brollan|jimpphat|siuhy|torzsi|xertion,-2.53,0.2729401401565884,0.08833661462046595,0.06815543347096868,16,16
+copenhagen,2023-12-15,745730,3,0,G2 Esports,Natus Vincere,hooxi|hunter-|m0nesy|nexa|niko,aleksib|b1t|im|jl|w0nderful,0.79,-0.01795861793107356,0.11452685596215967,-0.02925461325919268,6,5
+copenhagen,2023-12-16,10065541,1,1,Apeks,The Mongolz,cacanito|jkaem|kyxsan|nawwk|sense,910|blitz|mzinho|senzu|techno,3.14,-0.1204409936723463,-0.015382332667797816,-0.09376622656062822,28,5
+copenhagen,2023-12-16,10065542,3,0,GamerLegion,Complexity,acor|andu|isak|keoz|snax,elige|floppy|grim|hallzerk|jt,-3.37,-0.15889971272885484,-0.05981266903293644,-0.08856887679367828,12,15
+copenhagen,2023-12-16,746971,3,1,FaZe Clan,MOUZ,broky|frozen|karrigan|rain|ropz,brollan|jimpphat|siuhy|torzsi|xertion,1.97,0.46836748703449016,0.3412736001240904,0.2353368076835325,21,17
+copenhagen,2023-12-16,747276,3,1,Team Vitality,Natus Vincere,apex|flamez|mezii|spinx|zywoo,aleksib|b1t|im|jl|w0nderful,2.23,0.027078732325902504,0.036153759431720646,0.12534883277348036,8,6
+copenhagen,2023-12-16,747511,3,1,BESTIA,M80,deco|meyern|nikom|noktse|reversive,dephh|malbsmd|reck|slaxz-|swisher,-0.71,-0.027639936978415238,0.04123419045911361,-0.02246655457427167,4,6
+copenhagen,2023-12-16,747512,1,0,Monte,Virtus.pro,br0|demqq|krasnal|sdy|woro2k,fame|fl1t|jame|mir|n0rb3r7,-1.06,0.02189841030127697,0.040217563308857396,0.08147961553967202,23,20
+copenhagen,2023-12-16,748298,3,1,The Mongolz,Complexity,910|blitz|mzinho|senzu|techno,elige|floppy|grim|hallzerk|jt,-5.95,0.1844107236428264,0.31762593663717104,0.10041825209499175,5,15
+copenhagen,2023-12-16,749416,3,1,Monte,BESTIA,br0|demqq|krasnal|sdy|woro2k,deco|meyern|nikom|noktse|reversive,6.2,0.016030627352121865,0.004568545771217773,0.07270680960894021,23,4
+copenhagen,2023-12-17,749339,3,1,Team Vitality,FaZe Clan,apex|flamez|mezii|spinx|zywoo,broky|frozen|karrigan|rain|ropz,-1.84,-0.2438031726835785,-0.3412736001240904,-0.12043927980850536,9,22
+copenhagen,2023-12-17,749769,3,1,Apeks,Monte,cacanito|jkaem|kyxsan|nawwk|sense,br0|demqq|krasnal|sdy|woro2k,-3.27,0.07065193427640015,0.29691794414122413,-0.1262042846545498,29,25
+copenhagen,2023-12-17,749770,3,1,Virtus.pro,The Mongolz,fame|fl1t|jame|mir|n0rb3r7,910|blitz|mzinho|senzu|techno,7.47,-0.22577710180848912,-0.37281205373042203,-0.031239360505003488,21,7
+copenhagen,2023-12-18,751439,3,0,Apeks,Virtus.pro,cacanito|jkaem|kyxsan|nawwk|sense,fame|fl1t|jame|mir|n0rb3r7,-4.33,0.08979630228678158,0.38105584603619014,-0.047993612674755236,30,22
+copenhagen,2023-12-27,759392,3,0,Metizport,Aurora Young Blood,adamb|jackinho|nilo|susp|ztr,bl1x1|bluewhite|easy|sh1geo|vilby,3.45,0.0,0.0,0.0,0,0
+copenhagen,2023-12-28,762528,3,0,Aurora Young Blood,The Witchers,bl1x1|bluewhite|easy|sh1geo|vilby,dragon|fear|sdaim|smooya|synyx,-1.42,0.1465528589090013,0.1465528589090013,0.0,1,0
+copenhagen,2023-12-29,10065619,3,0,Aurora Young Blood,Metizport,bl1x1|bluewhite|easy|sh1geo|vilby,adamb|jackinho|nilo|susp|ztr,-3.45,0.2284107260341403,0.08185786712513902,0.1465528589090013,2,1
+copenhagen,2023-12-30,10065621,3,1,The Witchers,Alliance,dragon|fear|sdaim|smooya|synyx,avid|b0denmaster|plessen|robiin|twist,-2.42,0.08545709241635302,0.04200007646732426,0.01457124771799937,1,7
+copenhagen,2023-12-30,765392,3,0,Metizport,The Witchers,adamb|jackinho|nilo|susp|ztr,dragon|fear|sdaim|smooya|synyx,2.03,-0.1594283434879604,0.0,-0.1594283434879604,2,1
+copenhagen,2024-01-10,10065860,1,0,Entropiq,KOI,avn|brutmonster|cjoffo|nemanha|simke,adams|dav1g|just|mopoz|stadodo,-2.08,0.09238953777204105,0.07092603054519807,0.12755277808998142,3,16
+copenhagen,2024-01-10,10065917,1,0,GODSENT,IKLA,bobeksde|eraa|golden|plopski|ro1f,adex|kvem|lekr0|michu|topa,3.04,0.16149908086501763,0.09846183001827358,0.0,0,7
+copenhagen,2024-01-11,10065922,1,1,HAVU Gaming,TSM,airax|banjo|ottond|slowi|uli,interz|jackz|joel|modo|valde,0.01,0.04924718055499058,0.065413830617954,0.0,3,7
+copenhagen,2024-01-11,10065972,3,1,IKLA,Team Space,adex|kvem|lekr0|michu|topa,enzero|fozil|leri|truniq|vert,-1.24,0.17306086917408417,0.0842734104154095,0.12094760771196451,8,9
+copenhagen,2024-01-11,10065973,3,0,Anonymo Esports,Pera Esports,lunatic|reiko|samey|sobol|virtuoso,aaron|dgl|kamion|msn|porya,-0.13,0.0011985765955926514,-0.007136169937698597,0.0,13,5
+copenhagen,2024-01-11,778713,1,0,Permitta Esports,Pera Esports,bnox|maaryy|masked|morelz|vegi,aaron|dgl|kamion|msn|porya,-1.17,-0.08734000056474109,-0.03370524245149141,0.0,0,5
+copenhagen,2024-01-11,778716,1,1,IKLA,00Nation,adex|kvem|lekr0|michu|topa,birdfromsky|fashr|jdc|syrson|vldn,-2.07,0.08345575773968131,0.0062911213640389,0.0,8,6
+copenhagen,2024-01-12,10065988,1,1,IKLA,Pera Esports,adex|kvem|lekr0|michu|topa,aaron|dgl|kamion|msn|porya,-2.1,-0.11755271089503261,0.06672518405856175,-0.056285367094851844,10,7
+copenhagen,2024-01-13,10066097,1,0,Nexus Gaming,OG,btn|ersin|ragga|s0und|xellow,f1ku|heavygod|k1to|nexius|regali,-1.7,-0.03644647445112633,-0.036279792871533836,0.0,0,5
+copenhagen,2024-01-13,10066107,1,0,BOSS,Wildcard Gaming,brett|cryptic|cynic|d4rtymontana|freshie,infinite|jba|slight|sonic|stanislaw,0.73,0.01292557670752792,-0.03582887716697131,0.0,2,1
+copenhagen,2024-01-13,10066132,3,0,ALTERNATE aTTaX,Astralis,awzek|freeze|god6y|panix|perx,blamef|device|jabbi|staehr|stavn,-2.64,0.06558228045345671,-0.012240609770671698,0.0808763414504085,16,9
+copenhagen,2024-01-15,10066152,3,1,M80,Nouns Esports,malbsmd|mankz|reck|slaxz-|swisher,cj|jeorgesnorts|junior|marke|nosrac,1.53,-0.08340990064826972,-0.14042169720952805,0.0,7,4
+copenhagen,2024-01-15,10066158,3,0,Party Astronauts,Badass Gaming,ben1337|chop|cxzi|viz|wolfy,dare|dea|peeping|shane|snav,-0.09,0.02482714953688575,0.0,0.0,2,0
+copenhagen,2024-01-15,10066450,1,1,paiN Gaming,ODDIK,biguzera|kauez|lux|n1ssim|nqz,matios|naitte|ponter|tuurtle|wood7,2.07,0.06046309494653561,0.07262257358798187,0.05521750728211139,6,2
+copenhagen,2024-01-15,10066451,1,1,RED Canids,Legacy,dav1d|destiny|hardzao|nython|venomzera,b4rtin|coldzera|dumau|latto|nekiz,1.76,-0.01283488807452357,0.08193344713075931,-0.06316479137090322,8,5
+copenhagen,2024-01-15,10066456,1,0,BESTIA,Sharks Esports,deco|luchov|meyern|noktse|tomaszin,doc|drg|gafolo|rdnzao|togs,0.93,0.07138979398254792,-0.08053294759128374,0.0870532265069081,6,5
+copenhagen,2024-01-15,10066457,1,1,paiN Gaming,RED Canids,biguzera|kauez|lux|n1ssim|nqz,dav1d|destiny|hardzao|nython|venomzera,0.39,0.2418813028197659,0.14441968155047125,0.11838229865301461,6,8
+copenhagen,2024-01-15,10066458,3,1,Sharks Esports,paiN Gaming,doc|drg|gafolo|rdnzao|togs,biguzera|kauez|lux|n1ssim|nqz,-1.37,-0.1681697287196373,-0.06953128217802226,-0.16473728836329116,5,6
+copenhagen,2024-01-16,10066393,1,1,EYEBALLERS,Espionage,heap|jw|peppzor|sapec|shinee,cabbi|iceberg|kwezz|lucky|mistr,1.75,0.280091347728418,0.11783977990765739,0.0,13,4
+copenhagen,2024-01-16,10066403,1,0,Alliance,Nexus Gaming,avid|b0denmaster|plessen|robiin|twist,btn|ersin|ragga|s0und|xellow,3.63,-0.047851823456566404,0.0035282448198872204,-0.08317090607984388,8,1
+copenhagen,2024-01-17,10066399,3,1,EYEBALLERS,The Witchers,heap|jw|peppzor|sapec|shinee,dragon|fear|sdaim|smooya|synyx,2.52,-0.04686979109335529,-0.08475800166956785,-0.006469895555617035,13,3
+copenhagen,2024-01-17,10066404,1,1,JANO Esports,Anonymo Esports,aerial|allu|doto|jelo|sm1llee,lunatic|reiko|samey|sobol|virtuoso,-1.75,-0.05854706141134557,-0.026569072513792813,0.0,0,14
+copenhagen,2024-01-17,10066444,1,0,Party Astronauts,Badass Gaming,ben1337|chop|cxzi|viz|wolfy,dare|dea|peeping|shane|snav,-0.09,-0.12033274356147303,0.0,0.0,3,1
+copenhagen,2024-01-17,10066461,1,0,Imperial Esports,Legacy,decenty|felps|hen1|noway|vini,b4rtin|coldzera|dumau|latto|nekiz,1.37,0.31242253898924777,0.10690139240303471,0.0,3,6
+copenhagen,2024-01-17,10066465,3,0,Legacy,RED Canids,b4rtin|coldzera|dumau|latto|nekiz,dav1d|destiny|hardzao|nython|venomzera,-1.76,-0.005440906117853375,-0.10471414787121043,0.021973405251266245,6,10
+copenhagen,2024-01-17,10066745,3,1,MIBR,Sharks Esports,brnz4n|drop|exit|insani|saffee,doc|drg|gafolo|rdnzao|togs,5.55,-0.06480952415184574,0.061693230570775165,0.06614862452391934,17,7
+copenhagen,2024-01-17,10066746,3,0,RED Canids,9z Team,dav1d|destiny|hardzao|nython|venomzera,buda|dgt|huasopeek|martinezsa|max,-0.6,0.02416883277574078,-0.11363640391637957,0.04479176608411098,10,6
+copenhagen,2024-01-18,10066407,1,1,Virtus.pro,Sinners Esports,fame|fl1t|jame|mir|n0rb3r7,ajtt|beastik|neofrag|oskar|shock,6.8,-0.0169025820579603,-0.1511820727109603,-0.1542433754815562,23,16
+copenhagen,2024-01-18,10066408,1,1,Natus Vincere,ECSTATIC,aleksib|b1t|im|jl|w0nderful,kraghen|nodios|patti|queenix|salazar,6.37,-0.07695257991130901,-0.2239607006629742,-0.1902668521840239,7,9
+copenhagen,2024-01-18,10066409,1,1,Cloud9,OG,ax1le|boombl4|electronic|hobbit|perfecto,f1ku|heavygod|k1to|nexius|regali,6.23,0.013151998036782797,0.028943700373888936,-0.1504004686117829,14,6
+copenhagen,2024-01-18,10066410,1,1,BIG,Permitta Esports,krimbo|mantuu|prosus|s1n|tabsen,bnox|maaryy|masked|morelz|vegi,5.21,0.03973796189578378,0.1673086045253722,-0.08669820296364665,25,1
+copenhagen,2024-01-18,10066411,1,1,BetBoom Team,Zero Tenacity,danistzz|kair0n|nafany|s1ren|zorte,avn|brutmonster|cjoffo|nemanha|simke,4.13,0.05274364425870254,0.1632990092454598,-0.1156402915674949,14,4
+copenhagen,2024-01-18,10066413,1,1,9Pandas,Nexus Gaming,clax|d1ledez|glowiing|idisbalance|seized,btn|ersin|ragga|s0und|xellow,4.24,0.1623139324382677,0.15185486231811007,0.0,16,2
+copenhagen,2024-01-18,10066415,1,1,MOUZ,EYEBALLERS,brollan|jimpphat|siuhy|torzsi|xertion,heap|jw|peppzor|sapec|shinee,6.42,-0.42944999166607356,-0.17923560215757092,-0.25139332267162073,17,14
+copenhagen,2024-01-18,10066416,1,0,Team Spirit,KOI,chopper|donk|magixx|sh1ro|zont1x,adams|dav1g|just|mopoz|stadodo,5.99,0.10895087048330832,0.16869092008631453,0.12172938506138362,18,16
+copenhagen,2024-01-18,10066417,1,1,Eternal Fire,Pera Esports,calyx|maj3r|wicadia|woxic|xantares,aaron|dgl|kamion|msn|porya,4.17,-0.19359288399481706,-0.07101281322785295,-0.1955181485486523,11,8
+copenhagen,2024-01-18,10066420,1,1,Preasy Esport,Entropiq,altekz|dupreeh|refrezh|roej|tmb,c0llins|marix|mwlky|oxygen|tizian,4.16,0.26447420606183913,0.2384640781400613,0.15920872145033002,15,3
+copenhagen,2024-01-18,10066421,1,0,Aurora Gaming,IKLA,deko|kensi|lack1|norwi|sellter,adex|kvem|lekr0|michu|topa,3.84,-0.0118710781669175,-0.026237229397079287,-0.14784462583520885,23,10
+copenhagen,2024-01-18,10066437,1,0,500,Sprout,dennyslaw|patrick|rainwaker|redstar|shipz,anlelele|cej0t|raalz|sl1m3|zyphon,-2.64,0.10523045140123839,0.014763486610482799,0.10832607976460193,0,15
+copenhagen,2024-01-18,10066531,1,1,Eternal Fire,IKLA,calyx|maj3r|wicadia|woxic|xantares,adex|kvem|lekr0|michu|topa,6.27,-0.20576004382816032,-0.20654515174949076,-0.2572873591332053,11,10
+copenhagen,2024-01-18,10066532,1,1,AMKAL Esports,KOI,forester|icy|krad|nickelback|travis,adams|dav1g|just|mopoz|stadodo,2.11,0.0226477829403564,0.09269244272446056,0.08008624249755306,4,16
+copenhagen,2024-01-18,10066533,1,1,Astralis,Preasy Esport,blamef|device|jabbi|staehr|stavn,altekz|dupreeh|refrezh|roej|tmb,0.23,-0.2808913856980416,-0.13489935120925933,-0.2889370998914503,10,15
+copenhagen,2024-01-18,10066538,1,1,Virtus.pro,SAW,fame|fl1t|jame|mir|n0rb3r7,arrozdoce|ewjerkz|mutiris|rmn|story,6.71,0.07293125560220168,0.06810213727985223,0.006201011542207285,23,17
+copenhagen,2024-01-18,10066539,1,1,Natus Vincere,9Pandas,aleksib|b1t|im|jl|w0nderful,clax|d1ledez|glowiing|idisbalance|seized,5.1,-0.3106592172089773,-0.30193529483789744,-0.1902668521840239,7,16
+copenhagen,2024-01-18,10066540,1,1,Cloud9,Team 3DMAX,ax1le|boombl4|electronic|hobbit|perfecto,djoko|ex3rcice|hadji|lucky|maka,3.03,0.03384805302366542,0.06768222178729827,-0.05463072627245915,14,14
+copenhagen,2024-01-18,10066541,1,0,BIG,BetBoom Team,krimbo|mantuu|prosus|s1n|tabsen,danistzz|kair0n|nafany|s1ren|zorte,1.32,-0.06927957828860226,0.0116759946525989,0.028942088603848254,25,14
+copenhagen,2024-01-18,10066543,1,1,ECSTATIC,Nexus Gaming,kraghen|nodios|patti|queenix|salazar,btn|ersin|ragga|s0und|xellow,2.97,-0.07139270485940062,0.07388026814318681,0.0,9,2
+copenhagen,2024-01-18,10066747,3,1,Sharks Esports,RED Canids,doc|drg|gafolo|rdnzao|togs,dav1d|destiny|hardzao|nython|venomzera,-0.98,0.17032220995903372,0.1470963809223352,-0.11958412058963118,7,11
+copenhagen,2024-01-18,10066748,3,1,MIBR,Sharks Esports,brnz4n|drop|exit|insani|saffee,doc|drg|gafolo|rdnzao|togs,5.55,0.03742416498900916,0.16092004650160494,0.12721128048135302,17,7
+copenhagen,2024-01-18,10066749,3,0,MIBR,9z Team,brnz4n|drop|exit|insani|saffee,buda|dgt|huasopeek|martinezsa|max,3.97,0.07603160180968227,0.09979986269830922,-0.030158141032251062,17,6
+copenhagen,2024-01-18,790976,1,1,Team 3DMAX,JANO Esports,djoko|ex3rcice|hadji|lucky|maka,aerial|allu|doto|jelo|sm1llee,4.14,-0.08481381489453642,-0.12454327683448677,-0.050241421052112274,14,1
+copenhagen,2024-01-18,794081,1,1,OG,JANO Esports,f1ku|heavygod|k1to|nexius|regali,aerial|allu|doto|jelo|sm1llee,0.94,-0.0641177599076538,-0.08580475542107743,0.04552832128721148,6,1
+copenhagen,2024-01-18,794083,1,0,Permitta Esports,Zero Tenacity,bnox|maaryy|masked|morelz|vegi,avn|brutmonster|cjoffo|nemanha|simke,0.24,-0.056273895925683506,0.007666399372686497,0.0,1,4
+copenhagen,2024-01-18,794089,1,1,Team Spirit,Entropiq,chopper|donk|magixx|sh1ro|zont1x,c0llins|marix|mwlky|oxygen|tizian,8.31,0.17180274772802884,0.17900627522915946,0.024135004881602008,18,3
+copenhagen,2024-01-18,794090,1,0,EYEBALLERS,Pera Esports,heap|jw|peppzor|sapec|shinee,aaron|dgl|kamion|msn|porya,1.09,0.11612495591895643,0.10496045875525499,0.12711171796163523,14,8
+copenhagen,2024-01-19,10066547,3,1,Cloud9,BetBoom Team,ax1le|boombl4|electronic|hobbit|perfecto,danistzz|kair0n|nafany|s1ren|zorte,2.57,-0.028456834715090792,-0.11926842483262222,0.02575649072479451,16,15
+copenhagen,2024-01-19,10066550,1,1,9Pandas,ECSTATIC,clax|d1ledez|glowiing|idisbalance|seized,kraghen|nodios|patti|queenix|salazar,1.27,0.20729365639381425,0.07800084344381447,-0.012181375649716681,18,11
+copenhagen,2024-01-19,10066556,1,1,Pera Esports,IKLA,aaron|dgl|kamion|msn|porya,adex|kvem|lekr0|michu|topa,2.1,-0.025390976369027485,-0.1257108667061087,-0.061769210584552994,10,12
+copenhagen,2024-01-19,10066570,1,1,Bad News Kangaroos,Grayhound Gaming,addict|brace|hatz|hazr|pz,alistair|dexter|ins|liazz|vexite,-0.39,-0.12022026818775836,-0.05500516434941947,0.0,2,0
+copenhagen,2024-01-19,10066750,3,1,9z Team,MIBR,buda|dgt|huasopeek|martinezsa|max,brnz4n|drop|exit|insani|saffee,-3.97,0.10892583975768773,0.013943624274423166,0.10626452494674966,6,17
+copenhagen,2024-01-19,794633,3,0,Aurora Gaming,FORZE,deko|kensi|lack1|norwi|sellter,gokushima|kelien|r3salt|shalfey|tn1r,0.39,-0.09308029774012501,0.02053707224325492,-0.25761111507848533,24,18
+copenhagen,2024-01-19,794634,3,0,EYEBALLERS,Entropiq,heap|jw|peppzor|sapec|shinee,c0llins|marix|mwlky|oxygen|tizian,2.74,0.22865241126356278,0.21668481226718278,-0.024314311029385985,16,5
+copenhagen,2024-01-19,794635,3,1,AMKAL Esports,Astralis,forester|icy|krad|nickelback|travis,blamef|device|jabbi|staehr|stavn,0.04,0.08990787854455085,-0.0005569290634964807,0.1368596284583548,5,11
+copenhagen,2024-01-19,794636,3,1,Eternal Fire,MOUZ,calyx|maj3r|wicadia|woxic|xantares,brollan|jimpphat|siuhy|torzsi|xertion,-3.34,0.1278509186669189,0.0032623301744629796,-0.03429849862258441,13,18
+copenhagen,2024-01-19,794637,3,1,Permitta Esports,JANO Esports,bnox|maaryy|masked|morelz|vegi,aerial|allu|doto|jelo|sm1llee,0.71,-0.14997181902341203,-0.14760294219434159,0.0,3,3
+copenhagen,2024-01-19,794638,3,0,Sinners Esports,Nexus Gaming,ajtt|beastik|neofrag|oskar|shock,btn|ersin|ragga|s0und|xellow,3.66,-0.03691010957968113,0.052049438353709225,0.13025386423570756,17,4
+copenhagen,2024-01-19,794639,3,1,Natus Vincere,Virtus.pro,aleksib|b1t|im|jl|w0nderful,fame|fl1t|jame|mir|n0rb3r7,-1.12,-0.03825027666375018,-0.021760310002663714,-0.12452220949665392,9,25
+copenhagen,2024-01-19,794642,1,0,Team 3DMAX,OG,djoko|ex3rcice|hadji|lucky|maka,f1ku|heavygod|k1to|nexius|regali,3.2,-0.028907410377073978,-0.018232765982806393,-0.08454423447692071,15,8
+copenhagen,2024-01-19,794644,1,1,SAW,Zero Tenacity,arrozdoce|ewjerkz|mutiris|rmn|story,avn|brutmonster|cjoffo|nemanha|simke,2.52,-0.12109181603641528,-0.03229040880848201,-0.030190522788055937,18,6
+copenhagen,2024-01-19,794647,1,0,Preasy Esport,Team Spirit,altekz|dupreeh|refrezh|roej|tmb,chopper|donk|magixx|sh1ro|zont1x,-4.15,0.11528553829626693,0.059457802910901844,0.20931859244510156,17,19
+copenhagen,2024-01-20,10066633,3,1,BetBoom Team,OG,danistzz|kair0n|nafany|s1ren|zorte,f1ku|heavygod|k1to|nexius|regali,3.66,-0.044038454504708724,0.04101020637677366,-0.14111349480399876,16,9
+copenhagen,2024-01-20,10066657,3,1,KOI,Pera Esports,adams|dav1g|just|mopoz|stadodo,aaron|dgl|kamion|msn|porya,0.67,-0.11203963073116863,-0.07940869927158704,-0.07228423633567499,18,11
+copenhagen,2024-01-20,10066658,3,1,MOUZ,Preasy Esport,brollan|jimpphat|siuhy|torzsi|xertion,altekz|dupreeh|refrezh|roej|tmb,5.0,-0.35496968733700357,-0.14467234300436838,-0.334112564817611,18,18
+copenhagen,2024-01-20,10066661,1,0,paiN Gaming,Legacy,biguzera|kauez|lux|n1ssim|nqz,b4rtin|coldzera|dumau|latto|nekiz,2.15,0.1656787590095677,0.18563635587845984,-0.015407265333086853,9,8
+copenhagen,2024-01-20,10066662,1,1,RED Canids,Fluxo,dav1d|destiny|hardzao|nython|venomzera,chay|lucaozy|pkl|vsm|zevy,1.33,-0.09054010486692354,-0.17823558200723974,0.010064339508451413,10,5
+copenhagen,2024-01-20,10066663,1,1,BESTIA,Imperial Esports,deco|luchov|meyern|noktse|tomaszin,decenty|felps|hen1|noway|vini,0.34,-0.12185493733665394,-0.007831792750659039,0.09212315346111863,7,4
+copenhagen,2024-01-20,10066668,1,1,paiN Gaming,Sharks Esports,biguzera|kauez|lux|n1ssim|nqz,doc|drg|gafolo|rdnzao|togs,1.37,0.052695631439009995,0.06613027736821717,0.09411251574809291,9,7
+copenhagen,2024-01-20,10066670,1,0,9z Team,ODDIK,buda|dgt|huasopeek|martinezsa|max,matios|naitte|ponter|tuurtle|wood7,2.28,0.1285583113454593,0.27871351631687735,0.047849640432424324,7,3
+copenhagen,2024-01-20,10066671,1,1,Imperial Esports,Fluxo,decenty|felps|hen1|noway|vini,chay|lucaozy|pkl|vsm|zevy,0.94,0.18192308905746477,-0.09328780343366427,-0.1145897080353903,4,5
+copenhagen,2024-01-20,10066688,3,0,M80,Wildcard Gaming,malbsmd|mankz|reck|slaxz-|swisher,infinite|jba|slight|sonic|stanislaw,2.74,-0.021540863248761213,-0.04580273623033138,0.04883745086524316,8,2
+copenhagen,2024-01-20,10066690,3,1,M80,BOSS,malbsmd|mankz|reck|slaxz-|swisher,brett|cryptic|cynic|d4rtymontana|freshie,2.01,0.13056992458355354,-0.009973859063360076,0.04883745086524316,8,3
+copenhagen,2024-01-20,797870,3,0,MOUZ,Team Spirit,brollan|jimpphat|siuhy|torzsi|xertion,chopper|donk|magixx|sh1ro|zont1x,0.85,-0.25175941693699805,-0.11656837831267848,-0.1329805879504205,18,20
+copenhagen,2024-01-20,797872,3,1,Astralis,Pera Esports,blamef|device|jabbi|staehr|stavn,aaron|dgl|kamion|msn|porya,2.74,-0.21454260082285415,-0.07872674816685044,-0.10441823459701363,12,11
+copenhagen,2024-01-20,797873,3,1,Preasy Esport,FORZE,altekz|dupreeh|refrezh|roej|tmb,gokushima|kelien|r3salt|shalfey|tn1r,1.16,-0.028419893984589592,-0.01836083727925117,0.11288588048328754,18,19
+copenhagen,2024-01-20,797876,3,0,9Pandas,SAW,clax|d1ledez|glowiing|idisbalance|seized,arrozdoce|ewjerkz|mutiris|rmn|story,0.49,0.30286744704037505,0.31778770506393983,0.06360378832163355,19,19
+copenhagen,2024-01-20,797879,3,1,Team 3DMAX,Zero Tenacity,djoko|ex3rcice|hadji|lucky|maka,avn|brutmonster|cjoffo|nemanha|simke,3.67,-0.018572671632680483,0.08966396801783404,-0.10241415920563852,16,7
+copenhagen,2024-01-20,797880,3,0,BIG,Nexus Gaming,krimbo|mantuu|prosus|s1n|tabsen,btn|ersin|ragga|s0und|xellow,6.68,-0.1628173583501798,-0.01647292670696887,-0.1051165890799172,27,5
+copenhagen,2024-01-20,797881,3,1,ECSTATIC,Permitta Esports,kraghen|nodios|patti|queenix|salazar,bnox|maaryy|masked|morelz|vegi,1.5,0.06001875577644489,0.14962375112386977,0.025534432821219883,12,4
+copenhagen,2024-01-20,800315,3,1,9Pandas,Team 3DMAX,clax|d1ledez|glowiing|idisbalance|seized,djoko|ex3rcice|hadji|lucky|maka,-0.66,0.2308344373249294,0.20819575659181602,0.16028246520402717,19,16
+copenhagen,2024-01-20,800317,3,1,OG,Nexus Gaming,f1ku|heavygod|k1to|nexius|regali,btn|ersin|ragga|s0und|xellow,1.7,0.004061204340876756,-0.014848479983995633,0.04552832128721148,9,5
+copenhagen,2024-01-21,10066676,3,1,ECSTATIC,Pera Esports,kraghen|nodios|patti|queenix|salazar,aaron|dgl|kamion|msn|porya,0.33,-0.04506515781378083,0.03618681745917906,0.08957037148060529,13,13
+copenhagen,2024-01-21,10066686,3,1,9z Team,Sharks Esports,buda|dgt|huasopeek|martinezsa|max,doc|drg|gafolo|rdnzao|togs,1.58,0.066429364774658,0.27757186987397253,0.03797279172648603,8,8
+copenhagen,2024-01-21,10066692,3,0,Wildcard Gaming,M80,infinite|jba|slight|sonic|stanislaw,malbsmd|mankz|reck|slaxz-|swisher,-2.74,0.16159337089421405,0.18393901085604403,0.037073629193994914,3,10
+copenhagen,2024-01-21,796336,3,1,Lynn Vision Gaming,TYLOO,emiliaqaq|jee|starry|westmelon|z4kr,advent|auman|jamyoung|kaze|mercury,0.16,0.22552033640188776,0.00877619471477114,0.21856036101505408,4,9
+copenhagen,2024-01-21,801291,3,0,Team 3DMAX,Preasy Esport,djoko|ex3rcice|hadji|lucky|maka,altekz|dupreeh|refrezh|roej|tmb,-0.25,-0.1402456140534755,-0.07341362808627716,-0.2531122794004773,18,20
+copenhagen,2024-01-21,802131,3,0,Bad News Kangaroos,Grayhound Gaming,addict|brace|hatz|hazr|pz,alistair|dexter|ins|liazz|vexite,-0.39,0.05694212899479359,-0.05500516434941947,0.0,3,1
+copenhagen,2024-01-21,802163,3,0,paiN Gaming,Imperial Esports,biguzera|kauez|lux|n1ssim|nqz,decenty|felps|hen1|noway|vini,0.78,-0.014239008549946065,0.14223243701864696,0.05599478438271823,11,6
+copenhagen,2024-01-21,802164,3,0,RED Canids,ODDIK,dav1d|destiny|hardzao|nython|venomzera,matios|naitte|ponter|tuurtle|wood7,1.68,-0.2578228046102698,-0.20075008193325095,0.04080086701012908,11,4
+copenhagen,2024-01-22,10066740,3,1,Grayhound Gaming,Bad News Kangaroos,alistair|dexter|ins|liazz|vexite,addict|brace|hazr|pz|valiance,0.39,0.06511559342001366,0.05500516434941947,0.0,2,4
+copenhagen,2024-01-22,787381,3,1,Natus Vincere,Complexity,aleksib|b1t|im|jl|w0nderful,elige|floppy|grim|hallzerk|jt,1.48,0.1482069577892242,0.033072583919617475,0.04643569146277132,10,12
+copenhagen,2024-01-22,787384,3,1,Team Vitality,OG,apex|flamez|mezii|spinx|zywoo,f1ku|heavygod|k1to|nexius|regali,10.15,0.012308207036502317,0.0312063348170296,0.02130071593596003,8,10
+copenhagen,2024-01-22,805127,3,1,Rooster,Bad News Kangaroos,asap|chelleos|nettik|rackem|tjp,addict|brace|hazr|pz|valiance,0.45,0.08108443945340026,0.05500516434941947,0.0,0,4
+copenhagen,2024-01-23,806178,3,0,G2 Esports,Natus Vincere,hooxi|hunter-|m0nesy|nexa|niko,aleksib|b1t|im|jl|w0nderful,-0.36,-0.18910821618928658,0.05062617243897062,-0.11517778274479834,7,11
+copenhagen,2024-01-23,806778,3,0,Team Vitality,Astralis,apex|flamez|mezii|spinx|zywoo,blamef|device|jabbi|staehr|stavn,6.47,0.26090716726067054,0.12319899742701515,0.19094849082554274,9,13
+copenhagen,2024-01-24,787378,3,1,Virtus.pro,BIG,fame|fl1t|jame|mir|n0rb3r7,krimbo|mantuu|prosus|s1n|tabsen,3.78,0.019800153504828437,-0.040217563308857396,0.06940401554741316,25,26
+copenhagen,2024-01-24,787380,3,0,FaZe Clan,GamerLegion,broky|frozen|karrigan|rain|ropz,acor|isak|keoz|snax|volt,7.8,0.3586928593319014,0.2015538983776485,0.21153930935113818,17,9
+copenhagen,2024-01-25,813406,3,1,Virtus.pro,Cloud9,fame|fl1t|jame|mir|n0rb3r7,ax1le|boombl4|electronic|hobbit|perfecto,2.53,-0.0924566417240188,-0.10544105655428017,0.042342253101750105,25,17
+copenhagen,2024-01-26,10067022,3,1,The Mongolz,TYLOO,910|blitz|mzinho|senzu|techno,advent|auman|jamyoung|kaze|mercury,1.19,0.35178708747023124,0.32700890403981914,0.21856036101505408,8,10
+copenhagen,2024-01-26,815409,3,0,GamerLegion,FaZe Clan,acor|isak|keoz|snax|volt,broky|frozen|karrigan|rain|ropz,-7.8,-0.21590610532492882,-0.09547721833016662,-0.14832327862637815,10,17
+copenhagen,2024-01-26,816384,3,0,Cloud9,BIG,ax1le|boombl4|electronic|hobbit|perfecto,krimbo|mantuu|prosus|s1n|tabsen,1.25,0.13697683380594883,0.06265485686213827,0.035126622885391215,17,26
+copenhagen,2024-01-27,10067025,3,0,The Mongolz,TYLOO,910|blitz|mzinho|senzu|techno,advent|auman|jamyoung|kaze|mercury,1.19,0.45644307482651125,0.36137277579269617,0.2744173645892599,8,10
+copenhagen,2024-01-27,818252,3,0,Astralis,Team Vitality,blamef|device|jabbi|staehr|stavn,apex|flamez|mezii|spinx|zywoo,-6.47,-0.046682583484726994,-0.03448221148219302,0.04856520464995336,12,10
+copenhagen,2024-01-27,818472,3,1,Natus Vincere,G2 Esports,aleksib|b1t|im|jl|w0nderful,hooxi|hunter-|m0nesy|nexa|niko,0.36,0.235774593710515,-0.05062617243897062,0.11517778274479834,12,8
+copenhagen,2024-01-27,819092,3,1,Virtus.pro,BIG,fame|fl1t|jame|mir|n0rb3r7,krimbo|mantuu|prosus|s1n|tabsen,3.78,0.0638921430999963,-0.12172869507257329,0.11466353436699152,23,26
+copenhagen,2024-01-28,821411,3,1,Astralis,BIG,blamef|device|jabbi|staehr|stavn,krimbo|mantuu|prosus|s1n|tabsen,-1.3,0.11290737397253153,0.021290261459374057,0.19083431124920475,13,27
+copenhagen,2024-01-30,10067104,1,0,Team 3DMAX,Permitta Esports,djoko|ex3rcice|hadji|lucky|maka,bnox|maaryy|masked|morelz|vegi,3.43,0.009258226315881538,0.13301735996936767,-0.19150294012778338,15,5
+copenhagen,2024-01-30,10067105,1,0,RUSH B,Espionage,executor|kinqie|kiro|nota|tex1y,cabbi|iceberg|kwezz|lucky|mistr,-0.46,0.12954492377773558,0.0445821183740554,0.0,0,5
+copenhagen,2024-01-30,822508,3,1,GODSENT,500,bobeksde|eraa|golden|plopski|ro1f,dennyslaw|patrick|rainwaker|redstar|shipz,3.16,-0.11207392552316615,0.029917465452262825,-0.14199139097542898,1,1
+copenhagen,2024-01-31,10066638,1,0,Cloud9,Rebels Gaming,ax1le|boombl4|electronic|hobbit|perfecto,casey|flayy|kisserek|olimp|snx,7.22,-0.0006305253036471306,0.04566623669730932,-0.130220445747675,17,0
+copenhagen,2024-01-31,10066639,1,1,Eternal Fire,BetBoom Team,calyx|maj3r|wicadia|woxic|xantares,danistzz|kair0n|nafany|s1ren|zorte,1.45,-0.09364221599315288,-0.0610022935334686,-0.04585484931494556,12,16
+copenhagen,2024-01-31,10067122,3,0,Rebels Gaming,Eternal Fire,casey|flayy|kisserek|olimp|snx,calyx|maj3r|wicadia|woxic|xantares,-6.1,-0.02284961860558214,-0.09265559699679864,0.12289306768233095,0,12
+copenhagen,2024-01-31,800021,1,0,Rooster,Virtus.pro,asap|chelleos|nettik|rackem|tjp,fame|fl1t|jame|mir|n0rb3r7,-9.38,0.101036731744668,0.040217563308857396,0.04796146206592354,1,21
+copenhagen,2024-01-31,800022,1,1,GamerLegion,M80,acor|isak|keoz|snax|volt,dephh|malbsmd|reck|slaxz-|swisher,1.0,-0.1048555742857879,0.033848777728002155,-0.17505305318797723,11,9
+copenhagen,2024-01-31,800023,1,1,Team Spirit,Apeks,chopper|donk|magixx|sh1ro|zont1x,cacanito|jkaem|nawwk|sense|styko,2.83,-0.03450026823758025,-0.20522897092625808,0.06642916911696164,15,19
+copenhagen,2024-01-31,800024,1,0,FURIA Esports,The Mongolz,art|chelo|fallen|kscerato|yuurih,910|blitz|mzinho|senzu|techno,4.57,-0.2067624388933851,-0.17931047284930576,-0.030978644775929466,12,8
+copenhagen,2024-01-31,800025,1,0,ENCE,BIG,dycha|gla1ve|goofy|hades|kylar,krimbo|mantuu|prosus|s1n|tabsen,-2.98,0.14641316568001606,-0.013166817916648449,0.0734945169981962,11,25
+copenhagen,2024-01-31,822505,3,1,Permitta Esports,Espionage,bnox|maaryy|masked|morelz|vegi,cabbi|iceberg|kwezz|lucky|mistr,-0.51,0.08384539534024751,0.06639290709771946,0.0,6,6
+copenhagen,2024-02-01,10067126,3,1,Cloud9,BetBoom Team,ax1le|boombl4|electronic|hobbit|perfecto,danistzz|kair0n|nafany|s1ren|zorte,2.57,-0.14085039325079377,-0.07289066829907992,-0.11890174490732441,18,17
+copenhagen,2024-02-01,822503,3,1,Metizport,Team Sampi,adamb|jackinho|nilo|susp|ztr,fino|savana1|t4gg3d|the elive|zedko,0.78,-0.19018991090165874,0.0,-0.19018991090165874,3,0
+copenhagen,2024-02-01,822504,3,0,ALTERNATE aTTaX,Sangal Esports,awzek|freeze|god6y|panix|perx,ganginho|lnz|sausol|xfl0ud|yxngstxr,2.47,-0.20789755332081286,-0.15055034020042665,0.08211817460912242,15,2
+copenhagen,2024-02-01,831943,3,0,Astralis,ENCE,blamef|device|jabbi|staehr|stavn,dycha|gla1ve|goofy|hades|kylar,1.68,0.04438870326549826,0.10031736294525506,0.11851530641187877,14,12
+copenhagen,2024-02-01,832377,3,1,M80,Rooster,dephh|malbsmd|reck|slaxz-|swisher,asap|chelleos|nettik|rackem|tjp,2.5,-0.10767632186600717,-0.0030039613317227286,-0.013934075700692791,10,2
+copenhagen,2024-02-01,832378,3,0,FURIA Esports,Apeks,art|chelo|fallen|kscerato|yuurih,cacanito|jkaem|nawwk|sense|styko,1.93,-0.13763132467788713,-0.12759733399936463,-0.10484640073538853,13,20
+copenhagen,2024-02-01,832380,3,1,GamerLegion,Virtus.pro,acor|isak|keoz|snax|volt,fame|fl1t|jame|mir|n0rb3r7,-5.88,-0.05553545971006352,0.07031267405406165,-0.1434101984578544,12,21
+copenhagen,2024-02-01,832381,3,0,The Mongolz,Team Spirit,910|blitz|mzinho|senzu|techno,chopper|donk|magixx|sh1ro|zont1x,-5.47,0.191849331602319,0.27778241131861214,-0.07853533040664595,9,16
+copenhagen,2024-02-02,10067133,3,1,Rebels Gaming,M80,casey|flayy|kisserek|olimp|snx,dephh|malbsmd|reck|slaxz-|swisher,-2.87,0.1677418800390225,0.14026591875414138,-0.006627564614430625,2,11
+copenhagen,2024-02-02,835097,3,0,Virtus.pro,Cloud9,fame|fl1t|jame|mir|n0rb3r7,ax1le|boombl4|electronic|hobbit|perfecto,2.53,-0.025741633762933792,-0.08588380000616672,0.08304444546403611,22,18
+copenhagen,2024-02-02,835282,3,0,BIG,Apeks,krimbo|mantuu|prosus|s1n|tabsen,cacanito|jkaem|nawwk|sense|styko,0.21,-0.2170366238366139,-0.22437357462324936,-0.0783369952409497,25,21
+copenhagen,2024-02-02,835283,3,0,The Mongolz,ENCE,910|blitz|mzinho|senzu|techno,dycha|gla1ve|goofy|hades|kylar,0.13,0.1882674577050492,0.234238551160317,0.013671464407100278,10,13
+copenhagen,2024-02-03,10066646,3,1,FaZe Clan,Rebels Gaming,broky|frozen|karrigan|rain|ropz,casey|flayy|kisserek|olimp|snx,11.67,-0.21015837026205236,-0.22434513503151002,-0.04699466596690674,15,3
+copenhagen,2024-02-03,837315,3,0,Natus Vincere,Team Spirit,aleksib|b1t|im|jl|w0nderful,chopper|donk|magixx|sh1ro|zont1x,0.04,-0.05132048875962483,-0.04825155327038555,-0.13638336626448339,13,16
+copenhagen,2024-02-03,837660,3,0,Team Vitality,ENCE,apex|flamez|mezii|spinx|zywoo,dycha|gla1ve|goofy|hades|kylar,8.15,-0.004995211480768563,0.03459205538912824,0.07097739231733328,11,14
+copenhagen,2024-02-03,837661,3,1,Complexity,Apeks,elige|floppy|grim|hallzerk|jt,cacanito|jkaem|nawwk|sense|styko,1.39,-0.3103573489850928,-0.29341376912058553,-0.19042691077689963,10,22
+copenhagen,2024-02-04,837313,3,0,Monte,GamerLegion,br0|demqq|krasnal|sdy|woro2k,acor|isak|keoz|snax|volt,4.02,-0.09806678774468329,-0.10818936056188827,0.007747165895441471,10,13
+copenhagen,2024-02-04,837659,3,1,MOUZ,Cloud9,brollan|jimpphat|siuhy|torzsi|xertion,ax1le|boombl4|electronic|hobbit|perfecto,2.22,-0.22127932811575537,-0.15726443751429486,-0.0038100649132603026,16,18
+copenhagen,2024-02-04,839270,3,1,FaZe Clan,Eternal Fire,broky|frozen|karrigan|rain|ropz,calyx|maj3r|wicadia|woxic|xantares,5.57,-0.035717424821707214,-0.09265559699679864,0.016474648140178044,15,14
+copenhagen,2024-02-04,839541,3,1,Natus Vincere,Apeks,aleksib|b1t|im|jl|w0nderful,cacanito|jkaem|nawwk|sense|styko,2.87,-0.09372750703248202,-0.21814816679437532,-0.0598815984268567,14,23
+copenhagen,2024-02-04,839543,3,1,Team Spirit,Complexity,chopper|donk|magixx|sh1ro|zont1x,elige|floppy|grim|hallzerk|jt,1.44,0.2697940857317518,0.08645789668956047,0.21739387972651295,17,11
+copenhagen,2024-02-05,10067214,3,1,Team Sampi,Nigma Galaxy Female,fino|savana1|t4gg3d|the elive|zedko,ana|kat|tory|twenty3|zaaz,-0.71,-0.06493292965088515,0.0,0.0,1,0
+copenhagen,2024-02-05,837898,3,1,Espionage,Entropiq,cabbi|iceberg|kwezz|lucky|mistr,c0llins|marix|mwlky|oxygen|tizian,0.99,-0.11159142643107349,-0.03666215378503778,0.0,7,6
+copenhagen,2024-02-05,839722,3,1,ENCE,G2 Esports,dycha|gla1ve|goofy|hades|kylar,hooxi|hunter-|m0nesy|nexa|niko,-5.28,0.34819680534261116,0.08593633659448419,0.15874772144904065,15,9
+copenhagen,2024-02-05,841469,3,0,GamerLegion,MOUZ,acor|isak|keoz|snax|volt,brollan|jimpphat|siuhy|torzsi|xertion,-5.57,0.22281437937211723,0.21043991991653033,-0.038173158466109,14,17
+copenhagen,2024-02-05,841470,3,1,Monte,Cloud9,br0|demqq|krasnal|sdy|woro2k,ax1le|boombl4|electronic|hobbit|perfecto,0.67,-0.16568723582836942,-0.09279478510403093,-0.06460388061768202,11,19
+copenhagen,2024-02-05,841734,3,0,Eternal Fire,Natus Vincere,calyx|maj3r|wicadia|woxic|xantares,aleksib|b1t|im|jl|w0nderful,-2.53,-0.00889620529548659,0.048460789687283706,0.0037709026615983104,15,15
+copenhagen,2024-02-06,837895,3,1,ALTERNATE aTTaX,500,awzek|freeze|god6y|panix|perx,dennyslaw|patrick|rainwaker|redstar|shipz,2.32,-0.011651429263668578,0.017113298228736716,-0.028850058972474155,16,2
+copenhagen,2024-02-06,842070,3,0,FaZe Clan,Team Spirit,broky|frozen|karrigan|rain|ropz,chopper|donk|magixx|sh1ro|zont1x,3.08,-0.142701409990071,-0.07599847736185396,-0.10296331962795649,16,17
+copenhagen,2024-02-06,844328,3,0,ENCE,MOUZ,dycha|gla1ve|goofy|hades|kylar,brollan|jimpphat|siuhy|torzsi|xertion,-6.45,0.3665695396666664,0.2656496252938565,0.08005383489311488,15,18
+copenhagen,2024-02-06,844329,3,1,G2 Esports,Monte,hooxi|hunter-|m0nesy|nexa|niko,br0|demqq|krasnal|sdy|woro2k,0.38,-0.15424636233226988,0.07837309653043903,-0.11119830199070055,10,11
+copenhagen,2024-02-07,837893,3,0,Sprout,Metizport,anlelele|cej0t|raalz|sdaim|sl1m3,adamb|jackinho|nilo|susp|ztr,-0.18,0.05801650822563531,-0.014763486610482799,0.11064691838487468,15,4
+copenhagen,2024-02-08,837891,3,1,GODSENT,Sangal Esports,bobeksde|eraa|golden|plopski|ro1f,ganginho|lnz|sausol|xfl0ud|yxngstxr,3.31,-0.3670508510566653,-0.21973356911418826,-0.10177135823004087,2,3
+copenhagen,2024-02-09,847918,3,1,FaZe Clan,G2 Esports,broky|frozen|karrigan|rain|ropz,hooxi|hunter-|m0nesy|nexa|niko,3.4,0.14797051765015784,-0.07837309653043903,0.18568253169989918,15,11
+copenhagen,2024-02-10,857776,3,0,MOUZ,FaZe Clan,brollan|jimpphat|siuhy|torzsi|xertion,broky|frozen|karrigan|rain|ropz,-2.23,-0.1361736349618609,-0.04056990095082452,-0.05336864547721927,16,16
+copenhagen,2024-02-10,858102,3,0,AMKAL Esports,Espionage,forester|icy|krad|nickelback|travis,cabbi|iceberg|kwezz|lucky|mistr,3.44,0.18583302188116568,0.0445821183740554,0.03814762321873375,2,8
+copenhagen,2024-02-11,861529,5,1,Team Spirit,FaZe Clan,chopper|donk|magixx|sh1ro|zont1x,broky|frozen|karrigan|rain|ropz,-3.08,0.27785593280050475,0.17335231488309216,0.11569142545426132,17,15
+copenhagen,2024-02-11,862188,3,0,Team 3DMAX,Apeks,djoko|ex3rcice|hadji|lucky|maka,cacanito|jkaem|nawwk|sense|styko,-1.57,-0.30149405046077393,-0.27577385688260514,-0.20425645034078954,14,22
+copenhagen,2024-02-11,862189,3,0,Sprout,Metizport,anlelele|cej0t|raalz|sdaim|sl1m3,adamb|jackinho|nilo|susp|ztr,-0.18,-0.021323092210374497,-0.014763486610482799,0.11064691838487468,16,5
+copenhagen,2024-02-11,864737,3,1,Metizport,Apeks,adamb|jackinho|nilo|susp|ztr,cacanito|jkaem|nawwk|sense|styko,-3.23,-0.17576513986639902,-0.21670199539478835,-0.1457278266300972,5,22
+copenhagen,2024-02-14,10067283,1,1,Natus Vincere,KOI,aleksib|b1t|im|jl|w0nderful,adams|dav1g|just|mopoz|stadodo,6.03,0.09705122053220047,-0.038876289103413064,0.05891434067410694,16,11
+copenhagen,2024-02-14,10067451,1,1,BetBoom Team,Into The Breach,danistzz|kair0n|nafany|s1ren|zorte,bymas|cruc1al|misutaaa|rallen|thomas,2.46,-0.05164425226782562,0.005351281047838191,-0.14289827221141913,15,7
+copenhagen,2024-02-14,10067452,1,0,Team 3DMAX,KOI,djoko|ex3rcice|hadji|lucky|maka,adams|dav1g|just|mopoz|stadodo,1.59,-0.11671848741335888,-0.15116236514596804,-0.07707060912132437,14,11
+copenhagen,2024-02-14,849619,1,1,G2 Esports,Into The Breach,hooxi|hunter-|m0nesy|nexa|niko,bymas|cruc1al|misutaaa|rallen|thomas,6.08,-0.31480725232281837,-0.03838097694005688,-0.2930016407949287,12,7
+copenhagen,2024-02-14,849621,1,1,Virtus.pro,SAW,fame|fl1t|jame|mir|n0rb3r7,arrozdoce|ewjerkz|mutiris|rmn|story,6.71,-0.20478721048335397,0.0034301825410915274,-0.19734144682629906,21,12
+copenhagen,2024-02-14,849622,1,1,FaZe Clan,9Pandas,broky|frozen|karrigan|rain|ropz,clax|d1ledez|glowiing|idisbalance|seized,8.14,-0.32393372428409406,-0.18557926583088788,-0.17479634572278874,16,17
+copenhagen,2024-02-14,877139,1,1,G2 Esports,Eternal Fire,hooxi|hunter-|m0nesy|nexa|niko,calyx|maj3r|wicadia|woxic|xantares,2.17,-0.30517357515262816,0.006367250069410038,-0.2762904243448385,12,14
+copenhagen,2024-02-14,877145,1,0,SAW,9Pandas,arrozdoce|ewjerkz|mutiris|rmn|story,clax|d1ledez|glowiing|idisbalance|seized,-0.49,-0.1000288184365456,-0.18900944837197942,0.023602401821939414,12,17
+copenhagen,2024-02-15,10067459,1,0,9Pandas,KOI,clax|d1ledez|glowiing|idisbalance|seized,adams|dav1g|just|mopoz|stadodo,0.93,0.11799600064397274,-0.03645007439526993,0.12657604322310834,18,10
+copenhagen,2024-02-15,878392,3,0,Into The Breach,Team 3DMAX,bymas|cruc1al|misutaaa|rallen|thomas,djoko|ex3rcice|hadji|lucky|maka,-2.0,0.1898887466791857,0.13074061429806744,0.18212270437146083,8,14
+copenhagen,2024-02-15,878393,3,1,Virtus.pro,Natus Vincere,fame|fl1t|jame|mir|n0rb3r7,aleksib|b1t|im|jl|w0nderful,1.12,-0.1615182775639873,-0.02774692409146841,-0.05557048303197781,22,17
+copenhagen,2024-02-15,878395,3,0,FaZe Clan,G2 Esports,broky|frozen|karrigan|rain|ropz,hooxi|hunter-|m0nesy|nexa|niko,3.4,0.04441437769992396,-0.05310512433051723,0.11222987190599805,17,14
+copenhagen,2024-02-16,10067472,3,1,Natus Vincere,BetBoom Team,aleksib|b1t|im|jl|w0nderful,danistzz|kair0n|nafany|s1ren|zorte,3.98,-0.04080450557165014,-0.11041561580239648,-0.010581543623613035,18,14
+copenhagen,2024-02-16,10067522,1,0,Pera Esports,B8 Esports,aaron|dgl|kamion|msn|porya,cptkurtka023|esenthial|npl|owner|r1nkle,0.61,0.19557622544943795,0.017830655058880398,0.09677440444850464,11,2
+copenhagen,2024-02-16,10067523,1,0,Sinners Esports,500,ajtt|beastik|neofrag|oskar|shock,dennyslaw|patrick|rainwaker|redstar|shipz,3.24,-0.06850499498815124,0.039127032989210574,-0.14859477781222777,6,3
+copenhagen,2024-02-16,10067524,1,1,B8 Esports,500,cptkurtka023|esenthial|npl|owner|r1nkle,dennyslaw|patrick|rainwaker|redstar|shipz,1.61,-0.12016691701041937,0.06591309918096003,-0.12208454829261127,2,3
+copenhagen,2024-02-16,10067525,1,0,Pera Esports,Sinners Esports,aaron|dgl|kamion|msn|porya,ajtt|beastik|neofrag|oskar|shock,-1.02,0.14391430342716982,0.04461672125062985,0.12328463396812114,11,6
+copenhagen,2024-02-16,10067526,1,0,500,Sinners Esports,dennyslaw|patrick|rainwaker|redstar|shipz,ajtt|beastik|neofrag|oskar|shock,-3.24,0.06850499498815124,-0.039127032989210574,0.14859477781222777,3,6
+copenhagen,2024-02-16,882159,3,1,FaZe Clan,Eternal Fire,broky|frozen|karrigan|rain|ropz,calyx|maj3r|wicadia|woxic|xantares,5.57,-0.22077313342299193,-0.019779397366469074,-0.12900008968144808,18,14
+copenhagen,2024-02-16,882160,3,1,9Pandas,Team 3DMAX,clax|d1ledez|glowiing|idisbalance|seized,djoko|ex3rcice|hadji|lucky|maka,-0.66,0.2350937708122553,0.1265277015574908,0.20479302889289092,18,15
+copenhagen,2024-02-17,10067521,3,0,BetBoom Team,Eternal Fire,danistzz|kair0n|nafany|s1ren|zorte,calyx|maj3r|wicadia|woxic|xantares,-1.45,0.02315131771932475,0.08754436636547541,-0.027549422530189178,14,15
+copenhagen,2024-02-17,885878,3,0,9Pandas,AMKAL Esports,clax|d1ledez|glowiing|idisbalance|seized,forester|icy|krad|nickelback|travis,-1.18,0.1398541005928386,0.04198854960640423,0.1506996219840242,19,3
+copenhagen,2024-02-18,10067534,3,0,Aurora Gaming,Monte,belchonokk|deko|kensi|lack1|norwi,br0|demqq|krasnal|sdy|woro2k,-4.22,0.09312146339521532,0.02652328739987526,0.0834147050389449,11,11
+copenhagen,2024-02-18,889068,3,0,Sinners Esports,Monte,ajtt|beastik|neofrag|oskar|shock,br0|demqq|krasnal|sdy|woro2k,-4.94,-0.055742396950997974,-0.0032603839787632336,-0.0846891723753836,8,11
+copenhagen,2024-02-18,889069,3,0,B8 Esports,Aurora Gaming,cptkurtka023|esenthial|npl|owner|r1nkle,belchonokk|deko|kensi|lack1|norwi,-2.35,-0.06724671677036752,-0.02652328739987526,-0.02931839613548333,4,11
+copenhagen,2024-02-19,10067548,1,0,Guild Eagles,ENCE,gxx-|juanflatroo|rigon|sener1|sinnopsyy,dycha|gla1ve|goofy|hades|kylar,0.26,0.028068152409551517,-0.1605766670390666,0.18197884933574213,10,12
+copenhagen,2024-02-19,10067549,1,1,GamerLegion,Pera Esports,acor|isak|keoz|snax|volt,aaron|dgl|kamion|msn|porya,1.94,0.05110423215107023,0.13712525764159117,-0.1636769850445634,15,13
+copenhagen,2024-02-19,853199,1,1,Apeks,OG,cacanito|jkaem|nawwk|sense|styko,f1ku|heavygod|k1to|nexius|regali,4.77,-0.016527834238907538,0.13615589829999347,-0.15029109412187036,19,7
+copenhagen,2024-02-19,853200,1,1,Cloud9,Pera Esports,ax1le|boombl4|electronic|hobbit|perfecto,aaron|dgl|kamion|msn|porya,5.29,0.007555793420264696,0.07496413004515053,-0.1433829354470319,20,13
+copenhagen,2024-02-19,853201,1,0,Monte,ECSTATIC,br0|demqq|gizmy|krasnal|woro2k,kraghen|nodios|patti|queenix|salazar,5.63,-0.01930318423656225,0.04998276616377489,-0.15588683162453904,13,9
+copenhagen,2024-02-19,853202,1,1,Team Spirit,ENCE,chopper|donk|magixx|sh1ro|zont1x,dycha|gla1ve|goofy|hades|kylar,5.6,0.033371613993401356,0.016159084010024055,0.15828429517306408,16,12
+copenhagen,2024-02-19,853203,1,1,MOUZ,Guild Eagles,brollan|jimpphat|siuhy|torzsi|xertion,gxx-|juanflatroo|rigon|sener1|sinnopsyy,6.19,-0.38563764311035115,-0.138099352710162,-0.21527673302279954,15,10
+copenhagen,2024-02-19,853204,1,1,Team Vitality,GamerLegion,apex|flamez|mezii|spinx|zywoo,acor|isak|keoz|snax|volt,7.27,0.01805791739311139,-0.031199986209959937,0.13244982629802615,12,15
+copenhagen,2024-02-19,894033,1,1,Team Spirit,Astralis,chopper|donk|magixx|sh1ro|zont1x,blamef|device|jabbi|staehr|stavn,3.92,0.21464366596501458,0.1769423027884056,0.07804199742214582,16,12
+copenhagen,2024-02-19,894034,1,1,Cloud9,Apeks,ax1le|boombl4|electronic|hobbit|perfecto,cacanito|jkaem|nawwk|sense|styko,1.46,-0.15652857690843724,-0.12390721029075742,-0.096450535947345,20,19
+copenhagen,2024-02-19,894206,1,1,MOUZ,ECSTATIC,brollan|jimpphat|siuhy|torzsi|xertion,kraghen|nodios|patti|queenix|salazar,7.18,-0.15142737473177767,-0.015780371306978118,-0.22453179630987874,15,9
+copenhagen,2024-02-19,894208,1,0,Preasy Esport,OG,altekz|dupreeh|refrezh|roej|tmb,f1ku|heavygod|k1to|nexius|regali,3.45,-0.08823906810126005,-0.10015478316104495,0.058405727485516604,15,7
+copenhagen,2024-02-20,894987,3,0,Team Spirit,MOUZ,chopper|donk|magixx|sh1ro|zont1x,brollan|jimpphat|siuhy|torzsi|xertion,-0.85,0.3628905316362447,0.31483510375925267,0.17083735888055793,17,17
+copenhagen,2024-02-20,894988,3,0,Pera Esports,Preasy Esport,aaron|dgl|kamion|msn|porya,altekz|dupreeh|refrezh|roej|tmb,-2.51,-0.0487723625099378,0.030163734399494,-0.08920931984215712,14,16
+copenhagen,2024-02-20,894989,3,0,Team Vitality,Cloud9,apex|flamez|mezii|spinx|zywoo,ax1le|boombl4|electronic|hobbit|perfecto,3.92,0.04549472020902505,0.030961141386480706,0.07386065091813865,13,22
+copenhagen,2024-02-20,894992,1,0,GamerLegion,ENCE,acor|isak|keoz|snax|volt,dycha|gla1ve|goofy|hades|kylar,0.88,-0.17576087795287088,-0.09600772522996795,-0.013613327113118967,17,13
+copenhagen,2024-02-20,894993,1,1,Apeks,Monte,cacanito|jkaem|nawwk|sense|styko,br0|demqq|krasnal|sdy|woro2k,-2.13,0.20727238444209944,0.1843180348337405,0.08847898988227909,21,14
+copenhagen,2024-02-20,894994,1,1,ECSTATIC,OG,kraghen|nodios|patti|queenix|salazar,f1ku|heavygod|k1to|nexius|regali,1.27,-0.15038936393322286,-0.07405703008864023,-0.013788323141578171,11,9
+copenhagen,2024-02-21,898155,3,1,Guild Eagles,Preasy Esport,gxx-|juanflatroo|rigon|sener1|sinnopsyy,altekz|dupreeh|refrezh|roej|tmb,-1.19,0.1265084001524075,0.08084474855256221,-0.01735353341637178,12,17
+copenhagen,2024-02-21,898157,3,1,Team Vitality,ENCE,apex|flamez|mezii|spinx|zywoo,dycha|gla1ve|goofy|hades|kylar,8.15,-0.24964990842777152,-0.11587766881097923,0.008755934168821228,13,14
+copenhagen,2024-02-21,898158,3,0,OG,GamerLegion,f1ku|heavygod|k1to|nexius|regali,acor|isak|keoz|snax|volt,-2.88,0.1531088808813025,-0.042046720560458536,0.21863556287751845,10,18
+copenhagen,2024-02-21,898159,3,1,Apeks,ECSTATIC,cacanito|jkaem|nawwk|sense|styko,kraghen|nodios|patti|queenix|salazar,3.5,0.08360605049439429,0.1526562284416387,-0.1580431359324857,22,12
+copenhagen,2024-02-21,898160,3,0,Monte,Astralis,br0|demqq|krasnal|sdy|woro2k,blamef|device|jabbi|staehr|stavn,3.22,-0.13589879492848236,-0.08876403353442434,-0.14190965585958026,15,12
+copenhagen,2024-02-22,10067593,3,1,ECSTATIC,Guild Eagles,kraghen|nodios|patti|queenix|salazar,gxx-|juanflatroo|rigon|sener1|sinnopsyy,-0.99,-0.1679750320039557,-0.07369587566976438,0.041842509702479526,12,13
+copenhagen,2024-02-22,10067741,3,1,FURIA Esports,Imperial Esports,art|chelo|fallen|kscerato|yuurih,decenty|felps|hen1|noway|vini,5.71,-0.13919230749207034,0.12183125552117133,-0.08860812408689343,10,7
+copenhagen,2024-02-22,10067742,3,1,9z Team,BESTIA,buda|dgt|huasopeek|martinezsa|max,deco|luchov|meyern|noktse|tomaszin,0.65,0.13625284600732446,0.2671613836631396,-0.07154698935469374,5,5
+copenhagen,2024-02-22,10067748,3,1,Grayhound Gaming,Bad News Kangaroos,alistair|dexter|ins|liazz|vexite,addict|brace|hatz|hazr|pz,0.39,0.18785620810148262,0.05500516434941947,0.0,3,6
+copenhagen,2024-02-22,10067750,3,0,Rooster,Grayhound Gaming,asap|chelleos|danger|nettik|tjp,alistair|dexter|ins|liazz|vexite,0.06,-0.011613521030856798,-0.028025794479570345,0.0,3,3
+copenhagen,2024-02-22,901929,3,1,ENCE,Astralis,dycha|gla1ve|goofy|hades|kylar,blamef|device|jabbi|staehr|stavn,-1.68,0.13598303525546077,0.022745236677599173,-0.08024229775091828,15,12
+copenhagen,2024-02-23,10067743,3,0,Imperial Esports,BESTIA,decenty|felps|hen1|noway|vini,deco|luchov|meyern|noktse|tomaszin,-0.34,0.0291076172452178,0.0018281354039635378,-0.1145897080353903,6,6
+copenhagen,2024-02-23,10067744,3,1,FURIA Esports,9z Team,art|chelo|fallen|kscerato|yuurih,buda|dgt|huasopeek|martinezsa|max,4.72,-0.2111088901076971,-0.1374983353913092,-0.10990359038554846,11,6
+copenhagen,2024-02-23,10067745,3,1,9z Team,BESTIA,buda|dgt|huasopeek|martinezsa|max,deco|luchov|meyern|noktse|tomaszin,0.65,0.1979632726276892,0.2671613836631396,-0.07154698935469374,6,6
+copenhagen,2024-02-23,10067751,3,1,Rooster,Bad News Kangaroos,asap|chelleos|danger|nettik|tjp,addict|brace|hatz|hazr|pz,0.45,0.14121869661515113,0.026979369869849123,0.0,4,7
+copenhagen,2024-02-23,10067752,3,1,Grayhound Gaming,Rooster,alistair|dexter|ins|liazz|vexite,asap|chelleos|danger|nettik|tjp,-0.06,0.15841976440408884,0.028025794479570345,0.0,5,4
+copenhagen,2024-02-23,904916,3,1,Guild Eagles,BetBoom Team,gxx-|juanflatroo|rigon|sener1|sinnopsyy,danistzz|kair0n|nafany|s1ren|zorte,-1.4,0.06834350166665211,0.04658759134399838,0.09926580332969878,14,15
+copenhagen,2024-02-23,904917,3,1,9Pandas,Astralis,clax|d1ledez|glowiing|idisbalance|seized,blamef|device|jabbi|staehr|stavn,-1.14,0.027662783572317374,-0.2803167868131172,0.1799115660790299,18,13
+copenhagen,2024-02-24,908100,3,1,GamerLegion,Guild Eagles,acor|isak|keoz|snax|volt,gxx-|juanflatroo|rigon|sener1|sinnopsyy,0.62,-0.14220916173758955,-0.008767003346218466,-0.20715587095255855,16,15
+copenhagen,2024-02-24,908532,3,0,FURIA Esports,9z Team,art|chelo|fallen|kscerato|yuurih,buda|dgt|huasopeek|martinezsa|max,4.72,-0.2031705141329317,-0.0973352970365794,-0.08961814908008177,12,8
+copenhagen,2024-02-24,910831,3,0,GamerLegion,9Pandas,acor|isak|keoz|snax|volt,clax|d1ledez|glowiing|idisbalance|seized,0.34,-0.06516088246062493,0.17857369898936473,-0.21001901260152772,16,19
+copenhagen,2024-02-26,10067768,1,1,The Mongolz,Grayhound Gaming,910|blitz|mzinho|senzu|techno,alistair|dexter|ins|liazz|vexite,2.81,-0.0326430394844969,0.24311899657242966,-0.047102279587075656,9,6
+copenhagen,2024-02-26,10067769,1,0,TYLOO,Lynn Vision Gaming,advent|auman|jamyoung|kaze|mercury,emiliaqaq|jee|starry|westmelon|z4kr,-0.16,-0.09790770906618645,0.047102279587075656,0.0,3,1
+copenhagen,2024-02-26,10067777,3,1,BOSS,Wildcard Gaming,brett|cryptic|d4rtymontana|freshie|pwnalone,infinite|jba|slight|sonic|stanislaw,0.73,-0.2780379128310606,-0.1338152175268408,0.0,2,3
+copenhagen,2024-02-26,10067779,3,0,BOSS,Nouns Esports,brett|cryptic|d4rtymontana|freshie|pwnalone,cj|jeorgesnorts|junior|marke|nosrac,-0.48,-0.07155401021147623,0.008970132696766886,0.0,2,1
+copenhagen,2024-02-26,858555,3,1,500,Nigma Galaxy Female,dennyslaw|patrick|rainwaker|redstar|shipz,ana|kat|tory|twenty3|zaaz,-2.75,0.0929386226997303,-0.007191084948604873,0.0,6,1
+copenhagen,2024-02-27,858553,3,0,Sprout,Permitta Esports,anlelele|cej0t|raalz|sdaim|sl1m3,bnox|maaryy|masked|morelz|vegi,1.59,-0.11172630270441608,-0.03657427533414685,-0.07932175665756712,12,7
+copenhagen,2024-02-28,10067351,3,1,Alliance,Sangal Esports,avid|b0denmaster|plessen|robiin|twist,ganginho|lnz|sausol|xfl0ud|yxngstxr,3.36,-0.31179553320599224,-0.13858978386545567,-0.24156696885858261,6,2
+copenhagen,2024-02-28,10067832,3,1,FORZE,Aurora Gaming,gokushima|r3salt|sellter|shalfey|tn1r,belchonokk|deko|kensi|lack1|norwi,-0.39,0.12089525043391959,0.0635410804553329,0.008122080833895108,11,12
+copenhagen,2024-02-28,10067833,3,0,HAVU Gaming,Team Spirit Academy,airax|banjo|ottond|puuha|uli,alpha1337|baaaazzz|keegan|magnojez|notineki,2.17,0.06578368266551747,-0.006345851605370811,0.0,2,0
+copenhagen,2024-02-28,10067835,3,0,KOI,FORZE,adams|dav1g|just|mopoz|stadodo,gokushima|r3salt|sellter|shalfey|tn1r,-0.68,-0.002946706751888767,0.061255500717156075,-0.0687077372247197,8,11
+copenhagen,2024-02-28,10067836,3,0,Team Spirit Academy,9Pandas,alpha1337|baaaazzz|keegan|magnojez|notineki,clax|d1ledez|glowiing|idisbalance|seized,-4.13,-0.09598463621895192,0.013957184758643472,-0.057868305998388644,0,20
+copenhagen,2024-02-28,858550,3,0,Team Sampi,Espionage,fino|manguss|savana1|the elive|zedko,cabbi|iceberg|kwezz|lucky|mistr,0.48,0.00886046315652081,-0.0873160344239313,0.0,2,6
+copenhagen,2024-02-28,916982,3,1,The Mongolz,Lynn Vision Gaming,910|blitz|mzinho|senzu|techno,emiliaqaq|jee|starry|westmelon|z4kr,1.03,-0.0035207053545956712,0.24311899657242966,-0.02052189235231408,10,2
+copenhagen,2024-02-28,923736,3,0,AMKAL Esports,Young Ninjas,forester|icy|krad|nickelback|travis,bluepho3nix|maxster|mistem|rez|silence,3.38,-0.021905578506423065,0.0,-0.08117424020991731,4,1
+copenhagen,2024-02-28,924485,3,1,Lynn Vision Gaming,Grayhound Gaming,emiliaqaq|jee|starry|westmelon|z4kr,alistair|dexter|ins|liazz|vexite,1.78,0.0006027243175280028,0.02759013638183616,0.0,2,7
+copenhagen,2024-02-29,10067841,3,1,KOI,HAVU Gaming,adams|dav1g|just|mopoz|stadodo,airax|banjo|ottond|puuha|uli,1.03,0.1521109912938179,0.16459293991291557,0.06081778032773463,9,3
+copenhagen,2024-02-29,10067842,3,1,Aurora Gaming,KOI,belchonokk|deko|kensi|lack1|norwi,adams|dav1g|just|mopoz|stadodo,1.07,-0.11105041150683265,-0.12479658117248897,0.060585656390824597,13,9
+copenhagen,2024-02-29,907488,3,1,Team 3DMAX,ECSTATIC,djoko|ex3rcice|hadji|lucky|maka,kraghen|nodios|patti|queenix|salazar,1.93,-0.2294329755221877,-0.1103390467137276,-0.24377239694640124,14,12
+copenhagen,2024-02-29,907490,3,1,Rebels Gaming,Sangal Esports,casey|flayy|kisserek|olimp|snx,ganginho|lnz|sausol|xfl0ud|yxngstxr,0.44,0.13055390735076366,0.13055390735076366,0.0,4,3
+copenhagen,2024-02-29,907491,3,0,HAVU Gaming,Aurora Gaming,airax|banjo|ottond|puuha|uli,belchonokk|deko|kensi|lack1|norwi,-2.1,-0.04106057978698525,-0.039796358740426585,-0.12140343671855923,3,13
+copenhagen,2024-02-29,926740,3,1,FORZE,9Pandas,gokushima|r3salt|sellter|shalfey|tn1r,clax|d1ledez|glowiing|idisbalance|seized,-0.25,0.08997687526202688,0.11094877234903214,-0.06124862886603773,13,19
+copenhagen,2024-02-29,926742,3,0,Team Spirit Academy,Aurora Gaming,alpha1337|baaaazzz|keegan|magnojez|notineki,belchonokk|deko|kensi|lack1|norwi,-4.27,0.09741458124147696,0.06544123806139347,0.008122080833895108,2,13
+copenhagen,2024-03-01,10067817,3,1,BetBoom Team,Preasy Esport,danistzz|kair0n|nafany|s1ren|zorte,altekz|dupreeh|refrezh|roej|tmb,0.21,0.023862438427713444,0.0946193488154091,-0.11975525771715459,16,16
+copenhagen,2024-03-01,917100,1,0,MIBR,BOSS,brnz4n|drop|exit|insani|saffee,brett|cryptic|cynic|d4rtymontana|freshie,6.08,-0.013179718484497172,0.1487368460382879,-0.15726295909205074,7,4
+copenhagen,2024-03-01,917101,1,1,M80,ODDIK,malbsmd|mankz|reck|slaxz-|swisher,matios|naitte|ponter|tuurtle|wood7,2.18,-0.28537444968256875,-0.16368990811591783,-0.07026360651894267,9,3
+copenhagen,2024-03-01,917103,1,1,FURIA Esports,Nouns Esports,art|chelo|fallen|kscerato|yuurih,cj|jeorgesnorts|junior|marke|nosrac,6.35,-0.1684779206124869,-0.048388836521971665,-0.18162862939270255,10,2
+copenhagen,2024-03-01,926360,3,1,BIG,AMKAL Esports,jdc|krimbo|prosus|syrson|tabsen,forester|icy|krad|nickelback|travis,1.26,0.011790125223530068,0.05858077516962969,0.06448030891447072,16,5
+copenhagen,2024-03-01,929683,3,0,9Pandas,Aurora Gaming,clax|d1ledez|glowiing|idisbalance|seized,belchonokk|deko|kensi|lack1|norwi,-0.14,0.056457269564196076,-0.04740769189369925,0.06770574964542701,20,15
+copenhagen,2024-03-01,931781,3,0,FORZE,Aurora Gaming,gokushima|r3salt|sellter|shalfey|tn1r,belchonokk|deko|kensi|lack1|norwi,-0.39,0.19006250853430096,0.0635410804553329,0.006457120779389281,14,15
+copenhagen,2024-03-02,10067822,3,1,Aurora Gaming,Rebels Gaming,belchonokk|deko|kensi|lack1|norwi,casey|flayy|kisserek|olimp|snx,3.67,-0.16352077707235824,-0.16583319680720804,-0.006457120779389281,17,5
+copenhagen,2024-03-02,10067827,3,0,Monte,Team 3DMAX,demqq|gizmy|krasnal|kvem|woro2k,djoko|ex3rcice|hadji|lucky|maka,3.7,-0.13301822080782372,0.062436668290334556,-0.18251199538603474,12,15
+copenhagen,2024-03-02,917098,1,1,RED Canids,Wildcard Gaming,dav1d|destiny|hardzao|nython|venomzera,infinite|jba|slight|sonic|stanislaw,2.24,-0.24685391096117998,-0.09394789935836453,0.013958218539453029,8,4
+copenhagen,2024-03-02,917099,1,1,paiN Gaming,Legacy,biguzera|kauez|lux|n1ssim|nqz,b4rtin|coldzera|dumau|latto|nekiz,2.15,-0.20183305733802454,-0.10332872429884896,-0.10191714224659879,6,4
+copenhagen,2024-03-02,929389,3,0,HAVU Gaming,Sangal Esports,airax|banjo|ottond|puuha|uli,ganginho|lnz|sausol|xfl0ud|yxngstxr,2.01,-0.10858719859735569,-0.10704701714800315,-0.12952551755245434,4,4
+copenhagen,2024-03-02,932754,3,0,Nouns Esports,Legacy,cj|jeorgesnorts|junior|marke|nosrac,b4rtin|coldzera|dumau|latto|nekiz,0.73,-0.08918709234712369,-0.14878951751349612,0.0,3,4
+copenhagen,2024-03-02,932756,3,0,BESTIA,Wildcard Gaming,deco|luchov|meyern|noktse|tomaszin,infinite|jba|slight|sonic|stanislaw,2.19,-0.09587795167586687,-0.10177969210902357,0.0,8,4
+copenhagen,2024-03-02,932758,1,0,M80,Imperial Esports,malbsmd|mankz|reck|slaxz-|swisher,decenty|felps|hen1|noway|vini,0.89,-0.04340563911726871,0.0022499903638976003,0.06866903087476514,10,6
+copenhagen,2024-03-02,932760,1,1,paiN Gaming,RED Canids,biguzera|kauez|lux|n1ssim|nqz,dav1d|destiny|hardzao|nython|venomzera,0.39,0.05227091874857018,0.0,-0.11587536078605182,6,8
+copenhagen,2024-03-02,932761,1,1,Complexity,BOSS,elige|floppy|grim|hallzerk|jt,brett|cryptic|cynic|d4rtymontana|freshie,6.29,-0.20059630043615914,-0.19062509723985488,-0.16681220098138383,6,5
+copenhagen,2024-03-03,10067894,1,1,BetBoom Team,Sprout,danistzz|kair0n|nafany|s1ren|zorte,anlelele|cej0t|raalz|sdaim|sl1m3,2.3,0.17438997120103533,0.09122499037107207,0.04970820957481234,17,11
+copenhagen,2024-03-03,10067923,3,1,Preasy Esport,ECSTATIC,altekz|dupreeh|refrezh|roej|tmb,kraghen|nodios|patti|queenix|salazar,2.18,-0.07825104232067315,-0.0406394840516694,-0.08605060665847208,17,13
+copenhagen,2024-03-03,934079,3,0,Sangal Esports,Rebels Gaming,ganginho|lnz|sausol|xfl0ud|yxngstxr,casey|flayy|kisserek|olimp|snx,-0.44,-0.10561012821025384,-0.022941673417788605,0.0,5,6
+copenhagen,2024-03-03,934251,3,1,ECSTATIC,Monte,kraghen|nodios|patti|queenix|salazar,demqq|gizmy|krasnal|kvem|woro2k,-5.63,0.3591174399913989,0.021030797985419344,0.43557596820231004,13,13
+copenhagen,2024-03-03,934855,1,0,RUSH B,Metizport,executor|kinqie|kiro|nota|tex1y,adamb|jackinho|nilo|susp|ztr,-1.72,-0.12915881066664955,-0.14420328420475972,0.19018991090165874,1,7
+copenhagen,2024-03-03,934859,1,1,ECSTATIC,Sinners Esports,kraghen|nodios|patti|queenix|salazar,ajtt|beastik|neofrag|oskar|shock,-0.69,0.1793192573845908,0.03168373747186852,0.2997661530248308,13,9
+copenhagen,2024-03-04,10067927,3,1,BetBoom Team,ECSTATIC,danistzz|kair0n|nafany|s1ren|zorte,kraghen|nodios|patti|queenix|salazar,2.39,-0.06134102973187755,0.0002543894669153751,-0.17679549977875422,18,16
+copenhagen,2024-03-04,933171,3,0,Team Sampi,Sangal Esports,fino|manguss|savana1|the elive|zedko,ganginho|lnz|sausol|xfl0ud|yxngstxr,2.19,-0.08437385593540142,-0.1456260515245715,0.0,3,6
+copenhagen,2024-03-04,937371,3,0,M80,Legacy,malbsmd|mankz|reck|slaxz-|swisher,b4rtin|coldzera|dumau|latto|nekiz,2.26,-0.25394514593895745,-0.07426480541673038,-0.04592067716062515,11,6
+copenhagen,2024-03-04,937372,3,1,paiN Gaming,ODDIK,biguzera|kauez|lux|n1ssim|nqz,matios|naitte|ponter|tuurtle|wood7,2.07,-0.1494070290125676,-0.11751537592045465,-0.06924071458690731,8,4
+shanghai,2024-08-14,10073111,1,0,Illuminar,Qiang,bielany|furlan|kadziu|markoś|phr,aaron|bibu|dgl|kory|porya,-0.49,-0.055023126178369325,0.039133104402804784,0.033768947662049374,2,3
+shanghai,2024-08-14,10073113,1,1,9INE,BCGame,mantuu|misutaaa|raalz|refrezh|s0und,anarkez|cacanito|joel|lekr0|pr1metapz,-0.25,-0.013495158467574783,-0.013495158467574783,0.0,1,0
+shanghai,2024-08-14,10073116,1,0,ENCE,500,gla1ve|goofy|kylar|podi|sdy,dennyslaw|patrick|rainwaker|redstar|shipz,6.15,-0.023498956673353916,0.10015026902982406,-0.1146605146329611,20,1
+shanghai,2024-08-14,1500931,3,1,TSM,ALTERNATE aTTaX,acor|altekz|niko|valde|zyphon,arrow|awzek|freeze|hyped|perx,1.41,0.03733381549488028,0.09351616792841252,0.20957627930381295,3,9
+shanghai,2024-08-14,1510671,3,0,Team Space,Nexus Gaming,danistzz|fozil|truniq|vert|x5g7v,btn|ciocardau|ersin|ragga|xellow,0.66,-0.12621207124636072,-0.16988373563753595,0.04983710023164867,9,6
+shanghai,2024-08-14,1510672,3,0,Aurora Young Blood,Revenant Esports,bl1x1|bluewhite|gr1ks|m1quse|vilby,adex|launx|nbk-|nivera|reiko,1.82,0.07197267109194512,0.11542400771390503,-0.13427128234060837,9,3
+shanghai,2024-08-15,10073083,3,0,B8 Esports,OG,alex666|cptkurtka023|esenthial|headtr1ck|npl,buzz|chr1zn|f1ku|modo|nexius,1.44,0.19830094999106473,0.3339140965490643,0.07146389617304845,14,4
+shanghai,2024-08-15,10073185,3,0,Aurora Young Blood,Young Ninjas,bl1x1|bluewhite|gr1ks|m1quse|vilby,bluepho3nix|jocab|mistem|silence|xkacpersky,2.47,-0.14952471456754782,-0.054282307425024254,-0.22085087336549725,10,1
+shanghai,2024-08-15,1516054,3,1,GamerLegion,Aurora Young Blood,andu|fl4mus|sl3nd|volt|ztr,bl1x1|bluewhite|gr1ks|m1quse|vilby,1.34,0.06560729677149897,-0.12421098565483013,0.32729781341535086,7,10
+shanghai,2024-08-15,1517274,3,1,Team Space,EYEBALLERS,danistzz|fozil|truniq|vert|x5g7v,golden|heap|jw|peppzor|sapec,0.57,-0.19062956014389576,-0.2832391880870272,0.1654517529686429,10,9
+shanghai,2024-08-16,10073226,1,0,Rebels Gaming,FAVBET Team,casey|flayy|innocent|kisserek|olimp,bondik|j3kie|marix|smash|t3ns1on,1.48,-0.06982304823055344,0.11292676334751676,-0.09956220153654885,4,0
+shanghai,2024-08-16,10073232,1,0,Passion UA,MOUZ NXT,fear|jackasmo|jambo|s-chilla|zerrofix,burmylov|neityu|pr|sirah|tobiz,-0.11,0.018271940435983146,-0.11280796264599458,0.017786020866653287,17,15
+shanghai,2024-08-16,1514409,3,1,MOUZ,G2 Esports,brollan|jimpphat|siuhy|torzsi|xertion,hunter-|m0nesy|malbsmd|niko|snax,-0.96,-0.20110406522891205,-0.12301817209006978,-0.1015676279197313,11,19
+shanghai,2024-08-16,1514410,3,1,SAW,FaZe Clan,arrozdoce|ewjerkz|mutiris|rmn|story,broky|frozen|karrigan|rain|ropz,-4.89,0.09056198658817707,0.36132265008733633,-0.19355850489629453,19,15
+shanghai,2024-08-16,1516052,3,1,Zero Tenacity,EYEBALLERS,avn|brutmonster|cjoffo|nemanha|simke,golden|heap|jw|peppzor|sapec,3.59,-0.028756716964507652,-0.034274091704769444,-0.05866107363779423,19,10
+shanghai,2024-08-16,1516053,3,0,Team 3DMAX,Sinners Esports,djoko|ex3rcice|graviti|lucky|maka,beastik|majky|moriisko|oskar|shock,4.34,0.12014363138153222,0.170707225582647,0.08347016417866765,32,18
+shanghai,2024-08-16,1517271,3,1,Revenant Esports,Nexus Gaming,adex|launx|nbk-|nivera|reiko,btn|ciocardau|ersin|ragga|xellow,0.47,-0.05239549938318251,-0.05151156969347273,0.0,4,7
+shanghai,2024-08-17,10073200,3,1,BetBoom Team,Young Ninjas,kair0n|magnojez|nafany|s1ren|zorte,bluepho3nix|jocab|mistem|silence|xkacpersky,6.5,-0.07432666152320305,0.02506055427876841,-0.08832254456946562,11,2
+shanghai,2024-08-17,10073255,3,1,Sinners Esports,GamerLegion,beastik|majky|moriisko|oskar|shock,andu|fl4mus|sl3nd|volt|ztr,-1.49,-0.05943214118015809,0.26423095070894476,-0.31782821903143693,19,6
+shanghai,2024-08-17,10073259,3,1,Monte,FAVBET Team,demqq|dycha|hades|kei|krasnal,bondik|j3kie|marix|smash|t3ns1on,2.53,-0.116829566435018,-0.116829566435018,0.0,0,1
+shanghai,2024-08-17,1519321,3,0,Zero Tenacity,GamerLegion,avn|brutmonster|cjoffo|nemanha|simke,andu|fl4mus|sl3nd|volt|ztr,0.05,-0.005217145733844623,0.22557584752502535,-0.241434605910901,20,6
+shanghai,2024-08-17,1520829,3,1,Team Vitality,SAW,apex|flamez|mezii|spinx|zywoo,arrozdoce|ewjerkz|mutiris|rmn|story,6.62,0.016652511426279812,-0.2310622524384633,0.24245462547166532,18,20
+shanghai,2024-08-17,1521063,3,1,Natus Vincere,MOUZ,aleksib|b1t|im|jl|w0nderful,brollan|jimpphat|siuhy|torzsi|xertion,0.43,0.07821883272695042,0.18901632446697963,-0.013457327034292033,19,11
+shanghai,2024-08-17,1521915,1,0,Bleed Esports,Sinners Esports,cypher|hampus|jkaem|nawwk|nexa,beastik|majky|moriisko|oskar|shock,2.58,-0.07265506753050725,-0.14489266383053306,0.08699577794440638,24,19
+shanghai,2024-08-17,1521916,1,1,GamerLegion,1win Team,andu|fl4mus|sl3nd|volt|ztr,buster|hobbit|latt1kk|nealan|ryujin,1.26,-0.07493209653930469,-0.11713914782424006,0.09104758507902369,6,7
+shanghai,2024-08-17,1522894,3,1,GamerLegion,Sinners Esports,andu|fl4mus|sl3nd|volt|ztr,beastik|majky|moriisko|oskar|shock,1.49,0.05943214118015809,-0.26423095070894476,0.31782821903143693,6,19
+shanghai,2024-08-18,10073260,3,1,BetBoom Team,Team EndPoint,kair0n|magnojez|nafany|s1ren|zorte,azuwu|cej0t|cruc1al|mightymax|surreal,5.36,0.05288881057682239,0.17090017943851288,-0.07438667374288051,12,5
+shanghai,2024-08-18,10073264,3,0,Sinners Esports,BetBoom Team,beastik|majky|moriisko|oskar|shock,kair0n|magnojez|nafany|s1ren|zorte,-4.18,-0.12543027516149313,0.002081724505951399,-0.15239396020953272,22,12
+shanghai,2024-08-18,10073279,1,1,Ninjas in Pyjamas,FAVBET Team,alex|isak|maxster|r1nkle|rez,bondik|j3kie|marix|smash|t3ns1on,7.22,0.11300973005823786,0.20023255451846686,-0.1846267484541848,16,2
+shanghai,2024-08-18,10073281,1,0,1win Team,PARIVISION,buster|hobbit|latt1kk|nealan|ryujin,alpha1337|artfr0st|belchonokk|patsi|qikert,-0.93,0.004670082270797932,-0.11322990718205342,-0.07355435514936788,8,18
+shanghai,2024-08-18,10073282,1,1,Bleed Esports,TSM,cypher|hampus|jkaem|nawwk|nexa,acor|altekz|niko|valde|zyphon,2.48,-0.13341472243043606,-0.05150821163549396,-0.25408315096686995,24,4
+shanghai,2024-08-18,10073294,1,1,B8 Esports,Aurora Young Blood,alex666|cptkurtka023|esenthial|headtr1ck|npl,bl1x1|bluewhite|gr1ks|m1quse|vilby,1.43,0.09214648413197304,0.09589161241257524,0.26946278879798374,11,12
+shanghai,2024-08-18,10073302,1,1,KOI,Team Space,adams|dav1g|just|mopoz|stadodo,danistzz|fozil|truniq|vert|x5g7v,2.34,0.20097710869522842,0.26208242497032275,-0.04983710023164867,8,11
+shanghai,2024-08-18,1523325,5,0,Natus Vincere,Team Vitality,aleksib|b1t|im|jl|w0nderful,apex|flamez|mezii|spinx|zywoo,0.58,0.012882795498633623,0.07906499210952161,-0.0370986651903976,20,19
+shanghai,2024-08-19,10073291,1,1,Sashi Esport,Dynamo Eclot,cabbi|iceberg|kwezz|lucky|mistr,blytz|dytor|forsyy|kreaz|nbqq,-0.13,-0.08037760810809175,0.05644812229162989,-0.15186383531593878,10,0
+shanghai,2024-08-19,10073301,1,0,Gaimin Gladiators,KOI,kraghen|nicoodoz|nodios|queenix|roej,adams|dav1g|just|mopoz|stadodo,-1.52,-0.3499299603833046,-0.27215327236255116,-0.23148278091033853,4,9
+shanghai,2024-08-19,10073303,1,1,Monte,KOI,demqq|dycha|hades|kei|krasnal,adams|dav1g|just|mopoz|stadodo,0.19,-0.10471518129075721,-0.19447116537384432,-0.0028897358219631547,1,9
+shanghai,2024-08-19,10073304,1,0,Sashi Esport,B8 Esports,cabbi|iceberg|kwezz|lucky|mistr,alex666|cptkurtka023|esenthial|headtr1ck|npl,-0.28,-0.1102757837324163,-0.08895764498099674,-0.16399814532174287,10,12
+shanghai,2024-08-19,1526383,3,1,Aurora Young Blood,Nexus Gaming,bl1x1|bluewhite|gr1ks|m1quse|vilby,btn|ciocardau|ersin|ragga|xellow,2.29,-0.10240309481038823,-0.013887409938376335,-0.29394797595026634,13,7
+shanghai,2024-08-19,1526584,1,1,Sashi Esport,Metizport,cabbi|iceberg|kwezz|lucky|mistr,adamb|nilo|plopski|sapec|shinee,1.73,-0.3374078439621771,-0.14635472683663436,-0.1895058390323003,10,6
+shanghai,2024-08-19,1526588,1,1,Ninjas in Pyjamas,PARIVISION,alex|isak|maxster|r1nkle|rez,alpha1337|artfr0st|belchonokk|patsi|qikert,4.58,0.06887729282351596,0.12048390697924524,-0.23595303973076848,17,18
+shanghai,2024-08-19,1529825,3,1,B8 Esports,Monte,alex666|cptkurtka023|esenthial|headtr1ck|npl,demqq|dycha|hades|kei|krasnal,0.53,-0.0016052980223508102,0.14540576727262663,-0.01936916364087127,12,1
+shanghai,2024-08-20,1521946,3,0,Metizport,TSM,adamb|jackinho|nilo|plopski|sapec,acor|altekz|niko|valde|zyphon,-0.53,0.23389471103123288,0.06940011744570117,-0.013614097520385504,7,5
+shanghai,2024-08-21,10073087,1,0,ENCE,KOI,gla1ve|goofy|kylar|podi|sdy,adams|dav1g|just|mopoz|stadodo,2.52,-0.18978988957081122,-0.12367730825975819,-0.27229473208945426,17,11
+shanghai,2024-08-21,10073092,1,0,Dynamo Eclot,BCGame,blytz|dytor|forsyy|kreaz|nbqq,anarkez|cacanito|kwertzz|lekr0|pr1metapz,1.81,0.002869358169257305,0.0,0.0,1,1
+shanghai,2024-08-21,10073377,1,1,SAW,Qiang,arrozdoce|ewjerkz|mutiris|rmn|story,aaron|bibu|dgl|kory|porya,2.3,-0.030251218810903,0.35424202079498635,-0.3232691589035145,21,3
+shanghai,2024-08-21,10073379,1,1,9Pandas,Rebels Gaming,d1ledez|glowiing|idisbalance|r3salt|shalfey,casey|flayy|innocent|kisserek|olimp,1.15,0.11713676049713531,0.04389657399737719,0.07842151797860429,13,4
+shanghai,2024-08-21,10073384,1,0,Johnny Speeds,ARCRED,bobeksde|chawzyyy|draken|ro1f|spooke,1nvisible|dssj|get_jeka|shg|synyx,2.65,-0.14113770360023387,0.0822049256851575,-0.17767685834961758,7,3
+shanghai,2024-08-21,10073387,1,0,Zero Tenacity,OG,avn|brutmonster|cjoffo|nemanha|simke,chr1zn|f1ku|k1to|modo|nexius,1.4,-0.13819273006620186,0.011125642539664998,-0.1503870208318773,17,3
+shanghai,2024-08-21,1517985,1,0,Sashi Esport,Qiang,cabbi|iceberg|kwezz|lucky|mistr,aaron|bibu|dgl|kory|porya,1.68,-0.06822423784763038,0.09558122669443467,-0.10970199311408728,13,3
+shanghai,2024-08-21,1517987,1,0,Zero Tenacity,Rebels Gaming,avn|brutmonster|cjoffo|nemanha|simke,casey|flayy|innocent|kisserek|olimp,1.54,0.022892621158406234,-0.02075490617000471,0.02435208033886646,17,4
+shanghai,2024-08-21,1517988,1,1,Nemiga Gaming,ARCRED,1eer|khan|riskyb0b|xant3r|zweih,1nvisible|dssj|get_jeka|shg|synyx,1.56,-0.20832406617004698,-0.22932139599953283,0.0256591499279842,5,3
+shanghai,2024-08-21,1517989,1,1,SAW,OG,arrozdoce|ewjerkz|mutiris|rmn|story,chr1zn|f1ku|k1to|modo|nexius,1.78,-0.09179550274920277,0.23406270175433452,-0.3232691589035145,21,3
+shanghai,2024-08-21,1517990,1,0,BIG,Passion UA,jdc|krimbo|rigon|syrson|tabsen,fear|jackasmo|jambo|s-chilla|zerrofix,2.17,-0.08492647235329319,0.03509148048497572,-0.16306504361484148,17,15
+shanghai,2024-08-21,1517995,1,0,B8 Esports,Sinners Esports,alex666|cptkurtka023|esenthial|headtr1ck|npl,beastik|majky|moriisko|oskar|shock,1.58,0.061062077644440084,-0.09066443718429296,0.2813933429420154,14,22
+shanghai,2024-08-21,1517996,1,1,Bleed Esports,TSM,cypher|hampus|jkaem|nawwk|nexa,acor|altekz|niko|valde|zyphon,2.48,-0.13467767735030906,-0.005780073784415127,-0.22330803272149374,23,6
+shanghai,2024-08-21,1517997,1,1,Sangal Esports,1win Team,jotta|lnz|samey|xfl0ud|yxngstxr,buster|hobbit|latt1kk|nealan|ryujin,2.7,0.15979776998855896,0.10216423042815334,0.08439241938451822,12,9
+shanghai,2024-08-21,1518110,3,0,Heroic,OG,degster|kyxsan|nertz|sjuush|teses,buzz|chr1zn|f1ku|modo|nexius,5.42,-0.18375495907767972,-0.09041387900284845,-0.12418965156693422,16,3
+shanghai,2024-08-21,1518112,3,1,FaZe Clan,Rare Atom,broky|frozen|karrigan|rain|ropz,ahang|childking|kaze|somebody|summer,7.4,-0.1788478232030205,-0.07051428733724932,-0.1878367679599852,16,0
+shanghai,2024-08-21,1521943,3,0,Gaimin Gladiators,FAVBET Team,kraghen|nicoodoz|nodios|queenix|roej,bondik|j3kie|marix|smash|t3ns1on,0.82,-0.2838283802212324,-0.166815514942266,-0.1970895714417,5,3
+shanghai,2024-08-21,1521944,3,1,MOUZ NXT,Into The Breach,burmylov|neityu|pr|sirah|tmb,boros|juanflatroo|keoz|sinnopsyy|smooya,3.66,0.07391425610866909,0.12030243135990042,-0.010300551775557788,15,0
+shanghai,2024-08-21,1524768,3,1,Mindfreak,Rooster,gump|pain|rickeh|texta|tucks,asap|chelleos|danger|sliimey|tjp,-0.42,0.0,0.0,0.0,0,0
+shanghai,2024-08-21,1533810,3,0,Aurora Young Blood,ALTERNATE aTTaX,bl1x1|bluewhite|gr1ks|m1quse|vilby,arrow|awzek|freeze|hyped|perx,1.46,-0.12798042995561318,-0.03371852207877156,-0.23783009731247617,14,6
+shanghai,2024-08-22,10073399,3,1,Sinners Esports,KOI,beastik|majky|moriisko|oskar|shock,adams|dav1g|just|mopoz|stadodo,-0.86,-0.09102065684972503,0.013682159925365978,-0.34077016109332964,22,12
+shanghai,2024-08-22,10073403,1,0,BCGame,GamerLegion,anarkez|cacanito|kwertzz|lekr0|pr1metapz,andu|fl4mus|sl3nd|volt|ztr,-1.87,-0.018833348004335636,0.15120834117359613,-0.031123837980918424,2,8
+shanghai,2024-08-22,1518105,3,1,Virtus.pro,Zero Tenacity,electronic|fame|fl1t|jame|n0rb3r7,avn|brutmonster|cjoffo|nemanha|simke,4.94,0.022680646360086307,-0.009101079504953674,-0.07455146106588989,14,18
+shanghai,2024-08-22,1518107,3,1,Complexity,Metizport,elige|floppy|grim|hallzerk|jt,adamb|l00m1|nilo|plopski|sapec,6.13,-0.2841849142323881,-0.1272246338724655,-0.2981416153957264,24,8
+shanghai,2024-08-22,1518108,3,1,Team Falcons,M80,dupreeh|maden|magisk|snappi|sunpayus,lake|reck|s1n|slaxz-|swisher,1.53,-0.04901992045617691,-0.043210204485495625,-0.010631526427991998,17,6
+shanghai,2024-08-22,1521941,3,1,ALTERNATE aTTaX,Team Sampi,arrow|awzek|freeze|hyped|perx,fino|manguss|savana1|the elive|zedko,-0.2,0.2590583294307234,0.12609266614617948,0.07569398143551474,7,12
+shanghai,2024-08-22,1536159,3,0,Mindfreak,Rooster,gump|pain|rickeh|texta|tucks,asap|chelleos|danger|sliimey|tjp,-0.42,0.18671671507730095,0.0,0.0,1,1
+shanghai,2024-08-22,1536791,1,0,Qiang,BIG,aaron|bibu|dgl|kory|porya,jdc|krimbo|rigon|syrson|tabsen,-3.54,0.14520814809470062,-0.031137270891986712,0.20737736875632765,5,18
+shanghai,2024-08-22,1536792,1,1,OG,Rebels Gaming,chr1zn|f1ku|k1to|modo|nexius,casey|flayy|innocent|kisserek|olimp,0.14,0.21687922746148097,0.05415641652442704,0.17473910117074376,6,6
+shanghai,2024-08-22,1536793,1,1,Nemiga Gaming,Sashi Esport,1eer|khan|riskyb0b|xant3r|zweih,cabbi|iceberg|kwezz|lucky|mistr,0.27,0.14371767920562967,-0.08809892919083712,0.22894118152029358,6,14
+shanghai,2024-08-22,1536794,1,1,Passion UA,ARCRED,fear|jackasmo|jambo|s-chilla|zerrofix,1nvisible|dssj|get_jeka|shg|synyx,0.98,-0.1981786958737497,-0.12149823922855116,0.007485469091095499,15,5
+shanghai,2024-08-22,1536798,3,1,Sangal Esports,Bleed Esports,jotta|lnz|samey|xfl0ud|yxngstxr,cypher|hampus|jkaem|nawwk|nexa,0.35,0.3062656604457949,0.06670334560759239,0.24495198098243062,13,24
+shanghai,2024-08-22,1536800,1,0,B8 Esports,PARIVISION,alex666|cptkurtka023|esenthial|headtr1ck|npl,alpha1337|artfr0st|belchonokk|patsi|qikert,0.42,-0.06818808362932344,0.004084351038827788,-0.1339236918846896,15,19
+shanghai,2024-08-22,1536802,1,0,Monte,Dynamo Eclot,demqq|dycha|hades|kei|krasnal,blytz|dytor|forsyy|kreaz|nbqq,-0.38,0.20937683938056667,0.0,0.15470684933678666,3,2
+shanghai,2024-08-22,1536916,3,1,Johnny Speeds,Zero Tenacity,bobeksde|chawzyyy|draken|ro1f|spooke,avn|brutmonster|cjoffo|nemanha|simke,1.12,0.14019675526532469,0.1425652600345544,-0.020334663677531145,8,18
+shanghai,2024-08-23,10073429,3,0,BCGame,TSM,anarkez|cacanito|kwertzz|lekr0|pr1metapz,acor|altekz|niko|valde|zyphon,-0.48,-0.008293096934962843,0.022691676677752223,-0.051256101236747044,3,7
+shanghai,2024-08-23,10073430,3,1,Monte,ENCE,demqq|dycha|hades|kei|krasnal,gla1ve|goofy|kylar|podi|sdy,-2.33,0.09029318476464837,-0.07079385711408613,0.2758093314841842,4,18
+shanghai,2024-08-23,10073438,3,0,Johnny Speeds,Rebels Gaming,bobeksde|chawzyyy|draken|ro1f|spooke,casey|flayy|innocent|kisserek|olimp,2.66,0.12408655112894697,0.14919614447160195,-0.015118583273891012,9,7
+shanghai,2024-08-23,10073450,3,0,OG,Sashi Esport,chr1zn|f1ku|k1to|modo|nexius,cabbi|iceberg|kwezz|lucky|mistr,-1.16,0.31255949507134084,0.12838766454667833,0.16559619763485536,7,15
+shanghai,2024-08-23,10073454,3,0,KOI,TSM,adams|dav1g|just|mopoz|stadodo,acor|altekz|niko|valde|zyphon,0.76,0.1045878621162706,0.20383673640501926,0.020255026920371323,13,7
+shanghai,2024-08-23,1518106,3,1,BIG,GamerLegion,jdc|krimbo|rigon|syrson|tabsen,andu|fl4mus|sl3nd|volt|ztr,1.67,-0.13272004058400377,0.08585897990669744,-0.23395801319021647,19,9
+shanghai,2024-08-23,1539241,3,0,Bleed Esports,Dynamo Eclot,cypher|hampus|jkaem|nawwk|nexa,blytz|dytor|forsyy|kreaz|nbqq,1.15,-0.014309712313940195,0.07511627613916569,-0.027347119990656643,25,3
+shanghai,2024-08-23,1539243,3,1,PARIVISION,GamerLegion,alpha1337|artfr0st|belchonokk|patsi|qikert,andu|fl4mus|sl3nd|volt|ztr,-0.33,0.05786866983213794,0.16932638171728367,0.02215297592585109,20,9
+shanghai,2024-08-23,1539341,3,1,Passion UA,OG,fear|jackasmo|jambo|s-chilla|zerrofix,chr1zn|f1ku|k1to|modo|nexius,0.85,-0.13656306091625525,-0.07651417487429654,0.007485469091095499,15,7
+shanghai,2024-08-23,1539343,3,1,9Pandas,Nemiga Gaming,d1ledez|glowiing|idisbalance|r3salt|shalfey,1eer|khan|riskyb0b|xant3r|zweih,-0.42,-0.057124309926273244,0.18847414424410117,-0.11997078625508754,13,7
+shanghai,2024-08-23,1539344,3,0,ARCRED,Sashi Esport,1nvisible|dssj|get_jeka|shg|synyx,cabbi|iceberg|kwezz|lucky|mistr,-1.29,0.29652573744601013,0.15639361190938444,0.16559619763485536,6,15
+shanghai,2024-08-23,1541093,3,0,Monte,B8 Esports,demqq|dycha|hades|kei|krasnal,alex666|cptkurtka023|esenthial|headtr1ck|npl,-0.53,-0.013531287405938817,-0.14540576727262663,0.1331612290560647,4,15
+shanghai,2024-08-23,1541095,3,0,Bleed Esports,GamerLegion,cypher|hampus|jkaem|nawwk|nexa,andu|fl4mus|sl3nd|volt|ztr,1.09,-0.1784709234170953,0.1031212416226505,-0.20195187490428473,25,9
+shanghai,2024-08-24,10073515,3,1,paiN Gaming,BetBoom Team,biguzera|kauez|lux|nqz|snowzin,kair0n|magnojez|nafany|s1ren|zorte,0.06,-0.06347713117617948,-0.15065503384358553,0.08227501957150474,17,9
+shanghai,2024-08-24,1530248,3,0,Team Falcons,9z Team,dupreeh|maden|magisk|snappi|sunpayus,buda|dgt|huasopeek|martinezsa|max,-0.18,-0.17717802228518525,-0.18291606539031102,-0.03488280202851796,18,13
+shanghai,2024-08-24,1539469,3,1,Team Falcons,Complexity,dupreeh|maden|magisk|snappi|sunpayus,elige|floppy|grim|hallzerk|jt,-1.4,0.15985770765447366,0.006469870497314824,0.2865412336250363,18,25
+shanghai,2024-08-24,1541209,3,1,FaZe Clan,paiN Gaming,broky|frozen|karrigan|rain|ropz,biguzera|kauez|lux|nqz|snowzin,2.57,-0.2592291652916005,-0.13034919340706827,-0.30152221546899544,17,17
+shanghai,2024-08-24,1541670,3,0,BIG,Virtus.pro,jdc|krimbo|rigon|syrson|tabsen,electronic|fame|fl1t|jame|n0rb3r7,-3.32,0.02181507792386004,-0.07035516082276244,0.1210694248018484,20,15
+shanghai,2024-08-25,1530245,3,0,FURIA Esports,9Pandas,chelo|fallen|kscerato|skullz|yuurih,d1ledez|glowiing|idisbalance|r3salt|shalfey,4.94,0.07301372729886901,-0.00036401682052780715,0.12042395819621252,17,11
+shanghai,2024-08-25,1530246,3,1,Eternal Fire,Aurora Gaming,calyx|maj3r|wicadia|woxic|xantares,clax|deko|kensi|lack1|norwi,2.27,-0.12185200253168882,-0.15589808637682775,0.0018191407593105002,12,24
+shanghai,2024-08-25,1541108,3,1,Sinners Esports,Young Ninjas,beastik|majky|moriisko|oskar|shock,bluepho3nix|jocab|mistem|silence|xkacpersky,2.32,-0.12045306452943194,0.06560777211014626,-0.2692590329362113,21,3
+shanghai,2024-08-25,1541109,3,1,B8 Esports,Revenant Esports,alex666|cptkurtka023|esenthial|headtr1ck|npl,adex|launx|nbk-|nivera|reiko,3.25,-0.09776942907189869,-0.05076090634758479,-0.10165775540938934,14,5
+shanghai,2024-08-25,1543378,3,1,Team Falcons,BetBoom Team,dupreeh|maden|magisk|snappi|sunpayus,kair0n|magnojez|nafany|s1ren|zorte,0.12,-0.05985850727660799,-0.13683527269123105,-0.002763951486064925,20,10
+shanghai,2024-08-25,1543379,3,0,9z Team,paiN Gaming,buda|dgt|huasopeek|martinezsa|max,biguzera|kauez|lux|nqz|snowzin,0.24,0.14071688221959366,0.17715799517113406,-0.050156169029051706,14,19
+shanghai,2024-08-25,1543721,3,1,FaZe Clan,OG,broky|frozen|karrigan|rain|ropz,buzz|chr1zn|f1ku|modo|nexius,6.67,-0.2827669853103482,-0.21169701620956172,-0.1518918569126907,18,9
+shanghai,2024-08-25,1544067,3,1,Team Falcons,Virtus.pro,dupreeh|maden|magisk|snappi|sunpayus,electronic|fame|fl1t|jame|n0rb3r7,-2.18,0.11803118283857876,-0.05455450802380163,0.27961908512283035,20,16
+shanghai,2024-08-26,10073518,3,0,9z Team,Team Falcons,buda|dgt|huasopeek|martinezsa|max,dupreeh|maden|magisk|snappi|sunpayus,0.18,0.05595488106418543,0.004711177756569096,0.03488280202851796,14,21
+shanghai,2024-08-26,10073559,3,1,GamerLegion,EYEBALLERS,andu|fl4mus|sl3nd|volt|ztr,golden|heap|jw|peppzor|poiii,3.54,-0.04100105973902859,-0.16290791152420817,0.16701603196051104,12,10
+shanghai,2024-08-26,10073592,3,0,9INE,Alliance,mantuu|misutaaa|raalz|refrezh|s0und,avid|b0denmaster|plessen|twist|upe,1.15,0.1473972616763443,-0.007492880336484465,0.0,2,3
+shanghai,2024-08-26,10073682,1,0,inSanitY Sports,KRÜ Esports,cass1n|f4stzin|idk|pesadelo|shz,ataraxia|deco|laser|reversive|righii,0.84,0.0,0.0,0.0,0,0
+shanghai,2024-08-26,1518734,1,0,Fluxo,KRÜ Esports,art|chay|lucaozy|nicks|zevy,ataraxia|deco|laser|reversive|righii,2.46,-0.131285556276027,0.0,-0.06920989244842611,3,0
+shanghai,2024-08-26,1518735,1,0,RED Canids,Case Esports,coldzera|dav1d|hen1|nython|venomzera,bsd|nyezin|ricioli|urban0|yepz,2.39,-0.0524934286538868,0.05618838392171926,-0.03156816665496541,9,3
+shanghai,2024-08-26,1541104,3,0,Passion UA,Team EndPoint,fear|jackasmo|jambo|s-chilla|zerrofix,azuwu|cej0t|cruc1al|mightymax|surreal,2.17,-0.04772830051960959,0.03998821643483601,0.007485469091095499,15,4
+shanghai,2024-08-26,1541106,3,0,BIG,ALTERNATE aTTaX,jdc|krimbo|rigon|syrson|tabsen,arrow|awzek|freeze|hyped|perx,4.47,-0.24997291446057962,-0.07034786279537661,-0.1497588650718762,20,7
+shanghai,2024-08-26,1541240,3,1,Eternal Fire,B8 Esports,calyx|maj3r|wicadia|woxic|xantares,alex666|cptkurtka023|esenthial|headtr1ck|npl,4.64,-0.23102023297640975,0.0,-0.11250161833559749,13,15
+shanghai,2024-08-26,1541241,3,0,Fnatic,Team 3DMAX,afro|blamef|bodyy|krimz|matys,djoko|ex3rcice|graviti|lucky|maka,-0.28,0.05567689773201443,-0.017211379258512793,0.13239833436529388,21,31
+shanghai,2024-08-26,1541242,3,1,Team Falcons,OG,dupreeh|maden|magisk|snappi|sunpayus,buzz|chr1zn|f1ku|modo|nexius,4.16,-0.0191892636164544,0.0013313086116268635,0.04209750287153651,21,10
+shanghai,2024-08-26,1544742,3,0,Passion UA,9INE,fear|jackasmo|jambo|s-chilla|zerrofix,mantuu|misutaaa|raalz|refrezh|s0und,1.62,-0.0012092541668878437,0.12181677043158644,0.007485469091095499,15,2
+shanghai,2024-08-26,1545744,3,0,Aurora Young Blood,Gaimin Gladiators,bl1x1|bluewhite|gr1ks|m1quse|vilby,kraghen|nicoodoz|nodios|queenix|roej,0.81,0.15043205715641675,0.1289344397875589,-0.08681337878133086,15,6
+shanghai,2024-08-26,1546015,3,0,Sashi Esport,Team Sampi,cabbi|iceberg|kwezz|lucky|mistr,fino|manguss|savana1|the elive|zedko,2.41,0.06391735875065732,0.06057151640231599,-0.013545852819475096,17,11
+shanghai,2024-08-26,1546016,3,0,GamerLegion,Sinners Esports,andu|fl4mus|sl3nd|volt|ztr,beastik|majky|moriisko|oskar|shock,1.49,-0.04143750586253208,-0.24420079276238574,0.2772503943935438,12,22
+shanghai,2024-08-26,1546169,3,0,Aurora Gaming,FURIA Esports,clax|deko|kensi|lack1|norwi,chelo|fallen|kscerato|skullz|yuurih,-2.14,-0.1935530957328015,-0.037454714846274245,-0.15469430547580185,25,18
+shanghai,2024-08-26,1546170,3,1,Eternal Fire,9Pandas,calyx|maj3r|wicadia|woxic|xantares,d1ledez|glowiing|idisbalance|r3salt|shalfey,5.07,-0.3130837300332903,-0.2443976029140652,-0.08346948584554215,13,12
+shanghai,2024-08-26,1548739,3,0,B8 Esports,Heroic,alex666|cptkurtka023|esenthial|headtr1ck|npl,degster|kyxsan|nertz|sjuush|teses,-3.98,0.13987749830859017,0.009367664365001393,0.1055791994649184,15,17
+shanghai,2024-08-26,1548889,3,0,OG,Fnatic,buzz|chr1zn|f1ku|modo|nexius,afro|blamef|bodyy|krimz|matys,-3.92,0.016984385735738475,-0.18080026002700866,0.036338815104699836,10,21
+shanghai,2024-08-26,1548890,3,1,Team Falcons,Team 3DMAX,dupreeh|maden|magisk|snappi|sunpayus,djoko|ex3rcice|graviti|lucky|maka,-0.04,0.053472019851298506,-0.1966803306738946,0.21083465234153023,21,31
+shanghai,2024-08-27,10073437,3,0,FAVBET Team,Rebels Gaming,bondik|j3kie|marix|smash|t3ns1on,casey|flayy|innocent|kisserek|olimp,-1.48,0.1243806963467388,-0.1454469446715801,0.17473910117074376,4,8
+shanghai,2024-08-27,10073519,1,1,paiN Gaming,Team Falcons,biguzera|kauez|lux|nqz|snowzin,dupreeh|maden|magisk|snappi|sunpayus,-0.06,-0.002925287847467442,-0.09473479188991238,0.08184811566841967,20,23
+shanghai,2024-08-27,10073525,1,0,Eternal Fire,FURIA Esports,calyx|maj3r|wicadia|woxic|xantares,chelo|fallen|kscerato|skullz|yuurih,0.13,-0.2647466355447945,-0.15645932052436615,-0.1172874202765209,15,19
+shanghai,2024-08-27,10073691,3,0,KRÜ Esports,BESTIA,ataraxia|deco|laser|reversive|righii,luchov|naz|noktse|tomaszin|zock,-1.0,0.22471391639362998,0.1108911524474718,0.0,2,5
+shanghai,2024-08-27,10073696,1,0,Legacy,BOSS,b4rtin|dumau|latto|nekiz|saadzin,cryptic|d4rtymontana|freshie|micro|slight,3.12,0.10483417294000047,-0.023840143455925247,0.0,3,0
+shanghai,2024-08-27,10073697,1,1,Nouns Esports,Party Astronauts,cj|jeorgesnorts|junior|nosrac|rush,ben1337|cxzi|fang|infinite|wolfy,0.34,0.08155872292537641,0.012910964526224252,0.0,1,4
+shanghai,2024-08-27,10073698,1,1,NRG Esports,Elevate,autimatic|brehze|hext|nitr0|osee,dare|dea|peeping|shane|snav,0.98,0.0,0.0,0.0,1,1
+shanghai,2024-08-27,10073705,3,0,NRG Esports,Nouns Esports,autimatic|brehze|hext|nitr0|osee,cj|jeorgesnorts|junior|nosrac|rush,0.2,-0.151835142305664,0.0,0.0,1,1
+shanghai,2024-08-27,1544751,3,0,Nemiga Gaming,ALTERNATE aTTaX,1eer|khan|riskyb0b|xant3r|zweih,arrow|awzek|freeze|hyped|perx,2.88,-0.2044062259214367,-0.22699675473522543,0.0633449838854382,8,8
+shanghai,2024-08-27,1544753,3,1,TSM,Team Sampi,acor|altekz|niko|valde|zyphon,fino|manguss|savana1|the elive|zedko,1.21,0.1489121728764346,-0.016300146856194048,0.1269500826722618,9,12
+shanghai,2024-08-27,1544754,3,0,PARIVISION,Gaimin Gladiators,alpha1337|artfr0st|belchonokk|patsi|qikert,kraghen|nicoodoz|nodios|queenix|roej,1.82,0.31827533400834157,0.22905683974105256,0.2706439265910679,21,6
+shanghai,2024-08-27,1545571,3,1,ALTERNATE aTTaX,MOUZ NXT,arrow|awzek|freeze|hyped|perx,brollan|jimpphat|siuhy|torzsi|xertion,-10.0,0.3417973295401381,0.19534594783601822,0.03660372896833414,8,9
+shanghai,2024-08-27,1545741,3,0,Team EndPoint,Revenant Esports,azuwu|cej0t|cruc1al|mightymax|surreal,launx|nbk-|nivera|reiko|tizian,0.49,0.10933210897306003,0.11475066096912316,0.0,5,6
+shanghai,2024-08-27,1546013,3,0,B8 Esports,9INE,alex666|cptkurtka023|esenthial|headtr1ck|npl,mantuu|misutaaa|raalz|refrezh|s0und,2.21,-0.0656387248377392,-0.11331319108688534,0.0318036881100536,17,4
+shanghai,2024-08-27,1546360,3,0,Zero Tenacity,Sinners Esports,avn|brutmonster|cjoffo|nemanha|simke,beastik|majky|moriisko|oskar|shock,1.54,-0.2200844092555203,-0.2353717814758074,-0.00301146987843659,20,23
+shanghai,2024-08-27,1549041,3,1,B8 Esports,Team EndPoint,alex666|cptkurtka023|esenthial|headtr1ck|npl,azuwu|cej0t|cruc1al|mightymax|surreal,2.76,-0.18673313534739372,-0.1694585075212056,-0.07814764424740442,17,5
+shanghai,2024-08-27,1549376,3,0,Team 3DMAX,Heroic,djoko|ex3rcice|graviti|lucky|maka,degster|kyxsan|nertz|sjuush|teses,-1.22,0.17621498508815653,0.3018534555687581,0.016621212790738277,33,16
+shanghai,2024-08-27,1549377,3,0,Team Falcons,Eternal Fire,dupreeh|maden|magisk|snappi|sunpayus,calyx|maj3r|wicadia|woxic|xantares,-1.92,0.31863135457592145,0.13003456610322064,0.2066876023158986,23,15
+shanghai,2024-08-27,1549394,3,0,9Pandas,FURIA Esports,d1ledez|glowiing|idisbalance|r3salt|shalfey,chelo|fallen|kscerato|skullz|yuurih,-4.94,0.011956106701426918,0.05837399321304246,-0.06306795295876856,13,19
+shanghai,2024-08-27,1549856,3,1,Fluxo,inSanitY Sports,art|chay|lucaozy|nicks|zevy,cass1n|f4stzin|idk|pesadelo|shz,1.62,-0.10301477339710327,0.0,-0.16114924257978028,4,1
+shanghai,2024-08-27,1549952,3,1,Wildcard Gaming,BOSS,jba|phzy|sonic|stanislaw|susp,cryptic|d4rtymontana|freshie|micro|slight,2.36,0.0,0.0,0.0,0,0
+shanghai,2024-08-27,1551135,3,0,Fnatic,Heroic,afro|blamef|bodyy|krimz|matys,degster|kyxsan|nertz|sjuush|teses,-1.5,0.21523275695649624,0.2846420763102453,0.15776129456122523,23,16
+shanghai,2024-08-28,10072343,3,1,Fnatic,SAW,afro|blamef|bodyy|krimz|matys,arrozdoce|ewjerkz|mutiris|rmn|story,2.14,0.060970372002443665,-0.05222989995410021,0.23340449709581756,24,23
+shanghai,2024-08-28,10073717,3,1,RED Canids,ODDIK,coldzera|dav1d|hen1|nython|venomzera,ksloks|matios|naitte|togs|wood7,0.11,-0.3779543862207274,-0.07979280887197442,-0.167610612033383,10,7
+shanghai,2024-08-28,1544752,3,1,Monte,MOUZ NXT,demqq|dycha|hades|kei|krasnal,burmylov|neityu|pr|sirah|tobiz,-0.05,-0.01809708346413664,0.07023022802806289,0.05610221281869008,6,12
+shanghai,2024-08-28,1546011,3,0,Bleed Esports,EYEBALLERS,cypher|hampus|jkaem|nawwk|nexa,golden|heap|jw|peppzor|poiii,4.63,-0.21969068254768714,-0.08060830865773955,-0.08812105571524088,27,11
+shanghai,2024-08-28,1546012,3,0,Nemiga Gaming,Metizport,1eer|khan|riskyb0b|xant3r|zweih,adamb|l00m1|nilo|plopski|sapec,2.0,-0.17071074370576542,-0.16406700303294033,-0.08720897964594729,9,9
+shanghai,2024-08-28,1546014,3,1,Monte,Passion UA,demqq|dycha|hades|kei|krasnal,fear|jackasmo|jambo|s-chilla|zerrofix,0.06,0.024526190296422785,0.023794452065283106,0.1612648924363479,6,17
+shanghai,2024-08-28,1550514,1,1,TYLOO,Rare Atom,jamyoung|jee|mercury|moseyuh|starry,ahang|childking|kaze|somebody|summer,0.78,0.002321438056908931,0.002321438056908931,0.0,0,1
+shanghai,2024-08-28,1551375,3,1,Team Spirit,Team Falcons,chopper|donk|magixx|sh1ro|zont1x,dupreeh|maden|magisk|snappi|sunpayus,5.0,-0.14101595755440402,-0.10635995531762628,-0.1291539554448596,12,24
+shanghai,2024-08-28,1551376,3,0,Virtus.pro,FURIA Esports,electronic|fame|fl1t|jame|n0rb3r7,chelo|fallen|kscerato|skullz|yuurih,0.39,-0.15684414953611733,0.0009121268647630798,-0.2447674517668471,14,21
+shanghai,2024-08-28,1551377,3,0,Heroic,paiN Gaming,degster|kyxsan|nertz|sjuush|teses,biguzera|kauez|lux|nqz|snowzin,1.32,-0.26786930216397054,-0.11985026126646658,-0.25008003839344417,17,21
+shanghai,2024-08-28,1551378,3,1,MOUZ,Eternal Fire,brollan|jimpphat|siuhy|torzsi|xertion,calyx|maj3r|wicadia|woxic|xantares,2.47,0.07682089437394712,0.0,0.014714028879767777,9,17
+shanghai,2024-08-28,1551459,3,1,B8 Esports,Sinners Esports,alex666|cptkurtka023|esenthial|headtr1ck|npl,beastik|majky|moriisko|oskar|shock,1.58,-0.15921506495358376,-0.3329133885175594,0.10976261879025678,19,24
+shanghai,2024-08-28,1551735,3,1,Team EndPoint,EYEBALLERS,azuwu|cej0t|cruc1al|mightymax|surreal,golden|heap|jw|peppzor|poiii,0.87,0.01667683777739727,-0.04029806670676837,0.11561465273699424,7,11
+shanghai,2024-08-28,1551741,3,0,Team Falcons,Heroic,dupreeh|maden|magisk|snappi|sunpayus,degster|kyxsan|nertz|sjuush|teses,-1.26,0.23787129046724198,0.19091044237078458,0.16823192272502452,24,17
+shanghai,2024-08-28,1555295,3,1,ALTERNATE aTTaX,B8 Esports,arrow|awzek|freeze|hyped|perx,alex666|cptkurtka023|esenthial|headtr1ck|npl,-2.89,0.37000717889982115,0.32895227504858615,0.11608639637977025,10,19
+shanghai,2024-08-29,10073623,3,0,TYLOO,Rare Atom,jamyoung|jee|mercury|moseyuh|starry,ahang|childking|kaze|somebody|summer,0.78,0.12257953054328008,0.002321438056908931,0.0,1,2
+shanghai,2024-08-29,10073730,3,1,Sinners Esports,Alliance,beastik|majky|moriisko|oskar|shock,avid|b0denmaster|plessen|twist|upe,1.78,0.11198205170243797,0.20345232292127763,-0.22584901517002703,25,4
+shanghai,2024-08-29,1539315,3,1,Into The Breach,ALTERNATE aTTaX,boros|juanflatroo|keoz|sinnopsyy|smooya,arrow|awzek|freeze|hyped|perx,-1.25,-0.38616947403746443,-0.3628095213051038,0.0,1,11
+shanghai,2024-08-29,1539319,3,1,MOUZ NXT,TSM,burmylov|neityu|pr|sirah|tmb,acor|altekz|niko|valde|zyphon,1.0,-0.09031476016764446,0.015285589465960196,-0.11604419425019462,13,10
+shanghai,2024-08-29,1541330,3,0,Monte,Sashi Esport,demqq|dycha|hades|kei|krasnal,cabbi|iceberg|kwezz|lucky|mistr,-0.25,0.1848555758342443,0.07566794173766488,0.17152346659167564,8,18
+shanghai,2024-08-29,1541331,3,1,GamerLegion,Aurora Gaming,andu|fl4mus|sl3nd|volt|ztr,deko|gr1ks|kensi|lack1|norwi,-2.46,0.13767493030201314,-0.06773565303152428,0.21965117434118012,14,25
+shanghai,2024-08-29,1544748,3,1,B8 Esports,Revenant Esports,alex666|cptkurtka023|esenthial|headtr1ck|npl,launx|nbk-|nivera|reiko|tizian,3.25,-0.1626596873684638,-0.05470784655208241,-0.1390472826160223,21,7
+shanghai,2024-08-29,1546009,3,1,Zero Tenacity,Into The Breach,avn|brutmonster|cjoffo|nemanha|simke,juanflatroo|keoz|redstar|sinnopsyy|smooya,4.1,-0.1198250921747208,0.07115610909011423,-0.2608142119306461,21,1
+shanghai,2024-08-29,1551730,3,0,Team Sampi,Gaimin Gladiators,fino|manguss|savana1|the elive|zedko,kraghen|nicoodoz|nodios|queenix|roej,-0.45,-0.027792687863425362,0.03458456908888453,0.04429251955567726,12,6
+shanghai,2024-08-29,1552646,3,1,BOSS,Elevate,cryptic|d4rtymontana|freshie|micro|slight,dare|dea|peeping|shane|snav,-1.33,0.21018289557701522,0.09331188840951414,0.0,2,2
+shanghai,2024-08-29,1552647,3,0,NRG Esports,Legacy,autimatic|brehze|hext|nitr0|osee,b4rtin|dumau|latto|nekiz|saadzin,-0.81,-0.0755980531626789,0.023840143455925247,0.14294388642564282,3,4
+shanghai,2024-08-29,1554866,3,1,Virtus.pro,Team Falcons,electronic|fame|fl1t|jame|n0rb3r7,dupreeh|maden|magisk|snappi|sunpayus,2.18,-0.18104925853503592,0.08391059973533366,-0.3270876269268494,15,26
+shanghai,2024-08-29,1554867,3,0,FURIA Esports,Team Spirit,chelo|fallen|kscerato|skullz|yuurih,chopper|donk|magixx|sh1ro|zont1x,-3.21,0.13446411656086363,0.15645932052436615,0.036287179332073045,22,13
+shanghai,2024-08-29,1556042,3,1,RED Canids,Fluxo,coldzera|dav1d|hen1|nython|venomzera,art|chay|lucaozy|nicks|zevy,0.05,0.03781072045318967,-0.0053931967363699445,-0.004897157062769719,11,5
+shanghai,2024-08-29,1556640,3,1,Eternal Fire,Heroic,calyx|maj3r|wicadia|woxic|xantares,degster|kyxsan|nertz|sjuush|teses,0.66,-0.03837349508329538,0.05215510272710002,0.01018137595921903,18,18
+shanghai,2024-08-29,1556641,3,1,MOUZ,paiN Gaming,brollan|jimpphat|siuhy|torzsi|xertion,biguzera|kauez|lux|nqz|snowzin,4.45,-0.2474166616783413,-0.09402905248177057,-0.2245125301410838,10,22
+shanghai,2024-08-29,1559702,3,1,SAW,GamerLegion,arrozdoce|ewjerkz|mutiris|rmn|story,andu|fl4mus|sl3nd|volt|ztr,0.43,-0.007262259819649106,0.2591265037095537,-0.2593496227089397,24,14
+shanghai,2024-08-29,1560025,3,1,Monte,Ninjas in Pyjamas,demqq|dycha|hades|kei|krasnal,alex|isak|maxster|r1nkle|rez,-4.69,-0.08439710673450172,-0.14125314145060863,0.17097944331296902,8,18
+shanghai,2024-08-30,10073581,3,1,Wildcard Gaming,NRG Esports,jba|phzy|sonic|stanislaw|susp,autimatic|brehze|hext|nitr0|osee,0.05,0.145987017341786,0.0,0.034080016614542984,1,4
+shanghai,2024-08-30,10073582,3,0,Party Astronauts,Nouns Esports,ben1337|cxzi|fang|infinite|wolfy,cj|jeorgesnorts|junior|nosrac|rush,-0.34,-0.22963480987800564,-0.012910964526224252,0.0,5,3
+shanghai,2024-08-30,1544736,3,1,NRG Esports,Nouns Esports,autimatic|brehze|hext|nitr0|osee,cj|jeorgesnorts|junior|nosrac|rush,0.2,-0.2913422075959329,0.0,0.0,4,3
+shanghai,2024-08-30,1544737,3,1,Wildcard Gaming,Party Astronauts,jba|phzy|sonic|stanislaw|susp,ben1337|cxzi|fang|infinite|wolfy,0.59,0.08427961962385877,0.012910964526224252,0.034080016614542984,1,5
+shanghai,2024-08-30,1544743,3,0,ENCE,Young Ninjas,gla1ve|goofy|kylar|podi|sdy,bluepho3nix|jocab|mistem|silence|xkacpersky,5.7,-0.2950384467493996,-0.08252167661394384,-0.28086522626005944,19,4
+shanghai,2024-08-30,1544744,3,1,OG,Team EndPoint,buzz|chr1zn|f1ku|modo|nexius,azuwu|cej0t|cruc1al|mightymax|surreal,1.32,-0.015316171177329169,-0.015774762857667754,0.0,12,8
+shanghai,2024-08-30,1544745,3,1,Zero Tenacity,Nexus Gaming,avn|brutmonster|cjoffo|nemanha|simke,7kick|btn|ciocardau|ragga|xellow,3.68,-0.19725086908333084,0.01212242328253596,-0.23912192414555358,21,6
+shanghai,2024-08-30,1559874,3,0,FURIA Esports,Eternal Fire,chelo|fallen|kscerato|skullz|yuurih,calyx|maj3r|wicadia|woxic|xantares,-0.13,0.25998173788974266,0.16634794760561608,0.10158084657136845,23,19
+shanghai,2024-08-30,1560531,3,0,Team Sampi,Revenant Esports,fino|manguss|savana1|the elive|zedko,launx|nbk-|nivera|reiko|tizian,0.56,-0.19329590289737344,0.03308790371326922,-0.07569398143551474,13,8
+shanghai,2024-08-30,1560533,3,1,Aurora Young Blood,FAVBET Team,bl1x1|bluewhite|gr1ks|m1quse|vilby,bondik|j3kie|marix|smash|t3ns1on,1.63,-0.2126538998031769,0.0022399184765195465,-0.28390295022303086,16,5
+shanghai,2024-08-30,1560540,3,0,GamerLegion,Monte,andu|fl4mus|sl3nd|volt|ztr,demqq|dycha|hades|kei|krasnal,0.44,-0.08573811887526211,-0.14870245919482442,-0.03315541573306,16,10
+shanghai,2024-08-30,1560541,3,0,Sashi Esport,Aurora Gaming,cabbi|iceberg|kwezz|lucky|mistr,deko|gr1ks|kensi|lack1|norwi,-2.65,0.0808093550278441,-0.031205880843165543,0.10664927900742077,19,26
+shanghai,2024-08-30,1560548,3,1,paiN Gaming,Virtus.pro,biguzera|kauez|lux|nqz|snowzin,electronic|fame|fl1t|jame|n0rb3r7,-2.24,0.2268130875516165,-0.07714892577971902,0.3669648413913499,23,16
+shanghai,2024-08-30,1560549,3,0,MOUZ,Team Spirit,brollan|jimpphat|siuhy|torzsi|xertion,chopper|donk|magixx|sh1ro|zont1x,-0.61,-0.059748592455041036,0.0,-0.026015645254129798,11,14
+shanghai,2024-08-30,1563365,3,0,Aurora Gaming,Monte,deko|gr1ks|kensi|lack1|norwi,demqq|dycha|hades|kei|krasnal,2.9,-0.26198335565928577,-0.15944744050289897,-0.27817274559909644,26,10
+shanghai,2024-08-31,10073584,3,1,Wildcard Gaming,NRG Esports,jba|phzy|sonic|stanislaw|susp,autimatic|brehze|hext|nitr0|osee,0.05,0.2326678700072392,0.0,0.034080016614542984,3,6
+shanghai,2024-08-31,10073747,3,0,Sinners Esports,Gaimin Gladiators,beastik|majky|moriisko|oskar|shock,kraghen|nicoodoz|nodios|queenix|roej,0.66,0.1302318420835402,0.2648912719541603,-0.06503154992312248,26,7
+shanghai,2024-08-31,1560716,3,1,9INE,Team Space,mantuu|misutaaa|raalz|refrezh|s0und,danistzz|fozil|truniq|vert|x5g7v,0.85,0.20268213950885872,0.25109596957799946,-0.1597884325891067,5,11
+shanghai,2024-08-31,1562407,3,1,NRG Esports,Nouns Esports,autimatic|brehze|hext|nitr0|osee,cj|jeorgesnorts|junior|nosrac|rush,0.2,-0.2350656509098777,0.0,0.0,6,5
+shanghai,2024-08-31,1563232,3,1,ALTERNATE aTTaX,OG,arrow|awzek|freeze|hyped|perx,buzz|chr1zn|f1ku|modo|nexius,-1.45,0.20059322136301527,0.2450858772181958,-0.16519796802809858,12,13
+shanghai,2024-08-31,1563736,3,1,Eternal Fire,paiN Gaming,calyx|maj3r|wicadia|woxic|xantares,biguzera|kauez|lux|nqz|snowzin,1.98,-0.3081936444341017,-0.16675876457226887,-0.26574913739979045,20,24
+shanghai,2024-08-31,1566113,3,0,MOUZ,Eternal Fire,brollan|jimpphat|siuhy|torzsi|xertion,calyx|maj3r|wicadia|woxic|xantares,2.47,0.03803685648812624,0.0323953843260583,0.05423855912013212,12,20
+shanghai,2024-09-01,10073587,3,0,Team Liquid,Legacy,jks|naf|twistzz|ultimate|yekindar,b4rtin|dumau|latto|nekiz|saadzin,5.58,0.18071930375301595,0.3555613789272656,0.17503985614709627,9,5
+shanghai,2024-09-01,1562827,3,1,Zero Tenacity,9INE,avn|brutmonster|cjoffo|nemanha|simke,mantuu|misutaaa|raalz|refrezh|s0und,2.17,-0.35067074080868454,-0.23424384569238693,-0.10879145860342498,20,6
+shanghai,2024-09-01,1566690,5,1,Team Spirit,Eternal Fire,chopper|donk|magixx|sh1ro|zont1x,calyx|maj3r|wicadia|woxic|xantares,3.08,0.12369259887553738,-0.08732219829818577,0.10646062467389178,14,22
+shanghai,2024-09-01,1567738,3,0,Aurora Young Blood,Team Space,bl1x1|bluewhite|gr1ks|m1quse|vilby,danistzz|fozil|truniq|vert|x5g7v,1.63,-0.021230879688610052,0.09806421382493465,-0.28236313042520234,17,12
+shanghai,2024-09-01,1567740,3,0,Team Sampi,EYEBALLERS,fino|manguss|savana1|the elive|zedko,flusha|golden|heap|jw|poiii,0.94,-0.21999536935497316,-0.1703024306229773,0.0399206713014795,14,13
+shanghai,2024-09-02,10073590,3,0,Legacy,Team Liquid,b4rtin|dumau|latto|nekiz|saadzin,jks|naf|twistzz|ultimate|yekindar,-5.58,-0.018084278098024945,-0.21482888385458737,-0.033127957322199725,6,10
+shanghai,2024-09-02,10073645,3,1,BetBoom Team,Monte,kair0n|magnojez|nafany|s1ren|zorte,demqq|dycha|hades|kei|krasnal,3.13,-0.10593880467336847,-0.11091036913498337,0.013357980710926073,11,12
+shanghai,2024-09-02,10073890,3,1,Gaimin Gladiators,Alliance,kraghen|nicoodoz|nodios|queenix|roej,avid|b0denmaster|plessen|twist|upe,1.12,-0.005873683592859398,-0.023512942166003442,-0.119986500991192,8,4
+shanghai,2024-09-02,1560576,3,1,Metizport,FAVBET Team,adamb|jackinho|nilo|plopski|sapec,bondik|j3kie|marix|smash|t3ns1on,1.05,0.14259167341005177,0.1978197666603099,0.03764200371636154,10,6
+shanghai,2024-09-02,1560577,3,1,TSM,Into The Breach,acor|altekz|niko|valde|zyphon,boros|juanflatroo|keoz|sinnopsyy|smooya,2.66,0.004952680097276868,-0.013126743161918045,0.0914454550781799,11,3
+shanghai,2024-09-02,1567735,3,1,Team EndPoint,9INE,azuwu|cej0t|cruc1al|mightymax|surreal,mantuu|misutaaa|raalz|refrezh|s0und,-0.55,-0.042371261324528675,-0.05680301959725874,0.10995133235745802,9,7
+shanghai,2024-09-02,1567737,3,1,Sinners Esports,Revenant Esports,beastik|majky|moriisko|oskar|shock,launx|nbk-|nivera|reiko|tizian,1.67,-0.031892700219796816,0.263394606578545,-0.18501805091431447,27,9
+shanghai,2024-09-02,1569153,3,1,9INE,EYEBALLERS,mantuu|misutaaa|raalz|refrezh|s0und,golden|heap|jw|peppzor|poiii,1.42,-0.032925447374278036,-0.08789408097894971,0.005663320379536221,7,13
+shanghai,2024-09-02,1569154,3,0,Bleed Esports,B8 Esports,cypher|hampus|jkaem|nawwk|nexa,alex666|cptkurtka023|esenthial|headtr1ck|npl,1.0,-0.16034663969246626,0.06989005636446194,-0.11941489531315651,25,22
+shanghai,2024-09-02,1569671,3,1,Revenant Esports,FAVBET Team,adex|launx|nbk-|nivera|reiko,bondik|j3kie|marix|smash|t3ns1on,-0.19,0.0782450009356056,0.025642726362314835,0.0,9,6
+shanghai,2024-09-03,10071465,3,0,KOI,G2 Esports,adams|dav1g|just|mopoz|stadodo,hunter-|m0nesy|malbsmd|niko|snax,-8.79,0.13127563607662016,0.29110245644189076,0.08286632751406571,12,13
+shanghai,2024-09-03,1558992,3,0,B8 Esports,TSM,alex666|cptkurtka023|esenthial|headtr1ck|npl,acor|altekz|niko|valde|zyphon,1.48,-0.09212570584959354,-0.06896761299557377,-0.22312293682680978,23,12
+shanghai,2024-09-03,1560065,3,1,MIBR,9z Team,brnz4n|drop|exit|insani|saffee,buda|dgt|huasopeek|martinezsa|max,-1.33,-0.23218376270193647,0.05665619159586013,-0.34043714773570394,12,12
+shanghai,2024-09-03,1560067,3,0,Lynn Vision Gaming,Natus Vincere,afufu|emiliaqaq|flying|westmelon|z4kr,aleksib|b1t|im|jl|w0nderful,-8.59,-0.05964171626110679,-0.18901632446697963,0.06956646213476887,0,18
+shanghai,2024-09-03,1560068,3,0,Heroic,Ninjas in Pyjamas,degster|kyxsan|nertz|sjuush|teses,alex|isak|maxster|r1nkle|rez,-0.18,-0.2940867278270535,-0.33802041573234587,0.06318536220200846,18,19
+shanghai,2024-09-03,1560069,3,0,FlyQuest,Eternal Fire,alistair|dexter|ins|liazz|vexite,calyx|maj3r|wicadia|woxic|xantares,-4.45,0.02866371930436533,-0.12770299208795724,0.11856142722813519,4,23
+shanghai,2024-09-03,1560070,3,0,FaZe Clan,Sangal Esports,broky|frozen|karrigan|rain|ropz,jotta|lnz|samey|xfl0ud|yxngstxr,3.88,-0.3762805366397588,-0.25176716755934814,-0.2285339078749104,15,11
+shanghai,2024-09-03,1563841,3,1,Gaimin Gladiators,Sinners Esports,kraghen|nicoodoz|nodios|queenix|roej,beastik|majky|moriisko|oskar|shock,-0.66,-0.07207943158680516,-0.2648912719541603,0.043444262393191845,9,27
+shanghai,2024-09-03,1569151,3,0,Sashi Esport,Nemiga Gaming,cabbi|iceberg|kwezz|lucky|mistr,1eer|khan|riskyb0b|xant3r|zweih,-0.27,-0.006979739579815944,0.06672559732223549,-0.011544133602262086,20,10
+shanghai,2024-09-03,1573033,3,1,9INE,EYEBALLERS,mantuu|misutaaa|raalz|refrezh|s0und,golden|heap|jw|peppzor|poiii,1.42,-0.04542354880889564,-0.04735780096661102,0.06512952265603517,9,14
+shanghai,2024-09-04,10073830,3,1,Metizport,Team Sampi,adamb|l00m1|nilo|plopski|sapec,fino|manguss|savana1|the elive|zedko,0.68,0.35310214876614643,0.13908913658472583,0.11333598515187629,11,15
+shanghai,2024-09-04,10073919,3,1,Young Ninjas,Alliance,bluepho3nix|jocab|mistem|silence|xkacpersky,avid|b0denmaster|plessen|twist|upe,-0.54,0.2334227437971826,0.2334227437971826,0.0,5,5
+shanghai,2024-09-04,1560064,3,0,The Mongolz,Team 3DMAX,910|blitz|mzinho|senzu|techno,djoko|ex3rcice|graviti|lucky|maka,2.66,-0.22382256638756826,-0.00513983418054062,-0.2190031537572552,25,30
+shanghai,2024-09-04,1560066,3,1,Team Spirit,Wildcard Gaming,chopper|donk|magixx|sh1ro|zont1x,jba|phzy|sonic|stanislaw|susp,8.91,-0.1452215637734945,0.0,-0.03494713166718041,15,4
+shanghai,2024-09-04,1569149,3,0,Monte,PARIVISION,demqq|dycha|hades|kei|krasnal,alpha1337|artfr0st|belchonokk|patsi|qikert,-0.11,0.07598905161870047,0.15309446226358478,0.059684465330332274,13,20
+shanghai,2024-09-04,1569150,3,1,Zero Tenacity,Sinners Esports,avn|brutmonster|cjoffo|nemanha|simke,beastik|majky|moriisko|oskar|shock,1.54,-0.3207441707958511,-0.3376906526275485,-0.14127271136143696,20,26
+shanghai,2024-09-04,1575748,3,1,Young Ninjas,TSM,bluepho3nix|jocab|mistem|silence|xkacpersky,acor|altekz|niko|valde|zyphon,-2.42,0.1280468821786107,0.11505292453325007,-0.10224169679921963,5,13
+shanghai,2024-09-04,1575811,3,0,FlyQuest,FaZe Clan,alistair|dexter|ins|liazz|vexite,broky|frozen|karrigan|rain|ropz,-5.04,0.08784951083218594,0.0008511762915766746,0.18540482135470995,5,16
+shanghai,2024-09-04,1575812,3,1,Eternal Fire,Sangal Esports,calyx|maj3r|wicadia|woxic|xantares,jotta|lnz|samey|xfl0ud|yxngstxr,3.29,-0.2962010874808077,-0.13260041581360998,-0.11995585197920701,22,11
+shanghai,2024-09-04,1575965,3,0,Lynn Vision Gaming,Heroic,afufu|emiliaqaq|flying|westmelon|z4kr,degster|kyxsan|nertz|sjuush|teses,-5.03,0.1358379017371951,0.019242916383270907,0.09767652728034787,1,17
+shanghai,2024-09-04,1575967,3,1,Natus Vincere,Ninjas in Pyjamas,aleksib|b1t|im|jl|w0nderful,alex|isak|maxster|r1nkle|rez,3.38,-0.01930115099351591,0.0025321563138410996,0.1472027175912506,19,18
+shanghai,2024-09-04,1576415,3,0,Team Space,FAVBET Team,danistzz|fozil|h4san4tor|truniq|x5g7v,bondik|j3kie|marix|smash|t3ns1on,0.0,-0.04920666892584969,0.022565198381840592,0.04983710023164867,12,8
+shanghai,2024-09-05,10073767,3,0,KOI,The Mongolz,adams|dav1g|just|mopoz|stadodo,910|blitz|mzinho|senzu|techno,-6.83,0.26937994069736065,-0.012407822577346933,0.44022464886501333,11,23
+shanghai,2024-09-05,10073906,3,1,BetBoom Team,Gaimin Gladiators,kair0n|magnojez|nafany|s1ren|zorte,kraghen|nicoodoz|nodios|queenix|roej,3.5,-0.15486768498782477,-0.02870747177540272,0.08603392794446071,7,10
+shanghai,2024-09-05,10073965,3,1,Monte,Sinners Esports,demqq|dycha|hades|kei|krasnal,beastik|majky|moriisko|oskar|shock,-0.51,-0.007769992988609337,0.016549851454021824,0.10057775608987113,14,26
+shanghai,2024-09-05,10073969,3,1,Zero Tenacity,Alliance,avn|brutmonster|cjoffo|nemanha|simke,avid|b0denmaster|plessen|twist|upe,1.88,-0.09910699289356253,-0.057965823526980126,-0.14848931507717644,20,6
+shanghai,2024-09-05,10073980,3,1,ALTERNATE aTTaX,FAVBET Team,arrow|awzek|freeze|hyped|perx,bondik|j3kie|marix|smash|t3ns1on,1.2,0.3177574618697173,0.37661829964280347,-0.11208494055583085,13,9
+shanghai,2024-09-05,1569148,3,0,GamerLegion,Into The Breach,andu|fl4mus|sl3nd|volt|ztr,juanflatroo|keoz|redstar|sinnopsyy|smooya,1.87,-0.036926829724909155,0.06506559236164552,-0.001651942086384639,17,4
+shanghai,2024-09-05,1572138,3,0,ALTERNATE aTTaX,Cloud9,arrow|awzek|freeze|hyped|perx,ax1le|boombl4|heavygod|icy|interz,-0.75,0.3285775998990709,0.36824479552661077,-0.11208494055583085,13,0
+shanghai,2024-09-05,1576409,3,0,Revenant Esports,Gaimin Gladiators,launx|nbk-|nivera|reiko|tizian,kraghen|nicoodoz|nodios|queenix|roej,-0.41,0.034969248832578986,-0.022993447358297323,0.05367707312279243,11,10
+shanghai,2024-09-05,1579166,3,1,9z Team,Wildcard Gaming,buda|dgt|huasopeek|martinezsa|max,jba|phzy|sonic|stanislaw|susp,2.58,-0.16341392735694418,-0.06325287797718754,-0.041494232867246995,13,5
+shanghai,2024-09-05,1579167,3,1,G2 Esports,Team 3DMAX,hunter-|m0nesy|malbsmd|niko|snax,djoko|ex3rcice|graviti|lucky|maka,5.68,-0.11824148606248491,-0.28524591562130686,0.10068073865626094,14,30
+shanghai,2024-09-05,1579168,3,1,MIBR,Team Spirit,brnz4n|drop|exit|insani|saffee,chopper|donk|magixx|sh1ro|zont1x,-6.46,-0.17876732909431226,0.055162810728512965,-0.26304003959910205,13,16
+shanghai,2024-09-05,1579655,3,1,B8 Esports,9INE,alex666|cptkurtka023|esenthial|headtr1ck|npl,mantuu|misutaaa|raalz|refrezh|s0und,1.18,-0.1432645819734022,-0.15513284206372105,-0.15125177156541264,24,10
+shanghai,2024-09-05,1580026,3,1,FaZe Clan,Ninjas in Pyjamas,broky|frozen|karrigan|rain|ropz,alex|isak|maxster|r1nkle|rez,3.17,-0.14831217244559536,-0.1415426892388878,0.04141809719483208,17,16
+shanghai,2024-09-05,1580381,3,1,Sangal Esports,Heroic,jotta|lnz|samey|xfl0ud|yxngstxr,degster|kyxsan|nertz|sjuush|teses,-0.25,0.3380990070782679,0.17554177623209608,0.1665089029345993,11,15
+shanghai,2024-09-06,10073774,3,0,KOI,Wildcard Gaming,adams|dav1g|just|mopoz|stadodo,jba|phzy|sonic|stanislaw|susp,-1.96,-0.09376414245179265,0.22430057812666476,0.037431111542575383,12,6
+shanghai,2024-09-06,10074008,3,1,Aurora Young Blood,Alliance,bl1x1|bluewhite|gr1ks|m1quse|vilby,avid|b0denmaster|plessen|twist|upe,-0.16,-0.07633098792581068,0.08025930176580995,-0.2730452635023227,15,7
+shanghai,2024-09-06,1579651,3,1,Passion UA,Gaimin Gladiators,fear|jackasmo|jambo|s-chilla|zerrofix,kraghen|nicoodoz|nodios|queenix|roej,0.36,-0.08735363381436421,0.1073750839627899,-0.040329158550464324,15,12
+shanghai,2024-09-06,1579652,3,1,GamerLegion,Team EndPoint,andu|fl4mus|sl3nd|volt|ztr,azuwu|cej0t|cruc1al|mightymax|surreal,0.73,-0.14775191437423602,0.022436528436709777,-0.05480703253382141,18,10
+shanghai,2024-09-06,1580380,3,1,FlyQuest,Lynn Vision Gaming,alistair|dexter|ins|liazz|vexite,afufu|emiliaqaq|flying|westmelon|z4kr,0.97,-0.05957334255304762,-0.05957334255304762,0.0,6,2
+shanghai,2024-09-06,1583274,3,0,The Mongolz,Team Spirit,910|blitz|mzinho|senzu|techno,chopper|donk|magixx|sh1ro|zont1x,-3.07,-0.20854217292173513,0.23112050857418578,-0.29113899574532376,24,17
+shanghai,2024-09-06,1583684,3,1,Team 3DMAX,9z Team,djoko|ex3rcice|graviti|lucky|maka,buda|dgt|huasopeek|martinezsa|max,-0.19,0.08628827489007229,0.32802189684345634,-0.12246940950237271,31,14
+shanghai,2024-09-06,1583941,3,0,Team Space,Rhyno Esports,danistzz|fozil|h4san4tor|truniq|x5g7v,ag1l|krazy|nopeej|p3r3iira|snapy,1.2,-0.12652221505069497,0.014191694265647876,0.04983710023164867,12,0
+shanghai,2024-09-06,1584098,3,1,FaZe Clan,Sangal Esports,broky|frozen|karrigan|rain|ropz,jotta|lnz|samey|xfl0ud|yxngstxr,3.38,-0.3330961131789098,-0.14310590512471097,-0.2467615915752108,18,11
+shanghai,2024-09-06,1586615,3,0,Team 3DMAX,Team Spirit,djoko|ex3rcice|graviti|lucky|maka,chopper|donk|magixx|sh1ro|zont1x,-5.55,0.10669051170398514,0.2637877585014833,-0.04926733310592433,31,17
+shanghai,2024-09-07,10073764,3,1,Sangal Esports,FlyQuest,jotta|lnz|samey|xfl0ud|yxngstxr,alistair|dexter|ins|liazz|vexite,3.1,0.19858781593753116,0.11869993717510646,0.09440148530166267,11,7
+shanghai,2024-09-07,10073765,3,1,Heroic,Ninjas in Pyjamas,degster|kyxsan|nertz|sjuush|teses,alex|isak|maxster|r1nkle|rez,0.04,-0.0647944500882304,-0.013351832138574028,0.1398719839989751,16,15
+shanghai,2024-09-07,1580027,3,0,Eternal Fire,Natus Vincere,calyx|maj3r|wicadia|woxic|xantares,aleksib|b1t|im|jl|w0nderful,-1.77,-0.021837203398651077,-0.13075575376459714,0.14437620286804037,20,20
+shanghai,2024-09-07,1583934,3,0,Gaimin Gladiators,Team Spirit Academy,kraghen|nicoodoz|nodios|queenix|roej,alkarenn|kyousuke|mokuj1n|robo|syph0,1.64,0.06931216417357694,0.0009465280012217593,-0.05367707312279243,13,0
+shanghai,2024-09-07,1583935,3,0,EYEBALLERS,ECSTATIC,dex|flusha|heap|jw|poiii,anlelele|kristou|n1xen|nut nut|tauson,-0.39,0.04197710031317245,0.0230030995063957,0.0,6,0
+shanghai,2024-09-07,1584084,3,0,Nemiga Gaming,Zero Tenacity,1eer|khan|riskyb0b|xant3r|zweih,avn|brutmonster|cjoffo|nemanha|simke,1.03,0.07969399494389527,0.02537601690367417,-0.07719198146221307,10,19
+shanghai,2024-09-07,1586598,3,1,B8 Esports,Bleed Esports,alex666|cptkurtka023|esenthial|headtr1ck|npl,cypher|hampus|jkaem|nawwk|nexa,0.11,0.1748820661399267,-0.06989005636446194,0.08567247453934487,24,24
+shanghai,2024-09-07,1586613,3,0,9z Team,The Mongolz,buda|dgt|huasopeek|martinezsa|max,910|blitz|mzinho|senzu|techno,-2.29,0.23583620326377366,-0.15622807287108093,0.36434107214177214,15,24
+shanghai,2024-09-07,1587030,3,1,GamerLegion,Monte,andu|fl4mus|sl3nd|volt|ztr,demqq|dycha|hades|kei|krasnal,0.18,-0.1670143495501559,-0.17155291295279673,-0.08631050618049677,19,15
+shanghai,2024-09-07,1587327,3,0,Wildcard Gaming,Team 3DMAX,jba|phzy|sonic|stanislaw|susp,djoko|ex3rcice|graviti|lucky|maka,-2.39,0.037588228413216976,-0.27206038566617124,0.1748147024604308,7,33
+shanghai,2024-09-08,1583685,3,0,MIBR,G2 Esports,brnz4n|drop|exit|insani|saffee,hunter-|m0nesy|malbsmd|niko|snax,-6.59,-0.06889110550911143,0.13192497585840204,-0.25679041641791134,14,15
+shanghai,2024-09-08,1589856,3,0,Passion UA,GamerLegion,fear|jackasmo|jambo|s-chilla|zerrofix,andu|fl4mus|sl3nd|volt|ztr,-0.61,0.05186895822161188,0.009922627521141675,-0.03919919913943534,15,20
+shanghai,2024-09-08,1590141,3,0,Team 3DMAX,The Mongolz,djoko|ex3rcice|graviti|lucky|maka,910|blitz|mzinho|senzu|techno,-2.48,0.3741056414988419,0.11952109781440971,0.28344812068718567,30,24
+shanghai,2024-09-08,1590414,3,0,Sangal Esports,Heroic,jotta|lnz|samey|xfl0ud|yxngstxr,degster|kyxsan|nertz|sjuush|teses,-0.25,0.26593361820730776,0.07105549753376976,0.171443548394618,11,17
+shanghai,2024-09-08,1590810,3,1,B8 Esports,Zero Tenacity,alex666|cptkurtka023|esenthial|headtr1ck|npl,avn|brutmonster|cjoffo|nemanha|simke,0.44,0.08570748830917219,0.0346594573425793,-0.049353902620958956,24,18
+shanghai,2024-09-08,1593043,3,0,GamerLegion,B8 Esports,andu|fl4mus|sl3nd|volt|ztr,alex666|cptkurtka023|esenthial|headtr1ck|npl,-0.41,0.011746158242382726,0.12076635090317207,0.09311740115026032,20,24
+shanghai,2024-09-09,10074092,3,1,Zero Tenacity,Metizport,avn|brutmonster|cjoffo|nemanha|simke,adamb|l00m1|nilo|plopski|sapec,0.7,-0.32286227753481545,-0.24647308634699855,-0.1362125347794843,19,12
+shanghai,2024-09-09,1588544,3,1,Sinners Esports,Team Sampi,beastik|majky|moriisko|oskar|shock,fino|manguss|savana1|the elive|zedko,2.07,0.24058697246207061,0.10410551803018137,0.009490194545541453,19,12
+shanghai,2024-09-09,1590804,3,0,Revenant Esports,EYEBALLERS,launx|nbk-|nivera|reiko|tizian,dex|flusha|heap|jw|poiii,1.03,0.09159598360475722,-0.03022398999418621,0.0,12,7
+shanghai,2024-09-09,1590805,3,0,Gaimin Gladiators,FAVBET Team,kraghen|nicoodoz|nodios|queenix|roej,bondik|j3kie|marix|smash|t3ns1on,1.23,0.039932257736038985,0.03890976587202222,-0.1369573147258374,14,10
+shanghai,2024-09-10,10074106,3,1,Bleed Esports,Passion UA,cypher|hampus|jkaem|nawwk|nexa,fear|jackasmo|jambo|s-chilla|zerrofix,0.91,-0.2508619867510974,-0.06079892205985181,-0.12042719472105459,23,15
+shanghai,2024-09-10,10074126,3,0,Aurora Young Blood,Gaimin Gladiators,bl1x1|bluewhite|gr1ks|m1quse|vilby,kraghen|nicoodoz|nodios|queenix|roej,-1.1,-0.15105362696297917,-0.01620588794265623,-0.07686442664563578,15,15
+shanghai,2024-09-10,1560055,3,0,RED Canids,Virtus.pro,coldzera|dav1d|hen1|nython|venomzera,electronic|fame|fl1t|jame|n0rb3r7,-4.14,0.03507804632637611,-0.16276464412549918,0.16492962251950033,12,17
+shanghai,2024-09-10,1560056,3,1,Team Liquid,ENCE,jks|naf|twistzz|ultimate|yekindar,gla1ve|goofy|kylar|podi|sdy,5.62,0.32752368056429826,0.19027017622390496,0.23278722377255712,11,14
+shanghai,2024-09-10,1560059,3,1,Fnatic,Astralis,afro|blamef|bodyy|krimz|matys,br0|device|jabbi|staehr|stavn,-3.19,0.054714461562603386,0.1757491441772071,-0.030451557522481416,17,11
+shanghai,2024-09-10,1560060,3,0,Complexity,M80,elige|floppy|grim|hallzerk|jt,lake|reck|s1n|slaxz-|swisher,3.53,-0.12913630677582916,-0.10503875988079822,-0.1409036877741601,19,4
+shanghai,2024-09-10,1560061,3,0,BIG,Imperial Esports,jdc|krimbo|rigon|syrson|tabsen,decenty|felps|noway|try|vini,0.31,-0.0548291417326662,-0.015955268557793084,-0.050800424981399445,13,8
+shanghai,2024-09-10,1560062,3,1,MOUZ,Rooster,brollan|jimpphat|siuhy|torzsi|xertion,asap|chelleos|danger|sliimey|tjp,11.01,-0.1295285823442847,0.0,-0.13589221790005912,13,2
+shanghai,2024-09-10,1586322,3,1,TSM,ALTERNATE aTTaX,acor|altekz|niko|valde|zyphon,arrow|awzek|freeze|hyped|perx,0.86,-0.23417007227248307,-0.24893597653857952,0.05025095322566104,14,15
+shanghai,2024-09-10,1586323,3,0,MOUZ NXT,Team Sampi,burmylov|neityu|pr|sirah|tmb,fino|manguss|savana1|the elive|zedko,1.26,0.1354051221456498,-0.018381172395546555,-0.08584618535316142,9,13
+shanghai,2024-09-10,1588543,3,1,Sashi Esport,GamerLegion,cabbi|iceberg|kwezz|lucky|mistr,andu|fl4mus|sl3nd|volt|ztr,-0.04,-0.09321319354829129,-0.1371225655079915,-0.040161756309118335,16,22
+shanghai,2024-09-11,1560057,3,1,FURIA Esports,Team Falcons,chelo|fallen|kscerato|skullz|yuurih,dupreeh|maden|magisk|snappi|sunpayus,0.94,-0.05782466496878126,-0.029875605742145112,-0.06578949922770162,17,27
+shanghai,2024-09-11,1586321,3,1,Rebels Gaming,Into The Breach,casey|flayy|kisserek|olimp|szpero,boros|juanflatroo|keoz|sinnopsyy|smooya,0.85,-0.1344819500435974,0.044175000489279415,-0.12209891199733978,8,5
+shanghai,2024-09-11,1588540,3,1,Into The Breach,EYEBALLERS,juanflatroo|keoz|redstar|sinnopsyy|smooya,golden|heap|jw|peppzor|poiii,0.54,0.10351183143993069,0.09511845816641039,0.11561465273699424,5,12
+shanghai,2024-09-11,1588541,3,1,PARIVISION,9INE,alpha1337|artfr0st|belchonokk|patsi|qikert,mantuu|misutaaa|raalz|refrezh|s0und,1.33,0.02319570199333082,-0.007289427456588615,-0.0601949435069867,14,11
+shanghai,2024-09-11,1588545,3,1,Zero Tenacity,Metizport,avn|brutmonster|cjoffo|nemanha|simke,adamb|jackinho|nilo|plopski|sapec,0.7,-0.2830858385273234,-0.24647308634699855,-0.1603920739102607,19,13
+shanghai,2024-09-11,1600014,3,0,Rooster,BIG,asap|chelleos|danger|sliimey|tjp,jdc|krimbo|rigon|syrson|tabsen,-4.29,0.1253528817024574,-0.0426506956097631,0.19620619225402608,3,14
+shanghai,2024-09-11,1600015,3,0,MOUZ,Imperial Esports,brollan|jimpphat|siuhy|torzsi|xertion,decenty|felps|noway|try|vini,7.03,-0.11897275294868098,-0.058311805558265165,0.0186906940096212,14,9
+shanghai,2024-09-11,1600161,3,1,Complexity,Astralis,elige|floppy|grim|hallzerk|jt,br0|device|jabbi|staehr|stavn,-0.82,0.00303508099037203,0.06640027719501951,-0.135712543464678,20,11
+shanghai,2024-09-11,1600163,3,1,M80,Fnatic,lake|reck|s1n|slaxz-|swisher,afro|blamef|bodyy|krimz|matys,-1.16,0.13089991966256348,-0.02160848351694969,0.011756499574652017,5,18
+shanghai,2024-09-12,10074161,3,1,Sinners Esports,FAVBET Team,beastik|majky|moriisko|oskar|shock,bondik|j3kie|marix|smash|t3ns1on,2.53,0.08554473163789608,0.21932612233196974,0.03183868327648517,19,11
+shanghai,2024-09-12,1588683,3,1,Nemiga Gaming,Monte,1eer|khan|riskyb0b|xant3r|zweih,demqq|dycha|hades|kei|krasnal,1.18,-0.2771694749780419,-0.30160270429487396,-0.19528317785324398,9,16
+shanghai,2024-09-12,1599274,3,1,OG,Team Sampi,buzz|chr1zn|f1ku|modo|nexius,fino|manguss|savana1|the elive|zedko,1.53,0.17108055187059115,-0.04489497984813087,-0.054095273393749546,14,13
+shanghai,2024-09-12,1599575,3,1,Sashi Esport,TSM,cabbi|iceberg|kwezz|lucky|mistr,acor|altekz|niko|valde|zyphon,0.1,-0.1481027659402313,-0.1580324000531528,-0.11360747951665158,16,15
+shanghai,2024-09-12,1600309,3,0,ENCE,RED Canids,gla1ve|goofy|kylar|podi|sdy,coldzera|dav1d|hen1|nython|venomzera,-0.01,-0.103638005333145,0.13681981405360855,-0.2072748461730392,15,13
+shanghai,2024-09-12,1600310,3,1,Team Liquid,Virtus.pro,jks|naf|twistzz|ultimate|yekindar,electronic|fame|fl1t|jame|n0rb3r7,1.47,0.2788038182087108,0.21334750085282367,0.1786340391505842,12,16
+shanghai,2024-09-12,1602826,3,1,Zero Tenacity,EYEBALLERS,avn|brutmonster|cjoffo|nemanha|simke,dex|flusha|heap|jw|poiii,2.38,-0.08947364768435205,-0.08002992330927709,-0.12275007019389915,19,9
+shanghai,2024-09-12,1602844,3,1,Team Vitality,FURIA Esports,apex|flamez|mezii|spinx|zywoo,chelo|fallen|kscerato|skullz|yuurih,3.74,0.055604640012050024,-0.02804248436245767,0.04245165921312348,12,18
+shanghai,2024-09-12,1603767,3,1,Complexity,MOUZ,elige|floppy|grim|hallzerk|jt,brollan|jimpphat|siuhy|torzsi|xertion,-3.6,0.10935688480233252,-0.04244225740725644,-0.010229648345416814,21,15
+shanghai,2024-09-12,1604061,3,1,BIG,Fnatic,jdc|krimbo|rigon|syrson|tabsen,afro|blamef|bodyy|krimz|matys,-0.75,-0.11540955952380214,-0.12400073437650656,-0.12667118280913173,15,19
+shanghai,2024-09-13,10074020,3,0,Johnny Speeds,Rebels Gaming,bobeksde|draken|hampus|ro1f|spooke,casey|flayy|kisserek|olimp|szpero,1.0,-0.0031189895357496274,0.13111814058805174,-0.12524303851173746,10,9
+shanghai,2024-09-13,10074164,3,0,Passion UA,ECSTATIC,fear|jackasmo|jambo|s-chilla|zerrofix,anlelele|kristou|n1xen|nut nut|tauson,1.41,-0.0591264277434364,0.15788092468991421,-0.14685193803043486,15,1
+shanghai,2024-09-13,1602822,3,1,Bleed Esports,Team Spirit Academy,cypher|hampus|jkaem|nawwk|nexa,alkarenn|kyousuke|mokuj1n|robo|syph0,2.91,-0.3904837813482419,-0.07246381108703215,-0.28779522490207976,21,1
+shanghai,2024-09-13,1602823,3,0,Cloud9,Gaimin Gladiators,ax1le|boombl4|heavygod|icy|interz,kraghen|nicoodoz|nodios|queenix|roej,0.72,0.05587994517600578,-0.0009465280012217593,0.1418844698929052,1,16
+shanghai,2024-09-13,1603000,3,0,Team 3DMAX,Zero Tenacity,djoko|ex3rcice|graviti|lucky|maka,avn|brutmonster|cjoffo|nemanha|simke,3.16,0.12221959575392109,0.2050640496577491,-0.07892250571399838,25,20
+shanghai,2024-09-13,1603309,3,0,Rooster,Astralis,asap|chelleos|danger|sliimey|tjp,br0|device|jabbi|staehr|stavn,-8.23,0.08121013114165855,0.09744431632040178,-0.004381525115448615,4,10
+shanghai,2024-09-13,1606105,3,0,Team Falcons,Virtus.pro,dupreeh|maden|magisk|snappi|sunpayus,electronic|fame|fl1t|jame|n0rb3r7,-0.18,0.28130078812162973,0.054542987269918144,0.3640087169570088,27,16
+shanghai,2024-09-13,1606613,3,1,FURIA Esports,RED Canids,chelo|fallen|kscerato|skullz|yuurih,coldzera|dav1d|hen1|nython|venomzera,4.9,0.0744630551014618,0.02933360752570529,0.09626108985461834,19,14
+shanghai,2024-09-13,1606859,3,1,BIG,Complexity,jdc|krimbo|rigon|syrson|tabsen,elige|floppy|grim|hallzerk|jt,-3.12,-0.09711874302741058,-0.018604148662175864,-0.04021380649122905,15,20
+shanghai,2024-09-13,1609237,3,0,FURIA Esports,Virtus.pro,chelo|fallen|kscerato|skullz|yuurih,electronic|fame|fl1t|jame|n0rb3r7,0.76,0.2227257215525481,0.012658160298615268,0.2350366747571288,19,16
+shanghai,2024-09-14,10074025,3,1,Rebels Gaming,Sashi Esport,casey|flayy|kisserek|olimp|szpero,cabbi|iceberg|kwezz|lucky|mistr,-0.98,0.0902175918158995,0.18748095526255293,-0.010363947432333917,10,17
+shanghai,2024-09-14,1604062,3,0,Imperial Esports,M80,decenty|felps|noway|try|vini,lake|reck|s1n|slaxz-|swisher,0.1,-0.024853991626991312,-0.05632631921762271,0.0,8,6
+shanghai,2024-09-14,1606357,3,0,OG,Sashi Esport,buzz|chr1zn|f1ku|modo|nexius,cabbi|iceberg|kwezz|lucky|mistr,-0.17,0.12356925310260922,0.13837533629759063,0.10102968849440738,15,17
+shanghai,2024-09-14,1606860,3,0,Fnatic,MOUZ,afro|blamef|bodyy|krimz|matys,brollan|jimpphat|siuhy|torzsi|xertion,-5.97,0.17833862466776296,0.16635727137697864,0.21275922234436023,18,16
+shanghai,2024-09-14,1608574,3,1,GamerLegion,Zero Tenacity,andu|fl4mus|sl3nd|volt|ztr,avn|brutmonster|cjoffo|nemanha|simke,0.03,0.005168138314711364,0.04074106005067718,0.037761409160765314,22,21
+shanghai,2024-09-14,1609235,3,0,Zero Tenacity,Rebels Gaming,avn|brutmonster|cjoffo|nemanha|simke,casey|flayy|kisserek|olimp|szpero,0.99,-0.06805645318812722,-0.09109944980523857,0.01968407656382784,21,10
+shanghai,2024-09-14,1609236,3,0,Team Falcons,RED Canids,dupreeh|maden|magisk|snappi|sunpayus,coldzera|dav1d|hen1|nython|venomzera,3.96,0.0967987666322132,0.10024558161982708,0.1592211590812584,26,13
+shanghai,2024-09-14,1609621,3,1,Complexity,Astralis,elige|floppy|grim|hallzerk|jt,br0|device|jabbi|staehr|stavn,-0.82,0.04300515899623915,0.1698032202649239,-0.2093051212270727,20,11
+shanghai,2024-09-14,1609868,3,1,Gaimin Gladiators,ECSTATIC,kraghen|nicoodoz|nodios|queenix|roej,anlelele|kristou|n1xen|nut nut|tauson,1.05,-0.1257005874257886,-0.11446403742869786,-0.1418844698929052,17,2
+shanghai,2024-09-15,10074188,3,1,Sinners Esports,GamerLegion,beastik|majky|moriisko|oskar|shock,andu|fl4mus|sl3nd|volt|ztr,0.33,0.12128667238078067,0.14195825433282294,0.11078139669501062,20,23
+shanghai,2024-09-15,1606486,3,1,Team Vitality,Team Liquid,apex|flamez|mezii|spinx|zywoo,jks|naf|twistzz|ultimate|yekindar,3.03,-0.04323894221724095,-0.33172123547134036,0.06700574541081573,11,13
+shanghai,2024-09-15,1612707,3,0,Gaimin Gladiators,GamerLegion,kraghen|nicoodoz|nodios|queenix|roej,andu|fl4mus|sl3nd|volt|ztr,-0.97,0.052782387944735526,-0.09745245644164822,-0.07723104362015858,18,23
+shanghai,2024-09-15,1612714,3,0,RED Canids,FURIA Esports,coldzera|dav1d|hen1|nython|venomzera,chelo|fallen|kscerato|skullz|yuurih,-4.9,0.007085128548168073,0.01508463061045779,-0.034142345455847066,13,21
+shanghai,2024-09-15,1612865,3,0,MOUZ,Complexity,brollan|jimpphat|siuhy|torzsi|xertion,elige|floppy|grim|hallzerk|jt,3.6,-0.15650772816646272,-0.060960685662647944,0.06498354069931922,17,19
+shanghai,2024-09-15,1614833,3,0,Lynn Vision Gaming,FAVBET Team,afufu|emiliaqaq|flying|westmelon|z4kr,bondik|j3kie|marix|smash|t3ns1on,0.88,-0.07048410262317858,-0.013365618195792964,0.0,3,12
+shanghai,2024-09-15,1614834,3,1,Team EndPoint,Nexus Gaming,azuwu|cej0t|cruc1al|mightymax|surreal,7kick|btn|ciocardau|ragga|xellow,2.45,0.01876426010325763,0.02154860890567456,0.0,10,5
+shanghai,2024-09-16,1609948,3,0,B8 Esports,Team Sampi,alex666|cptkurtka023|esenthial|headtr1ck|npl,fino|manguss|savana1|the elive|zedko,2.15,0.1022335546849784,-0.13044981485156382,-0.14792443368408173,22,14
+shanghai,2024-09-16,1609951,3,0,9INE,Metizport,mantuu|misutaaa|raalz|refrezh|s0und,adamb|l00m1|nilo|plopski|sapec,-0.04,-0.09951360196295497,-0.14026137491258645,-0.043527482089946425,12,14
+shanghai,2024-09-16,1614828,3,1,Zero Tenacity,ECSTATIC,avn|brutmonster|cjoffo|nemanha|simke,anlelele|kristou|n1xen|nut nut|tauson,1.99,-0.16252698428397,-0.057752641037726815,-0.10241483543351194,23,3
+shanghai,2024-09-16,1614830,3,1,Passion UA,EYEBALLERS,fear|jackasmo|jambo|s-chilla|zerrofix,golden|heap|jw|peppzor|poiii,1.8,-0.023589939530713123,0.16769679110399427,-0.20747543298033294,16,13
+shanghai,2024-09-17,10074244,3,1,Lynn Vision Gaming,Nexus Gaming,afufu|emiliaqaq|flying|westmelon|z4kr,7kick|btn|ciocardau|ragga|xellow,1.86,-0.16360552752894159,-0.04832080357685947,0.0,4,6
+shanghai,2024-09-17,1609947,3,1,Monte,EYEBALLERS,demqq|dycha|hades|kei|krasnal,golden|heap|jw|peppzor|poiii,2.23,0.10799858698985147,0.2401362422947681,0.03150347364667536,17,14
+shanghai,2024-09-17,1617384,3,0,FURIA Esports,Team Spirit,chelo|fallen|kscerato|skullz|yuurih,chopper|donk|magixx|sh1ro|zont1x,-3.39,0.08085059761775,0.016033263133299905,0.047987101770096546,22,15
+shanghai,2024-09-17,1617385,3,1,Complexity,FaZe Clan,elige|floppy|grim|hallzerk|jt,broky|frozen|karrigan|rain|ropz,-1.54,0.07826492705483806,0.21419732745582076,-0.15823772789569135,20,16
+shanghai,2024-09-17,1617386,3,1,Heroic,Virtus.pro,degster|kyxsan|nertz|sjuush|teses,electronic|fame|fl1t|jame|n0rb3r7,-1.53,0.04221569119233705,-0.057093893233197454,0.18343039809120726,18,17
+shanghai,2024-09-17,1617387,3,1,The Mongolz,BIG,910|blitz|mzinho|senzu|techno,jdc|krimbo|rigon|syrson|tabsen,4.14,-0.18150266496730097,-0.024481400794399213,-0.1523430032483886,22,15
+shanghai,2024-09-17,1621242,3,1,ECSTATIC,EYEBALLERS,anlelele|kristou|n1xen|nut nut|tauson,golden|heap|jw|peppzor|poiii,0.39,0.0694532594642746,0.09527326950973468,0.0,4,14
+shanghai,2024-09-18,10074232,3,0,Imperial Esports,Team Spirit,decenty|felps|noway|try|vini,chopper|donk|magixx|sh1ro|zont1x,-7.52,0.18842314886813583,0.13535431440479984,0.046625273151895595,9,16
+shanghai,2024-09-18,1609950,3,1,Nemiga Gaming,Sinners Esports,1eer|khan|riskyb0b|xant3r|zweih,beastik|majky|moriisko|oskar|shock,0.67,-0.25651938964110527,-0.27200804567490017,-0.15432927394380228,10,21
+shanghai,2024-09-18,1611273,3,1,Sashi Esport,Bleed Esports,cabbi|iceberg|kwezz|lucky|mistr,cypher|hampus|jkaem|nawwk|nexa,-0.34,0.17531936207363272,-0.08624627096928139,0.1498522278410942,19,20
+shanghai,2024-09-18,1621239,3,1,Passion UA,FAVBET Team,fear|jackasmo|jambo|s-chilla|zerrofix,bondik|j3kie|marix|smash|t3ns1on,1.59,-0.0572874839262144,0.15300765119417375,-0.16053879293634152,17,13
+shanghai,2024-09-18,1624027,3,1,MIBR,Heroic,brnz4n|drop|exit|insani|saffee,degster|kyxsan|nertz|sjuush|teses,-0.78,0.021020461752475315,0.03659046219035823,-0.16644622931165393,12,19
+shanghai,2024-09-18,1624207,3,1,Eternal Fire,The Mongolz,calyx|maj3r|wicadia|woxic|xantares,910|blitz|mzinho|senzu|techno,1.45,0.21091902480608146,-0.06967819509181822,0.36015511141166257,21,23
+shanghai,2024-09-18,1625079,3,1,Team Liquid,Complexity,jks|naf|twistzz|ultimate|yekindar,elige|floppy|grim|hallzerk|jt,1.41,0.10363524688837548,0.0833325897994914,0.23360217321059767,14,21
+shanghai,2024-09-19,1628613,3,0,M80,MIBR,lake|reck|s1n|slaxz-|swisher,brnz4n|drop|exit|insani|saffee,-1.16,0.21721180826875466,0.07159762726949852,0.23855364694459055,7,13
+shanghai,2024-09-19,1628614,3,0,Team Vitality,Eternal Fire,apex|flamez|mezii|spinx|zywoo,calyx|maj3r|wicadia|woxic|xantares,1.97,0.059751589367857134,-0.022315739437289633,-0.0673488003279519,12,22
+shanghai,2024-09-19,1629537,3,1,Into The Breach,Team Sampi,juanflatroo|keoz|redstar|sinnopsyy|smooya,fino|manguss|savana1|the elive|zedko,-0.13,0.16299287825240588,-0.054813183702988405,0.0,7,15
+shanghai,2024-09-19,1629538,3,0,9INE,Sinners Esports,mantuu|misutaaa|raalz|refrezh|s0und,beastik|majky|moriisko|oskar|shock,-1.1,-0.09317031621310697,-0.1911723511441622,-0.05201344879584888,13,22
+shanghai,2024-09-19,1629539,3,0,Sashi Esport,Monte,cabbi|iceberg|kwezz|lucky|mistr,demqq|dycha|hades|kei|krasnal,0.14,-0.13076872825893238,-0.24803769852535118,-0.16972687863220245,20,18
+shanghai,2024-09-19,1629908,3,1,Zero Tenacity,FAVBET Team,avn|brutmonster|cjoffo|nemanha|simke,bondik|j3kie|marix|smash|t3ns1on,2.17,-0.08758051584634637,0.07355567739005164,-0.08219599924017922,24,14
+shanghai,2024-09-19,1629910,3,0,EYEBALLERS,Nexus Gaming,golden|heap|jw|peppzor|poiii,7kick|btn|ciocardau|ragga|xellow,0.77,-0.0618585942469186,-0.05545619633753634,0.0,16,7
+shanghai,2024-09-20,1629180,3,1,Natus Vincere,Team Spirit,aleksib|b1t|im|jl|w0nderful,chopper|donk|magixx|sh1ro|zont1x,0.15,0.09905961911330446,0.11208494055583083,-0.009993750048838776,17,17
+shanghai,2024-09-20,1629559,3,1,G2 Esports,Team Liquid,hunter-|m0nesy|malbsmd|niko|snax,jks|naf|twistzz|ultimate|yekindar,2.81,-0.12562512443710155,-0.2783322979328473,0.0029157515852330975,15,15
+shanghai,2024-09-20,1629905,3,1,Lynn Vision Gaming,ECSTATIC,afufu|emiliaqaq|flying|westmelon|z4kr,anlelele|kristou|n1xen|nut nut|tauson,0.7,-0.17781466115134692,-0.0729434893752487,0.04254493218916087,5,5
+shanghai,2024-09-21,10074317,3,0,9Pandas,Nexus Gaming,d1ledez|glowiing|idisbalance|r3salt|shalfey,7kick|btn|ciocardau|ragga|xellow,4.05,0.1561657304724293,0.1626068895770259,0.056715334309208644,6,8
+shanghai,2024-09-21,1634013,3,1,Eternal Fire,MIBR,calyx|maj3r|wicadia|woxic|xantares,brnz4n|drop|exit|insani|saffee,4.84,0.04343689524070683,-0.02434078142985807,0.2840266509515715,23,14
+shanghai,2024-09-21,1637219,3,0,ALTERNATE aTTaX,FAVBET Team,arrow|awzek|freeze|hyped|perx,bondik|j3kie|marix|smash|t3ns1on,1.2,0.24006421239028705,0.3979391579702973,-0.04837843827401532,16,15
+shanghai,2024-09-21,1637382,3,0,G2 Esports,Natus Vincere,hunter-|m0nesy|malbsmd|niko|snax,aleksib|b1t|im|jl|w0nderful,-0.02,-0.03909309497453908,-0.11208494055583083,0.059369736696471366,16,18
+shanghai,2024-09-22,1640965,5,0,Eternal Fire,Natus Vincere,calyx|maj3r|wicadia|woxic|xantares,aleksib|b1t|im|jl|w0nderful,-1.77,-0.008108199281744687,-0.016342715632764876,0.15420039315902706,24,19
+shanghai,2024-09-23,10074364,3,1,ECSTATIC,FAVBET Team,anlelele|kristou|n1xen|nut nut|tauson,bondik|j3kie|marix|smash|t3ns1on,0.18,0.001796131596433971,0.050655895429707165,0.0,6,16
+shanghai,2024-09-23,10074403,3,0,ALTERNATE aTTaX,Team Spirit Academy,arrow|awzek|freeze|hyped|perx,alkarenn|kyousuke|mokuj1n|robo|syph0,1.61,0.13831174380706301,0.287933698609814,-0.12559856156265367,17,2
+shanghai,2024-09-23,1642814,3,1,Zero Tenacity,Sinners Esports,avn|brutmonster|cjoffo|nemanha|simke,beastik|majky|moriisko|oskar|shock,-0.36,-0.16513329347379435,-0.18269931438350012,-0.13643171408537913,25,23
+shanghai,2024-09-23,1642816,3,0,PARIVISION,Monte,alpha1337|artfr0st|belchonokk|patsi|qikert,demqq|dycha|hades|kei|krasnal,0.74,0.023942646256102748,-0.13075720706961164,-0.07613358139704321,14,19
+shanghai,2024-09-23,1642817,3,0,Metizport,Into The Breach,adamb|l00m1|nilo|plopski|sapec,juanflatroo|keoz|redstar|sinnopsyy|smooya,1.14,0.042068219922228284,0.08486388883596521,0.03764200371636154,15,8
+shanghai,2024-09-23,1644421,3,0,Lynn Vision Gaming,Passion UA,afufu|emiliaqaq|flying|westmelon|z4kr,fear|jackasmo|jambo|s-chilla|zerrofix,-0.71,-0.042250926159565674,-0.16637326938996672,0.1624964623663214,6,18
+shanghai,2024-09-23,1644422,3,1,Zero Tenacity,Nexus Gaming,avn|brutmonster|cjoffo|nemanha|simke,7kick|btn|ciocardau|ragga|xellow,3.15,-0.1723237566010314,-0.03458101258592659,-0.06524917179987627,25,9
+shanghai,2024-09-24,10074453,3,1,Monte,Rebels Gaming,demqq|dycha|hades|kei|krasnal,casey|flayy|innocent|kisserek|olimp,0.84,0.028377752604640108,0.06055674326279825,0.18009082606453636,20,12
+shanghai,2024-09-24,1644511,3,0,Team EndPoint,Into The Breach,azuwu|cej0t|cruc1al|mightymax|surreal,juanflatroo|keoz|redstar|sinnopsyy|smooya,1.14,-0.06489016390918109,-0.06405244051313333,0.032696913429219286,11,9
+shanghai,2024-09-24,1647094,3,0,Fnatic,Into The Breach,blamef|bodyy|krimz|matys|nawwk,juanflatroo|keoz|redstar|sinnopsyy|smooya,4.09,-0.2318118882751741,-0.08808998095889545,-0.029488871833142208,16,9
+shanghai,2024-09-24,1647758,3,0,BIG,Monte,jdc|krimbo|rigon|syrson|tabsen,demqq|dycha|hades|kei|krasnal,1.65,-0.1567322744215685,-0.10958378285507517,-0.1911240564726216,16,20
+shanghai,2024-09-24,1649129,3,1,Team 3DMAX,Zero Tenacity,djoko|ex3rcice|graviti|lucky|maka,avn|brutmonster|cjoffo|nemanha|simke,3.16,0.04256955174450144,0.0903793014626749,-0.22565830175347254,23,27
+shanghai,2024-09-25,1599507,3,0,Team Spirit,Team Liquid,chopper|donk|magixx|sh1ro|zont1x,jks|naf|twistzz|ultimate|yekindar,2.68,-0.2011390864786255,-0.23394498631046085,-0.035816811660312926,18,16
+shanghai,2024-09-25,1599508,3,1,Team Vitality,Astralis,apex|flamez|mezii|spinx|zywoo,cadian|device|jabbi|staehr|stavn,3.62,0.17620502057700244,0.10884253460227594,-0.018421751920086177,13,12
+shanghai,2024-09-25,1599509,3,1,G2 Esports,FaZe Clan,hunter-|m0nesy|malbsmd|niko|snax,broky|frozen|karrigan|rain|ropz,2.68,0.10582562258722664,0.07051428733724932,0.15536258144785106,17,17
+shanghai,2024-09-25,1599510,3,1,Natus Vincere,Team Falcons,aleksib|b1t|im|jl|w0nderful,dupreeh|maden|magisk|snappi|sunpayus,4.48,0.07200576942080035,0.08418248124525668,-0.038067285385738774,20,25
+shanghai,2024-09-25,1652745,3,1,Aurora Gaming,Team EndPoint,clax|deko|kensi|lack1|norwi,azuwu|cej0t|cruc1al|mightymax|surreal,2.33,-0.18516010937704283,-0.1625869399240146,-0.10280530024950128,10,12
+shanghai,2024-09-25,1652746,3,0,BIG,ECSTATIC,jdc|krimbo|rigon|syrson|tabsen,anlelele|kristou|n1xen|nut nut|tauson,3.49,-0.13648340076962412,0.035279189929958266,-0.17835876554328156,17,7
+shanghai,2024-09-25,1652747,3,1,Team 3DMAX,Zero Tenacity,djoko|ex3rcice|graviti|lucky|maka,avn|brutmonster|cjoffo|nemanha|simke,3.16,0.05022776176369258,0.11229116397761718,-0.19068821722814178,24,28
+shanghai,2024-09-25,1654711,3,1,Permitta Esports,Talon Esports,bnox|fr3nd|maaryy|masked|tomiko,addict|azr|hazr|mhl|nettik,2.08,0.0,0.0,0.0,0,0
+shanghai,2024-09-26,10074362,3,1,Team 3DMAX,Aurora Gaming,djoko|ex3rcice|graviti|lucky|maka,clax|deko|kensi|lack1|norwi,1.53,0.141372599625758,0.21974585556488543,-0.07803861225063663,25,11
+shanghai,2024-09-26,1652743,3,1,Sangal Esports,Passion UA,jotta|lnz|samey|xfl0ud|yxngstxr,fear|jackasmo|jambo|s-chilla|zerrofix,3.36,0.09290676150754994,-0.10724667476790786,0.2192876609388419,12,19
+shanghai,2024-09-26,1653363,3,0,Monte,Team 3DMAX,demqq|dycha|hades|kei|krasnal,djoko|ex3rcice|graviti|lucky|maka,-3.31,0.14102972950489168,0.10780090303602832,0.2735239340821135,22,25
+shanghai,2024-09-26,1654353,3,0,Into The Breach,Aurora Gaming,juanflatroo|keoz|redstar|sinnopsyy|smooya,clax|deko|kensi|lack1|norwi,-3.47,0.35123784589981133,0.32370367379247633,0.1374934077642803,11,11
+shanghai,2024-09-26,1654706,3,1,ECSTATIC,Into The Breach,anlelele|kristou|n1xen|nut nut|tmb,juanflatroo|keoz|redstar|sinnopsyy|smooya,-0.15,-0.09051198325585036,-0.08538287257392352,0.0,8,11
+shanghai,2024-09-26,1657596,3,1,Natus Vincere,G2 Esports,aleksib|b1t|im|jl|w0nderful,hunter-|m0nesy|malbsmd|niko|snax,0.02,0.08020557859277717,0.11208494055583083,-0.046083723731648665,21,18
+shanghai,2024-09-26,1657597,3,0,Team Falcons,FaZe Clan,dupreeh|maden|magisk|snappi|sunpayus,broky|frozen|karrigan|rain|ropz,-1.78,0.12256289624534342,0.10615246105992612,0.15176697347712992,26,18
+shanghai,2024-09-26,1658335,3,1,Team Vitality,Team Liquid,apex|flamez|mezii|spinx|zywoo,jks|naf|twistzz|ultimate|yekindar,3.03,-0.09644825726526787,-0.2875737628736528,0.0013339301232943865,14,17
+shanghai,2024-09-26,1658336,3,0,Astralis,Team Spirit,cadian|device|jabbi|staehr|stavn,chopper|donk|magixx|sh1ro|zont1x,-3.27,-0.010890056093080469,-0.10902602977095366,0.08727791516624141,13,19
+shanghai,2024-09-27,10074602,3,0,Sangal Esports,BetBoom Team,jotta|lnz|samey|xfl0ud|yxngstxr,kair0n|magnojez|nafany|s1ren|zorte,0.22,0.16360205565023106,0.050634249922006346,0.0608991046080774,13,7
+shanghai,2024-09-27,10074644,3,1,B8 Esports,OG,alex666|cptkurtka023|esenthial|headtr1ck|npl,buzz|chr1zn|f1ku|modo|nexius,0.62,-0.09100784110256809,-0.1220191216927712,-0.17411494772910693,23,16
+shanghai,2024-09-27,10074645,3,1,Team 3DMAX,Nemiga Gaming,djoko|ex3rcice|graviti|lucky|maka,1eer|khan|riskyb0b|xant3r|zweih,2.13,0.13295903696561806,0.1796880327540749,-0.05042481732817711,27,11
+shanghai,2024-09-27,10074646,3,0,Alliance,9z Team,avid|b0denmaster|plessen|robiin|twist,buda|dgt|huasopeek|martinezsa|max,-5.23,-0.009262403498898245,0.034252319963160915,0.022561573279105546,6,11
+shanghai,2024-09-27,10074647,3,0,SAW,B8 Esports,arrozdoce|ewjerkz|mutiris|rmn|story,alex666|cptkurtka023|esenthial|headtr1ck|npl,4.19,0.36372674901178564,0.3483775546134936,0.25257427753404726,11,23
+shanghai,2024-09-27,10074651,3,1,Nemiga Gaming,Alliance,1eer|khan|riskyb0b|xant3r|zweih,avid|b0denmaster|plessen|twist|upe,2.91,0.02669270253274912,-0.009241791964491965,-0.10820130352153828,11,6
+shanghai,2024-09-27,1658319,3,0,ECSTATIC,Aurora Gaming,anlelele|kristou|n1xen|nut nut|tauson,clax|deko|kensi|lack1|norwi,-3.62,0.2845795110521483,0.26291147627204625,0.11772726580144344,9,13
+shanghai,2024-09-27,1661299,3,0,B8 Esports,GamerLegion,alex666|cptkurtka023|esenthial|headtr1ck|npl,fl4mus|sl3nd|tauson|volt|ztr,0.41,-0.0366504802856066,-0.12076635090317207,-0.12016679752695879,23,25
+shanghai,2024-09-27,1661567,3,1,FaZe Clan,Team Liquid,broky|frozen|karrigan|rain|ropz,jks|naf|twistzz|ultimate|yekindar,0.13,-0.23874005025093759,-0.33492832612648693,-0.11882586923349493,19,18
+shanghai,2024-09-27,1661568,3,1,G2 Esports,Team Spirit,hunter-|m0nesy|malbsmd|niko|snax,chopper|donk|magixx|sh1ro|zont1x,0.13,0.08248335141382893,0.0,0.08818924516938428,19,20
+shanghai,2024-09-27,1662041,3,1,ALTERNATE aTTaX,Into The Breach,arrow|awzek|freeze|hyped|perx,juanflatroo|keoz|redstar|sinnopsyy|smooya,0.87,0.0003883955898677516,0.14278271443237053,-0.19124579851157422,18,13
+shanghai,2024-09-27,1663698,3,1,Team 3DMAX,9z Team,djoko|ex3rcice|graviti|lucky|maka,buda|dgt|huasopeek|martinezsa|max,-0.19,0.15038933599946896,0.20469856075274387,-0.13606454757060985,27,11
+shanghai,2024-09-28,10074639,3,0,GamerLegion,BetBoom Team,fl4mus|sl3nd|tauson|volt|ztr,kair0n|magnojez|s1ren|sellter|zorte,-2.53,0.015626621805645814,0.09839898444286999,-0.10554076590755396,26,8
+shanghai,2024-09-28,10074641,3,1,BetBoom Team,Team 3DMAX,kair0n|magnojez|s1ren|sellter|zorte,djoko|ex3rcice|graviti|lucky|maka,-0.6,-0.06364512422523595,-0.1480372258548677,0.17542057249871346,8,29
+shanghai,2024-09-28,10074774,3,0,paiN Gaming,Team Solid,biguzera|kauez|lux|nqz|snowzin,alle|destiny|drg|gbb|misfit,6.59,0.19969703283171333,0.10745450843307067,0.12989206278140059,22,0
+shanghai,2024-09-28,10074775,3,1,Fluxo,RED Canids,art|kye|nicks|piriaz1n|zevy,coldzera|dav1d|hen1|nython|venomzera,-0.5,-0.19031858784613617,-0.023178308144559113,-0.06361481140387171,6,14
+shanghai,2024-09-28,1663891,3,0,Team Vitality,G2 Esports,apex|flamez|mezii|spinx|zywoo,hunter-|m0nesy|malbsmd|niko|snax,0.22,0.05991954787030711,0.0,-0.013622393284204677,15,20
+shanghai,2024-09-28,1664119,3,0,Aurora Gaming,GamerLegion,clax|deko|kensi|lack1|norwi,fl4mus|sl3nd|tauson|volt|ztr,1.6,-0.11015698654816444,-0.1946982892063812,-0.036759214379375627,14,26
+shanghai,2024-09-28,1664253,3,1,Natus Vincere,FaZe Clan,aleksib|b1t|im|jl|w0nderful,broky|frozen|karrigan|rain|ropz,2.7,0.17295333209838068,0.19580225091272746,0.09631596779709001,22,20
+shanghai,2024-09-28,1664308,3,1,B8 Esports,Team 3DMAX,alex666|cptkurtka023|esenthial|headtr1ck|npl,djoko|ex3rcice|graviti|lucky|maka,-2.72,-0.07395186895677376,-0.052891844157707174,-0.0502869909357993,26,29
+shanghai,2024-09-28,1664426,3,1,SAW,Nemiga Gaming,arrozdoce|ewjerkz|mutiris|rmn|story,1eer|khan|riskyb0b|xant3r|zweih,3.6,0.33431405469438147,0.38554803505583096,0.02617501008405128,12,13
+shanghai,2024-09-28,1666553,3,0,9z Team,SAW,buda|dgt|huasopeek|martinezsa|max,arrozdoce|ewjerkz|mutiris|rmn|story,-1.28,-0.3726548352248561,-0.3826715230510677,0.040593737262715875,13,12
+shanghai,2024-09-29,10074769,3,1,Wildcard Gaming,Legacy,jba|phzy|sonic|stanislaw|susp,b4rtin|dumau|latto|nekiz|saadzin,0.61,0.03279261559141569,-0.14646934826506605,0.20708120322793724,8,6
+shanghai,2024-09-29,10074770,3,1,Legacy,Nouns Esports,b4rtin|dumau|latto|nekiz|saadzin,cj|jeorgesnorts|junior|nosrac|rush,0.83,0.030510089538532514,0.09744172292126169,-0.14294388642564282,6,5
+shanghai,2024-09-29,10074776,3,1,paiN Gaming,RED Canids,biguzera|kauez|lux|nqz|snowzin,coldzera|dav1d|hen1|nython|venomzera,4.95,0.1837836128124099,0.08427620028851156,0.10428422946515337,23,15
+shanghai,2024-09-29,10074777,3,0,Team Solid,paiN Gaming,alle|destiny|drg|gbb|misfit,biguzera|kauez|lux|nqz|snowzin,-6.59,0.0053594008275406335,0.055542053614793974,-0.05603396711016135,1,23
+shanghai,2024-09-29,10074778,3,0,Team Solid,Fluxo,alle|destiny|drg|gbb|misfit,art|kye|nicks|piriaz1n|zevy,-1.14,0.28749178436299583,0.16299656204786464,0.11186507375886373,1,7
+shanghai,2024-09-29,1667135,3,0,Team 3DMAX,SAW,djoko|ex3rcice|graviti|lucky|maka,arrozdoce|ewjerkz|mutiris|rmn|story,-1.47,-0.2272905953745218,-0.17797296229832385,-0.1744828294559102,31,14
+shanghai,2024-09-29,1667340,5,1,G2 Esports,Natus Vincere,hunter-|m0nesy|malbsmd|niko|snax,aleksib|b1t|im|jl|w0nderful,-0.02,-0.0785273557744702,-0.11208494055583083,0.035851042641507444,21,23
+shanghai,2024-09-30,10074663,3,1,Passion UA,ECSTATIC,fear|jackasmo|jambo|s-chilla|zerrofix,anlelele|kristou|n1xen|nut nut|tmb,1.41,-0.13976843676569617,-0.006338335215594348,-0.11995153017716052,20,10
+shanghai,2024-09-30,10074772,3,1,Legacy,Nouns Esports,b4rtin|dumau|latto|nekiz|saadzin,cj|jeorgesnorts|junior|nosrac|rush,0.83,0.05520512329826734,0.09744172292126169,-0.14294388642564282,8,6
+shanghai,2024-09-30,10074773,3,0,Wildcard Gaming,Legacy,jba|phzy|sonic|stanislaw|susp,b4rtin|dumau|latto|nekiz|saadzin,0.61,0.06883320169998225,-0.14646934826506605,0.20708120322793724,9,8
+shanghai,2024-09-30,10074779,3,0,Fluxo,paiN Gaming,art|kye|nicks|piriaz1n|zevy,biguzera|kauez|lux|nqz|snowzin,-5.45,-0.23832855884439308,-0.10745450843307067,-0.12047530893006325,8,25
+shanghai,2024-09-30,1670828,3,1,Monte,ECSTATIC,demqq|dycha|hades|kei|krasnal,anlelele|kristou|n1xen|nut nut|tmb,1.84,0.003461788382428721,0.08792443009756856,0.05799191406719658,23,10
+shanghai,2024-10-01,1670824,3,1,Passion UA,RUBY,fear|jackasmo|jambo|s-chilla|zerrofix,forkyz|kaide|mo0n|sowalio|tasman,1.49,0.028217398570975424,0.12946387431543094,-0.08432751871069029,21,0
+shanghai,2024-10-01,1670825,3,1,Zero Tenacity,FAVBET Team,avn|brutmonster|cjoffo|nemanha|simke,bondik|j3kie|marix|smash|t3ns1on,2.17,-0.05496365855829808,0.0044213226198076515,-0.05443387430820886,29,17
+shanghai,2024-10-02,10074787,3,1,ECSTATIC,RUBY,anlelele|kristou|n1xen|nut nut|tmb,forkyz|kaide|mo0n|sowalio|tasman,0.08,0.1547653480592048,0.10938340001235093,0.0,12,1
+shanghai,2024-10-03,1680005,3,0,TSM,ALTERNATE aTTaX,acor|niko|sirah|valde|zyphon,arrow|awzek|freeze|hyped|perx,1.45,-0.13838680975703366,-0.24893597653857952,0.19311831346321995,16,19
+shanghai,2024-10-03,1680006,3,0,Monte,Team Spirit Academy,demqq|dycha|hades|kei|krasnal,alkarenn|kyousuke|mokuj1n|robo|syph0,1.03,0.003801048823911024,0.06390146806352931,0.08292597994091329,24,3
+shanghai,2024-10-03,1680007,3,1,Zero Tenacity,Metizport,avn|brutmonster|cjoffo|nemanha|simke,adamb|l00m1|nilo|plopski|shinee,1.24,-0.14674367804046626,-0.1712296906788205,0.021224806801285752,30,16
+shanghai,2024-10-03,1682710,3,1,B8 Esports,ALTERNATE aTTaX,alex666|cptkurtka023|esenthial|headtr1ck|npl,arrow|awzek|freeze|hyped|perx,2.6,-0.17291627417525282,-0.19176245435545258,0.006425574711868803,27,19
+shanghai,2024-10-03,1682711,3,1,PARIVISION,Team Spirit Academy,alpha1337|artfr0st|belchonokk|patsi|qikert,alkarenn|kyousuke|mokuj1n|robo|syph0,0.61,-0.052146167893188725,-0.08126826117444655,-0.018141667329846622,15,3
+shanghai,2024-10-04,1660327,1,0,Wildcard Gaming,M80,jba|phzy|sonic|stanislaw|susp,lake|reck|s1n|slaxz-|swisher,-1.42,-0.09005195426923941,-0.1964847971015549,0.06413731680229443,10,8
+shanghai,2024-10-04,1660328,1,1,BIG,ODDIK,jdc|krimbo|rigon|syrson|tabsen,ksloks|matios|naitte|togs|wood7,2.12,-0.24865775972413673,0.025330722469549982,-0.2794486177406472,18,8
+shanghai,2024-10-04,1660329,1,1,SAW,Rooster,arrozdoce|ewjerkz|mutiris|rmn|story,asap|chelleos|danger|sliimey|tjp,6.4,0.26931981465204063,0.3370691100738817,0.026571677669483297,15,5
+shanghai,2024-10-04,1660330,1,0,BetBoom Team,FlyQuest,kair0n|magnojez|nafany|s1ren|zorte,alistair|dexter|ins|liazz|vexite,2.33,0.09005133059162565,0.07437254164049589,0.05435402165710232,10,8
+shanghai,2024-10-04,1682706,3,0,Aurora Gaming,Passion UA,clax|deko|kensi|lack1|norwi,fear|jackasmo|jambo|s-chilla|zerrofix,1.29,-0.16622532535042434,-0.22576317907894214,-0.08740355878483982,15,22
+shanghai,2024-10-04,1682707,3,0,Ninjas in Pyjamas,ECSTATIC,isak|maxster|mistem|r1nkle|rez,anlelele|kristou|n1xen|nut nut|tmb,2.19,-0.23585739014257306,-0.060588896764183,-0.2034371900329848,12,13
+shanghai,2024-10-04,1686473,3,0,TSM,ECSTATIC,acor|niko|sirah|valde|zyphon,anlelele|kristou|n1xen|nut nut|tmb,0.31,-0.11241180401192664,0.05956165196059354,-0.06804924440250418,17,13
+shanghai,2024-10-04,1686474,3,1,HOTU,RUBY,anttz|fineshine|lampada|mizu|re1gn,forkyz|kaide|mo0n|sowalio|tasman,-0.08,0.11232950095595537,0.04963623298491321,0.0,0,2
+shanghai,2024-10-04,1688348,1,1,FlyQuest,SAW,alistair|dexter|ins|liazz|vexite,arrozdoce|ewjerkz|mutiris|rmn|story,-3.92,-0.28910014032863357,-0.40038272979368744,-0.026571677669483297,8,15
+shanghai,2024-10-05,10074841,3,1,BetBoom Team,Rooster,kair0n|magnojez|nafany|s1ren|zorte,asap|chelleos|danger|sliimey|tjp,4.81,0.01797002064169126,0.012552749212872987,-0.016233512162303582,11,6
+shanghai,2024-10-05,10074842,3,1,SAW,BetBoom Team,arrozdoce|ewjerkz|mutiris|rmn|story,kair0n|magnojez|nafany|s1ren|zorte,1.59,0.18906151534308224,0.32601018815319155,-0.029029624923246556,17,11
+shanghai,2024-10-05,1686172,3,1,Team 3DMAX,PARIVISION,djoko|ex3rcice|graviti|lucky|maka,alpha1337|artfr0st|belchonokk|patsi|qikert,2.9,-0.08757759422500494,0.04146357655219911,-0.11283273182310483,31,16
+shanghai,2024-10-05,1686468,3,0,ALTERNATE aTTaX,Passion UA,arrow|awzek|freeze|hyped|perx,fear|jackasmo|jambo|s-chilla|zerrofix,-1.36,0.10300052861230441,0.14283268301719193,-0.13631404261782004,20,23
+shanghai,2024-10-05,1686469,3,0,Zero Tenacity,Team Spirit Academy,avn|brutmonster|cjoffo|nemanha|simke,alkarenn|kyousuke|mokuj1n|robo|syph0,0.76,-0.16153316835875017,-0.14160859969976786,-0.02298272847554887,31,5
+shanghai,2024-10-05,1688465,3,0,ECSTATIC,9Pandas,anlelele|kristou|n1xen|nut nut|tmb,d1ledez|glowiing|idisbalance|r3salt|shalfey,-0.21,0.0511884404175455,-0.05322892174254863,0.08159282344968057,15,7
+shanghai,2024-10-05,1688675,3,0,ODDIK,Wildcard Gaming,ksloks|matios|naitte|togs|wood7,jba|phzy|sonic|stanislaw|susp,-1.12,0.07508827155382324,0.11842873965354325,-0.013288935590544865,9,11
+shanghai,2024-10-05,1688676,1,1,BIG,M80,jdc|krimbo|rigon|syrson|tabsen,lake|reck|s1n|slaxz-|swisher,-0.42,-0.25642885106194413,-0.04772683715259607,-0.24922081292121587,19,9
+shanghai,2024-10-05,1688920,3,0,B8 Esports,GamerLegion,alex666|cptkurtka023|esenthial|headtr1ck|npl,fl4mus|sl3nd|tauson|volt|ztr,0.51,-0.009699002698747686,0.05063052837133766,-0.09973672032697371,28,28
+shanghai,2024-10-05,1689361,3,0,M80,Wildcard Gaming,lake|reck|s1n|slaxz-|swisher,jba|phzy|sonic|stanislaw|susp,1.42,0.1238790526304736,0.2250719591275805,-0.013085302872621989,9,11
+shanghai,2024-10-06,10074868,3,1,FlyQuest,BIG,alistair|dexter|ins|liazz|vexite,jdc|krimbo|rigon|syrson|tabsen,-2.08,0.12411042220232832,-0.04219901399682434,0.19816879899154344,10,20
+shanghai,2024-10-06,1690905,3,0,Team 3DMAX,Passion UA,djoko|ex3rcice|graviti|lucky|maka,fear|jackasmo|jambo|s-chilla|zerrofix,3.21,-0.031756184688988436,-0.05927036062440198,-0.08534510972290135,32,24
+shanghai,2024-10-06,1691451,3,0,9Pandas,GamerLegion,d1ledez|glowiing|idisbalance|r3salt|shalfey,fl4mus|sl3nd|tauson|volt|ztr,-0.74,0.11079420296316543,0.04707373045283514,-0.016939397176933935,8,29
+shanghai,2024-10-06,1691661,3,1,FlyQuest,Wildcard Gaming,alistair|dexter|ins|liazz|vexite,jba|phzy|sonic|stanislaw|susp,-1.08,-0.034043359234038506,0.058015837598980526,-0.09914258896295824,10,13
+shanghai,2024-10-06,1691876,3,0,SAW,BIG,arrozdoce|ewjerkz|mutiris|rmn|story,jdc|krimbo|rigon|syrson|tabsen,1.84,0.23632971435231123,0.2262798535480371,0.17656167865600758,18,20
+shanghai,2024-10-06,1693963,3,0,Passion UA,GamerLegion,fear|jackasmo|jambo|s-chilla|zerrofix,fl4mus|sl3nd|tauson|volt|ztr,-0.73,0.02553231691745239,0.05343903476739856,0.03605249167973829,24,29
+shanghai,2024-10-07,10074713,1,1,Natus Vincere,Imperial Esports,aleksib|b1t|im|jl|w0nderful,decenty|felps|noway|try|vini,8.19,-0.033664815406950155,-0.01185665363600348,-0.019946928073864917,24,10
+shanghai,2024-10-07,10074716,1,0,paiN Gaming,MOUZ,biguzera|kauez|lux|nqz|snowzin,brollan|jimpphat|siuhy|torzsi|xertion,-2.2,0.3795516535612139,0.10745450843307067,0.2968868440376936,26,18
+shanghai,2024-10-07,1656175,1,1,Heroic,G2 Esports,degster|kyxsan|nertz|sjuush|teses,hunter-|m0nesy|malbsmd|niko|snax,-5.79,-0.11354097834320878,0.0834925441625658,-0.08801153220057917,20,22
+shanghai,2024-10-07,1656176,1,0,Eternal Fire,Astralis,calyx|maj3r|wicadia|woxic|xantares,cadian|device|jabbi|staehr|stavn,4.06,0.1778921109442929,0.17405066277237335,0.09594747839982981,25,14
+shanghai,2024-10-07,1656177,1,1,The Mongolz,Virtus.pro,910|blitz|mzinho|senzu|techno,electronic|fame|fl1t|jame|n0rb3r7,0.84,-0.032459021796155924,0.0059901819152669705,0.016242841963661325,24,18
+shanghai,2024-10-07,1656178,1,1,Team Vitality,9z Team,apex|flamez|mezii|spinx|zywoo,buda|dgt|huasopeek|martinezsa|max,6.02,0.163402545183661,0.09004095934904954,0.017120014353097693,16,14
+shanghai,2024-10-07,1656180,1,0,FaZe Clan,FURIA Esports,broky|frozen|karrigan|rain|ropz,chelo|fallen|kscerato|skullz|yuurih,0.86,-0.07946585890481986,-0.09813218531382895,-0.11779731119630285,21,23
+shanghai,2024-10-07,1656181,1,0,Complexity,Team Liquid,elige|floppy|grim|hallzerk|jt,jks|naf|twistzz|ultimate|yekindar,-0.92,-0.10435255624825658,-0.09808933393238758,-0.265122804725406,22,19
+shanghai,2024-10-07,1691440,3,1,Zero Tenacity,ECSTATIC,avn|brutmonster|cjoffo|nemanha|simke,anlelele|kristou|n1xen|nut nut|tmb,0.68,-0.17574146266165916,-0.10148004964481035,-0.02298272847554887,32,16
+shanghai,2024-10-07,1691441,3,1,Monte,Metizport,demqq|dycha|hades|kei|krasnal,adamb|l00m1|nilo|plopski|shinee,1.51,0.03092826014229197,0.0774641838951671,0.14472062260073376,25,17
+shanghai,2024-10-07,1697750,3,1,FaZe Clan,paiN Gaming,broky|frozen|karrigan|rain|ropz,biguzera|kauez|lux|nqz|snowzin,1.35,-0.22927493426880607,-0.2012558968212919,-0.17976422511519677,21,26
+shanghai,2024-10-07,1697751,3,1,FURIA Esports,MOUZ,chelo|fallen|kscerato|skullz|yuurih,brollan|jimpphat|siuhy|torzsi|xertion,-1.71,0.22974257819722768,0.004330796925607695,0.2349199301187997,23,18
+shanghai,2024-10-08,1697946,3,0,Imperial Esports,Complexity,decenty|felps|noway|try|vini,elige|floppy|grim|hallzerk|jt,-4.03,0.10959026594898906,-0.038667653168060284,0.27279251245300723,11,23
+shanghai,2024-10-08,1697947,3,1,Natus Vincere,Team Liquid,aleksib|b1t|im|jl|w0nderful,jks|naf|twistzz|ultimate|yekindar,3.24,-0.047123278317567796,-0.13912607521375947,-0.010904303622467675,25,20
+shanghai,2024-10-08,1698317,3,1,Eternal Fire,G2 Esports,calyx|maj3r|wicadia|woxic|xantares,hunter-|m0nesy|malbsmd|niko|snax,-1.66,0.0203198757289355,0.0629253944133824,0.08604479838807255,26,23
+shanghai,2024-10-08,1698318,3,0,9z Team,Virtus.pro,buda|dgt|huasopeek|martinezsa|max,electronic|fame|fl1t|jame|n0rb3r7,-2.1,0.036312684633466125,-0.1200771850003327,0.27079535459344384,15,19
+shanghai,2024-10-08,1698319,3,0,Astralis,Heroic,cadian|device|jabbi|staehr|stavn,degster|kyxsan|nertz|sjuush|teses,0.07,-0.03692707703910849,-0.2196216274577507,0.076880062955381,15,21
+shanghai,2024-10-08,1698320,3,1,Team Vitality,The Mongolz,apex|flamez|mezii|spinx|zywoo,910|blitz|mzinho|senzu|techno,3.08,0.19864150845375425,-0.04266282753670102,0.2731478668952093,17,25
+shanghai,2024-10-08,1698513,3,0,TSM,FAVBET Team,acor|niko|sirah|valde|zyphon,bondik|j3kie|marix|smash|t3ns1on,1.62,-0.026919103591932864,0.11943369585611653,-0.06804924440250418,18,18
+shanghai,2024-10-08,1698515,3,0,ALTERNATE aTTaX,Metizport,arrow|awzek|freeze|hyped|perx,adamb|l00m1|nilo|plopski|shinee,-0.58,0.05732996891057675,0.17243492609301012,-0.12945115585175376,21,18
+shanghai,2024-10-08,1699387,3,1,MOUZ,Complexity,brollan|jimpphat|siuhy|torzsi|xertion,elige|floppy|grim|hallzerk|jt,1.57,-0.22744727594269187,-0.15312168183720273,0.02818075819940624,20,23
+shanghai,2024-10-08,1699538,3,0,Team Liquid,FaZe Clan,jks|naf|twistzz|ultimate|yekindar,broky|frozen|karrigan|rain|ropz,0.2,0.20873584104064363,0.34501240415781154,0.09559239723519253,20,23
+shanghai,2024-10-09,1699540,3,0,Natus Vincere,FURIA Esports,aleksib|b1t|im|jl|w0nderful,chelo|fallen|kscerato|skullz|yuurih,4.3,0.033877353325858194,0.05208947312110095,-0.00293554427186536,26,25
+shanghai,2024-10-09,1701866,3,1,The Mongolz,Eternal Fire,910|blitz|mzinho|senzu|techno,calyx|maj3r|wicadia|woxic|xantares,-2.14,-0.2109326885764423,-0.096075400702435,-0.31681485408878507,26,27
+shanghai,2024-10-09,1701984,3,0,Astralis,Virtus.pro,cadian|device|jabbi|staehr|stavn,electronic|fame|fl1t|jame|n0rb3r7,-1.08,0.05426152914213174,-0.06254536598355713,0.25818523229791546,16,20
+shanghai,2024-10-09,1701985,3,0,Team Vitality,Heroic,apex|flamez|mezii|spinx|zywoo,degster|kyxsan|nertz|sjuush|teses,5.07,0.051588962238585626,-0.19374890709562764,0.0829351668923273,18,22
+shanghai,2024-10-09,1702323,3,1,MOUZ,FaZe Clan,brollan|jimpphat|siuhy|torzsi|xertion,broky|frozen|karrigan|rain|ropz,0.85,-0.14806899645241645,0.09380138838822125,-0.11712741156758698,21,24
+shanghai,2024-10-09,1704866,3,1,Virtus.pro,The Mongolz,electronic|fame|fl1t|jame|n0rb3r7,910|blitz|mzinho|senzu|techno,-0.84,0.01909752264370662,0.014880223640837634,0.01597821872397126,20,26
+shanghai,2024-10-10,1704122,3,0,OG,Team Spirit Academy,buzz|chr1zn|f1ku|modo|nexius,alkarenn|kyousuke|mokuj1n|robo|syph0,-0.54,-0.16421401989921264,-0.06017341633259543,-0.010705276070598485,17,6
+shanghai,2024-10-10,1704123,3,0,Fnatic,Metizport,blamef|bodyy|krimz|matys|nawwk,adamb|l00m1|nilo|plopski|shinee,2.48,-0.21034210756180763,-0.045446465728983865,-0.022931349318538935,17,19
+shanghai,2024-10-10,1704124,3,1,Aurora Gaming,Zero Tenacity,clax|deko|kensi|lack1|norwi,avn|brutmonster|cjoffo|nemanha|simke,0.83,-0.13879185750272038,-0.11451587662880788,-0.1528041652909518,16,33
+shanghai,2024-10-11,1704117,3,1,Sinners Esports,Monte,beastik|majky|moriisko|oskar|shock,demqq|dycha|hades|kei|krasnal,-0.72,-0.044702079750943535,0.01663059914709908,-0.03535337403278441,24,26
+shanghai,2024-10-11,1704119,3,0,BetBoom Team,FAVBET Team,kair0n|magnojez|nafany|s1ren|zorte,bondik|j3kie|marix|smash|t3ns1on,3.75,-0.06133921573806861,-0.08740178381544617,-0.01044398176823954,13,19
+shanghai,2024-10-11,1704120,3,0,Cloud9,Passion UA,ax1le|boombl4|heavygod|icy|interz,fear|jackasmo|jambo|s-chilla|zerrofix,0.76,-0.11010501646053986,-0.23633923329843898,0.02860093459300834,2,26
+shanghai,2024-10-11,1705589,3,1,Natus Vincere,Virtus.pro,aleksib|b1t|im|jl|w0nderful,electronic|fame|fl1t|jame|n0rb3r7,4.99,0.14686445497981046,0.07541229493439679,0.16672136781596283,27,22
+shanghai,2024-10-11,1705865,3,0,Team Vitality,MOUZ,apex|flamez|mezii|spinx|zywoo,brollan|jimpphat|siuhy|torzsi|xertion,1.52,0.18619970747648196,0.0,0.18552286291325282,19,22
+shanghai,2024-10-12,1707248,3,0,Metizport,Aurora Gaming,adamb|l00m1|nilo|plopski|shinee,clax|deko|kensi|lack1|norwi,-2.07,0.26000290857744707,0.2581751322121505,0.1139922511066802,20,17
+shanghai,2024-10-12,1707966,3,0,Team 3DMAX,Team Spirit Academy,djoko|ex3rcice|graviti|lucky|maka,alkarenn|kyousuke|mokuj1n|robo|syph0,3.51,-0.19741505372070664,-0.03980468462224744,-0.15560856831735126,33,7
+shanghai,2024-10-12,1710439,3,1,FAVBET Team,Passion UA,bondik|j3kie|marix|smash|t3ns1on,fear|jackasmo|jambo|s-chilla|zerrofix,-1.53,-0.01692441744567459,-0.15150000570200384,0.02860093459300834,20,27
+shanghai,2024-10-12,1710668,3,0,Heroic,Natus Vincere,degster|kyxsan|nertz|sjuush|teses,aleksib|b1t|im|jl|w0nderful,-6.14,-0.027353983987562783,0.1655535003233381,-0.025240617202245894,23,28
+shanghai,2024-10-12,1711152,3,1,MOUZ,FURIA Esports,brollan|jimpphat|siuhy|torzsi|xertion,chelo|fallen|kscerato|skullz|yuurih,1.71,-0.2307719762412333,-0.003964886754340993,-0.21169125076558742,23,26
+shanghai,2024-10-13,10074983,3,1,Team Spirit Academy,FAVBET Team,alkarenn|kyousuke|mokuj1n|robo|syph0,bondik|j3kie|marix|smash|t3ns1on,1.23,0.15930948469521694,0.12422463311475938,0.0,8,21
+shanghai,2024-10-13,1713124,3,1,FAVBET Team,Aurora Gaming,bondik|j3kie|marix|smash|t3ns1on,clax|deko|kensi|lack1|norwi,-2.82,0.21801231754245298,0.21224533572055165,0.15174207167111953,21,18
+shanghai,2024-10-13,1713814,3,1,Team Spirit Academy,Sinners Esports,alkarenn|kyousuke|mokuj1n|robo|syph0,beastik|majky|moriisko|oskar|shock,-0.31,0.14935386952114907,-0.00018657470389310538,-0.07118254228550285,8,25
+shanghai,2024-10-13,1713923,5,0,MOUZ,Natus Vincere,brollan|jimpphat|siuhy|torzsi|xertion,aleksib|b1t|im|jl|w0nderful,-2.59,-0.18993216280461667,0.005545286062836247,-0.15512180010752102,24,29
+shanghai,2024-10-15,10075016,3,0,Aurora Gaming,PARIVISION,clax|deko|kensi|lack1|norwi,alpha1337|artfr0st|belchonokk|patsi|qikert,0.98,-0.2535258679388152,-0.1566204810412541,-0.17157322437698633,19,17
+shanghai,2024-10-15,10075017,3,0,Zero Tenacity,9Pandas,avn|brutmonster|cjoffo|nemanha|simke,d1ledez|glowiing|idisbalance|r3salt|shalfey,0.47,-0.1405377039566568,-0.15470897138735898,0.05861009497413169,34,9
+shanghai,2024-10-15,1706809,3,1,Team 3DMAX,TSM,djoko|ex3rcice|graviti|lucky|maka,acor|niko|sirah|valde|zyphon,3.12,0.030994628020581956,0.0007116679547858329,-0.06679032533542184,34,19
+shanghai,2024-10-15,1706810,3,1,Sangal Esports,Sashi Esport,jotta|lnz|samey|xfl0ud|yxngstxr,cabbi|iceberg|kwezz|lucky|mistr,2.97,0.12823065352642504,0.08935783098712788,0.2135214088078906,14,21
+shanghai,2024-10-16,10075012,3,0,SAW,Sangal Esports,ag1l|ewjerkz|mutiris|rmn|story,jotta|lnz|samey|xfl0ud|yxngstxr,0.94,0.06538472252210287,0.2753759382311852,-0.1757404732092924,19,15
+shanghai,2024-10-16,10075013,3,1,Nemiga Gaming,Team 3DMAX,1eer|khan|riskyb0b|xant3r|zweih,djoko|ex3rcice|graviti|lucky|maka,-2.21,-0.08173475740465488,-0.1860930742048912,0.0954705672031661,14,35
+shanghai,2024-10-16,10075030,3,1,Fnatic,UNPAID,blamef|bodyy|krimz|matys|nawwk,cypher|h4rn|jkaem|nexa|vldn,1.96,0.09992306363883952,0.019318079864074897,0.13440228684899078,18,21
+shanghai,2024-10-16,10075041,3,1,The Mongolz,B8 Esports,910|blitz|mzinho|senzu|techno,alex666|cptkurtka023|esenthial|headtr1ck|npl,4.28,-0.1482306018049238,-0.07945436361843834,-0.105000659099722,27,29
+shanghai,2024-10-16,1704291,1,0,Ninjas in Pyjamas,B8 Esports,isak|jocab|mistem|r1nkle|rez,alex666|cptkurtka023|esenthial|headtr1ck|npl,0.73,-0.1477415062467415,-0.17732407090790345,-0.09661738651191293,13,29
+shanghai,2024-10-16,1710402,3,0,Team Solid,PARIVISION,alle|destiny|drg|gbb|misfit,alpha1337|artfr0st|belchonokk|patsi|qikert,-1.11,-0.05562011545385605,0.016475481908668127,0.018141667329846622,3,18
+shanghai,2024-10-16,1710403,3,1,Sangal Esports,Nemiga Gaming,jotta|lnz|samey|xfl0ud|yxngstxr,1eer|khan|riskyb0b|xant3r|zweih,1.87,0.17263184528141234,0.11670683718408045,0.18767849738301462,15,14
+shanghai,2024-10-16,1710404,3,1,Fluxo,Aurora Gaming,art|kye|nicks|piriaz1n|zevy,clax|deko|kensi|lack1|norwi,-0.1,0.07851471155628076,0.08936668325816077,0.12319487323216433,9,20
+shanghai,2024-10-16,1722925,3,1,Sashi Esport,PARIVISION,cabbi|iceberg|kwezz|lucky|mistr,alpha1337|artfr0st|belchonokk|patsi|qikert,-0.41,-0.1835881331897851,-0.11636328091947641,-0.09359329723515925,21,18
+shanghai,2024-10-16,1723142,3,0,TSM,9Pandas,acor|niko|sirah|valde|zyphon,d1ledez|glowiing|idisbalance|r3salt|shalfey,0.1,-0.1896627970174511,-0.07978127430804183,-0.045505737206371535,20,10
+shanghai,2024-10-17,10075020,3,1,SAW,9Pandas,ag1l|ewjerkz|mutiris|rmn|story,d1ledez|glowiing|idisbalance|r3salt|shalfey,3.82,-0.04887628750335239,0.1530846449005359,0.011923807206975778,20,11
+shanghai,2024-10-17,1704289,1,0,9z Team,ENCE,buda|dgt|huasopeek|martinezsa|max,gla1ve|neityu|podi|sdy|xkacpersky,3.02,0.17714982397706144,-0.08083072285992488,0.3091987839250128,16,13
+shanghai,2024-10-17,1704290,1,1,Heroic,Rebels Gaming,degster|kyxsan|nertz|sjuush|teses,casey|flayy|innocent|kisserek|olimp,4.01,-0.12328923161741928,0.09828249664055302,-0.014685303744334355,24,11
+shanghai,2024-10-17,1725542,3,0,Fluxo,Sangal Esports,art|kye|nicks|piriaz1n|zevy,jotta|lnz|samey|xfl0ud|yxngstxr,-1.68,-0.1637055976674232,-0.057566871427356774,-0.183984193493788,10,17
+shanghai,2024-10-17,1725543,3,0,Aurora Gaming,Nemiga Gaming,clax|deko|kensi|lack1|norwi,1eer|khan|riskyb0b|xant3r|zweih,0.29,-0.12392817871874506,-0.09613509606189802,-0.10810785129040595,21,16
+shanghai,2024-10-17,1726127,3,0,PARIVISION,Fnatic,alpha1337|artfr0st|belchonokk|patsi|qikert,blamef|bodyy|krimz|matys|nawwk,-1.39,0.23598914695503997,-0.006519593490491846,0.12879753391664317,20,19
+shanghai,2024-10-17,1726128,3,0,Team Solid,UNPAID,alle|destiny|drg|gbb|misfit,cypher|h4rn|jkaem|nexa|vldn,-0.54,0.2686785218880825,0.01479920650769761,0.26158719240610007,4,22
+shanghai,2024-10-17,1726252,3,1,Sangal Esports,Nemiga Gaming,jotta|lnz|samey|xfl0ud|yxngstxr,1eer|khan|riskyb0b|xant3r|zweih,1.87,0.17175433497006895,0.050798458623619536,0.19907121543554637,17,16
+shanghai,2024-10-17,1728217,3,0,Rebels Gaming,9z Team,casey|flayy|innocent|kisserek|olimp,buda|dgt|huasopeek|martinezsa|max,-3.06,0.2727332937608491,0.24681179197234196,-0.04258382081894244,11,16
+shanghai,2024-10-17,1728218,3,1,Heroic,ENCE,degster|kyxsan|nertz|sjuush|teses,gla1ve|neityu|podi|sdy|xkacpersky,3.97,0.32659388612049123,0.2642635657529701,0.251929659361736,24,13
+shanghai,2024-10-18,1728331,3,1,Nemiga Gaming,Fluxo,1eer|khan|riskyb0b|xant3r|zweih,art|kye|nicks|piriaz1n|zevy,-0.19,0.02347380081009691,0.022037664901633818,-0.015087021941758372,18,11
+shanghai,2024-10-18,1728943,3,1,ENCE,9z Team,gla1ve|neityu|podi|sdy|xkacpersky,buda|dgt|huasopeek|martinezsa|max,-3.02,-0.089178870520425,0.16889641836775332,-0.24790711687779782,15,18
+shanghai,2024-10-18,1728950,3,0,PARIVISION,UNPAID,alpha1337|artfr0st|belchonokk|patsi|qikert,cypher|h4rn|jkaem|nexa|vldn,0.57,0.3121821295482391,0.01879228469647686,0.28384793318151796,21,23
+shanghai,2024-10-18,1729042,3,0,SAW,Team 3DMAX,ag1l|ewjerkz|mutiris|rmn|story,djoko|ex3rcice|graviti|lucky|maka,0.6,0.1431024511718174,0.20598970121037447,0.14676680521484248,21,36
+shanghai,2024-10-19,1730932,3,1,Nemiga Gaming,Fnatic,1eer|khan|riskyb0b|xant3r|zweih,blamef|bodyy|krimz|matys|nawwk,-0.7,0.10503118260664263,-0.09009703146511043,0.01835689354317914,19,19
+shanghai,2024-10-19,1730933,3,0,Sangal Esports,UNPAID,jotta|lnz|samey|xfl0ud|yxngstxr,cypher|h4rn|jkaem|nexa|vldn,3.13,0.31555485023829477,0.06584599972641084,0.37397799562974,18,23
+shanghai,2024-10-19,1731081,3,0,B8 Esports,Heroic,alex666|cptkurtka023|esenthial|headtr1ck|npl,degster|kyxsan|nertz|sjuush|teses,-2.29,0.013325742395733083,-0.0960495312782442,-0.11271996248333103,30,26
+shanghai,2024-10-19,1731082,3,0,The Mongolz,ENCE,910|blitz|mzinho|senzu|techno,gla1ve|neityu|podi|sdy|xkacpersky,5.96,0.05508482639313475,-0.051778853135518874,0.060562588716116306,25,16
+shanghai,2024-10-19,1731153,3,1,Nemiga Gaming,Team 3DMAX,1eer|khan|riskyb0b|xant3r|zweih,djoko|ex3rcice|graviti|lucky|maka,-2.21,-0.0033458863872093767,-0.14327674863969278,0.12423427173223126,19,37
+shanghai,2024-10-19,1732508,3,0,UNPAID,Nemiga Gaming,cypher|h4rn|jkaem|nexa|vldn,1eer|khan|riskyb0b|xant3r|zweih,-1.26,-0.1582047937502272,0.038334084064039646,-0.1552594336096119,23,19
+shanghai,2024-10-20,1732730,5,1,Sangal Esports,Nemiga Gaming,jotta|lnz|samey|xfl0ud|yxngstxr,1eer|khan|riskyb0b|xant3r|zweih,1.87,0.05093179639646457,0.03714911175488071,0.1194257721110186,19,22
+shanghai,2024-10-20,1732883,5,1,ENCE,Heroic,gla1ve|neityu|podi|sdy|xkacpersky,degster|kyxsan|nertz|sjuush|teses,-3.97,-0.16375149313243925,-0.023701393798813197,-0.2878247232257089,17,27
+shanghai,2024-10-21,10075143,3,0,Virtus.pro,OG,electronic|fame|fl1t|jame|n0rb3r7,buzz|chr1zn|f1ku|m1key|modo,5.52,-0.16799182968027698,-0.1691939560859038,-0.20724801919654326,20,16
+shanghai,2024-10-21,1729291,3,0,Team Falcons,Team 3DMAX,dupreeh|maden|magisk|s1mple|snappi,djoko|ex3rcice|graviti|lucky|maka,0.31,0.022789782641391622,-0.11266732079776406,0.2342839937368057,27,38
+shanghai,2024-10-21,1736825,3,1,Team 3DMAX,OG,djoko|ex3rcice|graviti|lucky|maka,buzz|chr1zn|f1ku|m1key|modo,4.05,-0.0390755006636397,0.0013639191109817012,-0.2212848583772099,38,16
+shanghai,2024-10-21,1736826,3,0,Team Falcons,Virtus.pro,dupreeh|maden|magisk|s1mple|snappi,electronic|fame|fl1t|jame|n0rb3r7,-1.16,0.1517061116580289,0.05789055439912143,0.22024715455613905,27,20
+shanghai,2024-10-22,1729288,3,0,9z Team,Fnatic,buda|dgt|huasopeek|martinezsa|max,blamef|bodyy|krimz|matys|nawwk,0.88,-0.025455482812484664,-0.16489518754314533,-0.017521139085113255,19,18
+shanghai,2024-10-22,1729289,3,1,The Mongolz,Cloud9,910|blitz|mzinho|senzu|techno,ax1le|boombl4|heavygod|icy|interz,4.76,-0.0597173828543245,0.09702797755271984,-0.2955281451999172,26,3
+shanghai,2024-10-22,1739243,3,1,The Mongolz,Fnatic,910|blitz|mzinho|senzu|techno,blamef|bodyy|krimz|matys|nawwk,3.82,-0.0053544691415824686,0.030187207784485096,-0.17238929571566164,26,18
+shanghai,2024-10-22,1739244,3,1,Cloud9,9z Team,ax1le|boombl4|heavygod|icy|interz,buda|dgt|huasopeek|martinezsa|max,-1.82,0.0798183965252267,0.09805441777491058,0.14065998856936882,3,19
+shanghai,2024-10-23,10075154,3,0,Legacy,Imperial Esports,b4rtin|dumau|latto|nekiz|saadzin,decenty|felps|noway|try|vini,-0.1,0.030071901356922573,-0.0034159094398864415,-0.14294388642564282,10,12
+shanghai,2024-10-23,1729286,3,0,Imperial Esports,Ninjas in Pyjamas,decenty|felps|noway|try|vini,isak|jocab|mistem|r1nkle|rez,-0.49,0.2166975025007265,0.1016993620978934,0.18154445012633558,12,13
+shanghai,2024-10-23,1729287,3,1,Heroic,Legacy,degster|kyxsan|nertz|sjuush|teses,b4rtin|dumau|latto|nekiz|saadzin,2.15,-0.12264671383209953,0.1495981479167227,0.058318131855305835,28,10
+shanghai,2024-10-23,1742297,3,1,Heroic,Ninjas in Pyjamas,degster|kyxsan|nertz|sjuush|teses,isak|jocab|mistem|r1nkle|rez,1.56,0.12412269002554954,0.24788160057472966,0.0969186955559986,28,13
+shanghai,2024-10-24,1729284,3,0,M80,BESTIA,lake|reck|s1n|slaxz-|swisher,luchov|naz|noktse|tomaszin|zock,1.85,0.08038451313372438,0.14891263411843034,-0.05533940469199012,8,3
+shanghai,2024-10-24,1729285,3,1,BIG,Aurora Gaming,jdc|krimbo|rigon|syrson|tabsen,clax|deko|kensi|lack1|norwi,0.68,0.18372270911956845,0.24547619508696683,-0.02745131604252954,22,20
+shanghai,2024-10-24,1744788,3,1,BIG,BESTIA,jdc|krimbo|rigon|syrson|tabsen,luchov|naz|noktse|tomaszin|zock,1.43,-0.0002143253432697334,0.19663476514858919,-0.23378649925254597,22,3
+shanghai,2024-10-24,1744789,3,0,Aurora Gaming,M80,clax|deko|kensi|lack1|norwi,lake|reck|s1n|slaxz-|swisher,-1.1,-0.26432154759656257,-0.197754064056808,-0.1509957785180263,20,8
+shanghai,2024-10-25,10075626,3,0,Passion UA,9INE,fear|jackasmo|jambo|s-chilla|zerrofix,mantuu|misutaaa|raalz|refrezh|s0und,0.46,0.019261459492364068,0.17685288392557613,-0.09606578615308914,24,14
+shanghai,2024-10-25,1721330,1,1,paiN Gaming,Monte,biguzera|kauez|lux|nqz|snowzin,demqq|dycha|hades|kei|krasnal,4.15,0.0025575012210081183,-0.1631296189380002,-0.05326726816418663,28,27
+shanghai,2024-10-25,1721331,1,0,MIBR,Legacy,drop|exit|insani|lucaozy|saffee,b4rtin|dumau|latto|nekiz|saadzin,0.82,-0.03616925168831156,0.08115353486878434,-0.037854304949124506,13,12
+shanghai,2024-10-25,1721332,1,1,SAW,Team Falcons,arrozdoce|ewjerkz|mutiris|rmn|story,dupreeh|maden|magisk|s1mple|snappi,0.29,0.12336796505399543,0.33597472575307324,-0.06136836622281311,22,29
+shanghai,2024-10-25,1721333,1,0,Eternal Fire,B8 Esports,calyx|maj3r|wicadia|woxic|xantares,alex666|cptkurtka023|esenthial|headtr1ck|npl,6.42,-0.013727014073961806,-0.00020403766311009874,0.1612136907949519,25,31
+shanghai,2024-10-25,1737473,3,0,Virtus.pro,OG,electronic|fame|fl1t|jame|n0rb3r7,buzz|chr1zn|f1ku|m1key|modo,5.52,-0.21628399403286547,-0.21146795290738954,-0.21698874649628097,22,18
+shanghai,2024-10-25,1739749,3,0,Cloud9,Fnatic,ax1le|boombl4|heavygod|icy|interz,blamef|bodyy|krimz|matys|nawwk,-0.94,0.11597312399110499,0.04877664398292669,0.13390053970868956,5,19
+shanghai,2024-10-25,1743019,3,1,Imperial Esports,Ninjas in Pyjamas,decenty|felps|noway|try|vini,isak|jocab|mistem|r1nkle|rez,-0.49,0.1904554630363533,0.1257508835890115,0.18154445012633558,14,15
+shanghai,2024-10-25,1745439,3,0,M80,BESTIA,lake|reck|s1n|slaxz-|swisher,luchov|naz|noktse|tomaszin|zock,1.85,-0.0035422894806047215,0.08223013607004316,-0.08713639134112539,10,5
+shanghai,2024-10-25,1747243,1,0,B8 Esports,SAW,alex666|cptkurtka023|esenthial|headtr1ck|npl,arrozdoce|ewjerkz|mutiris|rmn|story,-2.57,-0.06604266899950699,-0.20793832780705002,-0.10531563966590456,31,22
+shanghai,2024-10-25,1747533,3,1,Monte,MIBR,demqq|dycha|hades|kei|krasnal,drop|exit|insani|lucaozy|saffee,-1.47,0.08991643283728336,0.08094125486872311,0.28733410769305456,27,13
+shanghai,2024-10-25,1747534,1,1,paiN Gaming,Legacy,biguzera|kauez|lux|nqz|snowzin,b4rtin|dumau|latto|nekiz|saadzin,3.5,0.056304682369979916,-0.0010348292004927762,0.19621253457974344,28,12
+shanghai,2024-10-26,10075350,3,1,Heroic,Fnatic,degster|kyxsan|nertz|sjuush|teses,blamef|bodyy|krimz|matys|nawwk,1.83,0.1320512073593654,0.19871953467727788,0.10121034981259663,30,19
+shanghai,2024-10-26,10075632,3,1,Into The Breach,Aurora Young Blood,juanflatroo|keoz|redstar|sinnopsyy|smooya,bl1x1|bluewhite|gr1ks|m1quse|vilby,1.06,0.32083070787146273,0.26930189014799216,0.2730452635023227,14,15
+shanghai,2024-10-26,1747242,3,1,Eternal Fire,Team Falcons,calyx|maj3r|wicadia|woxic|xantares,dupreeh|maden|magisk|s1mple|snappi,4.14,0.023923062165943535,0.12783236028291312,-0.05950330777415748,26,30
+shanghai,2024-10-26,1747382,3,1,The Mongolz,Imperial Esports,910|blitz|mzinho|senzu|techno,decenty|felps|noway|try|vini,4.04,-0.22231689002525992,-0.0038296548084282844,-0.24614064329677454,23,15
+shanghai,2024-10-26,1748352,3,0,Legacy,Monte,b4rtin|dumau|latto|nekiz|saadzin,demqq|dycha|hades|kei|krasnal,0.65,-0.04548521892381201,-0.19204525478928927,-0.24947980274393006,14,29
+shanghai,2024-10-26,1748620,3,1,Team 3DMAX,BESTIA,djoko|ex3rcice|graviti|lucky|maka,luchov|naz|noktse|tomaszin|zock,2.67,-0.12256163639378333,-0.007232265773051957,-0.23472745137408627,36,6
+shanghai,2024-10-26,1748622,3,0,BIG,OG,jdc|krimbo|rigon|syrson|tabsen,buzz|chr1zn|f1ku|m1key|modo,2.81,-0.10281765994327798,-0.06169434641296678,-0.191382588680592,24,19
+shanghai,2024-10-26,1750671,3,1,B8 Esports,Eternal Fire,alex666|cptkurtka023|esenthial|headtr1ck|npl,calyx|maj3r|wicadia|woxic|xantares,-6.42,0.06500549362481578,0.042827898498821515,-0.10718069811456019,33,26
+shanghai,2024-10-27,10075370,3,1,SAW,B8 Esports,ag1l|ewjerkz|mutiris|rmn|story,alex666|cptkurtka023|esenthial|headtr1ck|npl,2.57,0.038623384485162254,0.10709485248062672,0.119703340808793,24,34
+shanghai,2024-10-27,10075638,3,0,Rebels Gaming,Team EndPoint,casey|flayy|innocent|kisserek|olimp,azuwu|cej0t|cruc1al|mightymax|surreal,0.63,0.07225249747590946,0.031531052257536926,0.008611177588768698,13,13
+shanghai,2024-10-27,1751715,3,1,B8 Esports,paiN Gaming,alex666|cptkurtka023|esenthial|headtr1ck|npl,biguzera|kauez|lux|nqz|snowzin,-3.64,-0.04614168977787535,0.1583183149819712,-0.21276975592263894,34,29
+shanghai,2024-10-27,1751716,3,1,SAW,Monte,ag1l|ewjerkz|mutiris|rmn|story,demqq|dycha|hades|kei|krasnal,3.08,-0.03404579657139048,0.09026243875723039,-0.1512227221092146,24,30
+shanghai,2024-10-28,10075755,3,0,Rebels Gaming,Gaimin Gladiators,casey|flayy|innocent|kisserek|olimp,kraghen|nicoodoz|nodios|queenix|roej,0.91,-0.009958049463917873,0.054245905115654885,0.020236296442719945,14,17
+shanghai,2024-10-28,10075756,3,0,Zero Tenacity,Dynamo Eclot,avn|brutmonster|cjoffo|nemanha|simke,blytz|dytor|forsyy|kreaz|nbqq,1.08,-0.023470469342315788,-0.09173476049216134,0.10022064721456243,33,4
+shanghai,2024-10-30,10075770,3,1,9Pandas,Johnny Speeds,d1ledez|glowiing|idisbalance|r3salt|shalfey,bobeksde|draken|hampus|ro1f|spooke,0.34,0.25328402001620526,-0.05886274385864554,0.1657491270593967,12,10
+shanghai,2024-10-30,1730186,3,0,Team Vitality,Team Spirit,apex|flamez|jackz|spinx|zywoo,chopper|donk|magixx|sh1ro|zont1x,0.32,0.10386824379251858,0.0,0.04079837873642221,16,17
+shanghai,2024-10-30,1730187,3,1,G2 Esports,Team Liquid,hunter-|m0nesy|malbsmd|niko|snax,jks|naf|twistzz|ultimate|yekindar,2.89,-0.11804334736891725,-0.17335497631458266,-0.09443878082592817,19,21
+shanghai,2024-10-30,1730188,3,1,MOUZ,FaZe Clan,brollan|jimpphat|siuhy|torzsi|xertion,broky|frozen|karrigan|rain|ropz,0.85,-0.07492582499979634,0.16837256785787913,-0.08778603957759964,22,23
+shanghai,2024-10-30,1730189,3,0,Natus Vincere,Astralis,aleksib|b1t|im|jl|w0nderful,cadian|device|jabbi|staehr|stavn,6.07,0.10512724646537858,0.03116224324974622,-0.030002554414989946,25,15
+shanghai,2024-10-31,10075762,3,1,9Pandas,9INE,d1ledez|glowiing|idisbalance|r3salt|shalfey,mantuu|misutaaa|raalz|refrezh|s0und,0.45,0.14180346412332584,0.12946109806029588,-0.07570734507609568,13,15
+shanghai,2024-10-31,10075766,3,1,Sinners Esports,Rebels Gaming,beastik|majky|moriisko|oskar|shock,casey|flayy|innocent|kisserek|olimp,0.49,0.05429970887924379,0.14505532412581626,0.12860465617410513,26,15
+shanghai,2024-10-31,1766229,3,1,Astralis,MOUZ,cadian|device|jabbi|staehr|stavn,brollan|jimpphat|siuhy|torzsi|xertion,-3.48,0.06173248151886877,-0.028680825969480954,0.185321862286095,16,23
+shanghai,2024-10-31,1766230,3,0,Natus Vincere,FaZe Clan,aleksib|b1t|im|jl|w0nderful,broky|frozen|karrigan|rain|ropz,3.44,0.06309940627198989,0.07754588385447775,0.06571170160302789,25,23
+shanghai,2024-10-31,1767165,3,0,Team Liquid,Team Vitality,jks|naf|twistzz|ultimate|yekindar,apex|flamez|jackz|spinx|zywoo,-2.17,0.06029911829413059,0.08284823704240113,0.04555165429383997,21,17
+shanghai,2024-10-31,1767166,3,1,G2 Esports,Team Spirit,hunter-|m0nesy|malbsmd|niko|snax,chopper|donk|magixx|sh1ro|zont1x,1.04,0.03217588660262841,0.0,-0.011886892932123888,19,18
+shanghai,2024-11-01,10075640,3,1,Sinners Esports,Team EndPoint,beastik|majky|moriisko|oskar|shock,azuwu|cej0t|cruc1al|mightymax|surreal,1.12,0.036139066589376184,0.17658637638335317,0.13721583376287383,27,14
+shanghai,2024-11-01,10075764,3,0,Into The Breach,Dynamo Eclot,juanflatroo|keoz|redstar|sinnopsyy|smooya,blytz|dytor|forsyy|kreaz|nbqq,-0.07,0.10876326069902457,0.038274563654437266,0.1232033756901113,15,5
+shanghai,2024-11-01,1770853,3,0,MOUZ,Team Vitality,brollan|jimpphat|siuhy|torzsi|xertion,apex|flamez|jackz|spinx|zywoo,-1.52,-0.11824102329786695,0.0745711794696579,-0.19302004561118094,24,18
+shanghai,2024-11-01,1771290,3,0,FaZe Clan,Team Spirit,broky|frozen|karrigan|rain|ropz,chopper|donk|magixx|sh1ro|zont1x,-2.05,0.09032755496833796,0.02870420893066994,0.02057647923331979,23,19
+shanghai,2024-11-02,10075641,3,0,Team EndPoint,Rebels Gaming,azuwu|cej0t|cruc1al|mightymax|surreal,casey|flayy|innocent|kisserek|olimp,-0.63,0.030437392399479794,-0.06552691529753232,-0.008611177588768698,15,16
+shanghai,2024-11-02,1752170,3,1,The Mongolz,Team 3DMAX,910|blitz|mzinho|senzu|techno,djoko|ex3rcice|graviti|lucky|maka,2.31,0.020694404573992062,0.1312042672888171,0.025450170332414868,22,33
+shanghai,2024-11-02,1773453,3,1,G2 Esports,Team Vitality,hunter-|m0nesy|malbsmd|niko|snax,apex|flamez|jackz|spinx|zywoo,0.72,-0.0196493857117036,0.0,-0.07997934312594629,19,18
+shanghai,2024-11-02,1773943,3,0,Astralis,Team Spirit,cadian|device|jabbi|staehr|stavn,chopper|donk|magixx|sh1ro|zont1x,-4.68,0.08136812673458126,0.13503675733898676,0.04697811430671314,15,19
+shanghai,2024-11-03,10075771,3,1,9Pandas,Gaimin Gladiators,d1ledez|glowiing|idisbalance|r3salt|shalfey,kraghen|nicoodoz|nodios|queenix|roej,1.38,0.07648424003109923,0.10459266612321638,-0.003934413118358335,14,18
+shanghai,2024-11-03,1778057,5,0,Team Spirit,G2 Esports,chopper|donk|magixx|sh1ro|zont1x,hunter-|m0nesy|malbsmd|niko|snax,-1.04,-0.060232809374242836,0.0,0.03904433470536424,20,20
+shanghai,2024-11-03,1779216,3,1,Team 3DMAX,OG,djoko|ex3rcice|graviti|lucky|maka,buzz|chr1zn|f1ku|m1key|modo,4.05,-0.2157103656509869,-0.29519267856110154,-0.18130125024060043,33,20
+shanghai,2024-11-03,1779217,5,0,Heroic,The Mongolz,degster|kyxsan|nertz|sjuush|teses,910|blitz|mzinho|senzu|techno,-1.99,0.10835668336449625,0.1910749328973273,0.13561534920442514,28,23
+shanghai,2024-11-04,10075774,3,0,Zero Tenacity,500,avn|brutmonster|cjoffo|nemanha|simke,dennyslaw|patrick|rainwaker|shipz|spellan,4.28,-0.19827671780050643,-0.14375190562694304,-0.01551513067852952,33,1
+shanghai,2024-11-04,1777707,3,0,Into The Breach,Rebels Gaming,juanflatroo|keoz|redstar|sinnopsyy|smooya,casey|flayy|innocent|kisserek|olimp,-0.21,0.09364379791707282,0.13016016644436357,0.057422113888602286,16,17
+shanghai,2024-11-05,10075776,3,1,Sinners Esports,9INE,beastik|majky|moriisko|oskar|shock,mantuu|misutaaa|raalz|refrezh|s0und,0.47,0.10047588275695629,0.21533706768740601,0.09806778618232635,28,15
+shanghai,2024-11-05,10075777,3,1,Sashi Esport,Rebels Gaming,cabbi|iceberg|kwezz|lucky|mistr,casey|flayy|innocent|kisserek|olimp,0.38,-0.049142838297280125,-0.142711218248492,-0.0019284244500531941,19,18
+shanghai,2024-11-05,1783584,3,0,Sinners Esports,Dynamo Eclot,beastik|majky|moriisko|oskar|shock,blytz|dytor|forsyy|kreaz|nbqq,0.63,0.02075065600088652,0.05316972133588996,0.2153856834988528,28,6
+shanghai,2024-11-06,10075780,3,0,Johnny Speeds,Dynamo Eclot,bobeksde|draken|hampus|ro1f|spooke,blytz|dytor|forsyy|kreaz|nbqq,0.27,-0.37052491462454107,-0.18718751743980297,-0.039214947910252373,5,7
+shanghai,2024-11-06,10075784,3,0,Into The Breach,9INE,juanflatroo|keoz|redstar|sinnopsyy|smooya,mantuu|misutaaa|raalz|refrezh|s0und,-0.23,0.11152549494663465,0.2004419100059533,0.005885478373584885,17,16
+shanghai,2024-11-06,1790467,3,0,9INE,Into The Breach,mantuu|misutaaa|raalz|refrezh|s0und,juanflatroo|keoz|redstar|sinnopsyy|smooya,0.23,-0.11152549494663465,-0.2004419100059533,-0.005885478373584885,16,17

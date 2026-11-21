@@ -1,0 +1,1941 @@
+{
+  "seeds": [
+    33719,
+    2654469480,
+    1013937945,
+    3668373706,
+    2027842171,
+    387310636,
+    3041746397,
+    1401214862,
+    4055650623,
+    2415119088,
+    774587553,
+    3429023314,
+    1788491779,
+    147960244,
+    2802396005,
+    1161864470,
+    3816300231,
+    2175768696,
+    535237161,
+    3189672922,
+    1549141387,
+    4203577148,
+    2563045613,
+    922514078,
+    3576949839,
+    1936418304,
+    295886769,
+    2950322530,
+    1309790995,
+    3964226756
+  ],
+  "paths": 24000,
+  "development": {
+    "baseline": {
+      "hits": 23,
+      "passes": 3,
+      "slots": [
+        4,
+        17,
+        2
+      ],
+      "meanHits": 22.8,
+      "meanPasses": 2.86666667,
+      "passesBySeed": [
+        3,
+        4,
+        2,
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        4,
+        2,
+        3,
+        2,
+        2,
+        3,
+        3,
+        4,
+        3,
+        3,
+        2,
+        3
+      ],
+      "bo1": 0.23910082,
+      "bo3": 0.20893637
+    },
+    "candidate": {
+      "hits": 22,
+      "passes": 2,
+      "slots": [
+        4,
+        15,
+        3
+      ],
+      "meanHits": 21.73333333,
+      "meanPasses": 2.5,
+      "passesBySeed": [
+        2,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        3,
+        2,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3
+      ],
+      "bo1": 0.23385743,
+      "bo3": 0.21805015
+    },
+    "pairedPassSeeds": {
+      "more": 1,
+      "same": 17,
+      "fewer": 12
+    }
+  },
+  "holdout": {
+    "baseline": {
+      "hits": 5,
+      "passes": 1,
+      "slots": [
+        1,
+        4,
+        0
+      ],
+      "meanHits": 4.96666667,
+      "meanPasses": 0.96666667,
+      "passesBySeed": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "bo1": 0.20241272,
+      "bo3": 0.22137808
+    },
+    "candidate": {
+      "hits": 5,
+      "passes": 1,
+      "slots": [
+        1,
+        4,
+        0
+      ],
+      "meanHits": 5,
+      "meanPasses": 1,
+      "passesBySeed": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "bo1": 0.2035268,
+      "bo3": 0.21639079
+    },
+    "pairedPassSeeds": {
+      "more": 1,
+      "same": 29,
+      "fewer": 0
+    }
+  },
+  "stages": [
+    {
+      "id": "copenhagen",
+      "week": "2024-03-11",
+      "coverage": 12,
+      "audit": [
+        {
+          "team": "Cloud9",
+          "points": 1520,
+          "rank": 10,
+          "overlap": 5,
+          "adjusted": 1514
+        },
+        {
+          "team": "Eternal Fire",
+          "points": 1508,
+          "rank": 11,
+          "overlap": 5,
+          "adjusted": 1481
+        },
+        {
+          "team": "ENCE",
+          "points": 1454,
+          "rank": 9,
+          "overlap": 5,
+          "adjusted": 1487
+        },
+        {
+          "team": "Apeks",
+          "points": 1436,
+          "rank": 14,
+          "overlap": 5,
+          "adjusted": 1434.5
+        },
+        {
+          "team": "HEROIC",
+          "points": 1433,
+          "rank": 12,
+          "overlap": 5,
+          "adjusted": 1434.5
+        },
+        {
+          "team": "GamerLegion",
+          "points": 1413,
+          "rank": 15,
+          "overlap": 5,
+          "adjusted": 1423
+        },
+        {
+          "team": "SAW",
+          "points": 1140,
+          "rank": 18,
+          "overlap": 4,
+          "adjusted": 1265.5
+        },
+        {
+          "team": "FURIA",
+          "points": 1391,
+          "rank": 16,
+          "overlap": 5,
+          "adjusted": 1402
+        },
+        {
+          "team": "ECSTATIC",
+          "points": 1127,
+          "rank": 28,
+          "overlap": 5,
+          "adjusted": 1086.5
+        },
+        {
+          "team": "The MongolZ",
+          "points": 1433,
+          "rank": 22,
+          "overlap": 5,
+          "adjusted": 1286.5
+        },
+        {
+          "team": "Imperial",
+          "points": 1152,
+          "rank": null,
+          "overlap": null,
+          "adjusted": 1152
+        },
+        {
+          "team": "paiN",
+          "points": 1048,
+          "rank": null,
+          "overlap": null,
+          "adjusted": 1048
+        },
+        {
+          "team": "Lynn Vision",
+          "points": 1152,
+          "rank": null,
+          "overlap": null,
+          "adjusted": 1152
+        },
+        {
+          "team": "AMKAL",
+          "points": 1083,
+          "rank": 26,
+          "overlap": 5,
+          "adjusted": 1105
+        },
+        {
+          "team": "KOI",
+          "points": 1046,
+          "rank": 27,
+          "overlap": 5,
+          "adjusted": 1064.5
+        },
+        {
+          "team": "Legacy",
+          "points": 1009,
+          "rank": null,
+          "overlap": null,
+          "adjusted": 1009
+        }
+      ],
+      "baseline": {
+        "matrixSha256": "ea4779a6ce57d937c9678ed2a0555465d312396590521507f88b4babc8d62e45",
+        "bo1": {
+          "n": 20,
+          "brier": 0.24613827
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.21742472
+        },
+        "fixed": {
+          "hits": 5,
+          "passed": true,
+          "bucketHits": [
+            1,
+            3,
+            1
+          ],
+          "assignments": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            3,
+            1,
+            3,
+            1,
+            3,
+            3,
+            3,
+            2,
+            3,
+            2
+          ],
+          "modeledPass": 0.32491667,
+          "top03": [
+            {
+              "team": "Legacy",
+              "p03": 0.29820833,
+              "actual": 3
+            },
+            {
+              "team": "AMKAL",
+              "p03": 0.22745833,
+              "actual": 2
+            }
+          ]
+        },
+        "hitsBySeed": [
+          5,
+          5,
+          4,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          6,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5,
+          5,
+          5,
+          5,
+          4,
+          5,
+          4,
+          4,
+          5,
+          5,
+          5,
+          5,
+          5,
+          4,
+          5
+        ]
+      },
+      "candidate": {
+        "matrixSha256": "d5a1604c7e95171db9be39303699ab2c8a2ba4fc3eb9ab0ea621d9833c75209e",
+        "bo1": {
+          "n": 20,
+          "brier": 0.23894265
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.24231699
+        },
+        "fixed": {
+          "hits": 4,
+          "passed": false,
+          "bucketHits": [
+            1,
+            2,
+            1
+          ],
+          "assignments": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            0,
+            3,
+            1,
+            3,
+            3,
+            3,
+            2,
+            3,
+            2
+          ],
+          "modeledPass": 0.30825,
+          "top03": [
+            {
+              "team": "Legacy",
+              "p03": 0.29670833,
+              "actual": 3
+            },
+            {
+              "team": "KOI",
+              "p03": 0.21883333,
+              "actual": 2
+            }
+          ]
+        },
+        "hitsBySeed": [
+          4,
+          5,
+          4,
+          4,
+          5,
+          5,
+          5,
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          4,
+          5,
+          5,
+          5,
+          4,
+          5,
+          4,
+          4,
+          5,
+          6,
+          5,
+          5,
+          4,
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "id": "shanghai",
+      "week": "2024-11-25",
+      "coverage": 16,
+      "audit": [
+        {
+          "team": "FURIA",
+          "points": 1593,
+          "rank": 8,
+          "overlap": 5,
+          "adjusted": 1654.5
+        },
+        {
+          "team": "Virtus.pro",
+          "points": 1451,
+          "rank": 12,
+          "overlap": 5,
+          "adjusted": 1497.5
+        },
+        {
+          "team": "Liquid",
+          "points": 1544,
+          "rank": 13,
+          "overlap": 5,
+          "adjusted": 1506
+        },
+        {
+          "team": "Complexity",
+          "points": 1468,
+          "rank": 14,
+          "overlap": 5,
+          "adjusted": 1459.5
+        },
+        {
+          "team": "BIG",
+          "points": 1314,
+          "rank": 18,
+          "overlap": 5,
+          "adjusted": 1314
+        },
+        {
+          "team": "fnatic",
+          "points": 1209,
+          "rank": 29,
+          "overlap": 5,
+          "adjusted": 1119.5
+        },
+        {
+          "team": "The MongolZ",
+          "points": 1716,
+          "rank": 11,
+          "overlap": 5,
+          "adjusted": 1654.5
+        },
+        {
+          "team": "paiN",
+          "points": 1402,
+          "rank": 17,
+          "overlap": 4,
+          "adjusted": 1402
+        },
+        {
+          "team": "GamerLegion",
+          "points": 1114,
+          "rank": 22,
+          "overlap": 5,
+          "adjusted": 1143
+        },
+        {
+          "team": "MIBR",
+          "points": 1172,
+          "rank": 19,
+          "overlap": 5,
+          "adjusted": 1223
+        },
+        {
+          "team": "Cloud9",
+          "points": 1030,
+          "rank": 35,
+          "overlap": 5,
+          "adjusted": 1014.5
+        },
+        {
+          "team": "FlyQuest",
+          "points": 1274,
+          "rank": 20,
+          "overlap": 5,
+          "adjusted": 1241.5
+        },
+        {
+          "team": "Passion UA",
+          "points": 999,
+          "rank": 28,
+          "overlap": 5,
+          "adjusted": 1055.5
+        },
+        {
+          "team": "Wildcard",
+          "points": 1112,
+          "rank": 24,
+          "overlap": 5,
+          "adjusted": 1130
+        },
+        {
+          "team": "Rare Atom",
+          "points": 857,
+          "rank": 58,
+          "overlap": 4,
+          "adjusted": 857
+        },
+        {
+          "team": "Imperial",
+          "points": 1148,
+          "rank": 26,
+          "overlap": 5,
+          "adjusted": 1131
+        }
+      ],
+      "baseline": {
+        "matrixSha256": "54cc0c5a02899d174e1c9fa21085f921e8547562f683504661f5072659c181be",
+        "bo1": {
+          "n": 20,
+          "brier": 0.22726146
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.21930664
+        },
+        "fixed": {
+          "hits": 3,
+          "passed": false,
+          "bucketHits": [
+            1,
+            2,
+            0
+          ],
+          "assignments": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            3,
+            0,
+            1,
+            3,
+            3,
+            3,
+            1,
+            2,
+            3,
+            2,
+            3
+          ],
+          "modeledPass": 0.35341667,
+          "top03": [
+            {
+              "team": "Rare Atom",
+              "p03": 0.36266667,
+              "actual": 3
+            },
+            {
+              "team": "Cloud9",
+              "p03": 0.221875,
+              "actual": 3
+            }
+          ]
+        },
+        "hitsBySeed": [
+          3,
+          5,
+          3,
+          3,
+          3,
+          3,
+          5,
+          3,
+          3,
+          3,
+          5,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          5,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          5,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "candidate": {
+        "matrixSha256": "62136af790d5c48762c49d8d3b1cccbb1366d4ed037571e0727d4e96c93ed43c",
+        "bo1": {
+          "n": 20,
+          "brier": 0.22487454
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.21330126
+        },
+        "fixed": {
+          "hits": 3,
+          "passed": false,
+          "bucketHits": [
+            1,
+            2,
+            0
+          ],
+          "assignments": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            3,
+            0,
+            1,
+            3,
+            3,
+            2,
+            1,
+            3,
+            3,
+            2,
+            3
+          ],
+          "modeledPass": 0.35208333,
+          "top03": [
+            {
+              "team": "Rare Atom",
+              "p03": 0.35979167,
+              "actual": 3
+            },
+            {
+              "team": "Cloud9",
+              "p03": 0.229375,
+              "actual": 3
+            }
+          ]
+        },
+        "hitsBySeed": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "austin",
+      "week": "2025-06-02",
+      "coverage": 16,
+      "audit": [
+        {
+          "team": "Complexity",
+          "points": 1433,
+          "rank": 17,
+          "overlap": 4,
+          "adjusted": 1433
+        },
+        {
+          "team": "HEROIC",
+          "points": 1552,
+          "rank": 15,
+          "overlap": 5,
+          "adjusted": 1552
+        },
+        {
+          "team": "B8",
+          "points": 1275,
+          "rank": 23,
+          "overlap": 5,
+          "adjusted": 1275
+        },
+        {
+          "team": "BetBoom",
+          "points": 1102,
+          "rank": 33,
+          "overlap": 5,
+          "adjusted": 1099.5
+        },
+        {
+          "team": "TYLOO",
+          "points": 1358,
+          "rank": 25,
+          "overlap": 5,
+          "adjusted": 1285
+        },
+        {
+          "team": "Lynn Vision",
+          "points": 1212,
+          "rank": 30,
+          "overlap": 5,
+          "adjusted": 1166.5
+        },
+        {
+          "team": "Wildcard",
+          "points": 1037,
+          "rank": 24,
+          "overlap": 5,
+          "adjusted": 1125
+        },
+        {
+          "team": "FlyQuest",
+          "points": 1213,
+          "rank": 22,
+          "overlap": 5,
+          "adjusted": 1285.5
+        },
+        {
+          "team": "OG",
+          "points": 1097,
+          "rank": 42,
+          "overlap": 5,
+          "adjusted": 1067
+        },
+        {
+          "team": "Chinggis Warriors",
+          "points": 1087,
+          "rank": 37,
+          "overlap": 5,
+          "adjusted": 1080.5
+        },
+        {
+          "team": "Imperial",
+          "points": 1074,
+          "rank": 39,
+          "overlap": 5,
+          "adjusted": 1059.5
+        },
+        {
+          "team": "Nemiga",
+          "points": 1045,
+          "rank": 49,
+          "overlap": 5,
+          "adjusted": 1022
+        },
+        {
+          "team": "NRG",
+          "points": 1121,
+          "rank": 34,
+          "overlap": 5,
+          "adjusted": 1104
+        },
+        {
+          "team": "Legacy",
+          "points": 1035,
+          "rank": 31,
+          "overlap": 5,
+          "adjusted": 1068.5
+        },
+        {
+          "team": "Metizport",
+          "points": 959,
+          "rank": 55,
+          "overlap": 5,
+          "adjusted": 959
+        },
+        {
+          "team": "Fluxo",
+          "points": 999,
+          "rank": 45,
+          "overlap": 5,
+          "adjusted": 1017
+        }
+      ],
+      "baseline": {
+        "matrixSha256": "eb48d9cf264dcdc553e0f0c737a09337da47bec96793615ee0f006504fd1baa3",
+        "bo1": {
+          "n": 20,
+          "brier": 0.22516748
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.18276574
+        },
+        "fixed": {
+          "hits": 5,
+          "passed": true,
+          "bucketHits": [
+            1,
+            4,
+            0
+          ],
+          "assignments": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            2,
+            3,
+            1,
+            2,
+            3,
+            1,
+            3,
+            3,
+            3,
+            3
+          ],
+          "modeledPass": 0.37583333,
+          "top03": [
+            {
+              "team": "Chinggis Warriors",
+              "p03": 0.35666667,
+              "actual": 3
+            },
+            {
+              "team": "Wildcard",
+              "p03": 0.20658333,
+              "actual": 3
+            }
+          ]
+        },
+        "hitsBySeed": [
+          5,
+          5,
+          6,
+          5,
+          6,
+          5,
+          6,
+          5,
+          6,
+          5,
+          6,
+          6,
+          6,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          6,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "candidate": {
+        "matrixSha256": "690f8b4dbf8d529cafcd9e8803d61c1ca2a599419480c966c7ed1aa19dc000f3",
+        "bo1": {
+          "n": 20,
+          "brier": 0.220532
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.20116808
+        },
+        "fixed": {
+          "hits": 6,
+          "passed": true,
+          "bucketHits": [
+            1,
+            4,
+            1
+          ],
+          "assignments": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            3,
+            3,
+            0,
+            1,
+            2,
+            3,
+            1,
+            3,
+            3,
+            3,
+            2
+          ],
+          "modeledPass": 0.36566667,
+          "top03": [
+            {
+              "team": "Chinggis Warriors",
+              "p03": 0.36279167,
+              "actual": 3
+            },
+            {
+              "team": "Fluxo",
+              "p03": 0.19570833,
+              "actual": 2
+            }
+          ]
+        },
+        "hitsBySeed": [
+          6,
+          6,
+          5,
+          5,
+          5,
+          5,
+          5,
+          6,
+          5,
+          6,
+          5,
+          6,
+          5,
+          6,
+          5,
+          6,
+          6,
+          5,
+          5,
+          6,
+          6,
+          5,
+          6,
+          6,
+          5,
+          5,
+          5,
+          6,
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "id": "budapest",
+      "week": "2025-11-17",
+      "coverage": 16,
+      "audit": [
+        {
+          "team": "Legacy",
+          "points": 1748,
+          "rank": 14,
+          "overlap": 5,
+          "adjusted": 1703.5
+        },
+        {
+          "team": "FaZe",
+          "points": 1659,
+          "rank": 13,
+          "overlap": 5,
+          "adjusted": 1703.5
+        },
+        {
+          "team": "B8",
+          "points": 1571,
+          "rank": 21,
+          "overlap": 5,
+          "adjusted": 1566
+        },
+        {
+          "team": "GamerLegion",
+          "points": 1561,
+          "rank": 17,
+          "overlap": 5,
+          "adjusted": 1566
+        },
+        {
+          "team": "fnatic",
+          "points": 1424,
+          "rank": 27,
+          "overlap": 5,
+          "adjusted": 1380
+        },
+        {
+          "team": "PARIVISION",
+          "points": 1420,
+          "rank": 35,
+          "overlap": 5,
+          "adjusted": 1344.5
+        },
+        {
+          "team": "Ninjas in Pyjamas",
+          "points": 1336,
+          "rank": 30,
+          "overlap": 5,
+          "adjusted": 1336
+        },
+        {
+          "team": "Imperial",
+          "points": 1336,
+          "rank": 46,
+          "overlap": 5,
+          "adjusted": 1238.5
+        },
+        {
+          "team": "FlyQuest",
+          "points": 1327,
+          "rank": 32,
+          "overlap": 5,
+          "adjusted": 1327
+        },
+        {
+          "team": "Lynn Vision",
+          "points": 1269,
+          "rank": 22,
+          "overlap": 5,
+          "adjusted": 1346.5
+        },
+        {
+          "team": "M80",
+          "points": 1252,
+          "rank": 26,
+          "overlap": 5,
+          "adjusted": 1336
+        },
+        {
+          "team": "Fluxo",
+          "points": 1164,
+          "rank": 39,
+          "overlap": 5,
+          "adjusted": 1164
+        },
+        {
+          "team": "RED Canids",
+          "points": 1141,
+          "rank": 64,
+          "overlap": 5,
+          "adjusted": 1135
+        },
+        {
+          "team": "The Huns",
+          "points": 1136,
+          "rank": 79,
+          "overlap": 5,
+          "adjusted": 1103.5
+        },
+        {
+          "team": "NRG",
+          "points": 1129,
+          "rank": 38,
+          "overlap": 4,
+          "adjusted": 1190.5
+        },
+        {
+          "team": "Rare Atom",
+          "points": 1071,
+          "rank": 48,
+          "overlap": 5,
+          "adjusted": 1103.5
+        }
+      ],
+      "baseline": {
+        "matrixSha256": "4717326416723901d0389886b6edfd50b88c5a7a7374260f85e2b5c8964c0bd0",
+        "bo1": {
+          "n": 20,
+          "brier": 0.2834868
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.17209181
+        },
+        "fixed": {
+          "hits": 6,
+          "passed": true,
+          "bucketHits": [
+            0,
+            5,
+            1
+          ],
+          "assignments": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2,
+            3,
+            2
+          ],
+          "modeledPass": 0.39725,
+          "top03": [
+            {
+              "team": "Rare Atom",
+              "p03": 0.298375,
+              "actual": 2
+            },
+            {
+              "team": "The Huns",
+              "p03": 0.28833333,
+              "actual": 3
+            }
+          ]
+        },
+        "hitsBySeed": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "candidate": {
+        "matrixSha256": "a186708fd5836940ac4f2f7438599bb66a0e51a0d060f8437a601f239b19d66b",
+        "bo1": {
+          "n": 20,
+          "brier": 0.27546927
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.18529478
+        },
+        "fixed": {
+          "hits": 5,
+          "passed": true,
+          "bucketHits": [
+            0,
+            4,
+            1
+          ],
+          "assignments": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            3,
+            3,
+            1,
+            3,
+            3,
+            2,
+            3,
+            2
+          ],
+          "modeledPass": 0.37408333,
+          "top03": [
+            {
+              "team": "The Huns",
+              "p03": 0.30383333,
+              "actual": 3
+            },
+            {
+              "team": "Rare Atom",
+              "p03": 0.26816667,
+              "actual": 2
+            }
+          ]
+        },
+        "hitsBySeed": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          4,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "id": "cologne",
+      "week": "2026-06-01",
+      "coverage": 16,
+      "audit": [
+        {
+          "team": "GamerLegion",
+          "points": 1724,
+          "rank": 10,
+          "overlap": 5,
+          "adjusted": 1724
+        },
+        {
+          "team": "B8",
+          "points": 1582,
+          "rank": 16,
+          "overlap": 5,
+          "adjusted": 1582
+        },
+        {
+          "team": "HEROIC",
+          "points": 1420,
+          "rank": 27,
+          "overlap": 5,
+          "adjusted": 1420
+        },
+        {
+          "team": "BetBoom",
+          "points": 1562,
+          "rank": 21,
+          "overlap": 4,
+          "adjusted": 1548.5
+        },
+        {
+          "team": "BIG",
+          "points": 1416,
+          "rank": 39,
+          "overlap": 5,
+          "adjusted": 1331.5
+        },
+        {
+          "team": "M80",
+          "points": 1385,
+          "rank": 28,
+          "overlap": 5,
+          "adjusted": 1400.5
+        },
+        {
+          "team": "MIBR",
+          "points": 1535,
+          "rank": 19,
+          "overlap": 5,
+          "adjusted": 1548.5
+        },
+        {
+          "team": "SINNERS",
+          "points": 1378,
+          "rank": 30,
+          "overlap": 5,
+          "adjusted": 1381.5
+        },
+        {
+          "team": "NRG",
+          "points": 1247,
+          "rank": 33,
+          "overlap": 5,
+          "adjusted": 1300.5
+        },
+        {
+          "team": "TYLOO",
+          "points": 1395,
+          "rank": 29,
+          "overlap": 5,
+          "adjusted": 1395
+        },
+        {
+          "team": "Sharks",
+          "points": 1354,
+          "rank": 35,
+          "overlap": 5,
+          "adjusted": 1329
+        },
+        {
+          "team": "Gaimin Gladiators",
+          "points": 1233,
+          "rank": 142,
+          "overlap": 5,
+          "adjusted": 1172.5
+        },
+        {
+          "team": "Liquid",
+          "points": 1304,
+          "rank": 25,
+          "overlap": 5,
+          "adjusted": 1373.5
+        },
+        {
+          "team": "Lynn Vision",
+          "points": 1443,
+          "rank": 31,
+          "overlap": 5,
+          "adjusted": 1410.5
+        },
+        {
+          "team": "THUNDER dOWNUNDER",
+          "points": 1181,
+          "rank": 69,
+          "overlap": 5,
+          "adjusted": 1207
+        },
+        {
+          "team": "FlyQuest",
+          "points": 1112,
+          "rank": 81,
+          "overlap": 5,
+          "adjusted": 1146.5
+        }
+      ],
+      "baseline": {
+        "matrixSha256": "bfb761789f2ae1db00b88127308a01277b23d9540a3e2f6e2c5b6dd78c56ae61",
+        "bo1": {
+          "n": 20,
+          "brier": 0.21345007
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.25309292
+        },
+        "fixed": {
+          "hits": 4,
+          "passed": false,
+          "bucketHits": [
+            1,
+            3,
+            0
+          ],
+          "assignments": [
+            0,
+            0,
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            3,
+            3,
+            3,
+            3,
+            1,
+            3,
+            2
+          ],
+          "modeledPass": 0.40658333,
+          "top03": [
+            {
+              "team": "FlyQuest",
+              "p03": 0.35570833,
+              "actual": 1
+            },
+            {
+              "team": "NRG",
+              "p03": 0.311,
+              "actual": 3
+            }
+          ]
+        },
+        "hitsBySeed": [
+          4,
+          3,
+          4,
+          3,
+          4,
+          3,
+          4,
+          3,
+          4,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          3,
+          4,
+          4,
+          4,
+          3,
+          4,
+          3,
+          4,
+          4,
+          3,
+          4
+        ]
+      },
+      "candidate": {
+        "matrixSha256": "0922b4892a762ea7352f39d818938b994d68b11c5a8cc5f77044649848036a8d",
+        "bo1": {
+          "n": 20,
+          "brier": 0.20946869
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.24816962
+        },
+        "fixed": {
+          "hits": 4,
+          "passed": false,
+          "bucketHits": [
+            1,
+            3,
+            0
+          ],
+          "assignments": [
+            0,
+            0,
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            3,
+            3,
+            3,
+            3,
+            1,
+            3,
+            2
+          ],
+          "modeledPass": 0.38658333,
+          "top03": [
+            {
+              "team": "FlyQuest",
+              "p03": 0.33866667,
+              "actual": 1
+            },
+            {
+              "team": "NRG",
+              "p03": 0.28983333,
+              "actual": 3
+            }
+          ]
+        },
+        "hitsBySeed": [
+          4,
+          3,
+          4,
+          3,
+          4,
+          4,
+          4,
+          3,
+          4,
+          4,
+          3,
+          4,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          3,
+          4,
+          4,
+          4,
+          3,
+          4,
+          4,
+          4,
+          3,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "copenhagen-2024-elimination",
+      "week": "2024-03-11",
+      "coverage": 14,
+      "audit": [
+        {
+          "team": "FaZe",
+          "points": 1942,
+          "rank": 1,
+          "overlap": 5,
+          "adjusted": 1942
+        },
+        {
+          "team": "Spirit",
+          "points": 1933,
+          "rank": 2,
+          "overlap": 5,
+          "adjusted": 1933
+        },
+        {
+          "team": "Vitality",
+          "points": 1822,
+          "rank": 3,
+          "overlap": 5,
+          "adjusted": 1822
+        },
+        {
+          "team": "MOUZ",
+          "points": 1801,
+          "rank": 4,
+          "overlap": 5,
+          "adjusted": 1801
+        },
+        {
+          "team": "Complexity",
+          "points": 1434,
+          "rank": 13,
+          "overlap": 5,
+          "adjusted": 1433.5
+        },
+        {
+          "team": "Virtus.pro",
+          "points": 1779,
+          "rank": 7,
+          "overlap": 5,
+          "adjusted": 1741.5
+        },
+        {
+          "team": "Natus Vincere",
+          "points": 1744,
+          "rank": 6,
+          "overlap": 5,
+          "adjusted": 1744
+        },
+        {
+          "team": "G2",
+          "points": 1704,
+          "rank": 5,
+          "overlap": 5,
+          "adjusted": 1741.5
+        },
+        {
+          "team": "HEROIC",
+          "points": 1433,
+          "rank": 12,
+          "overlap": 5,
+          "adjusted": 1433.5
+        },
+        {
+          "team": "Cloud9",
+          "points": 1520,
+          "rank": 10,
+          "overlap": 5,
+          "adjusted": 1520
+        },
+        {
+          "team": "Eternal Fire",
+          "points": 1508,
+          "rank": 11,
+          "overlap": 5,
+          "adjusted": 1508
+        },
+        {
+          "team": "ECSTATIC",
+          "points": 1127,
+          "rank": 28,
+          "overlap": 5,
+          "adjusted": 1127
+        },
+        {
+          "team": "paiN",
+          "points": 1048,
+          "rank": null,
+          "overlap": null,
+          "adjusted": 1048
+        },
+        {
+          "team": "Imperial",
+          "points": 1152,
+          "rank": null,
+          "overlap": null,
+          "adjusted": 1152
+        },
+        {
+          "team": "The MongolZ",
+          "points": 1433,
+          "rank": 22,
+          "overlap": 5,
+          "adjusted": 1412
+        },
+        {
+          "team": "FURIA",
+          "points": 1391,
+          "rank": 16,
+          "overlap": 5,
+          "adjusted": 1412
+        }
+      ],
+      "baseline": {
+        "matrixSha256": "2fa681fcc4c664d3d83ff461eb27d73432d92d1aa0ab3ee29eccdcb56b1f42da",
+        "bo1": {
+          "n": 20,
+          "brier": 0.20241272
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.22137808
+        },
+        "fixed": {
+          "hits": 5,
+          "passed": true,
+          "bucketHits": [
+            1,
+            4,
+            0
+          ],
+          "assignments": [
+            0,
+            0,
+            1,
+            1,
+            3,
+            1,
+            1,
+            1,
+            3,
+            1,
+            3,
+            2,
+            3,
+            2,
+            3,
+            3
+          ],
+          "modeledPass": 0.41558333,
+          "top03": [
+            {
+              "team": "Imperial",
+              "p03": 0.33191667,
+              "actual": 3
+            },
+            {
+              "team": "ECSTATIC",
+              "p03": 0.30120833,
+              "actual": 3
+            }
+          ]
+        },
+        "hitsBySeed": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          4,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "candidate": {
+        "matrixSha256": "a86bafad5f0c6748cbbf2617d30fa0db4b101781fba77dd51c9b194d9e43908e",
+        "bo1": {
+          "n": 20,
+          "brier": 0.2035268
+        },
+        "bo3": {
+          "n": 13,
+          "brier": 0.21639079
+        },
+        "fixed": {
+          "hits": 5,
+          "passed": true,
+          "bucketHits": [
+            1,
+            4,
+            0
+          ],
+          "assignments": [
+            0,
+            0,
+            1,
+            1,
+            3,
+            1,
+            1,
+            1,
+            3,
+            1,
+            3,
+            2,
+            3,
+            2,
+            3,
+            3
+          ],
+          "modeledPass": 0.41266667,
+          "top03": [
+            {
+              "team": "Imperial",
+              "p03": 0.32491667,
+              "actual": 3
+            },
+            {
+              "team": "ECSTATIC",
+              "p03": 0.30141667,
+              "actual": 3
+            }
+          ]
+        },
+        "hitsBySeed": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    }
+  ]
+}

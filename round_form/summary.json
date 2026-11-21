@@ -1,0 +1,3554 @@
+{
+  "major": {
+    "base": {
+      "fixedByStage": [
+        5,
+        2,
+        2
+      ],
+      "fixedHits": 9,
+      "fixedPasses": 1,
+      "fixedSlots": [
+        1,
+        6,
+        2
+      ],
+      "meanHits": 10.4,
+      "meanPasses": 0.966666667,
+      "hits": [
+        9,
+        9,
+        9,
+        10,
+        11,
+        10,
+        10,
+        10,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        10,
+        8,
+        11,
+        10,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        10,
+        11,
+        11,
+        10,
+        10
+      ],
+      "passes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "errors": {
+        "bo1": {
+          "n": 40,
+          "brier": 0.218459312,
+          "logLoss": 0.628091309
+        },
+        "bo3": {
+          "n": 59,
+          "brier": 0.239705871,
+          "logLoss": 0.67237606
+        }
+      }
+    },
+    "series": {
+      "fixedByStage": [
+        5,
+        2,
+        4
+      ],
+      "fixedHits": 11,
+      "fixedPasses": 1,
+      "fixedSlots": [
+        2,
+        7,
+        2
+      ],
+      "meanHits": 11.6,
+      "meanPasses": 1,
+      "hits": [
+        11,
+        11,
+        11,
+        12,
+        12,
+        12,
+        11,
+        11,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        11,
+        10,
+        11,
+        11,
+        12,
+        12,
+        12,
+        12,
+        12,
+        11,
+        12,
+        12,
+        12,
+        12,
+        11,
+        12
+      ],
+      "passes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "errors": {
+        "bo1": {
+          "n": 40,
+          "brier": 0.218459312,
+          "logLoss": 0.628091309
+        },
+        "bo3": {
+          "n": 59,
+          "brier": 0.232360786,
+          "logLoss": 0.656280377
+        }
+      },
+      "pairedVsBase": {
+        "hits": {
+          "better": 28,
+          "tied": 2,
+          "worse": 0
+        },
+        "passes": {
+          "better": 1,
+          "tied": 29,
+          "worse": 0
+        }
+      }
+    },
+    "mapScore": {
+      "fixedByStage": [
+        5,
+        2,
+        4
+      ],
+      "fixedHits": 11,
+      "fixedPasses": 1,
+      "fixedSlots": [
+        2,
+        7,
+        2
+      ],
+      "meanHits": 11.566666667,
+      "meanPasses": 0.966666667,
+      "hits": [
+        11,
+        11,
+        11,
+        12,
+        12,
+        12,
+        11,
+        11,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        11,
+        10,
+        11,
+        11,
+        12,
+        12,
+        12,
+        12,
+        12,
+        11,
+        12,
+        11,
+        12,
+        12,
+        11,
+        12
+      ],
+      "passes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "errors": {
+        "bo1": {
+          "n": 40,
+          "brier": 0.218459312,
+          "logLoss": 0.628091309
+        },
+        "bo3": {
+          "n": 59,
+          "brier": 0.232266105,
+          "logLoss": 0.656127815
+        }
+      },
+      "pairedVsBase": {
+        "hits": {
+          "better": 28,
+          "tied": 2,
+          "worse": 0
+        },
+        "passes": {
+          "better": 0,
+          "tied": 30,
+          "worse": 0
+        }
+      },
+      "pairedVsSeries": {
+        "hits": {
+          "better": 0,
+          "tied": 29,
+          "worse": 1
+        },
+        "passes": {
+          "better": 0,
+          "tied": 29,
+          "worse": 1
+        }
+      }
+    },
+    "roundShare": {
+      "fixedByStage": [
+        5,
+        2,
+        4
+      ],
+      "fixedHits": 11,
+      "fixedPasses": 1,
+      "fixedSlots": [
+        2,
+        7,
+        2
+      ],
+      "meanHits": 11.566666667,
+      "meanPasses": 0.966666667,
+      "hits": [
+        11,
+        11,
+        11,
+        11,
+        12,
+        12,
+        11,
+        11,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        11,
+        10,
+        11,
+        11,
+        12,
+        12,
+        12,
+        12,
+        12,
+        11,
+        12,
+        12,
+        12,
+        12,
+        11,
+        12
+      ],
+      "passes": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "errors": {
+        "bo1": {
+          "n": 40,
+          "brier": 0.218459312,
+          "logLoss": 0.628091309
+        },
+        "bo3": {
+          "n": 59,
+          "brier": 0.231650429,
+          "logLoss": 0.654741085
+        }
+      },
+      "pairedVsBase": {
+        "hits": {
+          "better": 28,
+          "tied": 2,
+          "worse": 0
+        },
+        "passes": {
+          "better": 1,
+          "tied": 28,
+          "worse": 1
+        }
+      },
+      "pairedVsSeries": {
+        "hits": {
+          "better": 0,
+          "tied": 29,
+          "worse": 1
+        },
+        "passes": {
+          "better": 0,
+          "tied": 29,
+          "worse": 1
+        }
+      },
+      "pairedVsMapScore": {
+        "hits": {
+          "better": 1,
+          "tied": 28,
+          "worse": 1
+        },
+        "passes": {
+          "better": 1,
+          "tied": 28,
+          "worse": 1
+        }
+      }
+    }
+  },
+  "s23": {
+    "base": {
+      "fixedByStage": [
+        5
+      ],
+      "fixedHits": 5,
+      "fixedPasses": 1,
+      "fixedSlots": [
+        1,
+        4,
+        0
+      ],
+      "meanHits": 5,
+      "meanPasses": 1,
+      "hits": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "passes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "errors": {
+        "bo1": {
+          "n": 0,
+          "brier": null,
+          "logLoss": null
+        },
+        "bo3": {
+          "n": 33,
+          "brier": 0.240871657,
+          "logLoss": 0.718065847
+        }
+      }
+    },
+    "series": {
+      "fixedByStage": [
+        6
+      ],
+      "fixedHits": 6,
+      "fixedPasses": 1,
+      "fixedSlots": [
+        1,
+        5,
+        0
+      ],
+      "meanHits": 5.733333333,
+      "meanPasses": 1,
+      "hits": [
+        6,
+        6,
+        6,
+        5,
+        6,
+        6,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5,
+        5,
+        5,
+        6,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5,
+        6,
+        6,
+        5,
+        6
+      ],
+      "passes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "errors": {
+        "bo1": {
+          "n": 0,
+          "brier": null,
+          "logLoss": null
+        },
+        "bo3": {
+          "n": 33,
+          "brier": 0.238817103,
+          "logLoss": 0.710762869
+        }
+      },
+      "pairedVsBase": {
+        "hits": {
+          "better": 22,
+          "tied": 8,
+          "worse": 0
+        },
+        "passes": {
+          "better": 0,
+          "tied": 30,
+          "worse": 0
+        }
+      }
+    },
+    "mapScore": {
+      "fixedByStage": [
+        6
+      ],
+      "fixedHits": 6,
+      "fixedPasses": 1,
+      "fixedSlots": [
+        1,
+        5,
+        0
+      ],
+      "meanHits": 5.766666667,
+      "meanPasses": 1,
+      "hits": [
+        6,
+        6,
+        6,
+        5,
+        6,
+        6,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5,
+        5,
+        6,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5,
+        6,
+        6,
+        5,
+        6
+      ],
+      "passes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "errors": {
+        "bo1": {
+          "n": 0,
+          "brier": null,
+          "logLoss": null
+        },
+        "bo3": {
+          "n": 33,
+          "brier": 0.239088336,
+          "logLoss": 0.710929289
+        }
+      },
+      "pairedVsBase": {
+        "hits": {
+          "better": 23,
+          "tied": 7,
+          "worse": 0
+        },
+        "passes": {
+          "better": 0,
+          "tied": 30,
+          "worse": 0
+        }
+      },
+      "pairedVsSeries": {
+        "hits": {
+          "better": 1,
+          "tied": 29,
+          "worse": 0
+        },
+        "passes": {
+          "better": 0,
+          "tied": 30,
+          "worse": 0
+        }
+      }
+    },
+    "roundShare": {
+      "fixedByStage": [
+        6
+      ],
+      "fixedHits": 6,
+      "fixedPasses": 1,
+      "fixedSlots": [
+        1,
+        5,
+        0
+      ],
+      "meanHits": 5.633333333,
+      "meanPasses": 1,
+      "hits": [
+        6,
+        6,
+        6,
+        5,
+        6,
+        6,
+        5,
+        6,
+        6,
+        6,
+        5,
+        6,
+        6,
+        5,
+        5,
+        5,
+        6,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        6,
+        6,
+        5,
+        6,
+        6,
+        5,
+        6
+      ],
+      "passes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "errors": {
+        "bo1": {
+          "n": 0,
+          "brier": null,
+          "logLoss": null
+        },
+        "bo3": {
+          "n": 33,
+          "brier": 0.239543819,
+          "logLoss": 0.712601098
+        }
+      },
+      "pairedVsBase": {
+        "hits": {
+          "better": 19,
+          "tied": 11,
+          "worse": 0
+        },
+        "passes": {
+          "better": 0,
+          "tied": 30,
+          "worse": 0
+        }
+      },
+      "pairedVsSeries": {
+        "hits": {
+          "better": 0,
+          "tied": 27,
+          "worse": 3
+        },
+        "passes": {
+          "better": 0,
+          "tied": 30,
+          "worse": 0
+        }
+      },
+      "pairedVsMapScore": {
+        "hits": {
+          "better": 0,
+          "tied": 26,
+          "worse": 4
+        },
+        "passes": {
+          "better": 0,
+          "tied": 30,
+          "worse": 0
+        }
+      }
+    }
+  },
+  "s22": {
+    "base": {
+      "fixedByStage": [
+        4
+      ],
+      "fixedHits": 4,
+      "fixedPasses": 0,
+      "fixedSlots": [
+        1,
+        3,
+        0
+      ],
+      "meanHits": 4,
+      "meanPasses": 0,
+      "hits": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "passes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "errors": {
+        "bo1": {
+          "n": 0,
+          "brier": null,
+          "logLoss": null
+        },
+        "bo3": {
+          "n": 32,
+          "brier": 0.227833378,
+          "logLoss": 0.828328899
+        }
+      }
+    },
+    "series": {
+      "fixedByStage": [
+        4
+      ],
+      "fixedHits": 4,
+      "fixedPasses": 0,
+      "fixedSlots": [
+        1,
+        3,
+        0
+      ],
+      "meanHits": 4,
+      "meanPasses": 0,
+      "hits": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "passes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "errors": {
+        "bo1": {
+          "n": 0,
+          "brier": null,
+          "logLoss": null
+        },
+        "bo3": {
+          "n": 32,
+          "brier": 0.229514148,
+          "logLoss": 0.791428921
+        }
+      },
+      "pairedVsBase": {
+        "hits": {
+          "better": 0,
+          "tied": 30,
+          "worse": 0
+        },
+        "passes": {
+          "better": 0,
+          "tied": 30,
+          "worse": 0
+        }
+      }
+    },
+    "mapScore": {
+      "fixedByStage": [
+        4
+      ],
+      "fixedHits": 4,
+      "fixedPasses": 0,
+      "fixedSlots": [
+        1,
+        3,
+        0
+      ],
+      "meanHits": 4.066666667,
+      "meanPasses": 0.066666667,
+      "hits": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5
+      ],
+      "passes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "errors": {
+        "bo1": {
+          "n": 0,
+          "brier": null,
+          "logLoss": null
+        },
+        "bo3": {
+          "n": 32,
+          "brier": 0.229205649,
+          "logLoss": 0.79090644
+        }
+      },
+      "pairedVsBase": {
+        "hits": {
+          "better": 2,
+          "tied": 28,
+          "worse": 0
+        },
+        "passes": {
+          "better": 2,
+          "tied": 28,
+          "worse": 0
+        }
+      },
+      "pairedVsSeries": {
+        "hits": {
+          "better": 2,
+          "tied": 28,
+          "worse": 0
+        },
+        "passes": {
+          "better": 2,
+          "tied": 28,
+          "worse": 0
+        }
+      }
+    },
+    "roundShare": {
+      "fixedByStage": [
+        4
+      ],
+      "fixedHits": 4,
+      "fixedPasses": 0,
+      "fixedSlots": [
+        1,
+        3,
+        0
+      ],
+      "meanHits": 4.066666667,
+      "meanPasses": 0.066666667,
+      "hits": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "passes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "errors": {
+        "bo1": {
+          "n": 0,
+          "brier": null,
+          "logLoss": null
+        },
+        "bo3": {
+          "n": 32,
+          "brier": 0.228618509,
+          "logLoss": 0.786630739
+        }
+      },
+      "pairedVsBase": {
+        "hits": {
+          "better": 2,
+          "tied": 28,
+          "worse": 0
+        },
+        "passes": {
+          "better": 2,
+          "tied": 28,
+          "worse": 0
+        }
+      },
+      "pairedVsSeries": {
+        "hits": {
+          "better": 2,
+          "tied": 28,
+          "worse": 0
+        },
+        "passes": {
+          "better": 2,
+          "tied": 28,
+          "worse": 0
+        }
+      },
+      "pairedVsMapScore": {
+        "hits": {
+          "better": 1,
+          "tied": 28,
+          "worse": 1
+        },
+        "passes": {
+          "better": 1,
+          "tied": 28,
+          "worse": 1
+        }
+      }
+    }
+  },
+  "byStage": {
+    "austin-2025-3": {
+      "base": {
+        "fixedByStage": [
+          5
+        ],
+        "fixedHits": 5,
+        "fixedPasses": 1,
+        "fixedSlots": [
+          1,
+          3,
+          1
+        ],
+        "meanHits": 4.933333333,
+        "meanPasses": 0.966666667,
+        "hits": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          3,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "passes": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "errors": {
+          "bo1": {
+            "n": 20,
+            "brier": 0.233904584,
+            "logLoss": 0.665204601
+          },
+          "bo3": {
+            "n": 13,
+            "brier": 0.253739776,
+            "logLoss": 0.699202436
+          }
+        }
+      },
+      "series": {
+        "fixedByStage": [
+          5
+        ],
+        "fixedHits": 5,
+        "fixedPasses": 1,
+        "fixedSlots": [
+          1,
+          3,
+          1
+        ],
+        "meanHits": 4.933333333,
+        "meanPasses": 0.966666667,
+        "hits": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          3,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "passes": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "errors": {
+          "bo1": {
+            "n": 20,
+            "brier": 0.233904584,
+            "logLoss": 0.665204601
+          },
+          "bo3": {
+            "n": 13,
+            "brier": 0.242437442,
+            "logLoss": 0.675302064
+          }
+        },
+        "pairedVsBase": {
+          "hits": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        }
+      },
+      "mapScore": {
+        "fixedByStage": [
+          5
+        ],
+        "fixedHits": 5,
+        "fixedPasses": 1,
+        "fixedSlots": [
+          1,
+          3,
+          1
+        ],
+        "meanHits": 4.933333333,
+        "meanPasses": 0.966666667,
+        "hits": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          3,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "passes": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "errors": {
+          "bo1": {
+            "n": 20,
+            "brier": 0.233904584,
+            "logLoss": 0.665204601
+          },
+          "bo3": {
+            "n": 13,
+            "brier": 0.242947981,
+            "logLoss": 0.676568721
+          }
+        },
+        "pairedVsBase": {
+          "hits": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        },
+        "pairedVsSeries": {
+          "hits": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        }
+      },
+      "roundShare": {
+        "fixedByStage": [
+          5
+        ],
+        "fixedHits": 5,
+        "fixedPasses": 1,
+        "fixedSlots": [
+          1,
+          3,
+          1
+        ],
+        "meanHits": 4.9,
+        "meanPasses": 0.933333333,
+        "hits": [
+          5,
+          5,
+          5,
+          4,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          3,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "passes": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "errors": {
+          "bo1": {
+            "n": 20,
+            "brier": 0.233904584,
+            "logLoss": 0.665204601
+          },
+          "bo3": {
+            "n": 13,
+            "brier": 0.242906123,
+            "logLoss": 0.677354181
+          }
+        },
+        "pairedVsBase": {
+          "hits": {
+            "better": 0,
+            "tied": 29,
+            "worse": 1
+          },
+          "passes": {
+            "better": 0,
+            "tied": 29,
+            "worse": 1
+          }
+        },
+        "pairedVsSeries": {
+          "hits": {
+            "better": 0,
+            "tied": 29,
+            "worse": 1
+          },
+          "passes": {
+            "better": 0,
+            "tied": 29,
+            "worse": 1
+          }
+        },
+        "pairedVsMapScore": {
+          "hits": {
+            "better": 0,
+            "tied": 29,
+            "worse": 1
+          },
+          "passes": {
+            "better": 0,
+            "tied": 29,
+            "worse": 1
+          }
+        }
+      }
+    },
+    "budapest-2025-3": {
+      "base": {
+        "fixedByStage": [
+          2
+        ],
+        "fixedHits": 2,
+        "fixedPasses": 0,
+        "fixedSlots": [
+          0,
+          2,
+          0
+        ],
+        "meanHits": 2.666666667,
+        "meanPasses": 0,
+        "hits": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          3,
+          3,
+          2,
+          3
+        ],
+        "passes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "errors": {
+          "bo1": {
+            "n": 20,
+            "brier": 0.20301404,
+            "logLoss": 0.590978017
+          },
+          "bo3": {
+            "n": 13,
+            "brier": 0.256582542,
+            "logLoss": 0.71097665
+          }
+        }
+      },
+      "series": {
+        "fixedByStage": [
+          2
+        ],
+        "fixedHits": 2,
+        "fixedPasses": 0,
+        "fixedSlots": [
+          0,
+          2,
+          0
+        ],
+        "meanHits": 2.633333333,
+        "meanPasses": 0,
+        "hits": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          3,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          3,
+          2,
+          3,
+          3,
+          2,
+          3
+        ],
+        "passes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "errors": {
+          "bo1": {
+            "n": 20,
+            "brier": 0.20301404,
+            "logLoss": 0.590978017
+          },
+          "bo3": {
+            "n": 13,
+            "brier": 0.250344458,
+            "logLoss": 0.69473312
+          }
+        },
+        "pairedVsBase": {
+          "hits": {
+            "better": 1,
+            "tied": 27,
+            "worse": 2
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        }
+      },
+      "mapScore": {
+        "fixedByStage": [
+          2
+        ],
+        "fixedHits": 2,
+        "fixedPasses": 0,
+        "fixedSlots": [
+          0,
+          2,
+          0
+        ],
+        "meanHits": 2.633333333,
+        "meanPasses": 0,
+        "hits": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          3,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          3,
+          2,
+          3,
+          3,
+          2,
+          3
+        ],
+        "passes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "errors": {
+          "bo1": {
+            "n": 20,
+            "brier": 0.20301404,
+            "logLoss": 0.590978017
+          },
+          "bo3": {
+            "n": 13,
+            "brier": 0.250205903,
+            "logLoss": 0.694449652
+          }
+        },
+        "pairedVsBase": {
+          "hits": {
+            "better": 1,
+            "tied": 27,
+            "worse": 2
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        },
+        "pairedVsSeries": {
+          "hits": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        }
+      },
+      "roundShare": {
+        "fixedByStage": [
+          2
+        ],
+        "fixedHits": 2,
+        "fixedPasses": 0,
+        "fixedSlots": [
+          0,
+          2,
+          0
+        ],
+        "meanHits": 2.633333333,
+        "meanPasses": 0,
+        "hits": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          3,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          3,
+          2,
+          3,
+          3,
+          2,
+          3
+        ],
+        "passes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "errors": {
+          "bo1": {
+            "n": 20,
+            "brier": 0.20301404,
+            "logLoss": 0.590978017
+          },
+          "bo3": {
+            "n": 13,
+            "brier": 0.250746826,
+            "logLoss": 0.695232377
+          }
+        },
+        "pairedVsBase": {
+          "hits": {
+            "better": 1,
+            "tied": 27,
+            "worse": 2
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        },
+        "pairedVsSeries": {
+          "hits": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        },
+        "pairedVsMapScore": {
+          "hits": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        }
+      }
+    },
+    "cologne-2026-3": {
+      "base": {
+        "fixedByStage": [
+          2
+        ],
+        "fixedHits": 2,
+        "fixedPasses": 0,
+        "fixedSlots": [
+          0,
+          1,
+          1
+        ],
+        "meanHits": 2.8,
+        "meanPasses": 0,
+        "hits": [
+          2,
+          2,
+          2,
+          2,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2
+        ],
+        "passes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "errors": {
+          "bo1": {
+            "n": 0,
+            "brier": null,
+            "logLoss": null
+          },
+          "bo3": {
+            "n": 33,
+            "brier": 0.227528978,
+            "logLoss": 0.646601802
+          }
+        }
+      },
+      "series": {
+        "fixedByStage": [
+          4
+        ],
+        "fixedHits": 4,
+        "fixedPasses": 0,
+        "fixedSlots": [
+          1,
+          2,
+          1
+        ],
+        "meanHits": 4.033333333,
+        "meanPasses": 0.033333333,
+        "hits": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          4,
+          4,
+          4,
+          4
+        ],
+        "passes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "errors": {
+          "bo1": {
+            "n": 0,
+            "brier": null,
+            "logLoss": null
+          },
+          "bo3": {
+            "n": 33,
+            "brier": 0.221306718,
+            "logLoss": 0.633638935
+          }
+        },
+        "pairedVsBase": {
+          "hits": {
+            "better": 30,
+            "tied": 0,
+            "worse": 0
+          },
+          "passes": {
+            "better": 1,
+            "tied": 29,
+            "worse": 0
+          }
+        }
+      },
+      "mapScore": {
+        "fixedByStage": [
+          4
+        ],
+        "fixedHits": 4,
+        "fixedPasses": 0,
+        "fixedSlots": [
+          1,
+          2,
+          1
+        ],
+        "meanHits": 4,
+        "meanPasses": 0,
+        "hits": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "passes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "errors": {
+          "bo1": {
+            "n": 0,
+            "brier": null,
+            "logLoss": null
+          },
+          "bo3": {
+            "n": 33,
+            "brier": 0.220990901,
+            "logLoss": 0.632978856
+          }
+        },
+        "pairedVsBase": {
+          "hits": {
+            "better": 30,
+            "tied": 0,
+            "worse": 0
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        },
+        "pairedVsSeries": {
+          "hits": {
+            "better": 0,
+            "tied": 29,
+            "worse": 1
+          },
+          "passes": {
+            "better": 0,
+            "tied": 29,
+            "worse": 1
+          }
+        }
+      },
+      "roundShare": {
+        "fixedByStage": [
+          4
+        ],
+        "fixedHits": 4,
+        "fixedPasses": 0,
+        "fixedSlots": [
+          1,
+          2,
+          1
+        ],
+        "meanHits": 4.033333333,
+        "meanPasses": 0.033333333,
+        "hits": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          4,
+          4,
+          4,
+          4
+        ],
+        "passes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "errors": {
+          "bo1": {
+            "n": 0,
+            "brier": null,
+            "logLoss": null
+          },
+          "bo3": {
+            "n": 33,
+            "brier": 0.219693545,
+            "logLoss": 0.62988178
+          }
+        },
+        "pairedVsBase": {
+          "hits": {
+            "better": 30,
+            "tied": 0,
+            "worse": 0
+          },
+          "passes": {
+            "better": 1,
+            "tied": 29,
+            "worse": 0
+          }
+        },
+        "pairedVsSeries": {
+          "hits": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        },
+        "pairedVsMapScore": {
+          "hits": {
+            "better": 1,
+            "tied": 29,
+            "worse": 0
+          },
+          "passes": {
+            "better": 1,
+            "tied": 29,
+            "worse": 0
+          }
+        }
+      }
+    },
+    "epl23-stage2": {
+      "base": {
+        "fixedByStage": [
+          5
+        ],
+        "fixedHits": 5,
+        "fixedPasses": 1,
+        "fixedSlots": [
+          1,
+          4,
+          0
+        ],
+        "meanHits": 5,
+        "meanPasses": 1,
+        "hits": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "passes": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "errors": {
+          "bo1": {
+            "n": 0,
+            "brier": null,
+            "logLoss": null
+          },
+          "bo3": {
+            "n": 33,
+            "brier": 0.240871657,
+            "logLoss": 0.718065847
+          }
+        }
+      },
+      "series": {
+        "fixedByStage": [
+          6
+        ],
+        "fixedHits": 6,
+        "fixedPasses": 1,
+        "fixedSlots": [
+          1,
+          5,
+          0
+        ],
+        "meanHits": 5.733333333,
+        "meanPasses": 1,
+        "hits": [
+          6,
+          6,
+          6,
+          5,
+          6,
+          6,
+          5,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          5,
+          5,
+          5,
+          6,
+          5,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          5,
+          6,
+          6,
+          5,
+          6
+        ],
+        "passes": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "errors": {
+          "bo1": {
+            "n": 0,
+            "brier": null,
+            "logLoss": null
+          },
+          "bo3": {
+            "n": 33,
+            "brier": 0.238817103,
+            "logLoss": 0.710762869
+          }
+        },
+        "pairedVsBase": {
+          "hits": {
+            "better": 22,
+            "tied": 8,
+            "worse": 0
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        }
+      },
+      "mapScore": {
+        "fixedByStage": [
+          6
+        ],
+        "fixedHits": 6,
+        "fixedPasses": 1,
+        "fixedSlots": [
+          1,
+          5,
+          0
+        ],
+        "meanHits": 5.766666667,
+        "meanPasses": 1,
+        "hits": [
+          6,
+          6,
+          6,
+          5,
+          6,
+          6,
+          5,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          5,
+          5,
+          6,
+          5,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          5,
+          6,
+          6,
+          5,
+          6
+        ],
+        "passes": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "errors": {
+          "bo1": {
+            "n": 0,
+            "brier": null,
+            "logLoss": null
+          },
+          "bo3": {
+            "n": 33,
+            "brier": 0.239088336,
+            "logLoss": 0.710929289
+          }
+        },
+        "pairedVsBase": {
+          "hits": {
+            "better": 23,
+            "tied": 7,
+            "worse": 0
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        },
+        "pairedVsSeries": {
+          "hits": {
+            "better": 1,
+            "tied": 29,
+            "worse": 0
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        }
+      },
+      "roundShare": {
+        "fixedByStage": [
+          6
+        ],
+        "fixedHits": 6,
+        "fixedPasses": 1,
+        "fixedSlots": [
+          1,
+          5,
+          0
+        ],
+        "meanHits": 5.633333333,
+        "meanPasses": 1,
+        "hits": [
+          6,
+          6,
+          6,
+          5,
+          6,
+          6,
+          5,
+          6,
+          6,
+          6,
+          5,
+          6,
+          6,
+          5,
+          5,
+          5,
+          6,
+          5,
+          5,
+          6,
+          6,
+          6,
+          5,
+          6,
+          6,
+          5,
+          6,
+          6,
+          5,
+          6
+        ],
+        "passes": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "errors": {
+          "bo1": {
+            "n": 0,
+            "brier": null,
+            "logLoss": null
+          },
+          "bo3": {
+            "n": 33,
+            "brier": 0.239543819,
+            "logLoss": 0.712601098
+          }
+        },
+        "pairedVsBase": {
+          "hits": {
+            "better": 19,
+            "tied": 11,
+            "worse": 0
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        },
+        "pairedVsSeries": {
+          "hits": {
+            "better": 0,
+            "tied": 27,
+            "worse": 3
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        },
+        "pairedVsMapScore": {
+          "hits": {
+            "better": 0,
+            "tied": 26,
+            "worse": 4
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        }
+      }
+    },
+    "epl22-stage2": {
+      "base": {
+        "fixedByStage": [
+          4
+        ],
+        "fixedHits": 4,
+        "fixedPasses": 0,
+        "fixedSlots": [
+          1,
+          3,
+          0
+        ],
+        "meanHits": 4,
+        "meanPasses": 0,
+        "hits": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "passes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "errors": {
+          "bo1": {
+            "n": 0,
+            "brier": null,
+            "logLoss": null
+          },
+          "bo3": {
+            "n": 32,
+            "brier": 0.227833378,
+            "logLoss": 0.828328899
+          }
+        }
+      },
+      "series": {
+        "fixedByStage": [
+          4
+        ],
+        "fixedHits": 4,
+        "fixedPasses": 0,
+        "fixedSlots": [
+          1,
+          3,
+          0
+        ],
+        "meanHits": 4,
+        "meanPasses": 0,
+        "hits": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "passes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "errors": {
+          "bo1": {
+            "n": 0,
+            "brier": null,
+            "logLoss": null
+          },
+          "bo3": {
+            "n": 32,
+            "brier": 0.229514148,
+            "logLoss": 0.791428921
+          }
+        },
+        "pairedVsBase": {
+          "hits": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          },
+          "passes": {
+            "better": 0,
+            "tied": 30,
+            "worse": 0
+          }
+        }
+      },
+      "mapScore": {
+        "fixedByStage": [
+          4
+        ],
+        "fixedHits": 4,
+        "fixedPasses": 0,
+        "fixedSlots": [
+          1,
+          3,
+          0
+        ],
+        "meanHits": 4.066666667,
+        "meanPasses": 0.066666667,
+        "hits": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5
+        ],
+        "passes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "errors": {
+          "bo1": {
+            "n": 0,
+            "brier": null,
+            "logLoss": null
+          },
+          "bo3": {
+            "n": 32,
+            "brier": 0.229205649,
+            "logLoss": 0.79090644
+          }
+        },
+        "pairedVsBase": {
+          "hits": {
+            "better": 2,
+            "tied": 28,
+            "worse": 0
+          },
+          "passes": {
+            "better": 2,
+            "tied": 28,
+            "worse": 0
+          }
+        },
+        "pairedVsSeries": {
+          "hits": {
+            "better": 2,
+            "tied": 28,
+            "worse": 0
+          },
+          "passes": {
+            "better": 2,
+            "tied": 28,
+            "worse": 0
+          }
+        }
+      },
+      "roundShare": {
+        "fixedByStage": [
+          4
+        ],
+        "fixedHits": 4,
+        "fixedPasses": 0,
+        "fixedSlots": [
+          1,
+          3,
+          0
+        ],
+        "meanHits": 4.066666667,
+        "meanPasses": 0.066666667,
+        "hits": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "passes": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "errors": {
+          "bo1": {
+            "n": 0,
+            "brier": null,
+            "logLoss": null
+          },
+          "bo3": {
+            "n": 32,
+            "brier": 0.228618509,
+            "logLoss": 0.786630739
+          }
+        },
+        "pairedVsBase": {
+          "hits": {
+            "better": 2,
+            "tied": 28,
+            "worse": 0
+          },
+          "passes": {
+            "better": 2,
+            "tied": 28,
+            "worse": 0
+          }
+        },
+        "pairedVsSeries": {
+          "hits": {
+            "better": 2,
+            "tied": 28,
+            "worse": 0
+          },
+          "passes": {
+            "better": 2,
+            "tied": 28,
+            "worse": 0
+          }
+        },
+        "pairedVsMapScore": {
+          "hits": {
+            "better": 1,
+            "tied": 28,
+            "worse": 1
+          },
+          "passes": {
+            "better": 1,
+            "tied": 28,
+            "worse": 1
+          }
+        }
+      }
+    }
+  },
+  "coverage": {
+    "austin-2025-3": {
+      "start": "2025-06-12",
+      "donorStart": "2025-06-07",
+      "donorEnd": "2025-06-10",
+      "donorMatches": 33,
+      "withPrior": 33,
+      "playedMaps": 51,
+      "overtimeMaps": 6,
+      "eligibleTeams": 8,
+      "verifiedMatches": 33,
+      "administrativeExcluded": []
+    },
+    "budapest-2025-3": {
+      "start": "2025-12-04",
+      "donorStart": "2025-11-29",
+      "donorEnd": "2025-12-02",
+      "donorMatches": 33,
+      "withPrior": 33,
+      "playedMaps": 51,
+      "overtimeMaps": 6,
+      "eligibleTeams": 8,
+      "verifiedMatches": 33,
+      "administrativeExcluded": []
+    },
+    "cologne-2026-3": {
+      "start": "2026-06-11",
+      "donorStart": "2026-06-06",
+      "donorEnd": "2026-06-09",
+      "donorMatches": 33,
+      "withPrior": 33,
+      "playedMaps": 51,
+      "overtimeMaps": 2,
+      "eligibleTeams": 8,
+      "verifiedMatches": 33,
+      "administrativeExcluded": []
+    },
+    "epl23-stage2": {
+      "start": "2026-03-06",
+      "donorStart": "2026-03-01",
+      "donorEnd": "2026-03-05",
+      "donorMatches": 33,
+      "withPrior": 33,
+      "playedMaps": 79,
+      "overtimeMaps": 16,
+      "eligibleTeams": 8,
+      "verifiedMatches": 33,
+      "administrativeExcluded": []
+    },
+    "epl22-stage2": {
+      "start": "2025-10-04",
+      "donorStart": "2025-09-28",
+      "donorEnd": "2025-10-02",
+      "donorMatches": 33,
+      "withPrior": 33,
+      "playedMaps": 83,
+      "overtimeMaps": 5,
+      "eligibleTeams": 8,
+      "verifiedMatches": 33,
+      "administrativeExcluded": [
+        {
+          "w": 6,
+          "l": 9,
+          "bo": 3,
+          "id": 2385936,
+          "administrative": true
+        }
+      ]
+    }
+  }
+}

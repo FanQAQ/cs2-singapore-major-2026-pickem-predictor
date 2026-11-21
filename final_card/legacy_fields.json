@@ -1,0 +1,1006 @@
+{
+  "source": "https://github.com/tedtay/CS-GO-Pro-Matches-Comprehensive-Dataset/blob/ce8a5f242a768c5698f8068828eeedc4fc134db1/csgo_pro_games_data.csv",
+  "sha256": "963154fa2069c5b0a63de48f0d908373a155363d56d03ad4d62bcdd3c22f7057",
+  "stages": [
+    {
+      "name": "PGL Major Stockholm 2021",
+      "date": "2021-10-30",
+      "end": "2021-11-02",
+      "source": "https://www.hltv.org/news/32674/navi-heroic-headlines-pgl-stockholm-legends-stage-opening-matches",
+      "teams": [
+        {
+          "name": "Evil Geniuses",
+          "roster": [
+            "brehze",
+            "cerq",
+            "michu",
+            "obo",
+            "stanislaw"
+          ],
+          "lastSeen": "2021-10-15",
+          "series": 13,
+          "wins": 2,
+          "points": 0.30434782608695654
+        },
+        {
+          "name": "G2",
+          "roster": [
+            "amanek",
+            "hunter-",
+            "jackz",
+            "nexa",
+            "niko"
+          ],
+          "lastSeen": "2021-10-16",
+          "series": 17,
+          "wins": 7,
+          "points": 0.4444444444444444
+        },
+        {
+          "name": "Gambit",
+          "roster": [
+            "ax1le",
+            "hobbit",
+            "interz",
+            "nafany",
+            "sh1ro"
+          ],
+          "lastSeen": "2021-10-15",
+          "series": 15,
+          "wins": 11,
+          "points": 0.64
+        },
+        {
+          "name": "Liquid",
+          "roster": [
+            "elige",
+            "fallen",
+            "grim",
+            "naf",
+            "stewie2k"
+          ],
+          "lastSeen": "2021-10-17",
+          "series": 20,
+          "wins": 15,
+          "points": 0.6666666666666666
+        },
+        {
+          "name": "Vitality",
+          "roster": [
+            "apex",
+            "kyojin",
+            "misutaaa",
+            "shox",
+            "zywoo"
+          ],
+          "lastSeen": "2021-10-10",
+          "series": 20,
+          "wins": 16,
+          "points": 0.7
+        },
+        {
+          "name": "Natus Vincere",
+          "roster": [
+            "b1t",
+            "boombl4",
+            "electronic",
+            "perfecto",
+            "s1mple"
+          ],
+          "lastSeen": "2021-10-03",
+          "series": 18,
+          "wins": 16,
+          "points": 0.75
+        },
+        {
+          "name": "Ninjas in Pyjamas",
+          "roster": [
+            "device",
+            "hampus",
+            "lnz",
+            "plopski",
+            "rez"
+          ],
+          "lastSeen": "2021-10-10",
+          "series": 18,
+          "wins": 15,
+          "points": 0.7142857142857143
+        },
+        {
+          "name": "FURIA",
+          "roster": [
+            "art",
+            "drop",
+            "kscerato",
+            "vini",
+            "yuurih"
+          ],
+          "lastSeen": "2021-10-10",
+          "series": 17,
+          "wins": 12,
+          "points": 0.6296296296296297
+        },
+        {
+          "name": "FaZe",
+          "roster": [
+            "broky",
+            "karrigan",
+            "olofmeister",
+            "rain",
+            "twistzz"
+          ],
+          "lastSeen": "2021-10-27",
+          "series": 22,
+          "wins": 15,
+          "points": 0.625
+        },
+        {
+          "name": "Copenhagen Flames",
+          "roster": [
+            "hooxi",
+            "jabbi",
+            "nicoodoz",
+            "roej",
+            "zyphon"
+          ],
+          "lastSeen": "2021-10-27",
+          "series": 48,
+          "wins": 38,
+          "points": 0.7413793103448276
+        },
+        {
+          "name": "ENCE",
+          "roster": [
+            "doto",
+            "dycha",
+            "hades",
+            "snappi",
+            "spinx"
+          ],
+          "lastSeen": "2021-10-28",
+          "series": 32,
+          "wins": 21,
+          "points": 0.6190476190476191
+        },
+        {
+          "name": "Entropiq",
+          "roster": [
+            "el1an",
+            "forester",
+            "krad",
+            "lack1",
+            "nickelback"
+          ],
+          "lastSeen": "2021-10-28",
+          "series": 36,
+          "wins": 22,
+          "points": 0.5869565217391305
+        },
+        {
+          "name": "Virtus.pro",
+          "roster": [
+            "buster",
+            "fl1t",
+            "jame",
+            "qikert",
+            "yekindar"
+          ],
+          "lastSeen": "2021-10-28",
+          "series": 21,
+          "wins": 13,
+          "points": 0.5806451612903226
+        },
+        {
+          "name": "Heroic",
+          "roster": [
+            "cadian",
+            "refrezh",
+            "sjuush",
+            "stavn",
+            "teses"
+          ],
+          "lastSeen": "2021-10-29",
+          "series": 22,
+          "wins": 15,
+          "points": 0.625
+        },
+        {
+          "name": "MOUZ",
+          "roster": [
+            "acor",
+            "bymas",
+            "dexter",
+            "frozen",
+            "ropz"
+          ],
+          "lastSeen": "2021-10-29",
+          "series": 18,
+          "wins": 10,
+          "points": 0.5357142857142857
+        },
+        {
+          "name": "Astralis",
+          "roster": [
+            "dupreeh",
+            "gla1ve",
+            "lucky",
+            "magisk",
+            "xyp9x"
+          ],
+          "lastSeen": "2021-10-29",
+          "series": 22,
+          "wins": 13,
+          "points": 0.5625
+        }
+      ],
+      "actual": [
+        2,
+        0,
+        1,
+        3,
+        1,
+        0,
+        1,
+        1,
+        3,
+        3,
+        2,
+        3,
+        1,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "PGL Major Antwerp 2022",
+      "date": "2022-05-14",
+      "end": "2022-05-17",
+      "source": "https://www.hltv.org/news/33791/opening-matches-of-pgl-major-antwerp-legends-stage-set",
+      "teams": [
+        {
+          "name": "Heroic",
+          "roster": [
+            "cadian",
+            "refrezh",
+            "sjuush",
+            "stavn",
+            "teses"
+          ],
+          "lastSeen": "2022-04-29",
+          "series": 18,
+          "wins": 14,
+          "points": 0.6785714285714286
+        },
+        {
+          "name": "Copenhagen Flames",
+          "roster": [
+            "hooxi",
+            "jabbi",
+            "nicoodoz",
+            "roej",
+            "zyphon"
+          ],
+          "lastSeen": "2022-05-04",
+          "series": 39,
+          "wins": 28,
+          "points": 0.673469387755102
+        },
+        {
+          "name": "Ninjas in Pyjamas",
+          "roster": [
+            "brollan",
+            "es3tag",
+            "hampus",
+            "plopski",
+            "rez"
+          ],
+          "lastSeen": "2022-04-30",
+          "series": 21,
+          "wins": 14,
+          "points": 0.6129032258064516
+        },
+        {
+          "name": "Cloud9",
+          "roster": [
+            "ax1le",
+            "hobbit",
+            "interz",
+            "nafany",
+            "sh1ro"
+          ],
+          "lastSeen": "2022-04-24",
+          "series": 14,
+          "wins": 10,
+          "points": 0.625
+        },
+        {
+          "name": "FaZe",
+          "roster": [
+            "broky",
+            "karrigan",
+            "rain",
+            "ropz",
+            "twistzz"
+          ],
+          "lastSeen": "2022-04-19",
+          "series": 21,
+          "wins": 17,
+          "points": 0.7096774193548387
+        },
+        {
+          "name": "FURIA",
+          "roster": [
+            "art",
+            "drop",
+            "kscerato",
+            "saffee",
+            "yuurih"
+          ],
+          "lastSeen": "2022-05-01",
+          "series": 19,
+          "wins": 13,
+          "points": 0.6206896551724138
+        },
+        {
+          "name": "Natus Vincere",
+          "roster": [
+            "b1t",
+            "boombl4",
+            "electronic",
+            "perfecto",
+            "s1mple"
+          ],
+          "lastSeen": "2022-04-20",
+          "series": 15,
+          "wins": 12,
+          "points": 0.68
+        },
+        {
+          "name": "BIG",
+          "roster": [
+            "faven",
+            "krimbo",
+            "syrson",
+            "tabsen",
+            "tizian"
+          ],
+          "lastSeen": "2022-04-18",
+          "series": 24,
+          "wins": 15,
+          "points": 0.5882352941176471
+        },
+        {
+          "name": "Liquid",
+          "roster": [
+            "elige",
+            "naf",
+            "nitr0",
+            "osee",
+            "shox"
+          ],
+          "lastSeen": "2022-05-12",
+          "series": 26,
+          "wins": 16,
+          "points": 0.5833333333333334
+        },
+        {
+          "name": "Bad News Eagles",
+          "roster": [
+            "gxx-",
+            "juanflatroo",
+            "rigon",
+            "sener1",
+            "sinnopsyy"
+          ],
+          "lastSeen": "2022-05-12",
+          "series": 23,
+          "wins": 16,
+          "points": 0.6363636363636364
+        },
+        {
+          "name": "Vitality",
+          "roster": [
+            "apex",
+            "dupreeh",
+            "magisk",
+            "misutaaa",
+            "zywoo"
+          ],
+          "lastSeen": "2022-05-10",
+          "series": 17,
+          "wins": 9,
+          "points": 0.5185185185185185
+        },
+        {
+          "name": "Outsiders",
+          "roster": [
+            "buster",
+            "fl1t",
+            "jame",
+            "qikert",
+            "yekindar"
+          ],
+          "lastSeen": "2022-05-11",
+          "series": 20,
+          "wins": 12,
+          "points": 0.5666666666666667
+        },
+        {
+          "name": "ENCE",
+          "roster": [
+            "dycha",
+            "hades",
+            "maden",
+            "snappi",
+            "spinx"
+          ],
+          "lastSeen": "2022-05-11",
+          "series": 38,
+          "wins": 27,
+          "points": 0.6666666666666666
+        },
+        {
+          "name": "Spirit",
+          "roster": [
+            "chopper",
+            "degster",
+            "magixx",
+            "patsi",
+            "s1ren"
+          ],
+          "lastSeen": "2022-05-11",
+          "series": 22,
+          "wins": 17,
+          "points": 0.6875
+        },
+        {
+          "name": "G2",
+          "roster": [
+            "aleksib",
+            "hunter-",
+            "jackz",
+            "m0nesy",
+            "niko"
+          ],
+          "lastSeen": "2022-05-10",
+          "series": 19,
+          "wins": 13,
+          "points": 0.6206896551724138
+        },
+        {
+          "name": "Imperial",
+          "roster": [
+            "boltz",
+            "fallen",
+            "fer",
+            "fnx",
+            "vini"
+          ],
+          "lastSeen": "2022-05-12",
+          "series": 27,
+          "wins": 19,
+          "points": 0.6486486486486487
+        }
+      ],
+      "actual": [
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        0,
+        3,
+        2,
+        2,
+        3,
+        3,
+        1,
+        0,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "IEM Rio Major 2022",
+      "date": "2022-11-05",
+      "end": "2022-11-08",
+      "source": "https://www.hltv.org/news/34983/two-top-5-matchups-in-first-round-of-iem-rio-legends-stage",
+      "teams": [
+        {
+          "name": "Liquid",
+          "roster": [
+            "elige",
+            "naf",
+            "nitr0",
+            "osee",
+            "yekindar"
+          ],
+          "lastSeen": "2022-10-09",
+          "series": 18,
+          "wins": 14,
+          "points": 0.6785714285714286
+        },
+        {
+          "name": "Spirit",
+          "roster": [
+            "chopper",
+            "magixx",
+            "patsi",
+            "s1ren",
+            "w0nderful"
+          ],
+          "lastSeen": "2022-10-22",
+          "series": 15,
+          "wins": 10,
+          "points": 0.6
+        },
+        {
+          "name": "FaZe",
+          "roster": [
+            "broky",
+            "karrigan",
+            "rain",
+            "ropz",
+            "twistzz"
+          ],
+          "lastSeen": "2022-10-06",
+          "series": 13,
+          "wins": 10,
+          "points": 0.6521739130434783
+        },
+        {
+          "name": "Sprout",
+          "roster": [
+            "launx",
+            "refrezh",
+            "slaxz-",
+            "staehr",
+            "zyphon"
+          ],
+          "lastSeen": "2022-10-25",
+          "series": 27,
+          "wins": 16,
+          "points": 0.5675675675675675
+        },
+        {
+          "name": "Natus Vincere",
+          "roster": [
+            "b1t",
+            "electronic",
+            "perfecto",
+            "s1mple",
+            "sdy"
+          ],
+          "lastSeen": "2022-10-06",
+          "series": 13,
+          "wins": 9,
+          "points": 0.6086956521739131
+        },
+        {
+          "name": "Heroic",
+          "roster": [
+            "cadian",
+            "jabbi",
+            "sjuush",
+            "stavn",
+            "teses"
+          ],
+          "lastSeen": "2022-10-23",
+          "series": 17,
+          "wins": 12,
+          "points": 0.6296296296296297
+        },
+        {
+          "name": "Ninjas in Pyjamas",
+          "roster": [
+            "aleksib",
+            "brollan",
+            "es3tag",
+            "hampus",
+            "rez"
+          ],
+          "lastSeen": "2022-10-16",
+          "series": 14,
+          "wins": 9,
+          "points": 0.5833333333333334
+        },
+        {
+          "name": "ENCE",
+          "roster": [
+            "dycha",
+            "maden",
+            "snappi",
+            "sunpayus",
+            "valde"
+          ],
+          "lastSeen": "2022-10-16",
+          "series": 15,
+          "wins": 8,
+          "points": 0.52
+        },
+        {
+          "name": "MOUZ",
+          "roster": [
+            "dexter",
+            "frozen",
+            "jdc",
+            "torzsi",
+            "xertion"
+          ],
+          "lastSeen": "2022-11-01",
+          "series": 25,
+          "wins": 18,
+          "points": 0.6571428571428571
+        },
+        {
+          "name": "Bad News Eagles",
+          "roster": [
+            "gxx-",
+            "juanflatroo",
+            "rigon",
+            "sener1",
+            "sinnopsyy"
+          ],
+          "lastSeen": "2022-11-01",
+          "series": 27,
+          "wins": 19,
+          "points": 0.6486486486486487
+        },
+        {
+          "name": "Cloud9",
+          "roster": [
+            "ax1le",
+            "hobbit",
+            "interz",
+            "nafany",
+            "sh1ro"
+          ],
+          "lastSeen": "2022-11-03",
+          "series": 17,
+          "wins": 11,
+          "points": 0.5925925925925926
+        },
+        {
+          "name": "BIG",
+          "roster": [
+            "k1to",
+            "krimbo",
+            "s1n",
+            "syrson",
+            "tabsen"
+          ],
+          "lastSeen": "2022-11-02",
+          "series": 17,
+          "wins": 9,
+          "points": 0.5185185185185185
+        },
+        {
+          "name": "Vitality",
+          "roster": [
+            "apex",
+            "dupreeh",
+            "magisk",
+            "spinx",
+            "zywoo"
+          ],
+          "lastSeen": "2022-11-03",
+          "series": 26,
+          "wins": 18,
+          "points": 0.6388888888888888
+        },
+        {
+          "name": "Outsiders",
+          "roster": [
+            "fame",
+            "fl1t",
+            "jame",
+            "n0rb3r7",
+            "qikert"
+          ],
+          "lastSeen": "2022-11-02",
+          "series": 21,
+          "wins": 14,
+          "points": 0.6129032258064516
+        },
+        {
+          "name": "fnatic",
+          "roster": [
+            "fashr",
+            "krimz",
+            "mezii",
+            "nicoodoz",
+            "roej"
+          ],
+          "lastSeen": "2022-11-03",
+          "series": 29,
+          "wins": 19,
+          "points": 0.6153846153846154
+        },
+        {
+          "name": "FURIA",
+          "roster": [
+            "art",
+            "drop",
+            "kscerato",
+            "saffee",
+            "yuurih"
+          ],
+          "lastSeen": "2022-11-02",
+          "series": 14,
+          "wins": 10,
+          "points": 0.625
+        }
+      ],
+      "actual": [
+        3,
+        1,
+        2,
+        3,
+        1,
+        1,
+        2,
+        3,
+        1,
+        3,
+        0,
+        3,
+        3,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "BLAST.tv Paris Major 2023",
+      "date": "2023-05-13",
+      "end": "2023-05-16",
+      "source": "https://www.hltv.org/news/36256/two-top-five-matchups-set-for-first-round-blast-paris-major-legends-stage",
+      "teams": [
+        {
+          "name": "Natus Vincere",
+          "roster": [
+            "b1t",
+            "electronic",
+            "npl",
+            "perfecto",
+            "s1mple"
+          ],
+          "lastSeen": "2023-04-22",
+          "series": 15,
+          "wins": 12,
+          "points": 0.68
+        },
+        {
+          "name": "9INE",
+          "roster": [
+            "goofy",
+            "hades",
+            "kei",
+            "kylar",
+            "mynio"
+          ],
+          "lastSeen": "2023-05-02",
+          "series": 40,
+          "wins": 28,
+          "points": 0.66
+        },
+        {
+          "name": "FURIA",
+          "roster": [
+            "art",
+            "drop",
+            "kscerato",
+            "saffee",
+            "yuurih"
+          ],
+          "lastSeen": "2023-04-21",
+          "series": 15,
+          "wins": 10,
+          "points": 0.6
+        },
+        {
+          "name": "fnatic",
+          "roster": [
+            "fashr",
+            "krimz",
+            "mezii",
+            "nicoodoz",
+            "roej"
+          ],
+          "lastSeen": "2023-04-19",
+          "series": 19,
+          "wins": 10,
+          "points": 0.5172413793103449
+        },
+        {
+          "name": "Heroic",
+          "roster": [
+            "cadian",
+            "jabbi",
+            "sjuush",
+            "stavn",
+            "teses"
+          ],
+          "lastSeen": "2023-04-23",
+          "series": 14,
+          "wins": 10,
+          "points": 0.625
+        },
+        {
+          "name": "Into the Breach",
+          "roster": [
+            "cruc1al",
+            "cypher",
+            "rallen",
+            "thomas",
+            "volt"
+          ],
+          "lastSeen": "2023-05-01",
+          "series": 36,
+          "wins": 20,
+          "points": 0.5434782608695652
+        },
+        {
+          "name": "Vitality",
+          "roster": [
+            "apex",
+            "dupreeh",
+            "magisk",
+            "spinx",
+            "zywoo"
+          ],
+          "lastSeen": "2023-04-23",
+          "series": 17,
+          "wins": 14,
+          "points": 0.7037037037037037
+        },
+        {
+          "name": "Bad News Eagles",
+          "roster": [
+            "gxx-",
+            "juanflatroo",
+            "rigon",
+            "sener1",
+            "sinnopsyy"
+          ],
+          "lastSeen": "2023-04-30",
+          "series": 29,
+          "wins": 19,
+          "points": 0.6153846153846154
+        },
+        {
+          "name": "GamerLegion",
+          "roster": [
+            "acor",
+            "im",
+            "isak",
+            "keoz",
+            "siuhy"
+          ],
+          "lastSeen": "2023-05-11",
+          "series": 35,
+          "wins": 24,
+          "points": 0.6444444444444445
+        },
+        {
+          "name": "Liquid",
+          "roster": [
+            "elige",
+            "naf",
+            "nitr0",
+            "osee",
+            "yekindar"
+          ],
+          "lastSeen": "2023-05-11",
+          "series": 17,
+          "wins": 10,
+          "points": 0.5555555555555556
+        },
+        {
+          "name": "Monte",
+          "roster": [
+            "boros",
+            "demqq",
+            "krasnal",
+            "sdy",
+            "woro2k"
+          ],
+          "lastSeen": "2023-05-12",
+          "series": 66,
+          "wins": 48,
+          "points": 0.6973684210526315
+        },
+        {
+          "name": "Ninjas in Pyjamas",
+          "roster": [
+            "aleksib",
+            "brollan",
+            "headtr1ck",
+            "k0nfig",
+            "rez"
+          ],
+          "lastSeen": "2023-05-10",
+          "series": 28,
+          "wins": 16,
+          "points": 0.5526315789473685
+        },
+        {
+          "name": "FaZe",
+          "roster": [
+            "broky",
+            "karrigan",
+            "rain",
+            "ropz",
+            "twistzz"
+          ],
+          "lastSeen": "2023-05-10",
+          "series": 21,
+          "wins": 14,
+          "points": 0.6129032258064516
+        },
+        {
+          "name": "Apeks",
+          "roster": [
+            "jkaem",
+            "jl",
+            "kyxsan",
+            "nawwk",
+            "styko"
+          ],
+          "lastSeen": "2023-05-10",
+          "series": 51,
+          "wins": 34,
+          "points": 0.639344262295082
+        },
+        {
+          "name": "G2",
+          "roster": [
+            "hooxi",
+            "hunter-",
+            "jks",
+            "m0nesy",
+            "niko"
+          ],
+          "lastSeen": "2023-05-09",
+          "series": 18,
+          "wins": 14,
+          "points": 0.6785714285714286
+        },
+        {
+          "name": "ENCE",
+          "roster": [
+            "dycha",
+            "maden",
+            "nertz",
+            "snappi",
+            "sunpayus"
+          ],
+          "lastSeen": "2023-05-09",
+          "series": 22,
+          "wins": 14,
+          "points": 0.59375
+        }
+      ],
+      "actual": [
+        3,
+        2,
+        2,
+        3,
+        0,
+        1,
+        0,
+        3,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        3,
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "day": "2026-10-07",
+    "roster": [
+      "JBa",
+      "Lake",
+      "s1n",
+      "slaxz-",
+      "Swisher"
+    ],
+    "map": "Dust2",
+    "id": 240945,
+    "seriesId": 2398749,
+    "url": "https://www.hltv.org/stats/matches/mapstatsid/240945/m80-vs-spirit",
+    "rounds": 19,
+    "opponent": "Spirit",
+    "sideName": "M80",
+    "score": "6-13",
+    "seriesUrl": "https://www.hltv.org/matches/2398749/spirit-vs-m80-esl-pro-league-season-24",
+    "firstMapPlayerKills": {"JBa": 16, "s1n": 11, "slaxz-": 7, "Lake": 9, "Swisher": 8},
+    "kills": 51,
+    "headshots": 31,
+    "assists": 14,
+    "flashAssists": 2,
+    "openingKills": 11,
+    "openingDeaths": 8
+  },
+  {
+    "day": "2026-10-06",
+    "roster": [
+      "JBa",
+      "Lake",
+      "s1n",
+      "slaxz-",
+      "Swisher"
+    ],
+    "map": "Cache",
+    "id": 240814,
+    "seriesId": 2398746,
+    "url": "https://www.hltv.org/stats/matches/mapstatsid/240814/legacy-vs-m80",
+    "rounds": 17,
+    "opponent": "Legacy",
+    "sideName": "M80",
+    "score": "13-4",
+    "seriesUrl": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
+    "firstMapPlayerKills": {"s1n": 18, "JBa": 12, "Swisher": 13, "Lake": 12, "slaxz-": 7},
+    "kills": 62,
+    "headshots": 33,
+    "assists": 27,
+    "flashAssists": 10,
+    "openingKills": 15,
+    "openingDeaths": 2
+  }
+]

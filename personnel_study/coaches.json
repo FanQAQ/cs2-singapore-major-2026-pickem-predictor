@@ -1,0 +1,114 @@
+{
+  "Ninjas in Pyjamas": {
+    "coach": "Xizt",
+    "coachSource": "https://www.hltv.org/team/4411/ninjas-in-pyjamas",
+    "tenureMonths": 32,
+    "coachedMaps": 574,
+    "coachSnapshot": "2026-11-21"
+  },
+  "PARIVISION": {
+    "coach": "dastan",
+    "coachSource": "https://www.hltv.org/team/12467/parivision",
+    "tenureMonths": 24,
+    "coachedMaps": 528,
+    "coachSnapshot": "2026-11-21"
+  },
+  "HEROIC": {
+    "coach": "Snappi",
+    "coachSource": "https://www.hltv.org/team/7175/heroic",
+    "tenureMonths": 1,
+    "coachedMaps": 38,
+    "coachSnapshot": "2026-11-21"
+  },
+  "FaZe": {
+    "coach": "enkay J",
+    "coachSource": "https://www.hltv.org/team/6667/faze",
+    "tenureMonths": 7,
+    "coachedMaps": 112,
+    "coachSnapshot": "2026-11-21"
+  },
+  "Eternal Fire": {
+    "coach": "Fabre",
+    "coachSource": "https://www.hltv.org/team/11251/eternal-fire",
+    "tenureMonths": 2,
+    "coachedMaps": 87,
+    "coachSnapshot": "2026-11-21"
+  },
+  "100 Thieves": {
+    "coach": "gla1ve",
+    "coachSource": "https://www.hltv.org/team/8474/100-thieves",
+    "tenureMonths": 11,
+    "coachedMaps": 208,
+    "coachSnapshot": "2026-11-21"
+  },
+  "Liquid": {
+    "coach": "flashie",
+    "coachSource": "https://www.hltv.org/team/5973/liquid",
+    "tenureMonths": 16,
+    "coachedMaps": 267,
+    "coachSnapshot": "2026-11-21"
+  },
+  "9z": {
+    "coach": "BIT",
+    "coachSource": "https://www.hltv.org/team/9996/9z",
+    "tenureMonths": 17,
+    "coachedMaps": 384,
+    "coachSnapshot": "2026-11-21"
+  },
+  "M80": {
+    "coach": "dephh",
+    "coachSource": "https://www.hltv.org/team/12376/m80",
+    "tenureMonths": 31,
+    "coachedMaps": 521,
+    "coachSnapshot": "2026-11-21"
+  },
+  "DENDELE": {
+    "coach": "coachi",
+    "coachSource": "https://www.hltv.org/team/13926/dendele",
+    "tenureMonths": 4,
+    "coachedMaps": 72,
+    "coachSnapshot": "2026-11-21"
+  },
+  "Imperial": {
+    "coach": "tacitus",
+    "coachSource": "https://www.hltv.org/team/9455/imperial",
+    "tenureMonths": 3,
+    "coachedMaps": 97,
+    "coachSnapshot": "2026-11-21"
+  },
+  "Wildcard": {
+    "coach": "splawik",
+    "coachSource": "https://www.hltv.org/team/12257/wildcard",
+    "tenureMonths": 7,
+    "coachedMaps": 92,
+    "coachSnapshot": "2026-11-21"
+  },
+  "GOSH": {
+    "coach": "TaZ",
+    "coachSource": "https://www.hltv.org/team/12878/bcgame",
+    "tenureMonths": 10,
+    "coachedMaps": 108,
+    "coachSnapshot": "2026-11-21"
+  },
+  "FlyQuest": {
+    "coach": "AZR",
+    "coachSource": "https://www.hltv.org/team/12774/flyquest",
+    "tenureMonths": 12,
+    "coachedMaps": 143,
+    "coachSnapshot": "2026-11-21"
+  },
+  "Chinggis Warriors": {
+    "coach": "Redka",
+    "coachSource": "https://www.hltv.org/team/12646/chinggis-warriors",
+    "tenureMonths": 16,
+    "coachedMaps": 300,
+    "coachSnapshot": "2026-11-21"
+  },
+  "Lynn Vision": {
+    "coach": "GUM",
+    "coachSource": "https://www.hltv.org/team/8840/lynn-vision",
+    "tenureMonths": 45,
+    "coachedMaps": 543,
+    "coachSnapshot": "2026-11-21"
+  }
+}

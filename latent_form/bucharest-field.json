@@ -1,0 +1,740 @@
+{
+  "id": "bucharest-2025-april",
+  "label": "PGL Bucharest 2025",
+  "start": "2025-04-06",
+  "teams": [
+    {
+      "name": "3DMAX",
+      "roster": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "witness": {
+        "day": "2025-03-11",
+        "url": "https://www.hltv.org/matches/2380069/liquid-vs-3dmax-esl-pro-league-season-21",
+        "team": "3DMAX",
+        "roster": [
+          "bodyy",
+          "Ex3rcice",
+          "Graviti",
+          "Lucky",
+          "Maka"
+        ]
+      },
+      "announcement": null,
+      "seedRank": 14,
+      "seedRoster": [
+        "Djoko",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "seedOverlap": 4,
+      "points": 1494,
+      "vrsRoster": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "rank": 14,
+      "overlap": 5
+    },
+    {
+      "name": "Apogee",
+      "roster": [
+        "Demho",
+        "hfah",
+        "hypex",
+        "jcobbb",
+        "Prism"
+      ],
+      "witness": {
+        "day": "2025-03-22",
+        "url": "https://www.hltv.org/matches/2380748/aurora-vs-betclic-galaxy-battle-2025-starter",
+        "team": "Apogee",
+        "roster": [
+          "Demho",
+          "hfah",
+          "hypex",
+          "jcobbb",
+          "Prism"
+        ]
+      },
+      "announcement": null,
+      "seedRank": 63,
+      "seedRoster": [
+        "Demho",
+        "hfah",
+        "hypex",
+        "jcobbb",
+        "Prism"
+      ],
+      "seedOverlap": 5,
+      "points": 852,
+      "vrsRoster": [
+        "Demho",
+        "hfah",
+        "hypex",
+        "jcobbb",
+        "Prism"
+      ],
+      "rank": 75,
+      "overlap": 5
+    },
+    {
+      "name": "Astralis",
+      "roster": [
+        "cadiaN",
+        "device",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "witness": {
+        "day": "2025-03-21",
+        "url": "https://www.hltv.org/matches/2380113/astralis-vs-faze-blast-open-lisbon-2025",
+        "team": "Astralis",
+        "roster": [
+          "cadiaN",
+          "device",
+          "jabbi",
+          "Staehr",
+          "stavn"
+        ]
+      },
+      "announcement": null,
+      "seedRank": 15,
+      "seedRoster": [
+        "cadiaN",
+        "device",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "seedOverlap": 5,
+      "points": 1665,
+      "vrsRoster": [
+        "cadiaN",
+        "device",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "rank": 10,
+      "overlap": 5
+    },
+    {
+      "name": "Aurora",
+      "roster": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "witness": {
+        "day": "2025-03-29",
+        "url": "https://www.hltv.org/matches/2380133/eternal-fire-vs-mouz-blast-open-lisbon-2025",
+        "team": "Eternal Fire",
+        "roster": [
+          "jottAAA",
+          "MAJ3R",
+          "Wicadia",
+          "woxic",
+          "XANTARES"
+        ]
+      },
+      "announcement": "https://www.hltv.org/news/41357/aurora-sign-eternal-fire-roster-in-shock-move",
+      "seedRank": 7,
+      "seedRoster": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "seedOverlap": 5,
+      "points": 1809,
+      "vrsRoster": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "rank": 7,
+      "overlap": 5
+    },
+    {
+      "name": "Complexity",
+      "roster": [
+        "Cxzi",
+        "Grim",
+        "hallzerk",
+        "JT",
+        "nicx"
+      ],
+      "witness": {
+        "day": "2025-04-03",
+        "url": "https://www.hltv.org/matches/2381294/complexity-vs-passion-ua-yalla-compass-spring-2025-closed-qualifier",
+        "team": "Complexity",
+        "roster": [
+          "Cxzi",
+          "Grim",
+          "hallzerk",
+          "JT",
+          "nicx"
+        ]
+      },
+      "announcement": null,
+      "seedRank": 22,
+      "seedRoster": [
+        "cxzi",
+        "Grim",
+        "hallzerk",
+        "JT",
+        "nicx"
+      ],
+      "seedOverlap": 5,
+      "points": 1092,
+      "vrsRoster": [
+        "Cxzi",
+        "Grim",
+        "hallzerk",
+        "JT",
+        "nicx"
+      ],
+      "rank": 23,
+      "overlap": 5
+    },
+    {
+      "name": "FURIA",
+      "roster": [
+        "chelo",
+        "FalleN",
+        "KSCERATO",
+        "skullz",
+        "yuurih"
+      ],
+      "witness": {
+        "day": "2025-03-22",
+        "url": "https://www.hltv.org/matches/2380117/m80-vs-furia-blast-open-lisbon-2025",
+        "team": "FURIA",
+        "roster": [
+          "chelo",
+          "FalleN",
+          "KSCERATO",
+          "skullz",
+          "yuurih"
+        ]
+      },
+      "announcement": null,
+      "seedRank": 11,
+      "seedRoster": [
+        "chelo",
+        "FalleN",
+        "KSCERATO",
+        "skullz",
+        "yuurih"
+      ],
+      "seedOverlap": 5,
+      "points": 1352,
+      "vrsRoster": [
+        "chelo",
+        "FalleN",
+        "KSCERATO",
+        "skullz",
+        "yuurih"
+      ],
+      "rank": 16,
+      "overlap": 5
+    },
+    {
+      "name": "FaZe",
+      "roster": [
+        "broky",
+        "EliGE",
+        "frozen",
+        "karrigan",
+        "rain"
+      ],
+      "witness": {
+        "day": "2025-03-23",
+        "url": "https://www.hltv.org/matches/2380123/faze-vs-spirit-blast-open-lisbon-2025",
+        "team": "FaZe",
+        "roster": [
+          "broky",
+          "EliGE",
+          "frozen",
+          "karrigan",
+          "rain"
+        ]
+      },
+      "announcement": null,
+      "seedRank": 5,
+      "seedRoster": [
+        "broky",
+        "EliGE",
+        "frozen",
+        "karrigan",
+        "rain"
+      ],
+      "seedOverlap": 5,
+      "points": 1839,
+      "vrsRoster": [
+        "broky",
+        "EliGE",
+        "frozen",
+        "karrigan",
+        "rain"
+      ],
+      "rank": 5,
+      "overlap": 5
+    },
+    {
+      "name": "Falcons",
+      "roster": [
+        "degster",
+        "kyxsan",
+        "Magisk",
+        "NiKo",
+        "TeSeS"
+      ],
+      "witness": {
+        "day": "2025-03-23",
+        "url": "https://www.hltv.org/matches/2380122/falcons-vs-virtuspro-blast-open-lisbon-2025",
+        "team": "Falcons",
+        "roster": [
+          "degster",
+          "kyxsan",
+          "Magisk",
+          "NiKo",
+          "TeSeS"
+        ]
+      },
+      "announcement": null,
+      "seedRank": 9,
+      "seedRoster": [
+        "degster",
+        "kyxsan",
+        "Magisk",
+        "NiKo",
+        "TeSeS"
+      ],
+      "seedOverlap": 5,
+      "points": 1830,
+      "vrsRoster": [
+        "degster",
+        "kyxsan",
+        "Magisk",
+        "NiKo",
+        "TeSeS"
+      ],
+      "rank": 6,
+      "overlap": 5
+    },
+    {
+      "name": "G2",
+      "roster": [
+        "HeavyGod",
+        "huNter-",
+        "m0NESY",
+        "malbsMd",
+        "Snax"
+      ],
+      "witness": {
+        "day": "2025-03-28",
+        "url": "https://www.hltv.org/matches/2380131/mouz-vs-g2-blast-open-lisbon-2025",
+        "team": "G2",
+        "roster": [
+          "HeavyGod",
+          "huNter-",
+          "m0NESY",
+          "malbsMd",
+          "Snax"
+        ]
+      },
+      "announcement": null,
+      "seedRank": 2,
+      "seedRoster": [
+        "HeavyGod",
+        "huNter-",
+        "m0NESY",
+        "malbsMd",
+        "Snax"
+      ],
+      "seedOverlap": 5,
+      "points": 1781,
+      "vrsRoster": [
+        "HeavyGod",
+        "huNter-",
+        "m0NESY",
+        "malbsMd",
+        "Snax"
+      ],
+      "rank": 8,
+      "overlap": 5
+    },
+    {
+      "name": "GamerLegion",
+      "roster": [
+        "PR",
+        "REZ",
+        "sl3nd",
+        "Tauson",
+        "ztr"
+      ],
+      "witness": {
+        "day": "2025-03-11",
+        "url": "https://www.hltv.org/matches/2380071/g2-vs-gamerlegion-esl-pro-league-season-21",
+        "team": "GamerLegion",
+        "roster": [
+          "PR",
+          "REZ",
+          "sl3nd",
+          "Tauson",
+          "ztr"
+        ]
+      },
+      "announcement": null,
+      "seedRank": 13,
+      "seedRoster": [
+        "PR",
+        "REZ",
+        "sl3nd",
+        "Tauson",
+        "ztr"
+      ],
+      "seedOverlap": 5,
+      "points": 1497,
+      "vrsRoster": [
+        "PR",
+        "REZ",
+        "sl3nd",
+        "Tauson",
+        "ztr"
+      ],
+      "rank": 13,
+      "overlap": 5
+    },
+    {
+      "name": "Legacy",
+      "roster": [
+        "dumau",
+        "latto",
+        "lux",
+        "n1ssim",
+        "saadzin"
+      ],
+      "witness": {
+        "day": "2025-04-03",
+        "url": "https://www.hltv.org/matches/2381229/super-evil-gang-vs-legacy-esl-challenger-league-season-49-north-america",
+        "team": "Legacy",
+        "roster": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ]
+      },
+      "announcement": null,
+      "seedRank": 56,
+      "seedRoster": [
+        "dumau",
+        "latto",
+        "lux",
+        "n1ssim",
+        "saadzin"
+      ],
+      "seedOverlap": 5,
+      "points": 970,
+      "vrsRoster": [
+        "dumau",
+        "latto",
+        "lux",
+        "n1ssim",
+        "saadzin"
+      ],
+      "rank": 44,
+      "overlap": 5
+    },
+    {
+      "name": "Liquid",
+      "roster": [
+        "siuhy",
+        "NAF",
+        "NertZ",
+        "Twistzz",
+        "ultimate"
+      ],
+      "witness": {
+        "day": "2025-03-23",
+        "url": "https://www.hltv.org/matches/2380124/liquid-vs-the-mongolz-blast-open-lisbon-2025",
+        "team": "Liquid",
+        "roster": [
+          "jks",
+          "NAF",
+          "NertZ",
+          "Twistzz",
+          "ultimate"
+        ]
+      },
+      "announcement": "https://www.hltv.org/news/41325/official-siuhy-joins-liquid-on-loan",
+      "seedRank": 10,
+      "seedRoster": [
+        "jks",
+        "NAF",
+        "NertZ",
+        "Twistzz",
+        "ultimate"
+      ],
+      "seedOverlap": 4,
+      "points": 1451,
+      "vrsRoster": [
+        "jks",
+        "NAF",
+        "NertZ",
+        "Twistzz",
+        "ultimate"
+      ],
+      "rank": 15,
+      "overlap": 4
+    },
+    {
+      "name": "Rare Atom",
+      "roster": [
+        "ChildKing",
+        "kaze",
+        "L1haNg",
+        "somebody",
+        "Summer"
+      ],
+      "witness": {
+        "day": "2025-03-31",
+        "url": "https://www.hltv.org/matches/2381137/rare-atom-vs-hotu-pgl-astana-2025-asia-closed-qualifier",
+        "team": "Rare Atom",
+        "roster": [
+          "ChildKing",
+          "kaze",
+          "L1haNg",
+          "somebody",
+          "Summer"
+        ]
+      },
+      "announcement": null,
+      "seedRank": 82,
+      "seedRoster": [
+        "ChildKing",
+        "kaze",
+        "L1haNg",
+        "salmon",
+        "Summer"
+      ],
+      "seedOverlap": 4,
+      "points": 891,
+      "vrsRoster": [
+        "ChildKing",
+        "kaze",
+        "L1haNg",
+        "somebody",
+        "Summer"
+      ],
+      "rank": 58,
+      "overlap": 5
+    },
+    {
+      "name": "The MongolZ",
+      "roster": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "witness": {
+        "day": "2025-03-24",
+        "url": "https://www.hltv.org/matches/2380129/the-mongolz-vs-g2-blast-open-lisbon-2025",
+        "team": "The MongolZ",
+        "roster": [
+          "910",
+          "bLitz",
+          "mzinho",
+          "Senzu",
+          "Techno"
+        ]
+      },
+      "announcement": null,
+      "seedRank": 3,
+      "seedRoster": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "seedOverlap": 5,
+      "points": 1885,
+      "vrsRoster": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "rank": 3,
+      "overlap": 5
+    },
+    {
+      "name": "Virtus.pro",
+      "roster": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "witness": {
+        "day": "2025-03-24",
+        "url": "https://www.hltv.org/matches/2380127/virtuspro-vs-spirit-blast-open-lisbon-2025",
+        "team": "Virtus.pro",
+        "roster": [
+          "electroNic",
+          "fame",
+          "FL1T",
+          "FL4MUS",
+          "ICY"
+        ]
+      },
+      "announcement": null,
+      "seedRank": 12,
+      "seedRoster": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "seedOverlap": 5,
+      "points": 1531,
+      "vrsRoster": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "rank": 12,
+      "overlap": 5
+    },
+    {
+      "name": "paiN",
+      "roster": [
+        "biguzera",
+        "dav1deuS",
+        "deemO",
+        "nqz",
+        "snow"
+      ],
+      "witness": {
+        "day": "2025-03-10",
+        "url": "https://www.hltv.org/matches/2380066/eternal-fire-vs-pain-esl-pro-league-season-21",
+        "team": "paiN",
+        "roster": [
+          "biguzera",
+          "dav1deuS",
+          "kauez",
+          "nqz",
+          "snow"
+        ]
+      },
+      "announcement": "https://www.dust2.com.br/noticias/59065/pain-coloca-kauez-no-banco-e-testara-jogador",
+      "seedRank": 16,
+      "seedRoster": [
+        "biguzera",
+        "dav1deuS",
+        "kauez",
+        "nqz",
+        "snow"
+      ],
+      "seedOverlap": 4,
+      "points": 1539,
+      "vrsRoster": [
+        "biguzera",
+        "dav1deuS",
+        "kauez",
+        "nqz",
+        "snow"
+      ],
+      "rank": 11,
+      "overlap": 4
+    }
+  ],
+  "seedOrder": [
+    8,
+    13,
+    6,
+    3,
+    7,
+    11,
+    5,
+    14,
+    9,
+    0,
+    2,
+    15,
+    4,
+    10,
+    1,
+    12
+  ],
+  "openingPairs": [
+    [
+      "The MongolZ",
+      "3DMAX"
+    ],
+    [
+      "Virtus.pro",
+      "Rare Atom"
+    ],
+    [
+      "G2",
+      "GamerLegion"
+    ],
+    [
+      "Falcons",
+      "Complexity"
+    ],
+    [
+      "Aurora",
+      "paiN"
+    ],
+    [
+      "Liquid",
+      "Legacy"
+    ],
+    [
+      "FaZe",
+      "Astralis"
+    ],
+    [
+      "FURIA",
+      "Apogee"
+    ]
+  ],
+  "openingSource": "https://x.com/pglesports/status/1906646339301105947",
+  "seedPublishedAt": "2025-02-03T18:47:10Z",
+  "seedSha256": "13e0e9e489be14d285133df904d42718a498b018b4392320ce1ba62568d836ba",
+  "seedSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/b3e2791b20488edc40eeedf5062c35cd9665df9b/invitation/2025/standings_global_2025_02_03.md",
+  "rankPublishedAt": "2025-03-03T17:49:38Z",
+  "rankSha256": "44279195ac8808fceb743c7c83252f0cd7e70e3536fa12f67021724e519f23cd",
+  "archiveSha256": "750b0da45142fc797eddb708698d14d269237e59784d6a1d066eddba0ba31551",
+  "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/293e01e588b5e751ee0b306dc2958765dc63dce0/invitation/2025/standings_global_2025_03_03.md",
+  "archiveSource": "https://raw.githubusercontent.com/zugzugs/hltvy/1a00ba2893a63646f0d940e626b6da95d342a187/results.json.gz"
+}

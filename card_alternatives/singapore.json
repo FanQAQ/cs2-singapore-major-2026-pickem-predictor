@@ -1,0 +1,73 @@
+{
+  "event": "singapore",
+  "methods": {
+    "recommended": "94e8d6b35c3e091664f6e344cc643df9ad475a7b4ecb9b071aaba819eff47f66",
+    "tree": "7ab03a9f39de31866534dc34af374e7f1fe4969429ec23c097673978f3030e39"
+  },
+  "byFingerprint": {
+    "94e8d6b35c3e091664f6e344cc643df9ad475a7b4ecb9b071aaba819eff47f66": {
+      "hint": {
+        "perfectTeam": 1,
+        "ordinaryTeam": 3,
+        "card": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          3,
+          3,
+          3,
+          1,
+          3,
+          3,
+          2,
+          2,
+          3
+        ],
+        "originalPass": 0.2511275,
+        "swappedPass": 0.2473075,
+        "delta": -0.00382,
+        "interval": [
+          -0.006144722913477335,
+          -0.0014952770865226655
+        ],
+        "n": 400000
+      }
+    },
+    "7ab03a9f39de31866534dc34af374e7f1fe4969429ec23c097673978f3030e39": {
+      "hint": {
+        "perfectTeam": 5,
+        "ordinaryTeam": 0,
+        "card": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "originalPass": 0.2301725,
+        "swappedPass": 0.22343,
+        "delta": -0.0067425,
+        "interval": [
+          -0.009032182052065938,
+          -0.004452817947934063
+        ],
+        "n": 400000
+      }
+    }
+  }
+}

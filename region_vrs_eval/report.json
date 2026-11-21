@@ -1,0 +1,2390 @@
+{
+  "seed": 33719,
+  "simulationCount": 24000,
+  "sensitivitySeeds": [
+    33719,
+    2654469480,
+    1013937945,
+    3668373706,
+    2027842171,
+    387310636,
+    3041746397,
+    1401214862,
+    4055650623,
+    2415119088,
+    774587553,
+    3429023314,
+    1788491779,
+    147960244,
+    2802396005,
+    1161864470,
+    3816300231,
+    2175768696,
+    535237161,
+    3189672922,
+    1549141387,
+    4203577148,
+    2563045613,
+    922514078,
+    3576949839,
+    1936418304,
+    295886769,
+    2950322530,
+    1309790995,
+    3964226756
+  ],
+  "stageCount": 5,
+  "stages": [
+    {
+      "id": "copenhagen",
+      "label": "哥本哈根 2024",
+      "asOf": "2024-03-04",
+      "models": {
+        "base": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.23482687,
+            "logLoss": 0.66112262,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 12,
+            "brier": 0.24613827,
+            "logLoss": 0.68412801,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 7,
+            "brier": 0.21742472,
+            "logLoss": 0.62572972,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              3,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 2,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        },
+        "baseVrs": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.23482687,
+            "logLoss": 0.66112262,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 12,
+            "brier": 0.24613827,
+            "logLoss": 0.68412801,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 7,
+            "brier": 0.21742472,
+            "logLoss": 0.62572972,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              3,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 2,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        },
+        "region": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.23482687,
+            "logLoss": 0.66112262,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 12,
+            "brier": 0.24613827,
+            "logLoss": 0.68412801,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 7,
+            "brier": 0.21742472,
+            "logLoss": 0.62572972,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              3,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 2,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        },
+        "regionVrs": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.23482687,
+            "logLoss": 0.66112262,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 12,
+            "brier": 0.24613827,
+            "logLoss": 0.68412801,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 7,
+            "brier": 0.21742472,
+            "logLoss": 0.62572972,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              3,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 2,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        },
+        "combined": {
+          "all": {
+            "n": 33,
+            "correct": 20,
+            "brier": 0.23485184,
+            "logLoss": 0.66135902,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 12,
+            "brier": 0.24572819,
+            "logLoss": 0.68336234,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 8,
+            "brier": 0.21811898,
+            "logLoss": 0.62750776,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              3,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 2,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        },
+        "combinedVrs": {
+          "all": {
+            "n": 33,
+            "correct": 20,
+            "brier": 0.23485184,
+            "logLoss": 0.66135902,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 12,
+            "brier": 0.24572819,
+            "logLoss": 0.68336234,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 8,
+            "brier": 0.21811898,
+            "logLoss": 0.62750776,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              3,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 2,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "shanghai",
+      "label": "上海 2024",
+      "asOf": "2024-11-06",
+      "models": {
+        "base": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.22412775,
+            "logLoss": 0.63725698,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 10,
+            "brier": 0.22726146,
+            "logLoss": 0.64206795,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 9,
+            "brier": 0.21930664,
+            "logLoss": 0.62985548,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              1,
+              2,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 0,
+            "top6": 1,
+            "seedBottom2": 1
+          }
+        },
+        "baseVrs": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.22412775,
+            "logLoss": 0.63725698,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 10,
+            "brier": 0.22726146,
+            "logLoss": 0.64206795,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 9,
+            "brier": 0.21930664,
+            "logLoss": 0.62985548,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              1,
+              2,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 0,
+            "top6": 1,
+            "seedBottom2": 1
+          }
+        },
+        "region": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.22412775,
+            "logLoss": 0.63725698,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 10,
+            "brier": 0.22726146,
+            "logLoss": 0.64206795,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 9,
+            "brier": 0.21930664,
+            "logLoss": 0.62985548,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              1,
+              2,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 1,
+            "top6": 1,
+            "seedBottom2": 1
+          }
+        },
+        "regionVrs": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.22412775,
+            "logLoss": 0.63725698,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 10,
+            "brier": 0.22726146,
+            "logLoss": 0.64206795,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 9,
+            "brier": 0.21930664,
+            "logLoss": 0.62985548,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              1,
+              2,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 1,
+            "top6": 1,
+            "seedBottom2": 1
+          }
+        },
+        "combined": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.22561212,
+            "logLoss": 0.64067982,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 10,
+            "brier": 0.23069523,
+            "logLoss": 0.64956397,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 9,
+            "brier": 0.21779195,
+            "logLoss": 0.6270119,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              1,
+              2,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 1,
+            "top6": 1,
+            "seedBottom2": 1
+          }
+        },
+        "combinedVrs": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.22561212,
+            "logLoss": 0.64067982,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 10,
+            "brier": 0.23069523,
+            "logLoss": 0.64956397,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 9,
+            "brier": 0.21779195,
+            "logLoss": 0.6270119,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              1,
+              2,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 1,
+            "top6": 1,
+            "seedBottom2": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "austin",
+      "label": "奥斯汀 Major 2025",
+      "asOf": "2025-06-02",
+      "models": {
+        "base": {
+          "all": {
+            "n": 33,
+            "correct": 18,
+            "brier": 0.22223055,
+            "logLoss": 0.6330897,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 9,
+            "brier": 0.24262137,
+            "logLoss": 0.67574114,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 9,
+            "brier": 0.19086004,
+            "logLoss": 0.56747211,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 4,
+            "passed": false,
+            "bucketHits": [
+              1,
+              3,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 2,
+            "top6": 2,
+            "seedBottom2": 2
+          }
+        },
+        "baseVrs": {
+          "all": {
+            "n": 33,
+            "correct": 22,
+            "brier": 0.20846377,
+            "logLoss": 0.60367852,
+            "changed": 21,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 13,
+            "brier": 0.22516748,
+            "logLoss": 0.63908068,
+            "changed": 14,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 9,
+            "brier": 0.18276574,
+            "logLoss": 0.54921365,
+            "changed": 7,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              4,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 1,
+            "top6": 1,
+            "seedBottom2": 2
+          }
+        },
+        "region": {
+          "all": {
+            "n": 33,
+            "correct": 23,
+            "brier": 0.20863472,
+            "logLoss": 0.60304015,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 13,
+            "brier": 0.23039861,
+            "logLoss": 0.64911235,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 10,
+            "brier": 0.17515182,
+            "logLoss": 0.53215986,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              4,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 1,
+            "top6": 1,
+            "seedBottom2": 2
+          }
+        },
+        "regionVrs": {
+          "all": {
+            "n": 33,
+            "correct": 23,
+            "brier": 0.20863472,
+            "logLoss": 0.60304015,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 13,
+            "brier": 0.23039861,
+            "logLoss": 0.64911235,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 10,
+            "brier": 0.17515182,
+            "logLoss": 0.53215986,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              4,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 1,
+            "top6": 1,
+            "seedBottom2": 2
+          }
+        },
+        "combined": {
+          "all": {
+            "n": 33,
+            "correct": 23,
+            "brier": 0.20863472,
+            "logLoss": 0.60304015,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 13,
+            "brier": 0.23039861,
+            "logLoss": 0.64911235,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 10,
+            "brier": 0.17515182,
+            "logLoss": 0.53215986,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              4,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 1,
+            "top6": 1,
+            "seedBottom2": 2
+          }
+        },
+        "combinedVrs": {
+          "all": {
+            "n": 33,
+            "correct": 23,
+            "brier": 0.20863472,
+            "logLoss": 0.60304015,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 13,
+            "brier": 0.23039861,
+            "logLoss": 0.64911235,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 10,
+            "brier": 0.17515182,
+            "logLoss": 0.53215986,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              4,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 1,
+            "top6": 1,
+            "seedBottom2": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "budapest",
+      "label": "布达佩斯 Major 2025",
+      "asOf": "2025-11-03",
+      "models": {
+        "base": {
+          "all": {
+            "n": 33,
+            "correct": 18,
+            "brier": 0.24175739,
+            "logLoss": 0.67550242,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 8,
+            "brier": 0.26920199,
+            "logLoss": 0.73193103,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 10,
+            "brier": 0.19953492,
+            "logLoss": 0.58868919,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              0,
+              4,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 1,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        },
+        "baseVrs": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.23960393,
+            "logLoss": 0.67160982,
+            "changed": 26,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 9,
+            "brier": 0.2834868,
+            "logLoss": 0.76465258,
+            "changed": 17,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 10,
+            "brier": 0.17209181,
+            "logLoss": 0.52846711,
+            "changed": 9,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 6,
+            "passed": true,
+            "bucketHits": [
+              0,
+              5,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 1,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        },
+        "region": {
+          "all": {
+            "n": 33,
+            "correct": 18,
+            "brier": 0.24175739,
+            "logLoss": 0.67550242,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 8,
+            "brier": 0.26920199,
+            "logLoss": 0.73193103,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 10,
+            "brier": 0.19953492,
+            "logLoss": 0.58868919,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              0,
+              4,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 1,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        },
+        "regionVrs": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.23960393,
+            "logLoss": 0.67160982,
+            "changed": 26,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 9,
+            "brier": 0.2834868,
+            "logLoss": 0.76465258,
+            "changed": 17,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 10,
+            "brier": 0.17209181,
+            "logLoss": 0.52846711,
+            "changed": 9,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 6,
+            "passed": true,
+            "bucketHits": [
+              0,
+              5,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 1,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        },
+        "combined": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.24460705,
+            "logLoss": 0.68131942,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 9,
+            "brier": 0.26617015,
+            "logLoss": 0.72543394,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 10,
+            "brier": 0.21143306,
+            "logLoss": 0.61345093,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 4,
+            "passed": false,
+            "bucketHits": [
+              0,
+              4,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 1,
+            "top6": 1,
+            "seedBottom2": 1
+          }
+        },
+        "combinedVrs": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.24163979,
+            "logLoss": 0.67554869,
+            "changed": 26,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 9,
+            "brier": 0.27971086,
+            "logLoss": 0.75600991,
+            "changed": 17,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 10,
+            "brier": 0.1830689,
+            "logLoss": 0.55176219,
+            "changed": 9,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 6,
+            "passed": true,
+            "bucketHits": [
+              0,
+              5,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 1,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "cologne",
+      "label": "科隆 Major 2026",
+      "asOf": "2026-06-01",
+      "models": {
+        "base": {
+          "all": {
+            "n": 33,
+            "correct": 21,
+            "brier": 0.22584131,
+            "logLoss": 0.64094867,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 15,
+            "brier": 0.21307651,
+            "logLoss": 0.6143028,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 6,
+            "brier": 0.24547947,
+            "logLoss": 0.68194231,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              0,
+              3,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 0,
+            "top6": 1,
+            "seedBottom2": 0
+          }
+        },
+        "baseVrs": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.22906695,
+            "logLoss": 0.64699384,
+            "changed": 26,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 14,
+            "brier": 0.21345007,
+            "logLoss": 0.61463845,
+            "changed": 18,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 5,
+            "brier": 0.25309292,
+            "logLoss": 0.69677136,
+            "changed": 8,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 4,
+            "passed": false,
+            "bucketHits": [
+              1,
+              3,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 0,
+            "top6": 1,
+            "seedBottom2": 0
+          }
+        },
+        "region": {
+          "all": {
+            "n": 33,
+            "correct": 20,
+            "brier": 0.23028308,
+            "logLoss": 0.64981731,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 14,
+            "brier": 0.22032701,
+            "logLoss": 0.62946238,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 6,
+            "brier": 0.24560013,
+            "logLoss": 0.68113258,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              1,
+              2,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 0,
+            "top6": 1,
+            "seedBottom2": 0
+          }
+        },
+        "regionVrs": {
+          "all": {
+            "n": 33,
+            "correct": 20,
+            "brier": 0.23028308,
+            "logLoss": 0.64981731,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 14,
+            "brier": 0.22032701,
+            "logLoss": 0.62946238,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 6,
+            "brier": 0.24560013,
+            "logLoss": 0.68113258,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              1,
+              2,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 0,
+            "top6": 1,
+            "seedBottom2": 0
+          }
+        },
+        "combined": {
+          "all": {
+            "n": 33,
+            "correct": 20,
+            "brier": 0.23028308,
+            "logLoss": 0.64981731,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 14,
+            "brier": 0.22032701,
+            "logLoss": 0.62946238,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 6,
+            "brier": 0.24560013,
+            "logLoss": 0.68113258,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              1,
+              2,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 0,
+            "top6": 1,
+            "seedBottom2": 0
+          }
+        },
+        "combinedVrs": {
+          "all": {
+            "n": 33,
+            "correct": 20,
+            "brier": 0.23028308,
+            "logLoss": 0.64981731,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 14,
+            "brier": 0.22032701,
+            "logLoss": 0.62946238,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 6,
+            "brier": 0.24560013,
+            "logLoss": 0.68113258,
+            "changed": 0,
+            "firstRegion": null,
+            "predictedRate": null,
+            "observedRate": null,
+            "observedWins": null
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              1,
+              2,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 0,
+            "top6": 1,
+            "seedBottom2": 0
+          }
+        }
+      }
+    }
+  ],
+  "totals": {
+    "base": {
+      "all": {
+        "n": 165,
+        "correct": 95,
+        "brier": 0.22975677,
+        "logLoss": 0.64958408,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "bo1": {
+        "n": 100,
+        "correct": 54,
+        "brier": 0.23965992,
+        "logLoss": 0.66963419,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "bo3": {
+        "n": 65,
+        "correct": 41,
+        "brier": 0.21452116,
+        "logLoss": 0.61873776,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "card": {
+        "hits": 20,
+        "passes": 2,
+        "bucketHits": [
+          3,
+          15,
+          2
+        ]
+      },
+      "tail": {
+        "top2": 2,
+        "top4": 5,
+        "top6": 8,
+        "seedBottom2": 5
+      },
+      "stability": {
+        "meanHits": 21.5,
+        "meanPasses": 2.5,
+        "improved": 0,
+        "unchanged": 30,
+        "worse": 0
+      }
+    },
+    "baseVrs": {
+      "all": {
+        "n": 165,
+        "correct": 98,
+        "brier": 0.22721785,
+        "logLoss": 0.64413236,
+        "changed": 73,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "bo1": {
+        "n": 100,
+        "correct": 58,
+        "brier": 0.23910082,
+        "logLoss": 0.66891354,
+        "changed": 49,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "bo3": {
+        "n": 65,
+        "correct": 40,
+        "brier": 0.20893637,
+        "logLoss": 0.60600746,
+        "changed": 24,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "card": {
+        "hits": 23,
+        "passes": 3,
+        "bucketHits": [
+          4,
+          17,
+          2
+        ]
+      },
+      "tail": {
+        "top2": 2,
+        "top4": 4,
+        "top6": 7,
+        "seedBottom2": 5
+      },
+      "stability": {
+        "meanHits": 22.8,
+        "meanPasses": 2.86666667,
+        "improved": 11,
+        "unchanged": 19,
+        "worse": 0
+      }
+    },
+    "region": {
+      "all": {
+        "n": 165,
+        "correct": 99,
+        "brier": 0.22792596,
+        "logLoss": 0.6453479,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "bo1": {
+        "n": 100,
+        "correct": 57,
+        "brier": 0.23866547,
+        "logLoss": 0.66734034,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "bo3": {
+        "n": 65,
+        "correct": 42,
+        "brier": 0.21140365,
+        "logLoss": 0.61151336,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "card": {
+        "hits": 21,
+        "passes": 3,
+        "bucketHits": [
+          4,
+          15,
+          2
+        ]
+      },
+      "tail": {
+        "top2": 2,
+        "top4": 5,
+        "top6": 7,
+        "seedBottom2": 5
+      },
+      "stability": {
+        "meanHits": 21.56666667,
+        "meanPasses": 2.73333333,
+        "improved": 0,
+        "unchanged": 30,
+        "worse": 0
+      }
+    },
+    "regionVrs": {
+      "all": {
+        "n": 165,
+        "correct": 100,
+        "brier": 0.22749527,
+        "logLoss": 0.64456938,
+        "changed": 26,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "bo1": {
+        "n": 100,
+        "correct": 58,
+        "brier": 0.24152243,
+        "logLoss": 0.67388465,
+        "changed": 17,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "bo3": {
+        "n": 65,
+        "correct": 42,
+        "brier": 0.20591502,
+        "logLoss": 0.59946895,
+        "changed": 9,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "card": {
+        "hits": 22,
+        "passes": 3,
+        "bucketHits": [
+          4,
+          16,
+          2
+        ]
+      },
+      "tail": {
+        "top2": 2,
+        "top4": 5,
+        "top6": 7,
+        "seedBottom2": 5
+      },
+      "stability": {
+        "meanHits": 22.2,
+        "meanPasses": 2.73333333,
+        "improved": 0,
+        "unchanged": 30,
+        "worse": 0
+      }
+    },
+    "combined": {
+      "all": {
+        "n": 165,
+        "correct": 101,
+        "brier": 0.22879776,
+        "logLoss": 0.64724314,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "bo1": {
+        "n": 100,
+        "correct": 58,
+        "brier": 0.23866384,
+        "logLoss": 0.66738699,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "bo3": {
+        "n": 65,
+        "correct": 43,
+        "brier": 0.21361919,
+        "logLoss": 0.61625261,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "card": {
+        "hits": 20,
+        "passes": 2,
+        "bucketHits": [
+          4,
+          15,
+          1
+        ]
+      },
+      "tail": {
+        "top2": 1,
+        "top4": 5,
+        "top6": 6,
+        "seedBottom2": 5
+      },
+      "stability": {
+        "meanHits": 21.2,
+        "meanPasses": 2.73333333,
+        "improved": 0,
+        "unchanged": 30,
+        "worse": 0
+      }
+    },
+    "combinedVrs": {
+      "all": {
+        "n": 165,
+        "correct": 101,
+        "brier": 0.22820431,
+        "logLoss": 0.646089,
+        "changed": 26,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "bo1": {
+        "n": 100,
+        "correct": 58,
+        "brier": 0.24137198,
+        "logLoss": 0.67350219,
+        "changed": 17,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "bo3": {
+        "n": 65,
+        "correct": 43,
+        "brier": 0.20794636,
+        "logLoss": 0.60391486,
+        "changed": 9,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "card": {
+        "hits": 22,
+        "passes": 3,
+        "bucketHits": [
+          4,
+          16,
+          2
+        ]
+      },
+      "tail": {
+        "top2": 2,
+        "top4": 5,
+        "top6": 7,
+        "seedBottom2": 5
+      },
+      "stability": {
+        "meanHits": 22.13333333,
+        "meanPasses": 2.9,
+        "improved": 5,
+        "unchanged": 25,
+        "worse": 0
+      }
+    }
+  },
+  "regionalPairs": {
+    "base": {
+      "allCross": {
+        "n": 113,
+        "correct": 61,
+        "brier": 0.23962067,
+        "logLoss": 0.66998555,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "same": {
+        "n": 40,
+        "correct": 26,
+        "brier": 0.21228308,
+        "logLoss": 0.61369374,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "unknown": {
+        "n": 12,
+        "correct": 8,
+        "brier": 0.19511739,
+        "logLoss": 0.57710474,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "americas-asia": {
+        "n": 28,
+        "correct": 16,
+        "brier": 0.24349432,
+        "logLoss": 0.67833799,
+        "changed": 0,
+        "firstRegion": "americas",
+        "predictedRate": 0.51936523,
+        "observedRate": 0.42857143,
+        "observedWins": 12
+      },
+      "americas-europe": {
+        "n": 57,
+        "correct": 27,
+        "brier": 0.26079751,
+        "logLoss": 0.71474227,
+        "changed": 0,
+        "firstRegion": "americas",
+        "predictedRate": 0.43899468,
+        "observedRate": 0.45614035,
+        "observedWins": 26
+      },
+      "asia-europe": {
+        "n": 28,
+        "correct": 18,
+        "brier": 0.19263703,
+        "logLoss": 0.57052119,
+        "changed": 0,
+        "firstRegion": "asia",
+        "predictedRate": 0.43338686,
+        "observedRate": 0.32142857,
+        "observedWins": 9
+      }
+    },
+    "baseVrs": {
+      "allCross": {
+        "n": 113,
+        "correct": 64,
+        "brier": 0.2359134,
+        "logLoss": 0.66202507,
+        "changed": 73,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "same": {
+        "n": 40,
+        "correct": 26,
+        "brier": 0.21228308,
+        "logLoss": 0.61369374,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "unknown": {
+        "n": 12,
+        "correct": 8,
+        "brier": 0.19511739,
+        "logLoss": 0.57710474,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "americas-asia": {
+        "n": 28,
+        "correct": 14,
+        "brier": 0.24721154,
+        "logLoss": 0.68620751,
+        "changed": 21,
+        "firstRegion": "americas",
+        "predictedRate": 0.54052,
+        "observedRate": 0.42857143,
+        "observedWins": 12
+      },
+      "americas-europe": {
+        "n": 57,
+        "correct": 28,
+        "brier": 0.25726276,
+        "logLoss": 0.70829065,
+        "changed": 33,
+        "firstRegion": "americas",
+        "predictedRate": 0.40580526,
+        "observedRate": 0.45614035,
+        "observedWins": 26
+      },
+      "asia-europe": {
+        "n": 28,
+        "correct": 22,
+        "brier": 0.18115405,
+        "logLoss": 0.54365911,
+        "changed": 19,
+        "firstRegion": "asia",
+        "predictedRate": 0.38265606,
+        "observedRate": 0.32142857,
+        "observedWins": 9
+      }
+    },
+    "region": {
+      "allCross": {
+        "n": 113,
+        "correct": 65,
+        "brier": 0.23694736,
+        "logLoss": 0.66379997,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "same": {
+        "n": 40,
+        "correct": 26,
+        "brier": 0.21228308,
+        "logLoss": 0.61369374,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "unknown": {
+        "n": 12,
+        "correct": 8,
+        "brier": 0.19511739,
+        "logLoss": 0.57710474,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "americas-asia": {
+        "n": 28,
+        "correct": 16,
+        "brier": 0.24289718,
+        "logLoss": 0.67759733,
+        "changed": 0,
+        "firstRegion": "americas",
+        "predictedRate": 0.53134116,
+        "observedRate": 0.42857143,
+        "observedWins": 12
+      },
+      "americas-europe": {
+        "n": 57,
+        "correct": 28,
+        "brier": 0.25664339,
+        "logLoss": 0.70551188,
+        "changed": 0,
+        "firstRegion": "americas",
+        "predictedRate": 0.41715894,
+        "observedRate": 0.45614035,
+        "observedWins": 26
+      },
+      "asia-europe": {
+        "n": 28,
+        "correct": 21,
+        "brier": 0.19090206,
+        "logLoss": 0.56508907,
+        "changed": 0,
+        "firstRegion": "asia",
+        "predictedRate": 0.39667132,
+        "observedRate": 0.32142857,
+        "observedWins": 9
+      }
+    },
+    "regionVrs": {
+      "allCross": {
+        "n": 113,
+        "correct": 66,
+        "brier": 0.23631848,
+        "logLoss": 0.66266319,
+        "changed": 26,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "same": {
+        "n": 40,
+        "correct": 26,
+        "brier": 0.21228308,
+        "logLoss": 0.61369374,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "unknown": {
+        "n": 12,
+        "correct": 8,
+        "brier": 0.19511739,
+        "logLoss": 0.57710474,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "americas-asia": {
+        "n": 28,
+        "correct": 16,
+        "brier": 0.24540318,
+        "logLoss": 0.68272518,
+        "changed": 6,
+        "firstRegion": "americas",
+        "predictedRate": 0.53996587,
+        "observedRate": 0.42857143,
+        "observedWins": 12
+      },
+      "americas-europe": {
+        "n": 57,
+        "correct": 28,
+        "brier": 0.2589191,
+        "logLoss": 0.71151742,
+        "changed": 15,
+        "firstRegion": "americas",
+        "predictedRate": 0.40057784,
+        "observedRate": 0.45614035,
+        "observedWins": 26
+      },
+      "asia-europe": {
+        "n": 28,
+        "correct": 22,
+        "brier": 0.18122536,
+        "logLoss": 0.54314796,
+        "changed": 5,
+        "firstRegion": "asia",
+        "predictedRate": 0.38237104,
+        "observedRate": 0.32142857,
+        "observedWins": 9
+      }
+    },
+    "combined": {
+      "allCross": {
+        "n": 113,
+        "correct": 67,
+        "brier": 0.23765167,
+        "logLoss": 0.66540027,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "same": {
+        "n": 40,
+        "correct": 26,
+        "brier": 0.21397062,
+        "logLoss": 0.61717817,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "unknown": {
+        "n": 12,
+        "correct": 8,
+        "brier": 0.19484725,
+        "logLoss": 0.57648015,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "americas-asia": {
+        "n": 28,
+        "correct": 17,
+        "brier": 0.24380788,
+        "logLoss": 0.6798479,
+        "changed": 0,
+        "firstRegion": "americas",
+        "predictedRate": 0.53026062,
+        "observedRate": 0.42857143,
+        "observedWins": 12
+      },
+      "americas-europe": {
+        "n": 57,
+        "correct": 29,
+        "brier": 0.25628299,
+        "logLoss": 0.70468862,
+        "changed": 0,
+        "firstRegion": "americas",
+        "predictedRate": 0.41911099,
+        "observedRate": 0.45614035,
+        "observedWins": 26
+      },
+      "asia-europe": {
+        "n": 28,
+        "correct": 21,
+        "brier": 0.19356743,
+        "logLoss": 0.57097277,
+        "changed": 0,
+        "firstRegion": "asia",
+        "predictedRate": 0.39930968,
+        "observedRate": 0.32142857,
+        "observedWins": 9
+      }
+    },
+    "combinedVrs": {
+      "allCross": {
+        "n": 113,
+        "correct": 67,
+        "brier": 0.23678512,
+        "logLoss": 0.66371501,
+        "changed": 26,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "same": {
+        "n": 40,
+        "correct": 26,
+        "brier": 0.21397062,
+        "logLoss": 0.61717817,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "unknown": {
+        "n": 12,
+        "correct": 8,
+        "brier": 0.19484725,
+        "logLoss": 0.57648015,
+        "changed": 0,
+        "firstRegion": null,
+        "predictedRate": null,
+        "observedRate": null,
+        "observedWins": null
+      },
+      "americas-asia": {
+        "n": 28,
+        "correct": 16,
+        "brier": 0.24610619,
+        "logLoss": 0.68456666,
+        "changed": 6,
+        "firstRegion": "americas",
+        "predictedRate": 0.53903934,
+        "observedRate": 0.42857143,
+        "observedWins": 12
+      },
+      "americas-europe": {
+        "n": 57,
+        "correct": 29,
+        "brier": 0.25851548,
+        "logLoss": 0.71031949,
+        "changed": 15,
+        "firstRegion": "americas",
+        "predictedRate": 0.40241027,
+        "observedRate": 0.45614035,
+        "observedWins": 26
+      },
+      "asia-europe": {
+        "n": 28,
+        "correct": 22,
+        "brier": 0.18322727,
+        "logLoss": 0.54798993,
+        "changed": 5,
+        "firstRegion": "asia",
+        "predictedRate": 0.3846734,
+        "observedRate": 0.32142857,
+        "observedWins": 9
+      }
+    }
+  },
+  "singapore": {
+    "baseVrs": {
+      "pairEffects": {
+        "bo1": {
+          "potential": 120,
+          "changed": 84,
+          "maxAbsPP": 6.6067552,
+          "meanAbsPPWhenChanged": 4.22566961
+        },
+        "bo3": {
+          "potential": 120,
+          "changed": 84,
+          "maxAbsPP": 6.6067552,
+          "meanAbsPPWhenChanged": 4.22566961
+        }
+      },
+      "selectedTeamSlotsChanged": 4,
+      "identicalProbabilities": false,
+      "baseMatrixSha256": "3fa7f5a0ea02d38e8693ae7e41ab5fde69efcf1c6e2adab01fa16b2131016c69",
+      "matrixSha256": "ea71c1eb92629292825192a210a5b337c86d540d567daca431dc27afa3fcad84"
+    },
+    "regionVrs": {
+      "pairEffects": {
+        "bo1": {
+          "potential": 120,
+          "changed": 0,
+          "maxAbsPP": 0,
+          "meanAbsPPWhenChanged": null
+        },
+        "bo3": {
+          "potential": 120,
+          "changed": 0,
+          "maxAbsPP": 0,
+          "meanAbsPPWhenChanged": null
+        }
+      },
+      "selectedTeamSlotsChanged": 0,
+      "identicalProbabilities": true,
+      "baseMatrixSha256": "74df1a4a795b3682929e1cb9a3d30097243f604c4a9d8758cfd4f00d01f4fae4",
+      "matrixSha256": "74df1a4a795b3682929e1cb9a3d30097243f604c4a9d8758cfd4f00d01f4fae4"
+    },
+    "combinedVrs": {
+      "pairEffects": {
+        "bo1": {
+          "potential": 120,
+          "changed": 0,
+          "maxAbsPP": 0,
+          "meanAbsPPWhenChanged": null
+        },
+        "bo3": {
+          "potential": 120,
+          "changed": 0,
+          "maxAbsPP": 0,
+          "meanAbsPPWhenChanged": null
+        }
+      },
+      "selectedTeamSlotsChanged": 0,
+      "identicalProbabilities": true,
+      "baseMatrixSha256": "9e9d4413576b78cf8b278da17b387fbe9d6e0d0d76fef758a25cc10e2e3168cd",
+      "matrixSha256": "9e9d4413576b78cf8b278da17b387fbe9d6e0d0d76fef758a25cc10e2e3168cd"
+    }
+  }
+}

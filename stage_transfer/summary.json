@@ -1,0 +1,527 @@
+{
+  "asOf": "2026-11-21",
+  "model": "recommended",
+  "groups": {
+    "stage1": {
+      "published": {
+        "hits": 27,
+        "passes": 3,
+        "meanHits": 26.2,
+        "meanPasses": 3.03333333,
+        "buckets": [
+          4,
+          18,
+          5
+        ],
+        "bo1": {
+          "n": 100,
+          "brier": 0.23910082,
+          "logLoss": 0.66891354
+        },
+        "bo3": {
+          "n": 65,
+          "brier": 0.20893637,
+          "logLoss": 0.60600746
+        }
+      },
+      "targetOnly": {
+        "hits": 25,
+        "passes": 3,
+        "meanHits": 25.33333333,
+        "meanPasses": 3.03333333,
+        "buckets": [
+          4,
+          16,
+          5
+        ],
+        "bo1": {
+          "n": 100,
+          "brier": 0.23752256,
+          "logLoss": 0.66626042
+        },
+        "bo3": {
+          "n": 65,
+          "brier": 0.2045952,
+          "logLoss": 0.59713073
+        }
+      },
+      "earlierDonors": {
+        "hits": 28,
+        "passes": 4,
+        "meanHits": 28,
+        "meanPasses": 4,
+        "buckets": [
+          5,
+          18,
+          5
+        ],
+        "bo1": {
+          "n": 100,
+          "brier": 0.23931738,
+          "logLoss": 0.67053793
+        },
+        "bo3": {
+          "n": 65,
+          "brier": 0.2112348,
+          "logLoss": 0.61075886
+        }
+      },
+      "hindsight": {
+        "hits": 28,
+        "passes": 3,
+        "meanHits": 27.26666667,
+        "meanPasses": 3.1,
+        "buckets": [
+          5,
+          18,
+          5
+        ],
+        "bo1": {
+          "n": 100,
+          "brier": 0.24072851,
+          "logLoss": 0.67333553
+        },
+        "bo3": {
+          "n": 65,
+          "brier": 0.21490762,
+          "logLoss": 0.61831811
+        }
+      },
+      "paired": {
+        "earlierVsTarget": {
+          "passes": {
+            "more": 29,
+            "same": 1,
+            "fewer": 0
+          },
+          "hits": {
+            "more": 30,
+            "same": 0,
+            "fewer": 0
+          }
+        },
+        "hindsightVsEarlier": {
+          "passes": {
+            "more": 0,
+            "same": 3,
+            "fewer": 27
+          },
+          "hits": {
+            "more": 2,
+            "same": 11,
+            "fewer": 17
+          }
+        },
+        "earlierVsPublished": {
+          "passes": {
+            "more": 29,
+            "same": 1,
+            "fewer": 0
+          },
+          "hits": {
+            "more": 28,
+            "same": 2,
+            "fewer": 0
+          }
+        }
+      }
+    },
+    "stage2": {
+      "published": {
+        "hits": 25,
+        "passes": 4,
+        "meanHits": 24.6,
+        "meanPasses": 3.66666667,
+        "buckets": [
+          4,
+          17,
+          4
+        ],
+        "bo1": {
+          "n": 100,
+          "brier": 0.24519181,
+          "logLoss": 0.68177666
+        },
+        "bo3": {
+          "n": 65,
+          "brier": 0.21154372,
+          "logLoss": 0.61398515
+        }
+      },
+      "targetOnly": {
+        "hits": 25,
+        "passes": 3,
+        "meanHits": 25.43333333,
+        "meanPasses": 3.56666667,
+        "buckets": [
+          4,
+          17,
+          4
+        ],
+        "bo1": {
+          "n": 100,
+          "brier": 0.25426868,
+          "logLoss": 0.70126492
+        },
+        "bo3": {
+          "n": 65,
+          "brier": 0.20997269,
+          "logLoss": 0.60863723
+        }
+      },
+      "earlierDonors": {
+        "hits": 25,
+        "passes": 3,
+        "meanHits": 25.6,
+        "meanPasses": 3.73333333,
+        "buckets": [
+          4,
+          17,
+          4
+        ],
+        "bo1": {
+          "n": 100,
+          "brier": 0.25227233,
+          "logLoss": 0.6969934
+        },
+        "bo3": {
+          "n": 65,
+          "brier": 0.20924161,
+          "logLoss": 0.60717637
+        }
+      },
+      "hindsight": {
+        "hits": 26,
+        "passes": 3,
+        "meanHits": 24.93333333,
+        "meanPasses": 2.3,
+        "buckets": [
+          4,
+          18,
+          4
+        ],
+        "bo1": {
+          "n": 100,
+          "brier": 0.24521156,
+          "logLoss": 0.68192659
+        },
+        "bo3": {
+          "n": 65,
+          "brier": 0.21374594,
+          "logLoss": 0.61837437
+        }
+      },
+      "paired": {
+        "earlierVsTarget": {
+          "passes": {
+            "more": 7,
+            "same": 21,
+            "fewer": 2
+          },
+          "hits": {
+            "more": 7,
+            "same": 21,
+            "fewer": 2
+          }
+        },
+        "hindsightVsEarlier": {
+          "passes": {
+            "more": 0,
+            "same": 4,
+            "fewer": 26
+          },
+          "hits": {
+            "more": 3,
+            "same": 9,
+            "fewer": 18
+          }
+        },
+        "earlierVsPublished": {
+          "passes": {
+            "more": 4,
+            "same": 24,
+            "fewer": 2
+          },
+          "hits": {
+            "more": 25,
+            "same": 5,
+            "fewer": 0
+          }
+        }
+      }
+    }
+  },
+  "stages": [
+    {
+      "id": "copenhagen",
+      "parent": "copenhagen",
+      "stage": 1,
+      "start": "2024-03-17",
+      "trainThrough": null,
+      "postThrough": "2024-03-24",
+      "priorDonorTeams": 0,
+      "postDonorTeams": 8,
+      "postTeams": [
+        "Cloud9",
+        "Eternal Fire",
+        "HEROIC",
+        "FURIA",
+        "ECSTATIC",
+        "The MongolZ",
+        "Imperial",
+        "paiN"
+      ],
+      "postDonorIds": [
+        "copenhagen-2024-2"
+      ],
+      "scores": {
+        "published": 5,
+        "targetOnly": 5,
+        "earlierDonors": 5,
+        "hindsight": 4
+      }
+    },
+    {
+      "id": "copenhagen-2024-2",
+      "parent": "copenhagen",
+      "stage": 2,
+      "start": "2024-03-21",
+      "trainThrough": null,
+      "postThrough": null,
+      "priorDonorTeams": 0,
+      "postDonorTeams": 0,
+      "postTeams": [],
+      "postDonorIds": [],
+      "scores": {
+        "published": 7,
+        "targetOnly": 7,
+        "earlierDonors": 7,
+        "hindsight": 7
+      }
+    },
+    {
+      "id": "shanghai",
+      "parent": "shanghai",
+      "stage": 1,
+      "start": "2024-11-30",
+      "trainThrough": "2024-03-24",
+      "postThrough": "2024-12-08",
+      "priorDonorTeams": 6,
+      "postDonorTeams": 8,
+      "postTeams": [
+        "FURIA",
+        "Liquid",
+        "BIG",
+        "The MongolZ",
+        "paiN",
+        "GamerLegion",
+        "MIBR",
+        "Wildcard"
+      ],
+      "postDonorIds": [
+        "shanghai-2024-2"
+      ],
+      "scores": {
+        "published": 4,
+        "targetOnly": 4,
+        "earlierDonors": 6,
+        "hindsight": 6
+      }
+    },
+    {
+      "id": "shanghai-2024-2",
+      "parent": "shanghai",
+      "stage": 2,
+      "start": "2024-12-05",
+      "trainThrough": "2024-03-24",
+      "postThrough": null,
+      "priorDonorTeams": 0,
+      "postDonorTeams": 0,
+      "postTeams": [],
+      "postDonorIds": [],
+      "scores": {
+        "published": 6,
+        "targetOnly": 7,
+        "earlierDonors": 7,
+        "hindsight": 7
+      }
+    },
+    {
+      "id": "austin",
+      "parent": "austin",
+      "stage": 1,
+      "start": "2025-06-03",
+      "trainThrough": "2024-12-08",
+      "postThrough": "2025-06-16",
+      "priorDonorTeams": 2,
+      "postDonorTeams": 8,
+      "postTeams": [
+        "HEROIC",
+        "B8",
+        "BetBoom",
+        "TYLOO",
+        "Lynn Vision",
+        "OG",
+        "Nemiga",
+        "Legacy"
+      ],
+      "postDonorIds": [
+        "austin-2025-2",
+        "austin-2025-3"
+      ],
+      "scores": {
+        "published": 8,
+        "targetOnly": 7,
+        "earlierDonors": 7,
+        "hindsight": 8
+      }
+    },
+    {
+      "id": "austin-2025-2",
+      "parent": "austin",
+      "stage": 2,
+      "start": "2025-06-07",
+      "trainThrough": "2024-12-08",
+      "postThrough": "2025-06-16",
+      "priorDonorTeams": 0,
+      "postDonorTeams": 8,
+      "postTeams": [
+        "FaZe",
+        "3DMAX",
+        "Virtus.pro",
+        "paiN",
+        "FURIA",
+        "Nemiga",
+        "Lynn Vision",
+        "Legacy"
+      ],
+      "postDonorIds": [
+        "austin-2025-3"
+      ],
+      "scores": {
+        "published": 2,
+        "targetOnly": 2,
+        "earlierDonors": 2,
+        "hindsight": 3
+      }
+    },
+    {
+      "id": "budapest",
+      "parent": "budapest",
+      "stage": 1,
+      "start": "2025-11-24",
+      "trainThrough": "2025-06-16",
+      "postThrough": "2025-12-07",
+      "priorDonorTeams": 5,
+      "postDonorTeams": 8,
+      "postTeams": [
+        "FaZe",
+        "B8",
+        "fnatic",
+        "PARIVISION",
+        "Ninjas in Pyjamas",
+        "Imperial",
+        "FlyQuest",
+        "M80"
+      ],
+      "postDonorIds": [
+        "budapest-2025-2",
+        "budapest-2025-3"
+      ],
+      "scores": {
+        "published": 6,
+        "targetOnly": 5,
+        "earlierDonors": 6,
+        "hindsight": 6
+      }
+    },
+    {
+      "id": "budapest-2025-2",
+      "parent": "budapest",
+      "stage": 2,
+      "start": "2025-11-29",
+      "trainThrough": "2025-06-16",
+      "postThrough": "2025-12-07",
+      "priorDonorTeams": 4,
+      "postDonorTeams": 8,
+      "postTeams": [
+        "Natus Vincere",
+        "Liquid",
+        "3DMAX",
+        "Passion UA",
+        "B8",
+        "PARIVISION",
+        "Imperial",
+        "FaZe"
+      ],
+      "postDonorIds": [
+        "budapest-2025-3"
+      ],
+      "scores": {
+        "published": 5,
+        "targetOnly": 4,
+        "earlierDonors": 4,
+        "hindsight": 4
+      }
+    },
+    {
+      "id": "cologne",
+      "parent": "cologne",
+      "stage": 1,
+      "start": "2026-06-02",
+      "trainThrough": "2025-12-07",
+      "postThrough": "2026-06-15",
+      "priorDonorTeams": 8,
+      "postDonorTeams": 8,
+      "postTeams": [
+        "GamerLegion",
+        "B8",
+        "BetBoom",
+        "BIG",
+        "M80",
+        "MIBR",
+        "TYLOO",
+        "FlyQuest"
+      ],
+      "postDonorIds": [
+        "cologne-2026-2",
+        "cologne-2026-3"
+      ],
+      "scores": {
+        "published": 4,
+        "targetOnly": 4,
+        "earlierDonors": 4,
+        "hindsight": 4
+      }
+    },
+    {
+      "id": "cologne-2026-2",
+      "parent": "cologne",
+      "stage": 2,
+      "start": "2026-06-06",
+      "trainThrough": "2025-12-07",
+      "postThrough": "2026-06-15",
+      "priorDonorTeams": 4,
+      "postDonorTeams": 8,
+      "postTeams": [
+        "FUT",
+        "Spirit",
+        "G2",
+        "Legacy",
+        "Monte",
+        "9z",
+        "B8",
+        "BetBoom"
+      ],
+      "postDonorIds": [
+        "cologne-2026-3"
+      ],
+      "scores": {
+        "published": 5,
+        "targetOnly": 5,
+        "earlierDonors": 5,
+        "hindsight": 5
+      }
+    }
+  ]
+}

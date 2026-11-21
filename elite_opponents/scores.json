@@ -1,0 +1,4828 @@
+{
+  "lockSha256": "6b6c8e6d562f402ceaa9ef84e434e810250da556487c7d4752d0e6a7f8838fc9",
+  "axes": "a,b,w,l are zero-based in field.teams; original/candidate are P(a wins); score gives maps won by a,b in that order.",
+  "fields": {
+    "cluj-2025": {
+      "role": "holdout",
+      "start": "2025-02-14",
+      "teams": [
+        "The MongolZ",
+        "FaZe",
+        "MOUZ",
+        "Falcons",
+        "paiN",
+        "MIBR",
+        "3DMAX",
+        "Eternal Fire",
+        "Complexity",
+        "SAW",
+        "BIG",
+        "FlyQuest",
+        "Astralis",
+        "Wildcard",
+        "Virtus.pro",
+        "Imperial Valkyries"
+      ],
+      "replay": {
+        "matched": 33,
+        "total": 33,
+        "byRound": [
+          8,
+          8,
+          8,
+          6,
+          3
+        ],
+        "ok": true
+      },
+      "actual": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        3,
+        3,
+        1,
+        3,
+        1,
+        3,
+        2,
+        1,
+        3,
+        3,
+        2
+      ],
+      "perfect": [
+        "FaZe",
+        "The MongolZ"
+      ],
+      "matches": [
+        {
+          "id": 2379326,
+          "round": 1,
+          "day": "2025-02-14",
+          "a": 2,
+          "b": 10,
+          "w": 2,
+          "l": 10,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Ancient",
+              16,
+              13
+            ],
+            [
+              "Mirage",
+              13,
+              5
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379326/mouz-vs-big-pgl-cluj-napoca-2025",
+          "original": 0.5652222872,
+          "candidate": 0.5652222872,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379327,
+          "round": 1,
+          "day": "2025-02-14",
+          "a": 6,
+          "b": 14,
+          "w": 6,
+          "l": 14,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Ancient",
+              11,
+              13
+            ],
+            [
+              "Inferno",
+              13,
+              6
+            ],
+            [
+              "Dust2",
+              13,
+              11
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379327/3dmax-vs-virtuspro-pgl-cluj-napoca-2025",
+          "original": 0.48420934,
+          "candidate": 0.48420934,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379328,
+          "round": 1,
+          "day": "2025-02-14",
+          "a": 1,
+          "b": 9,
+          "w": 1,
+          "l": 9,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Ancient",
+              13,
+              2
+            ],
+            [
+              "Nuke",
+              13,
+              11
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379328/faze-vs-saw-pgl-cluj-napoca-2025",
+          "original": 0.8125782958,
+          "candidate": 0.8125782958,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379329,
+          "round": 1,
+          "day": "2025-02-14",
+          "a": 3,
+          "b": 11,
+          "w": 3,
+          "l": 11,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Inferno",
+              13,
+              9
+            ],
+            [
+              "Dust2",
+              13,
+              7
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379329/falcons-vs-flyquest-pgl-cluj-napoca-2025",
+          "original": 0.7732606134,
+          "candidate": 0.7732606134,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379330,
+          "round": 1,
+          "day": "2025-02-14",
+          "a": 0,
+          "b": 8,
+          "w": 0,
+          "l": 8,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              7
+            ],
+            [
+              "Ancient",
+              13,
+              7
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379330/the-mongolz-vs-complexity-pgl-cluj-napoca-2025",
+          "original": 0.7713247788,
+          "candidate": 0.5943200315499996,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2379331,
+          "round": 1,
+          "day": "2025-02-14",
+          "a": 5,
+          "b": 13,
+          "w": 13,
+          "l": 5,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Train",
+              15,
+              19
+            ],
+            [
+              "Nuke",
+              4,
+              13
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379331/mibr-vs-wildcard-pgl-cluj-napoca-2025",
+          "original": 0.5140262443,
+          "candidate": 0.5140262443,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379332,
+          "round": 1,
+          "day": "2025-02-14",
+          "a": 4,
+          "b": 12,
+          "w": 4,
+          "l": 12,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Inferno",
+              7,
+              13
+            ],
+            [
+              "Mirage",
+              13,
+              6
+            ],
+            [
+              "Nuke",
+              13,
+              11
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379332/pain-vs-astralis-pgl-cluj-napoca-2025",
+          "original": 0.4599923203,
+          "candidate": 0.4599923203,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379333,
+          "round": 1,
+          "day": "2025-02-14",
+          "a": 7,
+          "b": 15,
+          "w": 7,
+          "l": 15,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Mirage",
+              13,
+              5
+            ],
+            [
+              "Nuke",
+              13,
+              4
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379333/eternal-fire-vs-imperial-valkyries-pgl-cluj-napoca-2025",
+          "original": 0.9695400792,
+          "candidate": 0.9695400792,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379334,
+          "round": 2,
+          "day": "2025-02-15",
+          "a": 2,
+          "b": 6,
+          "w": 2,
+          "l": 6,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Inferno",
+              13,
+              9
+            ],
+            [
+              "Nuke",
+              13,
+              8
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379334/mouz-vs-3dmax-pgl-cluj-napoca-2025",
+          "original": 0.4816736573,
+          "candidate": 0.3916668841119628,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2379335,
+          "round": 2,
+          "day": "2025-02-15",
+          "a": 10,
+          "b": 11,
+          "w": 10,
+          "l": 11,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Inferno",
+              1,
+              13
+            ],
+            [
+              "Ancient",
+              13,
+              5
+            ],
+            [
+              "Nuke",
+              13,
+              5
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379335/big-vs-flyquest-pgl-cluj-napoca-2025",
+          "original": 0.6589924156,
+          "candidate": 0.6589924156,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379336,
+          "round": 2,
+          "day": "2025-02-15",
+          "a": 0,
+          "b": 13,
+          "w": 0,
+          "l": 13,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Inferno",
+              19,
+              16
+            ],
+            [
+              "Ancient",
+              13,
+              10
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379336/the-mongolz-vs-wildcard-pgl-cluj-napoca-2025",
+          "original": 0.7524807077,
+          "candidate": 0.7524807077,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379337,
+          "round": 2,
+          "day": "2025-02-15",
+          "a": 8,
+          "b": 14,
+          "w": 14,
+          "l": 8,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Dust2",
+              8,
+              13
+            ],
+            [
+              "Inferno",
+              13,
+              16
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379337/complexity-vs-virtuspro-pgl-cluj-napoca-2025",
+          "original": 0.1920498731,
+          "candidate": 0.1920498731,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379338,
+          "round": 2,
+          "day": "2025-02-15",
+          "a": 1,
+          "b": 7,
+          "w": 1,
+          "l": 7,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              4
+            ],
+            [
+              "Anubis",
+              10,
+              13
+            ],
+            [
+              "Inferno",
+              13,
+              10
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379338/faze-vs-eternal-fire-pgl-cluj-napoca-2025",
+          "original": 0.4862672363,
+          "candidate": 0.3640812946684716,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2379339,
+          "round": 2,
+          "day": "2025-02-15",
+          "a": 5,
+          "b": 15,
+          "w": 5,
+          "l": 15,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Mirage",
+              13,
+              3
+            ],
+            [
+              "Ancient",
+              13,
+              4
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379339/mibr-vs-imperial-valkyries-pgl-cluj-napoca-2025",
+          "original": 0.6528653294,
+          "candidate": 0.6528653294,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379340,
+          "round": 2,
+          "day": "2025-02-15",
+          "a": 3,
+          "b": 4,
+          "w": 4,
+          "l": 3,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Mirage",
+              8,
+              13
+            ],
+            [
+              "Dust2",
+              16,
+              12
+            ],
+            [
+              "Nuke",
+              11,
+              13
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379340/falcons-vs-pain-pgl-cluj-napoca-2025",
+          "original": 0.6830460607,
+          "candidate": 0.6830460607,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379341,
+          "round": 2,
+          "day": "2025-02-15",
+          "a": 9,
+          "b": 12,
+          "w": 12,
+          "l": 9,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Nuke",
+              11,
+              13
+            ],
+            [
+              "Inferno",
+              6,
+              13
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379341/saw-vs-astralis-pgl-cluj-napoca-2025",
+          "original": 0.1889213357,
+          "candidate": 0.1889213357,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379342,
+          "round": 3,
+          "day": "2025-02-16",
+          "a": 7,
+          "b": 10,
+          "w": 7,
+          "l": 10,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              5
+            ],
+            [
+              "Inferno",
+              13,
+              9
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379342/eternal-fire-vs-big-pgl-cluj-napoca-2025",
+          "original": 0.7572455133,
+          "candidate": 0.7572455133,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379343,
+          "round": 3,
+          "day": "2025-02-16",
+          "a": 6,
+          "b": 5,
+          "w": 6,
+          "l": 5,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Ancient",
+              13,
+              5
+            ],
+            [
+              "Inferno",
+              13,
+              11
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379343/3dmax-vs-mibr-pgl-cluj-napoca-2025",
+          "original": 0.7185396513,
+          "candidate": 0.7185396513,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379344,
+          "round": 3,
+          "day": "2025-02-16",
+          "a": 3,
+          "b": 12,
+          "w": 3,
+          "l": 12,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Ancient",
+              6,
+              13
+            ],
+            [
+              "Dust2",
+              13,
+              7
+            ],
+            [
+              "Nuke",
+              13,
+              6
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379344/falcons-vs-astralis-pgl-cluj-napoca-2025",
+          "original": 0.6622381381,
+          "candidate": 0.6622381381,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379345,
+          "round": 3,
+          "day": "2025-02-16",
+          "a": 13,
+          "b": 14,
+          "w": 14,
+          "l": 13,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Dust2",
+              10,
+              13
+            ],
+            [
+              "Inferno",
+              10,
+              13
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379345/wildcard-vs-virtuspro-pgl-cluj-napoca-2025",
+          "original": 0.3527285851,
+          "candidate": 0.3527285851,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379346,
+          "round": 3,
+          "day": "2025-02-16",
+          "a": 2,
+          "b": 1,
+          "w": 1,
+          "l": 2,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Ancient",
+              11,
+              13
+            ],
+            [
+              "Mirage",
+              7,
+              13
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379346/mouz-vs-faze-pgl-cluj-napoca-2025",
+          "original": 0.42295828319999995,
+          "candidate": 0.5959106579105008,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2379347,
+          "round": 3,
+          "day": "2025-02-16",
+          "a": 8,
+          "b": 15,
+          "w": 8,
+          "l": 15,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Ancient",
+              13,
+              5
+            ],
+            [
+              "Train",
+              13,
+              2
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379347/complexity-vs-imperial-valkyries-pgl-cluj-napoca-2025",
+          "original": 0.5789681231,
+          "candidate": 0.5789681231,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379348,
+          "round": 3,
+          "day": "2025-02-16",
+          "a": 4,
+          "b": 0,
+          "w": 0,
+          "l": 4,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Inferno",
+              13,
+              16
+            ],
+            [
+              "Dust2",
+              16,
+              14
+            ],
+            [
+              "Mirage",
+              8,
+              13
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379348/pain-vs-the-mongolz-pgl-cluj-napoca-2025",
+          "original": 0.32964424820000005,
+          "candidate": 0.35557965702753225,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2379349,
+          "round": 3,
+          "day": "2025-02-16",
+          "a": 9,
+          "b": 11,
+          "w": 9,
+          "l": 11,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Inferno",
+              16,
+              14
+            ],
+            [
+              "Dust2",
+              7,
+              13
+            ],
+            [
+              "Ancient",
+              13,
+              9
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379349/saw-vs-flyquest-pgl-cluj-napoca-2025",
+          "original": 0.2965686133,
+          "candidate": 0.2965686133,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379350,
+          "round": 4,
+          "day": "2025-02-17",
+          "a": 2,
+          "b": 3,
+          "w": 3,
+          "l": 2,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              8
+            ],
+            [
+              "Mirage",
+              10,
+              13
+            ],
+            [
+              "Ancient",
+              8,
+              13
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379350/mouz-vs-falcons-pgl-cluj-napoca-2025",
+          "original": 0.4818170891,
+          "candidate": 0.4431500122109336,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2379351,
+          "round": 4,
+          "day": "2025-02-17",
+          "a": 13,
+          "b": 10,
+          "w": 10,
+          "l": 13,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Ancient",
+              2,
+              13
+            ],
+            [
+              "Inferno",
+              13,
+              11
+            ],
+            [
+              "Nuke",
+              8,
+              13
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379351/wildcard-vs-big-pgl-cluj-napoca-2025",
+          "original": 0.4220151363,
+          "candidate": 0.4220151363,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379352,
+          "round": 4,
+          "day": "2025-02-17",
+          "a": 6,
+          "b": 7,
+          "w": 7,
+          "l": 6,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Anubis",
+              10,
+              13
+            ],
+            [
+              "Inferno",
+              13,
+              5
+            ],
+            [
+              "Nuke",
+              11,
+              13
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379352/3dmax-vs-eternal-fire-pgl-cluj-napoca-2025",
+          "original": 0.385117585,
+          "candidate": 0.4751243581880371,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2379353,
+          "round": 4,
+          "day": "2025-02-17",
+          "a": 12,
+          "b": 5,
+          "w": 12,
+          "l": 5,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Mirage",
+              25,
+              22
+            ],
+            [
+              "Inferno",
+              13,
+              16
+            ],
+            [
+              "Nuke",
+              13,
+              5
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379353/astralis-vs-mibr-pgl-cluj-napoca-2025",
+          "original": 0.5779988434000001,
+          "candidate": 0.5779988434000001,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379354,
+          "round": 4,
+          "day": "2025-02-17",
+          "a": 4,
+          "b": 14,
+          "w": 4,
+          "l": 14,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Inferno",
+              13,
+              9
+            ],
+            [
+              "Mirage",
+              13,
+              10
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379354/pain-vs-virtuspro-pgl-cluj-napoca-2025",
+          "original": 0.397710483,
+          "candidate": 0.397710483,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379355,
+          "round": 4,
+          "day": "2025-02-17",
+          "a": 8,
+          "b": 9,
+          "w": 9,
+          "l": 8,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Ancient",
+              12,
+              16
+            ],
+            [
+              "Inferno",
+              4,
+              13
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379355/complexity-vs-saw-pgl-cluj-napoca-2025",
+          "original": 0.6514394743,
+          "candidate": 0.6514394743,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379356,
+          "round": 5,
+          "day": "2025-02-18",
+          "a": 12,
+          "b": 10,
+          "w": 12,
+          "l": 10,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Ancient",
+              13,
+              7
+            ],
+            [
+              "Inferno",
+              13,
+              8
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379356/astralis-vs-big-pgl-cluj-napoca-2025",
+          "original": 0.5346281944,
+          "candidate": 0.5346281944,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379358,
+          "round": 5,
+          "day": "2025-02-18",
+          "a": 6,
+          "b": 9,
+          "w": 9,
+          "l": 6,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Nuke",
+              10,
+              13
+            ],
+            [
+              "Dust2",
+              14,
+              16
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379358/3dmax-vs-saw-pgl-cluj-napoca-2025",
+          "original": 0.809216479,
+          "candidate": 0.809216479,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2379357,
+          "round": 5,
+          "day": "2025-02-18",
+          "a": 2,
+          "b": 14,
+          "w": 2,
+          "l": 14,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Ancient",
+              13,
+              8
+            ],
+            [
+              "Inferno",
+              13,
+              16
+            ],
+            [
+              "Mirage",
+              13,
+              2
+            ]
+          ],
+          "rosterOverlap": [
+            5,
+            5
+          ],
+          "source": "https://www.hltv.org/matches/2379357/mouz-vs-virtuspro-pgl-cluj-napoca-2025",
+          "original": 0.5048612798,
+          "candidate": 0.48305122759927194,
+          "eligible": true,
+          "triggered": true
+        }
+      ],
+      "metrics": {
+        "all": {
+          "n": 33,
+          "original": {
+            "brier": 0.19688041012279336,
+            "logLoss": 0.5772727323616024
+          },
+          "candidate": {
+            "brier": 0.2154223793089283,
+            "logLoss": 0.616155364318858
+          }
+        },
+        "bo1": {
+          "n": 0,
+          "original": {
+            "brier": null,
+            "logLoss": null
+          },
+          "candidate": {
+            "brier": null,
+            "logLoss": null
+          }
+        },
+        "bo3": {
+          "n": 33,
+          "original": {
+            "brier": 0.19688041012279336,
+            "logLoss": 0.5772727323616024
+          },
+          "candidate": {
+            "brier": 0.2154223793089283,
+            "logLoss": 0.616155364318858
+          }
+        },
+        "eligible": {
+          "n": 8,
+          "original": {
+            "brier": 0.18725757004895313,
+            "logLoss": 0.5610176733212987
+          },
+          "candidate": {
+            "brier": 0.2637431929417596,
+            "logLoss": 0.7214085301449782
+          }
+        },
+        "changed": {
+          "n": 8,
+          "original": {
+            "brier": 0.18725757004895313,
+            "logLoss": 0.5610176733212987
+          },
+          "candidate": {
+            "brier": 0.2637431929417596,
+            "logLoss": 0.7214085301449782
+          }
+        }
+      },
+      "gate": {
+        "passed": false,
+        "criteria": {
+          "all_brier": false,
+          "all_logLoss": false,
+          "eligible_brier": false,
+          "eligible_logLoss": false
+        },
+        "reason": "loss-gate-not-met"
+      },
+      "simulation": null
+    },
+    "austin-2025-3": {
+      "role": "development",
+      "start": "2025-06-12",
+      "teams": [
+        "Vitality",
+        "MOUZ",
+        "Spirit",
+        "G2",
+        "The MongolZ",
+        "Aurora",
+        "Natus Vincere",
+        "Liquid",
+        "Legacy",
+        "Virtus.pro",
+        "paiN",
+        "3DMAX",
+        "FURIA",
+        "FaZe",
+        "Nemiga",
+        "Lynn Vision"
+      ],
+      "replay": {
+        "matched": 33,
+        "total": 33,
+        "byRound": [
+          8,
+          8,
+          8,
+          6,
+          3
+        ],
+        "ok": true
+      },
+      "actual": [
+        1,
+        1,
+        0,
+        3,
+        1,
+        3,
+        1,
+        2,
+        3,
+        3,
+        1,
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      "perfect": [
+        "FURIA",
+        "Spirit"
+      ],
+      "matches": [
+        {
+          "id": 2382439,
+          "round": 1,
+          "day": "2025-06-12",
+          "stageArchiveDay": "2025-06-12",
+          "a": 7,
+          "b": 15,
+          "w": 15,
+          "l": 7,
+          "bo": 1,
+          "score": [
+            0,
+            1
+          ],
+          "maps": [
+            [
+              "Dust2",
+              5,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382439/liquid-vs-lynn-vision-blasttv-austin-major-2025",
+          "original": 0.6601518132,
+          "candidate": 0.6601518132,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382438,
+          "round": 1,
+          "day": "2025-06-12",
+          "stageArchiveDay": "2025-06-12",
+          "a": 6,
+          "b": 14,
+          "w": 6,
+          "l": 14,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Train",
+              13,
+              7
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382438/natus-vincere-vs-nemiga-blasttv-austin-major-2025",
+          "original": 0.753230413,
+          "candidate": 0.753230413,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382437,
+          "round": 1,
+          "day": "2025-06-12",
+          "stageArchiveDay": "2025-06-12",
+          "a": 5,
+          "b": 13,
+          "w": 5,
+          "l": 13,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Anubis",
+              13,
+              5
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382437/aurora-vs-faze-blasttv-austin-major-2025",
+          "original": 0.4783561639,
+          "candidate": 0.4783561639,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382436,
+          "round": 1,
+          "day": "2025-06-12",
+          "stageArchiveDay": "2025-06-12",
+          "a": 4,
+          "b": 12,
+          "w": 12,
+          "l": 4,
+          "bo": 1,
+          "score": [
+            0,
+            1
+          ],
+          "maps": [
+            [
+              "Inferno",
+              11,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382436/the-mongolz-vs-furia-blasttv-austin-major-2025",
+          "original": 0.6385220616,
+          "candidate": 0.6385220616,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382435,
+          "round": 1,
+          "day": "2025-06-12",
+          "stageArchiveDay": "2025-06-12",
+          "a": 3,
+          "b": 11,
+          "w": 11,
+          "l": 3,
+          "bo": 1,
+          "score": [
+            0,
+            1
+          ],
+          "maps": [
+            [
+              "Nuke",
+              5,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382435/g2-vs-3dmax-blasttv-austin-major-2025",
+          "original": 0.4963294632,
+          "candidate": 0.4963294632,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382434,
+          "round": 1,
+          "day": "2025-06-12",
+          "stageArchiveDay": "2025-06-12",
+          "a": 2,
+          "b": 10,
+          "w": 2,
+          "l": 10,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              3
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382434/spirit-vs-pain-blasttv-austin-major-2025",
+          "original": 0.8166484768,
+          "candidate": 0.8166484768,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382433,
+          "round": 1,
+          "day": "2025-06-12",
+          "stageArchiveDay": "2025-06-12",
+          "a": 1,
+          "b": 9,
+          "w": 9,
+          "l": 1,
+          "bo": 1,
+          "score": [
+            0,
+            1
+          ],
+          "maps": [
+            [
+              "Mirage",
+              11,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382433/mouz-vs-virtuspro-blasttv-austin-major-2025",
+          "original": 0.7891556708,
+          "candidate": 0.7891556708,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382432,
+          "round": 1,
+          "day": "2025-06-12",
+          "stageArchiveDay": "2025-06-12",
+          "a": 0,
+          "b": 8,
+          "w": 8,
+          "l": 0,
+          "bo": 1,
+          "score": [
+            0,
+            1
+          ],
+          "maps": [
+            [
+              "Inferno",
+              3,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382432/vitality-vs-legacy-blasttv-austin-major-2025",
+          "original": 0.7891716189,
+          "candidate": 0.7891716189,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382589,
+          "round": 2,
+          "day": "2025-06-12",
+          "stageArchiveDay": "2025-06-12",
+          "a": 5,
+          "b": 12,
+          "w": 12,
+          "l": 5,
+          "bo": 1,
+          "score": [
+            0,
+            1
+          ],
+          "maps": [
+            [
+              "Dust2",
+              7,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382589/aurora-vs-furia-blasttv-austin-major-2025",
+          "original": 0.4941858379,
+          "candidate": 0.4941858379,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382591,
+          "round": 2,
+          "day": "2025-06-12",
+          "stageArchiveDay": "2025-06-12",
+          "a": 6,
+          "b": 11,
+          "w": 6,
+          "l": 11,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Inferno",
+              16,
+              14
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382591/3dmax-vs-natus-vincere-blasttv-austin-major-2025",
+          "original": 0.5521586781,
+          "candidate": 0.5521586781,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382588,
+          "round": 2,
+          "day": "2025-06-12",
+          "stageArchiveDay": "2025-06-12",
+          "a": 8,
+          "b": 9,
+          "w": 9,
+          "l": 8,
+          "bo": 1,
+          "score": [
+            0,
+            1
+          ],
+          "maps": [
+            [
+              "Ancient",
+              11,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382588/virtuspro-vs-legacy-blasttv-austin-major-2025",
+          "original": 0.4706824885,
+          "candidate": 0.4706824885,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382590,
+          "round": 2,
+          "day": "2025-06-12",
+          "stageArchiveDay": "2025-06-12",
+          "a": 2,
+          "b": 15,
+          "w": 2,
+          "l": 15,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              7
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382590/spirit-vs-lynn-vision-blasttv-austin-major-2025",
+          "original": 0.8268773927,
+          "candidate": 0.8268773927,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382592,
+          "round": 2,
+          "day": "2025-06-12",
+          "stageArchiveDay": "2025-06-13",
+          "a": 1,
+          "b": 13,
+          "w": 13,
+          "l": 1,
+          "bo": 1,
+          "score": [
+            0,
+            1
+          ],
+          "maps": [
+            [
+              "Ancient",
+              10,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382592/mouz-vs-faze-blasttv-austin-major-2025",
+          "original": 0.7628843315,
+          "candidate": 0.7628843315,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382595,
+          "round": 2,
+          "day": "2025-06-12",
+          "stageArchiveDay": "2025-06-13",
+          "a": 3,
+          "b": 10,
+          "w": 3,
+          "l": 10,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              6
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382595/g2-vs-pain-blasttv-austin-major-2025",
+          "original": 0.5914769818,
+          "candidate": 0.5914769818,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382594,
+          "round": 2,
+          "day": "2025-06-12",
+          "stageArchiveDay": "2025-06-13",
+          "a": 4,
+          "b": 7,
+          "w": 4,
+          "l": 7,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Ancient",
+              13,
+              7
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382594/the-mongolz-vs-liquid-blasttv-austin-major-2025",
+          "original": 0.5320385904,
+          "candidate": 0.5320385904,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382593,
+          "round": 2,
+          "day": "2025-06-12",
+          "stageArchiveDay": "2025-06-13",
+          "a": 0,
+          "b": 14,
+          "w": 0,
+          "l": 14,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              6
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382593/vitality-vs-nemiga-blasttv-austin-major-2025",
+          "original": 0.8140720876,
+          "candidate": 0.8140720876,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382603,
+          "round": 3,
+          "day": "2025-06-13",
+          "stageArchiveDay": "2025-06-13",
+          "a": 10,
+          "b": 14,
+          "w": 10,
+          "l": 14,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Ancient",
+              8,
+              13
+            ],
+            [
+              "Anubis",
+              13,
+              8
+            ],
+            [
+              "Dust2",
+              13,
+              7
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382603/pain-vs-nemiga-blasttv-austin-major-2025",
+          "original": 0.6157117078,
+          "candidate": 0.6157117078,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382602,
+          "round": 3,
+          "day": "2025-06-13",
+          "stageArchiveDay": "2025-06-13",
+          "a": 1,
+          "b": 7,
+          "w": 1,
+          "l": 7,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              8
+            ],
+            [
+              "Nuke",
+              4,
+              13
+            ],
+            [
+              "Mirage",
+              22,
+              19
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382602/mouz-vs-liquid-blasttv-austin-major-2025",
+          "original": 0.8659317962,
+          "candidate": 0.7956252535084661,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2382601,
+          "round": 3,
+          "day": "2025-06-13",
+          "stageArchiveDay": "2025-06-13",
+          "a": 9,
+          "b": 12,
+          "w": 12,
+          "l": 9,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Mirage",
+              3,
+              13
+            ],
+            [
+              "Train",
+              5,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382601/furia-vs-virtuspro-blasttv-austin-major-2025",
+          "original": 0.3497889175,
+          "candidate": 0.3497889175,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382600,
+          "round": 3,
+          "day": "2025-06-13",
+          "stageArchiveDay": "2025-06-13",
+          "a": 2,
+          "b": 6,
+          "w": 2,
+          "l": 6,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Anubis",
+              13,
+              11
+            ],
+            [
+              "Train",
+              13,
+              3
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382600/spirit-vs-natus-vincere-blasttv-austin-major-2025",
+          "original": 0.6944878236,
+          "candidate": 0.5627998311969737,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2382599,
+          "round": 3,
+          "day": "2025-06-13",
+          "stageArchiveDay": "2025-06-13",
+          "a": 4,
+          "b": 15,
+          "w": 4,
+          "l": 15,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Nuke",
+              13,
+              7
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382599/the-mongolz-vs-lynn-vision-blasttv-austin-major-2025",
+          "original": 0.784630183,
+          "candidate": 0.784630183,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382598,
+          "round": 3,
+          "day": "2025-06-13",
+          "stageArchiveDay": "2025-06-13",
+          "a": 3,
+          "b": 5,
+          "w": 3,
+          "l": 5,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Inferno",
+              13,
+              4
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382598/aurora-vs-g2-blasttv-austin-major-2025",
+          "original": 0.5022098919,
+          "candidate": 0.5022098919,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382597,
+          "round": 3,
+          "day": "2025-06-13",
+          "stageArchiveDay": "2025-06-13",
+          "a": 8,
+          "b": 13,
+          "w": 13,
+          "l": 8,
+          "bo": 1,
+          "score": [
+            0,
+            1
+          ],
+          "maps": [
+            [
+              "Anubis",
+              8,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382597/legacy-vs-faze-blasttv-austin-major-2025",
+          "original": 0.3884446923,
+          "candidate": 0.3884446923,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382596,
+          "round": 3,
+          "day": "2025-06-13",
+          "stageArchiveDay": "2025-06-13",
+          "a": 0,
+          "b": 11,
+          "w": 0,
+          "l": 11,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Nuke",
+              13,
+              2
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382596/3dmax-vs-vitality-blasttv-austin-major-2025",
+          "original": 0.8128854161,
+          "candidate": 0.8128854161,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382609,
+          "round": 4,
+          "day": "2025-06-14",
+          "stageArchiveDay": "2025-06-14",
+          "a": 3,
+          "b": 6,
+          "w": 6,
+          "l": 3,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Mirage",
+              10,
+              13
+            ],
+            [
+              "Anubis",
+              13,
+              9
+            ],
+            [
+              "Inferno",
+              16,
+              19
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382609/natus-vincere-vs-g2-blasttv-austin-major-2025",
+          "original": 0.4411124405,
+          "candidate": 0.3573522305766443,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2382608,
+          "round": 4,
+          "day": "2025-06-14",
+          "stageArchiveDay": "2025-06-14",
+          "a": 0,
+          "b": 9,
+          "w": 0,
+          "l": 9,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Train",
+              13,
+              6
+            ],
+            [
+              "Dust2",
+              13,
+              6
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382608/virtuspro-vs-vitality-blasttv-austin-major-2025",
+          "original": 0.8814141393,
+          "candidate": 0.7652783386571578,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2382607,
+          "round": 4,
+          "day": "2025-06-14",
+          "stageArchiveDay": "2025-06-14",
+          "a": 1,
+          "b": 5,
+          "w": 1,
+          "l": 5,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Train",
+              13,
+              10
+            ],
+            [
+              "Inferno",
+              11,
+              13
+            ],
+            [
+              "Mirage",
+              13,
+              6
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382607/aurora-vs-mouz-blasttv-austin-major-2025",
+          "original": 0.8453322172,
+          "candidate": 0.7344008059404039,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2382606,
+          "round": 4,
+          "day": "2025-06-14",
+          "stageArchiveDay": "2025-06-14",
+          "a": 4,
+          "b": 13,
+          "w": 13,
+          "l": 4,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Ancient",
+              11,
+              13
+            ],
+            [
+              "Anubis",
+              4,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382606/the-mongolz-vs-faze-blasttv-austin-major-2025",
+          "original": 0.6269224848,
+          "candidate": 0.5776806308701355,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2382605,
+          "round": 4,
+          "day": "2025-06-14",
+          "stageArchiveDay": "2025-06-14",
+          "a": 10,
+          "b": 11,
+          "w": 10,
+          "l": 11,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Inferno",
+              13,
+              9
+            ],
+            [
+              "Nuke",
+              16,
+              12
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382605/3dmax-vs-pain-blasttv-austin-major-2025",
+          "original": 0.3078538881,
+          "candidate": 0.3078538881,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382604,
+          "round": 4,
+          "day": "2025-06-14",
+          "stageArchiveDay": "2025-06-14",
+          "a": 8,
+          "b": 15,
+          "w": 8,
+          "l": 15,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Dust2",
+              2,
+              13
+            ],
+            [
+              "Inferno",
+              13,
+              3
+            ],
+            [
+              "Nuke",
+              13,
+              5
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382604/legacy-vs-lynn-vision-blasttv-austin-major-2025",
+          "original": 0.551380165,
+          "candidate": 0.551380165,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382611,
+          "round": 5,
+          "day": "2025-06-15",
+          "stageArchiveDay": "2025-06-15",
+          "a": 3,
+          "b": 4,
+          "w": 4,
+          "l": 3,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Ancient",
+              6,
+              13
+            ],
+            [
+              "Dust2",
+              25,
+              28
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382611/the-mongolz-vs-g2-blasttv-austin-major-2025",
+          "original": 0.3144032175,
+          "candidate": 0.37030958254265883,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2382610,
+          "round": 5,
+          "day": "2025-06-15",
+          "stageArchiveDay": "2025-06-15",
+          "a": 1,
+          "b": 8,
+          "w": 1,
+          "l": 8,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Ancient",
+              4,
+              13
+            ],
+            [
+              "Inferno",
+              13,
+              11
+            ],
+            [
+              "Nuke",
+              13,
+              10
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382610/legacy-vs-mouz-blasttv-austin-major-2025",
+          "original": 0.8725621337,
+          "candidate": 0.8725621337,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2382612,
+          "round": 5,
+          "day": "2025-06-15",
+          "stageArchiveDay": "2025-06-16",
+          "a": 9,
+          "b": 10,
+          "w": 10,
+          "l": 9,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Mirage",
+              8,
+              13
+            ],
+            [
+              "Inferno",
+              13,
+              6
+            ],
+            [
+              "Dust2",
+              11,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2382612/virtuspro-vs-pain-blasttv-austin-major-2025",
+          "original": 0.5374246236,
+          "candidate": 0.5374246236,
+          "eligible": false,
+          "triggered": false
+        }
+      ],
+      "metrics": {
+        "all": {
+          "n": 33,
+          "original": {
+            "brier": 0.2112737253786826,
+            "logLoss": 0.6059563263905554
+          },
+          "candidate": {
+            "brier": 0.21495059982771259,
+            "logLoss": 0.6180268872464675
+          }
+        },
+        "bo1": {
+          "n": 20,
+          "original": {
+            "brier": 0.24404267269486118,
+            "logLoss": 0.6826185754361501
+          },
+          "candidate": {
+            "brier": 0.24404267269486118,
+            "logLoss": 0.6826185754361501
+          }
+        },
+        "bo3": {
+          "n": 13,
+          "original": {
+            "brier": 0.16085996027686944,
+            "logLoss": 0.4880144047819484
+          },
+          "candidate": {
+            "brier": 0.17019356464748395,
+            "logLoss": 0.5186550592623403
+          }
+        },
+        "eligible": {
+          "n": 7,
+          "original": {
+            "brier": 0.11939401041129648,
+            "logLoss": 0.39257495422054844
+          },
+          "candidate": {
+            "brier": 0.1367278470995805,
+            "logLoss": 0.44947902682699087
+          }
+        },
+        "changed": {
+          "n": 7,
+          "original": {
+            "brier": 0.11939401041129648,
+            "logLoss": 0.39257495422054844
+          },
+          "candidate": {
+            "brier": 0.1367278470995805,
+            "logLoss": 0.44947902682699087
+          }
+        }
+      },
+      "gate": {
+        "passed": null,
+        "criteria": null,
+        "reason": "development-only"
+      },
+      "simulation": null
+    },
+    "budapest-2025-3": {
+      "role": "development",
+      "start": "2025-12-04",
+      "teams": [
+        "FURIA",
+        "Vitality",
+        "Falcons",
+        "The MongolZ",
+        "MOUZ",
+        "Spirit",
+        "G2",
+        "paiN",
+        "Natus Vincere",
+        "FaZe",
+        "B8",
+        "Imperial",
+        "PARIVISION",
+        "Liquid",
+        "Passion UA",
+        "3DMAX"
+      ],
+      "replay": {
+        "matched": 33,
+        "total": 33,
+        "byRound": [
+          8,
+          8,
+          8,
+          6,
+          3
+        ],
+        "ok": true
+      },
+      "actual": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        3,
+        3,
+        1,
+        1,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3
+      ],
+      "perfect": [
+        "FURIA",
+        "Spirit"
+      ],
+      "matches": [
+        {
+          "id": 2388096,
+          "round": 1,
+          "day": "2025-12-04",
+          "stageArchiveDay": "2025-12-04",
+          "a": 7,
+          "b": 15,
+          "w": 7,
+          "l": 15,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Nuke",
+              13,
+              10
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388096/pain-vs-3dmax-starladder-budapest-major-2025",
+          "original": 0.4835827099,
+          "candidate": 0.4835827099,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388098,
+          "round": 1,
+          "day": "2025-12-04",
+          "stageArchiveDay": "2025-12-04",
+          "a": 2,
+          "b": 10,
+          "w": 10,
+          "l": 2,
+          "bo": 1,
+          "score": [
+            0,
+            1
+          ],
+          "maps": [
+            [
+              "Ancient",
+              10,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388098/b8-vs-falcons-starladder-budapest-major-2025",
+          "original": 0.6812091684,
+          "candidate": 0.6812091684,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388097,
+          "round": 1,
+          "day": "2025-12-04",
+          "stageArchiveDay": "2025-12-04",
+          "a": 0,
+          "b": 8,
+          "w": 0,
+          "l": 8,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Nuke",
+              13,
+              2
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388097/furia-vs-natus-vincere-starladder-budapest-major-2025",
+          "original": 0.5732886834,
+          "candidate": 0.5732886834,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388095,
+          "round": 1,
+          "day": "2025-12-04",
+          "stageArchiveDay": "2025-12-04",
+          "a": 1,
+          "b": 9,
+          "w": 9,
+          "l": 1,
+          "bo": 1,
+          "score": [
+            0,
+            1
+          ],
+          "maps": [
+            [
+              "Nuke",
+              7,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388095/vitality-vs-faze-starladder-budapest-major-2025",
+          "original": 0.6788216098,
+          "candidate": 0.6788216098,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388093,
+          "round": 1,
+          "day": "2025-12-04",
+          "stageArchiveDay": "2025-12-04",
+          "a": 5,
+          "b": 13,
+          "w": 5,
+          "l": 13,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Train",
+              13,
+              8
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388093/spirit-vs-liquid-starladder-budapest-major-2025",
+          "original": 0.6142061414,
+          "candidate": 0.6142061414,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388094,
+          "round": 1,
+          "day": "2025-12-04",
+          "stageArchiveDay": "2025-12-04",
+          "a": 6,
+          "b": 14,
+          "w": 6,
+          "l": 14,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Mirage",
+              13,
+              8
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388094/passion-ua-vs-g2-starladder-budapest-major-2025",
+          "original": 0.6756198347,
+          "candidate": 0.6756198347,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388092,
+          "round": 1,
+          "day": "2025-12-04",
+          "stageArchiveDay": "2025-12-04",
+          "a": 3,
+          "b": 11,
+          "w": 11,
+          "l": 3,
+          "bo": 1,
+          "score": [
+            0,
+            1
+          ],
+          "maps": [
+            [
+              "Dust2",
+              14,
+              16
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388092/imperial-vs-the-mongolz-starladder-budapest-major-2025",
+          "original": 0.672914301,
+          "candidate": 0.672914301,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388091,
+          "round": 1,
+          "day": "2025-12-04",
+          "stageArchiveDay": "2025-12-04",
+          "a": 4,
+          "b": 12,
+          "w": 4,
+          "l": 12,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Overpass",
+              16,
+              14
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388091/mouz-vs-parivision-starladder-budapest-major-2025",
+          "original": 0.6726818914,
+          "candidate": 0.6726818914,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388104,
+          "round": 2,
+          "day": "2025-12-04",
+          "stageArchiveDay": "2025-12-04",
+          "a": 3,
+          "b": 13,
+          "w": 3,
+          "l": 13,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Inferno",
+              13,
+              9
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388104/liquid-vs-the-mongolz-starladder-budapest-major-2025",
+          "original": 0.5672631427,
+          "candidate": 0.5672631427,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388103,
+          "round": 2,
+          "day": "2025-12-04",
+          "stageArchiveDay": "2025-12-04",
+          "a": 4,
+          "b": 10,
+          "w": 4,
+          "l": 10,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Overpass",
+              13,
+              6
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388103/mouz-vs-b8-starladder-budapest-major-2025",
+          "original": 0.6389305606,
+          "candidate": 0.6389305606,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388101,
+          "round": 2,
+          "day": "2025-12-04",
+          "stageArchiveDay": "2025-12-04",
+          "a": 2,
+          "b": 14,
+          "w": 2,
+          "l": 14,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Nuke",
+              13,
+              5
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388101/passion-ua-vs-falcons-starladder-budapest-major-2025",
+          "original": 0.6894833848,
+          "candidate": 0.6894833848,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388102,
+          "round": 2,
+          "day": "2025-12-04",
+          "stageArchiveDay": "2025-12-04",
+          "a": 5,
+          "b": 9,
+          "w": 5,
+          "l": 9,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              5
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388102/faze-vs-spirit-starladder-budapest-major-2025",
+          "original": 0.6181426263,
+          "candidate": 0.6181426263,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388100,
+          "round": 2,
+          "day": "2025-12-04",
+          "stageArchiveDay": "2025-12-04",
+          "a": 1,
+          "b": 15,
+          "w": 1,
+          "l": 15,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Nuke",
+              13,
+              4
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388100/3dmax-vs-vitality-starladder-budapest-major-2025",
+          "original": 0.6186185668,
+          "candidate": 0.6186185668,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388099,
+          "round": 2,
+          "day": "2025-12-04",
+          "stageArchiveDay": "2025-12-04",
+          "a": 6,
+          "b": 7,
+          "w": 6,
+          "l": 7,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              7
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388099/pain-vs-g2-starladder-budapest-major-2025",
+          "original": 0.5413861892,
+          "candidate": 0.5413861892,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388107,
+          "round": 3,
+          "day": "2025-12-05",
+          "stageArchiveDay": "2025-12-05",
+          "a": 3,
+          "b": 9,
+          "w": 3,
+          "l": 9,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Mirage",
+              13,
+              7
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388107/faze-vs-the-mongolz-starladder-budapest-major-2025",
+          "original": 0.6187399031,
+          "candidate": 0.6187399031,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388108,
+          "round": 3,
+          "day": "2025-12-05",
+          "stageArchiveDay": "2025-12-05",
+          "a": 1,
+          "b": 10,
+          "w": 1,
+          "l": 10,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Inferno",
+              13,
+              2
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388108/b8-vs-vitality-starladder-budapest-major-2025",
+          "original": 0.6711208223,
+          "candidate": 0.6711208223,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388109,
+          "round": 3,
+          "day": "2025-12-05",
+          "stageArchiveDay": "2025-12-05",
+          "a": 7,
+          "b": 8,
+          "w": 8,
+          "l": 7,
+          "bo": 1,
+          "score": [
+            0,
+            1
+          ],
+          "maps": [
+            [
+              "Dust2",
+              8,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388109/pain-vs-natus-vincere-starladder-budapest-major-2025",
+          "original": 0.3574300645,
+          "candidate": 0.3574300645,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388110,
+          "round": 3,
+          "day": "2025-12-05",
+          "stageArchiveDay": "2025-12-05",
+          "a": 2,
+          "b": 11,
+          "w": 2,
+          "l": 11,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Mirage",
+              13,
+              1
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388110/imperial-vs-falcons-starladder-budapest-major-2025",
+          "original": 0.6835888369,
+          "candidate": 0.6835888369,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388106,
+          "round": 2,
+          "day": "2025-12-04",
+          "stageArchiveDay": "2025-12-05",
+          "a": 8,
+          "b": 12,
+          "w": 8,
+          "l": 12,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Ancient",
+              13,
+              6
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388106/parivision-vs-natus-vincere-starladder-budapest-major-2025",
+          "original": 0.6798491484,
+          "candidate": 0.6798491484,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388105,
+          "round": 2,
+          "day": "2025-12-04",
+          "stageArchiveDay": "2025-12-05",
+          "a": 0,
+          "b": 11,
+          "w": 0,
+          "l": 11,
+          "bo": 1,
+          "score": [
+            1,
+            0
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              5
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388105/furia-vs-imperial-starladder-budapest-major-2025",
+          "original": 0.6819731607,
+          "candidate": 0.6819731607,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388114,
+          "round": 3,
+          "day": "2025-12-05",
+          "stageArchiveDay": "2025-12-05",
+          "a": 12,
+          "b": 15,
+          "w": 15,
+          "l": 12,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Dust2",
+              16,
+              12
+            ],
+            [
+              "Inferno",
+              8,
+              13
+            ],
+            [
+              "Ancient",
+              8,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388114/parivision-vs-3dmax-starladder-budapest-major-2025",
+          "original": 0.3196882032,
+          "candidate": 0.3196882032,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388113,
+          "round": 3,
+          "day": "2025-12-05",
+          "stageArchiveDay": "2025-12-05",
+          "a": 0,
+          "b": 6,
+          "w": 0,
+          "l": 6,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Inferno",
+              13,
+              6
+            ],
+            [
+              "Overpass",
+              13,
+              10
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388113/furia-vs-g2-starladder-budapest-major-2025",
+          "original": 0.6814819017,
+          "candidate": 0.7743339869801544,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2388112,
+          "round": 3,
+          "day": "2025-12-05",
+          "stageArchiveDay": "2025-12-05",
+          "a": 13,
+          "b": 14,
+          "w": 14,
+          "l": 13,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Train",
+              11,
+              13
+            ],
+            [
+              "Mirage",
+              10,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388112/passion-ua-vs-liquid-starladder-budapest-major-2025",
+          "original": 0.7490006424,
+          "candidate": 0.6605206460916423,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2388111,
+          "round": 3,
+          "day": "2025-12-05",
+          "stageArchiveDay": "2025-12-05",
+          "a": 4,
+          "b": 5,
+          "w": 5,
+          "l": 4,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Mirage",
+              5,
+              13
+            ],
+            [
+              "Train",
+              13,
+              10
+            ],
+            [
+              "Overpass",
+              11,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388111/mouz-vs-spirit-starladder-budapest-major-2025",
+          "original": 0.6786630156,
+          "candidate": 0.5510344998438168,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2388116,
+          "round": 4,
+          "day": "2025-12-06",
+          "stageArchiveDay": "2025-12-06",
+          "a": 7,
+          "b": 10,
+          "w": 10,
+          "l": 7,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Dust2",
+              16,
+              19
+            ],
+            [
+              "Ancient",
+              12,
+              16
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388116/b8-vs-pain-starladder-budapest-major-2025",
+          "original": 0.5392988061,
+          "candidate": 0.5392988061,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388115,
+          "round": 4,
+          "day": "2025-12-06",
+          "stageArchiveDay": "2025-12-06",
+          "a": 1,
+          "b": 8,
+          "w": 1,
+          "l": 8,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Inferno",
+              13,
+              11
+            ],
+            [
+              "Train",
+              13,
+              11
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388115/natus-vincere-vs-vitality-starladder-budapest-major-2025",
+          "original": 0.594753737,
+          "candidate": 0.4657511903318306,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2388120,
+          "round": 4,
+          "day": "2025-12-06",
+          "stageArchiveDay": "2025-12-06",
+          "a": 9,
+          "b": 15,
+          "w": 9,
+          "l": 15,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              6
+            ],
+            [
+              "Inferno",
+              13,
+              5
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388120/3dmax-vs-faze-starladder-budapest-major-2025",
+          "original": 0.5091312586,
+          "candidate": 0.5091312586,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388119,
+          "round": 4,
+          "day": "2025-12-06",
+          "stageArchiveDay": "2025-12-06",
+          "a": 3,
+          "b": 6,
+          "w": 3,
+          "l": 6,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Ancient",
+              13,
+              4
+            ],
+            [
+              "Dust2",
+              13,
+              6
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388119/g2-vs-the-mongolz-starladder-budapest-major-2025",
+          "original": 0.4859135736,
+          "candidate": 0.5787656588801544,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2388118,
+          "round": 4,
+          "day": "2025-12-06",
+          "stageArchiveDay": "2025-12-06",
+          "a": 11,
+          "b": 14,
+          "w": 14,
+          "l": 11,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Inferno",
+              8,
+              13
+            ],
+            [
+              "Dust2",
+              10,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388118/passion-ua-vs-imperial-starladder-budapest-major-2025",
+          "original": 0.4653301766,
+          "candidate": 0.4653301766,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388117,
+          "round": 4,
+          "day": "2025-12-06",
+          "stageArchiveDay": "2025-12-06",
+          "a": 2,
+          "b": 4,
+          "w": 4,
+          "l": 2,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Mirage",
+              13,
+              11
+            ],
+            [
+              "Inferno",
+              6,
+              13
+            ],
+            [
+              "Nuke",
+              10,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388117/mouz-vs-falcons-starladder-budapest-major-2025",
+          "original": 0.5876000693,
+          "candidate": 0.8234691424724725,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2388123,
+          "round": 5,
+          "day": "2025-12-07",
+          "stageArchiveDay": "2025-12-07",
+          "a": 2,
+          "b": 6,
+          "w": 2,
+          "l": 6,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Ancient",
+              9,
+              13
+            ],
+            [
+              "Inferno",
+              13,
+              4
+            ],
+            [
+              "Dust2",
+              13,
+              10
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388123/g2-vs-falcons-starladder-budapest-major-2025",
+          "original": 0.7120216967,
+          "candidate": 0.8048737819801545,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2388122,
+          "round": 5,
+          "day": "2025-12-07",
+          "stageArchiveDay": "2025-12-07",
+          "a": 9,
+          "b": 14,
+          "w": 9,
+          "l": 14,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Overpass",
+              13,
+              11
+            ],
+            [
+              "Mirage",
+              13,
+              11
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388122/faze-vs-passion-ua-starladder-budapest-major-2025",
+          "original": 0.7075386363,
+          "candidate": 0.7075386363,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2388121,
+          "round": 5,
+          "day": "2025-12-07",
+          "stageArchiveDay": "2025-12-07",
+          "a": 8,
+          "b": 10,
+          "w": 8,
+          "l": 10,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Ancient",
+              13,
+              4
+            ],
+            [
+              "Train",
+              16,
+              14
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2388121/b8-vs-natus-vincere-starladder-budapest-major-2025",
+          "original": 0.6976283578,
+          "candidate": 0.6976283578,
+          "eligible": false,
+          "triggered": false
+        }
+      ],
+      "metrics": {
+        "all": {
+          "n": 33,
+          "original": {
+            "brier": 0.20592562414480878,
+            "logLoss": 0.6037111755677108
+          },
+          "candidate": {
+            "brier": 0.20562664116288987,
+            "logLoss": 0.6046626228455589
+          }
+        },
+        "bo1": {
+          "n": 20,
+          "original": {
+            "brier": 0.18941506656748583,
+            "logLoss": 0.5693637844608421
+          },
+          "candidate": {
+            "brier": 0.18941506656748583,
+            "logLoss": 0.5693637844608421
+          }
+        },
+        "bo3": {
+          "n": 13,
+          "original": {
+            "brier": 0.23132648195607478,
+            "logLoss": 0.6565533157321242
+          },
+          "candidate": {
+            "brier": 0.23056752515581913,
+            "logLoss": 0.6589685280528156
+          }
+        },
+        "eligible": {
+          "n": 7,
+          "original": {
+            "brier": 0.28282199458580654,
+            "logLoss": 0.7668280477666466
+          },
+          "candidate": {
+            "brier": 0.2814125033853318,
+            "logLoss": 0.7713134420765023
+          }
+        },
+        "changed": {
+          "n": 7,
+          "original": {
+            "brier": 0.28282199458580654,
+            "logLoss": 0.7668280477666466
+          },
+          "candidate": {
+            "brier": 0.2814125033853318,
+            "logLoss": 0.7713134420765023
+          }
+        }
+      },
+      "gate": {
+        "passed": null,
+        "criteria": null,
+        "reason": "development-only"
+      },
+      "simulation": null
+    },
+    "cologne-2026-3": {
+      "role": "development",
+      "start": "2026-06-11",
+      "teams": [
+        "Vitality",
+        "Natus Vincere",
+        "Falcons",
+        "The MongolZ",
+        "PARIVISION",
+        "Aurora",
+        "FURIA",
+        "MOUZ",
+        "FUT",
+        "Spirit",
+        "G2",
+        "BetBoom",
+        "9z",
+        "Monte",
+        "B8",
+        "Legacy"
+      ],
+      "replay": {
+        "matched": 33,
+        "total": 33,
+        "byRound": [
+          8,
+          8,
+          8,
+          6,
+          3
+        ],
+        "ok": true
+      },
+      "actual": [
+        1,
+        3,
+        1,
+        3,
+        2,
+        1,
+        0,
+        3,
+        3,
+        0,
+        1,
+        1,
+        1,
+        3,
+        2,
+        3
+      ],
+      "perfect": [
+        "FURIA",
+        "Spirit"
+      ],
+      "matches": [
+        {
+          "id": 2394905,
+          "round": 1,
+          "day": "2026-06-11",
+          "stageArchiveDay": "2026-06-11",
+          "a": 7,
+          "b": 15,
+          "w": 7,
+          "l": 15,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              5
+            ],
+            [
+              "Nuke",
+              13,
+              6
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394905/mouz-vs-legacy-iem-cologne-major-2026",
+          "original": 0.5241727028,
+          "candidate": 0.47803337692835546,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394904,
+          "round": 1,
+          "day": "2026-06-11",
+          "stageArchiveDay": "2026-06-11",
+          "a": 3,
+          "b": 11,
+          "w": 11,
+          "l": 3,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              11
+            ],
+            [
+              "Mirage",
+              6,
+              13
+            ],
+            [
+              "Ancient",
+              11,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394904/the-mongolz-vs-betboom-iem-cologne-major-2026",
+          "original": 0.5107518946,
+          "candidate": 0.5107518946,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2394903,
+          "round": 1,
+          "day": "2026-06-11",
+          "stageArchiveDay": "2026-06-11",
+          "a": 4,
+          "b": 12,
+          "w": 12,
+          "l": 4,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Overpass",
+              1,
+              13
+            ],
+            [
+              "Dust2",
+              13,
+              8
+            ],
+            [
+              "Inferno",
+              9,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394903/parivision-vs-9z-iem-cologne-major-2026",
+          "original": 0.3851637579,
+          "candidate": 0.3851637579,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2394902,
+          "round": 1,
+          "day": "2026-06-11",
+          "stageArchiveDay": "2026-06-11",
+          "a": 5,
+          "b": 13,
+          "w": 5,
+          "l": 13,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Nuke",
+              13,
+              10
+            ],
+            [
+              "Anubis",
+              13,
+              7
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394902/aurora-vs-monte-iem-cologne-major-2026",
+          "original": 0.6996295794,
+          "candidate": 0.6639893798816051,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394901,
+          "round": 1,
+          "day": "2026-06-11",
+          "stageArchiveDay": "2026-06-11",
+          "a": 6,
+          "b": 14,
+          "w": 6,
+          "l": 14,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Mirage",
+              13,
+              10
+            ],
+            [
+              "Inferno",
+              13,
+              4
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394901/furia-vs-b8-iem-cologne-major-2026",
+          "original": 0.5102555164,
+          "candidate": 0.5102555164,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2394900,
+          "round": 1,
+          "day": "2026-06-11",
+          "stageArchiveDay": "2026-06-11",
+          "a": 1,
+          "b": 9,
+          "w": 9,
+          "l": 1,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Dust2",
+              1,
+              13
+            ],
+            [
+              "Anubis",
+              8,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394900/natus-vincere-vs-spirit-iem-cologne-major-2026",
+          "original": 0.2389574336,
+          "candidate": 0.27059259120081963,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394899,
+          "round": 1,
+          "day": "2026-06-11",
+          "stageArchiveDay": "2026-06-11",
+          "a": 2,
+          "b": 10,
+          "w": 2,
+          "l": 10,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Inferno",
+              10,
+              13
+            ],
+            [
+              "Dust2",
+              13,
+              8
+            ],
+            [
+              "Ancient",
+              16,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394899/falcons-vs-g2-iem-cologne-major-2026",
+          "original": 0.4913242353,
+          "candidate": 0.5449313935075449,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394898,
+          "round": 1,
+          "day": "2026-06-11",
+          "stageArchiveDay": "2026-06-11",
+          "a": 0,
+          "b": 8,
+          "w": 0,
+          "l": 8,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Anubis",
+              5,
+              13
+            ],
+            [
+              "Overpass",
+              13,
+              2
+            ],
+            [
+              "Nuke",
+              13,
+              8
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394898/vitality-vs-fut-iem-cologne-major-2026",
+          "original": 0.5186982118,
+          "candidate": 0.4857933113519314,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394971,
+          "round": 2,
+          "day": "2026-06-12",
+          "stageArchiveDay": "2026-06-12",
+          "a": 6,
+          "b": 7,
+          "w": 6,
+          "l": 7,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Nuke",
+              13,
+              5
+            ],
+            [
+              "Inferno",
+              5,
+              13
+            ],
+            [
+              "Overpass",
+              13,
+              7
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394971/furia-vs-mouz-iem-cologne-major-2026",
+          "original": 0.4749792237,
+          "candidate": 0.5413871125928023,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394978,
+          "round": 2,
+          "day": "2026-06-12",
+          "stageArchiveDay": "2026-06-12",
+          "a": 0,
+          "b": 12,
+          "w": 12,
+          "l": 0,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Inferno",
+              13,
+              4
+            ],
+            [
+              "Mirage",
+              9,
+              13
+            ],
+            [
+              "Dust2",
+              11,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394978/vitality-vs-9z-iem-cologne-major-2026",
+          "original": 0.7571826879,
+          "candidate": 0.7661665063439025,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394977,
+          "round": 2,
+          "day": "2026-06-12",
+          "stageArchiveDay": "2026-06-12",
+          "a": 5,
+          "b": 9,
+          "w": 9,
+          "l": 5,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              9
+            ],
+            [
+              "Anubis",
+              4,
+              13
+            ],
+            [
+              "Nuke",
+              5,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394977/aurora-vs-spirit-iem-cologne-major-2026",
+          "original": 0.0104491883,
+          "candidate": 0.0693391819970765,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394975,
+          "round": 2,
+          "day": "2026-06-12",
+          "stageArchiveDay": "2026-06-12",
+          "a": 2,
+          "b": 11,
+          "w": 11,
+          "l": 2,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Nuke",
+              11,
+              13
+            ],
+            [
+              "Ancient",
+              10,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394975/falcons-vs-betboom-iem-cologne-major-2026",
+          "original": 0.5168516744,
+          "candidate": 0.5168516744,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2394976,
+          "round": 2,
+          "day": "2026-06-12",
+          "stageArchiveDay": "2026-06-12",
+          "a": 1,
+          "b": 15,
+          "w": 1,
+          "l": 15,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Inferno",
+              13,
+              4
+            ],
+            [
+              "Ancient",
+              13,
+              10
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394976/natus-vincere-vs-legacy-iem-cologne-major-2026",
+          "original": 0.5915146161,
+          "candidate": 0.5055525342154965,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394974,
+          "round": 2,
+          "day": "2026-06-12",
+          "stageArchiveDay": "2026-06-12",
+          "a": 4,
+          "b": 13,
+          "w": 13,
+          "l": 4,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Mirage",
+              13,
+              7
+            ],
+            [
+              "Ancient",
+              9,
+              13
+            ],
+            [
+              "Inferno",
+              5,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394974/parivision-vs-monte-iem-cologne-major-2026",
+          "original": 0.4917012991,
+          "candidate": 0.4917012991,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2394973,
+          "round": 2,
+          "day": "2026-06-12",
+          "stageArchiveDay": "2026-06-12",
+          "a": 8,
+          "b": 10,
+          "w": 10,
+          "l": 8,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Overpass",
+              5,
+              13
+            ],
+            [
+              "Ancient",
+              13,
+              6
+            ],
+            [
+              "Mirage",
+              9,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394973/fut-vs-g2-iem-cologne-major-2026",
+          "original": 0.4969592345,
+          "candidate": 0.4969592345,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2394972,
+          "round": 2,
+          "day": "2026-06-12",
+          "stageArchiveDay": "2026-06-12",
+          "a": 3,
+          "b": 14,
+          "w": 3,
+          "l": 14,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Mirage",
+              16,
+              14
+            ],
+            [
+              "Overpass",
+              13,
+              3
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394972/the-mongolz-vs-b8-iem-cologne-major-2026",
+          "original": 0.514849544,
+          "candidate": 0.514849544,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2394986,
+          "round": 3,
+          "day": "2026-06-13",
+          "stageArchiveDay": "2026-06-13",
+          "a": 9,
+          "b": 12,
+          "w": 9,
+          "l": 12,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Overpass",
+              12,
+              16
+            ],
+            [
+              "Mirage",
+              16,
+              13
+            ],
+            [
+              "Dust2",
+              16,
+              14
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394986/spirit-vs-9z-iem-cologne-major-2026",
+          "original": 0.9863322916,
+          "candidate": 0.99,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394985,
+          "round": 3,
+          "day": "2026-06-13",
+          "stageArchiveDay": "2026-06-13",
+          "a": 6,
+          "b": 11,
+          "w": 6,
+          "l": 11,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Overpass",
+              13,
+              6
+            ],
+            [
+              "Dust2",
+              13,
+              6
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394985/betboom-vs-furia-iem-cologne-major-2026",
+          "original": 0.4972041758,
+          "candidate": 0.4972041758,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2394984,
+          "round": 3,
+          "day": "2026-06-13",
+          "stageArchiveDay": "2026-06-13",
+          "a": 4,
+          "b": 15,
+          "w": 15,
+          "l": 4,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Inferno",
+              12,
+              16
+            ],
+            [
+              "Dust2",
+              13,
+              16
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394984/parivision-vs-legacy-iem-cologne-major-2026",
+          "original": 0.1219314572,
+          "candidate": 0.2220621242211654,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394983,
+          "round": 3,
+          "day": "2026-06-13",
+          "stageArchiveDay": "2026-06-13",
+          "a": 0,
+          "b": 7,
+          "w": 0,
+          "l": 7,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Mirage",
+              13,
+              9
+            ],
+            [
+              "Dust2",
+              7,
+              13
+            ],
+            [
+              "Inferno",
+              13,
+              4
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394983/vitality-vs-mouz-iem-cologne-major-2026",
+          "original": 0.5115956593,
+          "candidate": 0.39478109601437794,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394982,
+          "round": 3,
+          "day": "2026-06-13",
+          "stageArchiveDay": "2026-06-13",
+          "a": 2,
+          "b": 13,
+          "w": 2,
+          "l": 13,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Inferno",
+              13,
+              9
+            ],
+            [
+              "Dust2",
+              11,
+              13
+            ],
+            [
+              "Mirage",
+              13,
+              10
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394982/falcons-vs-monte-iem-cologne-major-2026",
+          "original": 0.7848020604,
+          "candidate": 0.7491618608816051,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394981,
+          "round": 3,
+          "day": "2026-06-13",
+          "stageArchiveDay": "2026-06-13",
+          "a": 5,
+          "b": 10,
+          "w": 5,
+          "l": 10,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Overpass",
+              13,
+              8
+            ],
+            [
+              "Anubis",
+              13,
+              7
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394981/aurora-vs-g2-iem-cologne-major-2026",
+          "original": 0.4471963448,
+          "candidate": 0.500803503007545,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394980,
+          "round": 3,
+          "day": "2026-06-13",
+          "stageArchiveDay": "2026-06-13",
+          "a": 8,
+          "b": 14,
+          "w": 8,
+          "l": 14,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Dust2",
+              10,
+              13
+            ],
+            [
+              "Mirage",
+              13,
+              9
+            ],
+            [
+              "Ancient",
+              13,
+              11
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394980/b8-vs-fut-iem-cologne-major-2026",
+          "original": 0.6962131334,
+          "candidate": 0.6962131334,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2394979,
+          "round": 3,
+          "day": "2026-06-13",
+          "stageArchiveDay": "2026-06-13",
+          "a": 1,
+          "b": 3,
+          "w": 1,
+          "l": 3,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Nuke",
+              8,
+              13
+            ],
+            [
+              "Ancient",
+              16,
+              13
+            ],
+            [
+              "Mirage",
+              13,
+              6
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394979/natus-vincere-vs-the-mongolz-iem-cologne-major-2026",
+          "original": 0.5957723297,
+          "candidate": 0.5690379392217347,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394992,
+          "round": 4,
+          "day": "2026-06-14",
+          "stageArchiveDay": "2026-06-14",
+          "a": 10,
+          "b": 15,
+          "w": 10,
+          "l": 15,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              7
+            ],
+            [
+              "Overpass",
+              13,
+              4
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394992/g2-vs-legacy-iem-cologne-major-2026",
+          "original": 0.5128833898,
+          "candidate": 0.4592762315924551,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394991,
+          "round": 4,
+          "day": "2026-06-14",
+          "stageArchiveDay": "2026-06-14",
+          "a": 1,
+          "b": 2,
+          "w": 2,
+          "l": 1,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Dust2",
+              3,
+              13
+            ],
+            [
+              "Mirage",
+              13,
+              7
+            ],
+            [
+              "Anubis",
+              16,
+              19
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394991/natus-vincere-vs-falcons-iem-cologne-major-2026",
+          "original": 0.5841023502,
+          "candidate": 0.5635577337593775,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394990,
+          "round": 4,
+          "day": "2026-06-14",
+          "stageArchiveDay": "2026-06-14",
+          "a": 5,
+          "b": 12,
+          "w": 5,
+          "l": 12,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Nuke",
+              13,
+              1
+            ],
+            [
+              "Dust2",
+              13,
+              5
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394990/aurora-vs-9z-iem-cologne-major-2026",
+          "original": 0.5018924135,
+          "candidate": 0.5108762319439025,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394989,
+          "round": 4,
+          "day": "2026-06-14",
+          "stageArchiveDay": "2026-06-14",
+          "a": 0,
+          "b": 11,
+          "w": 0,
+          "l": 11,
+          "bo": 3,
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Overpass",
+              13,
+              8
+            ],
+            [
+              "Nuke",
+              13,
+              11
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394989/betboom-vs-vitality-iem-cologne-major-2026",
+          "original": 0.5220586207,
+          "candidate": 0.5220586207,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2394988,
+          "round": 4,
+          "day": "2026-06-14",
+          "stageArchiveDay": "2026-06-14",
+          "a": 3,
+          "b": 13,
+          "w": 3,
+          "l": 13,
+          "bo": 3,
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Nuke",
+              9,
+              13
+            ],
+            [
+              "Inferno",
+              13,
+              7
+            ],
+            [
+              "Dust2",
+              13,
+              11
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394988/the-mongolz-vs-monte-iem-cologne-major-2026",
+          "original": 0.7514164349,
+          "candidate": 0.7157762353816051,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394987,
+          "round": 4,
+          "day": "2026-06-14",
+          "stageArchiveDay": "2026-06-14",
+          "a": 7,
+          "b": 8,
+          "w": 8,
+          "l": 7,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Ancient",
+              11,
+              13
+            ],
+            [
+              "Nuke",
+              13,
+              10
+            ],
+            [
+              "Mirage",
+              7,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394987/mouz-vs-fut-iem-cologne-major-2026",
+          "original": 0.5025881254,
+          "candidate": 0.4696832249519314,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394995,
+          "round": 5,
+          "day": "2026-06-15",
+          "stageArchiveDay": "2026-06-15",
+          "a": 1,
+          "b": 10,
+          "w": 10,
+          "l": 1,
+          "bo": 3,
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              11
+            ],
+            [
+              "Inferno",
+              14,
+              16
+            ],
+            [
+              "Mirage",
+              10,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394995/natus-vincere-vs-g2-iem-cologne-major-2026",
+          "original": 0.6372651494,
+          "candidate": 0.6908723076075449,
+          "eligible": true,
+          "triggered": true
+        },
+        {
+          "id": 2394994,
+          "round": 5,
+          "day": "2026-06-15",
+          "stageArchiveDay": "2026-06-15",
+          "a": 8,
+          "b": 11,
+          "w": 11,
+          "l": 8,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Mirage",
+              7,
+              13
+            ],
+            [
+              "Dust2",
+              7,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394994/betboom-vs-fut-iem-cologne-major-2026",
+          "original": 0.5001258501,
+          "candidate": 0.5001258501,
+          "eligible": false,
+          "triggered": false
+        },
+        {
+          "id": 2394993,
+          "round": 5,
+          "day": "2026-06-15",
+          "stageArchiveDay": "2026-06-15",
+          "a": 3,
+          "b": 12,
+          "w": 12,
+          "l": 3,
+          "bo": 3,
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Inferno",
+              8,
+              13
+            ],
+            [
+              "Overpass",
+              8,
+              13
+            ]
+          ],
+          "source": "https://www.hltv.org/matches/2394993/9z-vs-the-mongolz-iem-cologne-major-2026",
+          "original": 0.5273795318,
+          "candidate": 0.5363633502439025,
+          "eligible": true,
+          "triggered": true
+        }
+      ],
+      "metrics": {
+        "all": {
+          "n": 33,
+          "original": {
+            "brier": 0.2102462245958235,
+            "logLoss": 0.5979785478266573
+          },
+          "candidate": {
+            "brier": 0.22029676210876217,
+            "logLoss": 0.6233700035107452
+          }
+        },
+        "bo1": {
+          "n": 0,
+          "original": {
+            "brier": null,
+            "logLoss": null
+          },
+          "candidate": {
+            "brier": null,
+            "logLoss": null
+          }
+        },
+        "bo3": {
+          "n": 33,
+          "original": {
+            "brier": 0.2102462245958235,
+            "logLoss": 0.5979785478266573
+          },
+          "candidate": {
+            "brier": 0.22029676210876217,
+            "logLoss": 0.6233700035107452
+          }
+        },
+        "eligible": {
+          "n": 22,
+          "original": {
+            "brier": 0.20337126993149193,
+            "logLoss": 0.5772660477754296
+          },
+          "candidate": {
+            "brier": 0.2184470762008999,
+            "logLoss": 0.6153532313015614
+          }
+        },
+        "changed": {
+          "n": 22,
+          "original": {
+            "brier": 0.20337126993149193,
+            "logLoss": 0.5772660477754296
+          },
+          "candidate": {
+            "brier": 0.2184470762008999,
+            "logLoss": 0.6153532313015614
+          }
+        }
+      },
+      "gate": {
+        "passed": null,
+        "criteria": null,
+        "reason": "development-only"
+      },
+      "simulation": null
+    }
+  }
+}

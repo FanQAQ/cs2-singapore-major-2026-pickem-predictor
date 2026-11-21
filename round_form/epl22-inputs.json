@@ -1,0 +1,2280 @@
+{
+  "target": {
+    "id": "epl22-stage2",
+    "start": "2025-10-04",
+    "end": "2025-10-08",
+    "entrants": [
+      "Vitality",
+      "The MongolZ",
+      "Spirit",
+      "MOUZ",
+      "Falcons",
+      "FURIA",
+      "G2",
+      "Aurora",
+      "Natus Vincere",
+      "FaZe",
+      "3DMAX",
+      "Astralis",
+      "GamerLegion",
+      "Inner Circle",
+      "HOTU",
+      "Gentle Mates"
+    ],
+    "teams": [
+      {
+        "name": "Vitality",
+        "seed": 1,
+        "roster": [
+          "apEX",
+          "flameZ",
+          "mezii",
+          "ropz",
+          "ZywOo"
+        ],
+        "points": 1970,
+        "ratingRoster": [
+          "apEX",
+          "flameZ",
+          "mezii",
+          "ropz",
+          "ZywOo"
+        ],
+        "overlap": 5,
+        "rank": 2,
+        "rosterDay": "2025-09-06",
+        "rosterSource": "https://www.hltv.org/matches/2384854/vitality-vs-mouz-blast-open-london-2025-finals",
+        "rosterEvidence": [
+          {
+            "kind": "playedLineup",
+            "day": "2025-09-06",
+            "source": "https://www.hltv.org/matches/2384854/vitality-vs-mouz-blast-open-london-2025-finals",
+            "roster": [
+              "apEX",
+              "flameZ",
+              "mezii",
+              "ropz",
+              "ZywOo"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The MongolZ",
+        "seed": 2,
+        "roster": [
+          "910",
+          "bLitz",
+          "mzinho",
+          "Senzu",
+          "Techno"
+        ],
+        "points": 1949,
+        "ratingRoster": [
+          "910",
+          "bLitz",
+          "mzinho",
+          "Senzu",
+          "Techno"
+        ],
+        "overlap": 5,
+        "rank": 3,
+        "rosterDay": "2025-09-20",
+        "rosterSource": "https://www.hltv.org/matches/2385327/the-mongolz-vs-liquid-fissure-playground-2",
+        "rosterEvidence": [
+          {
+            "kind": "playedLineup",
+            "day": "2025-09-20",
+            "source": "https://www.hltv.org/matches/2385327/the-mongolz-vs-liquid-fissure-playground-2",
+            "roster": [
+              "910",
+              "bLitz",
+              "mzinho",
+              "Senzu",
+              "Techno"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spirit",
+        "seed": 3,
+        "roster": [
+          "chopper",
+          "donk",
+          "sh1ro",
+          "tN1R",
+          "zweih"
+        ],
+        "points": 2017,
+        "ratingRoster": [
+          "chopper",
+          "donk",
+          "sh1ro",
+          "zont1x",
+          "zweih"
+        ],
+        "overlap": 4,
+        "rank": 1,
+        "rosterDay": "2025-09-08",
+        "rosterSource": "https://teamspirit.gg/article/68bee1f769dddf002394f8e2",
+        "rosterEvidence": [
+          {
+            "kind": "playedLineup",
+            "day": "2025-09-01",
+            "source": "https://www.hltv.org/matches/2384851/spirit-vs-g2-blast-open-london-2025",
+            "roster": [
+              "chopper",
+              "donk",
+              "sh1ro",
+              "zont1x",
+              "zweih"
+            ]
+          },
+          {
+            "kind": "announcedChange",
+            "day": "2025-09-08",
+            "out": "zont1x",
+            "incoming": "tN1R",
+            "source": "https://teamspirit.gg/article/68bee1f769dddf002394f8e2",
+            "corroboration": "https://www.hltv.org/news/42432/official-spirit-sign-tn1r-to-replace-zont1x"
+          }
+        ]
+      },
+      {
+        "name": "MOUZ",
+        "seed": 4,
+        "roster": [
+          "Brollan",
+          "Jimpphat",
+          "Spinx",
+          "torzsi",
+          "xertioN"
+        ],
+        "points": 1904,
+        "ratingRoster": [
+          "Brollan",
+          "Jimpphat",
+          "Spinx",
+          "torzsi",
+          "xertioN"
+        ],
+        "overlap": 5,
+        "rank": 4,
+        "rosterDay": "2025-09-06",
+        "rosterSource": "https://www.hltv.org/matches/2384854/vitality-vs-mouz-blast-open-london-2025-finals",
+        "rosterEvidence": [
+          {
+            "kind": "playedLineup",
+            "day": "2025-09-06",
+            "source": "https://www.hltv.org/matches/2384854/vitality-vs-mouz-blast-open-london-2025-finals",
+            "roster": [
+              "Brollan",
+              "Jimpphat",
+              "Spinx",
+              "torzsi",
+              "xertioN"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Falcons",
+        "seed": 5,
+        "roster": [
+          "kyousuke",
+          "kyxsan",
+          "m0NESY",
+          "NiKo",
+          "TeSeS"
+        ],
+        "points": 1762,
+        "ratingRoster": [
+          "kyousuke",
+          "kyxsan",
+          "m0NESY",
+          "NiKo",
+          "TeSeS"
+        ],
+        "overlap": 5,
+        "rank": 5,
+        "rosterDay": "2025-09-20",
+        "rosterSource": "https://www.hltv.org/matches/2385328/furia-vs-falcons-fissure-playground-2",
+        "rosterEvidence": [
+          {
+            "kind": "playedLineup",
+            "day": "2025-09-20",
+            "source": "https://www.hltv.org/matches/2385328/furia-vs-falcons-fissure-playground-2",
+            "roster": [
+              "kyousuke",
+              "kyxsan",
+              "m0NESY",
+              "NiKo",
+              "TeSeS"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FURIA",
+        "seed": 6,
+        "roster": [
+          "FalleN",
+          "KSCERATO",
+          "molodoy",
+          "YEKINDAR",
+          "yuurih"
+        ],
+        "points": 1655,
+        "ratingRoster": [
+          "FalleN",
+          "KSCERATO",
+          "molodoy",
+          "YEKINDAR",
+          "yuurih"
+        ],
+        "overlap": 5,
+        "rank": 10,
+        "rosterDay": "2025-10-02",
+        "rosterSource": "https://www.hltv.org/matches/2385929/furia-vs-b8-esl-pro-league-season-22-stage-1",
+        "rosterEvidence": [
+          {
+            "kind": "playedLineup",
+            "day": "2025-10-02",
+            "source": "https://www.hltv.org/matches/2385929/furia-vs-b8-esl-pro-league-season-22-stage-1",
+            "roster": [
+              "FalleN",
+              "KSCERATO",
+              "molodoy",
+              "YEKINDAR",
+              "yuurih"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "G2",
+        "seed": 7,
+        "roster": [
+          "HeavyGod",
+          "huNter-",
+          "malbsMd",
+          "MATYS",
+          "SunPayus"
+        ],
+        "points": 1515,
+        "ratingRoster": [
+          "HeavyGod",
+          "huNter-",
+          "malbsMd",
+          "MATYS",
+          "SunPayus"
+        ],
+        "overlap": 5,
+        "rank": 15,
+        "rosterDay": "2025-10-02",
+        "rosterSource": "https://www.hltv.org/matches/2385927/g2-vs-ence-esl-pro-league-season-22-stage-1",
+        "rosterEvidence": [
+          {
+            "kind": "playedLineup",
+            "day": "2025-10-02",
+            "source": "https://www.hltv.org/matches/2385927/g2-vs-ence-esl-pro-league-season-22-stage-1",
+            "roster": [
+              "HeavyGod",
+              "huNter-",
+              "malbsMd",
+              "MATYS",
+              "SunPayus"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aurora",
+        "seed": 8,
+        "roster": [
+          "jottAAA",
+          "MAJ3R",
+          "Wicadia",
+          "woxic",
+          "XANTARES"
+        ],
+        "points": 1745,
+        "ratingRoster": [
+          "jottAAA",
+          "MAJ3R",
+          "Wicadia",
+          "woxic",
+          "XANTARES"
+        ],
+        "overlap": 5,
+        "rank": 6,
+        "rosterDay": "2025-09-19",
+        "rosterSource": "https://www.hltv.org/matches/2385324/aurora-vs-liquid-fissure-playground-2",
+        "rosterEvidence": [
+          {
+            "kind": "playedLineup",
+            "day": "2025-09-19",
+            "source": "https://www.hltv.org/matches/2385324/aurora-vs-liquid-fissure-playground-2",
+            "roster": [
+              "jottAAA",
+              "MAJ3R",
+              "Wicadia",
+              "woxic",
+              "XANTARES"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Natus Vincere",
+        "seed": 9,
+        "roster": [
+          "Aleksib",
+          "b1t",
+          "iM",
+          "makazze",
+          "w0nderful"
+        ],
+        "points": 1702,
+        "ratingRoster": [
+          "Aleksib",
+          "b1t",
+          "iM",
+          "makazze",
+          "w0nderful"
+        ],
+        "overlap": 5,
+        "rank": 7,
+        "rosterDay": "2025-09-21",
+        "rosterSource": "https://www.hltv.org/matches/2385407/natus-vincere-vs-ninjas-in-pyjamas-starladder-starseries-fall-2025",
+        "rosterEvidence": [
+          {
+            "kind": "playedLineup",
+            "day": "2025-09-21",
+            "source": "https://www.hltv.org/matches/2385407/natus-vincere-vs-ninjas-in-pyjamas-starladder-starseries-fall-2025",
+            "roster": [
+              "Aleksib",
+              "b1t",
+              "iM",
+              "makazze",
+              "w0nderful"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FaZe",
+        "seed": 10,
+        "roster": [
+          "broky",
+          "frozen",
+          "jcobbb",
+          "karrigan",
+          "Twistzz"
+        ],
+        "points": 1635,
+        "ratingRoster": [
+          "broky",
+          "EliGE",
+          "frozen",
+          "karrigan",
+          "rain"
+        ],
+        "overlap": 3,
+        "rank": 12,
+        "rosterDay": "2025-09-29",
+        "rosterSource": "https://www.hltv.org/news/42809/faze-announce-rain-benching",
+        "rosterEvidence": [
+          {
+            "kind": "playedLineup",
+            "day": "2025-09-17",
+            "source": "https://www.hltv.org/matches/2385320/faze-vs-liquid-fissure-playground-2",
+            "roster": [
+              "broky",
+              "frozen",
+              "jcobbb",
+              "karrigan",
+              "rain"
+            ]
+          },
+          {
+            "kind": "announcedChange",
+            "day": "2025-09-29",
+            "out": "rain",
+            "incoming": "Twistzz",
+            "source": "https://www.hltv.org/news/42809/faze-announce-rain-benching",
+            "corroboration": "https://www.youtube.com/watch?v=5kCEwlhxpOo"
+          }
+        ]
+      },
+      {
+        "name": "3DMAX",
+        "seed": 11,
+        "roster": [
+          "bodyy",
+          "Ex3rcice",
+          "Graviti",
+          "Lucky",
+          "Maka"
+        ],
+        "points": 1684,
+        "ratingRoster": [
+          "bodyy",
+          "Ex3rcice",
+          "Graviti",
+          "Lucky",
+          "Maka"
+        ],
+        "overlap": 5,
+        "rank": 8,
+        "rosterDay": "2025-10-01",
+        "rosterSource": "https://www.hltv.org/matches/2385924/3dmax-vs-ence-esl-pro-league-season-22-stage-1",
+        "rosterEvidence": [
+          {
+            "kind": "playedLineup",
+            "day": "2025-10-01",
+            "source": "https://www.hltv.org/matches/2385924/3dmax-vs-ence-esl-pro-league-season-22-stage-1",
+            "roster": [
+              "bodyy",
+              "Ex3rcice",
+              "Graviti",
+              "Lucky",
+              "Maka"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Astralis",
+        "seed": 12,
+        "roster": [
+          "device",
+          "HooXi",
+          "jabbi",
+          "Magisk",
+          "Staehr"
+        ],
+        "points": 1652,
+        "ratingRoster": [
+          "device",
+          "HooXi",
+          "jabbi",
+          "Staehr",
+          "stavn"
+        ],
+        "overlap": 4,
+        "rank": 11,
+        "rosterDay": "2025-10-02",
+        "rosterSource": "https://www.hltv.org/matches/2385928/astralis-vs-legacy-esl-pro-league-season-22-stage-1",
+        "rosterEvidence": [
+          {
+            "kind": "playedLineup",
+            "day": "2025-10-02",
+            "source": "https://www.hltv.org/matches/2385928/astralis-vs-legacy-esl-pro-league-season-22-stage-1",
+            "roster": [
+              "device",
+              "HooXi",
+              "jabbi",
+              "Magisk",
+              "Staehr"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "GamerLegion",
+        "seed": 13,
+        "roster": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Tauson",
+          "ztr"
+        ],
+        "points": 1481,
+        "ratingRoster": [
+          "Kursy",
+          "PR",
+          "REZ",
+          "Tauson",
+          "ztr"
+        ],
+        "overlap": 4,
+        "rank": 16,
+        "rosterDay": "2025-10-01",
+        "rosterSource": "https://www.hltv.org/matches/2385921/gamerlegion-vs-b8-esl-pro-league-season-22-stage-1",
+        "rosterEvidence": [
+          {
+            "kind": "playedLineup",
+            "day": "2025-10-01",
+            "source": "https://www.hltv.org/matches/2385921/gamerlegion-vs-b8-esl-pro-league-season-22-stage-1",
+            "roster": [
+              "hypex",
+              "PR",
+              "REZ",
+              "Tauson",
+              "ztr"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Inner Circle",
+        "seed": 14,
+        "roster": [
+          "cairne",
+          "Dawy",
+          "Flierax",
+          "nifee",
+          "onic"
+        ],
+        "points": 1193,
+        "ratingRoster": [
+          "cairne",
+          "Dawy",
+          "Flierax",
+          "nifee",
+          "onic"
+        ],
+        "overlap": 5,
+        "rank": 33,
+        "rosterDay": "2025-09-30",
+        "rosterSource": "https://www.hltv.org/matches/2385915/inner-circle-vs-gentle-mates-esl-pro-league-season-22-stage-1",
+        "rosterEvidence": [
+          {
+            "kind": "playedLineup",
+            "day": "2025-09-30",
+            "source": "https://www.hltv.org/matches/2385915/inner-circle-vs-gentle-mates-esl-pro-league-season-22-stage-1",
+            "roster": [
+              "cairne",
+              "Dawy",
+              "Flierax",
+              "nifee",
+              "onic"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "HOTU",
+        "seed": 15,
+        "roster": [
+          "dukefissura",
+          "frontales",
+          "kade0",
+          "mizu",
+          "n0rb3r7"
+        ],
+        "points": 916,
+        "ratingRoster": [
+          "dukefissura",
+          "frontales",
+          "kade0",
+          "lampada",
+          "mizu"
+        ],
+        "overlap": 4,
+        "rank": 73,
+        "rosterDay": "2025-09-30",
+        "rosterSource": "https://www.hltv.org/matches/2385913/hotu-vs-ence-esl-pro-league-season-22-stage-1",
+        "rosterEvidence": [
+          {
+            "kind": "playedLineup",
+            "day": "2025-09-30",
+            "source": "https://www.hltv.org/matches/2385913/hotu-vs-ence-esl-pro-league-season-22-stage-1",
+            "roster": [
+              "dukefissura",
+              "frontales",
+              "kade0",
+              "mizu",
+              "n0rb3r7"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gentle Mates",
+        "seed": 16,
+        "roster": [
+          "alex",
+          "dav1g",
+          "MartinezSa",
+          "mopoz",
+          "sausol"
+        ],
+        "points": 1300,
+        "ratingRoster": [
+          "alex",
+          "dav1g",
+          "MartinezSa",
+          "mopoz",
+          "sausol"
+        ],
+        "overlap": 5,
+        "rank": 26,
+        "rosterDay": "2025-10-01",
+        "rosterSource": "https://www.hltv.org/matches/2385926/legacy-vs-gentle-mates-esl-pro-league-season-22-stage-1",
+        "rosterEvidence": [
+          {
+            "kind": "playedLineup",
+            "day": "2025-10-01",
+            "source": "https://www.hltv.org/matches/2385926/legacy-vs-gentle-mates-esl-pro-league-season-22-stage-1",
+            "roster": [
+              "alex",
+              "dav1g",
+              "MartinezSa",
+              "mopoz",
+              "sausol"
+            ]
+          }
+        ]
+      }
+    ],
+    "liveRatings": [
+      1.36,
+      2.13,
+      2.46,
+      3.85,
+      4.85,
+      5.31,
+      6.77,
+      7.0,
+      8.23,
+      9.54,
+      11.31,
+      11.77,
+      12.0,
+      13.85,
+      14.0,
+      14.2
+    ],
+    "direct": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9
+    ],
+    "seedingDate": "2025-10-03",
+    "seedingSource": "https://pro.eslgaming.com/tour/2025/10/epl-s22-stage-2-team-seeding-and-live-ratings/",
+    "rankingDate": "2025-09-01",
+    "rankingPublishedAt": "2025-09-01T16:58:36Z",
+    "rankingSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/ec65cbf461daa5977d57f80561437961326cfc51/invitation/2025/standings_global_2025_09_01.md"
+  },
+  "priorStage": {
+    "id": "epl22-stage2",
+    "start": "2025-10-04",
+    "stage2Start": "2025-09-28",
+    "stage2End": "2025-10-02",
+    "donorStage": 1,
+    "series": [
+      {
+        "id": "2385899",
+        "round": 1,
+        "day": "2025-09-28",
+        "bo": 3,
+        "a": "Astralis",
+        "b": "Fluxo",
+        "fiveA": [
+          "device",
+          "HooXi",
+          "jabbi",
+          "Magisk",
+          "Staehr"
+        ],
+        "fiveB": [
+          "arT",
+          "decenty",
+          "kye",
+          "Lucaozy",
+          "zevy"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1652,
+        "pointsB": 1081,
+        "rankOverlap": [
+          4,
+          5
+        ],
+        "score": [
+          2,
+          1
+        ],
+        "maps": [
+          [
+            "Mirage",
+            13,
+            6
+          ],
+          [
+            "Inferno",
+            9,
+            13
+          ],
+          [
+            "Nuke",
+            13,
+            2
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385899/astralis-vs-fluxo-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385898",
+        "round": 1,
+        "day": "2025-09-28",
+        "bo": 3,
+        "a": "G2",
+        "b": "Rooster",
+        "fiveA": [
+          "HeavyGod",
+          "huNter-",
+          "malbsMd",
+          "MATYS",
+          "SunPayus"
+        ],
+        "fiveB": [
+          "asap",
+          "chelleos",
+          "sliimey",
+          "Terryyy",
+          "TjP"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1515,
+        "pointsB": 734,
+        "rankOverlap": [
+          5,
+          5
+        ],
+        "score": [
+          2,
+          0
+        ],
+        "maps": [
+          [
+            "Overpass",
+            13,
+            9
+          ],
+          [
+            "Inferno",
+            13,
+            3
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385898/g2-vs-rooster-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385900",
+        "round": 1,
+        "day": "2025-09-28",
+        "bo": 3,
+        "a": "3DMAX",
+        "b": "Inner Circle",
+        "fiveA": [
+          "bodyy",
+          "Ex3rcice",
+          "Graviti",
+          "Lucky",
+          "Nivera"
+        ],
+        "fiveB": [
+          "cairne",
+          "Dawy",
+          "Flierax",
+          "nifee",
+          "onic"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1684,
+        "pointsB": 1193,
+        "rankOverlap": [
+          4,
+          5
+        ],
+        "score": [
+          1,
+          2
+        ],
+        "maps": [
+          [
+            "Ancient",
+            16,
+            13
+          ],
+          [
+            "Nuke",
+            9,
+            13
+          ],
+          [
+            "Train",
+            4,
+            13
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385900/3dmax-vs-inner-circle-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385903",
+        "round": 1,
+        "day": "2025-09-28",
+        "bo": 3,
+        "a": "GamerLegion",
+        "b": "NRG",
+        "fiveA": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Tauson",
+          "ztr"
+        ],
+        "fiveB": [
+          "br0",
+          "Jeorge",
+          "nitr0",
+          "Sonic",
+          "XotiC"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1481,
+        "pointsB": 1173,
+        "rankOverlap": [
+          4,
+          4
+        ],
+        "score": [
+          2,
+          0
+        ],
+        "maps": [
+          [
+            "Train",
+            13,
+            11
+          ],
+          [
+            "Overpass",
+            13,
+            9
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385903/gamerlegion-vs-nrg-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385904",
+        "round": 1,
+        "day": "2025-09-28",
+        "bo": 3,
+        "a": "FURIA",
+        "b": "HOTU",
+        "fiveA": [
+          "FalleN",
+          "KSCERATO",
+          "molodoy",
+          "YEKINDAR",
+          "yuurih"
+        ],
+        "fiveB": [
+          "dukefissura",
+          "frontales",
+          "kade0",
+          "mizu",
+          "n0rb3r7"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1655,
+        "pointsB": 916,
+        "rankOverlap": [
+          5,
+          4
+        ],
+        "score": [
+          0,
+          2
+        ],
+        "maps": [
+          [
+            "Overpass",
+            8,
+            13
+          ],
+          [
+            "Dust2",
+            9,
+            13
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385904/furia-vs-hotu-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385902",
+        "round": 1,
+        "day": "2025-09-28",
+        "bo": 3,
+        "a": "Legacy",
+        "b": "B8",
+        "fiveA": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ],
+        "fiveB": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1374,
+        "pointsB": 1319,
+        "rankOverlap": [
+          5,
+          5
+        ],
+        "score": [
+          1,
+          2
+        ],
+        "maps": [
+          [
+            "Dust2",
+            13,
+            4
+          ],
+          [
+            "Ancient",
+            6,
+            13
+          ],
+          [
+            "Train",
+            2,
+            13
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385902/legacy-vs-b8-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385897",
+        "round": 1,
+        "day": "2025-09-28",
+        "bo": 3,
+        "a": "HEROIC",
+        "b": "Gentle Mates",
+        "fiveA": [
+          "Alkaren",
+          "LNZ",
+          "nilo",
+          "xfl0ud",
+          "yxngstxr"
+        ],
+        "fiveB": [
+          "alex",
+          "dav1g",
+          "MartinezSa",
+          "mopoz",
+          "sausol"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1526,
+        "pointsB": 1300,
+        "rankOverlap": [
+          3,
+          5
+        ],
+        "score": [
+          1,
+          2
+        ],
+        "maps": [
+          [
+            "Nuke",
+            6,
+            13
+          ],
+          [
+            "Mirage",
+            13,
+            7
+          ],
+          [
+            "Ancient",
+            12,
+            16
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385897/heroic-vs-gentle-mates-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385901",
+        "round": 1,
+        "day": "2025-09-28",
+        "bo": 3,
+        "a": "M80",
+        "b": "ENCE",
+        "fiveA": [
+          "HexT",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "fiveB": [
+          "myltsi",
+          "Neityu",
+          "podi",
+          "rigoN",
+          "sdy"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1176,
+        "pointsB": 1221,
+        "rankOverlap": [
+          5,
+          5
+        ],
+        "score": [
+          1,
+          2
+        ],
+        "maps": [
+          [
+            "Dust2",
+            10,
+            13
+          ],
+          [
+            "Mirage",
+            13,
+            9
+          ],
+          [
+            "Ancient",
+            8,
+            13
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385901/m80-vs-ence-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385905",
+        "round": 2,
+        "day": "2025-09-29",
+        "bo": 3,
+        "a": "B8",
+        "b": "HOTU",
+        "fiveA": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ],
+        "fiveB": [
+          "dukefissura",
+          "frontales",
+          "kade0",
+          "mizu",
+          "n0rb3r7"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1319,
+        "pointsB": 916,
+        "rankOverlap": [
+          5,
+          4
+        ],
+        "score": [
+          1,
+          2
+        ],
+        "maps": [
+          [
+            "Overpass",
+            13,
+            7
+          ],
+          [
+            "Mirage",
+            10,
+            13
+          ],
+          [
+            "Ancient",
+            2,
+            13
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385905/b8-vs-hotu-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385906",
+        "round": 2,
+        "day": "2025-09-29",
+        "bo": 3,
+        "a": "3DMAX",
+        "b": "Rooster",
+        "fiveA": [
+          "bodyy",
+          "Ex3rcice",
+          "Graviti",
+          "Lucky",
+          "Maka"
+        ],
+        "fiveB": [
+          "asap",
+          "chelleos",
+          "sliimey",
+          "Terryyy",
+          "TjP"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1684,
+        "pointsB": 734,
+        "rankOverlap": [
+          5,
+          5
+        ],
+        "score": [
+          2,
+          0
+        ],
+        "maps": [
+          [
+            "Overpass",
+            13,
+            10
+          ],
+          [
+            "Inferno",
+            13,
+            3
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385906/3dmax-vs-rooster-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385908",
+        "round": 2,
+        "day": "2025-09-29",
+        "bo": 3,
+        "a": "GamerLegion",
+        "b": "Inner Circle",
+        "fiveA": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Tauson",
+          "ztr"
+        ],
+        "fiveB": [
+          "cairne",
+          "Dawy",
+          "Flierax",
+          "nifee",
+          "onic"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1481,
+        "pointsB": 1193,
+        "rankOverlap": [
+          4,
+          5
+        ],
+        "score": [
+          1,
+          2
+        ],
+        "maps": [
+          [
+            "Ancient",
+            3,
+            13
+          ],
+          [
+            "Overpass",
+            22,
+            20
+          ],
+          [
+            "Dust2",
+            1,
+            13
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385908/gamerlegion-vs-inner-circle-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385907",
+        "round": 2,
+        "day": "2025-09-29",
+        "bo": 3,
+        "a": "Astralis",
+        "b": "ENCE",
+        "fiveA": [
+          "device",
+          "HooXi",
+          "jabbi",
+          "Magisk",
+          "Staehr"
+        ],
+        "fiveB": [
+          "myltsi",
+          "Neityu",
+          "podi",
+          "rigoN",
+          "sdy"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1652,
+        "pointsB": 1221,
+        "rankOverlap": [
+          4,
+          5
+        ],
+        "score": [
+          1,
+          2
+        ],
+        "maps": [
+          [
+            "Ancient",
+            16,
+            13
+          ],
+          [
+            "Nuke",
+            2,
+            13
+          ],
+          [
+            "Overpass",
+            7,
+            13
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385907/astralis-vs-ence-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385909",
+        "round": 2,
+        "day": "2025-09-29",
+        "bo": 3,
+        "a": "M80",
+        "b": "HEROIC",
+        "fiveA": [
+          "HexT",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "fiveB": [
+          "Alkaren",
+          "LNZ",
+          "nilo",
+          "xfl0ud",
+          "yxngstxr"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1176,
+        "pointsB": 1526,
+        "rankOverlap": [
+          5,
+          3
+        ],
+        "score": [
+          0,
+          2
+        ],
+        "maps": [
+          [
+            "Dust2",
+            4,
+            13
+          ],
+          [
+            "Overpass",
+            9,
+            13
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385909/m80-vs-heroic-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385910",
+        "round": 2,
+        "day": "2025-09-29",
+        "bo": 3,
+        "a": "Legacy",
+        "b": "NRG",
+        "fiveA": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ],
+        "fiveB": [
+          "br0",
+          "Jeorge",
+          "nitr0",
+          "Sonic",
+          "XotiC"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1374,
+        "pointsB": 1173,
+        "rankOverlap": [
+          5,
+          4
+        ],
+        "score": [
+          2,
+          1
+        ],
+        "maps": [
+          [
+            "Mirage",
+            6,
+            13
+          ],
+          [
+            "Nuke",
+            13,
+            8
+          ],
+          [
+            "Dust2",
+            13,
+            5
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385910/legacy-vs-nrg-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385911",
+        "round": 2,
+        "day": "2025-09-29",
+        "bo": 3,
+        "a": "G2",
+        "b": "Gentle Mates",
+        "fiveA": [
+          "HeavyGod",
+          "huNter-",
+          "malbsMd",
+          "MATYS",
+          "SunPayus"
+        ],
+        "fiveB": [
+          "alex",
+          "dav1g",
+          "MartinezSa",
+          "mopoz",
+          "sausol"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1515,
+        "pointsB": 1300,
+        "rankOverlap": [
+          5,
+          5
+        ],
+        "score": [
+          1,
+          2
+        ],
+        "maps": [
+          [
+            "Inferno",
+            13,
+            2
+          ],
+          [
+            "Mirage",
+            11,
+            13
+          ],
+          [
+            "Ancient",
+            7,
+            13
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385911/g2-vs-gentle-mates-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385912",
+        "round": 2,
+        "day": "2025-09-29",
+        "bo": 3,
+        "a": "FURIA",
+        "b": "Fluxo",
+        "fiveA": [
+          "FalleN",
+          "KSCERATO",
+          "molodoy",
+          "YEKINDAR",
+          "yuurih"
+        ],
+        "fiveB": [
+          "arT",
+          "decenty",
+          "kye",
+          "Lucaozy",
+          "zevy"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1655,
+        "pointsB": 1081,
+        "rankOverlap": [
+          5,
+          5
+        ],
+        "score": [
+          2,
+          0
+        ],
+        "maps": [
+          [
+            "Inferno",
+            13,
+            8
+          ],
+          [
+            "Mirage",
+            13,
+            7
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385912/furia-vs-fluxo-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385914",
+        "round": 3,
+        "day": "2025-09-30",
+        "bo": 3,
+        "a": "M80",
+        "b": "Rooster",
+        "fiveA": [
+          "HexT",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "fiveB": [
+          "asap",
+          "chelleos",
+          "sliimey",
+          "Terryyy",
+          "TjP"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1176,
+        "pointsB": 734,
+        "rankOverlap": [
+          5,
+          5
+        ],
+        "score": [
+          2,
+          0
+        ],
+        "maps": [
+          [
+            "Mirage",
+            13,
+            6
+          ],
+          [
+            "Inferno",
+            13,
+            3
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385914/m80-vs-rooster-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385913",
+        "round": 3,
+        "day": "2025-09-30",
+        "bo": 3,
+        "a": "HOTU",
+        "b": "ENCE",
+        "fiveA": [
+          "dukefissura",
+          "frontales",
+          "kade0",
+          "mizu",
+          "n0rb3r7"
+        ],
+        "fiveB": [
+          "myltsi",
+          "Neityu",
+          "podi",
+          "rigoN",
+          "sdy"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 916,
+        "pointsB": 1221,
+        "rankOverlap": [
+          4,
+          5
+        ],
+        "score": [
+          2,
+          0
+        ],
+        "maps": [
+          [
+            "Dust2",
+            13,
+            4
+          ],
+          [
+            "Ancient",
+            13,
+            8
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385913/hotu-vs-ence-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385915",
+        "round": 3,
+        "day": "2025-09-30",
+        "bo": 3,
+        "a": "Inner Circle",
+        "b": "Gentle Mates",
+        "fiveA": [
+          "cairne",
+          "Dawy",
+          "Flierax",
+          "nifee",
+          "onic"
+        ],
+        "fiveB": [
+          "alex",
+          "dav1g",
+          "MartinezSa",
+          "mopoz",
+          "sausol"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1193,
+        "pointsB": 1300,
+        "rankOverlap": [
+          5,
+          5
+        ],
+        "score": [
+          2,
+          1
+        ],
+        "maps": [
+          [
+            "Nuke",
+            8,
+            13
+          ],
+          [
+            "Mirage",
+            13,
+            10
+          ],
+          [
+            "Ancient",
+            13,
+            11
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385915/inner-circle-vs-gentle-mates-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385916",
+        "round": 3,
+        "day": "2025-09-30",
+        "bo": 3,
+        "a": "G2",
+        "b": "B8",
+        "fiveA": [
+          "HeavyGod",
+          "huNter-",
+          "malbsMd",
+          "MATYS",
+          "SunPayus"
+        ],
+        "fiveB": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1515,
+        "pointsB": 1319,
+        "rankOverlap": [
+          5,
+          5
+        ],
+        "score": [
+          1,
+          2
+        ],
+        "maps": [
+          [
+            "Mirage",
+            9,
+            13
+          ],
+          [
+            "Dust2",
+            13,
+            7
+          ],
+          [
+            "Ancient",
+            2,
+            13
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385916/g2-vs-b8-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385918",
+        "round": 3,
+        "day": "2025-09-30",
+        "bo": 3,
+        "a": "NRG",
+        "b": "Fluxo",
+        "fiveA": [
+          "br0",
+          "Jeorge",
+          "nitr0",
+          "Sonic",
+          "XotiC"
+        ],
+        "fiveB": [
+          "arT",
+          "decenty",
+          "kye",
+          "Lucaozy",
+          "zevy"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1173,
+        "pointsB": 1081,
+        "rankOverlap": [
+          4,
+          5
+        ],
+        "score": [
+          0,
+          2
+        ],
+        "maps": [
+          [
+            "Nuke",
+            8,
+            13
+          ],
+          [
+            "Train",
+            11,
+            13
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385918/nrg-vs-fluxo-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385917",
+        "round": 3,
+        "day": "2025-09-30",
+        "bo": 3,
+        "a": "Astralis",
+        "b": "GamerLegion",
+        "fiveA": [
+          "device",
+          "HooXi",
+          "jabbi",
+          "Magisk",
+          "Staehr"
+        ],
+        "fiveB": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Tauson",
+          "ztr"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1652,
+        "pointsB": 1481,
+        "rankOverlap": [
+          4,
+          4
+        ],
+        "score": [
+          0,
+          2
+        ],
+        "maps": [
+          [
+            "Nuke",
+            0,
+            13
+          ],
+          [
+            "Overpass",
+            9,
+            13
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385917/astralis-vs-gamerlegion-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385920",
+        "round": 3,
+        "day": "2025-09-30",
+        "bo": 3,
+        "a": "FURIA",
+        "b": "Legacy",
+        "fiveA": [
+          "FalleN",
+          "KSCERATO",
+          "molodoy",
+          "YEKINDAR",
+          "yuurih"
+        ],
+        "fiveB": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1655,
+        "pointsB": 1374,
+        "rankOverlap": [
+          5,
+          5
+        ],
+        "score": [
+          0,
+          2
+        ],
+        "maps": [
+          [
+            "Dust2",
+            9,
+            13
+          ],
+          [
+            "Mirage",
+            11,
+            13
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385920/furia-vs-legacy-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385919",
+        "round": 3,
+        "day": "2025-09-30",
+        "bo": 3,
+        "a": "HEROIC",
+        "b": "3DMAX",
+        "fiveA": [
+          "Alkaren",
+          "LNZ",
+          "nilo",
+          "xfl0ud",
+          "yxngstxr"
+        ],
+        "fiveB": [
+          "bodyy",
+          "Ex3rcice",
+          "Graviti",
+          "Lucky",
+          "Maka"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1526,
+        "pointsB": 1684,
+        "rankOverlap": [
+          3,
+          5
+        ],
+        "score": [
+          0,
+          2
+        ],
+        "maps": [
+          [
+            "Dust2",
+            8,
+            13
+          ],
+          [
+            "Inferno",
+            9,
+            13
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385919/heroic-vs-3dmax-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385922",
+        "round": 4,
+        "day": "2025-10-01",
+        "bo": 3,
+        "a": "G2",
+        "b": "Fluxo",
+        "fiveA": [
+          "HeavyGod",
+          "huNter-",
+          "malbsMd",
+          "MATYS",
+          "SunPayus"
+        ],
+        "fiveB": [
+          "arT",
+          "decenty",
+          "kye",
+          "Lucaozy",
+          "zevy"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1515,
+        "pointsB": 1081,
+        "rankOverlap": [
+          5,
+          5
+        ],
+        "score": [
+          2,
+          1
+        ],
+        "maps": [
+          [
+            "Ancient",
+            11,
+            13
+          ],
+          [
+            "Inferno",
+            13,
+            2
+          ],
+          [
+            "Mirage",
+            13,
+            4
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385922/g2-vs-fluxo-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385921",
+        "round": 4,
+        "day": "2025-10-01",
+        "bo": 3,
+        "a": "GamerLegion",
+        "b": "B8",
+        "fiveA": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Tauson",
+          "ztr"
+        ],
+        "fiveB": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1481,
+        "pointsB": 1319,
+        "rankOverlap": [
+          4,
+          5
+        ],
+        "score": [
+          2,
+          0
+        ],
+        "maps": [
+          [
+            "Ancient",
+            13,
+            9
+          ],
+          [
+            "Inferno",
+            13,
+            11
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385921/gamerlegion-vs-b8-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385923",
+        "round": 4,
+        "day": "2025-10-01",
+        "bo": 3,
+        "a": "Astralis",
+        "b": "HEROIC",
+        "fiveA": [
+          "device",
+          "HooXi",
+          "jabbi",
+          "Magisk",
+          "Staehr"
+        ],
+        "fiveB": [
+          "Alkaren",
+          "LNZ",
+          "nilo",
+          "xfl0ud",
+          "yxngstxr"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1652,
+        "pointsB": 1526,
+        "rankOverlap": [
+          4,
+          3
+        ],
+        "score": [
+          2,
+          1
+        ],
+        "maps": [
+          [
+            "Mirage",
+            13,
+            10
+          ],
+          [
+            "Inferno",
+            4,
+            13
+          ],
+          [
+            "Nuke",
+            13,
+            2
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385923/astralis-vs-heroic-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385924",
+        "round": 4,
+        "day": "2025-10-01",
+        "bo": 3,
+        "a": "3DMAX",
+        "b": "ENCE",
+        "fiveA": [
+          "bodyy",
+          "Ex3rcice",
+          "Graviti",
+          "Lucky",
+          "Maka"
+        ],
+        "fiveB": [
+          "myltsi",
+          "Neityu",
+          "podi",
+          "rigoN",
+          "sdy"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1684,
+        "pointsB": 1221,
+        "rankOverlap": [
+          5,
+          5
+        ],
+        "score": [
+          2,
+          1
+        ],
+        "maps": [
+          [
+            "Dust2",
+            11,
+            13
+          ],
+          [
+            "Nuke",
+            13,
+            5
+          ],
+          [
+            "Ancient",
+            16,
+            14
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385924/3dmax-vs-ence-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385925",
+        "round": 4,
+        "day": "2025-10-01",
+        "bo": 3,
+        "a": "FURIA",
+        "b": "M80",
+        "fiveA": [
+          "FalleN",
+          "KSCERATO",
+          "molodoy",
+          "YEKINDAR",
+          "yuurih"
+        ],
+        "fiveB": [
+          "HexT",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1655,
+        "pointsB": 1176,
+        "rankOverlap": [
+          5,
+          5
+        ],
+        "score": [
+          2,
+          0
+        ],
+        "maps": [
+          [
+            "Overpass",
+            13,
+            8
+          ],
+          [
+            "Inferno",
+            13,
+            7
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385925/furia-vs-m80-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385926",
+        "round": 4,
+        "day": "2025-10-01",
+        "bo": 3,
+        "a": "Legacy",
+        "b": "Gentle Mates",
+        "fiveA": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ],
+        "fiveB": [
+          "alex",
+          "dav1g",
+          "MartinezSa",
+          "mopoz",
+          "sausol"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1374,
+        "pointsB": 1300,
+        "rankOverlap": [
+          5,
+          5
+        ],
+        "score": [
+          0,
+          2
+        ],
+        "maps": [
+          [
+            "Ancient",
+            11,
+            13
+          ],
+          [
+            "Mirage",
+            4,
+            13
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385926/legacy-vs-gentle-mates-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385927",
+        "round": 5,
+        "day": "2025-10-02",
+        "bo": 3,
+        "a": "G2",
+        "b": "ENCE",
+        "fiveA": [
+          "HeavyGod",
+          "huNter-",
+          "malbsMd",
+          "MATYS",
+          "SunPayus"
+        ],
+        "fiveB": [
+          "myltsi",
+          "Neityu",
+          "podi",
+          "rigoN",
+          "sdy"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1515,
+        "pointsB": 1221,
+        "rankOverlap": [
+          5,
+          5
+        ],
+        "score": [
+          2,
+          0
+        ],
+        "maps": [
+          [
+            "Overpass",
+            13,
+            9
+          ],
+          [
+            "Train",
+            13,
+            5
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385927/g2-vs-ence-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385928",
+        "round": 5,
+        "day": "2025-10-02",
+        "bo": 3,
+        "a": "Astralis",
+        "b": "Legacy",
+        "fiveA": [
+          "device",
+          "HooXi",
+          "jabbi",
+          "Magisk",
+          "Staehr"
+        ],
+        "fiveB": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1652,
+        "pointsB": 1374,
+        "rankOverlap": [
+          4,
+          5
+        ],
+        "score": [
+          2,
+          1
+        ],
+        "maps": [
+          [
+            "Inferno",
+            7,
+            13
+          ],
+          [
+            "Overpass",
+            13,
+            11
+          ],
+          [
+            "Ancient",
+            13,
+            3
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385928/astralis-vs-legacy-esl-pro-league-season-22-stage-1"
+      },
+      {
+        "id": "2385929",
+        "round": 5,
+        "day": "2025-10-02",
+        "bo": 3,
+        "a": "FURIA",
+        "b": "B8",
+        "fiveA": [
+          "FalleN",
+          "KSCERATO",
+          "molodoy",
+          "YEKINDAR",
+          "yuurih"
+        ],
+        "fiveB": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ],
+        "rankDay": "2025-09-01",
+        "pointsA": 1655,
+        "pointsB": 1319,
+        "rankOverlap": [
+          5,
+          5
+        ],
+        "score": [
+          2,
+          1
+        ],
+        "maps": [
+          [
+            "Mirage",
+            5,
+            13
+          ],
+          [
+            "Inferno",
+            13,
+            8
+          ],
+          [
+            "Overpass",
+            13,
+            9
+          ]
+        ],
+        "sourceUrl": "https://www.hltv.org/matches/2385929/furia-vs-b8-esl-pro-league-season-22-stage-1"
+      }
+    ]
+  }
+}

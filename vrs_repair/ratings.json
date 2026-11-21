@@ -1,0 +1,972 @@
+{
+  "copenhagen": {
+    "kind": "official-latest",
+    "provider": "Valve",
+    "basis": "Valve 官方地区榜",
+    "sameAsBase": true,
+    "rankScope": "regional",
+    "asOf": "2024-03-04",
+    "monthlyAsOf": "2024-03-04",
+    "publishedAt": "2024-03-04T23:55:04Z",
+    "available": true,
+    "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/tree/99a0ba5fff938345d10d500f8b29cd297076573e",
+    "sources": [
+      "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/99a0ba5fff938345d10d500f8b29cd297076573e/standings_europe.md",
+      "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/99a0ba5fff938345d10d500f8b29cd297076573e/standings_americas.md",
+      "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/99a0ba5fff938345d10d500f8b29cd297076573e/standings_asia.md"
+    ],
+    "historySource": "https://api.github.com/repos/ValveSoftware/counter-strike_regional_standings/commits?until=2024-03-16T23:59:59Z&per_page=1",
+    "teams": {
+      "Cloud9": {
+        "points": 1520,
+        "rank": 9,
+        "rankScope": "europe",
+        "roster": [
+          "HObbit",
+          "electroNic",
+          "Boombl4",
+          "Ax1Le",
+          "Perfecto"
+        ],
+        "sourceName": "Cloud9",
+        "overlap": 5
+      },
+      "Eternal Fire": {
+        "points": 1508,
+        "rank": 10,
+        "rankScope": "europe",
+        "roster": [
+          "MAJ3R",
+          "XANTARES",
+          "woxic",
+          "Calyx",
+          "Wicadia"
+        ],
+        "sourceName": "Eternal Fire",
+        "overlap": 5
+      },
+      "ENCE": {
+        "points": 1454,
+        "rank": 11,
+        "rankScope": "europe",
+        "roster": [
+          "gla1ve",
+          "Goofy",
+          "dycha",
+          "hades",
+          "Kylar"
+        ],
+        "sourceName": "ENCE",
+        "overlap": 5
+      },
+      "Apeks": {
+        "points": 1436,
+        "rank": 12,
+        "rankScope": "europe",
+        "roster": [
+          "STYKO",
+          "jkaem",
+          "nawwk",
+          "sense",
+          "CacaNito"
+        ],
+        "sourceName": "Apeks",
+        "overlap": 5
+      },
+      "HEROIC": {
+        "points": 1433,
+        "rank": 13,
+        "rankScope": "europe",
+        "roster": [
+          "NertZ",
+          "TeSeS",
+          "nicoodoz",
+          "sjuush",
+          "kyxsan"
+        ],
+        "sourceName": "HEROIC",
+        "overlap": 5
+      },
+      "GamerLegion": {
+        "points": 1413,
+        "rank": 14,
+        "rankScope": "europe",
+        "roster": [
+          "Snax",
+          "acoR",
+          "Keoz",
+          "isak",
+          "volt"
+        ],
+        "sourceName": "GamerLegion",
+        "overlap": 5
+      },
+      "SAW": {
+        "points": 1140,
+        "rank": 20,
+        "rankScope": "europe",
+        "roster": [
+          "MUTiRiS",
+          "roman",
+          "story",
+          "ewjerkz",
+          "arrozdoce"
+        ],
+        "sourceName": "SAW",
+        "overlap": 5
+      },
+      "FURIA": {
+        "points": 1391,
+        "rank": 2,
+        "rankScope": "americas",
+        "roster": [
+          "FalleN",
+          "chelo",
+          "arT",
+          "yuurih",
+          "KSCERATO"
+        ],
+        "sourceName": "FURIA",
+        "overlap": 5
+      },
+      "ECSTATIC": {
+        "points": 1127,
+        "rank": 21,
+        "rankScope": "europe",
+        "roster": [
+          "Nodios",
+          "Patti",
+          "Queenix",
+          "kraghen",
+          "salazar"
+        ],
+        "sourceName": "ECSTATIC",
+        "overlap": 5
+      },
+      "The MongolZ": {
+        "points": 1433,
+        "rank": 1,
+        "rankScope": "asia",
+        "roster": [
+          "bLitz",
+          "Techno",
+          "Senzu",
+          "mzinho",
+          "910"
+        ],
+        "sourceName": "TheMongolz",
+        "overlap": 5
+      },
+      "Imperial": {
+        "points": 1152,
+        "rank": 5,
+        "rankScope": "americas",
+        "roster": [
+          "HEN1",
+          "felps",
+          "VINI",
+          "decenty",
+          "noway"
+        ],
+        "sourceName": "Imperial",
+        "overlap": 5
+      },
+      "paiN": {
+        "points": 1048,
+        "rank": 7,
+        "rankScope": "americas",
+        "roster": [
+          "biguzera",
+          "n1ssim",
+          "nqz",
+          "kauez",
+          "lux"
+        ],
+        "sourceName": "paiN",
+        "overlap": 5
+      },
+      "Lynn Vision": {
+        "points": 1152,
+        "rank": 2,
+        "rankScope": "asia",
+        "roster": [
+          "Westmelon",
+          "z4kr",
+          "Starry",
+          "Jee",
+          "EmiliaQAQ"
+        ],
+        "sourceName": "Lynn Vision",
+        "overlap": 5
+      },
+      "AMKAL": {
+        "points": 1083,
+        "rank": 23,
+        "rankScope": "europe",
+        "roster": [
+          "NickelBack",
+          "Krad",
+          "Forester",
+          "TRAVIS",
+          "ICY"
+        ],
+        "sourceName": "AMKAL",
+        "overlap": 5
+      },
+      "KOI": {
+        "points": 1046,
+        "rank": 27,
+        "rankScope": "europe",
+        "roster": [
+          "JUST",
+          "mopoz",
+          "stadodo",
+          "dav1g",
+          "adamS"
+        ],
+        "sourceName": "KOI",
+        "overlap": 5
+      },
+      "Legacy": {
+        "points": 1009,
+        "rank": 9,
+        "rankScope": "americas",
+        "roster": [
+          "coldzera",
+          "NEKIZ",
+          "dumau",
+          "b4rtiN",
+          "latto"
+        ],
+        "sourceName": "Legacy",
+        "overlap": 5
+      }
+    }
+  },
+  "shanghai": {
+    "kind": "official-latest",
+    "provider": "Valve",
+    "basis": "Valve 官方全球榜",
+    "sameAsBase": false,
+    "rankScope": "global",
+    "asOf": "2024-11-25",
+    "monthlyAsOf": "2024-11-06",
+    "publishedAt": "2024-11-25T16:10:05Z",
+    "available": true,
+    "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/8a8657be12dc322d1141fe6263cf8270c718b605/live/2024/standings_global_2024_11_25.md",
+    "sources": [
+      "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/8a8657be12dc322d1141fe6263cf8270c718b605/live/2024/standings_global_2024_11_25.md"
+    ],
+    "historySource": "https://api.github.com/repos/ValveSoftware/counter-strike_regional_standings/commits?until=2024-11-29T23:59:59Z&per_page=1",
+    "teams": {
+      "FURIA": {
+        "points": 1559,
+        "rank": 10,
+        "rankScope": "global",
+        "roster": [
+          "chelo",
+          "FalleN",
+          "KSCERATO",
+          "skullz",
+          "yuurih"
+        ],
+        "sourceName": "FURIA",
+        "overlap": 5
+      },
+      "Virtus.pro": {
+        "points": 1466,
+        "rank": 16,
+        "rankScope": "global",
+        "roster": [
+          "electroNic",
+          "fame",
+          "FL1T",
+          "Jame",
+          "n0rb3r7"
+        ],
+        "sourceName": "Virtus.pro",
+        "overlap": 5
+      },
+      "Liquid": {
+        "points": 1548,
+        "rank": 11,
+        "rankScope": "global",
+        "roster": [
+          "jks",
+          "NAF",
+          "Twistzz",
+          "ultimate",
+          "YEKINDAR"
+        ],
+        "sourceName": "Liquid",
+        "overlap": 5
+      },
+      "Complexity": {
+        "points": 1485,
+        "rank": 14,
+        "rankScope": "global",
+        "roster": [
+          "EliGE",
+          "floppy",
+          "Grim",
+          "hallzerk",
+          "JT"
+        ],
+        "sourceName": "Complexity",
+        "overlap": 5
+      },
+      "BIG": {
+        "points": 1408,
+        "rank": 19,
+        "rankScope": "global",
+        "roster": [
+          "JDC",
+          "Krimbo",
+          "rigoN",
+          "syrsoN",
+          "tabseN"
+        ],
+        "sourceName": "BIG",
+        "overlap": 5
+      },
+      "fnatic": {
+        "points": 1317,
+        "rank": 22,
+        "rankScope": "global",
+        "roster": [
+          "blameF",
+          "bodyy",
+          "KRIMZ",
+          "MATYS",
+          "nawwk"
+        ],
+        "sourceName": "fnatic",
+        "overlap": 5
+      },
+      "The MongolZ": {
+        "points": 1748,
+        "rank": 5,
+        "rankScope": "global",
+        "roster": [
+          "910",
+          "bLitz",
+          "mzinho",
+          "Senzu",
+          "Techno"
+        ],
+        "sourceName": "The MongolZ",
+        "overlap": 5
+      },
+      "paiN": {
+        "points": 1445,
+        "rank": 17,
+        "rankScope": "global",
+        "roster": [
+          "biguzera",
+          "kauez",
+          "lux",
+          "nqz",
+          "snow"
+        ],
+        "sourceName": "paiN",
+        "overlap": 5
+      },
+      "GamerLegion": {
+        "points": 1255,
+        "rank": 29,
+        "rankScope": "global",
+        "roster": [
+          "FL4MUS",
+          "sl3nd",
+          "Tauson",
+          "volt",
+          "ztr"
+        ],
+        "sourceName": "GamerLegion",
+        "overlap": 5
+      },
+      "MIBR": {
+        "points": 1294,
+        "rank": 25,
+        "rankScope": "global",
+        "roster": [
+          "drop",
+          "exit",
+          "insani",
+          "Lucaozy",
+          "saffee"
+        ],
+        "sourceName": "MIBR",
+        "overlap": 5
+      },
+      "Cloud9": {
+        "points": 1208,
+        "rank": 39,
+        "rankScope": "global",
+        "roster": [
+          "Ax1Le",
+          "Boombl4",
+          "HeavyGod",
+          "ICY",
+          "interz"
+        ],
+        "sourceName": "Cloud9",
+        "overlap": 5
+      },
+      "FlyQuest": {
+        "points": 1358,
+        "rank": 20,
+        "rankScope": "global",
+        "roster": [
+          "aliStair",
+          "dexter",
+          "INS",
+          "Liazz",
+          "Vexite"
+        ],
+        "sourceName": "FlyQuest",
+        "overlap": 5
+      },
+      "Passion UA": {
+        "points": 1156,
+        "rank": 45,
+        "rankScope": "global",
+        "roster": [
+          "fear",
+          "jackasmo",
+          "jambo",
+          "s-chilla",
+          "zeRRoFIX"
+        ],
+        "sourceName": "Passion UA",
+        "overlap": 5
+      },
+      "Wildcard": {
+        "points": 1236,
+        "rank": 32,
+        "rankScope": "global",
+        "roster": [
+          "JBa",
+          "phzy",
+          "Sonic",
+          "stanislaw",
+          "susp"
+        ],
+        "sourceName": "Wildcard",
+        "overlap": 5
+      },
+      "Rare Atom": {
+        "points": 929,
+        "rank": 89,
+        "rankScope": "global",
+        "roster": [
+          "ChildKing",
+          "kaze",
+          "L1haNg",
+          "somebody",
+          "Summer"
+        ],
+        "sourceName": "Rare Atom",
+        "overlap": 5
+      },
+      "Imperial": {
+        "points": 1228,
+        "rank": 35,
+        "rankScope": "global",
+        "roster": [
+          "decenty",
+          "felps",
+          "noway",
+          "try",
+          "VINI"
+        ],
+        "sourceName": "Imperial",
+        "overlap": 5
+      }
+    }
+  },
+  "austin": {
+    "kind": "official-latest",
+    "provider": "Valve",
+    "basis": "Valve 官方全球榜",
+    "sameAsBase": true,
+    "rankScope": "global",
+    "asOf": "2025-06-02",
+    "monthlyAsOf": "2025-06-02",
+    "publishedAt": "2025-06-02T17:58:00Z",
+    "available": true,
+    "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/1ce8398c0be1970319488c23cfd0d4077eaec04a/invitation/2025/standings_global_2025_06_02.md",
+    "sources": [
+      "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/1ce8398c0be1970319488c23cfd0d4077eaec04a/invitation/2025/standings_global_2025_06_02.md"
+    ],
+    "historySource": "https://api.github.com/repos/ValveSoftware/counter-strike_regional_standings/commits?until=2025-06-02T23:59:59Z&per_page=1",
+    "teams": {
+      "Complexity": {
+        "points": 1433,
+        "rank": 17,
+        "rankScope": "global",
+        "roster": [
+          "Cxzi",
+          "Grim",
+          "hallzerk",
+          "JT",
+          "nicx"
+        ],
+        "sourceName": "Complexity",
+        "overlap": 4
+      },
+      "HEROIC": {
+        "points": 1552,
+        "rank": 13,
+        "rankScope": "global",
+        "roster": [
+          "LNZ",
+          "SunPayus",
+          "tN1R",
+          "xfl0ud",
+          "yxngstxr"
+        ],
+        "sourceName": "HEROIC",
+        "overlap": 5
+      },
+      "B8": {
+        "points": 1275,
+        "rank": 20,
+        "rankScope": "global",
+        "roster": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ],
+        "sourceName": "B8",
+        "overlap": 5
+      },
+      "BetBoom": {
+        "points": 1102,
+        "rank": 36,
+        "rankScope": "global",
+        "roster": [
+          "Ax1Le",
+          "Boombl4",
+          "Magnojez",
+          "S1ren",
+          "zorte"
+        ],
+        "sourceName": "BetBoom",
+        "overlap": 5
+      },
+      "TYLOO": {
+        "points": 1358,
+        "rank": 18,
+        "rankScope": "global",
+        "roster": [
+          "Attacker",
+          "JamYoung",
+          "Jee",
+          "Mercury",
+          "Moseyuh"
+        ],
+        "sourceName": "TYLOO",
+        "overlap": 5
+      },
+      "Lynn Vision": {
+        "points": 1212,
+        "rank": 25,
+        "rankScope": "global",
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4kr"
+        ],
+        "sourceName": "Lynn Vision",
+        "overlap": 5
+      },
+      "Wildcard": {
+        "points": 1037,
+        "rank": 48,
+        "rankScope": "global",
+        "roster": [
+          "JBa",
+          "phzy",
+          "Sonic",
+          "stanislaw",
+          "susp"
+        ],
+        "sourceName": "Wildcard",
+        "overlap": 5
+      },
+      "FlyQuest": {
+        "points": 1213,
+        "rank": 24,
+        "rankScope": "global",
+        "roster": [
+          "INS",
+          "Liazz",
+          "nettik",
+          "regali",
+          "Vexite"
+        ],
+        "sourceName": "FlyQuest",
+        "overlap": 5
+      },
+      "OG": {
+        "points": 1097,
+        "rank": 38,
+        "rankScope": "global",
+        "roster": [
+          "Buzz",
+          "Chr1zN",
+          "F1KU",
+          "nicoodoz",
+          "spooke"
+        ],
+        "sourceName": "OG",
+        "overlap": 5
+      },
+      "Chinggis Warriors": {
+        "points": 1087,
+        "rank": 40,
+        "rankScope": "global",
+        "roster": [
+          "ariucle",
+          "controlez",
+          "cool4st",
+          "Efire",
+          "ROUX"
+        ],
+        "sourceName": "Chinggis Warriors",
+        "overlap": 5
+      },
+      "Imperial": {
+        "points": 1074,
+        "rank": 41,
+        "rankScope": "global",
+        "roster": [
+          "chayJESUS",
+          "decenty",
+          "noway",
+          "try",
+          "VINI"
+        ],
+        "sourceName": "Imperial",
+        "overlap": 5
+      },
+      "Nemiga": {
+        "points": 1045,
+        "rank": 45,
+        "rankScope": "global",
+        "roster": [
+          "1eeR",
+          "khaN",
+          "riskyb0b",
+          "Xant3r",
+          "zweih"
+        ],
+        "sourceName": "Nemiga",
+        "overlap": 5
+      },
+      "NRG": {
+        "points": 1121,
+        "rank": 32,
+        "rankScope": "global",
+        "roster": [
+          "br0",
+          "HexT",
+          "Jeorge",
+          "nitr0",
+          "oSee"
+        ],
+        "sourceName": "NRG",
+        "overlap": 5
+      },
+      "Legacy": {
+        "points": 1035,
+        "rank": 49,
+        "rankScope": "global",
+        "roster": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ],
+        "sourceName": "Legacy",
+        "overlap": 5
+      },
+      "Metizport": {
+        "points": 959,
+        "rank": 60,
+        "rankScope": "global",
+        "roster": [
+          "adamb",
+          "hampus",
+          "isak",
+          "L00m1",
+          "Plopski"
+        ],
+        "sourceName": "Metizport",
+        "overlap": 5
+      },
+      "Fluxo": {
+        "points": 999,
+        "rank": 55,
+        "rankScope": "global",
+        "roster": [
+          "arT",
+          "kye",
+          "mlhzin",
+          "piriajr",
+          "zevy"
+        ],
+        "sourceName": "Fluxo",
+        "overlap": 5
+      }
+    }
+  },
+  "cologne": {
+    "kind": "official-latest",
+    "provider": "Valve",
+    "basis": "Valve 官方全球榜",
+    "sameAsBase": true,
+    "rankScope": "global",
+    "asOf": "2026-06-01",
+    "monthlyAsOf": "2026-06-01",
+    "publishedAt": "2026-06-01T17:15:49Z",
+    "available": true,
+    "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/510968f54723dcb698ad3b04d396140fc263c239/invitation/2026/standings_global_2026_06_01.md",
+    "sources": [
+      "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/510968f54723dcb698ad3b04d396140fc263c239/invitation/2026/standings_global_2026_06_01.md"
+    ],
+    "historySource": "https://api.github.com/repos/ValveSoftware/counter-strike_regional_standings/commits?until=2026-06-01T23:59:59Z&per_page=1",
+    "teams": {
+      "GamerLegion": {
+        "points": 1724,
+        "rank": 9,
+        "rankScope": "global",
+        "roster": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Snax",
+          "Tauson"
+        ],
+        "sourceName": "GamerLegion",
+        "overlap": 5
+      },
+      "B8": {
+        "points": 1582,
+        "rank": 16,
+        "rankScope": "global",
+        "roster": [
+          "alex666",
+          "esenthial",
+          "kensizor",
+          "npl",
+          "s1zzi"
+        ],
+        "sourceName": "B8",
+        "overlap": 5
+      },
+      "HEROIC": {
+        "points": 1420,
+        "rank": 27,
+        "rankScope": "global",
+        "roster": [
+          "Chr1zN",
+          "nilo",
+          "susp",
+          "xfl0ud",
+          "yxngstxr"
+        ],
+        "sourceName": "HEROIC",
+        "overlap": 5
+      },
+      "BetBoom": {
+        "points": 1562,
+        "rank": 17,
+        "rankScope": "global",
+        "roster": [
+          "Boombl4",
+          "FL4MUS",
+          "Magnojez",
+          "S1ren",
+          "zorte"
+        ],
+        "sourceName": "BetBoom",
+        "overlap": 4
+      },
+      "BIG": {
+        "points": 1416,
+        "rank": 28,
+        "rankScope": "global",
+        "roster": [
+          "blameF",
+          "faveN",
+          "gr1ks",
+          "JDC",
+          "tabseN"
+        ],
+        "sourceName": "BIG",
+        "overlap": 5
+      },
+      "M80": {
+        "points": 1385,
+        "rank": 33,
+        "rankScope": "global",
+        "roster": [
+          "JBa",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "sourceName": "M80",
+        "overlap": 5
+      },
+      "MIBR": {
+        "points": 1535,
+        "rank": 20,
+        "rankScope": "global",
+        "roster": [
+          "brnz4n",
+          "insani",
+          "kl1m",
+          "LNZ",
+          "venomzera"
+        ],
+        "sourceName": "MIBR",
+        "overlap": 5
+      },
+      "SINNERS": {
+        "points": 1378,
+        "rank": 34,
+        "rankScope": "global",
+        "roster": [
+          "beastik",
+          "kisserek",
+          "MoDo",
+          "SHOCK",
+          "stressarN"
+        ],
+        "sourceName": "SINNERS",
+        "overlap": 5
+      },
+      "NRG": {
+        "points": 1247,
+        "rank": 52,
+        "rankScope": "global",
+        "roster": [
+          "br0",
+          "Grim",
+          "nitr0",
+          "oSee",
+          "Sonic"
+        ],
+        "sourceName": "NRG",
+        "overlap": 5
+      },
+      "TYLOO": {
+        "points": 1395,
+        "rank": 32,
+        "rankScope": "global",
+        "roster": [
+          "JamYoung",
+          "Jee",
+          "Mercury",
+          "Moseyuh",
+          "Zero"
+        ],
+        "sourceName": "TYLOO",
+        "overlap": 5
+      },
+      "Sharks": {
+        "points": 1354,
+        "rank": 38,
+        "rankScope": "global",
+        "roster": [
+          "doc",
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao"
+        ],
+        "sourceName": "Sharks",
+        "overlap": 5
+      },
+      "Gaimin Gladiators": {
+        "points": 1233,
+        "rank": 55,
+        "rankScope": "global",
+        "roster": [
+          "felps",
+          "HEN1",
+          "JOTA",
+          "Luken",
+          "NEKIZ"
+        ],
+        "sourceName": "Gaimin Gladiators",
+        "overlap": 4
+      },
+      "Liquid": {
+        "points": 1304,
+        "rank": 45,
+        "rankScope": "global",
+        "roster": [
+          "EliGE",
+          "malbsMd",
+          "NAF",
+          "siuhy",
+          "ultimate"
+        ],
+        "sourceName": "Liquid",
+        "overlap": 5
+      },
+      "Lynn Vision": {
+        "points": 1443,
+        "rank": 24,
+        "rankScope": "global",
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4KR"
+        ],
+        "sourceName": "Lynn Vision",
+        "overlap": 5
+      },
+      "THUNDER dOWNUNDER": {
+        "points": 1181,
+        "rank": 64,
+        "rankScope": "global",
+        "roster": [
+          "aliStair",
+          "asap",
+          "dexter",
+          "Liazz",
+          "TjP"
+        ],
+        "sourceName": "THUNDER dOWNUNDER",
+        "overlap": 5
+      },
+      "FlyQuest": {
+        "points": 1112,
+        "rank": 83,
+        "rankScope": "global",
+        "roster": [
+          "INS",
+          "jks",
+          "nettik",
+          "story",
+          "Vexite"
+        ],
+        "sourceName": "FlyQuest",
+        "overlap": 5
+      }
+    }
+  }
+}

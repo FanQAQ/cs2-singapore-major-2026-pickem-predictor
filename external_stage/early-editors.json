@@ -1,0 +1,12 @@
+{
+  "copenhagen-2024-2": {
+    "publisher":"Pley.gg","author":"Pley Admin","published":"2024-03-20",
+    "url":"https://pley.gg/cs2/pgl-copenhagen-major-elimination-stage-pickem/",
+    "sweep":["Spirit","MOUZ"],"advance":["FaZe","Vitality","G2","Virtus.pro","Cloud9","HEROIC"],"winless":["paiN","Imperial"]
+  },
+  "shanghai-2024-2": {
+    "publisher":"Pley.gg","author":"Pley Admin","published":"2024-12-04",
+    "url":"https://pley.gg/news/shanghai-major-elimination-stage-pickem-predictions/",
+    "sweep":["Natus Vincere","Vitality"],"advance":["G2","FaZe","MOUZ","The MongolZ","Liquid","Spirit"],"winless":["GamerLegion","FURIA"]
+  }
+}

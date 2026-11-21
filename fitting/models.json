@@ -1,0 +1,466 @@
+{
+  "austin": {
+    "asOf": "2025-06-02",
+    "method": "regularized-logistic-core3-v2",
+    "n": 1037,
+    "firstMatch": "2025-03-10",
+    "lastMatch": "2025-06-01",
+    "validationStart": "2025-05-13",
+    "validationN": 202,
+    "trainingScope": "Snapshot top 100 plus Stage 1 entrants. Both actual fives verified against earlier standings. 85-day cohort, direct three-player overlap in all lagged team features.",
+    "masks": {
+      "0": {
+        "beta": [
+          0.1867848,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "validation": {
+          "brier": 0.23221,
+          "logLoss": 0.6549,
+          "hitRate": 0.61386
+        }
+      },
+      "1": {
+        "beta": [
+          0.212627,
+          1.6943764,
+          0.0,
+          0.0
+        ],
+        "validation": {
+          "brier": 0.22356,
+          "logLoss": 0.63593,
+          "hitRate": 0.59406
+        }
+      },
+      "2": {
+        "beta": [
+          0.1946976,
+          0.0,
+          0.8104684,
+          0.0
+        ],
+        "validation": {
+          "brier": 0.23003,
+          "logLoss": 0.65017,
+          "hitRate": 0.59406
+        }
+      },
+      "3": {
+        "beta": [
+          0.2122942,
+          1.8169302,
+          -0.2128937,
+          0.0
+        ],
+        "validation": {
+          "brier": 0.22345,
+          "logLoss": 0.63569,
+          "hitRate": 0.58911
+        }
+      },
+      "4": {
+        "beta": [
+          0.2000786,
+          0.0,
+          0.0,
+          1.428871
+        ],
+        "validation": {
+          "brier": 0.22806,
+          "logLoss": 0.64567,
+          "hitRate": 0.56436
+        }
+      },
+      "5": {
+        "beta": [
+          0.2139809,
+          1.310227,
+          0.0,
+          0.7372818
+        ],
+        "validation": {
+          "brier": 0.2238,
+          "logLoss": 0.63644,
+          "hitRate": 0.58416
+        }
+      },
+      "6": {
+        "beta": [
+          0.204533,
+          0.0,
+          0.5576308,
+          1.3191079
+        ],
+        "validation": {
+          "brier": 0.22698,
+          "logLoss": 0.64338,
+          "hitRate": 0.59901
+        }
+      },
+      "7": {
+        "beta": [
+          0.2137994,
+          1.377109,
+          -0.1030612,
+          0.7218911
+        ],
+        "validation": {
+          "brier": 0.22377,
+          "logLoss": 0.63638,
+          "hitRate": 0.58416
+        }
+      }
+    }
+  },
+  "budapest": {
+    "asOf": "2025-11-03",
+    "method": "regularized-logistic-core3-v2",
+    "n": 1046,
+    "firstMatch": "2025-08-11",
+    "lastMatch": "2025-11-02",
+    "validationStart": "2025-10-14",
+    "validationN": 171,
+    "trainingScope": "Snapshot top 100 plus Stage 1 entrants. Both actual fives verified against earlier standings. 85-day cohort, direct three-player overlap in all lagged team features.",
+    "masks": {
+      "0": {
+        "beta": [
+          0.1634247,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "validation": {
+          "brier": 0.24101,
+          "logLoss": 0.67407,
+          "hitRate": 0.55556
+        }
+      },
+      "1": {
+        "beta": [
+          0.1687336,
+          0.6753614,
+          0.0,
+          0.0
+        ],
+        "validation": {
+          "brier": 0.24331,
+          "logLoss": 0.67891,
+          "hitRate": 0.56725
+        }
+      },
+      "2": {
+        "beta": [
+          0.1649429,
+          0.0,
+          0.2336649,
+          0.0
+        ],
+        "validation": {
+          "brier": 0.24108,
+          "logLoss": 0.67431,
+          "hitRate": 0.54386
+        }
+      },
+      "3": {
+        "beta": [
+          0.1683084,
+          0.7550235,
+          -0.159791,
+          0.0
+        ],
+        "validation": {
+          "brier": 0.24354,
+          "logLoss": 0.67931,
+          "hitRate": 0.56725
+        }
+      },
+      "4": {
+        "beta": [
+          0.1647778,
+          0.0,
+          0.0,
+          0.2625926
+        ],
+        "validation": {
+          "brier": 0.2416,
+          "logLoss": 0.67528,
+          "hitRate": 0.5614
+        }
+      },
+      "5": {
+        "beta": [
+          0.1685932,
+          0.7092536,
+          0.0,
+          -0.0785587
+        ],
+        "validation": {
+          "brier": 0.24328,
+          "logLoss": 0.67885,
+          "hitRate": 0.5614
+        }
+      },
+      "6": {
+        "beta": [
+          0.1660961,
+          0.0,
+          0.2166337,
+          0.2466951
+        ],
+        "validation": {
+          "brier": 0.24161,
+          "logLoss": 0.67539,
+          "hitRate": 0.54386
+        }
+      },
+      "7": {
+        "beta": [
+          0.1680313,
+          0.8178477,
+          -0.1843884,
+          -0.117204
+        ],
+        "validation": {
+          "brier": 0.24349,
+          "logLoss": 0.67922,
+          "hitRate": 0.5731
+        }
+      }
+    }
+  },
+  "cologne": {
+    "asOf": "2026-06-01",
+    "method": "regularized-logistic-core3-v2",
+    "n": 850,
+    "firstMatch": "2026-03-09",
+    "lastMatch": "2026-05-31",
+    "validationStart": "2026-05-12",
+    "validationN": 240,
+    "trainingScope": "Snapshot top 100 plus Stage 1 entrants. Both actual fives verified against earlier standings. 85-day cohort, direct three-player overlap in all lagged team features.",
+    "masks": {
+      "0": {
+        "beta": [
+          0.1960962,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "validation": {
+          "brier": 0.24279,
+          "logLoss": 0.6778,
+          "hitRate": 0.5375
+        }
+      },
+      "1": {
+        "beta": [
+          0.2085165,
+          1.0653302,
+          0.0,
+          0.0
+        ],
+        "validation": {
+          "brier": 0.23918,
+          "logLoss": 0.67033,
+          "hitRate": 0.57917
+        }
+      },
+      "2": {
+        "beta": [
+          0.1987415,
+          0.0,
+          0.4712859,
+          0.0
+        ],
+        "validation": {
+          "brier": 0.24205,
+          "logLoss": 0.67619,
+          "hitRate": 0.54583
+        }
+      },
+      "3": {
+        "beta": [
+          0.2085681,
+          1.1439447,
+          -0.1509683,
+          0.0
+        ],
+        "validation": {
+          "brier": 0.23947,
+          "logLoss": 0.67102,
+          "hitRate": 0.57917
+        }
+      },
+      "4": {
+        "beta": [
+          0.1981229,
+          0.0,
+          0.0,
+          0.9886264
+        ],
+        "validation": {
+          "brier": 0.24159,
+          "logLoss": 0.67525,
+          "hitRate": 0.5625
+        }
+      },
+      "5": {
+        "beta": [
+          0.2064087,
+          0.7746894,
+          0.0,
+          0.5444493
+        ],
+        "validation": {
+          "brier": 0.24007,
+          "logLoss": 0.67212,
+          "hitRate": 0.575
+        }
+      },
+      "6": {
+        "beta": [
+          0.1999294,
+          0.0,
+          0.3391803,
+          0.9395719
+        ],
+        "validation": {
+          "brier": 0.2413,
+          "logLoss": 0.67462,
+          "hitRate": 0.5625
+        }
+      },
+      "7": {
+        "beta": [
+          0.2064588,
+          0.7998187,
+          -0.0391258,
+          0.5356512
+        ],
+        "validation": {
+          "brier": 0.24023,
+          "logLoss": 0.67251,
+          "hitRate": 0.58333
+        }
+      }
+    }
+  },
+  "singapore": {
+    "asOf": "2026-11-02",
+    "method": "regularized-logistic-core3-v2",
+    "n": 948,
+    "firstMatch": "2026-08-12",
+    "lastMatch": "2026-11-01",
+    "validationStart": "2026-10-13",
+    "validationN": 274,
+    "trainingScope": "Snapshot top 100 plus Stage 1 entrants. Both actual fives verified against earlier standings. 85-day cohort, direct three-player overlap in all lagged team features.",
+    "masks": {
+      "0": {
+        "beta": [
+          0.1757128,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "validation": {
+          "brier": 0.2439,
+          "logLoss": 0.68114,
+          "hitRate": 0.5365
+        }
+      },
+      "1": {
+        "beta": [
+          0.1844276,
+          0.9794803,
+          0.0,
+          0.0
+        ],
+        "validation": {
+          "brier": 0.24128,
+          "logLoss": 0.67563,
+          "hitRate": 0.56204
+        }
+      },
+      "2": {
+        "beta": [
+          0.178468,
+          0.0,
+          0.8046487,
+          0.0
+        ],
+        "validation": {
+          "brier": 0.24296,
+          "logLoss": 0.67908,
+          "hitRate": 0.55839
+        }
+      },
+      "3": {
+        "beta": [
+          0.1840214,
+          0.8232426,
+          0.2797433,
+          0.0
+        ],
+        "validation": {
+          "brier": 0.24165,
+          "logLoss": 0.67636,
+          "hitRate": 0.56204
+        }
+      },
+      "4": {
+        "beta": [
+          0.1777599,
+          0.0,
+          0.0,
+          0.3396152
+        ],
+        "validation": {
+          "brier": 0.24374,
+          "logLoss": 0.68087,
+          "hitRate": 0.55839
+        }
+      },
+      "5": {
+        "beta": [
+          0.1839411,
+          1.0664684,
+          0.0,
+          -0.2043875
+        ],
+        "validation": {
+          "brier": 0.24122,
+          "logLoss": 0.6755,
+          "hitRate": 0.55839
+        }
+      },
+      "6": {
+        "beta": [
+          0.17965,
+          0.0,
+          0.7719261,
+          0.2180783
+        ],
+        "validation": {
+          "brier": 0.24288,
+          "logLoss": 0.67896,
+          "hitRate": 0.56569
+        }
+      },
+      "7": {
+        "beta": [
+          0.1836927,
+          0.9102034,
+          0.248767,
+          -0.1637067
+        ],
+        "validation": {
+          "brier": 0.24164,
+          "logLoss": 0.67635,
+          "hitRate": 0.56204
+        }
+      }
+    }
+  }
+}

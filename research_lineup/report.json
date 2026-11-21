@@ -1,0 +1,118 @@
+{
+  "budget": 24000,
+  "productionSeed": 33719,
+  "stages": [
+    {
+      "event": "copenhagen",
+      "asOf": "2024-03-04",
+      "trainN": 323,
+      "slope": 0.118548,
+      "teamsWithHistory": 15,
+      "n": 33,
+      "coveredMatches": 30,
+      "base": {
+        "brier": 0.2348269,
+        "logLoss": 0.6611226,
+        "cardHits": 5
+      },
+      "candidate": {
+        "brier": 0.2342894,
+        "logLoss": 0.6599718,
+        "cardHits": 5
+      }
+    },
+    {
+      "event": "shanghai",
+      "asOf": "2024-11-06",
+      "trainN": 621,
+      "slope": 0.0579355,
+      "teamsWithHistory": 16,
+      "n": 33,
+      "coveredMatches": 33,
+      "base": {
+        "brier": 0.2241277,
+        "logLoss": 0.637257,
+        "cardHits": 3
+      },
+      "candidate": {
+        "brier": 0.2244826,
+        "logLoss": 0.6378424,
+        "cardHits": 3
+      }
+    },
+    {
+      "event": "austin",
+      "asOf": "2025-06-02",
+      "trainN": 1037,
+      "slope": 0.3483293,
+      "teamsWithHistory": 16,
+      "n": 33,
+      "coveredMatches": 33,
+      "base": {
+        "brier": 0.2222305,
+        "logLoss": 0.6330897,
+        "cardHits": 4
+      },
+      "candidate": {
+        "brier": 0.2147183,
+        "logLoss": 0.6169757,
+        "cardHits": 4
+      }
+    },
+    {
+      "event": "budapest",
+      "asOf": "2025-11-03",
+      "trainN": 1046,
+      "slope": 0.0097193,
+      "teamsWithHistory": 16,
+      "n": 33,
+      "coveredMatches": 33,
+      "base": {
+        "brier": 0.2417574,
+        "logLoss": 0.6755024,
+        "cardHits": 5
+      },
+      "candidate": {
+        "brier": 0.2417628,
+        "logLoss": 0.6755098,
+        "cardHits": 5
+      }
+    },
+    {
+      "event": "cologne",
+      "asOf": "2026-06-01",
+      "trainN": 850,
+      "slope": 0.0781272,
+      "teamsWithHistory": 16,
+      "n": 33,
+      "coveredMatches": 33,
+      "base": {
+        "brier": 0.2258413,
+        "logLoss": 0.6409487,
+        "cardHits": 3
+      },
+      "candidate": {
+        "brier": 0.2262165,
+        "logLoss": 0.6417149,
+        "cardHits": 3
+      }
+    }
+  ],
+  "total": {
+    "n": 165,
+    "teamsWithHistory": 79,
+    "coveredMatches": 162,
+    "base": {
+      "brier": 0.2297568,
+      "logLoss": 0.6495841,
+      "cardHits": 20,
+      "passes": 2
+    },
+    "candidate": {
+      "brier": 0.2282939,
+      "logLoss": 0.6464029,
+      "cardHits": 20,
+      "passes": 2
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "austin": {
+    "rosterAsOf": "2025-06-02",
+    "sources": [
+      {"date": "2025-05-09", "label": "BLAST · 参赛报名名单", "url": "https://blast.tv/cs/news/blasttv-austin-major-all-rosters-revealed"}
+    ],
+    "teamUpdates": {
+      "Complexity": {"date": "2025-06-02", "note": "赛前确认 junior 替代 hallzerk 首发。", "sources": ["https://www.hltv.org/news/41824/junior-confirmed-as-stand-in-for-hallzerk-at-blasttv-austin-major"]},
+      "Legacy": {"date": "2025-06-02", "note": "Legacy 顶替 BESTIA 获邀，五人为该队当季阵容。", "sources": ["https://www.hltv.org/news/41746/austin-major-stage-1-opening-matchups-updated-after-legacy-replace-bestia", "https://www.hltv.org/news/40669/legacy-confirm-lux-signing", "https://draft5.gg/noticia/como-chega-a-legacy-para-o-blast-tv-austin-major-2025"]}
+    }
+  },
+  "budapest": {
+    "rosterAsOf": "2025-11-21",
+    "sources": [
+      {"date": "2025-11-17", "label": "HLTV · StarLadder 报名名单及首发替换", "url": "https://www.hltv.org/news/43221/starladder-reveals-budapest-major-rosters"},
+      {"date": "2025-11-17", "label": "EGW · 各队五人名单", "url": "https://egamersworld.com/counterstrike/news/30615/starladder-has-published-the-full-list-of-register-iNO4QSh3g"}
+    ],
+    "teamUpdates": {
+      "FaZe": {"date": "2025-11-17", "note": "jcobbb 随队参赛，Twistzz 顶替报名名单上的 rain。", "sources": ["https://www.hltv.org/news/43221/starladder-reveals-budapest-major-rosters"]},
+      "GamerLegion": {"date": "2025-11-17", "note": "hypex 顶替报名名单上的 Kursy。", "sources": ["https://www.hltv.org/news/43221/starladder-reveals-budapest-major-rosters"]},
+      "fnatic": {"date": "2025-11-17", "note": "jackasmo 顶替报名名单上的 CYPHER。", "sources": ["https://www.hltv.org/news/43221/starladder-reveals-budapest-major-rosters"]},
+      "NRG": {"date": "2025-11-21", "note": "daps 替代 nitr0 以选手身份参赛。", "sources": ["https://www.hltv.org/news/43242/nitr0-to-miss-budapest-major"]}
+    }
+  },
+  "cologne": {
+    "rosterAsOf": "2026-05-31",
+    "sources": [
+      {"date": "2026-04-22", "label": "HLTV · ESL 报名名单及首发替换", "url": "https://www.hltv.org/news/44438/esl-reveals-iem-cologne-major-rosters"},
+      {"date": "2026-04-22", "label": "EGW · 各队五人名单", "url": "https://egamersworld.com/counterstrike/news/34199/iem-cologne-major-2026-all-official-team-rosters-c-PikVdxxyQ"}
+    ],
+    "teamUpdates": {
+      "BetBoom": {"date": "2026-05-31", "note": "d1Ledez 替代 S1ren 首发。", "sources": ["https://www.hltv.org/news/44735/iem-cologne-major-stage-1-teams-format-schedule-talent-fantasy"]},
+      "Gaimin Gladiators": {"date": "2026-04-22", "note": "fer 替代 felps 首发。", "sources": ["https://www.hltv.org/news/44411/official-fer-joins-gaimin-gladiators", "https://www.hltv.org/news/44438/esl-reveals-iem-cologne-major-rosters"]}
+    }
+  },
+  "singapore": {
+    "rosterAsOf": "2026-11-10",
+    "sources": [
+      {"date": "2026-11-09", "label": "PGL · 新加坡 Major 官方报名名单", "url": "https://news.pglesports.com/news/1794219566606-pgl-major-singapore-2026-team-rosters"},
+      {"date": "2026-11-09", "label": "HLTV · PGL 报名名单及首发替换", "url": "https://www.hltv.org/news/45950/pgl-reveals-singapore-major-rosters"},
+      {"date": "2026-11-10", "label": "PGL 名单文字版 · 全部首发及替补", "url": "https://www.shanethegamer.com/news/pgl-major-singapore-2026-rosters-substitutes/"}
+    ],
+    "teamUpdates": {
+      "9z": {"date": "2026-11-09", "note": "history 替代 meyern 首发。", "sources": ["https://www.hltv.org/news/45950/pgl-reveals-singapore-major-rosters"]},
+      "GOSH": {"date": "2026-11-09", "note": "BC.Game 以 GOSH 名义参赛。", "sources": ["https://www.hltv.org/news/45950/pgl-reveals-singapore-major-rosters"]}
+    }
+  }
+}

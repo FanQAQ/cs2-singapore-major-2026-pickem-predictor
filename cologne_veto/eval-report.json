@@ -1,0 +1,6023 @@
+{
+  "asOf": "2026-11-21",
+  "id": "cologne-2026-3",
+  "start": "2026-06-11",
+  "oldVetoBO3": 25,
+  "additionalEligibleBO3": 11,
+  "additionalTeamVotes": 14,
+  "qualifiedVetoSeriesWithTargetCore": 36,
+  "agreementEligibleBO3": 6,
+  "uniqueSourceVerifiedBO3": 38,
+  "sourceCoverage": {
+    "bo1": {
+      "total": 20,
+      "verified": 20,
+      "targetCores": 15,
+      "noMajorCore": 5,
+      "matchedOldMaps": 11,
+      "bothVrsChecked": 20,
+      "missing": []
+    },
+    "bo3": {
+      "total": 13,
+      "verified": 13,
+      "targetCores": 11,
+      "noMajorCore": 2,
+      "matchedOldMaps": 10,
+      "bothVrsChecked": 13,
+      "missing": []
+    }
+  },
+  "targetMatches": 33,
+  "unchangedMapRows": 362,
+  "pairsCompared": 120,
+  "trainingPaths": 12000,
+  "auditPaths": 12000,
+  "seeds": [
+    33719,
+    2654469480,
+    1013937945,
+    3668373706,
+    2027842171,
+    387310636,
+    3041746397,
+    1401214862,
+    4055650623,
+    2415119088,
+    774587553,
+    3429023314,
+    1788491779,
+    147960244,
+    2802396005,
+    1161864470,
+    3816300231,
+    2175768696,
+    535237161,
+    3189672922,
+    1549141387,
+    4203577148,
+    2563045613,
+    922514078,
+    3576949839,
+    1936418304,
+    295886769,
+    2950322530,
+    1309790995,
+    3964226756
+  ],
+  "summary": {
+    "noVeto": {
+      "fixedHits": 2,
+      "bySlot": [
+        0,
+        1,
+        1
+      ],
+      "fixedPass": false,
+      "fixedCard": [
+        [
+          "Vitality",
+          "Falcons"
+        ],
+        [
+          "Natus Vincere",
+          "Aurora",
+          "MOUZ",
+          "FUT",
+          "Spirit",
+          "Legacy"
+        ],
+        [
+          "Monte",
+          "B8"
+        ]
+      ],
+      "majorCombined": {
+        "passes": 1,
+        "hits": 9
+      },
+      "passesAcrossSeeds": 0,
+      "meanActualHits": 2.8,
+      "fixedSimulatedPass": 0.27116667,
+      "bo1": {
+        "n": 0,
+        "brier": null,
+        "logLoss": null
+      },
+      "bo3": {
+        "n": 33,
+        "brier": 0.22752898,
+        "logLoss": 0.6466018
+      },
+      "vetoTeams": 0,
+      "changedPossibleVsOld": 114,
+      "changedActualVsOld": 33,
+      "pairedVsOld": {
+        "hits": {
+          "better": 1,
+          "tied": 26,
+          "worse": 3
+        },
+        "passes": {
+          "better": 0,
+          "tied": 30,
+          "worse": 0
+        }
+      }
+    },
+    "old25": {
+      "fixedHits": 2,
+      "bySlot": [
+        0,
+        1,
+        1
+      ],
+      "fixedPass": false,
+      "fixedCard": [
+        [
+          "Vitality",
+          "Falcons"
+        ],
+        [
+          "Natus Vincere",
+          "Aurora",
+          "MOUZ",
+          "FUT",
+          "Spirit",
+          "Legacy"
+        ],
+        [
+          "Monte",
+          "B8"
+        ]
+      ],
+      "majorCombined": {
+        "passes": 1,
+        "hits": 9
+      },
+      "passesAcrossSeeds": 0,
+      "meanActualHits": 2.86666667,
+      "fixedSimulatedPass": 0.27166667,
+      "bo1": {
+        "n": 0,
+        "brier": null,
+        "logLoss": null
+      },
+      "bo3": {
+        "n": 33,
+        "brier": 0.22743363,
+        "logLoss": 0.64634073
+      },
+      "vetoTeams": 12,
+      "changedPossibleVsOld": 0,
+      "changedActualVsOld": 0,
+      "pairedVsOld": {
+        "hits": {
+          "better": 0,
+          "tied": 30,
+          "worse": 0
+        },
+        "passes": {
+          "better": 0,
+          "tied": 30,
+          "worse": 0
+        }
+      }
+    },
+    "scheduleControl": {
+      "fixedHits": 2,
+      "bySlot": [
+        0,
+        1,
+        1
+      ],
+      "fixedPass": false,
+      "fixedCard": [
+        [
+          "Vitality",
+          "Falcons"
+        ],
+        [
+          "Natus Vincere",
+          "Aurora",
+          "MOUZ",
+          "FUT",
+          "Spirit",
+          "Legacy"
+        ],
+        [
+          "Monte",
+          "B8"
+        ]
+      ],
+      "majorCombined": {
+        "passes": 1,
+        "hits": 9
+      },
+      "passesAcrossSeeds": 0,
+      "meanActualHits": 2.86666667,
+      "fixedSimulatedPass": 0.27166667,
+      "bo1": {
+        "n": 0,
+        "brier": null,
+        "logLoss": null
+      },
+      "bo3": {
+        "n": 33,
+        "brier": 0.22743363,
+        "logLoss": 0.64634073
+      },
+      "vetoTeams": 12,
+      "changedPossibleVsOld": 0,
+      "changedActualVsOld": 0,
+      "pairedVsOld": {
+        "hits": {
+          "better": 0,
+          "tied": 30,
+          "worse": 0
+        },
+        "passes": {
+          "better": 0,
+          "tied": 30,
+          "worse": 0
+        }
+      }
+    },
+    "added": {
+      "fixedHits": 2,
+      "bySlot": [
+        0,
+        1,
+        1
+      ],
+      "fixedPass": false,
+      "fixedCard": [
+        [
+          "Vitality",
+          "Falcons"
+        ],
+        [
+          "Natus Vincere",
+          "Aurora",
+          "MOUZ",
+          "FUT",
+          "Spirit",
+          "Legacy"
+        ],
+        [
+          "Monte",
+          "B8"
+        ]
+      ],
+      "majorCombined": {
+        "passes": 1,
+        "hits": 9
+      },
+      "passesAcrossSeeds": 0,
+      "meanActualHits": 2.86666667,
+      "fixedSimulatedPass": 0.27275,
+      "bo1": {
+        "n": 0,
+        "brier": null,
+        "logLoss": null
+      },
+      "bo3": {
+        "n": 33,
+        "brier": 0.22701926,
+        "logLoss": 0.64544771
+      },
+      "vetoTeams": 16,
+      "changedPossibleVsOld": 92,
+      "changedActualVsOld": 29,
+      "pairedVsOld": {
+        "hits": {
+          "better": 1,
+          "tied": 28,
+          "worse": 1
+        },
+        "passes": {
+          "better": 0,
+          "tied": 30,
+          "worse": 0
+        }
+      },
+      "pairedVsControl": {
+        "hits": {
+          "better": 1,
+          "tied": 28,
+          "worse": 1
+        },
+        "passes": {
+          "better": 0,
+          "tied": 30,
+          "worse": 0
+        }
+      },
+      "largestPotential": {
+        "a": "FUT",
+        "b": "B8",
+        "noVeto": 0.58224191,
+        "old25": 0.58130225,
+        "scheduleControl": 0.58130225,
+        "added": 0.59354182,
+        "agreementOnly": 0.58275495
+      },
+      "largestPlayed": {
+        "winner": "FUT",
+        "loser": "B8",
+        "id": "cologne:7302668",
+        "noVeto": 0.58224191,
+        "old25": 0.58130225,
+        "scheduleControl": 0.58130225,
+        "added": 0.59354182,
+        "agreementOnly": 0.58275495
+      },
+      "stage2SourcedSeries": 13
+    },
+    "agreementOnly": {
+      "fixedHits": 3,
+      "bySlot": [
+        0,
+        2,
+        1
+      ],
+      "fixedPass": false,
+      "fixedCard": [
+        [
+          "Vitality",
+          "Falcons"
+        ],
+        [
+          "Natus Vincere",
+          "Aurora",
+          "MOUZ",
+          "Spirit",
+          "G2",
+          "Legacy"
+        ],
+        [
+          "Monte",
+          "B8"
+        ]
+      ],
+      "majorCombined": {
+        "passes": 1,
+        "hits": 10
+      },
+      "passesAcrossSeeds": 0,
+      "meanActualHits": 2.96666667,
+      "fixedSimulatedPass": 0.27191667,
+      "bo1": {
+        "n": 0,
+        "brier": null,
+        "logLoss": null
+      },
+      "bo3": {
+        "n": 33,
+        "brier": 0.22730202,
+        "logLoss": 0.64604334
+      },
+      "vetoTeams": 16,
+      "changedPossibleVsOld": 75,
+      "changedActualVsOld": 25,
+      "pairedVsOld": {
+        "hits": {
+          "better": 3,
+          "tied": 27,
+          "worse": 0
+        },
+        "passes": {
+          "better": 0,
+          "tied": 30,
+          "worse": 0
+        }
+      }
+    }
+  },
+  "matches": [
+    {
+      "winner": "MOUZ",
+      "loser": "Legacy",
+      "id": "cologne:7302561",
+      "noVeto": 0.47362763,
+      "old25": 0.47146014,
+      "scheduleControl": 0.47146014,
+      "added": 0.46447731,
+      "agreementOnly": 0.46739406
+    },
+    {
+      "winner": "BetBoom",
+      "loser": "The MongolZ",
+      "id": "cologne:7302562",
+      "noVeto": 0.47687477,
+      "old25": 0.47625095,
+      "scheduleControl": 0.47625095,
+      "added": 0.47793683,
+      "agreementOnly": 0.47793683
+    },
+    {
+      "winner": "9z",
+      "loser": "PARIVISION",
+      "id": "cologne:7302563",
+      "noVeto": 0.57427391,
+      "old25": 0.5739457,
+      "scheduleControl": 0.5739457,
+      "added": 0.57527917,
+      "agreementOnly": 0.57471067
+    },
+    {
+      "winner": "Aurora",
+      "loser": "Monte",
+      "id": "cologne:7302564",
+      "noVeto": 0.61325896,
+      "old25": 0.61411724,
+      "scheduleControl": 0.61411724,
+      "added": 0.61505962,
+      "agreementOnly": 0.61505962
+    },
+    {
+      "winner": "FURIA",
+      "loser": "B8",
+      "id": "cologne:7302565",
+      "noVeto": 0.48224058,
+      "old25": 0.4792388,
+      "scheduleControl": 0.4792388,
+      "added": 0.47964044,
+      "agreementOnly": 0.47977916
+    },
+    {
+      "winner": "Spirit",
+      "loser": "Natus Vincere",
+      "id": "cologne:7302566",
+      "noVeto": 0.53716903,
+      "old25": 0.53706366,
+      "scheduleControl": 0.53706366,
+      "added": 0.53739375,
+      "agreementOnly": 0.53706366
+    },
+    {
+      "winner": "Falcons",
+      "loser": "G2",
+      "id": "cologne:7302567",
+      "noVeto": 0.63550177,
+      "old25": 0.63578026,
+      "scheduleControl": 0.63578026,
+      "added": 0.63528808,
+      "agreementOnly": 0.63254003
+    },
+    {
+      "winner": "Vitality",
+      "loser": "FUT",
+      "id": "cologne:7302568",
+      "noVeto": 0.68192262,
+      "old25": 0.68635667,
+      "scheduleControl": 0.68635667,
+      "added": 0.68155746,
+      "agreementOnly": 0.68635667
+    },
+    {
+      "winner": "FURIA",
+      "loser": "MOUZ",
+      "id": "cologne:7302611",
+      "noVeto": 0.3633725,
+      "old25": 0.3651668,
+      "scheduleControl": 0.3651668,
+      "added": 0.3651668,
+      "agreementOnly": 0.3651668
+    },
+    {
+      "winner": "9z",
+      "loser": "Vitality",
+      "id": "cologne:7302612",
+      "noVeto": 0.27721171,
+      "old25": 0.27885314,
+      "scheduleControl": 0.27885314,
+      "added": 0.28093594,
+      "agreementOnly": 0.28013575
+    },
+    {
+      "winner": "Spirit",
+      "loser": "Aurora",
+      "id": "cologne:7302613",
+      "noVeto": 0.68322147,
+      "old25": 0.68192531,
+      "scheduleControl": 0.68192531,
+      "added": 0.68197521,
+      "agreementOnly": 0.68192531
+    },
+    {
+      "winner": "BetBoom",
+      "loser": "Falcons",
+      "id": "cologne:7302614",
+      "noVeto": 0.3035954,
+      "old25": 0.30329506,
+      "scheduleControl": 0.30329506,
+      "added": 0.30381911,
+      "agreementOnly": 0.30381911
+    },
+    {
+      "winner": "Natus Vincere",
+      "loser": "Legacy",
+      "id": "cologne:7302615",
+      "noVeto": 0.57353889,
+      "old25": 0.57960743,
+      "scheduleControl": 0.57960743,
+      "added": 0.57755477,
+      "agreementOnly": 0.57895032
+    },
+    {
+      "winner": "Monte",
+      "loser": "PARIVISION",
+      "id": "cologne:7302616",
+      "noVeto": 0.51130517,
+      "old25": 0.51080244,
+      "scheduleControl": 0.51080244,
+      "added": 0.50988689,
+      "agreementOnly": 0.50988689
+    },
+    {
+      "winner": "G2",
+      "loser": "FUT",
+      "id": "cologne:7302617",
+      "noVeto": 0.50136819,
+      "old25": 0.50380537,
+      "scheduleControl": 0.50380537,
+      "added": 0.50756884,
+      "agreementOnly": 0.5089651
+    },
+    {
+      "winner": "The MongolZ",
+      "loser": "B8",
+      "id": "cologne:7302618",
+      "noVeto": 0.5352223,
+      "old25": 0.5353467,
+      "scheduleControl": 0.5353467,
+      "added": 0.54228035,
+      "agreementOnly": 0.53654666
+    },
+    {
+      "winner": "Spirit",
+      "loser": "9z",
+      "id": "cologne:7302662",
+      "noVeto": 0.71887455,
+      "old25": 0.71911795,
+      "scheduleControl": 0.71911795,
+      "added": 0.71730307,
+      "agreementOnly": 0.71471622
+    },
+    {
+      "winner": "FURIA",
+      "loser": "BetBoom",
+      "id": "cologne:7302663",
+      "noVeto": 0.47016462,
+      "old25": 0.4709217,
+      "scheduleControl": 0.4709217,
+      "added": 0.47182436,
+      "agreementOnly": 0.47182436
+    },
+    {
+      "winner": "Legacy",
+      "loser": "PARIVISION",
+      "id": "cologne:7302664",
+      "noVeto": 0.6878442,
+      "old25": 0.68475383,
+      "scheduleControl": 0.68475383,
+      "added": 0.68608792,
+      "agreementOnly": 0.68413556
+    },
+    {
+      "winner": "Vitality",
+      "loser": "MOUZ",
+      "id": "cologne:7302665",
+      "noVeto": 0.63688974,
+      "old25": 0.63932307,
+      "scheduleControl": 0.63932307,
+      "added": 0.63932307,
+      "agreementOnly": 0.63932307
+    },
+    {
+      "winner": "Falcons",
+      "loser": "Monte",
+      "id": "cologne:7302666",
+      "noVeto": 0.74305345,
+      "old25": 0.7437358,
+      "scheduleControl": 0.7437358,
+      "added": 0.74708854,
+      "agreementOnly": 0.74708854
+    },
+    {
+      "winner": "Aurora",
+      "loser": "G2",
+      "id": "cologne:7302667",
+      "noVeto": 0.49104149,
+      "old25": 0.49357648,
+      "scheduleControl": 0.49357648,
+      "added": 0.49080565,
+      "agreementOnly": 0.49208679
+    },
+    {
+      "winner": "FUT",
+      "loser": "B8",
+      "id": "cologne:7302668",
+      "noVeto": 0.58224191,
+      "old25": 0.58130225,
+      "scheduleControl": 0.58130225,
+      "added": 0.59354182,
+      "agreementOnly": 0.58275495
+    },
+    {
+      "winner": "Natus Vincere",
+      "loser": "The MongolZ",
+      "id": "cologne:7302669",
+      "noVeto": 0.6883805,
+      "old25": 0.68936896,
+      "scheduleControl": 0.68936896,
+      "added": 0.68936896,
+      "agreementOnly": 0.68936896
+    },
+    {
+      "winner": "G2",
+      "loser": "Legacy",
+      "id": "cologne:7302731",
+      "noVeto": 0.43560672,
+      "old25": 0.4359175,
+      "scheduleControl": 0.4359175,
+      "added": 0.43674014,
+      "agreementOnly": 0.43377217
+    },
+    {
+      "winner": "Falcons",
+      "loser": "Natus Vincere",
+      "id": "cologne:7302732",
+      "noVeto": 0.48925742,
+      "old25": 0.48935607,
+      "scheduleControl": 0.48935607,
+      "added": 0.48935607,
+      "agreementOnly": 0.48935607
+    },
+    {
+      "winner": "Aurora",
+      "loser": "9z",
+      "id": "cologne:7302733",
+      "noVeto": 0.54935094,
+      "old25": 0.54414158,
+      "scheduleControl": 0.54414158,
+      "added": 0.5377204,
+      "agreementOnly": 0.5388723
+    },
+    {
+      "winner": "Vitality",
+      "loser": "BetBoom",
+      "id": "cologne:7302734",
+      "noVeto": 0.73733735,
+      "old25": 0.73760538,
+      "scheduleControl": 0.73760538,
+      "added": 0.73678519,
+      "agreementOnly": 0.73678519
+    },
+    {
+      "winner": "The MongolZ",
+      "loser": "Monte",
+      "id": "cologne:7302735",
+      "noVeto": 0.57665573,
+      "old25": 0.57428249,
+      "scheduleControl": 0.57428249,
+      "added": 0.57325815,
+      "agreementOnly": 0.57325815
+    },
+    {
+      "winner": "FUT",
+      "loser": "MOUZ",
+      "id": "cologne:7302736",
+      "noVeto": 0.45295718,
+      "old25": 0.45176372,
+      "scheduleControl": 0.45176372,
+      "added": 0.45018882,
+      "agreementOnly": 0.45176372
+    },
+    {
+      "winner": "G2",
+      "loser": "Natus Vincere",
+      "id": "cologne:7302759",
+      "noVeto": 0.35358647,
+      "old25": 0.35366888,
+      "scheduleControl": 0.35366888,
+      "added": 0.35429573,
+      "agreementOnly": 0.35702684
+    },
+    {
+      "winner": "BetBoom",
+      "loser": "FUT",
+      "id": "cologne:7302760",
+      "noVeto": 0.42961939,
+      "old25": 0.42920965,
+      "scheduleControl": 0.42920965,
+      "added": 0.43018491,
+      "agreementOnly": 0.43000391
+    },
+    {
+      "winner": "9z",
+      "loser": "The MongolZ",
+      "id": "cologne:7302761",
+      "noVeto": 0.49667359,
+      "old25": 0.49629115,
+      "scheduleControl": 0.49629115,
+      "added": 0.50149378,
+      "agreementOnly": 0.50010966
+    }
+  ],
+  "pairs": [
+    {
+      "a": "Vitality",
+      "b": "Natus Vincere",
+      "noVeto": 0.54223401,
+      "old25": 0.54462758,
+      "scheduleControl": 0.54462758,
+      "added": 0.54462758,
+      "agreementOnly": 0.54462758
+    },
+    {
+      "a": "Vitality",
+      "b": "Falcons",
+      "noVeto": 0.55264195,
+      "old25": 0.55395703,
+      "scheduleControl": 0.55395703,
+      "added": 0.55395703,
+      "agreementOnly": 0.55395703
+    },
+    {
+      "a": "Vitality",
+      "b": "The MongolZ",
+      "noVeto": 0.72209208,
+      "old25": 0.7211321,
+      "scheduleControl": 0.7211321,
+      "added": 0.7211321,
+      "agreementOnly": 0.7211321
+    },
+    {
+      "a": "Vitality",
+      "b": "PARIVISION",
+      "noVeto": 0.78366621,
+      "old25": 0.7843488,
+      "scheduleControl": 0.7843488,
+      "added": 0.7843488,
+      "agreementOnly": 0.7843488
+    },
+    {
+      "a": "Vitality",
+      "b": "Aurora",
+      "noVeto": 0.68735093,
+      "old25": 0.68948941,
+      "scheduleControl": 0.68948941,
+      "added": 0.68948941,
+      "agreementOnly": 0.68948941
+    },
+    {
+      "a": "Vitality",
+      "b": "FURIA",
+      "noVeto": 0.75691876,
+      "old25": 0.75627704,
+      "scheduleControl": 0.75627704,
+      "added": 0.75627704,
+      "agreementOnly": 0.75627704
+    },
+    {
+      "a": "Vitality",
+      "b": "MOUZ",
+      "noVeto": 0.63688974,
+      "old25": 0.63932307,
+      "scheduleControl": 0.63932307,
+      "added": 0.63932307,
+      "agreementOnly": 0.63932307
+    },
+    {
+      "a": "Vitality",
+      "b": "FUT",
+      "noVeto": 0.68192262,
+      "old25": 0.68635667,
+      "scheduleControl": 0.68635667,
+      "added": 0.68155746,
+      "agreementOnly": 0.68635667
+    },
+    {
+      "a": "Vitality",
+      "b": "Spirit",
+      "noVeto": 0.50478238,
+      "old25": 0.50563829,
+      "scheduleControl": 0.50563829,
+      "added": 0.50341162,
+      "agreementOnly": 0.50563829
+    },
+    {
+      "a": "Vitality",
+      "b": "G2",
+      "noVeto": 0.68212026,
+      "old25": 0.68156055,
+      "scheduleControl": 0.68156055,
+      "added": 0.68354163,
+      "agreementOnly": 0.68090449
+    },
+    {
+      "a": "Vitality",
+      "b": "BetBoom",
+      "noVeto": 0.73733735,
+      "old25": 0.73760538,
+      "scheduleControl": 0.73760538,
+      "added": 0.73678519,
+      "agreementOnly": 0.73678519
+    },
+    {
+      "a": "Vitality",
+      "b": "9z",
+      "noVeto": 0.72278829,
+      "old25": 0.72114686,
+      "scheduleControl": 0.72114686,
+      "added": 0.71906406,
+      "agreementOnly": 0.71986425
+    },
+    {
+      "a": "Vitality",
+      "b": "Monte",
+      "noVeto": 0.78047386,
+      "old25": 0.78080338,
+      "scheduleControl": 0.78080338,
+      "added": 0.78315757,
+      "agreementOnly": 0.78315757
+    },
+    {
+      "a": "Vitality",
+      "b": "B8",
+      "noVeto": 0.7468547,
+      "old25": 0.74554865,
+      "scheduleControl": 0.74554865,
+      "added": 0.74981566,
+      "agreementOnly": 0.74720797
+    },
+    {
+      "a": "Vitality",
+      "b": "Legacy",
+      "noVeto": 0.61258104,
+      "old25": 0.61226481,
+      "scheduleControl": 0.61226481,
+      "added": 0.60852306,
+      "agreementOnly": 0.61158261
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "Falcons",
+      "noVeto": 0.51074258,
+      "old25": 0.51064393,
+      "scheduleControl": 0.51064393,
+      "added": 0.51064393,
+      "agreementOnly": 0.51064393
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "The MongolZ",
+      "noVeto": 0.6883805,
+      "old25": 0.68936896,
+      "scheduleControl": 0.68936896,
+      "added": 0.68936896,
+      "agreementOnly": 0.68936896
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "PARIVISION",
+      "noVeto": 0.75597845,
+      "old25": 0.75552306,
+      "scheduleControl": 0.75552306,
+      "added": 0.75552306,
+      "agreementOnly": 0.75552306
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "Aurora",
+      "noVeto": 0.65221999,
+      "old25": 0.64886202,
+      "scheduleControl": 0.64886202,
+      "added": 0.64886202,
+      "agreementOnly": 0.64886202
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "FURIA",
+      "noVeto": 0.72615378,
+      "old25": 0.72725947,
+      "scheduleControl": 0.72725947,
+      "added": 0.72725947,
+      "agreementOnly": 0.72725947
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "MOUZ",
+      "noVeto": 0.59888419,
+      "old25": 0.59976484,
+      "scheduleControl": 0.59976484,
+      "added": 0.59976484,
+      "agreementOnly": 0.59976484
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "FUT",
+      "noVeto": 0.64648632,
+      "old25": 0.64631482,
+      "scheduleControl": 0.64631482,
+      "added": 0.64584262,
+      "agreementOnly": 0.64631482
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "Spirit",
+      "noVeto": 0.46283097,
+      "old25": 0.46293634,
+      "scheduleControl": 0.46293634,
+      "added": 0.46260625,
+      "agreementOnly": 0.46293634
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "G2",
+      "noVeto": 0.64641353,
+      "old25": 0.64633112,
+      "scheduleControl": 0.64633112,
+      "added": 0.64570427,
+      "agreementOnly": 0.64297316
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "BetBoom",
+      "noVeto": 0.70689944,
+      "old25": 0.70816173,
+      "scheduleControl": 0.70816173,
+      "added": 0.70727407,
+      "agreementOnly": 0.70727407
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "9z",
+      "noVeto": 0.69049599,
+      "old25": 0.69196834,
+      "scheduleControl": 0.69196834,
+      "added": 0.68814221,
+      "agreementOnly": 0.68894893
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "Monte",
+      "noVeto": 0.75243592,
+      "old25": 0.75351957,
+      "scheduleControl": 0.75351957,
+      "added": 0.75455226,
+      "agreementOnly": 0.75455226
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "B8",
+      "noVeto": 0.71692705,
+      "old25": 0.72006098,
+      "scheduleControl": 0.72006098,
+      "added": 0.72568631,
+      "agreementOnly": 0.72217863
+    },
+    {
+      "a": "Natus Vincere",
+      "b": "Legacy",
+      "noVeto": 0.57353889,
+      "old25": 0.57960743,
+      "scheduleControl": 0.57960743,
+      "added": 0.57755477,
+      "agreementOnly": 0.57895032
+    },
+    {
+      "a": "Falcons",
+      "b": "The MongolZ",
+      "noVeto": 0.67838947,
+      "old25": 0.68089897,
+      "scheduleControl": 0.68089897,
+      "added": 0.68089897,
+      "agreementOnly": 0.68089897
+    },
+    {
+      "a": "Falcons",
+      "b": "PARIVISION",
+      "noVeto": 0.74699476,
+      "old25": 0.74723982,
+      "scheduleControl": 0.74723982,
+      "added": 0.74723982,
+      "agreementOnly": 0.74723982
+    },
+    {
+      "a": "Falcons",
+      "b": "Aurora",
+      "noVeto": 0.64148629,
+      "old25": 0.63835893,
+      "scheduleControl": 0.63835893,
+      "added": 0.63835893,
+      "agreementOnly": 0.63835893
+    },
+    {
+      "a": "Falcons",
+      "b": "FURIA",
+      "noVeto": 0.71671306,
+      "old25": 0.71696711,
+      "scheduleControl": 0.71696711,
+      "added": 0.71696711,
+      "agreementOnly": 0.71696711
+    },
+    {
+      "a": "Falcons",
+      "b": "MOUZ",
+      "noVeto": 0.58795676,
+      "old25": 0.58852137,
+      "scheduleControl": 0.58852137,
+      "added": 0.58852137,
+      "agreementOnly": 0.58852137
+    },
+    {
+      "a": "Falcons",
+      "b": "FUT",
+      "noVeto": 0.63555526,
+      "old25": 0.63524068,
+      "scheduleControl": 0.63524068,
+      "added": 0.63457153,
+      "agreementOnly": 0.63524068
+    },
+    {
+      "a": "Falcons",
+      "b": "Spirit",
+      "noVeto": 0.45225535,
+      "old25": 0.4519548,
+      "scheduleControl": 0.4519548,
+      "added": 0.45173553,
+      "agreementOnly": 0.4519548
+    },
+    {
+      "a": "Falcons",
+      "b": "G2",
+      "noVeto": 0.63550177,
+      "old25": 0.63578026,
+      "scheduleControl": 0.63578026,
+      "added": 0.63528808,
+      "agreementOnly": 0.63254003
+    },
+    {
+      "a": "Falcons",
+      "b": "BetBoom",
+      "noVeto": 0.6964046,
+      "old25": 0.69670494,
+      "scheduleControl": 0.69670494,
+      "added": 0.69618089,
+      "agreementOnly": 0.69618089
+    },
+    {
+      "a": "Falcons",
+      "b": "9z",
+      "noVeto": 0.67999436,
+      "old25": 0.67985348,
+      "scheduleControl": 0.67985348,
+      "added": 0.67598993,
+      "agreementOnly": 0.67663665
+    },
+    {
+      "a": "Falcons",
+      "b": "Monte",
+      "noVeto": 0.74305345,
+      "old25": 0.7437358,
+      "scheduleControl": 0.7437358,
+      "added": 0.74708854,
+      "agreementOnly": 0.74708854
+    },
+    {
+      "a": "Falcons",
+      "b": "B8",
+      "noVeto": 0.70671488,
+      "old25": 0.70740542,
+      "scheduleControl": 0.70740542,
+      "added": 0.71384426,
+      "agreementOnly": 0.71041887
+    },
+    {
+      "a": "Falcons",
+      "b": "Legacy",
+      "noVeto": 0.56244994,
+      "old25": 0.56371409,
+      "scheduleControl": 0.56371409,
+      "added": 0.56162936,
+      "agreementOnly": 0.56308663
+    },
+    {
+      "a": "The MongolZ",
+      "b": "PARIVISION",
+      "noVeto": 0.584652,
+      "old25": 0.58574118,
+      "scheduleControl": 0.58574118,
+      "added": 0.58574118,
+      "agreementOnly": 0.58574118
+    },
+    {
+      "a": "The MongolZ",
+      "b": "Aurora",
+      "noVeto": 0.45994248,
+      "old25": 0.45987726,
+      "scheduleControl": 0.45987726,
+      "added": 0.45987726,
+      "agreementOnly": 0.45987726
+    },
+    {
+      "a": "The MongolZ",
+      "b": "FURIA",
+      "noVeto": 0.5454462,
+      "old25": 0.54515754,
+      "scheduleControl": 0.54515754,
+      "added": 0.54515754,
+      "agreementOnly": 0.54515754
+    },
+    {
+      "a": "The MongolZ",
+      "b": "MOUZ",
+      "noVeto": 0.40586604,
+      "old25": 0.40401968,
+      "scheduleControl": 0.40401968,
+      "added": 0.40401968,
+      "agreementOnly": 0.40401968
+    },
+    {
+      "a": "The MongolZ",
+      "b": "FUT",
+      "noVeto": 0.45271402,
+      "old25": 0.44870333,
+      "scheduleControl": 0.44870333,
+      "added": 0.44731265,
+      "agreementOnly": 0.44870333
+    },
+    {
+      "a": "The MongolZ",
+      "b": "Spirit",
+      "noVeto": 0.28197434,
+      "old25": 0.27995575,
+      "scheduleControl": 0.27995575,
+      "added": 0.27898843,
+      "agreementOnly": 0.27995575
+    },
+    {
+      "a": "The MongolZ",
+      "b": "G2",
+      "noVeto": 0.45173906,
+      "old25": 0.45047123,
+      "scheduleControl": 0.45047123,
+      "added": 0.45016242,
+      "agreementOnly": 0.44844529
+    },
+    {
+      "a": "The MongolZ",
+      "b": "BetBoom",
+      "noVeto": 0.52312523,
+      "old25": 0.52374905,
+      "scheduleControl": 0.52374905,
+      "added": 0.52206317,
+      "agreementOnly": 0.52206317
+    },
+    {
+      "a": "The MongolZ",
+      "b": "9z",
+      "noVeto": 0.50332641,
+      "old25": 0.50370885,
+      "scheduleControl": 0.50370885,
+      "added": 0.49850622,
+      "agreementOnly": 0.49989034
+    },
+    {
+      "a": "The MongolZ",
+      "b": "Monte",
+      "noVeto": 0.57665573,
+      "old25": 0.57428249,
+      "scheduleControl": 0.57428249,
+      "added": 0.57325815,
+      "agreementOnly": 0.57325815
+    },
+    {
+      "a": "The MongolZ",
+      "b": "B8",
+      "noVeto": 0.5352223,
+      "old25": 0.5353467,
+      "scheduleControl": 0.5353467,
+      "added": 0.54228035,
+      "agreementOnly": 0.53654666
+    },
+    {
+      "a": "The MongolZ",
+      "b": "Legacy",
+      "noVeto": 0.38047239,
+      "old25": 0.37992315,
+      "scheduleControl": 0.37992315,
+      "added": 0.37811845,
+      "agreementOnly": 0.37999404
+    },
+    {
+      "a": "PARIVISION",
+      "b": "Aurora",
+      "noVeto": 0.3773967,
+      "old25": 0.37880601,
+      "scheduleControl": 0.37880601,
+      "added": 0.37880601,
+      "agreementOnly": 0.37880601
+    },
+    {
+      "a": "PARIVISION",
+      "b": "FURIA",
+      "noVeto": 0.46772166,
+      "old25": 0.46747581,
+      "scheduleControl": 0.46747581,
+      "added": 0.46747581,
+      "agreementOnly": 0.46747581
+    },
+    {
+      "a": "PARIVISION",
+      "b": "MOUZ",
+      "noVeto": 0.3280548,
+      "old25": 0.32919404,
+      "scheduleControl": 0.32919404,
+      "added": 0.32919404,
+      "agreementOnly": 0.32919404
+    },
+    {
+      "a": "PARIVISION",
+      "b": "FUT",
+      "noVeto": 0.36975426,
+      "old25": 0.36926905,
+      "scheduleControl": 0.36926905,
+      "added": 0.36802415,
+      "agreementOnly": 0.36926905
+    },
+    {
+      "a": "PARIVISION",
+      "b": "Spirit",
+      "noVeto": 0.21957429,
+      "old25": 0.21954312,
+      "scheduleControl": 0.21954312,
+      "added": 0.21880398,
+      "agreementOnly": 0.21954312
+    },
+    {
+      "a": "PARIVISION",
+      "b": "G2",
+      "noVeto": 0.36834019,
+      "old25": 0.36915105,
+      "scheduleControl": 0.36915105,
+      "added": 0.36963252,
+      "agreementOnly": 0.36474471
+    },
+    {
+      "a": "PARIVISION",
+      "b": "BetBoom",
+      "noVeto": 0.43713623,
+      "old25": 0.43783705,
+      "scheduleControl": 0.43783705,
+      "added": 0.43696256,
+      "agreementOnly": 0.43696256
+    },
+    {
+      "a": "PARIVISION",
+      "b": "9z",
+      "noVeto": 0.42572609,
+      "old25": 0.4260543,
+      "scheduleControl": 0.4260543,
+      "added": 0.42472083,
+      "agreementOnly": 0.42528933
+    },
+    {
+      "a": "PARIVISION",
+      "b": "Monte",
+      "noVeto": 0.48869483,
+      "old25": 0.48919756,
+      "scheduleControl": 0.48919756,
+      "added": 0.49011311,
+      "agreementOnly": 0.49011311
+    },
+    {
+      "a": "PARIVISION",
+      "b": "B8",
+      "noVeto": 0.44924275,
+      "old25": 0.45060845,
+      "scheduleControl": 0.45060845,
+      "added": 0.45389243,
+      "agreementOnly": 0.45213918
+    },
+    {
+      "a": "PARIVISION",
+      "b": "Legacy",
+      "noVeto": 0.3121558,
+      "old25": 0.31524617,
+      "scheduleControl": 0.31524617,
+      "added": 0.31391208,
+      "agreementOnly": 0.31586444
+    },
+    {
+      "a": "Aurora",
+      "b": "FURIA",
+      "noVeto": 0.59124925,
+      "old25": 0.58818882,
+      "scheduleControl": 0.58818882,
+      "added": 0.58818882,
+      "agreementOnly": 0.58818882
+    },
+    {
+      "a": "Aurora",
+      "b": "MOUZ",
+      "noVeto": 0.44559148,
+      "old25": 0.45059697,
+      "scheduleControl": 0.45059697,
+      "added": 0.45059697,
+      "agreementOnly": 0.45059697
+    },
+    {
+      "a": "Aurora",
+      "b": "FUT",
+      "noVeto": 0.49222551,
+      "old25": 0.49512257,
+      "scheduleControl": 0.49512257,
+      "added": 0.49186173,
+      "agreementOnly": 0.49512257
+    },
+    {
+      "a": "Aurora",
+      "b": "Spirit",
+      "noVeto": 0.31677853,
+      "old25": 0.31807469,
+      "scheduleControl": 0.31807469,
+      "added": 0.31802479,
+      "agreementOnly": 0.31807469
+    },
+    {
+      "a": "Aurora",
+      "b": "G2",
+      "noVeto": 0.49104149,
+      "old25": 0.49357648,
+      "scheduleControl": 0.49357648,
+      "added": 0.49080565,
+      "agreementOnly": 0.49208679
+    },
+    {
+      "a": "Aurora",
+      "b": "BetBoom",
+      "noVeto": 0.56163934,
+      "old25": 0.55882592,
+      "scheduleControl": 0.55882592,
+      "added": 0.55620818,
+      "agreementOnly": 0.55620818
+    },
+    {
+      "a": "Aurora",
+      "b": "9z",
+      "noVeto": 0.54935094,
+      "old25": 0.54414158,
+      "scheduleControl": 0.54414158,
+      "added": 0.5377204,
+      "agreementOnly": 0.5388723
+    },
+    {
+      "a": "Aurora",
+      "b": "Monte",
+      "noVeto": 0.61325896,
+      "old25": 0.61411724,
+      "scheduleControl": 0.61411724,
+      "added": 0.61505962,
+      "agreementOnly": 0.61505962
+    },
+    {
+      "a": "Aurora",
+      "b": "B8",
+      "noVeto": 0.57369387,
+      "old25": 0.57188532,
+      "scheduleControl": 0.57188532,
+      "added": 0.57819743,
+      "agreementOnly": 0.5727656
+    },
+    {
+      "a": "Aurora",
+      "b": "Legacy",
+      "noVeto": 0.42672704,
+      "old25": 0.43183175,
+      "scheduleControl": 0.43183175,
+      "added": 0.43283805,
+      "agreementOnly": 0.4331673
+    },
+    {
+      "a": "FURIA",
+      "b": "MOUZ",
+      "noVeto": 0.3633725,
+      "old25": 0.3651668,
+      "scheduleControl": 0.3651668,
+      "added": 0.3651668,
+      "agreementOnly": 0.3651668
+    },
+    {
+      "a": "FURIA",
+      "b": "FUT",
+      "noVeto": 0.40045568,
+      "old25": 0.40217759,
+      "scheduleControl": 0.40217759,
+      "added": 0.40140645,
+      "agreementOnly": 0.40217759
+    },
+    {
+      "a": "FURIA",
+      "b": "Spirit",
+      "noVeto": 0.24681578,
+      "old25": 0.24477382,
+      "scheduleControl": 0.24477382,
+      "added": 0.24256555,
+      "agreementOnly": 0.24477382
+    },
+    {
+      "a": "FURIA",
+      "b": "G2",
+      "noVeto": 0.39928109,
+      "old25": 0.39736006,
+      "scheduleControl": 0.39736006,
+      "added": 0.39830965,
+      "agreementOnly": 0.39441646
+    },
+    {
+      "a": "FURIA",
+      "b": "BetBoom",
+      "noVeto": 0.47016462,
+      "old25": 0.4709217,
+      "scheduleControl": 0.4709217,
+      "added": 0.47182436,
+      "agreementOnly": 0.47182436
+    },
+    {
+      "a": "FURIA",
+      "b": "9z",
+      "noVeto": 0.45815202,
+      "old25": 0.45746913,
+      "scheduleControl": 0.45746913,
+      "added": 0.45660406,
+      "agreementOnly": 0.45698205
+    },
+    {
+      "a": "FURIA",
+      "b": "Monte",
+      "noVeto": 0.52322951,
+      "old25": 0.52401808,
+      "scheduleControl": 0.52401808,
+      "added": 0.52324267,
+      "agreementOnly": 0.52324267
+    },
+    {
+      "a": "FURIA",
+      "b": "B8",
+      "noVeto": 0.48224058,
+      "old25": 0.4792388,
+      "scheduleControl": 0.4792388,
+      "added": 0.47964044,
+      "agreementOnly": 0.47977916
+    },
+    {
+      "a": "FURIA",
+      "b": "Legacy",
+      "noVeto": 0.33900674,
+      "old25": 0.3338945,
+      "scheduleControl": 0.3338945,
+      "added": 0.32799717,
+      "agreementOnly": 0.33170804
+    },
+    {
+      "a": "MOUZ",
+      "b": "FUT",
+      "noVeto": 0.54704282,
+      "old25": 0.54823628,
+      "scheduleControl": 0.54823628,
+      "added": 0.54981118,
+      "agreementOnly": 0.54823628
+    },
+    {
+      "a": "MOUZ",
+      "b": "Spirit",
+      "noVeto": 0.36734465,
+      "old25": 0.36561152,
+      "scheduleControl": 0.36561152,
+      "added": 0.36352319,
+      "agreementOnly": 0.36561152
+    },
+    {
+      "a": "MOUZ",
+      "b": "G2",
+      "noVeto": 0.5463981,
+      "old25": 0.54460731,
+      "scheduleControl": 0.54460731,
+      "added": 0.54454047,
+      "agreementOnly": 0.54268518
+    },
+    {
+      "a": "MOUZ",
+      "b": "BetBoom",
+      "noVeto": 0.61308889,
+      "old25": 0.61366347,
+      "scheduleControl": 0.61366347,
+      "added": 0.61267694,
+      "agreementOnly": 0.61267694
+    },
+    {
+      "a": "MOUZ",
+      "b": "9z",
+      "noVeto": 0.59503662,
+      "old25": 0.59346402,
+      "scheduleControl": 0.59346402,
+      "added": 0.58924138,
+      "agreementOnly": 0.59037778
+    },
+    {
+      "a": "MOUZ",
+      "b": "Monte",
+      "noVeto": 0.66429147,
+      "old25": 0.66376848,
+      "scheduleControl": 0.66376848,
+      "added": 0.66670415,
+      "agreementOnly": 0.66670415
+    },
+    {
+      "a": "MOUZ",
+      "b": "B8",
+      "noVeto": 0.62485207,
+      "old25": 0.6231791,
+      "scheduleControl": 0.6231791,
+      "added": 0.62902567,
+      "agreementOnly": 0.6270105
+    },
+    {
+      "a": "MOUZ",
+      "b": "Legacy",
+      "noVeto": 0.47362763,
+      "old25": 0.47146014,
+      "scheduleControl": 0.47146014,
+      "added": 0.46447731,
+      "agreementOnly": 0.46739406
+    },
+    {
+      "a": "FUT",
+      "b": "Spirit",
+      "noVeto": 0.32239513,
+      "old25": 0.32090546,
+      "scheduleControl": 0.32090546,
+      "added": 0.32473696,
+      "agreementOnly": 0.32090546
+    },
+    {
+      "a": "FUT",
+      "b": "G2",
+      "noVeto": 0.49863181,
+      "old25": 0.49619463,
+      "scheduleControl": 0.49619463,
+      "added": 0.49243116,
+      "agreementOnly": 0.4910349
+    },
+    {
+      "a": "FUT",
+      "b": "BetBoom",
+      "noVeto": 0.57038061,
+      "old25": 0.57079035,
+      "scheduleControl": 0.57079035,
+      "added": 0.56981509,
+      "agreementOnly": 0.56999609
+    },
+    {
+      "a": "FUT",
+      "b": "9z",
+      "noVeto": 0.55857424,
+      "old25": 0.55724607,
+      "scheduleControl": 0.55724607,
+      "added": 0.55062654,
+      "agreementOnly": 0.55052998
+    },
+    {
+      "a": "FUT",
+      "b": "Monte",
+      "noVeto": 0.62091998,
+      "old25": 0.62248235,
+      "scheduleControl": 0.62248235,
+      "added": 0.62460739,
+      "agreementOnly": 0.62507202
+    },
+    {
+      "a": "FUT",
+      "b": "B8",
+      "noVeto": 0.58224191,
+      "old25": 0.58130225,
+      "scheduleControl": 0.58130225,
+      "added": 0.59354182,
+      "agreementOnly": 0.58275495
+    },
+    {
+      "a": "FUT",
+      "b": "Legacy",
+      "noVeto": 0.43498118,
+      "old25": 0.43314121,
+      "scheduleControl": 0.43314121,
+      "added": 0.43925998,
+      "agreementOnly": 0.43620116
+    },
+    {
+      "a": "Spirit",
+      "b": "G2",
+      "noVeto": 0.67766258,
+      "old25": 0.67943619,
+      "scheduleControl": 0.67943619,
+      "added": 0.6787239,
+      "agreementOnly": 0.67759099
+    },
+    {
+      "a": "Spirit",
+      "b": "BetBoom",
+      "noVeto": 0.73368488,
+      "old25": 0.73366087,
+      "scheduleControl": 0.73366087,
+      "added": 0.73586514,
+      "agreementOnly": 0.73462954
+    },
+    {
+      "a": "Spirit",
+      "b": "9z",
+      "noVeto": 0.71887455,
+      "old25": 0.71911795,
+      "scheduleControl": 0.71911795,
+      "added": 0.71730307,
+      "agreementOnly": 0.71471622
+    },
+    {
+      "a": "Spirit",
+      "b": "Monte",
+      "noVeto": 0.77679515,
+      "old25": 0.77785862,
+      "scheduleControl": 0.77785862,
+      "added": 0.78174734,
+      "agreementOnly": 0.78112009
+    },
+    {
+      "a": "Spirit",
+      "b": "B8",
+      "noVeto": 0.74327584,
+      "old25": 0.74492301,
+      "scheduleControl": 0.74492301,
+      "added": 0.75192533,
+      "agreementOnly": 0.74627126
+    },
+    {
+      "a": "Spirit",
+      "b": "Legacy",
+      "noVeto": 0.60815031,
+      "old25": 0.61201838,
+      "scheduleControl": 0.61201838,
+      "added": 0.61568561,
+      "agreementOnly": 0.6146125
+    },
+    {
+      "a": "G2",
+      "b": "BetBoom",
+      "noVeto": 0.57248423,
+      "old25": 0.57248423,
+      "scheduleControl": 0.57248423,
+      "added": 0.57781313,
+      "agreementOnly": 0.58148258
+    },
+    {
+      "a": "G2",
+      "b": "9z",
+      "noVeto": 0.56026819,
+      "old25": 0.55919791,
+      "scheduleControl": 0.55919791,
+      "added": 0.55758733,
+      "agreementOnly": 0.56003681
+    },
+    {
+      "a": "G2",
+      "b": "Monte",
+      "noVeto": 0.62292767,
+      "old25": 0.62292767,
+      "scheduleControl": 0.62292767,
+      "added": 0.62671599,
+      "agreementOnly": 0.63069476
+    },
+    {
+      "a": "G2",
+      "b": "B8",
+      "noVeto": 0.58422327,
+      "old25": 0.58422327,
+      "scheduleControl": 0.58422327,
+      "added": 0.58833447,
+      "agreementOnly": 0.58921699
+    },
+    {
+      "a": "G2",
+      "b": "Legacy",
+      "noVeto": 0.43560672,
+      "old25": 0.4359175,
+      "scheduleControl": 0.4359175,
+      "added": 0.43674014,
+      "agreementOnly": 0.43377217
+    },
+    {
+      "a": "BetBoom",
+      "b": "9z",
+      "noVeto": 0.48786142,
+      "old25": 0.48710232,
+      "scheduleControl": 0.48710232,
+      "added": 0.4818914,
+      "agreementOnly": 0.48245182
+    },
+    {
+      "a": "BetBoom",
+      "b": "Monte",
+      "noVeto": 0.54901251,
+      "old25": 0.54901251,
+      "scheduleControl": 0.54901251,
+      "added": 0.54836153,
+      "agreementOnly": 0.54836153
+    },
+    {
+      "a": "BetBoom",
+      "b": "B8",
+      "noVeto": 0.5122354,
+      "old25": 0.5122354,
+      "scheduleControl": 0.5122354,
+      "added": 0.50961202,
+      "agreementOnly": 0.50717991
+    },
+    {
+      "a": "BetBoom",
+      "b": "Legacy",
+      "noVeto": 0.36943923,
+      "old25": 0.37051908,
+      "scheduleControl": 0.37051908,
+      "added": 0.35938229,
+      "agreementOnly": 0.36221325
+    },
+    {
+      "a": "9z",
+      "b": "Monte",
+      "noVeto": 0.56283057,
+      "old25": 0.563088,
+      "scheduleControl": 0.563088,
+      "added": 0.56492394,
+      "agreementOnly": 0.56395956
+    },
+    {
+      "a": "9z",
+      "b": "B8",
+      "noVeto": 0.52428921,
+      "old25": 0.52532641,
+      "scheduleControl": 0.52532641,
+      "added": 0.5255797,
+      "agreementOnly": 0.52751764
+    },
+    {
+      "a": "9z",
+      "b": "Legacy",
+      "noVeto": 0.3792471,
+      "old25": 0.38228881,
+      "scheduleControl": 0.38228881,
+      "added": 0.37900887,
+      "agreementOnly": 0.38717048
+    },
+    {
+      "a": "Monte",
+      "b": "B8",
+      "noVeto": 0.46265812,
+      "old25": 0.46265812,
+      "scheduleControl": 0.46265812,
+      "added": 0.46835398,
+      "agreementOnly": 0.46482198
+    },
+    {
+      "a": "Monte",
+      "b": "Legacy",
+      "noVeto": 0.31929993,
+      "old25": 0.31975227,
+      "scheduleControl": 0.31975227,
+      "added": 0.31477819,
+      "agreementOnly": 0.316715
+    },
+    {
+      "a": "B8",
+      "b": "Legacy",
+      "noVeto": 0.3579457,
+      "old25": 0.35849649,
+      "scheduleControl": 0.35849649,
+      "added": 0.35895085,
+      "agreementOnly": 0.35805978
+    }
+  ],
+  "rows": {
+    "noVeto": [
+      {
+        "seed": 33719,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.27116666666666667
+      },
+      {
+        "seed": 2654469480,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.2658333333333333
+      },
+      {
+        "seed": 1013937945,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.2685
+      },
+      {
+        "seed": 3668373706,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.27108333333333334
+      },
+      {
+        "seed": 2027842171,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2715
+      },
+      {
+        "seed": 387310636,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.2635
+      },
+      {
+        "seed": 3041746397,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27258333333333334
+      },
+      {
+        "seed": 1401214862,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2735
+      },
+      {
+        "seed": 4055650623,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26908333333333334
+      },
+      {
+        "seed": 2415119088,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26816666666666666
+      },
+      {
+        "seed": 774587553,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27641666666666664
+      },
+      {
+        "seed": 3429023314,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27125
+      },
+      {
+        "seed": 1788491779,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2778333333333333
+      },
+      {
+        "seed": 147960244,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27466666666666667
+      },
+      {
+        "seed": 2802396005,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26975
+      },
+      {
+        "seed": 1161864470,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26725
+      },
+      {
+        "seed": 3816300231,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2708333333333333
+      },
+      {
+        "seed": 2175768696,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2708333333333333
+      },
+      {
+        "seed": 535237161,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27
+      },
+      {
+        "seed": 3189672922,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27791666666666665
+      },
+      {
+        "seed": 1549141387,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27675
+      },
+      {
+        "seed": 4203577148,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27025
+      },
+      {
+        "seed": 2563045613,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26925
+      },
+      {
+        "seed": 922514078,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27241666666666664
+      },
+      {
+        "seed": 3576949839,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27641666666666664
+      },
+      {
+        "seed": 1936418304,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2735
+      },
+      {
+        "seed": 295886769,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2584166666666667
+      },
+      {
+        "seed": 2950322530,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26816666666666666
+      },
+      {
+        "seed": 1309790995,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26875
+      },
+      {
+        "seed": 3964226756,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.2695
+      }
+    ],
+    "old25": [
+      {
+        "seed": 33719,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.27166666666666667
+      },
+      {
+        "seed": 2654469480,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2693333333333333
+      },
+      {
+        "seed": 1013937945,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2653333333333333
+      },
+      {
+        "seed": 3668373706,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.2699166666666667
+      },
+      {
+        "seed": 2027842171,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27325
+      },
+      {
+        "seed": 387310636,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2683333333333333
+      },
+      {
+        "seed": 3041746397,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27325
+      },
+      {
+        "seed": 1401214862,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27291666666666664
+      },
+      {
+        "seed": 4055650623,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27108333333333334
+      },
+      {
+        "seed": 2415119088,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26925
+      },
+      {
+        "seed": 774587553,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27708333333333335
+      },
+      {
+        "seed": 3429023314,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27125
+      },
+      {
+        "seed": 1788491779,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27875
+      },
+      {
+        "seed": 147960244,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27558333333333335
+      },
+      {
+        "seed": 2802396005,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2725
+      },
+      {
+        "seed": 1161864470,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26816666666666666
+      },
+      {
+        "seed": 3816300231,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27091666666666664
+      },
+      {
+        "seed": 2175768696,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27141666666666664
+      },
+      {
+        "seed": 535237161,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27166666666666667
+      },
+      {
+        "seed": 3189672922,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2773333333333333
+      },
+      {
+        "seed": 1549141387,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27775
+      },
+      {
+        "seed": 4203577148,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.2688333333333333
+      },
+      {
+        "seed": 2563045613,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26866666666666666
+      },
+      {
+        "seed": 922514078,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27175
+      },
+      {
+        "seed": 3576949839,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27541666666666664
+      },
+      {
+        "seed": 1936418304,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27625
+      },
+      {
+        "seed": 295886769,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.25883333333333336
+      },
+      {
+        "seed": 2950322530,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2693333333333333
+      },
+      {
+        "seed": 1309790995,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26858333333333334
+      },
+      {
+        "seed": 3964226756,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.2699166666666667
+      }
+    ],
+    "scheduleControl": [
+      {
+        "seed": 33719,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.27166666666666667
+      },
+      {
+        "seed": 2654469480,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2693333333333333
+      },
+      {
+        "seed": 1013937945,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2653333333333333
+      },
+      {
+        "seed": 3668373706,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.2699166666666667
+      },
+      {
+        "seed": 2027842171,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27325
+      },
+      {
+        "seed": 387310636,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2683333333333333
+      },
+      {
+        "seed": 3041746397,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27325
+      },
+      {
+        "seed": 1401214862,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27291666666666664
+      },
+      {
+        "seed": 4055650623,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27108333333333334
+      },
+      {
+        "seed": 2415119088,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26925
+      },
+      {
+        "seed": 774587553,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27708333333333335
+      },
+      {
+        "seed": 3429023314,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27125
+      },
+      {
+        "seed": 1788491779,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27875
+      },
+      {
+        "seed": 147960244,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27558333333333335
+      },
+      {
+        "seed": 2802396005,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2725
+      },
+      {
+        "seed": 1161864470,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26816666666666666
+      },
+      {
+        "seed": 3816300231,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27091666666666664
+      },
+      {
+        "seed": 2175768696,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27141666666666664
+      },
+      {
+        "seed": 535237161,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27166666666666667
+      },
+      {
+        "seed": 3189672922,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2773333333333333
+      },
+      {
+        "seed": 1549141387,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27775
+      },
+      {
+        "seed": 4203577148,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.2688333333333333
+      },
+      {
+        "seed": 2563045613,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26866666666666666
+      },
+      {
+        "seed": 922514078,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27175
+      },
+      {
+        "seed": 3576949839,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27541666666666664
+      },
+      {
+        "seed": 1936418304,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27625
+      },
+      {
+        "seed": 295886769,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.25883333333333336
+      },
+      {
+        "seed": 2950322530,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2693333333333333
+      },
+      {
+        "seed": 1309790995,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26858333333333334
+      },
+      {
+        "seed": 3964226756,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.2699166666666667
+      }
+    ],
+    "added": [
+      {
+        "seed": 33719,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.27275
+      },
+      {
+        "seed": 2654469480,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2699166666666667
+      },
+      {
+        "seed": 1013937945,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2668333333333333
+      },
+      {
+        "seed": 3668373706,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.27325
+      },
+      {
+        "seed": 2027842171,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.274
+      },
+      {
+        "seed": 387310636,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26916666666666667
+      },
+      {
+        "seed": 3041746397,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27466666666666667
+      },
+      {
+        "seed": 1401214862,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27475
+      },
+      {
+        "seed": 4055650623,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27125
+      },
+      {
+        "seed": 2415119088,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.269
+      },
+      {
+        "seed": 774587553,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27941666666666665
+      },
+      {
+        "seed": 3429023314,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2708333333333333
+      },
+      {
+        "seed": 1788491779,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.28008333333333335
+      },
+      {
+        "seed": 147960244,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27658333333333335
+      },
+      {
+        "seed": 2802396005,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2745
+      },
+      {
+        "seed": 1161864470,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27108333333333334
+      },
+      {
+        "seed": 3816300231,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.271
+      },
+      {
+        "seed": 2175768696,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27341666666666664
+      },
+      {
+        "seed": 535237161,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27408333333333335
+      },
+      {
+        "seed": 3189672922,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27991666666666665
+      },
+      {
+        "seed": 1549141387,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.279
+      },
+      {
+        "seed": 4203577148,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2715
+      },
+      {
+        "seed": 2563045613,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.271
+      },
+      {
+        "seed": 922514078,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27225
+      },
+      {
+        "seed": 3576949839,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2796666666666667
+      },
+      {
+        "seed": 1936418304,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27741666666666664
+      },
+      {
+        "seed": 295886769,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26075
+      },
+      {
+        "seed": 2950322530,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26975
+      },
+      {
+        "seed": 1309790995,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27075
+      },
+      {
+        "seed": 3964226756,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.27258333333333334
+      }
+    ],
+    "agreementOnly": [
+      {
+        "seed": 33719,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27191666666666664
+      },
+      {
+        "seed": 2654469480,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26858333333333334
+      },
+      {
+        "seed": 1013937945,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26716666666666666
+      },
+      {
+        "seed": 3668373706,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2725
+      },
+      {
+        "seed": 2027842171,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27516666666666667
+      },
+      {
+        "seed": 387310636,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2693333333333333
+      },
+      {
+        "seed": 3041746397,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2755
+      },
+      {
+        "seed": 1401214862,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27491666666666664
+      },
+      {
+        "seed": 4055650623,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2699166666666667
+      },
+      {
+        "seed": 2415119088,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2689166666666667
+      },
+      {
+        "seed": 774587553,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27858333333333335
+      },
+      {
+        "seed": 3429023314,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27158333333333334
+      },
+      {
+        "seed": 1788491779,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2806666666666667
+      },
+      {
+        "seed": 147960244,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2765
+      },
+      {
+        "seed": 2802396005,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27391666666666664
+      },
+      {
+        "seed": 1161864470,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2713333333333333
+      },
+      {
+        "seed": 3816300231,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27258333333333334
+      },
+      {
+        "seed": 2175768696,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27341666666666664
+      },
+      {
+        "seed": 535237161,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27358333333333335
+      },
+      {
+        "seed": 3189672922,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27808333333333335
+      },
+      {
+        "seed": 1549141387,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27958333333333335
+      },
+      {
+        "seed": 4203577148,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27291666666666664
+      },
+      {
+        "seed": 2563045613,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27025
+      },
+      {
+        "seed": 922514078,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27141666666666664
+      },
+      {
+        "seed": 3576949839,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2786666666666667
+      },
+      {
+        "seed": 1936418304,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.2773333333333333
+      },
+      {
+        "seed": 295886769,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.26175
+      },
+      {
+        "seed": 2950322530,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27008333333333334
+      },
+      {
+        "seed": 1309790995,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          2,
+          1
+        ],
+        "hits": 3,
+        "simulatedPass": 0.27025
+      },
+      {
+        "seed": 3964226756,
+        "card": [
+          0,
+          1,
+          0,
+          3,
+          3,
+          1,
+          3,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          2,
+          2,
+          1
+        ],
+        "bySlot": [
+          0,
+          1,
+          1
+        ],
+        "hits": 2,
+        "simulatedPass": 0.27166666666666667
+      }
+    ]
+  }
+}

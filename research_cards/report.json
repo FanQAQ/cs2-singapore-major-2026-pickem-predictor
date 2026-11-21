@@ -1,0 +1,110 @@
+{
+  "budget": 24000,
+  "productionSeed": 33719,
+  "extraStarts": 24,
+  "startSeed": 1941640285,
+  "rows": [
+    {
+      "event": "copenhagen",
+      "uniqueExtraSearchCards": 10318,
+      "original": {
+        "card": "0110113131333232",
+        "trainPass": 0.3223333,
+        "testPass": 0.3249167,
+        "actualHits": 5
+      },
+      "expanded": {
+        "card": "0110113131333232",
+        "trainPass": 0.3223333,
+        "testPass": 0.3249167,
+        "actualHits": 5
+      },
+      "holdoutOnlyOriginal": 0,
+      "holdoutOnlyExpanded": 0
+    },
+    {
+      "event": "shanghai",
+      "uniqueExtraSearchCards": 10708,
+      "original": {
+        "card": "0111130133312323",
+        "trainPass": 0.3598333,
+        "testPass": 0.3534167,
+        "actualHits": 3
+      },
+      "expanded": {
+        "card": "0111130133312323",
+        "trainPass": 0.3598333,
+        "testPass": 0.3534167,
+        "actualHits": 3
+      },
+      "holdoutOnlyOriginal": 0,
+      "holdoutOnlyExpanded": 0
+    },
+    {
+      "event": "austin",
+      "uniqueExtraSearchCards": 10228,
+      "original": {
+        "card": "0011112132331333",
+        "trainPass": 0.3140833,
+        "testPass": 0.3125833,
+        "actualHits": 4
+      },
+      "expanded": {
+        "card": "0011112132331333",
+        "trainPass": 0.3140833,
+        "testPass": 0.3125833,
+        "actualHits": 4
+      },
+      "holdoutOnlyOriginal": 0,
+      "holdoutOnlyExpanded": 0
+    },
+    {
+      "event": "budapest",
+      "uniqueExtraSearchCards": 10652,
+      "original": {
+        "card": "0011113113323332",
+        "trainPass": 0.2869167,
+        "testPass": 0.2909167,
+        "actualHits": 5
+      },
+      "expanded": {
+        "card": "0011113133133232",
+        "trainPass": 0.28775,
+        "testPass": 0.2906667,
+        "actualHits": 5
+      },
+      "holdoutOnlyOriginal": 993,
+      "holdoutOnlyExpanded": 990
+    },
+    {
+      "event": "cologne",
+      "uniqueExtraSearchCards": 10782,
+      "original": {
+        "card": "0131111023333132",
+        "trainPass": 0.35125,
+        "testPass": 0.3469167,
+        "actualHits": 3
+      },
+      "expanded": {
+        "card": "0131111023333132",
+        "trainPass": 0.35125,
+        "testPass": 0.3469167,
+        "actualHits": 3
+      },
+      "holdoutOnlyOriginal": 0,
+      "holdoutOnlyExpanded": 0
+    }
+  ],
+  "original": {
+    "meanTrainPass": 0.3268833,
+    "meanTestPass": 0.32575,
+    "actualHits": 20,
+    "actualPasses": 2
+  },
+  "expanded": {
+    "meanTrainPass": 0.32705,
+    "meanTestPass": 0.3257,
+    "actualHits": 20,
+    "actualPasses": 2
+  }
+}

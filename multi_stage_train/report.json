@@ -1,0 +1,7045 @@
+{
+  "seed": 33719,
+  "budget": 24000,
+  "seeds": [
+    33719,
+    2654469480,
+    1013937945,
+    3668373706,
+    2027842171,
+    387310636,
+    3041746397,
+    1401214862,
+    4055650623,
+    2415119088,
+    774587553,
+    3429023314,
+    1788491779,
+    147960244,
+    2802396005,
+    1161864470,
+    3816300231,
+    2175768696,
+    535237161,
+    3189672922,
+    1549141387,
+    4203577148,
+    2563045613,
+    922514078,
+    3576949839,
+    1936418304,
+    295886769,
+    2950322530,
+    1309790995,
+    3964226756
+  ],
+  "holdout": "cologne",
+  "defaultGate": {
+    "recommended": {
+      "passed": false,
+      "missed": [
+        {
+          "group": "stage1",
+          "old": "base",
+          "metric": "hits"
+        },
+        {
+          "group": "stage1",
+          "old": "base",
+          "metric": "meanPasses"
+        },
+        {
+          "group": "holdout",
+          "old": "stage1Only",
+          "metric": "brier"
+        },
+        {
+          "group": "holdout",
+          "old": "stage1Only",
+          "metric": "logLoss"
+        },
+        {
+          "group": "holdout",
+          "old": "stage1Only",
+          "metric": "meanHits"
+        },
+        {
+          "group": "holdout",
+          "old": "stage1Only",
+          "metric": "meanPasses"
+        },
+        {
+          "group": "all",
+          "old": "stage1Only",
+          "metric": "noStrictProbabilityGain"
+        }
+      ]
+    },
+    "tree": {
+      "passed": false,
+      "missed": [
+        {
+          "group": "stage1",
+          "old": "base",
+          "metric": "hits"
+        },
+        {
+          "group": "stage1",
+          "old": "stage1Only",
+          "metric": "hits"
+        },
+        {
+          "group": "stage1",
+          "old": "stage1Only",
+          "metric": "meanHits"
+        },
+        {
+          "group": "holdout",
+          "old": "base",
+          "metric": "brier"
+        },
+        {
+          "group": "holdout",
+          "old": "base",
+          "metric": "logLoss"
+        },
+        {
+          "group": "holdout",
+          "old": "base",
+          "metric": "hits"
+        },
+        {
+          "group": "holdout",
+          "old": "base",
+          "metric": "meanHits"
+        },
+        {
+          "group": "holdout",
+          "old": "stage1Only",
+          "metric": "brier"
+        },
+        {
+          "group": "holdout",
+          "old": "stage1Only",
+          "metric": "logLoss"
+        },
+        {
+          "group": "holdout",
+          "old": "stage1Only",
+          "metric": "hits"
+        },
+        {
+          "group": "all",
+          "old": "stage1Only",
+          "metric": "noStrictProbabilityGain"
+        }
+      ]
+    }
+  },
+  "groups": {
+    "all": {
+      "recommended": {
+        "base": {
+          "stages": 13,
+          "series": {
+            "all": {
+              "n": 429,
+              "brier": 0.229933538,
+              "logLoss": 0.650728155
+            },
+            "bo1": {
+              "n": 240,
+              "brier": 0.238198482,
+              "logLoss": 0.667469465
+            },
+            "bo3": {
+              "n": 189,
+              "brier": 0.219438371,
+              "logLoss": 0.62946935
+            }
+          },
+          "bucketHits": [
+            9,
+            41,
+            11
+          ],
+          "hits": 61,
+          "passes": 8,
+          "meanHits": 61.2,
+          "meanPasses": 7.666666667
+        },
+        "stage1Only": {
+          "stages": 13,
+          "series": {
+            "all": {
+              "n": 429,
+              "brier": 0.229275079,
+              "logLoss": 0.64926749
+            },
+            "bo1": {
+              "n": 240,
+              "brier": 0.237596655,
+              "logLoss": 0.666374694
+            },
+            "bo3": {
+              "n": 189,
+              "brier": 0.218707998,
+              "logLoss": 0.627544057
+            }
+          },
+          "bucketHits": [
+            9,
+            41,
+            11
+          ],
+          "hits": 61,
+          "passes": 8,
+          "meanHits": 61.433333333,
+          "meanPasses": 7.733333333
+        },
+        "multiStage": {
+          "stages": 13,
+          "series": {
+            "all": {
+              "n": 429,
+              "brier": 0.229673707,
+              "logLoss": 0.650791536
+            },
+            "bo1": {
+              "n": 240,
+              "brier": 0.237176897,
+              "logLoss": 0.66579356
+            },
+            "bo3": {
+              "n": 189,
+              "brier": 0.220145846,
+              "logLoss": 0.631741347
+            }
+          },
+          "bucketHits": [
+            9,
+            40,
+            11
+          ],
+          "hits": 60,
+          "passes": 7,
+          "meanHits": 61.533333333,
+          "meanPasses": 7.7
+        }
+      },
+      "tree": {
+        "base": {
+          "stages": 13,
+          "series": {
+            "all": {
+              "n": 429,
+              "brier": 0.235171668,
+              "logLoss": 0.661595604
+            },
+            "bo1": {
+              "n": 240,
+              "brier": 0.243505564,
+              "logLoss": 0.678444005
+            },
+            "bo3": {
+              "n": 189,
+              "brier": 0.224588944,
+              "logLoss": 0.640200809
+            }
+          },
+          "bucketHits": [
+            8,
+            43,
+            5
+          ],
+          "hits": 56,
+          "passes": 6,
+          "meanHits": 53.433333333,
+          "meanPasses": 5.733333333
+        },
+        "stage1Only": {
+          "stages": 13,
+          "series": {
+            "all": {
+              "n": 429,
+              "brier": 0.234673764,
+              "logLoss": 0.660819859
+            },
+            "bo1": {
+              "n": 240,
+              "brier": 0.242556123,
+              "logLoss": 0.677009333
+            },
+            "bo3": {
+              "n": 189,
+              "brier": 0.22466442,
+              "logLoss": 0.640261798
+            }
+          },
+          "bucketHits": [
+            8,
+            43,
+            5
+          ],
+          "hits": 56,
+          "passes": 6,
+          "meanHits": 53.333333333,
+          "meanPasses": 5.866666667
+        },
+        "multiStage": {
+          "stages": 13,
+          "series": {
+            "all": {
+              "n": 429,
+              "brier": 0.234814152,
+              "logLoss": 0.661196515
+            },
+            "bo1": {
+              "n": 240,
+              "brier": 0.24285476,
+              "logLoss": 0.67774566
+            },
+            "bo3": {
+              "n": 189,
+              "brier": 0.224603857,
+              "logLoss": 0.640181729
+            }
+          },
+          "bucketHits": [
+            8,
+            41,
+            6
+          ],
+          "hits": 55,
+          "passes": 6,
+          "meanHits": 53.266666667,
+          "meanPasses": 5.9
+        }
+      }
+    },
+    "stage1": {
+      "recommended": {
+        "base": {
+          "stages": 5,
+          "series": {
+            "all": {
+              "n": 165,
+              "brier": 0.227217852,
+              "logLoss": 0.644132355
+            },
+            "bo1": {
+              "n": 100,
+              "brier": 0.239100817,
+              "logLoss": 0.668913537
+            },
+            "bo3": {
+              "n": 65,
+              "brier": 0.208936367,
+              "logLoss": 0.606007461
+            }
+          },
+          "bucketHits": [
+            4,
+            18,
+            5
+          ],
+          "hits": 27,
+          "passes": 3,
+          "meanHits": 26.2,
+          "meanPasses": 3.033333333
+        },
+        "stage1Only": {
+          "stages": 5,
+          "series": {
+            "all": {
+              "n": 165,
+              "brier": 0.226824853,
+              "logLoss": 0.643066476
+            },
+            "bo1": {
+              "n": 100,
+              "brier": 0.239003751,
+              "logLoss": 0.669020493
+            },
+            "bo3": {
+              "n": 65,
+              "brier": 0.208088085,
+              "logLoss": 0.603137219
+            }
+          },
+          "bucketHits": [
+            4,
+            17,
+            5
+          ],
+          "hits": 26,
+          "passes": 3,
+          "meanHits": 26.233333333,
+          "meanPasses": 3
+        },
+        "multiStage": {
+          "stages": 5,
+          "series": {
+            "all": {
+              "n": 165,
+              "brier": 0.226165357,
+              "logLoss": 0.641710579
+            },
+            "bo1": {
+              "n": 100,
+              "brier": 0.237721419,
+              "logLoss": 0.666017091
+            },
+            "bo3": {
+              "n": 65,
+              "brier": 0.208386798,
+              "logLoss": 0.604315945
+            }
+          },
+          "bucketHits": [
+            4,
+            17,
+            5
+          ],
+          "hits": 26,
+          "passes": 3,
+          "meanHits": 26.233333333,
+          "meanPasses": 3
+        }
+      },
+      "tree": {
+        "base": {
+          "stages": 5,
+          "series": {
+            "all": {
+              "n": 165,
+              "brier": 0.236030167,
+              "logLoss": 0.663028729
+            },
+            "bo1": {
+              "n": 100,
+              "brier": 0.24465726,
+              "logLoss": 0.680576685
+            },
+            "bo3": {
+              "n": 65,
+              "brier": 0.222757716,
+              "logLoss": 0.636031874
+            }
+          },
+          "bucketHits": [
+            3,
+            16,
+            2
+          ],
+          "hits": 21,
+          "passes": 2,
+          "meanHits": 20.8,
+          "meanPasses": 2.066666667
+        },
+        "stage1Only": {
+          "stages": 5,
+          "series": {
+            "all": {
+              "n": 165,
+              "brier": 0.235884543,
+              "logLoss": 0.663005707
+            },
+            "bo1": {
+              "n": 100,
+              "brier": 0.244416055,
+              "logLoss": 0.680621163
+            },
+            "bo3": {
+              "n": 65,
+              "brier": 0.222759141,
+              "logLoss": 0.635905005
+            }
+          },
+          "bucketHits": [
+            3,
+            16,
+            3
+          ],
+          "hits": 22,
+          "passes": 2,
+          "meanHits": 20.833333333,
+          "meanPasses": 2.166666667
+        },
+        "multiStage": {
+          "stages": 5,
+          "series": {
+            "all": {
+              "n": 165,
+              "brier": 0.23561651,
+              "logLoss": 0.662270488
+            },
+            "bo1": {
+              "n": 100,
+              "brier": 0.244492866,
+              "logLoss": 0.68075122
+            },
+            "bo3": {
+              "n": 65,
+              "brier": 0.221960576,
+              "logLoss": 0.633838591
+            }
+          },
+          "bucketHits": [
+            3,
+            14,
+            3
+          ],
+          "hits": 20,
+          "passes": 2,
+          "meanHits": 20.8,
+          "meanPasses": 2.2
+        }
+      }
+    },
+    "stage2": {
+      "recommended": {
+        "base": {
+          "stages": 5,
+          "series": {
+            "all": {
+              "n": 165,
+              "brier": 0.231936505,
+              "logLoss": 0.65507091
+            },
+            "bo1": {
+              "n": 100,
+              "brier": 0.245191814,
+              "logLoss": 0.681776655
+            },
+            "bo3": {
+              "n": 65,
+              "brier": 0.211543721,
+              "logLoss": 0.613985147
+            }
+          },
+          "bucketHits": [
+            4,
+            17,
+            4
+          ],
+          "hits": 25,
+          "passes": 4,
+          "meanHits": 24.6,
+          "meanPasses": 3.666666667
+        },
+        "stage1Only": {
+          "stages": 5,
+          "series": {
+            "all": {
+              "n": 165,
+              "brier": 0.230388455,
+              "logLoss": 0.651668881
+            },
+            "bo1": {
+              "n": 100,
+              "brier": 0.243837687,
+              "logLoss": 0.679112397
+            },
+            "bo3": {
+              "n": 65,
+              "brier": 0.209697328,
+              "logLoss": 0.609448088
+            }
+          },
+          "bucketHits": [
+            4,
+            17,
+            4
+          ],
+          "hits": 25,
+          "passes": 4,
+          "meanHits": 24.7,
+          "meanPasses": 3.766666667
+        },
+        "multiStage": {
+          "stages": 5,
+          "series": {
+            "all": {
+              "n": 165,
+              "brier": 0.231606437,
+              "logLoss": 0.655663961
+            },
+            "bo1": {
+              "n": 100,
+              "brier": 0.243643354,
+              "logLoss": 0.679258586
+            },
+            "bo3": {
+              "n": 65,
+              "brier": 0.213088104,
+              "logLoss": 0.619364539
+            }
+          },
+          "bucketHits": [
+            4,
+            16,
+            4
+          ],
+          "hits": 24,
+          "passes": 3,
+          "meanHits": 24.633333333,
+          "meanPasses": 3.7
+        }
+      },
+      "tree": {
+        "base": {
+          "stages": 5,
+          "series": {
+            "all": {
+              "n": 165,
+              "brier": 0.231035537,
+              "logLoss": 0.652399256
+            },
+            "bo1": {
+              "n": 100,
+              "brier": 0.247711256,
+              "logLoss": 0.686912158
+            },
+            "bo3": {
+              "n": 65,
+              "brier": 0.205380585,
+              "logLoss": 0.599302484
+            }
+          },
+          "bucketHits": [
+            4,
+            19,
+            3
+          ],
+          "hits": 26,
+          "passes": 4,
+          "meanHits": 24.066666667,
+          "meanPasses": 3.633333333
+        },
+        "stage1Only": {
+          "stages": 5,
+          "series": {
+            "all": {
+              "n": 165,
+              "brier": 0.229302532,
+              "logLoss": 0.648947076
+            },
+            "bo1": {
+              "n": 100,
+              "brier": 0.245250661,
+              "logLoss": 0.682450973
+            },
+            "bo3": {
+              "n": 65,
+              "brier": 0.204766949,
+              "logLoss": 0.597402621
+            }
+          },
+          "bucketHits": [
+            4,
+            19,
+            2
+          ],
+          "hits": 25,
+          "passes": 4,
+          "meanHits": 24.1,
+          "meanPasses": 3.666666667
+        },
+        "multiStage": {
+          "stages": 5,
+          "series": {
+            "all": {
+              "n": 165,
+              "brier": 0.229316931,
+              "logLoss": 0.649157865
+            },
+            "bo1": {
+              "n": 100,
+              "brier": 0.24544231,
+              "logLoss": 0.68311302
+            },
+            "bo3": {
+              "n": 65,
+              "brier": 0.204508655,
+              "logLoss": 0.596919165
+            }
+          },
+          "bucketHits": [
+            4,
+            19,
+            3
+          ],
+          "hits": 26,
+          "passes": 4,
+          "meanHits": 24.2,
+          "meanPasses": 3.666666667
+        }
+      }
+    },
+    "stage3": {
+      "recommended": {
+        "base": {
+          "stages": 3,
+          "series": {
+            "all": {
+              "n": 99,
+              "brier": 0.231121403,
+              "logLoss": 0.654483232
+            },
+            "bo1": {
+              "n": 40,
+              "brier": 0.218459312,
+              "logLoss": 0.628091309
+            },
+            "bo3": {
+              "n": 59,
+              "brier": 0.239705871,
+              "logLoss": 0.67237606
+            }
+          },
+          "bucketHits": [
+            1,
+            6,
+            2
+          ],
+          "hits": 9,
+          "passes": 1,
+          "meanHits": 10.4,
+          "meanPasses": 0.966666667
+        },
+        "stage1Only": {
+          "stages": 3,
+          "series": {
+            "all": {
+              "n": 99,
+              "brier": 0.231503162,
+              "logLoss": 0.655600196
+            },
+            "bo1": {
+              "n": 40,
+              "brier": 0.218476333,
+              "logLoss": 0.627915939
+            },
+            "bo3": {
+              "n": 59,
+              "brier": 0.240334911,
+              "logLoss": 0.674369183
+            }
+          },
+          "bucketHits": [
+            1,
+            7,
+            2
+          ],
+          "hits": 10,
+          "passes": 1,
+          "meanHits": 10.5,
+          "meanPasses": 0.966666667
+        },
+        "multiStage": {
+          "stages": 3,
+          "series": {
+            "all": {
+              "n": 99,
+              "brier": 0.23229974,
+              "logLoss": 0.657805756
+            },
+            "bo1": {
+              "n": 40,
+              "brier": 0.21964945,
+              "logLoss": 0.631572167
+            },
+            "bo3": {
+              "n": 59,
+              "brier": 0.240876208,
+              "logLoss": 0.675591241
+            }
+          },
+          "bucketHits": [
+            1,
+            7,
+            2
+          ],
+          "hits": 10,
+          "passes": 1,
+          "meanHits": 10.666666667,
+          "meanPasses": 1
+        }
+      },
+      "tree": {
+        "base": {
+          "stages": 3,
+          "series": {
+            "all": {
+              "n": 99,
+              "brier": 0.24063439,
+              "logLoss": 0.674534309
+            },
+            "bo1": {
+              "n": 40,
+              "brier": 0.230112092,
+              "logLoss": 0.651941923
+            },
+            "bo3": {
+              "n": 59,
+              "brier": 0.24776815,
+              "logLoss": 0.68985118
+            }
+          },
+          "bucketHits": [
+            1,
+            8,
+            0
+          ],
+          "hits": 9,
+          "passes": 0,
+          "meanHits": 8.566666667,
+          "meanPasses": 0.033333333
+        },
+        "stage1Only": {
+          "stages": 3,
+          "series": {
+            "all": {
+              "n": 99,
+              "brier": 0.241607852,
+              "logLoss": 0.676964753
+            },
+            "bo1": {
+              "n": 40,
+              "brier": 0.231169945,
+              "logLoss": 0.65437566
+            },
+            "bo3": {
+              "n": 59,
+              "brier": 0.248684398,
+              "logLoss": 0.692279392
+            }
+          },
+          "bucketHits": [
+            1,
+            8,
+            0
+          ],
+          "hits": 9,
+          "passes": 0,
+          "meanHits": 8.4,
+          "meanPasses": 0.033333333
+        },
+        "multiStage": {
+          "stages": 3,
+          "series": {
+            "all": {
+              "n": 99,
+              "brier": 0.242638925,
+              "logLoss": 0.679470979
+            },
+            "bo1": {
+              "n": 40,
+              "brier": 0.232290619,
+              "logLoss": 0.656813358
+            },
+            "bo3": {
+              "n": 59,
+              "brier": 0.249654726,
+              "logLoss": 0.694832079
+            }
+          },
+          "bucketHits": [
+            1,
+            8,
+            0
+          ],
+          "hits": 9,
+          "passes": 0,
+          "meanHits": 8.266666667,
+          "meanPasses": 0.033333333
+        }
+      }
+    },
+    "holdout": {
+      "recommended": {
+        "base": {
+          "stages": 3,
+          "series": {
+            "all": {
+              "n": 99,
+              "brier": 0.223154308,
+              "logLoss": 0.634725738
+            },
+            "bo1": {
+              "n": 40,
+              "brier": 0.225311091,
+              "logLoss": 0.637963173
+            },
+            "bo3": {
+              "n": 59,
+              "brier": 0.221692082,
+              "logLoss": 0.632530867
+            }
+          },
+          "bucketHits": [
+            2,
+            7,
+            2
+          ],
+          "hits": 11,
+          "passes": 1,
+          "meanHits": 11.133333333,
+          "meanPasses": 0.833333333
+        },
+        "stage1Only": {
+          "stages": 3,
+          "series": {
+            "all": {
+              "n": 99,
+              "brier": 0.222177618,
+              "logLoss": 0.632118457
+            },
+            "bo1": {
+              "n": 40,
+              "brier": 0.224293684,
+              "logLoss": 0.637071069
+            },
+            "bo3": {
+              "n": 59,
+              "brier": 0.220742997,
+              "logLoss": 0.628760753
+            }
+          },
+          "bucketHits": [
+            2,
+            8,
+            2
+          ],
+          "hits": 12,
+          "passes": 1,
+          "meanHits": 11.533333333,
+          "meanPasses": 0.933333333
+        },
+        "multiStage": {
+          "stages": 3,
+          "series": {
+            "all": {
+              "n": 99,
+              "brier": 0.222490713,
+              "logLoss": 0.633725834
+            },
+            "bo1": {
+              "n": 40,
+              "brier": 0.224293301,
+              "logLoss": 0.637476315
+            },
+            "bo3": {
+              "n": 59,
+              "brier": 0.221268619,
+              "logLoss": 0.631183135
+            }
+          },
+          "bucketHits": [
+            2,
+            8,
+            2
+          ],
+          "hits": 12,
+          "passes": 1,
+          "meanHits": 11.5,
+          "meanPasses": 0.9
+        }
+      },
+      "tree": {
+        "base": {
+          "stages": 3,
+          "series": {
+            "all": {
+              "n": 99,
+              "brier": 0.229514502,
+              "logLoss": 0.646977914
+            },
+            "bo1": {
+              "n": 40,
+              "brier": 0.223242151,
+              "logLoss": 0.630083243
+            },
+            "bo3": {
+              "n": 59,
+              "brier": 0.233766944,
+              "logLoss": 0.658431929
+            }
+          },
+          "bucketHits": [
+            1,
+            7,
+            1
+          ],
+          "hits": 9,
+          "passes": 1,
+          "meanHits": 8.433333333,
+          "meanPasses": 0.666666667
+        },
+        "stage1Only": {
+          "stages": 3,
+          "series": {
+            "all": {
+              "n": 99,
+              "brier": 0.229739996,
+              "logLoss": 0.648705499
+            },
+            "bo1": {
+              "n": 40,
+              "brier": 0.223602088,
+              "logLoss": 0.634195978
+            },
+            "bo3": {
+              "n": 59,
+              "brier": 0.23390129,
+              "logLoss": 0.658542462
+            }
+          },
+          "bucketHits": [
+            1,
+            7,
+            1
+          ],
+          "hits": 9,
+          "passes": 1,
+          "meanHits": 8.366666667,
+          "meanPasses": 0.733333333
+        },
+        "multiStage": {
+          "stages": 3,
+          "series": {
+            "all": {
+              "n": 99,
+              "brier": 0.229948197,
+              "logLoss": 0.649278614
+            },
+            "bo1": {
+              "n": 40,
+              "brier": 0.223814335,
+              "logLoss": 0.635068213
+            },
+            "bo3": {
+              "n": 59,
+              "brier": 0.234106747,
+              "logLoss": 0.658912785
+            }
+          },
+          "bucketHits": [
+            1,
+            6,
+            1
+          ],
+          "hits": 8,
+          "passes": 1,
+          "meanHits": 8.366666667,
+          "meanPasses": 0.766666667
+        }
+      }
+    }
+  },
+  "stages": [
+    {
+      "id": "copenhagen",
+      "parent": "copenhagen",
+      "stage": 1,
+      "date": "2024-03-17",
+      "methods": {
+        "recommended": {
+          "base": {
+            "assignments": [
+              0,
+              1,
+              1,
+              0,
+              1,
+              1,
+              3,
+              1,
+              3,
+              1,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              1
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.234826869,
+                "logLoss": 0.661122623
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.246138268,
+                "logLoss": 0.68412801
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.217424716,
+                "logLoss": 0.625729719
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              1,
+              1,
+              0,
+              1,
+              1,
+              3,
+              1,
+              3,
+              1,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              1
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.234826869,
+                "logLoss": 0.661122623
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.246138268,
+                "logLoss": 0.68412801
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.217424716,
+                "logLoss": 0.625729719
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              1,
+              1,
+              0,
+              1,
+              1,
+              3,
+              1,
+              3,
+              1,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              1
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.234826869,
+                "logLoss": 0.661122623
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.246138268,
+                "logLoss": 0.68412801
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.217424716,
+                "logLoss": 0.625729719
+              }
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "assignments": [
+              0,
+              1,
+              0,
+              1,
+              1,
+              1,
+              3,
+              1,
+              2,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              0
+            ],
+            "hitsBySeed": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              5,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.258665105,
+                "logLoss": 0.710651916
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.263277367,
+                "logLoss": 0.719101308
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.251569316,
+                "logLoss": 0.697652851
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              1,
+              0,
+              1,
+              1,
+              1,
+              3,
+              1,
+              2,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              0
+            ],
+            "hitsBySeed": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              5,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.258665105,
+                "logLoss": 0.710651916
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.263277367,
+                "logLoss": 0.719101308
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.251569316,
+                "logLoss": 0.697652851
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              1,
+              0,
+              1,
+              1,
+              1,
+              3,
+              1,
+              2,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              0
+            ],
+            "hitsBySeed": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              5,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.258665105,
+                "logLoss": 0.710651916
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.263277367,
+                "logLoss": 0.719101308
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.251569316,
+                "logLoss": 0.697652851
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "copenhagen-2024-2",
+      "parent": "copenhagen",
+      "stage": 2,
+      "date": "2024-03-21",
+      "methods": {
+        "recommended": {
+          "base": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              3,
+              1,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              4,
+              2
+            ],
+            "hitsBySeed": [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              6,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.209883925,
+                "logLoss": 0.606358314
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.202412721,
+                "logLoss": 0.593215109
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.221378084,
+                "logLoss": 0.626578629
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              3,
+              1,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              4,
+              2
+            ],
+            "hitsBySeed": [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              6,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.209883925,
+                "logLoss": 0.606358314
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.202412721,
+                "logLoss": 0.593215109
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.221378084,
+                "logLoss": 0.626578629
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              3,
+              1,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              4,
+              2
+            ],
+            "hitsBySeed": [
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              6,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7,
+              7
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.209883925,
+                "logLoss": 0.606358314
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.202412721,
+                "logLoss": 0.593215109
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.221378084,
+                "logLoss": 0.626578629
+              }
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              3,
+              1,
+              3,
+              2,
+              3,
+              2,
+              3,
+              3
+            ],
+            "bucketHits": [
+              1,
+              4,
+              0
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.219156501,
+                "logLoss": 0.62833139
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.217361173,
+                "logLoss": 0.627266831
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.221918546,
+                "logLoss": 0.629969173
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              3,
+              1,
+              3,
+              2,
+              3,
+              2,
+              3,
+              3
+            ],
+            "bucketHits": [
+              1,
+              4,
+              0
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.219156501,
+                "logLoss": 0.62833139
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.217361173,
+                "logLoss": 0.627266831
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.221918546,
+                "logLoss": 0.629969173
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              3,
+              1,
+              3,
+              2,
+              3,
+              2,
+              3,
+              3
+            ],
+            "bucketHits": [
+              1,
+              4,
+              0
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.219156501,
+                "logLoss": 0.62833139
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.217361173,
+                "logLoss": 0.627266831
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.221918546,
+                "logLoss": 0.629969173
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "shanghai",
+      "parent": "shanghai",
+      "stage": 1,
+      "date": "2024-11-30",
+      "methods": {
+        "recommended": {
+          "base": {
+            "assignments": [
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              0,
+              1,
+              3,
+              3,
+              3,
+              1,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              2,
+              1
+            ],
+            "hitsBySeed": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              6,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.224127745,
+                "logLoss": 0.637256977
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.227261461,
+                "logLoss": 0.642067953
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.219306644,
+                "logLoss": 0.629855477
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              0,
+              1,
+              3,
+              3,
+              3,
+              1,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              2,
+              1
+            ],
+            "hitsBySeed": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.223802302,
+                "logLoss": 0.636904169
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.227020465,
+                "logLoss": 0.642151539
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.218851282,
+                "logLoss": 0.628831293
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              0,
+              1,
+              3,
+              3,
+              3,
+              1,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              2,
+              1
+            ],
+            "hitsBySeed": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.223925669,
+                "logLoss": 0.636956986
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.227148539,
+                "logLoss": 0.642068537
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.218967406,
+                "logLoss": 0.629093062
+              }
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "assignments": [
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              0,
+              1,
+              3,
+              3,
+              3,
+              1,
+              2,
+              3,
+              2,
+              3
+            ],
+            "bucketHits": [
+              1,
+              2,
+              0
+            ],
+            "hitsBySeed": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              4,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              4,
+              3,
+              4,
+              3,
+              3,
+              5,
+              3,
+              3,
+              3,
+              3
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.235151269,
+                "logLoss": 0.662276075
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.244016895,
+                "logLoss": 0.680090473
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.221511843,
+                "logLoss": 0.63486931
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              0,
+              1,
+              3,
+              3,
+              3,
+              1,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              2,
+              1
+            ],
+            "hitsBySeed": [
+              4,
+              3,
+              5,
+              3,
+              3,
+              3,
+              5,
+              3,
+              6,
+              3,
+              4,
+              3,
+              3,
+              4,
+              3,
+              3,
+              4,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              5,
+              3,
+              3,
+              3,
+              3
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.234956263,
+                "logLoss": 0.662076035
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.243236754,
+                "logLoss": 0.67875918
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.222217046,
+                "logLoss": 0.636409658
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              0,
+              1,
+              3,
+              3,
+              3,
+              1,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              2,
+              1
+            ],
+            "hitsBySeed": [
+              4,
+              3,
+              5,
+              3,
+              3,
+              3,
+              5,
+              3,
+              6,
+              3,
+              4,
+              3,
+              3,
+              3,
+              3,
+              3,
+              4,
+              3,
+              3,
+              3,
+              4,
+              3,
+              5,
+              3,
+              3,
+              5,
+              3,
+              3,
+              3,
+              3
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.234973624,
+                "logLoss": 0.662063466
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.243397093,
+                "logLoss": 0.67902515
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.222014441,
+                "logLoss": 0.635968567
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "shanghai-2024-2",
+      "parent": "shanghai",
+      "stage": 2,
+      "date": "2024-12-05",
+      "methods": {
+        "recommended": {
+          "base": {
+            "assignments": [
+              0,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              4,
+              1
+            ],
+            "hitsBySeed": [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.196142227,
+                "logLoss": 0.57979672
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.213449375,
+                "logLoss": 0.616586364
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.169515844,
+                "logLoss": 0.523197267
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              4,
+              1
+            ],
+            "hitsBySeed": [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.1958973,
+                "logLoss": 0.579210674
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.214059622,
+                "logLoss": 0.618057284
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.167955268,
+                "logLoss": 0.519446657
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              4,
+              1
+            ],
+            "hitsBySeed": [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.195824979,
+                "logLoss": 0.579038101
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.213679057,
+                "logLoss": 0.617142563
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.168357166,
+                "logLoss": 0.520415853
+              }
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "assignments": [
+              1,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              2
+            ],
+            "bucketHits": [
+              1,
+              5,
+              1
+            ],
+            "hitsBySeed": [
+              7,
+              5,
+              7,
+              4,
+              7,
+              5,
+              5,
+              5,
+              5,
+              7,
+              7,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              5,
+              6,
+              5,
+              7,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.206054983,
+                "logLoss": 0.603556616
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.225890691,
+                "logLoss": 0.643842426
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.17553851,
+                "logLoss": 0.541578446
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              1,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              2
+            ],
+            "bucketHits": [
+              1,
+              5,
+              1
+            ],
+            "hitsBySeed": [
+              7,
+              5,
+              7,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              7,
+              5,
+              5,
+              7,
+              5,
+              5,
+              5,
+              5,
+              7,
+              5,
+              5,
+              4,
+              7,
+              6,
+              5,
+              6,
+              5,
+              5,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.208107259,
+                "logLoss": 0.607942309
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.227383695,
+                "logLoss": 0.64708227
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.178451203,
+                "logLoss": 0.547726984
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              1,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              2
+            ],
+            "bucketHits": [
+              1,
+              5,
+              1
+            ],
+            "hitsBySeed": [
+              7,
+              5,
+              7,
+              4,
+              6,
+              5,
+              5,
+              5,
+              5,
+              7,
+              7,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              4,
+              7,
+              5,
+              5,
+              5,
+              7,
+              6,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.207551496,
+                "logLoss": 0.606760439
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.226998728,
+                "logLoss": 0.646253274
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.177632679,
+                "logLoss": 0.54600223
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "austin",
+      "parent": "austin",
+      "stage": 1,
+      "date": "2025-06-03",
+      "methods": {
+        "recommended": {
+          "base": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              3,
+              1,
+              3,
+              3,
+              1,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              5,
+              2
+            ],
+            "hitsBySeed": [
+              8,
+              8,
+              7,
+              8,
+              8,
+              8,
+              7,
+              7,
+              7,
+              7,
+              8,
+              8,
+              8,
+              8,
+              7,
+              7,
+              8,
+              7,
+              7,
+              8,
+              7,
+              8,
+              8,
+              7,
+              8,
+              8,
+              8,
+              8,
+              7,
+              8
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.208463765,
+                "logLoss": 0.603678518
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.225167485,
+                "logLoss": 0.639080683
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.182765736,
+                "logLoss": 0.549213647
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              3,
+              3,
+              1,
+              1,
+              3,
+              3,
+              1,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              4,
+              2
+            ],
+            "hitsBySeed": [
+              7,
+              8,
+              7,
+              8,
+              8,
+              8,
+              8,
+              7,
+              8,
+              7,
+              8,
+              7,
+              8,
+              8,
+              7,
+              7,
+              7,
+              8,
+              7,
+              8,
+              7,
+              8,
+              8,
+              7,
+              7,
+              8,
+              8,
+              7,
+              8,
+              8
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.20772371,
+                "logLoss": 0.601916199
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.225420613,
+                "logLoss": 0.63995178
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.180497705,
+                "logLoss": 0.543399921
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              3,
+              3,
+              1,
+              1,
+              3,
+              3,
+              1,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              4,
+              2
+            ],
+            "hitsBySeed": [
+              7,
+              8,
+              8,
+              8,
+              8,
+              8,
+              8,
+              7,
+              7,
+              7,
+              8,
+              7,
+              7,
+              8,
+              7,
+              7,
+              7,
+              8,
+              7,
+              8,
+              7,
+              8,
+              8,
+              7,
+              7,
+              8,
+              8,
+              7,
+              8,
+              8
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.206430497,
+                "logLoss": 0.598357201
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.225141515,
+                "logLoss": 0.63898435
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.177644316,
+                "logLoss": 0.535853895
+              }
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              2,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3
+            ],
+            "bucketHits": [
+              1,
+              4,
+              1
+            ],
+            "hitsBySeed": [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              5,
+              6,
+              5,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              5,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.229259307,
+                "logLoss": 0.648331804
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.250805627,
+                "logLoss": 0.693287033
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.196111123,
+                "logLoss": 0.579169914
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              2,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3
+            ],
+            "bucketHits": [
+              1,
+              4,
+              1
+            ],
+            "hitsBySeed": [
+              6,
+              6,
+              5,
+              6,
+              6,
+              6,
+              5,
+              6,
+              5,
+              6,
+              6,
+              5,
+              5,
+              6,
+              6,
+              5,
+              6,
+              5,
+              6,
+              6,
+              5,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.228395593,
+                "logLoss": 0.646870427
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.249100477,
+                "logLoss": 0.690186116
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.196541924,
+                "logLoss": 0.580230906
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              0,
+              1,
+              3,
+              1,
+              1,
+              3,
+              1,
+              1,
+              2,
+              3,
+              3,
+              1,
+              3,
+              2,
+              3
+            ],
+            "bucketHits": [
+              1,
+              3,
+              1
+            ],
+            "hitsBySeed": [
+              5,
+              6,
+              5,
+              6,
+              6,
+              6,
+              5,
+              6,
+              5,
+              6,
+              6,
+              5,
+              6,
+              6,
+              6,
+              5,
+              6,
+              5,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.227581082,
+                "logLoss": 0.644455661
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.249938616,
+                "logLoss": 0.691700075
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.193184876,
+                "logLoss": 0.571771946
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "austin-2025-2",
+      "parent": "austin",
+      "stage": 2,
+      "date": "2025-06-07",
+      "methods": {
+        "recommended": {
+          "base": {
+            "assignments": [
+              0,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              0,
+              1,
+              1,
+              3,
+              2,
+              2,
+              1
+            ],
+            "bucketHits": [
+              0,
+              2,
+              0
+            ],
+            "hitsBySeed": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.308327378,
+                "logLoss": 0.82572694
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.313195266,
+                "logLoss": 0.829427481
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.30083832,
+                "logLoss": 0.8200338
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              0,
+              1,
+              1,
+              3,
+              2,
+              2,
+              1
+            ],
+            "bucketHits": [
+              0,
+              2,
+              0
+            ],
+            "hitsBySeed": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.307996533,
+                "logLoss": 0.826226614
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.309845942,
+                "logLoss": 0.821326577
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.305151287,
+                "logLoss": 0.833765132
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              0,
+              1,
+              1,
+              3,
+              2,
+              2,
+              1
+            ],
+            "bucketHits": [
+              0,
+              2,
+              0
+            ],
+            "hitsBySeed": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.312619349,
+                "logLoss": 0.839582951
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.313607212,
+                "logLoss": 0.830433646
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.31109956,
+                "logLoss": 0.853658805
+              }
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "assignments": [
+              0,
+              1,
+              1,
+              1,
+              3,
+              1,
+              0,
+              3,
+              2,
+              1,
+              3,
+              3,
+              3,
+              3,
+              2,
+              1
+            ],
+            "bucketHits": [
+              0,
+              3,
+              0
+            ],
+            "hitsBySeed": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              4,
+              3,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              4,
+              3,
+              3,
+              4,
+              3,
+              3,
+              3,
+              4,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.281464055,
+                "logLoss": 0.761583559
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.295895545,
+                "logLoss": 0.790360615
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.259261763,
+                "logLoss": 0.717311167
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              1,
+              1,
+              1,
+              3,
+              1,
+              0,
+              3,
+              2,
+              1,
+              3,
+              3,
+              3,
+              3,
+              2,
+              1
+            ],
+            "bucketHits": [
+              0,
+              3,
+              0
+            ],
+            "hitsBySeed": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              4,
+              3,
+              3,
+              3,
+              3,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              4,
+              3,
+              3,
+              4,
+              3,
+              3,
+              3,
+              4,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.277699995,
+                "logLoss": 0.752888394
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.289889929,
+                "logLoss": 0.776596007
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.258946251,
+                "logLoss": 0.716415142
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              1,
+              1,
+              1,
+              3,
+              1,
+              0,
+              3,
+              2,
+              1,
+              3,
+              3,
+              3,
+              3,
+              2,
+              1
+            ],
+            "bucketHits": [
+              0,
+              3,
+              0
+            ],
+            "hitsBySeed": [
+              3,
+              3,
+              3,
+              3,
+              2,
+              4,
+              3,
+              4,
+              4,
+              4,
+              3,
+              3,
+              4,
+              3,
+              4,
+              3,
+              3,
+              4,
+              3,
+              3,
+              4,
+              3,
+              3,
+              4,
+              4,
+              3,
+              3,
+              4,
+              3,
+              3
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.280666397,
+                "logLoss": 0.760323704
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.293006068,
+                "logLoss": 0.783683636
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.261682287,
+                "logLoss": 0.724385346
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "austin-2025-3",
+      "parent": "austin",
+      "stage": 3,
+      "date": "2025-06-12",
+      "methods": {
+        "recommended": {
+          "base": {
+            "assignments": [
+              0,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              1,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              1
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              3,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.241718447,
+                "logLoss": 0.678597687
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.233904584,
+                "logLoss": 0.665204601
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.253739776,
+                "logLoss": 0.699202436
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              1,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              1
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              3,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.2425931,
+                "logLoss": 0.680522011
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.233598052,
+                "logLoss": 0.66379161
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.256431636,
+                "logLoss": 0.706261089
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              1,
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              1,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              1
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.244306167,
+                "logLoss": 0.685684388
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.233946982,
+                "logLoss": 0.665395143
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.260243373,
+                "logLoss": 0.716898611
+              }
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "assignments": [
+              0,
+              1,
+              0,
+              3,
+              1,
+              1,
+              1,
+              1,
+              2,
+              3,
+              2,
+              1,
+              3,
+              3,
+              3,
+              3
+            ],
+            "bucketHits": [
+              1,
+              3,
+              0
+            ],
+            "hitsBySeed": [
+              4,
+              5,
+              4,
+              2,
+              4,
+              3,
+              1,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              3,
+              3,
+              1,
+              3,
+              4,
+              4,
+              4,
+              3,
+              4,
+              4,
+              3,
+              4,
+              3,
+              3,
+              3,
+              4,
+              3
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.240602485,
+                "logLoss": 0.673408774
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.248943623,
+                "logLoss": 0.691122383
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.227769965,
+                "logLoss": 0.646157068
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              1,
+              0,
+              3,
+              1,
+              1,
+              1,
+              1,
+              2,
+              3,
+              2,
+              1,
+              3,
+              3,
+              3,
+              3
+            ],
+            "bucketHits": [
+              1,
+              3,
+              0
+            ],
+            "hitsBySeed": [
+              4,
+              5,
+              4,
+              3,
+              4,
+              3,
+              2,
+              4,
+              4,
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              1,
+              3,
+              2,
+              3,
+              4,
+              3,
+              1,
+              4,
+              3,
+              4,
+              3,
+              4,
+              3,
+              3,
+              3
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.239866937,
+                "logLoss": 0.671841381
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.247815241,
+                "logLoss": 0.688736058
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.227638776,
+                "logLoss": 0.645849569
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              1,
+              0,
+              3,
+              1,
+              1,
+              1,
+              1,
+              2,
+              3,
+              2,
+              1,
+              3,
+              3,
+              3,
+              3
+            ],
+            "bucketHits": [
+              1,
+              3,
+              0
+            ],
+            "hitsBySeed": [
+              4,
+              5,
+              4,
+              2,
+              4,
+              1,
+              3,
+              4,
+              1,
+              3,
+              4,
+              3,
+              4,
+              3,
+              3,
+              1,
+              3,
+              4,
+              4,
+              4,
+              3,
+              4,
+              4,
+              3,
+              3,
+              3,
+              3,
+              3,
+              4,
+              3
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.240727078,
+                "logLoss": 0.673845228
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.248365359,
+                "logLoss": 0.689892387
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.228975876,
+                "logLoss": 0.649157291
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "budapest",
+      "parent": "budapest",
+      "stage": 1,
+      "date": "2025-11-24",
+      "methods": {
+        "recommended": {
+          "base": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              0,
+              5,
+              1
+            ],
+            "hitsBySeed": [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.239603927,
+                "logLoss": 0.67160982
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.283486801,
+                "logLoss": 0.764652583
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.172091813,
+                "logLoss": 0.528467107
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              0,
+              5,
+              1
+            ],
+            "hitsBySeed": [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.235982415,
+                "logLoss": 0.662820131
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.28190403,
+                "logLoss": 0.760978739
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.165333777,
+                "logLoss": 0.511806888
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              0,
+              5,
+              1
+            ],
+            "hitsBySeed": [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.235076916,
+                "logLoss": 0.661371661
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.275058241,
+                "logLoss": 0.745460933
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.173567186,
+                "logLoss": 0.532003551
+              }
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              2
+            ],
+            "bucketHits": [
+              0,
+              4,
+              1
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.23862689,
+                "logLoss": 0.669307185
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.259728959,
+                "logLoss": 0.714477902
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.206162168,
+                "logLoss": 0.599813776
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              2
+            ],
+            "bucketHits": [
+              0,
+              4,
+              1
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.23597497,
+                "logLoss": 0.663160274
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.256081618,
+                "logLoss": 0.706220411
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.205041666,
+                "logLoss": 0.596913909
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              2
+            ],
+            "bucketHits": [
+              0,
+              4,
+              1
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.234898794,
+                "logLoss": 0.660698631
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.25465052,
+                "logLoss": 0.703069312
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.204511525,
+                "logLoss": 0.595512967
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "budapest-2025-2",
+      "parent": "budapest",
+      "stage": 2,
+      "date": "2025-11-29",
+      "methods": {
+        "recommended": {
+          "base": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              1,
+              3,
+              2,
+              1,
+              2,
+              1
+            ],
+            "bucketHits": [
+              1,
+              4,
+              0
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.232462001,
+                "logLoss": 0.652891002
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.259729598,
+                "logLoss": 0.70836643
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.190511853,
+                "logLoss": 0.56754419
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              1,
+              3,
+              2,
+              1,
+              2,
+              1
+            ],
+            "bucketHits": [
+              1,
+              4,
+              0
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.230249643,
+                "logLoss": 0.64766448
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.258818163,
+                "logLoss": 0.706713271
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.186298074,
+                "logLoss": 0.556820187
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              1,
+              2,
+              1,
+              2,
+              1
+            ],
+            "bucketHits": [
+              1,
+              3,
+              0
+            ],
+            "hitsBySeed": [
+              4,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              4
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.230006299,
+                "logLoss": 0.648744712
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.255051714,
+                "logLoss": 0.699992605
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.19147489,
+                "logLoss": 0.5699018
+              }
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              2,
+              2,
+              1,
+              3,
+              3,
+              1,
+              3,
+              1
+            ],
+            "bucketHits": [
+              1,
+              4,
+              1
+            ],
+            "hitsBySeed": [
+              6,
+              5,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              5,
+              5,
+              6,
+              6,
+              6,
+              5,
+              6,
+              6,
+              6,
+              5,
+              5,
+              6,
+              6,
+              6,
+              5,
+              6
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.235082942,
+                "logLoss": 0.661269557
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.258382021,
+                "logLoss": 0.708851143
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.199238206,
+                "logLoss": 0.588067116
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              2,
+              3,
+              1,
+              3,
+              2,
+              1,
+              3,
+              1
+            ],
+            "bucketHits": [
+              1,
+              4,
+              0
+            ],
+            "hitsBySeed": [
+              5,
+              6,
+              6,
+              6,
+              6,
+              6,
+              5,
+              6,
+              5,
+              6,
+              6,
+              6,
+              6,
+              5,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              5,
+              5,
+              6,
+              6,
+              6,
+              6,
+              4
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.232154159,
+                "logLoss": 0.655262188
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.254798393,
+                "logLoss": 0.701756597
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.197316876,
+                "logLoss": 0.583732327
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              2,
+              2,
+              1,
+              3,
+              3,
+              1,
+              3,
+              1
+            ],
+            "bucketHits": [
+              1,
+              4,
+              1
+            ],
+            "hitsBySeed": [
+              6,
+              6,
+              6,
+              6,
+              5,
+              6,
+              5,
+              6,
+              5,
+              6,
+              6,
+              6,
+              6,
+              6,
+              5,
+              5,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              5,
+              5,
+              6,
+              6,
+              6,
+              6,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.230944861,
+                "logLoss": 0.652795189
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.253417646,
+                "logLoss": 0.699085188
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.196371345,
+                "logLoss": 0.581579805
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "budapest-2025-3",
+      "parent": "budapest",
+      "stage": 3,
+      "date": "2025-12-04",
+      "methods": {
+        "recommended": {
+          "base": {
+            "assignments": [
+              1,
+              0,
+              0,
+              3,
+              1,
+              1,
+              1,
+              3,
+              1,
+              3,
+              3,
+              3,
+              3,
+              1,
+              2,
+              2
+            ],
+            "bucketHits": [
+              0,
+              2,
+              0
+            ],
+            "hitsBySeed": [
+              2,
+              2,
+              2,
+              3,
+              3,
+              3,
+              2,
+              2,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              3,
+              2,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              2,
+              3
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.224116783,
+                "logLoss": 0.638250206
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.20301404,
+                "logLoss": 0.590978017
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.256582542,
+                "logLoss": 0.71097665
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              1,
+              0,
+              0,
+              3,
+              1,
+              1,
+              1,
+              3,
+              1,
+              3,
+              3,
+              3,
+              3,
+              1,
+              2,
+              2
+            ],
+            "bucketHits": [
+              0,
+              2,
+              0
+            ],
+            "hitsBySeed": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              2,
+              3,
+              3,
+              2,
+              3
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.225087372,
+                "logLoss": 0.641376789
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.203354614,
+                "logLoss": 0.592040269
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.258522383,
+                "logLoss": 0.717279129
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              1,
+              0,
+              0,
+              3,
+              1,
+              1,
+              1,
+              3,
+              1,
+              3,
+              3,
+              3,
+              3,
+              1,
+              2,
+              2
+            ],
+            "bucketHits": [
+              0,
+              2,
+              0
+            ],
+            "hitsBySeed": [
+              2,
+              2,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.225385384,
+                "logLoss": 0.641895529
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.205351919,
+                "logLoss": 0.597749191
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.256206101,
+                "logLoss": 0.709812971
+              }
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "assignments": [
+              1,
+              1,
+              1,
+              0,
+              1,
+              3,
+              0,
+              3,
+              1,
+              3,
+              3,
+              2,
+              3,
+              1,
+              2,
+              3
+            ],
+            "bucketHits": [
+              0,
+              4,
+              0
+            ],
+            "hitsBySeed": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.224624642,
+                "logLoss": 0.641092235
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.211280562,
+                "logLoss": 0.612761463
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.245153997,
+                "logLoss": 0.684678038
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              1,
+              1,
+              1,
+              0,
+              1,
+              3,
+              0,
+              3,
+              1,
+              3,
+              3,
+              2,
+              3,
+              1,
+              2,
+              3
+            ],
+            "bucketHits": [
+              0,
+              4,
+              0
+            ],
+            "hitsBySeed": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.226562164,
+                "logLoss": 0.645517364
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.214524649,
+                "logLoss": 0.620015263
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.245081417,
+                "logLoss": 0.684751365
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              1,
+              1,
+              1,
+              0,
+              1,
+              3,
+              0,
+              3,
+              1,
+              3,
+              3,
+              2,
+              3,
+              1,
+              2,
+              3
+            ],
+            "bucketHits": [
+              0,
+              4,
+              0
+            ],
+            "hitsBySeed": [
+              4,
+              4,
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.227574449,
+                "logLoss": 0.647793236
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.216215879,
+                "logLoss": 0.623734328
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.245049172,
+                "logLoss": 0.684806939
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "cologne",
+      "parent": "cologne",
+      "stage": 1,
+      "date": "2026-06-02",
+      "methods": {
+        "recommended": {
+          "base": {
+            "assignments": [
+              0,
+              1,
+              3,
+              0,
+              1,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              1,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              0
+            ],
+            "hitsBySeed": [
+              4,
+              3,
+              4,
+              3,
+              4,
+              3,
+              4,
+              3,
+              4,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              4,
+              4,
+              4,
+              3,
+              4,
+              4,
+              4,
+              3,
+              4,
+              3,
+              4,
+              4,
+              3,
+              4
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.229066953,
+                "logLoss": 0.646993839
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.213450071,
+                "logLoss": 0.614638454
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.253092924,
+                "logLoss": 0.696771356
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              0,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              1,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              0
+            ],
+            "hitsBySeed": [
+              4,
+              3,
+              3,
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              3,
+              3,
+              4,
+              3,
+              3,
+              4,
+              4,
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              3,
+              4,
+              3,
+              4,
+              4,
+              3,
+              4
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.231788967,
+                "logLoss": 0.652569257
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.214535382,
+                "logLoss": 0.617892395
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.258332945,
+                "logLoss": 0.705918276
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              0,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              3,
+              3,
+              1,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              0
+            ],
+            "hitsBySeed": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              3,
+              3,
+              4,
+              4,
+              3,
+              3,
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              3,
+              4,
+              3,
+              4,
+              3,
+              3,
+              3
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.230566832,
+                "logLoss": 0.650744421
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.215120535,
+                "logLoss": 0.619443623
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.254330367,
+                "logLoss": 0.698899495
+              }
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "assignments": [
+              0,
+              1,
+              3,
+              1,
+              1,
+              3,
+              1,
+              0,
+              2,
+              1,
+              3,
+              3,
+              3,
+              1,
+              3,
+              2
+            ],
+            "bucketHits": [
+              0,
+              3,
+              0
+            ],
+            "hitsBySeed": [
+              3,
+              4,
+              3,
+              2,
+              2,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2,
+              1,
+              2,
+              3,
+              3,
+              2,
+              3,
+              2,
+              2,
+              4,
+              3,
+              2,
+              2,
+              3,
+              4,
+              3,
+              3,
+              2
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.218448264,
+                "logLoss": 0.624576666
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.205457452,
+                "logLoss": 0.59592671
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.238434128,
+                "logLoss": 0.668653522
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              1,
+              3,
+              1,
+              1,
+              3,
+              1,
+              0,
+              2,
+              1,
+              3,
+              3,
+              3,
+              1,
+              3,
+              2
+            ],
+            "bucketHits": [
+              0,
+              3,
+              0
+            ],
+            "hitsBySeed": [
+              3,
+              2,
+              3,
+              3,
+              2,
+              2,
+              2,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              2,
+              2,
+              3,
+              3,
+              2,
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              3,
+              2,
+              3,
+              3,
+              2
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.221430786,
+                "logLoss": 0.632269882
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.210384058,
+                "logLoss": 0.608838798
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.238425752,
+                "logLoss": 0.668317702
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              1,
+              3,
+              1,
+              1,
+              3,
+              1,
+              0,
+              2,
+              3,
+              1,
+              3,
+              3,
+              1,
+              3,
+              2
+            ],
+            "bucketHits": [
+              0,
+              2,
+              0
+            ],
+            "hitsBySeed": [
+              2,
+              4,
+              3,
+              4,
+              2,
+              2,
+              2,
+              3,
+              3,
+              3,
+              2,
+              2,
+              3,
+              2,
+              2,
+              2,
+              3,
+              2,
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              4,
+              2,
+              2,
+              3,
+              3,
+              1
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.221963943,
+                "logLoss": 0.633482765
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.211200735,
+                "logLoss": 0.610860256
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.238522724,
+                "logLoss": 0.668286627
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "cologne-2026-2",
+      "parent": "cologne",
+      "stage": 2,
+      "date": "2026-06-06",
+      "methods": {
+        "recommended": {
+          "base": {
+            "assignments": [
+              1,
+              0,
+              1,
+              1,
+              0,
+              3,
+              3,
+              1,
+              1,
+              3,
+              1,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              1
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              4,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.212866992,
+                "logLoss": 0.610581573
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.237172111,
+                "logLoss": 0.661287891
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.175474503,
+                "logLoss": 0.532571851
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              1,
+              0,
+              1,
+              1,
+              0,
+              3,
+              3,
+              1,
+              3,
+              1,
+              1,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              1
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.207914871,
+                "logLoss": 0.598884326
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.234051986,
+                "logLoss": 0.656249743
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.167703926,
+                "logLoss": 0.510629837
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              1,
+              0,
+              1,
+              1,
+              0,
+              3,
+              3,
+              1,
+              1,
+              3,
+              1,
+              3,
+              3,
+              3,
+              2,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              1
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.209697636,
+                "logLoss": 0.604595729
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.233466067,
+                "logLoss": 0.655509007
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.173130819,
+                "logLoss": 0.526267609
+              }
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "assignments": [
+              1,
+              0,
+              1,
+              1,
+              1,
+              3,
+              3,
+              0,
+              1,
+              3,
+              1,
+              2,
+              3,
+              3,
+              3,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              1
+            ],
+            "hitsBySeed": [
+              5,
+              4,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              4,
+              5,
+              4,
+              4,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              4,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.213419202,
+                "logLoss": 0.60725516
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.241026849,
+                "logLoss": 0.664239776
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.170945899,
+                "logLoss": 0.519586521
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              1,
+              0,
+              1,
+              1,
+              1,
+              3,
+              3,
+              0,
+              1,
+              3,
+              1,
+              2,
+              3,
+              3,
+              3,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              1
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              4,
+              5,
+              4,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              4,
+              5,
+              5,
+              4
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.209394748,
+                "logLoss": 0.600311102
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.236820118,
+                "logLoss": 0.659553158
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.167201871,
+                "logLoss": 0.509169476
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              1,
+              0,
+              1,
+              1,
+              1,
+              3,
+              3,
+              0,
+              1,
+              3,
+              1,
+              2,
+              3,
+              3,
+              3,
+              2
+            ],
+            "bucketHits": [
+              1,
+              3,
+              1
+            ],
+            "hitsBySeed": [
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              4,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.208265398,
+                "logLoss": 0.597578603
+              },
+              "bo1": {
+                "n": 20,
+                "brier": 0.236427934,
+                "logLoss": 0.659276171
+              },
+              "bo3": {
+                "n": 13,
+                "brier": 0.16493842,
+                "logLoss": 0.502659268
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "cologne-2026-3",
+      "parent": "cologne",
+      "stage": 3,
+      "date": "2026-06-11",
+      "methods": {
+        "recommended": {
+          "base": {
+            "assignments": [
+              0,
+              1,
+              0,
+              3,
+              3,
+              1,
+              3,
+              1,
+              1,
+              1,
+              3,
+              3,
+              3,
+              2,
+              2,
+              1
+            ],
+            "bucketHits": [
+              0,
+              1,
+              1
+            ],
+            "hitsBySeed": [
+              2,
+              2,
+              2,
+              2,
+              3,
+              2,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.227528978,
+                "logLoss": 0.646601802
+              },
+              "bo1": {
+                "n": 0,
+                "brier": null,
+                "logLoss": null
+              },
+              "bo3": {
+                "n": 33,
+                "brier": 0.227528978,
+                "logLoss": 0.646601802
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              1,
+              0,
+              3,
+              3,
+              1,
+              3,
+              1,
+              3,
+              1,
+              1,
+              3,
+              3,
+              2,
+              2,
+              1
+            ],
+            "bucketHits": [
+              0,
+              2,
+              1
+            ],
+            "hitsBySeed": [
+              3,
+              2,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.226829015,
+                "logLoss": 0.644901788
+              },
+              "bo1": {
+                "n": 0,
+                "brier": null,
+                "logLoss": null
+              },
+              "bo3": {
+                "n": 33,
+                "brier": 0.226829015,
+                "logLoss": 0.644901788
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              1,
+              0,
+              3,
+              3,
+              1,
+              3,
+              1,
+              3,
+              1,
+              1,
+              3,
+              3,
+              2,
+              2,
+              1
+            ],
+            "bucketHits": [
+              0,
+              2,
+              1
+            ],
+            "hitsBySeed": [
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.22720767,
+                "logLoss": 0.645837352
+              },
+              "bo1": {
+                "n": 0,
+                "brier": null,
+                "logLoss": null
+              },
+              "bo3": {
+                "n": 33,
+                "brier": 0.22720767,
+                "logLoss": 0.645837352
+              }
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "assignments": [
+              0,
+              1,
+              0,
+              1,
+              3,
+              1,
+              3,
+              1,
+              2,
+              1,
+              2,
+              3,
+              3,
+              3,
+              3,
+              1
+            ],
+            "bucketHits": [
+              0,
+              1,
+              0
+            ],
+            "hitsBySeed": [
+              1,
+              1,
+              1,
+              2,
+              1,
+              2,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.256676042,
+                "logLoss": 0.709101917
+              },
+              "bo1": {
+                "n": 0,
+                "brier": null,
+                "logLoss": null
+              },
+              "bo3": {
+                "n": 33,
+                "brier": 0.256676042,
+                "logLoss": 0.709101917
+              }
+            }
+          },
+          "stage1Only": {
+            "assignments": [
+              0,
+              1,
+              0,
+              1,
+              3,
+              3,
+              3,
+              1,
+              2,
+              1,
+              2,
+              3,
+              1,
+              3,
+              3,
+              1
+            ],
+            "bucketHits": [
+              0,
+              1,
+              0
+            ],
+            "hitsBySeed": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.258394454,
+                "logLoss": 0.713535514
+              },
+              "bo1": {
+                "n": 0,
+                "brier": null,
+                "logLoss": null
+              },
+              "bo3": {
+                "n": 33,
+                "brier": 0.258394454,
+                "logLoss": 0.713535514
+              }
+            }
+          },
+          "multiStage": {
+            "assignments": [
+              0,
+              1,
+              0,
+              1,
+              3,
+              3,
+              3,
+              1,
+              2,
+              1,
+              2,
+              3,
+              1,
+              3,
+              3,
+              1
+            ],
+            "bucketHits": [
+              0,
+              1,
+              0
+            ],
+            "hitsBySeed": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              2,
+              1,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "series": {
+              "all": {
+                "n": 33,
+                "brier": 0.259615249,
+                "logLoss": 0.716774475
+              },
+              "bo1": {
+                "n": 0,
+                "brier": null,
+                "logLoss": null
+              },
+              "bo3": {
+                "n": 33,
+                "brier": 0.259615249,
+                "logLoss": 0.716774475
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "stage1OnlyByEdition": {
+    "copenhagen": {
+      "recommended": {
+        "pooled": 1,
+        "bo1": 1,
+        "bo3": 1
+      },
+      "tree": {
+        "pooled": 1,
+        "bo1": 1,
+        "bo3": 1
+      }
+    },
+    "shanghai": {
+      "recommended": {
+        "pooled": 0.976449324,
+        "bo1": 0.94617544,
+        "bo3": 1.03060369
+      },
+      "tree": {
+        "pooled": 0.860455474,
+        "bo1": 0.894022611,
+        "bo3": 0.953293782
+      }
+    },
+    "austin": {
+      "recommended": {
+        "pooled": 1.004756908,
+        "bo1": 0.951423276,
+        "bo3": 1.061830678
+      },
+      "tree": {
+        "pooled": 0.881591014,
+        "bo1": 0.881125952,
+        "bo3": 0.985728132
+      }
+    },
+    "budapest": {
+      "recommended": {
+        "pooled": 1.066037816,
+        "bo1": 0.974466538,
+        "bo3": 1.143500779
+      },
+      "tree": {
+        "pooled": 0.86530227,
+        "bo1": 0.852790209,
+        "bo3": 1.052284758
+      }
+    },
+    "cologne": {
+      "recommended": {
+        "pooled": 0.999374838,
+        "bo1": 0.831089271,
+        "bo3": 1.237023199
+      },
+      "tree": {
+        "pooled": 0.857759392,
+        "bo1": 0.795660908,
+        "bo3": 1.097690652
+      }
+    },
+    "singapore": {
+      "recommended": {
+        "pooled": 0.990434422,
+        "bo1": 0.857581362,
+        "bo3": 1.200745271
+      },
+      "tree": {
+        "pooled": 0.91796447,
+        "bo1": 0.869553497,
+        "bo3": 1.099050489
+      }
+    }
+  }
+}

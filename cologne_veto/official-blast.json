@@ -1,0 +1,1285 @@
+{
+  "publisher": "BLAST.tv",
+  "index": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match?view=results",
+  "sourceType": "third-party match reports; no ordered veto data",
+  "matches": [
+    {
+      "stage2Id": 2394865,
+      "blastId": "8f8b82df-e811-4f2a-8000-3a8b0456c6c1",
+      "day": "2026-06-06",
+      "bo": 1,
+      "a": "Spirit",
+      "b": "BetBoom",
+      "score": [
+        1,
+        0
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          5
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/8f8b82df/spirit-bb",
+      "streamUrl": "https://www.youtube.com/watch?v=NHZbys4t-b0&t=30",
+      "steps": null,
+      "fiveA": [
+        "donk",
+        "magixx",
+        "sh1ro",
+        "tN1R",
+        "zont1x"
+      ],
+      "fiveB": [
+        "Boombl4",
+        "d1Ledez",
+        "FL4MUS",
+        "Magnojez",
+        "zorte"
+      ]
+    },
+    {
+      "stage2Id": 2394866,
+      "blastId": "50360398-eebc-4d1f-81a6-3a49c03a1699",
+      "day": "2026-06-06",
+      "bo": 1,
+      "a": "Astralis",
+      "b": "GamerLegion",
+      "score": [
+        1,
+        0
+      ],
+      "maps": [
+        [
+          "Ancient",
+          13,
+          4
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/50360398/astralis-gamerlegion",
+      "streamUrl": "https://www.youtube.com/watch?v=oR1GjIVVxeg&t=35",
+      "steps": null,
+      "fiveA": [
+        "HooXi",
+        "jabbi",
+        "phzy",
+        "ryu",
+        "Staehr"
+      ],
+      "fiveB": [
+        "hypex",
+        "PR",
+        "REZ",
+        "Snax",
+        "Tauson"
+      ]
+    },
+    {
+      "stage2Id": 2394867,
+      "blastId": "754c10e1-3c65-4cd3-bf64-e3d242892572",
+      "day": "2026-06-06",
+      "bo": 1,
+      "a": "G2",
+      "b": "M80",
+      "score": [
+        1,
+        0
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          8
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/754c10e1/g2-m80",
+      "streamUrl": "https://www.youtube.com/watch?v=NN8kkSBl-ro&t=30",
+      "steps": null,
+      "fiveA": [
+        "HeavyGod",
+        "huNter",
+        "MATYS",
+        "NertZ",
+        "SunPayus"
+      ],
+      "fiveB": [
+        "JBa",
+        "Lake",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ]
+    },
+    {
+      "stage2Id": 2394868,
+      "blastId": "7f48e4a2-516c-4f5c-8830-5bd7fe36a427",
+      "day": "2026-06-06",
+      "bo": 1,
+      "a": "FUT Esports",
+      "b": "B8",
+      "score": [
+        1,
+        0
+      ],
+      "maps": [
+        [
+          "Ancient",
+          13,
+          11
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/7f48e4a2/fut-b8",
+      "streamUrl": "https://www.youtube.com/watch?v=7-vj6MNJk4U&t=29",
+      "steps": null,
+      "fiveA": [
+        "cmtry",
+        "dem0n",
+        "dziugss",
+        "Krabeni",
+        "lauNX"
+      ],
+      "fiveB": [
+        "alex666",
+        "esenthial",
+        "kensizor",
+        "npl",
+        "s1zzi"
+      ]
+    },
+    {
+      "stage2Id": 2394869,
+      "blastId": "410dc0da-18d7-495a-8952-1f6c95a8fd6c",
+      "day": "2026-06-06",
+      "bo": 1,
+      "a": "Legacy",
+      "b": "MIBR",
+      "score": [
+        0,
+        1
+      ],
+      "maps": [
+        [
+          "Nuke",
+          8,
+          13
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/410dc0da/legacy-mibr",
+      "streamUrl": "https://www.youtube.com/watch?v=UcbP5NAAKrk&t=34",
+      "steps": null,
+      "fiveA": [
+        "arT",
+        "dumau",
+        "latto",
+        "n1ssim",
+        "saadzin"
+      ],
+      "fiveB": [
+        "brnz4n",
+        "insani",
+        "kl1m",
+        "LNZ",
+        "venomzera"
+      ]
+    },
+    {
+      "stage2Id": 2394870,
+      "blastId": "e27b7354-c0c5-4c8f-928e-6c7bac7f8f55",
+      "day": "2026-06-06",
+      "bo": 1,
+      "a": "9z",
+      "b": "FlyQuest",
+      "score": [
+        1,
+        0
+      ],
+      "maps": [
+        [
+          "Dust2",
+          13,
+          9
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/e27b7354/9z-flyquest",
+      "streamUrl": "https://www.youtube.com/watch?v=ajRzVOlL5XE&t=43",
+      "steps": null,
+      "fiveA": [
+        "dgt",
+        "HUASOPEEK",
+        "luchov",
+        "max",
+        "meyern"
+      ],
+      "fiveB": [
+        "INS",
+        "jks",
+        "nettik",
+        "story",
+        "Vexite"
+      ]
+    },
+    {
+      "stage2Id": 2394871,
+      "blastId": "29b1f7a7-b18b-41c0-a761-56d2ef7416e5",
+      "day": "2026-06-06",
+      "bo": 1,
+      "a": "paiN",
+      "b": "TYLOO",
+      "score": [
+        0,
+        1
+      ],
+      "maps": [
+        [
+          "Mirage",
+          9,
+          13
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/29b1f7a7/pain-tyloo",
+      "streamUrl": "https://www.youtube.com/watch?v=cQFKDMuOFdc&t=41",
+      "steps": null,
+      "fiveA": [
+        "biguzera",
+        "piriajr",
+        "saffee",
+        "snow",
+        "V$M"
+      ],
+      "fiveB": [
+        "JamYoung",
+        "Jee",
+        "Mercury",
+        "Moseyuh",
+        "zero"
+      ]
+    },
+    {
+      "stage2Id": 2394872,
+      "blastId": "d356031c-fb6b-4714-b20c-19eeebb0041a",
+      "day": "2026-06-06",
+      "bo": 1,
+      "a": "Monte",
+      "b": "BIG",
+      "score": [
+        1,
+        0
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          8
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/d356031c/monte-big",
+      "streamUrl": "https://www.youtube.com/watch?v=4_8Y2d7-RyQ&t=35",
+      "steps": null,
+      "fiveA": [
+        "afro",
+        "AZUWU",
+        "Bymas",
+        "Gizmy",
+        "Rainwaker"
+      ],
+      "fiveB": [
+        "blameF",
+        "faveN",
+        "gr1ks",
+        "JDC",
+        "tabseN"
+      ]
+    },
+    {
+      "stage2Id": 2394873,
+      "blastId": "4006431f-fd06-411b-aee1-af90fab64058",
+      "day": "2026-06-06",
+      "bo": 1,
+      "a": "FUT Esports",
+      "b": "TYLOO",
+      "score": [
+        1,
+        0
+      ],
+      "maps": [
+        [
+          "Overpass",
+          13,
+          9
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/4006431f/fut-tyloo",
+      "streamUrl": "https://www.youtube.com/watch?v=jj4SKL2YFrY&t=29",
+      "steps": null,
+      "fiveA": [
+        "cmtry",
+        "dem0n",
+        "dziugss",
+        "Krabeni",
+        "lauNX"
+      ],
+      "fiveB": [
+        "JamYoung",
+        "Jee",
+        "Mercury",
+        "Moseyuh",
+        "zero"
+      ]
+    },
+    {
+      "stage2Id": 2394874,
+      "blastId": "835f1e96-260c-4b7b-add5-10108eafd005",
+      "day": "2026-06-06",
+      "bo": 1,
+      "a": "Astralis",
+      "b": "9z",
+      "score": [
+        0,
+        1
+      ],
+      "maps": [
+        [
+          "Nuke",
+          5,
+          13
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/835f1e96/astralis-9z",
+      "streamUrl": "https://www.youtube.com/watch?v=OeYvJYIIrX4&t=32",
+      "steps": null,
+      "fiveA": [
+        "HooXi",
+        "jabbi",
+        "phzy",
+        "ryu",
+        "Staehr"
+      ],
+      "fiveB": [
+        "dgt",
+        "HUASOPEEK",
+        "luchov",
+        "max",
+        "meyern"
+      ]
+    },
+    {
+      "stage2Id": 2394875,
+      "blastId": "46f43255-67c0-44dc-962b-8819d8b46123",
+      "day": "2026-06-06",
+      "bo": 1,
+      "a": "G2",
+      "b": "Monte",
+      "score": [
+        1,
+        0
+      ],
+      "maps": [
+        [
+          "Mirage",
+          22,
+          19
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/46f43255/g2-monte",
+      "streamUrl": "https://www.youtube.com/watch?v=gZcdo3PkCzg&t=27",
+      "steps": null,
+      "fiveA": [
+        "HeavyGod",
+        "huNter",
+        "MATYS",
+        "NertZ",
+        "SunPayus"
+      ],
+      "fiveB": [
+        "afro",
+        "AZUWU",
+        "Bymas",
+        "Gizmy",
+        "Rainwaker"
+      ]
+    },
+    {
+      "stage2Id": 2394876,
+      "blastId": "aa014474-36a1-4bb1-b66d-324f6e4c41ed",
+      "day": "2026-06-06",
+      "bo": 1,
+      "a": "paiN",
+      "b": "BIG",
+      "score": [
+        0,
+        1
+      ],
+      "maps": [
+        [
+          "Overpass",
+          9,
+          13
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/aa014474/pain-big",
+      "streamUrl": "https://www.youtube.com/watch?v=4ztYMrw-BQA&t=27",
+      "steps": null,
+      "fiveA": [
+        "biguzera",
+        "piriajr",
+        "saffee",
+        "snow",
+        "V$M"
+      ],
+      "fiveB": [
+        "blameF",
+        "faveN",
+        "gr1ks",
+        "JDC",
+        "tabseN"
+      ]
+    },
+    {
+      "stage2Id": 2394877,
+      "blastId": "7e7459b8-714b-44cf-a6ea-632a3a26917c",
+      "day": "2026-06-06",
+      "bo": 1,
+      "a": "BetBoom",
+      "b": "GamerLegion",
+      "score": [
+        1,
+        0
+      ],
+      "maps": [
+        [
+          "Nuke",
+          13,
+          9
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/7e7459b8/bb-gamerlegion",
+      "streamUrl": "https://www.youtube.com/watch?v=pru1r7yW42s&t=29",
+      "steps": null,
+      "fiveA": [
+        "Boombl4",
+        "d1Ledez",
+        "FL4MUS",
+        "Magnojez",
+        "zorte"
+      ],
+      "fiveB": [
+        "hypex",
+        "PR",
+        "REZ",
+        "Snax",
+        "Tauson"
+      ]
+    },
+    {
+      "stage2Id": 2394878,
+      "blastId": "8b0f52fd-08e4-41ac-b808-1b5a020571d8",
+      "day": "2026-06-06",
+      "bo": 1,
+      "a": "Legacy",
+      "b": "FlyQuest",
+      "score": [
+        1,
+        0
+      ],
+      "maps": [
+        [
+          "Dust2",
+          13,
+          7
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/8b0f52fd/legacy-flyquest",
+      "streamUrl": "https://www.youtube.com/watch?v=rsBjkTQMgQo&t=35",
+      "steps": null,
+      "fiveA": [
+        "arT",
+        "dumau",
+        "latto",
+        "n1ssim",
+        "saadzin"
+      ],
+      "fiveB": [
+        "INS",
+        "jks",
+        "nettik",
+        "story",
+        "Vexite"
+      ]
+    },
+    {
+      "stage2Id": 2394879,
+      "blastId": "c2fdd2ab-55e8-4608-8f90-7954a5b686c4",
+      "day": "2026-06-06",
+      "bo": 1,
+      "a": "Spirit",
+      "b": "MIBR",
+      "score": [
+        1,
+        0
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          1
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/c2fdd2ab/spirit-mibr",
+      "streamUrl": "https://www.youtube.com/watch?v=E6Zr02HjwhA&t=27",
+      "steps": null,
+      "fiveA": [
+        "donk",
+        "magixx",
+        "sh1ro",
+        "tN1R",
+        "zont1x"
+      ],
+      "fiveB": [
+        "brnz4n",
+        "insani",
+        "kl1m",
+        "LNZ",
+        "venomzera"
+      ]
+    },
+    {
+      "stage2Id": 2394880,
+      "blastId": "247b8633-a770-4f0f-b12a-6d5ed0f3d6d0",
+      "day": "2026-06-06",
+      "bo": 1,
+      "a": "B8",
+      "b": "M80",
+      "score": [
+        0,
+        1
+      ],
+      "maps": [
+        [
+          "Mirage",
+          10,
+          13
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/247b8633/b8-m80",
+      "streamUrl": "https://www.youtube.com/watch?v=kt2w3cw2Y4Y&t=35",
+      "steps": null,
+      "fiveA": [
+        "alex666",
+        "esenthial",
+        "kensizor",
+        "npl",
+        "s1zzi"
+      ],
+      "fiveB": [
+        "JBa",
+        "Lake",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ]
+    },
+    {
+      "stage2Id": 2394881,
+      "blastId": "52982aed-fdce-41fa-a1a6-d2474381d0b4",
+      "day": "2026-06-07",
+      "bo": 1,
+      "a": "Monte",
+      "b": "Legacy",
+      "score": [
+        1,
+        0
+      ],
+      "maps": [
+        [
+          "Ancient",
+          13,
+          11
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/52982aed/monte-legacy",
+      "streamUrl": "https://www.youtube.com/watch?v=2FL5c-mdxWg&t=30",
+      "steps": null,
+      "fiveA": [
+        "afro",
+        "AZUWU",
+        "Bymas",
+        "Gizmy",
+        "Rainwaker"
+      ],
+      "fiveB": [
+        "arT",
+        "dumau",
+        "latto",
+        "n1ssim",
+        "saadzin"
+      ]
+    },
+    {
+      "stage2Id": 2394882,
+      "blastId": "1f2cbb7f-eae1-4469-9dd0-a664e4fb5f00",
+      "day": "2026-06-07",
+      "bo": 1,
+      "a": "Astralis",
+      "b": "TYLOO",
+      "score": [
+        0,
+        1
+      ],
+      "maps": [
+        [
+          "Nuke",
+          6,
+          13
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/1f2cbb7f/astralis-tyloo",
+      "streamUrl": "https://www.youtube.com/watch?v=IQqRjVtVSRI&t=36",
+      "steps": null,
+      "fiveA": [
+        "HooXi",
+        "jabbi",
+        "phzy",
+        "ryu",
+        "Staehr"
+      ],
+      "fiveB": [
+        "JamYoung",
+        "Jee",
+        "Mercury",
+        "Moseyuh",
+        "zero"
+      ]
+    },
+    {
+      "stage2Id": 2394883,
+      "blastId": "0303cd7a-456e-4767-a235-30846c323888",
+      "day": "2026-06-07",
+      "bo": 1,
+      "a": "BetBoom",
+      "b": "M80",
+      "score": [
+        1,
+        0
+      ],
+      "maps": [
+        [
+          "Dust2",
+          13,
+          2
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/0303cd7a/bb-m80",
+      "streamUrl": "https://www.youtube.com/watch?v=sLkqqyO_IXg&t=8",
+      "steps": null,
+      "fiveA": [
+        "Boombl4",
+        "d1Ledez",
+        "FL4MUS",
+        "Magnojez",
+        "zorte"
+      ],
+      "fiveB": [
+        "JBa",
+        "Lake",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ]
+    },
+    {
+      "stage2Id": 2394884,
+      "blastId": "3c4c57db-4642-4f0c-9265-650338e9114f",
+      "day": "2026-06-07",
+      "bo": 1,
+      "a": "MIBR",
+      "b": "BIG",
+      "score": [
+        0,
+        1
+      ],
+      "maps": [
+        [
+          "Inferno",
+          8,
+          13
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/3c4c57db/mibr-big",
+      "streamUrl": "https://www.youtube.com/watch?v=9MNhv2NM8tE&t=28",
+      "steps": null,
+      "fiveA": [
+        "brnz4n",
+        "insani",
+        "kl1m",
+        "LNZ",
+        "venomzera"
+      ],
+      "fiveB": [
+        "blameF",
+        "faveN",
+        "gr1ks",
+        "JDC",
+        "tabseN"
+      ]
+    },
+    {
+      "stage2Id": 2394885,
+      "blastId": "9aad4fab-0edd-45dd-94f6-46f64c7fd786",
+      "day": "2026-06-07",
+      "bo": 3,
+      "a": "B8",
+      "b": "GamerLegion",
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Inferno",
+          13,
+          11
+        ],
+        [
+          "Mirage",
+          8,
+          13
+        ],
+        [
+          "Nuke",
+          13,
+          11
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/9aad4fab/b8-gamerlegion",
+      "streamUrl": "https://www.youtube.com/watch?v=-rfLzUebFlo&t=8",
+      "steps": null,
+      "fiveA": [
+        "alex666",
+        "esenthial",
+        "kensizor",
+        "npl",
+        "s1zzi"
+      ],
+      "fiveB": [
+        "hypex",
+        "PR",
+        "REZ",
+        "Snax",
+        "Tauson"
+      ]
+    },
+    {
+      "stage2Id": 2394886,
+      "blastId": "e0a373d0-04c0-4235-8108-7806a2167aa5",
+      "day": "2026-06-07",
+      "bo": 3,
+      "a": "FlyQuest",
+      "b": "paiN",
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Nuke",
+          7,
+          13
+        ],
+        [
+          "Anubis",
+          10,
+          13
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/e0a373d0/flyquest-pain",
+      "streamUrl": "https://www.youtube.com/watch?v=uf0MtSpIGUE&t=36",
+      "steps": null,
+      "fiveA": [
+        "INS",
+        "jks",
+        "nettik",
+        "story",
+        "Vexite"
+      ],
+      "fiveB": [
+        "biguzera",
+        "piriajr",
+        "saffee",
+        "snow",
+        "V$M"
+      ]
+    },
+    {
+      "stage2Id": 2394887,
+      "blastId": "b90a2df7-36cb-4f06-bdf9-9209651d76d2",
+      "day": "2026-06-07",
+      "bo": 3,
+      "a": "G2",
+      "b": "FUT Esports",
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Anubis",
+          11,
+          13
+        ],
+        [
+          "Overpass",
+          13,
+          7
+        ],
+        [
+          "Ancient",
+          4,
+          13
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/b90a2df7/g2-fut",
+      "streamUrl": "https://www.youtube.com/watch?v=A7F7QgB2yLs&t=27",
+      "steps": null,
+      "fiveA": [
+        "HeavyGod",
+        "huNter",
+        "MATYS",
+        "NertZ",
+        "SunPayus"
+      ],
+      "fiveB": [
+        "cmtry",
+        "dem0n",
+        "dziugss",
+        "Krabeni",
+        "lauNX"
+      ]
+    },
+    {
+      "stage2Id": 2394888,
+      "blastId": "8a7fd5ff-9bf2-41d4-a3e4-7e0f1f38e985",
+      "day": "2026-06-07",
+      "bo": 3,
+      "a": "Spirit",
+      "b": "9z",
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          3
+        ],
+        [
+          "Nuke",
+          13,
+          1
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/8a7fd5ff/spirit-9z",
+      "streamUrl": "https://www.youtube.com/watch?v=lx9UGUZxr-I&t=32",
+      "steps": null,
+      "fiveA": [
+        "donk",
+        "magixx",
+        "sh1ro",
+        "tN1R",
+        "zont1x"
+      ],
+      "fiveB": [
+        "dgt",
+        "HUASOPEEK",
+        "luchov",
+        "max",
+        "meyern"
+      ]
+    },
+    {
+      "stage2Id": 2394889,
+      "blastId": "c6896d21-866d-4847-8efa-4cd043c433ab",
+      "day": "2026-06-08",
+      "bo": 3,
+      "a": "Astralis",
+      "b": "paiN",
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Nuke",
+          11,
+          13
+        ],
+        [
+          "Overpass",
+          4,
+          13
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/c6896d21/astralis-pain",
+      "streamUrl": "https://www.youtube.com/watch?v=fUo7mPJc6Uw&t=27",
+      "steps": null,
+      "fiveA": [
+        "HooXi",
+        "jabbi",
+        "phzy",
+        "ryu",
+        "Staehr"
+      ],
+      "fiveB": [
+        "biguzera",
+        "piriajr",
+        "saffee",
+        "snow",
+        "V$M"
+      ]
+    },
+    {
+      "stage2Id": 2394890,
+      "blastId": "7f494670-48a5-4a6a-97c4-59f0d1fa60bd",
+      "day": "2026-06-08",
+      "bo": 3,
+      "a": "MIBR",
+      "b": "B8",
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          7
+        ],
+        [
+          "Nuke",
+          10,
+          13
+        ],
+        [
+          "Ancient",
+          8,
+          13
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/7f494670/mibr-b8",
+      "streamUrl": "https://www.youtube.com/watch?v=Yf1h40Kk4p4&t=33",
+      "steps": null,
+      "fiveA": [
+        "brnz4n",
+        "insani",
+        "kl1m",
+        "LNZ",
+        "venomzera"
+      ],
+      "fiveB": [
+        "alex666",
+        "esenthial",
+        "kensizor",
+        "npl",
+        "s1zzi"
+      ]
+    },
+    {
+      "stage2Id": 2394891,
+      "blastId": "ab74e3a7-c63a-42d2-a2c1-3fd0673b5a41",
+      "day": "2026-06-08",
+      "bo": 3,
+      "a": "Monte",
+      "b": "BetBoom",
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Nuke",
+          7,
+          13
+        ],
+        [
+          "Mirage",
+          13,
+          6
+        ],
+        [
+          "Dust2",
+          8,
+          13
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/ab74e3a7/monte-bb",
+      "streamUrl": "https://www.youtube.com/watch?v=wQQ0OiAgvc0&t=28",
+      "steps": null,
+      "fiveA": [
+        "afro",
+        "AZUWU",
+        "Bymas",
+        "Gizmy",
+        "Rainwaker"
+      ],
+      "fiveB": [
+        "Boombl4",
+        "d1Ledez",
+        "FL4MUS",
+        "Magnojez",
+        "zorte"
+      ]
+    },
+    {
+      "stage2Id": 2394892,
+      "blastId": "a61a6a71-4c57-484a-9fd7-fa2ae4b9aec0",
+      "day": "2026-06-08",
+      "bo": 3,
+      "a": "TYLOO",
+      "b": "9z",
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Overpass",
+          10,
+          13
+        ],
+        [
+          "Inferno",
+          6,
+          13
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/a61a6a71/tyloo-9z",
+      "streamUrl": "https://www.youtube.com/watch?v=sYRhCBWJl8M&t=36",
+      "steps": null,
+      "fiveA": [
+        "JamYoung",
+        "Jee",
+        "Mercury",
+        "Moseyuh",
+        "zero"
+      ],
+      "fiveB": [
+        "dgt",
+        "HUASOPEEK",
+        "luchov",
+        "max",
+        "meyern"
+      ]
+    },
+    {
+      "stage2Id": 2394893,
+      "blastId": "28eebb6c-d0f1-449a-92b9-32223b0103cd",
+      "day": "2026-06-08",
+      "bo": 3,
+      "a": "G2",
+      "b": "BIG",
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Inferno",
+          13,
+          3
+        ],
+        [
+          "Mirage",
+          13,
+          8
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/28eebb6c/g2-big",
+      "streamUrl": "https://www.youtube.com/watch?v=qoGPE7XPur4&t=29",
+      "steps": null,
+      "fiveA": [
+        "HeavyGod",
+        "huNter",
+        "MATYS",
+        "NertZ",
+        "SunPayus"
+      ],
+      "fiveB": [
+        "blameF",
+        "faveN",
+        "gr1ks",
+        "JDC",
+        "tabseN"
+      ]
+    },
+    {
+      "stage2Id": 2394894,
+      "blastId": "b78bd536-6dc3-484e-aab7-3d575350a86a",
+      "day": "2026-06-08",
+      "bo": 3,
+      "a": "M80",
+      "b": "Legacy",
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Dust2",
+          8,
+          13
+        ],
+        [
+          "Inferno",
+          13,
+          16
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/b78bd536/m80-legacy",
+      "streamUrl": "https://www.youtube.com/watch?v=wbSMLzGuTAU&t=31",
+      "steps": null,
+      "fiveA": [
+        "JBa",
+        "Lake",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ],
+      "fiveB": [
+        "arT",
+        "dumau",
+        "latto",
+        "n1ssim",
+        "saadzin"
+      ]
+    },
+    {
+      "stage2Id": 2394895,
+      "blastId": "9689e841-33b1-4a11-b7b1-5347b471c0dd",
+      "day": "2026-06-09",
+      "bo": 3,
+      "a": "Monte",
+      "b": "paiN",
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Nuke",
+          13,
+          5
+        ],
+        [
+          "Dust2",
+          13,
+          11
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/9689e841/monte-pain",
+      "streamUrl": "https://www.youtube.com/watch?v=Iq1O_Dzprso&t=16",
+      "steps": null,
+      "fiveA": [
+        "afro",
+        "AZUWU",
+        "Bymas",
+        "Gizmy",
+        "Rainwaker"
+      ],
+      "fiveB": [
+        "biguzera",
+        "piriajr",
+        "saffee",
+        "snow",
+        "V$M"
+      ]
+    },
+    {
+      "stage2Id": 2394896,
+      "blastId": "dc79c601-d1d2-4b38-a084-b9a7a462c340",
+      "day": "2026-06-09",
+      "bo": 3,
+      "a": "TYLOO",
+      "b": "Legacy",
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Mirage",
+          7,
+          13
+        ],
+        [
+          "Inferno",
+          4,
+          13
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/dc79c601/tyloo-legacy",
+      "streamUrl": "https://www.youtube.com/watch?v=0XR6hQFen_Y&t=30",
+      "steps": null,
+      "fiveA": [
+        "JamYoung",
+        "Jee",
+        "Mercury",
+        "Moseyuh",
+        "zero"
+      ],
+      "fiveB": [
+        "arT",
+        "dumau",
+        "latto",
+        "n1ssim",
+        "saadzin"
+      ]
+    },
+    {
+      "stage2Id": 2394897,
+      "blastId": "d32787bd-b59b-4345-9ccb-28a167fc2373",
+      "day": "2026-06-09",
+      "bo": 3,
+      "a": "BIG",
+      "b": "B8",
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Ancient",
+          13,
+          7
+        ],
+        [
+          "Overpass",
+          6,
+          13
+        ],
+        [
+          "Dust2",
+          8,
+          13
+        ]
+      ],
+      "sourceUrl": "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match/d32787bd/big-b8",
+      "streamUrl": "https://www.youtube.com/watch?v=_ZiCfw1zujY&t=29",
+      "steps": null,
+      "fiveA": [
+        "blameF",
+        "faveN",
+        "gr1ks",
+        "JDC",
+        "tabseN"
+      ],
+      "fiveB": [
+        "alex666",
+        "esenthial",
+        "kensizor",
+        "npl",
+        "s1zzi"
+      ]
+    }
+  ]
+}

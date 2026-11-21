@@ -1,0 +1,758 @@
+{
+  "id": "elisa-spring-2024",
+  "label": "Elisa Invitational Spring 2024 Main Swiss",
+  "start": "2024-04-08",
+  "end": "2024-05-02",
+  "cutoffExclusive": "2024-04-08",
+  "firstScheduledUtc": "2024-04-08T09:00:00Z",
+  "allBo3": true,
+  "entrants": [
+    "ex-Preasy",
+    "ECSTATIC",
+    "Enterprise",
+    "SINNERS",
+    "EYEBALLERS",
+    "HAVU",
+    "Alliance",
+    "B8",
+    "MOUZ NXT",
+    "Zero Tenacity",
+    "BLEED",
+    "Permitta",
+    "ALTERNATE aTTaX",
+    "Espionage",
+    "Endpoint",
+    "ECF"
+  ],
+  "teams": [
+    {
+      "seed": 1,
+      "name": "ex-Preasy",
+      "roster": [
+        "Altekz",
+        "Kristou",
+        "refrezh",
+        "roeJ",
+        "TMB"
+      ],
+      "rosterDay": "2024-04-07",
+      "rosterSource": "https://hltv.org/matches/2370434/ex-preasy-vs-zero-tenacity-a1-gaming-league-season-8",
+      "rosterEvidence": "prior played series",
+      "lastSeriesDay": "2024-04-07",
+      "lastSeriesRoster": [
+        "Altekz",
+        "Kristou",
+        "refrezh",
+        "roeJ",
+        "TMB"
+      ],
+      "lastSeriesSource": "https://hltv.org/matches/2370434/ex-preasy-vs-zero-tenacity-a1-gaming-league-season-8",
+      "unknownSeats": 0,
+      "rank": 22,
+      "points": 1118,
+      "ratingTeam": "Preasy",
+      "vrsRoster": [
+        "dupreeh",
+        "refrezh",
+        "TMB",
+        "roeJ",
+        "Altekz"
+      ],
+      "overlap": 4,
+      "vrsEligible": true
+    },
+    {
+      "seed": 2,
+      "name": "ECSTATIC",
+      "roster": [
+        "kraghen",
+        "Nodios",
+        "Patti",
+        "Queenix",
+        "salazar"
+      ],
+      "rosterDay": "2024-04-04",
+      "rosterSource": "https://hltv.org/matches/2370958/ecstatic-vs-jano-thunderpick-world-championship-2024-eu-closed-qualifier-1",
+      "rosterEvidence": "prior played series",
+      "lastSeriesDay": "2024-04-04",
+      "lastSeriesRoster": [
+        "kraghen",
+        "Nodios",
+        "Patti",
+        "Queenix",
+        "salazar"
+      ],
+      "lastSeriesSource": "https://hltv.org/matches/2370958/ecstatic-vs-jano-thunderpick-world-championship-2024-eu-closed-qualifier-1",
+      "unknownSeats": 0,
+      "rank": 21,
+      "points": 1127,
+      "ratingTeam": "ECSTATIC",
+      "vrsRoster": [
+        "Nodios",
+        "Patti",
+        "Queenix",
+        "kraghen",
+        "salazar"
+      ],
+      "overlap": 5,
+      "vrsEligible": true
+    },
+    {
+      "seed": 3,
+      "name": "Enterprise",
+      "roster": [
+        "bajmi",
+        "Demho",
+        "ex1st",
+        "fr3nd",
+        "TOAO"
+      ],
+      "rosterDay": "2024-04-06",
+      "rosterSource": "https://hltv.org/matches/2370432/enterprise-vs-sampi-a1-gaming-league-season-8",
+      "rosterEvidence": "prior played series",
+      "lastSeriesDay": "2024-04-06",
+      "lastSeriesRoster": [
+        "bajmi",
+        "Demho",
+        "ex1st",
+        "fr3nd",
+        "TOAO"
+      ],
+      "lastSeriesSource": "https://hltv.org/matches/2370432/enterprise-vs-sampi-a1-gaming-league-season-8",
+      "unknownSeats": 0,
+      "rank": 31,
+      "points": 996,
+      "ratingTeam": "Enterprise",
+      "vrsRoster": [
+        "TOAO",
+        "Demho",
+        "fr3nd",
+        "bajmi",
+        "ex1st"
+      ],
+      "overlap": 5,
+      "vrsEligible": true
+    },
+    {
+      "seed": 4,
+      "name": "SINNERS",
+      "roster": [
+        "AJTT",
+        "beastik",
+        "NEOFRAG",
+        "oskar",
+        "SHOCK"
+      ],
+      "rosterDay": "2024-04-05",
+      "rosterSource": "https://hltv.org/matches/2370963/nexus-vs-sinners-thunderpick-world-championship-2024-eu-closed-qualifier-1",
+      "rosterEvidence": "prior played series",
+      "lastSeriesDay": "2024-04-05",
+      "lastSeriesRoster": [
+        "AJTT",
+        "beastik",
+        "NEOFRAG",
+        "oskar",
+        "SHOCK"
+      ],
+      "lastSeriesSource": "https://hltv.org/matches/2370963/nexus-vs-sinners-thunderpick-world-championship-2024-eu-closed-qualifier-1",
+      "unknownSeats": 0,
+      "rank": 34,
+      "points": 967,
+      "ratingTeam": "SINNERS",
+      "vrsRoster": [
+        "oskar",
+        "beastik",
+        "SHOCK",
+        "AJTT",
+        "NEOFRAG"
+      ],
+      "overlap": 5,
+      "vrsEligible": true
+    },
+    {
+      "seed": 5,
+      "name": "EYEBALLERS",
+      "roster": [
+        "Golden",
+        "HEAP",
+        "JW",
+        "Peppzor",
+        "Sapec"
+      ],
+      "rosterDay": "2024-04-07",
+      "rosterSource": "https://hltv.org/matches/2371174/metizport-vs-eyeballers-luckycasino-cup-2024",
+      "rosterEvidence": "prior played series",
+      "lastSeriesDay": "2024-04-07",
+      "lastSeriesRoster": [
+        "Golden",
+        "HEAP",
+        "JW",
+        "Peppzor",
+        "Sapec"
+      ],
+      "lastSeriesSource": "https://hltv.org/matches/2371174/metizport-vs-eyeballers-luckycasino-cup-2024",
+      "unknownSeats": 0,
+      "rank": 33,
+      "points": 968,
+      "ratingTeam": "EYEBALLERS",
+      "vrsRoster": [
+        "JW",
+        "Sapec",
+        "Peppzor",
+        "HEAP",
+        "SHiNE"
+      ],
+      "overlap": 4,
+      "vrsEligible": true
+    },
+    {
+      "seed": 6,
+      "name": "HAVU",
+      "roster": [
+        "Airax",
+        "Jelo",
+        "ottoNd",
+        "puuha",
+        "uli"
+      ],
+      "rosterDay": "2024-04-04",
+      "rosterSource": "https://hltv.org/matches/2371067/havu-vs-passion-ua-yalla-compass-spring-2024",
+      "rosterEvidence": "prior played series",
+      "lastSeriesDay": "2024-04-04",
+      "lastSeriesRoster": [
+        "Airax",
+        "Jelo",
+        "ottoNd",
+        "puuha",
+        "uli"
+      ],
+      "lastSeriesSource": "https://hltv.org/matches/2371067/havu-vs-passion-ua-yalla-compass-spring-2024",
+      "unknownSeats": 0,
+      "rank": 57,
+      "points": 852,
+      "ratingTeam": "HAVU",
+      "vrsRoster": [
+        "uli",
+        "ottoNd",
+        "Airax",
+        "Banjo",
+        "puuha"
+      ],
+      "overlap": 4,
+      "vrsEligible": true
+    },
+    {
+      "seed": 7,
+      "name": "Alliance",
+      "roster": [
+        "avid",
+        "b0denmaster",
+        "PlesseN",
+        "robiin",
+        "twist"
+      ],
+      "rosterDay": "2024-04-07",
+      "rosterSource": "https://hltv.org/matches/2371258/johnny-speeds-vs-alliance-luckycasino-cup-2024",
+      "rosterEvidence": "prior played series",
+      "lastSeriesDay": "2024-04-07",
+      "lastSeriesRoster": [
+        "avid",
+        "b0denmaster",
+        "PlesseN",
+        "robiin",
+        "twist"
+      ],
+      "lastSeriesSource": "https://hltv.org/matches/2371258/johnny-speeds-vs-alliance-luckycasino-cup-2024",
+      "unknownSeats": 0,
+      "rank": 47,
+      "points": 889,
+      "ratingTeam": "Alliance",
+      "vrsRoster": [
+        "twist",
+        "robiin",
+        "PlesseN",
+        "b0denmaster",
+        "avid"
+      ],
+      "overlap": 5,
+      "vrsEligible": true
+    },
+    {
+      "seed": 8,
+      "name": "B8",
+      "roster": [
+        "baz",
+        "cptkurtka023",
+        "esenthial",
+        "headtr1ck",
+        "npl"
+      ],
+      "rosterDay": "2024-04-05",
+      "rosterSource": "https://www.hltv.org/news/38706/headtr1ck-set-on-b8-move",
+      "rosterEvidence": "two additions announced; outgoing OWNER attributed to HLTV reporting",
+      "lastSeriesDay": "2024-04-02",
+      "lastSeriesRoster": [
+        "baz",
+        "cptkurtka023",
+        "esenthial",
+        "npl",
+        "OWNER"
+      ],
+      "lastSeriesSource": "https://hltv.org/matches/2370985/metizport-vs-b8-esl-challenger-jnkping-2024-europe-closed-qualifier",
+      "unknownSeats": 0,
+      "rank": 71,
+      "points": 795,
+      "ratingTeam": "B8",
+      "vrsRoster": [
+        "cptkurtka023",
+        "OWNER",
+        "r1nkle",
+        "npl",
+        "esenthial"
+      ],
+      "overlap": 3,
+      "vrsEligible": true
+    },
+    {
+      "seed": 9,
+      "name": "MOUZ NXT",
+      "roster": [
+        "Burmylov",
+        "Chr1zN",
+        "Neityu",
+        "PR",
+        "sirah"
+      ],
+      "rosterDay": "2024-04-03",
+      "rosterSource": "https://hltv.org/matches/2370953/parivision-vs-mouz-nxt-thunderpick-world-championship-2024-eu-closed-qualifier-1",
+      "rosterEvidence": "prior played series",
+      "lastSeriesDay": "2024-04-03",
+      "lastSeriesRoster": [
+        "Burmylov",
+        "Chr1zN",
+        "Neityu",
+        "PR",
+        "sirah"
+      ],
+      "lastSeriesSource": "https://hltv.org/matches/2370953/parivision-vs-mouz-nxt-thunderpick-world-championship-2024-eu-closed-qualifier-1",
+      "unknownSeats": 0,
+      "rank": 42,
+      "points": 920,
+      "ratingTeam": "MOUZ NXT",
+      "vrsRoster": [
+        "Neityu",
+        "Chr1zN",
+        "PR",
+        "sirah",
+        "Burmylov"
+      ],
+      "overlap": 5,
+      "vrsEligible": true
+    },
+    {
+      "seed": 10,
+      "name": "Zero Tenacity",
+      "roster": [
+        "aVN",
+        "brutmonster",
+        "Cjoffo",
+        "nEMANHA",
+        "simke"
+      ],
+      "rosterDay": "2024-04-07",
+      "rosterSource": "https://hltv.org/matches/2370434/ex-preasy-vs-zero-tenacity-a1-gaming-league-season-8",
+      "rosterEvidence": "prior played series",
+      "lastSeriesDay": "2024-04-07",
+      "lastSeriesRoster": [
+        "aVN",
+        "brutmonster",
+        "Cjoffo",
+        "nEMANHA",
+        "simke"
+      ],
+      "lastSeriesSource": "https://hltv.org/matches/2370434/ex-preasy-vs-zero-tenacity-a1-gaming-league-season-8",
+      "unknownSeats": 0,
+      "rank": 66,
+      "points": 814,
+      "ratingTeam": "Zero Tenacity",
+      "vrsRoster": [
+        "aVN",
+        "nEMANHA",
+        "Cjoffo",
+        "brutmonster",
+        "simke"
+      ],
+      "overlap": 5,
+      "vrsEligible": true
+    },
+    {
+      "seed": 11,
+      "name": "BLEED",
+      "roster": [
+        "CeRq",
+        "CYPHER",
+        "faveN",
+        "hampus",
+        "VLDN"
+      ],
+      "rosterDay": "2024-04-05",
+      "rosterSource": "https://hltv.org/matches/2371130/betboom-vs-bleed-betboom-dacha-belgrade-2024-europe-closed-qualifier",
+      "rosterEvidence": "prior played series",
+      "lastSeriesDay": "2024-04-05",
+      "lastSeriesRoster": [
+        "CeRq",
+        "CYPHER",
+        "faveN",
+        "hampus",
+        "VLDN"
+      ],
+      "lastSeriesSource": "https://hltv.org/matches/2371130/betboom-vs-bleed-betboom-dacha-belgrade-2024-europe-closed-qualifier",
+      "unknownSeats": 0,
+      "rank": 63,
+      "points": 818,
+      "ratingTeam": "BLEED",
+      "vrsRoster": [
+        "hampus",
+        "CeRq",
+        "faveN",
+        "CYPHER",
+        "VLDN"
+      ],
+      "overlap": 5,
+      "vrsEligible": true
+    },
+    {
+      "seed": 12,
+      "name": "Permitta",
+      "roster": [
+        "bnox",
+        "maaryy",
+        "mASKED",
+        "morelz",
+        "Vegi"
+      ],
+      "rosterDay": "2024-04-03",
+      "rosterSource": "https://hltv.org/matches/2370957/enterprise-vs-permitta-thunderpick-world-championship-2024-eu-closed-qualifier-1",
+      "rosterEvidence": "prior played series",
+      "lastSeriesDay": "2024-04-03",
+      "lastSeriesRoster": [
+        "bnox",
+        "maaryy",
+        "mASKED",
+        "morelz",
+        "Vegi"
+      ],
+      "lastSeriesSource": "https://hltv.org/matches/2370957/enterprise-vs-permitta-thunderpick-world-championship-2024-eu-closed-qualifier-1",
+      "unknownSeats": 0,
+      "rank": 58,
+      "points": 845,
+      "ratingTeam": "Permitta",
+      "vrsRoster": [
+        "morelz",
+        "Vegi",
+        "maaryy",
+        "bnox",
+        "mASKED"
+      ],
+      "overlap": 5,
+      "vrsEligible": true
+    },
+    {
+      "seed": 13,
+      "name": "ALTERNATE aTTaX",
+      "roster": [
+        "ArroW",
+        "awzek",
+        "FreeZe",
+        "hyped",
+        "skyye"
+      ],
+      "rosterDay": "2024-04-04",
+      "rosterSource": "https://hltv.org/matches/2371031/rebels-vs-alternate-attax-esl-challenger-league-season-47-europe",
+      "rosterEvidence": "prior played series",
+      "lastSeriesDay": "2024-04-04",
+      "lastSeriesRoster": [
+        "ArroW",
+        "awzek",
+        "FreeZe",
+        "hyped",
+        "skyye"
+      ],
+      "lastSeriesSource": "https://hltv.org/matches/2371031/rebels-vs-alternate-attax-esl-challenger-league-season-47-europe",
+      "unknownSeats": 0,
+      "rank": 72,
+      "points": 792,
+      "ratingTeam": "ALTERNATE aTTaX",
+      "vrsRoster": [
+        "awzek",
+        "FreeZe",
+        "skyye",
+        "hyped",
+        "ArroW"
+      ],
+      "overlap": 5,
+      "vrsEligible": true
+    },
+    {
+      "seed": 14,
+      "name": "Espionage",
+      "roster": [
+        "Cabbi",
+        "IceBerg",
+        "kwezz",
+        "Lucky",
+        "MistR"
+      ],
+      "rosterDay": "2024-04-06",
+      "rosterSource": "https://hltv.org/matches/2371114/espionage-vs-unity-european-pro-league-2nd-division-season-11",
+      "rosterEvidence": "prior played series",
+      "lastSeriesDay": "2024-04-06",
+      "lastSeriesRoster": [
+        "Cabbi",
+        "IceBerg",
+        "kwezz",
+        "Lucky",
+        "MistR"
+      ],
+      "lastSeriesSource": "https://hltv.org/matches/2371114/espionage-vs-unity-european-pro-league-2nd-division-season-11",
+      "unknownSeats": 0,
+      "rank": 54,
+      "points": 861,
+      "ratingTeam": "Espionage",
+      "vrsRoster": [
+        "kwezz",
+        "Lucky",
+        "Cabbi",
+        "IceBerg",
+        "MistR"
+      ],
+      "overlap": 5,
+      "vrsEligible": true
+    },
+    {
+      "seed": 15,
+      "name": "Endpoint",
+      "roster": [
+        "AZUWU",
+        "MiGHTYMAX",
+        "Surreal"
+      ],
+      "rosterDay": "2024-04-01",
+      "rosterSource": "https://www.hltv.org/news/38672/endpoint-transfer-sl3nd",
+      "rosterEvidence": "three retained British starters; replacements unconfirmed before lock",
+      "lastSeriesDay": "2024-03-15",
+      "lastSeriesRoster": [
+        "AZUWU",
+        "MiGHTYMAX",
+        "sl3nd",
+        "Surreal",
+        "swicher"
+      ],
+      "lastSeriesSource": "https://hltv.org/matches/2370297/ex-synck-vs-endpoint-elisa-invitational-spring-2024-contenders",
+      "unknownSeats": 2,
+      "rank": null,
+      "points": null,
+      "ratingTeam": "Endpoint",
+      "vrsRoster": [
+        "MiGHTYMAX",
+        "HS",
+        "swicher",
+        "sl3nd",
+        "AZUWU"
+      ],
+      "overlap": 2,
+      "vrsEligible": false
+    },
+    {
+      "seed": 16,
+      "name": "ECF",
+      "roster": [
+        "amster",
+        "byr9",
+        "kensizor",
+        "Polbandana",
+        "s4ltovsk1yy"
+      ],
+      "rosterDay": "2024-03-15",
+      "rosterSource": "https://hltv.org/matches/2370298/metizport-vs-ex-eneida-elisa-invitational-spring-2024-contenders",
+      "rosterEvidence": "prior played series",
+      "lastSeriesDay": "2024-03-15",
+      "lastSeriesRoster": [
+        "amster",
+        "byr9",
+        "kensizor",
+        "Polbandana",
+        "s4ltovsk1yy"
+      ],
+      "lastSeriesSource": "https://hltv.org/matches/2370298/metizport-vs-ex-eneida-elisa-invitational-spring-2024-contenders",
+      "unknownSeats": 0,
+      "rank": 108,
+      "points": 623,
+      "ratingTeam": "ex-ENEIDA",
+      "vrsRoster": [
+        "byr9",
+        "s4ltovsk1yy",
+        "munch",
+        "Polbandana",
+        "kensizor"
+      ],
+      "overlap": 4,
+      "vrsEligible": true
+    }
+  ],
+  "direct": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "qualified": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "openingPairs": [
+    [
+      3,
+      12
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      4,
+      11
+    ],
+    [
+      1,
+      14
+    ],
+    [
+      2,
+      13
+    ],
+    [
+      6,
+      9
+    ]
+  ],
+  "opening": [
+    [
+      3,
+      12
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      4,
+      11
+    ],
+    [
+      1,
+      14
+    ],
+    [
+      2,
+      13
+    ],
+    [
+      6,
+      9
+    ]
+  ],
+  "qualifyingStage": {
+    "series": 33,
+    "lastDay": "2024-03-15",
+    "matchIds": [
+      2370087,
+      2370088,
+      2370089,
+      2370090,
+      2370091,
+      2370092,
+      2370093,
+      2370094,
+      2370254,
+      2370255,
+      2370256,
+      2370257,
+      2370258,
+      2370259,
+      2370260,
+      2370261,
+      2370282,
+      2370283,
+      2370284,
+      2370285,
+      2370286,
+      2370287,
+      2370288,
+      2370289,
+      2370290,
+      2370291,
+      2370292,
+      2370293,
+      2370294,
+      2370295,
+      2370296,
+      2370297,
+      2370298
+    ]
+  },
+  "seedSource": "one-based organizer list position; no official performance seeding recovered",
+  "pool": [
+    "Ancient",
+    "Anubis",
+    "Inferno",
+    "Mirage",
+    "Nuke",
+    "Overpass",
+    "Vertigo"
+  ],
+  "ratings": {
+    "date": "2024-03-04",
+    "publishedAt": "2024-03-04T23:55:04Z",
+    "region": "Europe",
+    "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/99a0ba5fff938345d10d500f8b29cd297076573e/standings_europe.md",
+    "sha256": "f5d3fbc3a16556d61b2bc3f46db6ee18a45c808e4dfc944a3d25c9477a205d0a",
+    "eligible": 15,
+    "missing": [
+      "Endpoint"
+    ]
+  },
+  "sources": [
+    "https://elisaesports.com/2024/04/05/elisa-invitational-spring-2024-main-swiss-viewers-guide/",
+    "https://www.hltv.org/events/7701/elisa-invitational-spring-2024-contenders",
+    "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/99a0ba5fff938345d10d500f8b29cd297076573e/standings_europe.md",
+    "https://www.hltv.org/news/38706/headtr1ck-set-on-b8-move",
+    "https://www.hltv.org/news/38672/endpoint-transfer-sl3nd"
+  ]
+}

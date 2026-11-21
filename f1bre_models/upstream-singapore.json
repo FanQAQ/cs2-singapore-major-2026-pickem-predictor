@@ -1,0 +1,193 @@
+{
+  "id": "singapore",
+  "stage": 1,
+  "source": "https://www.xiaoheihe.cn/app/bbs/link/197229714",
+  "author": "F1bre",
+  "authorProfile": "https://www.xiaoheihe.cn/app/user/profile/8114810",
+  "published": "2026-11-18T11:38:23Z",
+  "sourceLastModified": "2026-11-21T07:37:15Z",
+  "observedAt": "2026-11-21T11:03:59Z",
+  "sourceRateLabel": "模拟验证通过率",
+  "rateMeaning": "作者图示的独立模拟中命中至少 5 项的比例；ML 图注明只在已保存的前三套候选中按独立模拟验证通过率排序。",
+  "tierLabels": {
+    "perfect": "3-0",
+    "advance": "3-X（3-1 或 3-2）",
+    "zero": "0-3"
+  },
+  "canonicalNames": {
+    "GOSH / BC.Game": "GOSH"
+  },
+  "publicationEvidence": "平台搜索返回原帖创建和最后修改时间；五张图的 CDN 路径日期为 2026-11-19。observedAt 是本次独立核对的最晚时刻，不保证五图均随初稿发布。",
+  "conflictingStrengthEvidence": "原帖搜索摘要写 DENDELE 加入 Sharks 历史后初始 Elo 约从 762 升到 1187。第 3 图仍标为初始 762.4、最终 936.6，无法据该图重建修正后的胜率矩阵。",
+  "figures": [
+    {
+      "figure": 1,
+      "sourceImage": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/04a7bb8c0e3a84c5670a3bffd44388ee/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+      "description": "ELO-TOP1 至 ELO-TOP3"
+    },
+    {
+      "figure": 2,
+      "sourceImage": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/968fa99dd99faa38318e1f4c1f03ca2e/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+      "description": "Elo 四栏队伍边际概率和简单排序示例"
+    },
+    {
+      "figure": 3,
+      "sourceImage": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/ff12a0caa199c0b177f3b816ae9c383c/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+      "description": "Elo 各队强度表；DENDELE 行与原帖摘要不一致"
+    },
+    {
+      "figure": 4,
+      "sourceImage": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/1e20da7540425b2dc3c4cd98d0722de4/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+      "description": "ML-TOP1 至 ML-TOP3"
+    },
+    {
+      "figure": 5,
+      "sourceImage": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/c678973b77e529fe0613b6011dcfa4d6/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+      "description": "ML 四栏队伍边际概率和简单排序示例"
+    }
+  ],
+  "methods": {
+    "elo": [
+      {
+        "rank": 1,
+        "perfect": [
+          "Liquid",
+          "100 Thieves"
+        ],
+        "advance": [
+          "Ninjas in Pyjamas",
+          "PARIVISION",
+          "HEROIC",
+          "Eternal Fire",
+          "M80",
+          "Imperial"
+        ],
+        "zero": [
+          "GOSH",
+          "Chinggis Warriors"
+        ],
+        "rate": "17.00%",
+        "complete": true,
+        "figure": 1,
+        "sourceImage": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/04a7bb8c0e3a84c5670a3bffd44388ee/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp"
+      },
+      {
+        "rank": 2,
+        "perfect": [
+          "Liquid",
+          "100 Thieves"
+        ],
+        "advance": [
+          "Ninjas in Pyjamas",
+          "PARIVISION",
+          "HEROIC",
+          "9z",
+          "M80",
+          "Imperial"
+        ],
+        "zero": [
+          "GOSH",
+          "Chinggis Warriors"
+        ],
+        "rate": "16.80%",
+        "complete": true,
+        "figure": 1,
+        "sourceImage": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/04a7bb8c0e3a84c5670a3bffd44388ee/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp"
+      },
+      {
+        "rank": 3,
+        "perfect": [
+          "Liquid",
+          "100 Thieves"
+        ],
+        "advance": [
+          "Ninjas in Pyjamas",
+          "PARIVISION",
+          "HEROIC",
+          "M80",
+          "DENDELE",
+          "Imperial"
+        ],
+        "zero": [
+          "GOSH",
+          "Chinggis Warriors"
+        ],
+        "rate": "16.72%",
+        "complete": true,
+        "figure": 1,
+        "sourceImage": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/04a7bb8c0e3a84c5670a3bffd44388ee/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp"
+      }
+    ],
+    "ml": [
+      {
+        "rank": 1,
+        "perfect": [
+          "Ninjas in Pyjamas",
+          "100 Thieves"
+        ],
+        "advance": [
+          "PARIVISION",
+          "HEROIC",
+          "FaZe",
+          "DENDELE",
+          "FlyQuest",
+          "Lynn Vision"
+        ],
+        "zero": [
+          "GOSH",
+          "Chinggis Warriors"
+        ],
+        "rate": "20.66%",
+        "complete": true,
+        "figure": 4,
+        "sourceImage": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/1e20da7540425b2dc3c4cd98d0722de4/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp"
+      },
+      {
+        "rank": 2,
+        "perfect": [
+          "Ninjas in Pyjamas",
+          "100 Thieves"
+        ],
+        "advance": [
+          "PARIVISION",
+          "HEROIC",
+          "Liquid",
+          "DENDELE",
+          "FlyQuest",
+          "Lynn Vision"
+        ],
+        "zero": [
+          "GOSH",
+          "Chinggis Warriors"
+        ],
+        "rate": "20.51%",
+        "complete": true,
+        "figure": 4,
+        "sourceImage": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/1e20da7540425b2dc3c4cd98d0722de4/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp"
+      },
+      {
+        "rank": 3,
+        "perfect": [
+          "Ninjas in Pyjamas",
+          "100 Thieves"
+        ],
+        "advance": [
+          "PARIVISION",
+          "HEROIC",
+          "DENDELE",
+          "Wildcard",
+          "FlyQuest",
+          "Lynn Vision"
+        ],
+        "zero": [
+          "GOSH",
+          "Chinggis Warriors"
+        ],
+        "rate": "20.40%",
+        "complete": true,
+        "figure": 4,
+        "sourceImage": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/1e20da7540425b2dc3c4cd98d0722de4/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp"
+      }
+    ]
+  }
+}

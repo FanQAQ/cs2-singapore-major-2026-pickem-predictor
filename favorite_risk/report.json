@@ -1,0 +1,581 @@
+{
+  "asOf": "2026-11-21",
+  "seeds": [
+    1151,
+    98761,
+    148367,
+    298451
+  ],
+  "pathsPerStage": 40000,
+  "stages": {
+    "singapore": {
+      "model": {
+        "teams": [
+          {
+            "name": "Ninjas in Pyjamas",
+            "qualify": 0.713
+          },
+          {
+            "name": "Eternal Fire",
+            "qualify": 0.712417
+          },
+          {
+            "name": "HEROIC",
+            "qualify": 0.709917
+          },
+          {
+            "name": "PARIVISION",
+            "qualify": 0.656167
+          }
+        ],
+        "counts": [
+          8074,
+          18270,
+          11242,
+          2274,
+          140
+        ],
+        "atLeastOne": 0.79815,
+        "atLeastTwo": 0.3414,
+        "perSeed": [
+          0.7942,
+          0.7946,
+          0.8014,
+          0.8024
+        ],
+        "actualOut": null
+      },
+      "seeds": {
+        "teams": [
+          {
+            "name": "Ninjas in Pyjamas",
+            "qualify": 0.713
+          },
+          {
+            "name": "PARIVISION",
+            "qualify": 0.656167
+          },
+          {
+            "name": "HEROIC",
+            "qualify": 0.709917
+          },
+          {
+            "name": "FaZe",
+            "qualify": 0.643708
+          }
+        ],
+        "counts": [
+          7185,
+          17809,
+          12123,
+          2721,
+          162
+        ],
+        "atLeastOne": 0.820375,
+        "atLeastTwo": 0.37515,
+        "perSeed": [
+          0.8246,
+          0.8233,
+          0.8172,
+          0.8164
+        ],
+        "actualOut": null
+      },
+      "card": {
+        "actual": null,
+        "scoreHistogram": [
+          181,
+          1934,
+          6553,
+          10767,
+          10305,
+          6647,
+          2754,
+          713,
+          135,
+          9,
+          2
+        ],
+        "atOrBelowObserved": null
+      }
+    },
+    "austin": {
+      "model": {
+        "teams": [
+          {
+            "name": "HEROIC",
+            "qualify": 0.928875
+          },
+          {
+            "name": "Complexity",
+            "qualify": 0.775708
+          },
+          {
+            "name": "BetBoom",
+            "qualify": 0.663167
+          },
+          {
+            "name": "TYLOO",
+            "qualify": 0.646167
+          }
+        ],
+        "counts": [
+          11008,
+          19293,
+          8635,
+          1037,
+          27
+        ],
+        "atLeastOne": 0.7248,
+        "atLeastTwo": 0.242475,
+        "perSeed": [
+          0.734,
+          0.7192,
+          0.7223,
+          0.7237
+        ],
+        "actualOut": [
+          "Complexity"
+        ]
+      },
+      "seeds": {
+        "teams": [
+          {
+            "name": "Complexity",
+            "qualify": 0.775708
+          },
+          {
+            "name": "HEROIC",
+            "qualify": 0.928875
+          },
+          {
+            "name": "B8",
+            "qualify": 0.628875
+          },
+          {
+            "name": "BetBoom",
+            "qualify": 0.663167
+          }
+        ],
+        "counts": [
+          10888,
+          19344,
+          8606,
+          1129,
+          33
+        ],
+        "atLeastOne": 0.7278,
+        "atLeastTwo": 0.2442,
+        "perSeed": [
+          0.7265,
+          0.7285,
+          0.7276,
+          0.7286
+        ],
+        "actualOut": [
+          "Complexity"
+        ]
+      },
+      "card": {
+        "actual": 8,
+        "scoreHistogram": [
+          166,
+          1695,
+          5809,
+          9891,
+          10808,
+          7270,
+          3153,
+          993,
+          195,
+          20,
+          0
+        ],
+        "atOrBelowObserved": 0.9995
+      }
+    },
+    "budapest": {
+      "model": {
+        "teams": [
+          {
+            "name": "Legacy",
+            "qualify": 0.821958
+          },
+          {
+            "name": "FaZe",
+            "qualify": 0.807208
+          },
+          {
+            "name": "PARIVISION",
+            "qualify": 0.775875
+          },
+          {
+            "name": "GamerLegion",
+            "qualify": 0.765958
+          }
+        ],
+        "counts": [
+          14169,
+          18864,
+          6273,
+          676,
+          18
+        ],
+        "atLeastOne": 0.645775,
+        "atLeastTwo": 0.174175,
+        "perSeed": [
+          0.6419,
+          0.6495,
+          0.6462,
+          0.6455
+        ],
+        "actualOut": [
+          "Legacy",
+          "GamerLegion"
+        ]
+      },
+      "seeds": {
+        "teams": [
+          {
+            "name": "Legacy",
+            "qualify": 0.821958
+          },
+          {
+            "name": "FaZe",
+            "qualify": 0.807208
+          },
+          {
+            "name": "B8",
+            "qualify": 0.755125
+          },
+          {
+            "name": "GamerLegion",
+            "qualify": 0.765958
+          }
+        ],
+        "counts": [
+          13687,
+          19074,
+          6560,
+          655,
+          24
+        ],
+        "atLeastOne": 0.657825,
+        "atLeastTwo": 0.180975,
+        "perSeed": [
+          0.6628,
+          0.6617,
+          0.6514,
+          0.6554
+        ],
+        "actualOut": [
+          "Legacy",
+          "GamerLegion"
+        ]
+      },
+      "card": {
+        "actual": 6,
+        "scoreHistogram": [
+          83,
+          1140,
+          4753,
+          8865,
+          10698,
+          8047,
+          4344,
+          1623,
+          393,
+          49,
+          5
+        ],
+        "atOrBelowObserved": 0.94825
+      }
+    },
+    "cologne": {
+      "model": {
+        "teams": [
+          {
+            "name": "GamerLegion",
+            "qualify": 0.88525
+          },
+          {
+            "name": "BetBoom",
+            "qualify": 0.765458
+          },
+          {
+            "name": "B8",
+            "qualify": 0.751708
+          },
+          {
+            "name": "BIG",
+            "qualify": 0.670625
+          }
+        ],
+        "counts": [
+          12388,
+          19342,
+          7413,
+          833,
+          24
+        ],
+        "atLeastOne": 0.6903,
+        "atLeastTwo": 0.20675,
+        "perSeed": [
+          0.6941,
+          0.6912,
+          0.6906,
+          0.6853
+        ],
+        "actualOut": []
+      },
+      "seeds": {
+        "teams": [
+          {
+            "name": "GamerLegion",
+            "qualify": 0.88525
+          },
+          {
+            "name": "B8",
+            "qualify": 0.751708
+          },
+          {
+            "name": "HEROIC",
+            "qualify": 0.536583
+          },
+          {
+            "name": "BetBoom",
+            "qualify": 0.765458
+          }
+        ],
+        "counts": [
+          9522,
+          19926,
+          9287,
+          1221,
+          44
+        ],
+        "atLeastOne": 0.76195,
+        "atLeastTwo": 0.2638,
+        "perSeed": [
+          0.7647,
+          0.7613,
+          0.7634,
+          0.7584
+        ],
+        "actualOut": [
+          "HEROIC"
+        ]
+      },
+      "card": {
+        "actual": 4,
+        "scoreHistogram": [
+          82,
+          1057,
+          4154,
+          8521,
+          10876,
+          8686,
+          4632,
+          1610,
+          326,
+          53,
+          3
+        ],
+        "atOrBelowObserved": 0.61725
+      }
+    },
+    "copenhagen": {
+      "model": {
+        "teams": [
+          {
+            "name": "Cloud9",
+            "qualify": 0.773208
+          },
+          {
+            "name": "Eternal Fire",
+            "qualify": 0.706167
+          },
+          {
+            "name": "ENCE",
+            "qualify": 0.670708
+          },
+          {
+            "name": "Apeks",
+            "qualify": 0.669958
+          }
+        ],
+        "counts": [
+          8188,
+          18563,
+          10996,
+          2138,
+          115
+        ],
+        "atLeastOne": 0.7953,
+        "atLeastTwo": 0.331225,
+        "perSeed": [
+          0.7985,
+          0.7909,
+          0.7949,
+          0.7969
+        ],
+        "actualOut": [
+          "ENCE",
+          "Apeks"
+        ]
+      },
+      "seeds": {
+        "teams": [
+          {
+            "name": "Cloud9",
+            "qualify": 0.773208
+          },
+          {
+            "name": "Eternal Fire",
+            "qualify": 0.706167
+          },
+          {
+            "name": "ENCE",
+            "qualify": 0.670708
+          },
+          {
+            "name": "Apeks",
+            "qualify": 0.669958
+          }
+        ],
+        "counts": [
+          8188,
+          18563,
+          10996,
+          2138,
+          115
+        ],
+        "atLeastOne": 0.7953,
+        "atLeastTwo": 0.331225,
+        "perSeed": [
+          0.7985,
+          0.7909,
+          0.7949,
+          0.7969
+        ],
+        "actualOut": [
+          "ENCE",
+          "Apeks"
+        ]
+      },
+      "card": {
+        "actual": 5,
+        "scoreHistogram": [
+          102,
+          1283,
+          5239,
+          9686,
+          11018,
+          7821,
+          3545,
+          1076,
+          209,
+          20,
+          1
+        ],
+        "atOrBelowObserved": 0.878725
+      }
+    },
+    "shanghai": {
+      "model": {
+        "teams": [
+          {
+            "name": "The MongolZ",
+            "qualify": 0.839125
+          },
+          {
+            "name": "FURIA",
+            "qualify": 0.765042
+          },
+          {
+            "name": "Liquid",
+            "qualify": 0.747625
+          },
+          {
+            "name": "Virtus.pro",
+            "qualify": 0.697958
+          }
+        ],
+        "counts": [
+          11861,
+          19187,
+          7844,
+          1075,
+          33
+        ],
+        "atLeastOne": 0.703475,
+        "atLeastTwo": 0.2238,
+        "perSeed": [
+          0.7074,
+          0.7083,
+          0.704,
+          0.6942
+        ],
+        "actualOut": [
+          "Virtus.pro"
+        ]
+      },
+      "seeds": {
+        "teams": [
+          {
+            "name": "FURIA",
+            "qualify": 0.765042
+          },
+          {
+            "name": "Virtus.pro",
+            "qualify": 0.697958
+          },
+          {
+            "name": "Liquid",
+            "qualify": 0.747625
+          },
+          {
+            "name": "Complexity",
+            "qualify": 0.647083
+          }
+        ],
+        "counts": [
+          8841,
+          18718,
+          10435,
+          1924,
+          82
+        ],
+        "atLeastOne": 0.778975,
+        "atLeastTwo": 0.311025,
+        "perSeed": [
+          0.7803,
+          0.7829,
+          0.7777,
+          0.775
+        ],
+        "actualOut": [
+          "Virtus.pro",
+          "Complexity"
+        ]
+      },
+      "card": {
+        "actual": 4,
+        "scoreHistogram": [
+          143,
+          1390,
+          5144,
+          9140,
+          10568,
+          8122,
+          3937,
+          1244,
+          281,
+          29,
+          2
+        ],
+        "atOrBelowObserved": 0.659625
+      }
+    }
+  }
+}

@@ -1,0 +1,836 @@
+{
+  "copenhagen": {
+    "label": "哥本哈根 2024",
+    "date": "2024-03-17",
+    "endDate": "2024-03-20",
+    "asOf": "2024-03-16",
+    "seeds": [
+      "Cloud9",
+      "Eternal Fire",
+      "ENCE",
+      "Apeks",
+      "HEROIC",
+      "GamerLegion",
+      "SAW",
+      "FURIA",
+      "ECSTATIC",
+      "The MongolZ",
+      "Imperial",
+      "paiN",
+      "Lynn Vision",
+      "AMKAL",
+      "KOI",
+      "Legacy"
+    ],
+    "sources": [
+      "https://www.hltv.org/news/38424/pgl-major-copenhagen-attendees-finalized",
+      "https://www.hltv.org/news/38493/official-gamerlegion-replace-9-pandas-at-copenhagen-major",
+      "https://www.hltv.org/news/38486/pgl-major-copenhagen-teams-format-schedule-prizes-talent",
+      "https://www.hltv.org/events/7258/pgl-cs2-major-copenhagen-2024-opening-stage",
+      "https://www.hltv.org/matches/2369744/fnatic-vs-koi-pgl-cs2-major-copenhagen-2024-europe-rmr-a",
+      "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+      "https://www.kaggle.com/datasets/pushbuild/open-data/versions/1"
+    ],
+    "rosters": {
+      "Cloud9": [
+        "Ax1Le",
+        "Boombl4",
+        "electronic",
+        "HObbit",
+        "Perfecto"
+      ],
+      "Eternal Fire": [
+        "Calyx",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "ENCE": [
+        "dycha",
+        "gla1ve",
+        "Goofy",
+        "hades",
+        "Kylar"
+      ],
+      "Apeks": [
+        "CacaNito",
+        "jkaem",
+        "nawwk",
+        "sense",
+        "STYKO"
+      ],
+      "HEROIC": [
+        "kyxsan",
+        "Nertz",
+        "nicoodoz",
+        "sjuush",
+        "TeSeS"
+      ],
+      "GamerLegion": [
+        "acoR",
+        "isak",
+        "Keoz",
+        "Snax",
+        "volt"
+      ],
+      "SAW": [
+        "arrozdoce",
+        "ewjerkz",
+        "MUTiRiS",
+        "rmn",
+        "story"
+      ],
+      "FURIA": [
+        "arT",
+        "chelo",
+        "FalleN",
+        "KSCERATO",
+        "yuurih"
+      ],
+      "ECSTATIC": [
+        "kraghen",
+        "Nodios",
+        "Patti",
+        "Queenix",
+        "salazar"
+      ],
+      "The MongolZ": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "senzu",
+        "Techno"
+      ],
+      "Imperial": [
+        "Decenty",
+        "felps",
+        "HEN1",
+        "noway",
+        "VINI"
+      ],
+      "paiN": [
+        "biguzera",
+        "kauez",
+        "lux",
+        "n1ssim",
+        "nqz"
+      ],
+      "Lynn Vision": [
+        "EmiliaQAQ",
+        "Jee",
+        "Starry",
+        "Westmelon",
+        "z4kr"
+      ],
+      "AMKAL": [
+        "Forester",
+        "ICY",
+        "Krad",
+        "NickelBack",
+        "TRAVIS"
+      ],
+      "KOI": [
+        "adamS",
+        "dav1g",
+        "JUST",
+        "mopoz",
+        "stadodo"
+      ],
+      "Legacy": [
+        "b4rtiN",
+        "coldzera",
+        "dumau",
+        "latto",
+        "NEKIZ"
+      ]
+    },
+    "rosterEvidence": {
+      "Cloud9": {
+        "date": "2024-03-08",
+        "matchId": "950455",
+        "tournament": "BLAST Premier: Spring Showdown 2024"
+      },
+      "Eternal Fire": {
+        "date": "2024-02-17",
+        "matchId": "10067521",
+        "tournament": "PGL CS2 Major Copenhagen 2024: European RMR A"
+      },
+      "ENCE": {
+        "date": "2024-03-12",
+        "matchId": "974357",
+        "tournament": "IEM Dallas 2024: Qualifier Europe"
+      },
+      "Apeks": {
+        "date": "2024-03-12",
+        "matchId": "974561",
+        "tournament": "IEM Dallas 2024: Qualifier Europe"
+      },
+      "HEROIC": {
+        "date": "2024-03-13",
+        "matchId": "979450",
+        "tournament": "IEM Dallas 2024: Qualifier Europe"
+      },
+      "GamerLegion": {
+        "date": "2024-03-08",
+        "matchId": "922888",
+        "tournament": "BLAST Premier: Spring Showdown 2024"
+      },
+      "SAW": {
+        "date": "2024-03-13",
+        "matchId": "963337",
+        "tournament": "ESL Challenger League Season 47 — Europe"
+      },
+      "FURIA": {
+        "date": "2024-03-03",
+        "matchId": "934502",
+        "tournament": "PGL CS2 Major Copenhagen 2024: American RMR"
+      },
+      "ECSTATIC": {
+        "date": "2024-03-04",
+        "matchId": "10067927",
+        "tournament": "RES European Series #1"
+      },
+      "The MongolZ": {
+        "date": "2024-02-28",
+        "matchId": "916982",
+        "tournament": "PGL CS2 Major Copenhagen 2024: Asia-Pacific RMR"
+      },
+      "Imperial": {
+        "date": "2024-03-08",
+        "matchId": "922890",
+        "tournament": "BLAST Premier: Spring Showdown 2024"
+      },
+      "paiN": {
+        "date": "2024-03-04",
+        "matchId": "937372",
+        "tournament": "PGL CS2 Major Copenhagen 2024: American RMR"
+      },
+      "Lynn Vision": {
+        "date": "2024-02-28",
+        "matchId": "924485",
+        "tournament": "PGL CS2 Major Copenhagen 2024: Asia-Pacific RMR"
+      },
+      "AMKAL": {
+        "date": "2024-03-05",
+        "matchId": "10068000",
+        "tournament": "IEM Dallas 2024: Qualifier Europe"
+      },
+      "KOI": {
+        "date": "2024-03-13",
+        "matchId": "10067703",
+        "tournament": "ESL Challenger League Season 47 — Europe"
+      },
+      "Legacy": {
+        "date": "2024-03-04",
+        "matchId": "937371",
+        "tournament": "PGL CS2 Major Copenhagen 2024: American RMR"
+      }
+    },
+    "rounds": [
+      [
+        [
+          "Cloud9",
+          "ECSTATIC"
+        ],
+        [
+          "Eternal Fire",
+          "The MongolZ"
+        ],
+        [
+          "paiN",
+          "Apeks"
+        ],
+        [
+          "Imperial",
+          "ENCE"
+        ],
+        [
+          "HEROIC",
+          "Lynn Vision"
+        ],
+        [
+          "SAW",
+          "KOI"
+        ],
+        [
+          "GamerLegion",
+          "AMKAL"
+        ],
+        [
+          "Legacy",
+          "FURIA"
+        ]
+      ],
+      [
+        [
+          "Eternal Fire",
+          "paiN"
+        ],
+        [
+          "ECSTATIC",
+          "The MongolZ"
+        ],
+        [
+          "HEROIC",
+          "Imperial"
+        ],
+        [
+          "Apeks",
+          "AMKAL"
+        ],
+        [
+          "Cloud9",
+          "Legacy"
+        ],
+        [
+          "ENCE",
+          "KOI"
+        ],
+        [
+          "SAW",
+          "GamerLegion"
+        ],
+        [
+          "Lynn Vision",
+          "FURIA"
+        ]
+      ],
+      [
+        [
+          "Imperial",
+          "Apeks"
+        ],
+        [
+          "paiN",
+          "ENCE"
+        ],
+        [
+          "ECSTATIC",
+          "Lynn Vision"
+        ],
+        [
+          "GamerLegion",
+          "Legacy"
+        ],
+        [
+          "HEROIC",
+          "Eternal Fire"
+        ],
+        [
+          "The MongolZ",
+          "AMKAL"
+        ],
+        [
+          "Cloud9",
+          "SAW"
+        ],
+        [
+          "FURIA",
+          "KOI"
+        ]
+      ],
+      [
+        [
+          "Eternal Fire",
+          "GamerLegion"
+        ],
+        [
+          "The MongolZ",
+          "Lynn Vision"
+        ],
+        [
+          "Legacy",
+          "Apeks"
+        ],
+        [
+          "paiN",
+          "SAW"
+        ],
+        [
+          "ECSTATIC",
+          "Imperial"
+        ],
+        [
+          "FURIA",
+          "ENCE"
+        ]
+      ],
+      [
+        [
+          "The MongolZ",
+          "Legacy"
+        ],
+        [
+          "Imperial",
+          "GamerLegion"
+        ],
+        [
+          "FURIA",
+          "SAW"
+        ]
+      ]
+    ],
+    "formats": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3
+      ]
+    ]
+  },
+  "shanghai": {
+    "label": "上海 2024",
+    "date": "2024-11-30",
+    "endDate": "2024-12-03",
+    "asOf": "2024-11-29",
+    "seeds": [
+      "FURIA",
+      "Virtus.pro",
+      "Liquid",
+      "Complexity",
+      "BIG",
+      "fnatic",
+      "The MongolZ",
+      "paiN",
+      "GamerLegion",
+      "MIBR",
+      "Cloud9",
+      "FlyQuest",
+      "Passion UA",
+      "Wildcard",
+      "Rare Atom",
+      "Imperial"
+    ],
+    "sources": [
+      "https://www.hltv.org/news/40396/perfect-world-confirms-opening-major-matches",
+      "https://www.hltv.org/news/40410/visualized-all-24-teams-at-the-shanghai-major",
+      "https://www.hltv.org/events/7861/perfect-world-shanghai-major-2024-opening-stage",
+      "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+      "https://www.kaggle.com/datasets/pushbuild/open-data/versions/1"
+    ],
+    "rosters": {
+      "FURIA": [
+        "chelo",
+        "FalleN",
+        "KSCERATO",
+        "skullz",
+        "yuurih"
+      ],
+      "Virtus.pro": [
+        "electronic",
+        "fame",
+        "FL1T",
+        "Jame",
+        "n0rb3r7"
+      ],
+      "Liquid": [
+        "jks",
+        "NAF",
+        "Twistzz",
+        "ultimate",
+        "YEKINDAR"
+      ],
+      "Complexity": [
+        "EliGE",
+        "floppy",
+        "Grim",
+        "Hallzerk",
+        "JT"
+      ],
+      "BIG": [
+        "JDC",
+        "Krimbo",
+        "rigoN",
+        "syrsoN",
+        "tabseN"
+      ],
+      "fnatic": [
+        "blameF",
+        "bodyy",
+        "KRIMZ",
+        "MATYS",
+        "nawwk"
+      ],
+      "The MongolZ": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "senzu",
+        "Techno"
+      ],
+      "paiN": [
+        "biguzera",
+        "kauez",
+        "lux",
+        "nqz",
+        "Snowzin"
+      ],
+      "GamerLegion": [
+        "FL4MUS",
+        "sl3nd",
+        "Tauson",
+        "volt",
+        "ztr"
+      ],
+      "MIBR": [
+        "drop",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "Cloud9": [
+        "Ax1Le",
+        "Boombl4",
+        "HeavyGod",
+        "ICY",
+        "interz"
+      ],
+      "FlyQuest": [
+        "aliStair",
+        "dexter",
+        "INS",
+        "Liazz",
+        "Vexite"
+      ],
+      "Passion UA": [
+        "fear",
+        "jackasmo",
+        "Jambo",
+        "s-chilla",
+        "zeRRoFIX"
+      ],
+      "Wildcard": [
+        "JBa",
+        "phzy",
+        "Sonic",
+        "stanislaw",
+        "susp"
+      ],
+      "Rare Atom": [
+        "AhaNg",
+        "ChildKing",
+        "Kaze",
+        "somebody",
+        "Summer"
+      ],
+      "Imperial": [
+        "Decenty",
+        "felps",
+        "noway",
+        "try",
+        "VINI"
+      ]
+    },
+    "rosterEvidence": {
+      "FURIA": {
+        "date": "2024-11-15",
+        "matchId": "10076096",
+        "tournament": "Perfect World Shanghai Major 2024: American RMR"
+      },
+      "Virtus.pro": {
+        "date": "2024-11-23",
+        "matchId": "1837752",
+        "tournament": "Perfect World Shanghai Major 2024: European RMR B"
+      },
+      "Liquid": {
+        "date": "2024-11-14",
+        "matchId": "1820217",
+        "tournament": "Perfect World Shanghai Major 2024: American RMR"
+      },
+      "Complexity": {
+        "date": "2024-11-14",
+        "matchId": "1820219",
+        "tournament": "Perfect World Shanghai Major 2024: American RMR"
+      },
+      "BIG": {
+        "date": "2024-11-22",
+        "matchId": "1836356",
+        "tournament": "Perfect World Shanghai Major 2024: European RMR B"
+      },
+      "fnatic": {
+        "date": "2024-11-20",
+        "matchId": "1831762",
+        "tournament": "Perfect World Shanghai Major 2024: European RMR A"
+      },
+      "The MongolZ": {
+        "date": "2024-11-12",
+        "matchId": "1813431",
+        "tournament": "Perfect World Shanghai Major 2024: Asia-Pacific RMR"
+      },
+      "paiN": {
+        "date": "2024-11-14",
+        "matchId": "1820221",
+        "tournament": "Perfect World Shanghai Major 2024: American RMR"
+      },
+      "GamerLegion": {
+        "date": "2024-11-20",
+        "matchId": "10076413",
+        "tournament": "Perfect World Shanghai Major 2024: European RMR A"
+      },
+      "MIBR": {
+        "date": "2024-11-13",
+        "matchId": "1817565",
+        "tournament": "Perfect World Shanghai Major 2024: American RMR"
+      },
+      "Cloud9": {
+        "date": "2024-11-19",
+        "matchId": "1831609",
+        "tournament": "Perfect World Shanghai Major 2024: European RMR A"
+      },
+      "FlyQuest": {
+        "date": "2024-11-13",
+        "matchId": "1819677",
+        "tournament": "Perfect World Shanghai Major 2024: Asia-Pacific RMR"
+      },
+      "Passion UA": {
+        "date": "2024-11-24",
+        "matchId": "1838915",
+        "tournament": "Perfect World Shanghai Major 2024: European RMR B"
+      },
+      "Wildcard": {
+        "date": "2024-11-13",
+        "matchId": "1817567",
+        "tournament": "Perfect World Shanghai Major 2024: American RMR"
+      },
+      "Rare Atom": {
+        "date": "2024-11-12",
+        "matchId": "1813890",
+        "tournament": "Perfect World Shanghai Major 2024: Asia-Pacific RMR"
+      },
+      "Imperial": {
+        "date": "2024-11-15",
+        "matchId": "1822888",
+        "tournament": "Perfect World Shanghai Major 2024: American RMR"
+      }
+    },
+    "rounds": [
+      [
+        [
+          "GamerLegion",
+          "FURIA"
+        ],
+        [
+          "MIBR",
+          "Virtus.pro"
+        ],
+        [
+          "Liquid",
+          "Cloud9"
+        ],
+        [
+          "FlyQuest",
+          "Complexity"
+        ],
+        [
+          "BIG",
+          "Passion UA"
+        ],
+        [
+          "Wildcard",
+          "fnatic"
+        ],
+        [
+          "The MongolZ",
+          "Rare Atom"
+        ],
+        [
+          "paiN",
+          "Imperial"
+        ]
+      ],
+      [
+        [
+          "Cloud9",
+          "fnatic"
+        ],
+        [
+          "FlyQuest",
+          "BIG"
+        ],
+        [
+          "The MongolZ",
+          "MIBR"
+        ],
+        [
+          "Passion UA",
+          "Complexity"
+        ],
+        [
+          "Virtus.pro",
+          "Rare Atom"
+        ],
+        [
+          "Liquid",
+          "Wildcard"
+        ],
+        [
+          "FURIA",
+          "Imperial"
+        ],
+        [
+          "GamerLegion",
+          "paiN"
+        ]
+      ],
+      [
+        [
+          "BIG",
+          "Virtus.pro"
+        ],
+        [
+          "Passion UA",
+          "MIBR"
+        ],
+        [
+          "FURIA",
+          "Wildcard"
+        ],
+        [
+          "paiN",
+          "Cloud9"
+        ],
+        [
+          "Liquid",
+          "FlyQuest"
+        ],
+        [
+          "Rare Atom",
+          "fnatic"
+        ],
+        [
+          "Complexity",
+          "Imperial"
+        ],
+        [
+          "The MongolZ",
+          "GamerLegion"
+        ]
+      ],
+      [
+        [
+          "FURIA",
+          "BIG"
+        ],
+        [
+          "MIBR",
+          "Rare Atom"
+        ],
+        [
+          "paiN",
+          "FlyQuest"
+        ],
+        [
+          "Complexity",
+          "Cloud9"
+        ],
+        [
+          "GamerLegion",
+          "Passion UA"
+        ],
+        [
+          "Wildcard",
+          "Virtus.pro"
+        ]
+      ],
+      [
+        [
+          "BIG",
+          "Complexity"
+        ],
+        [
+          "MIBR",
+          "FlyQuest"
+        ],
+        [
+          "Wildcard",
+          "Passion UA"
+        ]
+      ]
+    ],
+    "formats": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3
+      ]
+    ]
+  }
+}

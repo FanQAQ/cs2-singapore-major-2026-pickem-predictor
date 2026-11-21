@@ -1,0 +1,4187 @@
+{
+  "austin": {
+    "asOf": "2025-06-02",
+    "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/standings_global_2025_06_02.md",
+    "teams": [
+      {
+        "name": "Complexity",
+        "sourceName": "Complexity",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 1,
+          "intra": {
+            "n": 7,
+            "observed": 1.0,
+            "expected": 0.6094989,
+            "residual": 0.3905011
+          },
+          "cross": {
+            "n": 13,
+            "observed": 0.6153846,
+            "expected": 0.2701683,
+            "residual": 0.3452163
+          }
+        },
+        "rank": 17,
+        "points": 1433,
+        "roster": [
+          "Cxzi",
+          "Grim",
+          "junior",
+          "JT",
+          "nicx"
+        ],
+        "vrsRoster": [
+          "Cxzi",
+          "Grim",
+          "hallzerk",
+          "JT",
+          "nicx"
+        ],
+        "vrsName": "Complexity",
+        "vrsCoreOverlap": 4,
+        "form": 0.3046107,
+        "strong": 0.3207331,
+        "weak": 0.1289437,
+        "n": 21,
+        "ns": 11,
+        "nw": 7,
+        "available": 23,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_06_02/0017--complexity--cxzi-grim-hallzerk-jt-nicx.md",
+        "sameFive": 0,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 23,
+            "5": 0
+          },
+          "retained": {
+            "3": 0,
+            "4": 21,
+            "5": 0
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 2
+        }
+      },
+      {
+        "name": "HEROIC",
+        "sourceName": "HEROIC",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 17,
+            "observed": 0.7647059,
+            "expected": 0.4896388,
+            "residual": 0.2750671
+          },
+          "cross": {
+            "n": 4,
+            "observed": 1.0,
+            "expected": 0.6853847,
+            "residual": 0.3146153
+          }
+        },
+        "rank": 13,
+        "points": 1552,
+        "roster": [
+          "LNZ",
+          "SunPayus",
+          "tN1R",
+          "xfl0ud",
+          "yxngstxr"
+        ],
+        "vrsRoster": [
+          "LNZ",
+          "SunPayus",
+          "tN1R",
+          "xfl0ud",
+          "yxngstxr"
+        ],
+        "vrsName": "HEROIC",
+        "vrsCoreOverlap": 5,
+        "form": 0.2282539,
+        "strong": 0.1727272,
+        "weak": 0.0916828,
+        "n": 21,
+        "ns": 4,
+        "nw": 8,
+        "available": 22,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_06_02/0013--heroic--lnz-sunpayus-tn1r-xfl0ud-yxngstxr.md",
+        "sameFive": 22,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 22
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 21
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        }
+      },
+      {
+        "name": "B8",
+        "sourceName": "B8",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 25,
+            "observed": 0.68,
+            "expected": 0.6546808,
+            "residual": 0.0253192
+          },
+          "cross": {
+            "n": 3,
+            "observed": 1.0,
+            "expected": 0.7046154,
+            "residual": 0.2953846
+          }
+        },
+        "rank": 20,
+        "points": 1275,
+        "roster": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ],
+        "vrsRoster": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ],
+        "vrsName": "B8",
+        "vrsCoreOverlap": 5,
+        "form": 0.0460344,
+        "strong": 0.1123631,
+        "weak": -0.0159874,
+        "n": 28,
+        "ns": 2,
+        "nw": 15,
+        "available": 29,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_06_02/0020--b8--alex666-esenthial-headtr1ck-kensizor-npl.md",
+        "sameFive": 29,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 29
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 28
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        }
+      },
+      {
+        "name": "BetBoom",
+        "sourceName": "BetBoom",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 35,
+            "observed": 0.6,
+            "expected": 0.6155193,
+            "residual": -0.0155193
+          },
+          "cross": {
+            "n": 2,
+            "observed": 1.0,
+            "expected": 0.4562378,
+            "residual": 0.5437622
+          }
+        },
+        "rank": 36,
+        "points": 1102,
+        "roster": [
+          "Ax1Le",
+          "Boombl4",
+          "Magnojez",
+          "S1ren",
+          "zorte"
+        ],
+        "vrsRoster": [
+          "Ax1Le",
+          "Boombl4",
+          "Magnojez",
+          "S1ren",
+          "zorte"
+        ],
+        "vrsName": "BetBoom",
+        "vrsCoreOverlap": 5,
+        "form": 0.0129607,
+        "strong": 0.1465529,
+        "weak": -0.1156069,
+        "n": 37,
+        "ns": 1,
+        "nw": 15,
+        "available": 39,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_06_02/0036--betboom--ax1le-boombl4-magnojez-s1ren-zorte.md",
+        "sameFive": 39,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 39
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 37
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 2
+        }
+      },
+      {
+        "name": "TYLOO",
+        "sourceName": "TYLOO",
+        "regions": [
+          "asia"
+        ],
+        "region": "asia",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 22,
+            "observed": 0.7272727,
+            "expected": 0.4952443,
+            "residual": 0.2320284
+          },
+          "cross": {
+            "n": 3,
+            "observed": 0.0,
+            "expected": 0.0054938,
+            "residual": -0.0054938
+          }
+        },
+        "rank": 18,
+        "points": 1358,
+        "roster": [
+          "Attacker",
+          "JamYoung",
+          "Jee",
+          "Mercury",
+          "Moseyuh"
+        ],
+        "vrsRoster": [
+          "Attacker",
+          "JamYoung",
+          "Jee",
+          "Mercury",
+          "Moseyuh"
+        ],
+        "vrsName": "TYLOO",
+        "vrsCoreOverlap": 5,
+        "form": 0.1696048,
+        "strong": 0.2294965,
+        "weak": -0.0440419,
+        "n": 25,
+        "ns": 9,
+        "nw": 3,
+        "available": 42,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_06_02/0018--tyloo--attacker-jamyoung-jee-mercury-moseyuh.md",
+        "sameFive": 41,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 1,
+            "5": 41
+          },
+          "retained": {
+            "3": 0,
+            "4": 1,
+            "5": 24
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 17
+        }
+      },
+      {
+        "name": "Lynn Vision",
+        "sourceName": "Lynn Vision",
+        "regions": [
+          "asia"
+        ],
+        "region": "asia",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 16,
+            "observed": 0.625,
+            "expected": 0.5083735,
+            "residual": 0.1166265
+          },
+          "cross": {
+            "n": 2,
+            "observed": 0.0,
+            "expected": 0.2027784,
+            "residual": -0.2027784
+          }
+        },
+        "rank": 25,
+        "points": 1212,
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4kr"
+        ],
+        "vrsRoster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4kr"
+        ],
+        "vrsName": "Lynn Vision",
+        "vrsCoreOverlap": 5,
+        "form": 0.0634986,
+        "strong": 0.1848266,
+        "weak": -0.0438981,
+        "n": 18,
+        "ns": 3,
+        "nw": 3,
+        "available": 32,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_06_02/0025--lynn_vision--c4llm3su3-emiliaqaq-starry-westmelon-z4kr.md",
+        "sameFive": 32,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 32
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 14
+        }
+      },
+      {
+        "name": "Wildcard",
+        "sourceName": "Wildcard",
+        "regions": [
+          "europe",
+          "americas"
+        ],
+        "region": "multi",
+        "regional": {
+          "unknown": 4,
+          "intra": {
+            "n": 3,
+            "observed": 1.0,
+            "expected": 0.5304675,
+            "residual": 0.4695325
+          },
+          "cross": {
+            "n": 5,
+            "observed": 0.2,
+            "expected": 0.3405618,
+            "residual": -0.1405618
+          }
+        },
+        "rank": 48,
+        "points": 1037,
+        "roster": [
+          "JBa",
+          "phzy",
+          "Sonic",
+          "stanislaw",
+          "susp"
+        ],
+        "vrsRoster": [
+          "JBa",
+          "phzy",
+          "Sonic",
+          "stanislaw",
+          "susp"
+        ],
+        "vrsName": "Wildcard",
+        "vrsCoreOverlap": 5,
+        "form": -0.0809408,
+        "strong": 0.1103735,
+        "weak": -0.1425498,
+        "n": 12,
+        "ns": 3,
+        "nw": 6,
+        "available": 21,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_06_02/0048--wildcard--jba-phzy-sonic-stanislaw-susp.md",
+        "sameFive": 16,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 5,
+            "5": 16
+          },
+          "retained": {
+            "3": 0,
+            "4": 1,
+            "5": 11
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 9
+        }
+      },
+      {
+        "name": "FlyQuest",
+        "sourceName": "FlyQuest",
+        "regions": [
+          "asia"
+        ],
+        "region": "asia",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 9,
+            "observed": 0.6666667,
+            "expected": 0.5846888,
+            "residual": 0.0819779
+          },
+          "cross": {
+            "n": 5,
+            "observed": 0.2,
+            "expected": 0.013898,
+            "residual": 0.186102
+          }
+        },
+        "rank": 24,
+        "points": 1213,
+        "roster": [
+          "INS",
+          "Liazz",
+          "nettik",
+          "regali",
+          "Vexite"
+        ],
+        "vrsRoster": [
+          "INS",
+          "Liazz",
+          "nettik",
+          "regali",
+          "Vexite"
+        ],
+        "vrsName": "FlyQuest",
+        "vrsCoreOverlap": 5,
+        "form": 0.0878058,
+        "strong": 0.093051,
+        "weak": -0.0435857,
+        "n": 14,
+        "ns": 5,
+        "nw": 3,
+        "available": 14,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_06_02/0024--flyquest--ins-liazz-nettik-regali-vexite.md",
+        "sameFive": 13,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 1,
+            "5": 13
+          },
+          "retained": {
+            "3": 0,
+            "4": 1,
+            "5": 13
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        }
+      },
+      {
+        "name": "OG",
+        "sourceName": "OG",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 34,
+            "observed": 0.7352941,
+            "expected": 0.5400854,
+            "residual": 0.1952087
+          },
+          "cross": {
+            "n": 0,
+            "observed": null,
+            "expected": null,
+            "residual": null
+          }
+        },
+        "rank": 38,
+        "points": 1097,
+        "roster": [
+          "Buzz",
+          "Chr1zN",
+          "F1KU",
+          "nicoodoz",
+          "spooke"
+        ],
+        "vrsRoster": [
+          "Buzz",
+          "Chr1zN",
+          "F1KU",
+          "nicoodoz",
+          "spooke"
+        ],
+        "vrsName": "OG",
+        "vrsCoreOverlap": 5,
+        "form": 0.170182,
+        "strong": 0.2706238,
+        "weak": -0.0300535,
+        "n": 34,
+        "ns": 5,
+        "nw": 9,
+        "available": 35,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_06_02/0038--og--buzz-chr1zn-f1ku-nicoodoz-spooke.md",
+        "sameFive": 35,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 35
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 34
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        }
+      },
+      {
+        "name": "Chinggis Warriors",
+        "sourceName": "Chinggis Warriors",
+        "regions": [
+          "asia"
+        ],
+        "region": "asia",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 18,
+            "observed": 0.3888889,
+            "expected": 0.4911359,
+            "residual": -0.102247
+          },
+          "cross": {
+            "n": 6,
+            "observed": 0.1666667,
+            "expected": 0.3731604,
+            "residual": -0.2064937
+          }
+        },
+        "rank": 40,
+        "points": 1087,
+        "roster": [
+          "ariucle",
+          "controlez",
+          "cool4st",
+          "Efire",
+          "ROUX"
+        ],
+        "vrsRoster": [
+          "ariucle",
+          "controlez",
+          "cool4st",
+          "Efire",
+          "ROUX"
+        ],
+        "vrsName": "Chinggis Warriors",
+        "vrsCoreOverlap": 5,
+        "form": -0.1061865,
+        "strong": 0.0229357,
+        "weak": -0.2508949,
+        "n": 24,
+        "ns": 9,
+        "nw": 4,
+        "available": 45,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_06_02/0040--chinggis_warriors--ariucle-controlez-cool4st-efire-roux.md",
+        "sameFive": 14,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 31,
+            "5": 14
+          },
+          "retained": {
+            "3": 0,
+            "4": 15,
+            "5": 9
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 21
+        }
+      },
+      {
+        "name": "Imperial",
+        "sourceName": "Imperial",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 1,
+          "intra": {
+            "n": 8,
+            "observed": 0.875,
+            "expected": 0.7218692,
+            "residual": 0.1531308
+          },
+          "cross": {
+            "n": 4,
+            "observed": 0.25,
+            "expected": 0.3819191,
+            "residual": -0.1319191
+          }
+        },
+        "rank": 41,
+        "points": 1074,
+        "roster": [
+          "chayJESUS",
+          "decenty",
+          "noway",
+          "try",
+          "VINI"
+        ],
+        "vrsRoster": [
+          "chayJESUS",
+          "decenty",
+          "noway",
+          "try",
+          "VINI"
+        ],
+        "vrsName": "Imperial",
+        "vrsCoreOverlap": 5,
+        "form": 0.0332816,
+        "strong": -0.016336,
+        "weak": 0.0942343,
+        "n": 13,
+        "ns": 2,
+        "nw": 8,
+        "available": 18,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_06_02/0041--imperial--chayjesus-decenty-noway-try-vini.md",
+        "sameFive": 18,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 13
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 5
+        }
+      },
+      {
+        "name": "Nemiga",
+        "sourceName": "Nemiga",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 29,
+            "observed": 0.5862069,
+            "expected": 0.5092652,
+            "residual": 0.0769417
+          },
+          "cross": {
+            "n": 2,
+            "observed": 0.0,
+            "expected": 0.1544539,
+            "residual": -0.1544539
+          }
+        },
+        "rank": 45,
+        "points": 1045,
+        "roster": [
+          "1eeR",
+          "khaN",
+          "riskyb0b",
+          "Xant3r",
+          "zweih"
+        ],
+        "vrsRoster": [
+          "1eeR",
+          "khaN",
+          "riskyb0b",
+          "Xant3r",
+          "zweih"
+        ],
+        "vrsName": "Nemiga",
+        "vrsCoreOverlap": 5,
+        "form": 0.0534001,
+        "strong": 0.0664454,
+        "weak": -0.1365872,
+        "n": 31,
+        "ns": 6,
+        "nw": 6,
+        "available": 34,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_06_02/0045--nemiga--1eer-khan-riskyb0b-xant3r-zweih.md",
+        "sameFive": 34,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 34
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 31
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 3
+        }
+      },
+      {
+        "name": "NRG",
+        "sourceName": "NRG",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 24,
+            "observed": 0.7916667,
+            "expected": 0.6739375,
+            "residual": 0.1177292
+          },
+          "cross": {
+            "n": 3,
+            "observed": 0.0,
+            "expected": 0.2442211,
+            "residual": -0.2442211
+          }
+        },
+        "rank": 32,
+        "points": 1121,
+        "roster": [
+          "br0",
+          "HexT",
+          "Jeorge",
+          "nitr0",
+          "oSee"
+        ],
+        "vrsRoster": [
+          "br0",
+          "HexT",
+          "Jeorge",
+          "nitr0",
+          "oSee"
+        ],
+        "vrsName": "NRG",
+        "vrsCoreOverlap": 5,
+        "form": 0.0654012,
+        "strong": -0.04564,
+        "weak": 0.0764071,
+        "n": 27,
+        "ns": 3,
+        "nw": 18,
+        "available": 43,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_06_02/0032--nrg--br0-hext-jeorge-nitr0-osee.md",
+        "sameFive": 43,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 43
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 27
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 16
+        }
+      },
+      {
+        "name": "Legacy",
+        "sourceName": "Legacy",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 2,
+          "intra": {
+            "n": 24,
+            "observed": 0.625,
+            "expected": 0.6108906,
+            "residual": 0.0141094
+          },
+          "cross": {
+            "n": 5,
+            "observed": 0.0,
+            "expected": 0.018563,
+            "residual": -0.018563
+          }
+        },
+        "rank": 49,
+        "points": 1035,
+        "roster": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ],
+        "vrsRoster": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ],
+        "vrsName": "Legacy",
+        "vrsCoreOverlap": 5,
+        "form": 0.0523705,
+        "strong": 0.1288928,
+        "weak": 0.016023,
+        "n": 31,
+        "ns": 7,
+        "nw": 11,
+        "available": 46,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_06_02/0049--legacy--dumau-latto-lux-n1ssim-saadzin.md",
+        "sameFive": 46,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 46
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 31
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 15
+        }
+      },
+      {
+        "name": "Metizport",
+        "sourceName": "Metizport",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 31,
+            "observed": 0.5483871,
+            "expected": 0.5433592,
+            "residual": 0.0050279
+          },
+          "cross": {
+            "n": 1,
+            "observed": 0.0,
+            "expected": 0.3364259,
+            "residual": -0.3364259
+          }
+        },
+        "rank": 60,
+        "points": 959,
+        "roster": [
+          "adamb",
+          "hampus",
+          "isak",
+          "L00m1",
+          "Plopski"
+        ],
+        "vrsRoster": [
+          "adamb",
+          "hampus",
+          "isak",
+          "L00m1",
+          "Plopski"
+        ],
+        "vrsName": "Metizport",
+        "vrsCoreOverlap": 5,
+        "form": -0.0048801,
+        "strong": 0.0889193,
+        "weak": -0.3126435,
+        "n": 32,
+        "ns": 2,
+        "nw": 8,
+        "available": 36,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_06_02/0060--metizport--adamb-hampus-isak-l00m1-plopski.md",
+        "sameFive": 35,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 1,
+            "5": 35
+          },
+          "retained": {
+            "3": 0,
+            "4": 1,
+            "5": 31
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 4
+        }
+      },
+      {
+        "name": "Fluxo",
+        "sourceName": "Fluxo",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 25,
+            "observed": 0.64,
+            "expected": 0.6261066,
+            "residual": 0.0138934
+          },
+          "cross": {
+            "n": 0,
+            "observed": null,
+            "expected": null,
+            "residual": null
+          }
+        },
+        "rank": 55,
+        "points": 999,
+        "roster": [
+          "arT",
+          "kye",
+          "mlhzin",
+          "piriajr",
+          "zevy"
+        ],
+        "vrsRoster": [
+          "arT",
+          "kye",
+          "mlhzin",
+          "piriajr",
+          "zevy"
+        ],
+        "vrsName": "Fluxo",
+        "vrsCoreOverlap": 5,
+        "form": 0.0115778,
+        "strong": -0.0979661,
+        "weak": -0.1063398,
+        "n": 25,
+        "ns": 2,
+        "nw": 9,
+        "available": 39,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_06_02/0055--fluxo--art-kye-mlhzin-piriajr-zevy.md",
+        "sameFive": 27,
+        "coreAudit": {
+          "candidates": {
+            "3": 2,
+            "4": 10,
+            "5": 27
+          },
+          "retained": {
+            "3": 0,
+            "4": 4,
+            "5": 21
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 14
+        }
+      }
+    ]
+  },
+  "budapest": {
+    "asOf": "2025-11-03",
+    "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/standings_global_2025_11_03.md",
+    "teams": [
+      {
+        "name": "Legacy",
+        "sourceName": "Legacy",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 5,
+            "observed": 0.6,
+            "expected": 0.4165288,
+            "residual": 0.1834712
+          },
+          "cross": {
+            "n": 24,
+            "observed": 0.5,
+            "expected": 0.382943,
+            "residual": 0.117057
+          }
+        },
+        "rank": 10,
+        "points": 1748,
+        "roster": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ],
+        "vrsRoster": [
+          "dumau",
+          "latto",
+          "lux",
+          "n1ssim",
+          "saadzin"
+        ],
+        "vrsName": "Legacy",
+        "vrsCoreOverlap": 5,
+        "form": 0.1096095,
+        "strong": 0.1660832,
+        "weak": 0.0422429,
+        "n": 29,
+        "ns": 15,
+        "nw": 6,
+        "available": 29,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_11_03/0010--legacy--dumau-latto-lux-n1ssim-saadzin.md",
+        "sameFive": 29,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 29
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 29
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        }
+      },
+      {
+        "name": "FaZe",
+        "sourceName": "FaZe",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 20,
+            "observed": 0.4,
+            "expected": 0.5452341,
+            "residual": -0.1452341
+          },
+          "cross": {
+            "n": 3,
+            "observed": 0.6666667,
+            "expected": 0.4686543,
+            "residual": 0.1980124
+          }
+        },
+        "rank": 13,
+        "points": 1659,
+        "roster": [
+          "broky",
+          "frozen",
+          "karrigan",
+          "jcobbb",
+          "Twistzz"
+        ],
+        "vrsRoster": [
+          "broky",
+          "frozen",
+          "karrigan",
+          "rain",
+          "Twistzz"
+        ],
+        "vrsName": "FaZe",
+        "vrsCoreOverlap": 4,
+        "form": -0.0825231,
+        "strong": 0.088879,
+        "weak": -0.2690651,
+        "n": 23,
+        "ns": 8,
+        "nw": 10,
+        "available": 23,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_11_03/0013--faze--broky-frozen-karrigan-rain-twistzz.md",
+        "sameFive": 5,
+        "coreAudit": {
+          "candidates": {
+            "3": 2,
+            "4": 16,
+            "5": 5
+          },
+          "retained": {
+            "3": 2,
+            "4": 16,
+            "5": 5
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        }
+      },
+      {
+        "name": "B8",
+        "sourceName": "B8",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 13,
+            "observed": 0.3846154,
+            "expected": 0.4140127,
+            "residual": -0.0293973
+          },
+          "cross": {
+            "n": 8,
+            "observed": 0.5,
+            "expected": 0.440005,
+            "residual": 0.059995
+          }
+        },
+        "rank": 17,
+        "points": 1571,
+        "roster": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ],
+        "vrsRoster": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ],
+        "vrsName": "B8",
+        "vrsCoreOverlap": 5,
+        "form": 0.0037613,
+        "strong": 0.0689495,
+        "weak": -0.1361872,
+        "n": 21,
+        "ns": 10,
+        "nw": 4,
+        "available": 21,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_11_03/0017--b8--alex666-esenthial-headtr1ck-kensizor-npl.md",
+        "sameFive": 19,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 2,
+            "5": 19
+          },
+          "retained": {
+            "3": 0,
+            "4": 2,
+            "5": 19
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        }
+      },
+      {
+        "name": "GamerLegion",
+        "sourceName": "GamerLegion",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 20,
+            "observed": 0.45,
+            "expected": 0.5166401,
+            "residual": -0.0666401
+          },
+          "cross": {
+            "n": 7,
+            "observed": 0.2857143,
+            "expected": 0.4999411,
+            "residual": -0.2142268
+          }
+        },
+        "rank": 18,
+        "points": 1561,
+        "roster": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Tauson",
+          "ztr"
+        ],
+        "vrsRoster": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Tauson",
+          "ztr"
+        ],
+        "vrsName": "GamerLegion",
+        "vrsCoreOverlap": 5,
+        "form": -0.0885122,
+        "strong": 0.0196343,
+        "weak": -0.1165101,
+        "n": 27,
+        "ns": 10,
+        "nw": 13,
+        "available": 27,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_11_03/0018--gamerlegion--hypex-pr-rez-tauson-ztr.md",
+        "sameFive": 17,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 10,
+            "5": 17
+          },
+          "retained": {
+            "3": 0,
+            "4": 10,
+            "5": 17
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        }
+      },
+      {
+        "name": "fnatic",
+        "sourceName": "fnatic",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 34,
+            "observed": 0.6176471,
+            "expected": 0.6387558,
+            "residual": -0.0211087
+          },
+          "cross": {
+            "n": 6,
+            "observed": 0.5,
+            "expected": 0.447266,
+            "residual": 0.052734
+          }
+        },
+        "rank": 22,
+        "points": 1424,
+        "roster": [
+          "blameF",
+          "fear",
+          "jackasmo",
+          "jambo",
+          "KRIMZ"
+        ],
+        "vrsRoster": [
+          "blameF",
+          "fear",
+          "jackasmo",
+          "jambo",
+          "KRIMZ"
+        ],
+        "vrsName": "fnatic",
+        "vrsCoreOverlap": 5,
+        "form": -0.0089176,
+        "strong": 0.0901089,
+        "weak": -0.0914564,
+        "n": 40,
+        "ns": 8,
+        "nw": 22,
+        "available": 45,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_11_03/0022--fnatic--blamef-fear-jackasmo-jambo-krimz.md",
+        "sameFive": 8,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 37,
+            "5": 8
+          },
+          "retained": {
+            "3": 0,
+            "4": 32,
+            "5": 8
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 5
+        }
+      },
+      {
+        "name": "PARIVISION",
+        "sourceName": "PARIVISION",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 26,
+            "observed": 0.8461538,
+            "expected": 0.5384952,
+            "residual": 0.3076587
+          },
+          "cross": {
+            "n": 1,
+            "observed": 0.0,
+            "expected": 0.6973451,
+            "residual": -0.6973451
+          }
+        },
+        "rank": 23,
+        "points": 1420,
+        "roster": [
+          "AW",
+          "BELCHONOKK",
+          "Jame",
+          "nota",
+          "xiELO"
+        ],
+        "vrsRoster": [
+          "AW",
+          "BELCHONOKK",
+          "Jame",
+          "nota",
+          "xiELO"
+        ],
+        "vrsName": "PARIVISION",
+        "vrsCoreOverlap": 5,
+        "form": 0.2281806,
+        "strong": 0.3083192,
+        "weak": 0.0367814,
+        "n": 27,
+        "ns": 9,
+        "nw": 11,
+        "available": 28,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_11_03/0023--parivision--aw-belchonokk-jame-nota-xielo.md",
+        "sameFive": 28,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 28
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 27
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        }
+      },
+      {
+        "name": "Ninjas in Pyjamas",
+        "sourceName": "Ninjas in Pyjamas",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 14,
+            "observed": 0.2857143,
+            "expected": 0.637745,
+            "residual": -0.3520308
+          },
+          "cross": {
+            "n": 4,
+            "observed": 0.5,
+            "expected": 0.7122451,
+            "residual": -0.2122451
+          }
+        },
+        "rank": 29,
+        "points": 1336,
+        "roster": [
+          "ewjerkz",
+          "r1nkle",
+          "sjuush",
+          "Snappi",
+          "xKacpersky"
+        ],
+        "vrsRoster": [
+          "ewjerkz",
+          "r1nkle",
+          "sjuush",
+          "Snappi",
+          "xKacpersky"
+        ],
+        "vrsName": "Ninjas in Pyjamas",
+        "vrsCoreOverlap": 5,
+        "form": -0.2511918,
+        "strong": -0.0268012,
+        "weak": -0.2852261,
+        "n": 18,
+        "ns": 2,
+        "nw": 10,
+        "available": 19,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_11_03/0029--ninjas_in_pyjamas--ewjerkz-r1nkle-sjuush-snappi-xkacpersky.md",
+        "sameFive": 15,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 4,
+            "5": 15
+          },
+          "retained": {
+            "3": 0,
+            "4": 3,
+            "5": 15
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        }
+      },
+      {
+        "name": "Imperial",
+        "sourceName": "Imperial",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 16,
+            "observed": 0.6875,
+            "expected": 0.7337576,
+            "residual": -0.0462576
+          },
+          "cross": {
+            "n": 6,
+            "observed": 0.1666667,
+            "expected": 0.376732,
+            "residual": -0.2100653
+          }
+        },
+        "rank": 30,
+        "points": 1336,
+        "roster": [
+          "chelo",
+          "noway",
+          "skullz",
+          "try",
+          "VINI"
+        ],
+        "vrsRoster": [
+          "chelo",
+          "noway",
+          "skullz",
+          "try",
+          "VINI"
+        ],
+        "vrsName": "Imperial",
+        "vrsCoreOverlap": 5,
+        "form": -0.0740931,
+        "strong": 0.0475671,
+        "weak": -0.0905902,
+        "n": 22,
+        "ns": 4,
+        "nw": 13,
+        "available": 25,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_11_03/0030--imperial--chelo-noway-skullz-try-vini.md",
+        "sameFive": 17,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 8,
+            "5": 17
+          },
+          "retained": {
+            "3": 0,
+            "4": 8,
+            "5": 14
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 3
+        }
+      },
+      {
+        "name": "FlyQuest",
+        "sourceName": "FlyQuest",
+        "regions": [
+          "asia"
+        ],
+        "region": "asia",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 0,
+            "observed": null,
+            "expected": null,
+            "residual": null
+          },
+          "cross": {
+            "n": 10,
+            "observed": 0.4,
+            "expected": 0.2441103,
+            "residual": 0.1558897
+          }
+        },
+        "rank": 33,
+        "points": 1327,
+        "roster": [
+          "INS",
+          "jks",
+          "nettik",
+          "regali",
+          "Vexite"
+        ],
+        "vrsRoster": [
+          "INS",
+          "jks",
+          "nettik",
+          "regali",
+          "Vexite"
+        ],
+        "vrsName": "FlyQuest",
+        "vrsCoreOverlap": 5,
+        "form": 0.1039265,
+        "strong": 0.0697577,
+        "weak": 0.0155527,
+        "n": 10,
+        "ns": 8,
+        "nw": 1,
+        "available": 13,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_11_03/0033--flyquest--ins-jks-nettik-regali-vexite.md",
+        "sameFive": 13,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 13
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 10
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 3
+        }
+      },
+      {
+        "name": "Lynn Vision",
+        "sourceName": "Lynn Vision",
+        "regions": [
+          "asia"
+        ],
+        "region": "asia",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 6,
+            "observed": 0.6666667,
+            "expected": 0.6638776,
+            "residual": 0.002789
+          },
+          "cross": {
+            "n": 7,
+            "observed": 0.2857143,
+            "expected": 0.4474584,
+            "residual": -0.1617441
+          }
+        },
+        "rank": 35,
+        "points": 1269,
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4kr"
+        ],
+        "vrsRoster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4kr"
+        ],
+        "vrsName": "Lynn Vision",
+        "vrsCoreOverlap": 5,
+        "form": -0.0619708,
+        "strong": 0.0145944,
+        "weak": 0.0641409,
+        "n": 13,
+        "ns": 4,
+        "nw": 5,
+        "available": 15,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_11_03/0035--lynn_vision--c4llm3su3-emiliaqaq-starry-westmelon-z4kr.md",
+        "sameFive": 15,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 15
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 13
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 2
+        }
+      },
+      {
+        "name": "M80",
+        "sourceName": "M80",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 9,
+            "observed": 0.5555556,
+            "expected": 0.7123878,
+            "residual": -0.1568323
+          },
+          "cross": {
+            "n": 9,
+            "observed": 0.4444444,
+            "expected": 0.2527032,
+            "residual": 0.1917413
+          }
+        },
+        "rank": 39,
+        "points": 1252,
+        "roster": [
+          "HexT",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "vrsRoster": [
+          "HexT",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "vrsName": "M80",
+        "vrsCoreOverlap": 5,
+        "form": 0.01366,
+        "strong": 0.1414329,
+        "weak": -0.0595341,
+        "n": 18,
+        "ns": 6,
+        "nw": 7,
+        "available": 23,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_11_03/0039--m80--hext-lake-s1n-slaxz--swisher.md",
+        "sameFive": 23,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 23
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 5
+        }
+      },
+      {
+        "name": "Fluxo",
+        "sourceName": "Fluxo",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 20,
+            "observed": 0.45,
+            "expected": 0.5930493,
+            "residual": -0.1430493
+          },
+          "cross": {
+            "n": 3,
+            "observed": 0.0,
+            "expected": 0.071135,
+            "residual": -0.071135
+          }
+        },
+        "rank": 42,
+        "points": 1164,
+        "roster": [
+          "arT",
+          "decenty",
+          "kye",
+          "Lucaozy",
+          "zevy"
+        ],
+        "vrsRoster": [
+          "arT",
+          "decenty",
+          "kye",
+          "Lucaozy",
+          "zevy"
+        ],
+        "vrsName": "Fluxo",
+        "vrsCoreOverlap": 5,
+        "form": -0.1097997,
+        "strong": -0.0614681,
+        "weak": -0.2051152,
+        "n": 23,
+        "ns": 6,
+        "nw": 8,
+        "available": 32,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_11_03/0042--fluxo--art-decenty-kye-lucaozy-zevy.md",
+        "sameFive": 32,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 32
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 23
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 9
+        }
+      },
+      {
+        "name": "RED Canids",
+        "sourceName": "RED Canids",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 25,
+            "observed": 0.52,
+            "expected": 0.4787823,
+            "residual": 0.0412177
+          },
+          "cross": {
+            "n": 0,
+            "observed": null,
+            "expected": null,
+            "residual": null
+          }
+        },
+        "rank": 47,
+        "points": 1141,
+        "roster": [
+          "chayJESUS",
+          "drop",
+          "history",
+          "kauez",
+          "venomzera"
+        ],
+        "vrsRoster": [
+          "chayJESUS",
+          "drop",
+          "history",
+          "kauez",
+          "venomzera"
+        ],
+        "vrsName": "RED Canids",
+        "vrsCoreOverlap": 5,
+        "form": 0.0343481,
+        "strong": 0.0935795,
+        "weak": -0.1023186,
+        "n": 25,
+        "ns": 8,
+        "nw": 5,
+        "available": 30,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_11_03/0047--red_canids--chayjesus-drop-history-kauez-venomzera.md",
+        "sameFive": 18,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 12,
+            "5": 18
+          },
+          "retained": {
+            "3": 0,
+            "4": 9,
+            "5": 16
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 5
+        }
+      },
+      {
+        "name": "The Huns",
+        "sourceName": "The Huns",
+        "regions": [
+          "asia"
+        ],
+        "region": "asia",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 11,
+            "observed": 0.6363636,
+            "expected": 0.5410047,
+            "residual": 0.0953589
+          },
+          "cross": {
+            "n": 2,
+            "observed": 0.0,
+            "expected": 0.1930766,
+            "residual": -0.1930766
+          }
+        },
+        "rank": 48,
+        "points": 1136,
+        "roster": [
+          "Bart4k",
+          "cobrazera",
+          "nin9",
+          "sk0R",
+          "xerolte"
+        ],
+        "vrsRoster": [
+          "Bart4k",
+          "cobrazera",
+          "nin9",
+          "sk0R",
+          "xerolte"
+        ],
+        "vrsName": "The Huns",
+        "vrsCoreOverlap": 5,
+        "form": 0.0368219,
+        "strong": -0.0546052,
+        "weak": -0.0001681,
+        "n": 13,
+        "ns": 3,
+        "nw": 6,
+        "available": 32,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_11_03/0048--the_huns--bart4k-cobrazera-nin9-sk0r-xerolte.md",
+        "sameFive": 32,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 32
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 13
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 19
+        }
+      },
+      {
+        "name": "NRG",
+        "sourceName": "NRG",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 11,
+            "observed": 0.7272727,
+            "expected": 0.6563777,
+            "residual": 0.070895
+          },
+          "cross": {
+            "n": 3,
+            "observed": 0.3333333,
+            "expected": 0.1549046,
+            "residual": 0.1784288
+          }
+        },
+        "rank": 49,
+        "points": 1129,
+        "roster": [
+          "br0",
+          "Jeorge",
+          "daps",
+          "Sonic",
+          "XotiC"
+        ],
+        "vrsRoster": [
+          "br0",
+          "Jeorge",
+          "nitr0",
+          "Sonic",
+          "XotiC"
+        ],
+        "vrsName": "NRG",
+        "vrsCoreOverlap": 4,
+        "form": 0.0692174,
+        "strong": 0.032898,
+        "weak": 0.0777715,
+        "n": 14,
+        "ns": 4,
+        "nw": 8,
+        "available": 21,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_11_03/0049--nrg--br0-jeorge-nitr0-sonic-xotic.md",
+        "sameFive": 0,
+        "coreAudit": {
+          "candidates": {
+            "3": 10,
+            "4": 11,
+            "5": 0
+          },
+          "retained": {
+            "3": 6,
+            "4": 8,
+            "5": 0
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 7
+        }
+      },
+      {
+        "name": "Rare Atom",
+        "sourceName": "Rare Atom",
+        "regions": [
+          "asia"
+        ],
+        "region": "asia",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 14,
+            "observed": 0.5714286,
+            "expected": 0.5776095,
+            "residual": -0.006181
+          },
+          "cross": {
+            "n": 1,
+            "observed": 0.0,
+            "expected": 0.0461813,
+            "residual": -0.0461813
+          }
+        },
+        "rank": 57,
+        "points": 1071,
+        "roster": [
+          "ChildKing",
+          "L1haNg",
+          "Marek",
+          "Summer",
+          "Tiger"
+        ],
+        "vrsRoster": [
+          "ChildKing",
+          "L1haNg",
+          "Marek",
+          "Summer",
+          "Tiger"
+        ],
+        "vrsName": "Rare Atom",
+        "vrsCoreOverlap": 5,
+        "form": -0.0066357,
+        "strong": -0.0043676,
+        "weak": -0.0388285,
+        "n": 15,
+        "ns": 6,
+        "nw": 8,
+        "available": 27,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2025/details/2025_11_03/0057--rare_atom--childking-l1hang-marek-summer-tiger.md",
+        "sameFive": 11,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 16,
+            "5": 11
+          },
+          "retained": {
+            "3": 0,
+            "4": 6,
+            "5": 9
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 12
+        }
+      }
+    ]
+  },
+  "cologne": {
+    "asOf": "2026-06-01",
+    "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/standings_global_2026_06_01.md",
+    "teams": [
+      {
+        "name": "GamerLegion",
+        "sourceName": "GamerLegion",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 13,
+            "observed": 0.4615385,
+            "expected": 0.4686818,
+            "residual": -0.0071433
+          },
+          "cross": {
+            "n": 4,
+            "observed": 1.0,
+            "expected": 0.5231791,
+            "residual": 0.4768209
+          }
+        },
+        "rank": 9,
+        "points": 1724,
+        "roster": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Snax",
+          "Tauson"
+        ],
+        "vrsRoster": [
+          "hypex",
+          "PR",
+          "REZ",
+          "Snax",
+          "Tauson"
+        ],
+        "vrsName": "GamerLegion",
+        "vrsCoreOverlap": 5,
+        "form": 0.0824736,
+        "strong": 0.1579799,
+        "weak": -0.0500907,
+        "n": 17,
+        "ns": 7,
+        "nw": 7,
+        "available": 17,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_06_01/0009--gamerlegion--hypex-pr-rez-snax-tauson.md",
+        "sameFive": 17,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 17
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 17
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        }
+      },
+      {
+        "name": "B8",
+        "sourceName": "B8",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 9,
+            "observed": 0.3333333,
+            "expected": 0.3648918,
+            "residual": -0.0315585
+          },
+          "cross": {
+            "n": 4,
+            "observed": 0.75,
+            "expected": 0.533967,
+            "residual": 0.216033
+          }
+        },
+        "rank": 16,
+        "points": 1582,
+        "roster": [
+          "alex666",
+          "esenthial",
+          "kensizor",
+          "npl",
+          "s1zzi"
+        ],
+        "vrsRoster": [
+          "alex666",
+          "esenthial",
+          "kensizor",
+          "npl",
+          "s1zzi"
+        ],
+        "vrsName": "B8",
+        "vrsCoreOverlap": 5,
+        "form": 0.0322281,
+        "strong": 0.0941819,
+        "weak": -0.0007652,
+        "n": 13,
+        "ns": 6,
+        "nw": 4,
+        "available": 34,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_06_01/0016--b8--alex666-esenthial-kensizor-npl-s1zzi.md",
+        "sameFive": 34,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 34
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 13
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 21
+        }
+      },
+      {
+        "name": "HEROIC",
+        "sourceName": "HEROIC",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 16,
+            "observed": 0.375,
+            "expected": 0.5451432,
+            "residual": -0.1701432
+          },
+          "cross": {
+            "n": 5,
+            "observed": 0.4,
+            "expected": 0.4785569,
+            "residual": -0.0785569
+          }
+        },
+        "rank": 27,
+        "points": 1420,
+        "roster": [
+          "Chr1zN",
+          "nilo",
+          "susp",
+          "xfl0ud",
+          "yxngstxr"
+        ],
+        "vrsRoster": [
+          "Chr1zN",
+          "nilo",
+          "susp",
+          "xfl0ud",
+          "yxngstxr"
+        ],
+        "vrsName": "HEROIC",
+        "vrsCoreOverlap": 5,
+        "form": -0.1198106,
+        "strong": 0.1363231,
+        "weak": -0.1898881,
+        "n": 21,
+        "ns": 5,
+        "nw": 8,
+        "available": 25,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_06_01/0027--heroic--chr1zn-nilo-susp-xfl0ud-yxngstxr.md",
+        "sameFive": 25,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 25
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 21
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 4
+        }
+      },
+      {
+        "name": "BetBoom",
+        "sourceName": "BetBoom",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 15,
+            "observed": 0.7333333,
+            "expected": 0.4251684,
+            "residual": 0.3081649
+          },
+          "cross": {
+            "n": 5,
+            "observed": 0.4,
+            "expected": 0.65768,
+            "residual": -0.25768
+          }
+        },
+        "rank": 17,
+        "points": 1562,
+        "roster": [
+          "Boombl4",
+          "FL4MUS",
+          "Magnojez",
+          "d1Ledez",
+          "zorte"
+        ],
+        "vrsRoster": [
+          "Boombl4",
+          "FL4MUS",
+          "Magnojez",
+          "S1ren",
+          "zorte"
+        ],
+        "vrsName": "BetBoom",
+        "vrsCoreOverlap": 4,
+        "form": 0.133363,
+        "strong": 0.1573283,
+        "weak": -0.1155254,
+        "n": 20,
+        "ns": 6,
+        "nw": 5,
+        "available": 23,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_06_01/0017--betboom--boombl4-fl4mus-magnojez-s1ren-zorte.md",
+        "sameFive": 0,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 23,
+            "5": 0
+          },
+          "retained": {
+            "3": 0,
+            "4": 20,
+            "5": 0
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 3
+        }
+      },
+      {
+        "name": "BIG",
+        "sourceName": "BIG",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 24,
+            "observed": 0.625,
+            "expected": 0.656769,
+            "residual": -0.031769
+          },
+          "cross": {
+            "n": 1,
+            "observed": 1.0,
+            "expected": 0.6635741,
+            "residual": 0.3364259
+          }
+        },
+        "rank": 28,
+        "points": 1416,
+        "roster": [
+          "blameF",
+          "faveN",
+          "gr1ks",
+          "JDC",
+          "tabseN"
+        ],
+        "vrsRoster": [
+          "blameF",
+          "faveN",
+          "gr1ks",
+          "JDC",
+          "tabseN"
+        ],
+        "vrsName": "BIG",
+        "vrsCoreOverlap": 5,
+        "form": -0.014201,
+        "strong": 0.208347,
+        "weak": -0.1127674,
+        "n": 25,
+        "ns": 2,
+        "nw": 14,
+        "available": 33,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_06_01/0028--big--blamef-faven-gr1ks-jdc-tabsen.md",
+        "sameFive": 32,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 1,
+            "5": 32
+          },
+          "retained": {
+            "3": 0,
+            "4": 1,
+            "5": 24
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 8
+        }
+      },
+      {
+        "name": "M80",
+        "sourceName": "M80",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 5,
+            "observed": 0.6,
+            "expected": 0.5888946,
+            "residual": 0.0111054
+          },
+          "cross": {
+            "n": 13,
+            "observed": 0.5384615,
+            "expected": 0.5157091,
+            "residual": 0.0227524
+          }
+        },
+        "rank": 33,
+        "points": 1385,
+        "roster": [
+          "JBa",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "vrsRoster": [
+          "JBa",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "vrsName": "M80",
+        "vrsCoreOverlap": 5,
+        "form": 0.0152743,
+        "strong": 0.1017211,
+        "weak": -0.1159118,
+        "n": 18,
+        "ns": 5,
+        "nw": 8,
+        "available": 26,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_06_01/0033--m80--jba-lake-s1n-slaxz--swisher.md",
+        "sameFive": 26,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 26
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 8
+        }
+      },
+      {
+        "name": "MIBR",
+        "sourceName": "MIBR",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 4,
+            "observed": 0.25,
+            "expected": 0.641091,
+            "residual": -0.391091
+          },
+          "cross": {
+            "n": 7,
+            "observed": 0.5714286,
+            "expected": 0.2852732,
+            "residual": 0.2861553
+          }
+        },
+        "rank": 20,
+        "points": 1535,
+        "roster": [
+          "brnz4n",
+          "insani",
+          "kl1m",
+          "LNZ",
+          "venomzera"
+        ],
+        "vrsRoster": [
+          "brnz4n",
+          "insani",
+          "kl1m",
+          "LNZ",
+          "venomzera"
+        ],
+        "vrsName": "MIBR",
+        "vrsCoreOverlap": 5,
+        "form": 0.0274202,
+        "strong": 0.1457328,
+        "weak": -0.2426165,
+        "n": 11,
+        "ns": 6,
+        "nw": 2,
+        "available": 13,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_06_01/0020--mibr--brnz4n-insani-kl1m-lnz-venomzera.md",
+        "sameFive": 13,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 13
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 11
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 2
+        }
+      },
+      {
+        "name": "SINNERS",
+        "sourceName": "SINNERS",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 16,
+            "observed": 0.5625,
+            "expected": 0.5765105,
+            "residual": -0.0140105
+          },
+          "cross": {
+            "n": 2,
+            "observed": 1.0,
+            "expected": 0.6597519,
+            "residual": 0.3402481
+          }
+        },
+        "rank": 34,
+        "points": 1378,
+        "roster": [
+          "beastik",
+          "kisserek",
+          "MoDo",
+          "SHOCK",
+          "stressarN"
+        ],
+        "vrsRoster": [
+          "beastik",
+          "kisserek",
+          "MoDo",
+          "SHOCK",
+          "stressarN"
+        ],
+        "vrsName": "SINNERS",
+        "vrsCoreOverlap": 5,
+        "form": 0.0198403,
+        "strong": 0.0589809,
+        "weak": -0.1072928,
+        "n": 18,
+        "ns": 3,
+        "nw": 8,
+        "available": 21,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_06_01/0034--sinners--beastik-kisserek-modo-shock-stressarn.md",
+        "sameFive": 21,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 21
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 3
+        }
+      },
+      {
+        "name": "NRG",
+        "sourceName": "NRG",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 4,
+            "observed": 0.0,
+            "expected": 0.3219508,
+            "residual": -0.3219508
+          },
+          "cross": {
+            "n": 6,
+            "observed": 0.0,
+            "expected": 0.302237,
+            "residual": -0.302237
+          }
+        },
+        "rank": 52,
+        "points": 1247,
+        "roster": [
+          "br0",
+          "Grim",
+          "nitr0",
+          "oSee",
+          "Sonic"
+        ],
+        "vrsRoster": [
+          "br0",
+          "Grim",
+          "nitr0",
+          "oSee",
+          "Sonic"
+        ],
+        "vrsName": "NRG",
+        "vrsCoreOverlap": 5,
+        "form": -0.2067484,
+        "strong": -0.0850305,
+        "weak": -0.1316407,
+        "n": 10,
+        "ns": 6,
+        "nw": 1,
+        "available": 14,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_06_01/0052--nrg--br0-grim-nitr0-osee-sonic.md",
+        "sameFive": 13,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 1,
+            "5": 13
+          },
+          "retained": {
+            "3": 0,
+            "4": 1,
+            "5": 9
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 4
+        }
+      },
+      {
+        "name": "TYLOO",
+        "sourceName": "TYLOO",
+        "regions": [
+          "asia"
+        ],
+        "region": "asia",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 16,
+            "observed": 0.6875,
+            "expected": 0.6269809,
+            "residual": 0.0605191
+          },
+          "cross": {
+            "n": 8,
+            "observed": 0.25,
+            "expected": 0.256482,
+            "residual": -0.006482
+          }
+        },
+        "rank": 32,
+        "points": 1395,
+        "roster": [
+          "JamYoung",
+          "Jee",
+          "Mercury",
+          "Moseyuh",
+          "Zero"
+        ],
+        "vrsRoster": [
+          "JamYoung",
+          "Jee",
+          "Mercury",
+          "Moseyuh",
+          "Zero"
+        ],
+        "vrsName": "TYLOO",
+        "vrsCoreOverlap": 5,
+        "form": 0.0316017,
+        "strong": 0.2567885,
+        "weak": -0.035699,
+        "n": 24,
+        "ns": 9,
+        "nw": 11,
+        "available": 38,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_06_01/0032--tyloo--jamyoung-jee-mercury-moseyuh-zero.md",
+        "sameFive": 37,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 1,
+            "5": 37
+          },
+          "retained": {
+            "3": 0,
+            "4": 1,
+            "5": 23
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 14
+        }
+      },
+      {
+        "name": "Sharks",
+        "sourceName": "Sharks",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 5,
+            "observed": 0.8,
+            "expected": 0.5774225,
+            "residual": 0.2225775
+          },
+          "cross": {
+            "n": 11,
+            "observed": 0.4545455,
+            "expected": 0.5072409,
+            "residual": -0.0526955
+          }
+        },
+        "rank": 38,
+        "points": 1354,
+        "roster": [
+          "doc",
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao"
+        ],
+        "vrsRoster": [
+          "doc",
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao"
+        ],
+        "vrsName": "Sharks",
+        "vrsCoreOverlap": 5,
+        "form": 0.0253923,
+        "strong": 0.008591,
+        "weak": 0.1431981,
+        "n": 16,
+        "ns": 3,
+        "nw": 5,
+        "available": 18,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_06_01/0038--sharks--doc-gafolo-koala-maxxkor-rdnzao.md",
+        "sameFive": 18,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 18
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 16
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 2
+        }
+      },
+      {
+        "name": "Gaimin Gladiators",
+        "sourceName": "Gaimin Gladiators",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 10,
+            "observed": 0.6,
+            "expected": 0.4208258,
+            "residual": 0.1791742
+          },
+          "cross": {
+            "n": 5,
+            "observed": 0.2,
+            "expected": 0.3860988,
+            "residual": -0.1860988
+          }
+        },
+        "rank": 55,
+        "points": 1233,
+        "roster": [
+          "fer",
+          "HEN1",
+          "JOTA",
+          "Luken",
+          "NEKIZ"
+        ],
+        "vrsRoster": [
+          "felps",
+          "HEN1",
+          "JOTA",
+          "Luken",
+          "NEKIZ"
+        ],
+        "vrsName": "Gaimin Gladiators",
+        "vrsCoreOverlap": 4,
+        "form": 0.0430624,
+        "strong": 0.0450746,
+        "weak": -0.0356059,
+        "n": 15,
+        "ns": 7,
+        "nw": 3,
+        "available": 19,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_06_01/0055--gaimin_gladiators--felps-hen1-jota-luken-nekiz.md",
+        "sameFive": 2,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 17,
+            "5": 2
+          },
+          "retained": {
+            "3": 0,
+            "4": 13,
+            "5": 2
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 4
+        }
+      },
+      {
+        "name": "Liquid",
+        "sourceName": "Liquid",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 9,
+            "observed": 0.4444444,
+            "expected": 0.6087543,
+            "residual": -0.1643099
+          },
+          "cross": {
+            "n": 12,
+            "observed": 0.25,
+            "expected": 0.3265145,
+            "residual": -0.0765145
+          }
+        },
+        "rank": 45,
+        "points": 1304,
+        "roster": [
+          "EliGE",
+          "malbsMd",
+          "NAF",
+          "siuhy",
+          "ultimate"
+        ],
+        "vrsRoster": [
+          "EliGE",
+          "malbsMd",
+          "NAF",
+          "siuhy",
+          "ultimate"
+        ],
+        "vrsName": "Liquid",
+        "vrsCoreOverlap": 5,
+        "form": -0.0921909,
+        "strong": 0.0571914,
+        "weak": -0.1782413,
+        "n": 21,
+        "ns": 9,
+        "nw": 6,
+        "available": 24,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_06_01/0045--liquid--elige-malbsmd-naf-siuhy-ultimate.md",
+        "sameFive": 14,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 10,
+            "5": 14
+          },
+          "retained": {
+            "3": 0,
+            "4": 8,
+            "5": 13
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 3
+        }
+      },
+      {
+        "name": "Lynn Vision",
+        "sourceName": "Lynn Vision",
+        "regions": [
+          "asia"
+        ],
+        "region": "asia",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 7,
+            "observed": 0.8571429,
+            "expected": 0.5079837,
+            "residual": 0.3491591
+          },
+          "cross": {
+            "n": 3,
+            "observed": 0.6666667,
+            "expected": 0.3072435,
+            "residual": 0.3594232
+          }
+        },
+        "rank": 24,
+        "points": 1443,
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4KR"
+        ],
+        "vrsRoster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4KR"
+        ],
+        "vrsName": "Lynn Vision",
+        "vrsCoreOverlap": 5,
+        "form": 0.2348256,
+        "strong": 0.0776848,
+        "weak": 0.0802353,
+        "n": 10,
+        "ns": 3,
+        "nw": 2,
+        "available": 22,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_06_01/0024--lynn_vision--c4llm3su3-emiliaqaq-starry-westmelon-z4kr.md",
+        "sameFive": 22,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 22
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 10
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 12
+        }
+      },
+      {
+        "name": "THUNDER dOWNUNDER",
+        "sourceName": "THUNDER dOWNUNDER",
+        "regions": [
+          "asia"
+        ],
+        "region": "asia",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 7,
+            "observed": 0.5714286,
+            "expected": 0.5618239,
+            "residual": 0.0096047
+          },
+          "cross": {
+            "n": 0,
+            "observed": null,
+            "expected": null,
+            "residual": null
+          }
+        },
+        "rank": 64,
+        "points": 1181,
+        "roster": [
+          "aliStair",
+          "asap",
+          "dexter",
+          "Liazz",
+          "TjP"
+        ],
+        "vrsRoster": [
+          "aliStair",
+          "asap",
+          "dexter",
+          "Liazz",
+          "TjP"
+        ],
+        "vrsName": "THUNDER dOWNUNDER",
+        "vrsCoreOverlap": 5,
+        "form": 0.0056027,
+        "strong": 0.0,
+        "weak": 0.0,
+        "n": 7,
+        "ns": 0,
+        "nw": 0,
+        "available": 22,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_06_01/0064--thunder_downunder--alistair-asap-dexter-liazz-tjp.md",
+        "sameFive": 22,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 22
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 7
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 15
+        }
+      },
+      {
+        "name": "FlyQuest",
+        "sourceName": "FlyQuest",
+        "regions": [
+          "asia"
+        ],
+        "region": "asia",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 6,
+            "observed": 0.5,
+            "expected": 0.7956735,
+            "residual": -0.2956735
+          },
+          "cross": {
+            "n": 1,
+            "observed": 0.0,
+            "expected": 0.4640841,
+            "residual": -0.4640841
+          }
+        },
+        "rank": 83,
+        "points": 1112,
+        "roster": [
+          "INS",
+          "jks",
+          "nettik",
+          "story",
+          "Vexite"
+        ],
+        "vrsRoster": [
+          "INS",
+          "jks",
+          "nettik",
+          "story",
+          "Vexite"
+        ],
+        "vrsName": "FlyQuest",
+        "vrsCoreOverlap": 5,
+        "form": -0.1865104,
+        "strong": 0.0,
+        "weak": -0.1878902,
+        "n": 7,
+        "ns": 0,
+        "nw": 4,
+        "available": 12,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_06_01/0083--flyquest--ins-jks-nettik-story-vexite.md",
+        "sameFive": 12,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 12
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 7
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 5
+        }
+      }
+    ]
+  },
+  "singapore": {
+    "asOf": "2026-11-02",
+    "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/standings_global_2026_11_02.md",
+    "teams": [
+      {
+        "name": "Ninjas in Pyjamas",
+        "sourceName": "Ninjas in Pyjamas",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 27,
+            "observed": 0.5555556,
+            "expected": 0.5861758,
+            "residual": -0.0306202
+          },
+          "cross": {
+            "n": 5,
+            "observed": 0.6,
+            "expected": 0.4971326,
+            "residual": 0.1028674
+          }
+        },
+        "rank": 15,
+        "points": 1564,
+        "roster": [
+          "adamb",
+          "Krimbo",
+          "sjuush",
+          "stavn",
+          "xKacpersky"
+        ],
+        "vrsRoster": [
+          "adamb",
+          "Krimbo",
+          "sjuush",
+          "stavn",
+          "xKacpersky"
+        ],
+        "vrsName": "Ninjas in Pyjamas",
+        "vrsCoreOverlap": 5,
+        "form": -0.0084435,
+        "strong": -0.0481832,
+        "weak": -0.0857775,
+        "n": 32,
+        "ns": 7,
+        "nw": 15,
+        "available": 36,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0015--ninjas_in_pyjamas--adamb-krimbo-sjuush-stavn-xkacpersky.md",
+        "sameFive": 25,
+        "coreAudit": {
+          "candidates": {
+            "3": 3,
+            "4": 8,
+            "5": 25
+          },
+          "retained": {
+            "3": 3,
+            "4": 7,
+            "5": 22
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 4
+        }
+      },
+      {
+        "name": "PARIVISION",
+        "sourceName": "PARIVISION",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 12,
+            "observed": 0.5,
+            "expected": 0.3830751,
+            "residual": 0.1169249
+          },
+          "cross": {
+            "n": 6,
+            "observed": 0.3333333,
+            "expected": 0.2937371,
+            "residual": 0.0395963
+          }
+        },
+        "rank": 16,
+        "points": 1560,
+        "roster": [
+          "FL1T",
+          "HObbit",
+          "Jame",
+          "xiELO",
+          "zweih"
+        ],
+        "vrsRoster": [
+          "FL1T",
+          "HObbit",
+          "Jame",
+          "xiELO",
+          "zweih"
+        ],
+        "vrsName": "PARIVISION",
+        "vrsCoreOverlap": 5,
+        "form": 0.0713338,
+        "strong": 0.0593069,
+        "weak": -0.0830766,
+        "n": 18,
+        "ns": 9,
+        "nw": 2,
+        "available": 18,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0016--parivision--fl1t-hobbit-jame-xielo-zweih.md",
+        "sameFive": 12,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 6,
+            "5": 12
+          },
+          "retained": {
+            "3": 0,
+            "4": 6,
+            "5": 12
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        }
+      },
+      {
+        "name": "HEROIC",
+        "sourceName": "HEROIC",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 25,
+            "observed": 0.72,
+            "expected": 0.7052317,
+            "residual": 0.0147683
+          },
+          "cross": {
+            "n": 2,
+            "observed": 1.0,
+            "expected": 0.8449086,
+            "residual": 0.1550914
+          }
+        },
+        "rank": 18,
+        "points": 1548,
+        "roster": [
+          "Brollan",
+          "Chr1zN",
+          "MartinezSa",
+          "nilo",
+          "susp"
+        ],
+        "vrsRoster": [
+          "Brollan",
+          "Chr1zN",
+          "MartinezSa",
+          "nilo",
+          "susp"
+        ],
+        "vrsName": "HEROIC",
+        "vrsCoreOverlap": 5,
+        "form": 0.021231,
+        "strong": 0.0,
+        "weak": -0.1007781,
+        "n": 27,
+        "ns": 0,
+        "nw": 16,
+        "available": 32,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0018--heroic--brollan-chr1zn-martinezsa-nilo-susp.md",
+        "sameFive": 32,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 32
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 27
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 5
+        }
+      },
+      {
+        "name": "FaZe",
+        "sourceName": "FaZe",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 18,
+            "observed": 0.6111111,
+            "expected": 0.6503793,
+            "residual": -0.0392682
+          },
+          "cross": {
+            "n": 2,
+            "observed": 0.5,
+            "expected": 0.5425878,
+            "residual": -0.0425878
+          }
+        },
+        "rank": 20,
+        "points": 1539,
+        "roster": [
+          "frozen",
+          "JBOEN",
+          "jcobbb",
+          "Neityu",
+          "Twistzz"
+        ],
+        "vrsRoster": [
+          "frozen",
+          "JBOEN",
+          "jcobbb",
+          "Neityu",
+          "Twistzz"
+        ],
+        "vrsName": "FaZe",
+        "vrsCoreOverlap": 5,
+        "form": -0.0316801,
+        "strong": -0.0476535,
+        "weak": -0.2232681,
+        "n": 20,
+        "ns": 1,
+        "nw": 10,
+        "available": 20,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0020--faze--frozen-jboen-jcobbb-neityu-twistzz.md",
+        "sameFive": 20,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 20
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 20
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        }
+      },
+      {
+        "name": "Liquid",
+        "sourceName": "Liquid",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 8,
+            "observed": 0.75,
+            "expected": 0.6689761,
+            "residual": 0.0810239
+          },
+          "cross": {
+            "n": 18,
+            "observed": 0.3888889,
+            "expected": 0.6099956,
+            "residual": -0.2211067
+          }
+        },
+        "rank": 21,
+        "points": 1528,
+        "roster": [
+          "EliGE",
+          "Jorko",
+          "JT",
+          "malbsMd",
+          "NAF"
+        ],
+        "vrsRoster": [
+          "EliGE",
+          "Jorko",
+          "JT",
+          "malbsMd",
+          "NAF"
+        ],
+        "vrsName": "Liquid",
+        "vrsCoreOverlap": 5,
+        "form": -0.1074751,
+        "strong": 0.1210354,
+        "weak": -0.1370069,
+        "n": 26,
+        "ns": 5,
+        "nw": 16,
+        "available": 30,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0021--liquid--elige-jorko-jt-malbsmd-naf.md",
+        "sameFive": 25,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 5,
+            "5": 25
+          },
+          "retained": {
+            "3": 0,
+            "4": 5,
+            "5": 21
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 4
+        }
+      },
+      {
+        "name": "Eternal Fire",
+        "sourceName": "Eternal Fire",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 32,
+            "observed": 0.625,
+            "expected": 0.3829172,
+            "residual": 0.2420828
+          },
+          "cross": {
+            "n": 5,
+            "observed": 0.8,
+            "expected": 0.3375612,
+            "residual": 0.4624388
+          }
+        },
+        "rank": 22,
+        "points": 1513,
+        "roster": [
+          "jottAAA",
+          "Kvem",
+          "MisteM",
+          "regali",
+          "soulfly"
+        ],
+        "vrsRoster": [
+          "jottAAA",
+          "Kvem",
+          "MisteM",
+          "regali",
+          "soulfly"
+        ],
+        "vrsName": "Eternal Fire",
+        "vrsCoreOverlap": 5,
+        "form": 0.2394963,
+        "strong": 0.2324748,
+        "weak": 0.0825468,
+        "n": 37,
+        "ns": 19,
+        "nw": 4,
+        "available": 51,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0022--eternal_fire--jottaaa-kvem-mistem-regali-soulfly.md",
+        "sameFive": 47,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 4,
+            "5": 47
+          },
+          "retained": {
+            "3": 0,
+            "4": 1,
+            "5": 36
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 14
+        }
+      },
+      {
+        "name": "100 Thieves",
+        "sourceName": "100 Thieves",
+        "regions": [
+          "europe"
+        ],
+        "region": "europe",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 21,
+            "observed": 0.5714286,
+            "expected": 0.5894839,
+            "residual": -0.0180554
+          },
+          "cross": {
+            "n": 6,
+            "observed": 0.8333333,
+            "expected": 0.7061853,
+            "residual": 0.127148
+          }
+        },
+        "rank": 23,
+        "points": 1511,
+        "roster": [
+          "device",
+          "Gizmy",
+          "poiii",
+          "rain",
+          "sirah"
+        ],
+        "vrsRoster": [
+          "device",
+          "Gizmy",
+          "poiii",
+          "rain",
+          "sirah"
+        ],
+        "vrsName": "100 Thieves",
+        "vrsCoreOverlap": 5,
+        "form": 0.0119914,
+        "strong": -0.0213864,
+        "weak": -0.0096618,
+        "n": 27,
+        "ns": 2,
+        "nw": 14,
+        "available": 35,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0023--100_thieves--device-gizmy-poiii-rain-sirah.md",
+        "sameFive": 35,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 35
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 27
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 8
+        }
+      },
+      {
+        "name": "9z",
+        "sourceName": "9z",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 4,
+            "observed": 0.25,
+            "expected": 0.6091172,
+            "residual": -0.3591172
+          },
+          "cross": {
+            "n": 15,
+            "observed": 0.2666667,
+            "expected": 0.4826809,
+            "residual": -0.2160143
+          }
+        },
+        "rank": 24,
+        "points": 1490,
+        "roster": [
+          "dgt",
+          "HUASOPEEK",
+          "luchov",
+          "max",
+          "history"
+        ],
+        "vrsRoster": [
+          "dgt",
+          "HUASOPEEK",
+          "luchov",
+          "max",
+          "meyern"
+        ],
+        "vrsName": "9z",
+        "vrsCoreOverlap": 4,
+        "form": -0.1948618,
+        "strong": -0.0361612,
+        "weak": -0.1924024,
+        "n": 19,
+        "ns": 7,
+        "nw": 6,
+        "available": 19,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0024--9z--dgt-huasopeek-luchov-max-meyern.md",
+        "sameFive": 0,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 19,
+            "5": 0
+          },
+          "retained": {
+            "3": 0,
+            "4": 19,
+            "5": 0
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 0
+        }
+      },
+      {
+        "name": "M80",
+        "sourceName": "M80",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 7,
+            "observed": 0.5714286,
+            "expected": 0.4263757,
+            "residual": 0.1450529
+          },
+          "cross": {
+            "n": 18,
+            "observed": 0.4444444,
+            "expected": 0.3551985,
+            "residual": 0.089246
+          }
+        },
+        "rank": 25,
+        "points": 1489,
+        "roster": [
+          "JBa",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "vrsRoster": [
+          "JBa",
+          "Lake",
+          "s1n",
+          "slaxz-",
+          "Swisher"
+        ],
+        "vrsName": "M80",
+        "vrsCoreOverlap": 5,
+        "form": 0.0873933,
+        "strong": 0.0411545,
+        "weak": 0.1166956,
+        "n": 25,
+        "ns": 11,
+        "nw": 5,
+        "available": 26,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0025--m80--jba-lake-s1n-slaxz--swisher.md",
+        "sameFive": 26,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 26
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 25
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 1
+        }
+      },
+      {
+        "name": "DENDELE",
+        "sourceName": "DENDELE",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 14,
+            "observed": 0.5714286,
+            "expected": 0.5937603,
+            "residual": -0.0223317
+          },
+          "cross": {
+            "n": 7,
+            "observed": 0.1428571,
+            "expected": 0.402863,
+            "residual": -0.2600058
+          }
+        },
+        "rank": 29,
+        "points": 1466,
+        "roster": [
+          "doc",
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao"
+        ],
+        "vrsRoster": [
+          "doc",
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao"
+        ],
+        "vrsName": "DENDELE",
+        "vrsCoreOverlap": 5,
+        "form": -0.0820263,
+        "strong": 0.0318764,
+        "weak": -0.2150465,
+        "n": 21,
+        "ns": 6,
+        "nw": 9,
+        "available": 28,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0029--dendele--doc-gafolo-koala-maxxkor-rdnzao.md",
+        "sameFive": 28,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 28
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 21
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 7
+        }
+      },
+      {
+        "name": "Imperial",
+        "sourceName": "Imperial",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 29,
+            "observed": 0.6896552,
+            "expected": 0.5699794,
+            "residual": 0.1196757
+          },
+          "cross": {
+            "n": 0,
+            "observed": null,
+            "expected": null,
+            "residual": null
+          }
+        },
+        "rank": 35,
+        "points": 1406,
+        "roster": [
+          "chelo",
+          "decenty",
+          "noway",
+          "saadzin",
+          "VINI"
+        ],
+        "vrsRoster": [
+          "chelo",
+          "decenty",
+          "noway",
+          "saadzin",
+          "VINI"
+        ],
+        "vrsName": "Imperial",
+        "vrsCoreOverlap": 5,
+        "form": 0.1020764,
+        "strong": 0.1573777,
+        "weak": 0.0046064,
+        "n": 29,
+        "ns": 3,
+        "nw": 11,
+        "available": 41,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0035--imperial--chelo-decenty-noway-saadzin-vini.md",
+        "sameFive": 41,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 41
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 29
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 12
+        }
+      },
+      {
+        "name": "Wildcard",
+        "sourceName": "Wildcard",
+        "regions": [
+          "americas"
+        ],
+        "region": "americas",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 12,
+            "observed": 0.5833333,
+            "expected": 0.3726289,
+            "residual": 0.2107044
+          },
+          "cross": {
+            "n": 6,
+            "observed": 0.3333333,
+            "expected": 0.3273105,
+            "residual": 0.0060228
+          }
+        },
+        "rank": 38,
+        "points": 1391,
+        "roster": [
+          "Cxzi",
+          "fr3nd",
+          "HexT",
+          "nEMANHA",
+          "reck"
+        ],
+        "vrsRoster": [
+          "Cxzi",
+          "fr3nd",
+          "HexT",
+          "nEMANHA",
+          "reck"
+        ],
+        "vrsName": "Wildcard",
+        "vrsCoreOverlap": 5,
+        "form": 0.1115039,
+        "strong": 0.1667792,
+        "weak": 0.046102,
+        "n": 18,
+        "ns": 8,
+        "nw": 1,
+        "available": 24,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0038--wildcard--cxzi-fr3nd-hext-nemanha-reck.md",
+        "sameFive": 18,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 6,
+            "5": 18
+          },
+          "retained": {
+            "3": 0,
+            "4": 6,
+            "5": 12
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 6
+        }
+      },
+      {
+        "name": "GOSH",
+        "sourceName": "BC.Game",
+        "regions": [
+          "asia"
+        ],
+        "region": "asia",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 6,
+            "observed": 0.5,
+            "expected": 0.4412785,
+            "residual": 0.0587215
+          },
+          "cross": {
+            "n": 11,
+            "observed": 0.5454545,
+            "expected": 0.4379069,
+            "residual": 0.1075476
+          }
+        },
+        "rank": 45,
+        "points": 1337,
+        "roster": [
+          "asap",
+          "Magisk",
+          "mzinho",
+          "s1mple",
+          "Senzu"
+        ],
+        "vrsRoster": [
+          "asap",
+          "Magisk",
+          "mzinho",
+          "s1mple",
+          "Senzu"
+        ],
+        "vrsName": "BC.Game",
+        "vrsCoreOverlap": 5,
+        "form": 0.0697888,
+        "strong": 0.0602251,
+        "weak": 0.0098432,
+        "n": 17,
+        "ns": 9,
+        "nw": 5,
+        "available": 25,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0045--bc_game--asap-magisk-mzinho-s1mple-senzu.md",
+        "sameFive": 19,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 6,
+            "5": 19
+          },
+          "retained": {
+            "3": 0,
+            "4": 4,
+            "5": 13
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 8
+        }
+      },
+      {
+        "name": "FlyQuest",
+        "sourceName": "FlyQuest",
+        "regions": [
+          "asia"
+        ],
+        "region": "asia",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 7,
+            "observed": 0.7142857,
+            "expected": 0.6586034,
+            "residual": 0.0556823
+          },
+          "cross": {
+            "n": 0,
+            "observed": null,
+            "expected": null,
+            "residual": null
+          }
+        },
+        "rank": 48,
+        "points": 1318,
+        "roster": [
+          "aliStair",
+          "INS",
+          "jks",
+          "nettik",
+          "Vexite"
+        ],
+        "vrsRoster": [
+          "aliStair",
+          "INS",
+          "jks",
+          "nettik",
+          "Vexite"
+        ],
+        "vrsName": "FlyQuest",
+        "vrsCoreOverlap": 5,
+        "form": 0.0324813,
+        "strong": -0.029079,
+        "weak": 0.0595594,
+        "n": 7,
+        "ns": 1,
+        "nw": 3,
+        "available": 29,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0048--flyquest--alistair-ins-jks-nettik-vexite.md",
+        "sameFive": 29,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 29
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 7
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 22
+        }
+      },
+      {
+        "name": "Chinggis Warriors",
+        "sourceName": "Chinggis Warriors",
+        "regions": [
+          "asia"
+        ],
+        "region": "asia",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 11,
+            "observed": 0.5454545,
+            "expected": 0.4608212,
+            "residual": 0.0846333
+          },
+          "cross": {
+            "n": 0,
+            "observed": null,
+            "expected": null,
+            "residual": null
+          }
+        },
+        "rank": 55,
+        "points": 1272,
+        "roster": [
+          "cool4st",
+          "fury5k",
+          "ROUX",
+          "sk0R",
+          "tikuak"
+        ],
+        "vrsRoster": [
+          "cool4st",
+          "fury5k",
+          "ROUX",
+          "sk0R",
+          "tikuak"
+        ],
+        "vrsName": "Chinggis Warriors",
+        "vrsCoreOverlap": 5,
+        "form": 0.0581854,
+        "strong": 0.2067171,
+        "weak": -0.1368902,
+        "n": 11,
+        "ns": 2,
+        "nw": 1,
+        "available": 30,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0055--chinggis_warriors--cool4st-fury5k-roux-sk0r-tikuak.md",
+        "sameFive": 24,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 6,
+            "5": 24
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 11
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 19
+        }
+      },
+      {
+        "name": "Lynn Vision",
+        "sourceName": "Lynn Vision",
+        "regions": [
+          "asia"
+        ],
+        "region": "asia",
+        "regional": {
+          "unknown": 0,
+          "intra": {
+            "n": 8,
+            "observed": 0.875,
+            "expected": 0.7428407,
+            "residual": 0.1321593
+          },
+          "cross": {
+            "n": 4,
+            "observed": 0.0,
+            "expected": 0.1044012,
+            "residual": -0.1044012
+          }
+        },
+        "rank": 56,
+        "points": 1267,
+        "roster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4KR"
+        ],
+        "vrsRoster": [
+          "C4LLM3SU3",
+          "EmiliaQAQ",
+          "Starry",
+          "Westmelon",
+          "z4KR"
+        ],
+        "vrsName": "Lynn Vision",
+        "vrsCoreOverlap": 5,
+        "form": 0.0376276,
+        "strong": 0.0266211,
+        "weak": -0.0758436,
+        "n": 12,
+        "ns": 5,
+        "nw": 4,
+        "available": 21,
+        "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/f8c55f250fdef796d708aa32814587932154fa04/invitation/2026/details/2026_11_02/0056--lynn_vision--c4llm3su3-emiliaqaq-starry-westmelon-z4kr.md",
+        "sameFive": 21,
+        "coreAudit": {
+          "candidates": {
+            "3": 0,
+            "4": 0,
+            "5": 21
+          },
+          "retained": {
+            "3": 0,
+            "4": 0,
+            "5": 12
+          },
+          "belowCore": 0,
+          "unknownLineup": 0,
+          "unverified": 9
+        }
+      }
+    ]
+  }
+}

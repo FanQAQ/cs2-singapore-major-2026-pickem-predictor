@@ -1,0 +1,1827 @@
+{
+  "release": "6699d12eb5b7637c9089ea5e0574b9884d9eee04",
+  "randomCard": {
+    "total": 10090080,
+    "counts": [
+      187573,
+      1303236,
+      2934991,
+      3069184,
+      1793260,
+      639184,
+      142156,
+      18976,
+      1459,
+      60,
+      1
+    ],
+    "expected": 2.75,
+    "pass": 0.07947
+  },
+  "forecastScores": {
+    "coin": {
+      "n": 99,
+      "correct": 0,
+      "ties": 99,
+      "brier": 0.25,
+      "logLoss": 0.69315
+    },
+    "seedLadder": {
+      "n": 99,
+      "correct": 60,
+      "ties": 0,
+      "brier": 0.23501,
+      "logLoss": 0.66245
+    },
+    "vrs": {
+      "n": 99,
+      "correct": 61,
+      "ties": 0,
+      "brier": 0.2302,
+      "logLoss": 0.65151
+    },
+    "pooled": {
+      "n": 99,
+      "correct": 64,
+      "ties": 0,
+      "brier": 0.2329,
+      "logLoss": 0.65645
+    },
+    "v2": {
+      "n": 99,
+      "correct": 59,
+      "ties": 0,
+      "brier": 0.23283,
+      "logLoss": 0.65651
+    }
+  },
+  "calibration": [
+    {
+      "min": 0.5,
+      "max": 0.6,
+      "n": 57,
+      "averageConfidence": 0.55825,
+      "actualWinRate": 0.54386
+    },
+    {
+      "min": 0.6,
+      "max": 0.7,
+      "n": 32,
+      "averageConfidence": 0.64821,
+      "actualWinRate": 0.5625
+    },
+    {
+      "min": 0.7,
+      "max": 0.8,
+      "n": 10,
+      "averageConfidence": 0.72685,
+      "actualWinRate": 1
+    },
+    {
+      "min": 0.8,
+      "max": 1,
+      "n": 0,
+      "averageConfidence": null,
+      "actualWinRate": null
+    }
+  ],
+  "events": [
+    {
+      "event": "austin",
+      "cards": {
+        "v2": {
+          "hits": [
+            1,
+            3,
+            1
+          ],
+          "total": 5
+        },
+        "pooled": {
+          "hits": [
+            1,
+            3,
+            1
+          ],
+          "total": 5
+        },
+        "seed": {
+          "hits": [
+            1,
+            3,
+            2
+          ],
+          "total": 6
+        }
+      },
+      "predictedPass": {
+        "v2": 0.31467,
+        "seedUnderV2": 0.29267
+      },
+      "higherSeedWins": 20,
+      "forecasts": {
+        "coin": {
+          "n": 33,
+          "correct": 0,
+          "ties": 33,
+          "brier": 0.25,
+          "logLoss": 0.69315
+        },
+        "seedLadder": {
+          "n": 33,
+          "correct": 20,
+          "ties": 0,
+          "brier": 0.23217,
+          "logLoss": 0.65828
+        },
+        "vrs": {
+          "n": 33,
+          "correct": 20,
+          "ties": 0,
+          "brier": 0.22969,
+          "logLoss": 0.65083
+        },
+        "pooled": {
+          "n": 33,
+          "correct": 23,
+          "ties": 0,
+          "brier": 0.23598,
+          "logLoss": 0.66388
+        },
+        "v2": {
+          "n": 33,
+          "correct": 20,
+          "ties": 0,
+          "brier": 0.22693,
+          "logLoss": 0.64398
+        }
+      },
+      "teams": [
+        {
+          "seed": 1,
+          "name": "Complexity",
+          "v2Card": 0,
+          "pooledCard": 0,
+          "seedCard": 0,
+          "actual": "1-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.33317,
+            0.5185,
+            0.02433,
+            0.124
+          ]
+        },
+        {
+          "seed": 2,
+          "name": "HEROIC",
+          "v2Card": 0,
+          "pooledCard": 0,
+          "seedCard": 0,
+          "actual": "3-0",
+          "actualCategory": 0,
+          "v2StageProbabilities": [
+            0.36783,
+            0.5145,
+            0.01767,
+            0.1
+          ]
+        },
+        {
+          "seed": 3,
+          "name": "B8",
+          "v2Card": 1,
+          "pooledCard": 1,
+          "seedCard": 1,
+          "actual": "3-0",
+          "actualCategory": 0,
+          "v2StageProbabilities": [
+            0.118,
+            0.4495,
+            0.091,
+            0.3415
+          ]
+        },
+        {
+          "seed": 4,
+          "name": "BetBoom",
+          "v2Card": 1,
+          "pooledCard": null,
+          "seedCard": 1,
+          "actual": "3-1",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.14117,
+            0.39683,
+            0.07133,
+            0.39067
+          ]
+        },
+        {
+          "seed": 5,
+          "name": "TYLOO",
+          "v2Card": 1,
+          "pooledCard": 1,
+          "seedCard": 1,
+          "actual": "3-2",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.19817,
+            0.528,
+            0.04883,
+            0.225
+          ]
+        },
+        {
+          "seed": 6,
+          "name": "Lynn Vision",
+          "v2Card": 1,
+          "pooledCard": 1,
+          "seedCard": 1,
+          "actual": "3-2",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.14867,
+            0.47283,
+            0.07533,
+            0.30317
+          ]
+        },
+        {
+          "seed": 7,
+          "name": "Wildcard",
+          "v2Card": null,
+          "pooledCard": null,
+          "seedCard": 1,
+          "actual": "2-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.07533,
+            0.29533,
+            0.13417,
+            0.49517
+          ]
+        },
+        {
+          "seed": 8,
+          "name": "FlyQuest",
+          "v2Card": 1,
+          "pooledCard": 1,
+          "seedCard": 1,
+          "actual": "2-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.12033,
+            0.42767,
+            0.08883,
+            0.36317
+          ]
+        },
+        {
+          "seed": 9,
+          "name": "OG",
+          "v2Card": null,
+          "pooledCard": 1,
+          "seedCard": null,
+          "actual": "3-1",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.08833,
+            0.40733,
+            0.1225,
+            0.38183
+          ]
+        },
+        {
+          "seed": 10,
+          "name": "Chinggis Warriors",
+          "v2Card": 2,
+          "pooledCard": 2,
+          "seedCard": null,
+          "actual": "1-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.0455,
+            0.252,
+            0.2145,
+            0.488
+          ]
+        },
+        {
+          "seed": 11,
+          "name": "Imperial",
+          "v2Card": 1,
+          "pooledCard": 1,
+          "seedCard": null,
+          "actual": "1-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.10033,
+            0.37783,
+            0.1125,
+            0.40933
+          ]
+        },
+        {
+          "seed": 12,
+          "name": "Nemiga",
+          "v2Card": null,
+          "pooledCard": null,
+          "seedCard": null,
+          "actual": "3-1",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.04167,
+            0.24017,
+            0.22767,
+            0.4905
+          ]
+        },
+        {
+          "seed": 13,
+          "name": "NRG",
+          "v2Card": null,
+          "pooledCard": null,
+          "seedCard": null,
+          "actual": "2-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.069,
+            0.335,
+            0.15967,
+            0.43633
+          ]
+        },
+        {
+          "seed": 14,
+          "name": "Legacy",
+          "v2Card": null,
+          "pooledCard": null,
+          "seedCard": null,
+          "actual": "3-2",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.0645,
+            0.30833,
+            0.17383,
+            0.45333
+          ]
+        },
+        {
+          "seed": 15,
+          "name": "Metizport",
+          "v2Card": 2,
+          "pooledCard": null,
+          "seedCard": 2,
+          "actual": "0-3",
+          "actualCategory": 2,
+          "v2StageProbabilities": [
+            0.03933,
+            0.19183,
+            0.2425,
+            0.52633
+          ]
+        },
+        {
+          "seed": 16,
+          "name": "Fluxo",
+          "v2Card": null,
+          "pooledCard": 2,
+          "seedCard": 2,
+          "actual": "0-3",
+          "actualCategory": 2,
+          "v2StageProbabilities": [
+            0.04867,
+            0.28433,
+            0.19533,
+            0.47167
+          ]
+        }
+      ],
+      "matches": [
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "OG",
+          "loser": "Complexity",
+          "v2WinnerProbability": 0.36398,
+          "higherSeedWon": false
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "HEROIC",
+          "loser": "Chinggis Warriors",
+          "v2WinnerProbability": 0.71881,
+          "higherSeedWon": true
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "B8",
+          "loser": "Imperial",
+          "v2WinnerProbability": 0.46333,
+          "higherSeedWon": true
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "BetBoom",
+          "loser": "Nemiga",
+          "v2WinnerProbability": 0.64629,
+          "higherSeedWon": true
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "NRG",
+          "loser": "TYLOO",
+          "v2WinnerProbability": 0.40591,
+          "higherSeedWon": false
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "Lynn Vision",
+          "loser": "Legacy",
+          "v2WinnerProbability": 0.57102,
+          "higherSeedWon": true
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "Wildcard",
+          "loser": "Metizport",
+          "v2WinnerProbability": 0.58079,
+          "higherSeedWon": true
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "FlyQuest",
+          "loser": "Fluxo",
+          "v2WinnerProbability": 0.55759,
+          "higherSeedWon": true
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "HEROIC",
+          "loser": "NRG",
+          "v2WinnerProbability": 0.66559,
+          "higherSeedWon": true
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "B8",
+          "loser": "OG",
+          "v2WinnerProbability": 0.43452,
+          "higherSeedWon": true
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "FlyQuest",
+          "loser": "BetBoom",
+          "v2WinnerProbability": 0.42105,
+          "higherSeedWon": false
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "Wildcard",
+          "loser": "Lynn Vision",
+          "v2WinnerProbability": 0.41595,
+          "higherSeedWon": false
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "Complexity",
+          "loser": "Fluxo",
+          "v2WinnerProbability": 0.69418,
+          "higherSeedWon": true
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "Legacy",
+          "loser": "Chinggis Warriors",
+          "v2WinnerProbability": 0.5439,
+          "higherSeedWon": false
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "TYLOO",
+          "loser": "Metizport",
+          "v2WinnerProbability": 0.69731,
+          "higherSeedWon": true
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "Nemiga",
+          "loser": "Imperial",
+          "v2WinnerProbability": 0.45064,
+          "higherSeedWon": false
+        },
+        {
+          "round": 3,
+          "format": 3,
+          "winner": "HEROIC",
+          "loser": "FlyQuest",
+          "v2WinnerProbability": 0.76364,
+          "higherSeedWon": true
+        },
+        {
+          "round": 3,
+          "format": 3,
+          "winner": "B8",
+          "loser": "Wildcard",
+          "v2WinnerProbability": 0.70444,
+          "higherSeedWon": true
+        },
+        {
+          "round": 3,
+          "format": 1,
+          "winner": "BetBoom",
+          "loser": "Legacy",
+          "v2WinnerProbability": 0.62827,
+          "higherSeedWon": true
+        },
+        {
+          "round": 3,
+          "format": 1,
+          "winner": "NRG",
+          "loser": "Complexity",
+          "v2WinnerProbability": 0.32729,
+          "higherSeedWon": false
+        },
+        {
+          "round": 3,
+          "format": 1,
+          "winner": "Nemiga",
+          "loser": "Lynn Vision",
+          "v2WinnerProbability": 0.40999,
+          "higherSeedWon": false
+        },
+        {
+          "round": 3,
+          "format": 1,
+          "winner": "OG",
+          "loser": "TYLOO",
+          "v2WinnerProbability": 0.44558,
+          "higherSeedWon": false
+        },
+        {
+          "round": 3,
+          "format": 3,
+          "winner": "Chinggis Warriors",
+          "loser": "Fluxo",
+          "v2WinnerProbability": 0.50765,
+          "higherSeedWon": true
+        },
+        {
+          "round": 3,
+          "format": 3,
+          "winner": "Imperial",
+          "loser": "Metizport",
+          "v2WinnerProbability": 0.63226,
+          "higherSeedWon": true
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "OG",
+          "loser": "NRG",
+          "v2WinnerProbability": 0.5592,
+          "higherSeedWon": true
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "BetBoom",
+          "loser": "Wildcard",
+          "v2WinnerProbability": 0.55822,
+          "higherSeedWon": true
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "Nemiga",
+          "loser": "FlyQuest",
+          "v2WinnerProbability": 0.33935,
+          "higherSeedWon": false
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "Legacy",
+          "loser": "Imperial",
+          "v2WinnerProbability": 0.43012,
+          "higherSeedWon": false
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "TYLOO",
+          "loser": "Complexity",
+          "v2WinnerProbability": 0.39898,
+          "higherSeedWon": false
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "Lynn Vision",
+          "loser": "Chinggis Warriors",
+          "v2WinnerProbability": 0.66782,
+          "higherSeedWon": true
+        },
+        {
+          "round": 5,
+          "format": 3,
+          "winner": "Lynn Vision",
+          "loser": "NRG",
+          "v2WinnerProbability": 0.62159,
+          "higherSeedWon": true
+        },
+        {
+          "round": 5,
+          "format": 3,
+          "winner": "Legacy",
+          "loser": "Wildcard",
+          "v2WinnerProbability": 0.53125,
+          "higherSeedWon": false
+        },
+        {
+          "round": 5,
+          "format": 3,
+          "winner": "TYLOO",
+          "loser": "FlyQuest",
+          "v2WinnerProbability": 0.64176,
+          "higherSeedWon": true
+        }
+      ]
+    },
+    {
+      "event": "budapest",
+      "cards": {
+        "v2": {
+          "hits": [
+            0,
+            4,
+            1
+          ],
+          "total": 5
+        },
+        "pooled": {
+          "hits": [
+            0,
+            4,
+            1
+          ],
+          "total": 5
+        },
+        "seed": {
+          "hits": [
+            0,
+            5,
+            1
+          ],
+          "total": 6
+        }
+      },
+      "predictedPass": {
+        "v2": 0.27733,
+        "seedUnderV2": 0.284
+      },
+      "higherSeedWins": 19,
+      "forecasts": {
+        "coin": {
+          "n": 33,
+          "correct": 0,
+          "ties": 33,
+          "brier": 0.25,
+          "logLoss": 0.69315
+        },
+        "seedLadder": {
+          "n": 33,
+          "correct": 19,
+          "ties": 0,
+          "brier": 0.2437,
+          "logLoss": 0.67967
+        },
+        "vrs": {
+          "n": 33,
+          "correct": 19,
+          "ties": 0,
+          "brier": 0.2437,
+          "logLoss": 0.67967
+        },
+        "pooled": {
+          "n": 33,
+          "correct": 20,
+          "ties": 0,
+          "brier": 0.24063,
+          "logLoss": 0.67294
+        },
+        "v2": {
+          "n": 33,
+          "correct": 19,
+          "ties": 0,
+          "brier": 0.23716,
+          "logLoss": 0.66567
+        }
+      },
+      "teams": [
+        {
+          "seed": 1,
+          "name": "Legacy",
+          "v2Card": 0,
+          "pooledCard": 0,
+          "seedCard": 0,
+          "actual": "2-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.31483,
+            0.5065,
+            0.02883,
+            0.14983
+          ]
+        },
+        {
+          "seed": 2,
+          "name": "FaZe",
+          "v2Card": 0,
+          "pooledCard": 0,
+          "seedCard": 0,
+          "actual": "3-2",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.27083,
+            0.5105,
+            0.03217,
+            0.1865
+          ]
+        },
+        {
+          "seed": 3,
+          "name": "B8",
+          "v2Card": 1,
+          "pooledCard": 1,
+          "seedCard": 1,
+          "actual": "3-1",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.18783,
+            0.483,
+            0.0535,
+            0.27567
+          ]
+        },
+        {
+          "seed": 4,
+          "name": "GamerLegion",
+          "v2Card": 1,
+          "pooledCard": 1,
+          "seedCard": 1,
+          "actual": "1-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.20833,
+            0.47133,
+            0.05233,
+            0.268
+          ]
+        },
+        {
+          "seed": 5,
+          "name": "fnatic",
+          "v2Card": 1,
+          "pooledCard": 1,
+          "seedCard": 1,
+          "actual": "3-1",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.18033,
+            0.46,
+            0.0565,
+            0.30317
+          ]
+        },
+        {
+          "seed": 6,
+          "name": "PARIVISION",
+          "v2Card": 1,
+          "pooledCard": 1,
+          "seedCard": 1,
+          "actual": "3-2",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.18283,
+            0.46917,
+            0.061,
+            0.287
+          ]
+        },
+        {
+          "seed": 7,
+          "name": "Ninjas in Pyjamas",
+          "v2Card": null,
+          "pooledCard": null,
+          "seedCard": 1,
+          "actual": "3-1",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.1005,
+            0.3805,
+            0.1045,
+            0.4145
+          ]
+        },
+        {
+          "seed": 8,
+          "name": "Imperial",
+          "v2Card": 1,
+          "pooledCard": 1,
+          "seedCard": 1,
+          "actual": "3-2",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.11517,
+            0.38467,
+            0.0945,
+            0.40567
+          ]
+        },
+        {
+          "seed": 9,
+          "name": "FlyQuest",
+          "v2Card": 1,
+          "pooledCard": 1,
+          "seedCard": null,
+          "actual": "3-0",
+          "actualCategory": 0,
+          "v2StageProbabilities": [
+            0.08283,
+            0.39367,
+            0.126,
+            0.3975
+          ]
+        },
+        {
+          "seed": 10,
+          "name": "Lynn Vision",
+          "v2Card": null,
+          "pooledCard": null,
+          "seedCard": null,
+          "actual": "0-3",
+          "actualCategory": 2,
+          "v2StageProbabilities": [
+            0.06017,
+            0.3135,
+            0.16767,
+            0.45867
+          ]
+        },
+        {
+          "seed": 11,
+          "name": "M80",
+          "v2Card": null,
+          "pooledCard": null,
+          "seedCard": null,
+          "actual": "3-0",
+          "actualCategory": 0,
+          "v2StageProbabilities": [
+            0.071,
+            0.355,
+            0.14867,
+            0.42533
+          ]
+        },
+        {
+          "seed": 12,
+          "name": "Fluxo",
+          "v2Card": null,
+          "pooledCard": null,
+          "seedCard": null,
+          "actual": "2-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.04383,
+            0.256,
+            0.2215,
+            0.47867
+          ]
+        },
+        {
+          "seed": 13,
+          "name": "RED Canids",
+          "v2Card": null,
+          "pooledCard": null,
+          "seedCard": null,
+          "actual": "1-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.04233,
+            0.267,
+            0.205,
+            0.48567
+          ]
+        },
+        {
+          "seed": 14,
+          "name": "The Huns",
+          "v2Card": 2,
+          "pooledCard": 2,
+          "seedCard": null,
+          "actual": "1-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.04533,
+            0.25917,
+            0.2115,
+            0.484
+          ]
+        },
+        {
+          "seed": 15,
+          "name": "NRG",
+          "v2Card": null,
+          "pooledCard": null,
+          "seedCard": 2,
+          "actual": "2-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.05517,
+            0.26533,
+            0.1955,
+            0.484
+          ]
+        },
+        {
+          "seed": 16,
+          "name": "Rare Atom",
+          "v2Card": 2,
+          "pooledCard": 2,
+          "seedCard": 2,
+          "actual": "0-3",
+          "actualCategory": 2,
+          "v2StageProbabilities": [
+            0.03867,
+            0.22467,
+            0.24083,
+            0.49583
+          ]
+        }
+      ],
+      "matches": [
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "M80",
+          "loser": "B8",
+          "v2WinnerProbability": 0.42383,
+          "higherSeedWon": false
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "Imperial",
+          "loser": "Rare Atom",
+          "v2WinnerProbability": 0.58968,
+          "higherSeedWon": true
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "FlyQuest",
+          "loser": "Legacy",
+          "v2WinnerProbability": 0.35229,
+          "higherSeedWon": false
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "PARIVISION",
+          "loser": "The Huns",
+          "v2WinnerProbability": 0.63934,
+          "higherSeedWon": true
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "NRG",
+          "loser": "Ninjas in Pyjamas",
+          "v2WinnerProbability": 0.44331,
+          "higherSeedWon": false
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "Fluxo",
+          "loser": "GamerLegion",
+          "v2WinnerProbability": 0.34168,
+          "higherSeedWon": false
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "FaZe",
+          "loser": "Lynn Vision",
+          "v2WinnerProbability": 0.66416,
+          "higherSeedWon": true
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "fnatic",
+          "loser": "RED Canids",
+          "v2WinnerProbability": 0.6466,
+          "higherSeedWon": true
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "FlyQuest",
+          "loser": "Imperial",
+          "v2WinnerProbability": 0.51649,
+          "higherSeedWon": false
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "M80",
+          "loser": "PARIVISION",
+          "v2WinnerProbability": 0.41146,
+          "higherSeedWon": false
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "Fluxo",
+          "loser": "fnatic",
+          "v2WinnerProbability": 0.3388,
+          "higherSeedWon": false
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "NRG",
+          "loser": "FaZe",
+          "v2WinnerProbability": 0.30961,
+          "higherSeedWon": false
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "Legacy",
+          "loser": "Rare Atom",
+          "v2WinnerProbability": 0.73839,
+          "higherSeedWon": true
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "B8",
+          "loser": "The Huns",
+          "v2WinnerProbability": 0.62753,
+          "higherSeedWon": true
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "RED Canids",
+          "loser": "GamerLegion",
+          "v2WinnerProbability": 0.35634,
+          "higherSeedWon": false
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "Ninjas in Pyjamas",
+          "loser": "Lynn Vision",
+          "v2WinnerProbability": 0.52689,
+          "higherSeedWon": true
+        },
+        {
+          "round": 3,
+          "format": 3,
+          "winner": "FlyQuest",
+          "loser": "Fluxo",
+          "v2WinnerProbability": 0.59779,
+          "higherSeedWon": true
+        },
+        {
+          "round": 3,
+          "format": 3,
+          "winner": "M80",
+          "loser": "NRG",
+          "v2WinnerProbability": 0.55967,
+          "higherSeedWon": true
+        },
+        {
+          "round": 3,
+          "format": 1,
+          "winner": "Legacy",
+          "loser": "RED Canids",
+          "v2WinnerProbability": 0.71716,
+          "higherSeedWon": true
+        },
+        {
+          "round": 3,
+          "format": 1,
+          "winner": "B8",
+          "loser": "PARIVISION",
+          "v2WinnerProbability": 0.48728,
+          "higherSeedWon": true
+        },
+        {
+          "round": 3,
+          "format": 1,
+          "winner": "Ninjas in Pyjamas",
+          "loser": "FaZe",
+          "v2WinnerProbability": 0.36026,
+          "higherSeedWon": false
+        },
+        {
+          "round": 3,
+          "format": 1,
+          "winner": "fnatic",
+          "loser": "Imperial",
+          "v2WinnerProbability": 0.5863,
+          "higherSeedWon": true
+        },
+        {
+          "round": 3,
+          "format": 3,
+          "winner": "GamerLegion",
+          "loser": "Rare Atom",
+          "v2WinnerProbability": 0.70476,
+          "higherSeedWon": true
+        },
+        {
+          "round": 3,
+          "format": 3,
+          "winner": "The Huns",
+          "loser": "Lynn Vision",
+          "v2WinnerProbability": 0.45586,
+          "higherSeedWon": false
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "Ninjas in Pyjamas",
+          "loser": "Fluxo",
+          "v2WinnerProbability": 0.57036,
+          "higherSeedWon": true
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "B8",
+          "loser": "Legacy",
+          "v2WinnerProbability": 0.4171,
+          "higherSeedWon": false
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "fnatic",
+          "loser": "NRG",
+          "v2WinnerProbability": 0.63391,
+          "higherSeedWon": true
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "FaZe",
+          "loser": "RED Canids",
+          "v2WinnerProbability": 0.73158,
+          "higherSeedWon": true
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "PARIVISION",
+          "loser": "GamerLegion",
+          "v2WinnerProbability": 0.48822,
+          "higherSeedWon": false
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "Imperial",
+          "loser": "The Huns",
+          "v2WinnerProbability": 0.58465,
+          "higherSeedWon": true
+        },
+        {
+          "round": 5,
+          "format": 3,
+          "winner": "FaZe",
+          "loser": "Fluxo",
+          "v2WinnerProbability": 0.73078,
+          "higherSeedWon": true
+        },
+        {
+          "round": 5,
+          "format": 3,
+          "winner": "Imperial",
+          "loser": "NRG",
+          "v2WinnerProbability": 0.57798,
+          "higherSeedWon": true
+        },
+        {
+          "round": 5,
+          "format": 3,
+          "winner": "PARIVISION",
+          "loser": "Legacy",
+          "v2WinnerProbability": 0.38473,
+          "higherSeedWon": false
+        }
+      ]
+    },
+    {
+      "event": "cologne",
+      "cards": {
+        "v2": {
+          "hits": [
+            0,
+            2,
+            0
+          ],
+          "total": 2
+        },
+        "pooled": {
+          "hits": [
+            1,
+            3,
+            0
+          ],
+          "total": 4
+        },
+        "seed": {
+          "hits": [
+            1,
+            3,
+            0
+          ],
+          "total": 4
+        }
+      },
+      "predictedPass": {
+        "v2": 0.292,
+        "seedUnderV2": 0.22867
+      },
+      "higherSeedWins": 21,
+      "forecasts": {
+        "coin": {
+          "n": 33,
+          "correct": 0,
+          "ties": 33,
+          "brier": 0.25,
+          "logLoss": 0.69315
+        },
+        "seedLadder": {
+          "n": 33,
+          "correct": 21,
+          "ties": 0,
+          "brier": 0.22916,
+          "logLoss": 0.6494
+        },
+        "vrs": {
+          "n": 33,
+          "correct": 22,
+          "ties": 0,
+          "brier": 0.2172,
+          "logLoss": 0.62403
+        },
+        "pooled": {
+          "n": 33,
+          "correct": 21,
+          "ties": 0,
+          "brier": 0.22209,
+          "logLoss": 0.63253
+        },
+        "v2": {
+          "n": 33,
+          "correct": 20,
+          "ties": 0,
+          "brier": 0.23439,
+          "logLoss": 0.65989
+        }
+      },
+      "teams": [
+        {
+          "seed": 1,
+          "name": "GamerLegion",
+          "v2Card": 0,
+          "pooledCard": 0,
+          "seedCard": 0,
+          "actual": "3-1",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.33933,
+            0.4885,
+            0.024,
+            0.14817
+          ]
+        },
+        {
+          "seed": 2,
+          "name": "B8",
+          "v2Card": 1,
+          "pooledCard": 1,
+          "seedCard": 0,
+          "actual": "3-0",
+          "actualCategory": 0,
+          "v2StageProbabilities": [
+            0.20167,
+            0.50217,
+            0.055,
+            0.24117
+          ]
+        },
+        {
+          "seed": 3,
+          "name": "HEROIC",
+          "v2Card": null,
+          "pooledCard": null,
+          "seedCard": 1,
+          "actual": "1-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.10167,
+            0.37933,
+            0.11167,
+            0.40733
+          ]
+        },
+        {
+          "seed": 4,
+          "name": "BetBoom",
+          "v2Card": 1,
+          "pooledCard": 0,
+          "seedCard": 1,
+          "actual": "3-0",
+          "actualCategory": 0,
+          "v2StageProbabilities": [
+            0.16233,
+            0.48317,
+            0.076,
+            0.2785
+          ]
+        },
+        {
+          "seed": 5,
+          "name": "BIG",
+          "v2Card": null,
+          "pooledCard": 1,
+          "seedCard": 1,
+          "actual": "3-2",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.0865,
+            0.37817,
+            0.1345,
+            0.40083
+          ]
+        },
+        {
+          "seed": 6,
+          "name": "M80",
+          "v2Card": null,
+          "pooledCard": null,
+          "seedCard": 1,
+          "actual": "3-1",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.09333,
+            0.33833,
+            0.155,
+            0.41333
+          ]
+        },
+        {
+          "seed": 7,
+          "name": "MIBR",
+          "v2Card": 1,
+          "pooledCard": 1,
+          "seedCard": 1,
+          "actual": "3-1",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.18917,
+            0.46433,
+            0.06317,
+            0.28333
+          ]
+        },
+        {
+          "seed": 8,
+          "name": "SINNERS",
+          "v2Card": 0,
+          "pooledCard": 1,
+          "seedCard": 1,
+          "actual": "0-3",
+          "actualCategory": 2,
+          "v2StageProbabilities": [
+            0.1335,
+            0.39267,
+            0.08833,
+            0.3855
+          ]
+        },
+        {
+          "seed": 9,
+          "name": "NRG",
+          "v2Card": 2,
+          "pooledCard": 2,
+          "seedCard": null,
+          "actual": "2-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.04217,
+            0.229,
+            0.24333,
+            0.4855
+          ]
+        },
+        {
+          "seed": 10,
+          "name": "TYLOO",
+          "v2Card": 1,
+          "pooledCard": 1,
+          "seedCard": null,
+          "actual": "3-2",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.10717,
+            0.40533,
+            0.11567,
+            0.37183
+          ]
+        },
+        {
+          "seed": 11,
+          "name": "Sharks",
+          "v2Card": 1,
+          "pooledCard": null,
+          "seedCard": null,
+          "actual": "1-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.10933,
+            0.39,
+            0.112,
+            0.38867
+          ]
+        },
+        {
+          "seed": 12,
+          "name": "Gaimin Gladiators",
+          "v2Card": null,
+          "pooledCard": null,
+          "seedCard": null,
+          "actual": "0-3",
+          "actualCategory": 2,
+          "v2StageProbabilities": [
+            0.08817,
+            0.32233,
+            0.14467,
+            0.44483
+          ]
+        },
+        {
+          "seed": 13,
+          "name": "Liquid",
+          "v2Card": null,
+          "pooledCard": null,
+          "seedCard": null,
+          "actual": "2-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.0965,
+            0.3315,
+            0.12267,
+            0.44933
+          ]
+        },
+        {
+          "seed": 14,
+          "name": "Lynn Vision",
+          "v2Card": 1,
+          "pooledCard": 1,
+          "seedCard": null,
+          "actual": "2-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.16583,
+            0.47567,
+            0.06717,
+            0.29133
+          ]
+        },
+        {
+          "seed": 15,
+          "name": "THUNDER dOWNUNDER",
+          "v2Card": null,
+          "pooledCard": null,
+          "seedCard": 2,
+          "actual": "1-3",
+          "actualCategory": 3,
+          "v2StageProbabilities": [
+            0.052,
+            0.2475,
+            0.21133,
+            0.48917
+          ]
+        },
+        {
+          "seed": 16,
+          "name": "FlyQuest",
+          "v2Card": 2,
+          "pooledCard": 2,
+          "seedCard": 2,
+          "actual": "3-2",
+          "actualCategory": 1,
+          "v2StageProbabilities": [
+            0.03133,
+            0.172,
+            0.2755,
+            0.52117
+          ]
+        }
+      ],
+      "matches": [
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "M80",
+          "loser": "Lynn Vision",
+          "v2WinnerProbability": 0.41801,
+          "higherSeedWon": true
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "FlyQuest",
+          "loser": "SINNERS",
+          "v2WinnerProbability": 0.38301,
+          "higherSeedWon": false
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "B8",
+          "loser": "TYLOO",
+          "v2WinnerProbability": 0.56768,
+          "higherSeedWon": true
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "THUNDER dOWNUNDER",
+          "loser": "MIBR",
+          "v2WinnerProbability": 0.37285,
+          "higherSeedWon": false
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "GamerLegion",
+          "loser": "NRG",
+          "v2WinnerProbability": 0.71304,
+          "higherSeedWon": true
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "Sharks",
+          "loser": "HEROIC",
+          "v2WinnerProbability": 0.51081,
+          "higherSeedWon": false
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "BetBoom",
+          "loser": "Gaimin Gladiators",
+          "v2WinnerProbability": 0.51729,
+          "higherSeedWon": true
+        },
+        {
+          "round": 1,
+          "format": 1,
+          "winner": "Liquid",
+          "loser": "BIG",
+          "v2WinnerProbability": 0.56472,
+          "higherSeedWon": false
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "B8",
+          "loser": "THUNDER dOWNUNDER",
+          "v2WinnerProbability": 0.64777,
+          "higherSeedWon": true
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "GamerLegion",
+          "loser": "FlyQuest",
+          "v2WinnerProbability": 0.74586,
+          "higherSeedWon": true
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "M80",
+          "loser": "Sharks",
+          "v2WinnerProbability": 0.48135,
+          "higherSeedWon": true
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "BetBoom",
+          "loser": "Liquid",
+          "v2WinnerProbability": 0.53122,
+          "higherSeedWon": true
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "Lynn Vision",
+          "loser": "HEROIC",
+          "v2WinnerProbability": 0.57434,
+          "higherSeedWon": false
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "MIBR",
+          "loser": "TYLOO",
+          "v2WinnerProbability": 0.54566,
+          "higherSeedWon": true
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "NRG",
+          "loser": "SINNERS",
+          "v2WinnerProbability": 0.42303,
+          "higherSeedWon": false
+        },
+        {
+          "round": 2,
+          "format": 1,
+          "winner": "BIG",
+          "loser": "Gaimin Gladiators",
+          "v2WinnerProbability": 0.4216,
+          "higherSeedWon": true
+        },
+        {
+          "round": 3,
+          "format": 3,
+          "winner": "BetBoom",
+          "loser": "GamerLegion",
+          "v2WinnerProbability": 0.40433,
+          "higherSeedWon": false
+        },
+        {
+          "round": 3,
+          "format": 3,
+          "winner": "B8",
+          "loser": "M80",
+          "v2WinnerProbability": 0.66826,
+          "higherSeedWon": true
+        },
+        {
+          "round": 3,
+          "format": 1,
+          "winner": "NRG",
+          "loser": "FlyQuest",
+          "v2WinnerProbability": 0.54152,
+          "higherSeedWon": true
+        },
+        {
+          "round": 3,
+          "format": 1,
+          "winner": "Lynn Vision",
+          "loser": "Sharks",
+          "v2WinnerProbability": 0.56373,
+          "higherSeedWon": false
+        },
+        {
+          "round": 3,
+          "format": 1,
+          "winner": "MIBR",
+          "loser": "Liquid",
+          "v2WinnerProbability": 0.56722,
+          "higherSeedWon": true
+        },
+        {
+          "round": 3,
+          "format": 1,
+          "winner": "BIG",
+          "loser": "THUNDER dOWNUNDER",
+          "v2WinnerProbability": 0.49728,
+          "higherSeedWon": true
+        },
+        {
+          "round": 3,
+          "format": 3,
+          "winner": "TYLOO",
+          "loser": "SINNERS",
+          "v2WinnerProbability": 0.51946,
+          "higherSeedWon": false
+        },
+        {
+          "round": 3,
+          "format": 3,
+          "winner": "HEROIC",
+          "loser": "Gaimin Gladiators",
+          "v2WinnerProbability": 0.59247,
+          "higherSeedWon": true
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "GamerLegion",
+          "loser": "BIG",
+          "v2WinnerProbability": 0.68288,
+          "higherSeedWon": true
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "MIBR",
+          "loser": "Lynn Vision",
+          "v2WinnerProbability": 0.49081,
+          "higherSeedWon": true
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "M80",
+          "loser": "NRG",
+          "v2WinnerProbability": 0.58501,
+          "higherSeedWon": true
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "FlyQuest",
+          "loser": "THUNDER dOWNUNDER",
+          "v2WinnerProbability": 0.41389,
+          "higherSeedWon": false
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "TYLOO",
+          "loser": "Sharks",
+          "v2WinnerProbability": 0.51954,
+          "higherSeedWon": true
+        },
+        {
+          "round": 4,
+          "format": 3,
+          "winner": "Liquid",
+          "loser": "HEROIC",
+          "v2WinnerProbability": 0.42585,
+          "higherSeedWon": false
+        },
+        {
+          "round": 5,
+          "format": 3,
+          "winner": "TYLOO",
+          "loser": "Lynn Vision",
+          "v2WinnerProbability": 0.41956,
+          "higherSeedWon": true
+        },
+        {
+          "round": 5,
+          "format": 3,
+          "winner": "FlyQuest",
+          "loser": "Liquid",
+          "v2WinnerProbability": 0.39359,
+          "higherSeedWon": false
+        },
+        {
+          "round": 5,
+          "format": 3,
+          "winner": "BIG",
+          "loser": "NRG",
+          "v2WinnerProbability": 0.65998,
+          "higherSeedWon": true
+        }
+      ]
+    }
+  ]
+}

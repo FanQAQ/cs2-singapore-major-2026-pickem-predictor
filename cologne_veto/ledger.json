@@ -1,0 +1,1621 @@
+{
+  "matches": [
+    {
+      "hltvId": 2394865,
+      "day": "2026-06-06",
+      "round": 1,
+      "bo": 1,
+      "a": "Spirit",
+      "b": "BetBoom",
+      "actions": [
+        {
+          "team": "BetBoom",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "BetBoom",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "Spirit",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "Spirit",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "Spirit",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "BetBoom",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tyj5jt/spirit_vs_bb_iem_cologne_major_2026_stage_2_swiss/",
+        "https://www.hltv.org/matches/2394865/spirit-vs-betboom-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394866,
+      "day": "2026-06-06",
+      "round": 1,
+      "bo": 1,
+      "a": "Astralis",
+      "b": "GamerLegion",
+      "actions": [
+        {
+          "team": "GamerLegion",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "GamerLegion",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "GamerLegion",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Ancient"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tyej4n/astralis_vs_gamerlegion_iem_cologne_major_2026/",
+        "https://www.hltv.org/matches/2394866/astralis-vs-gamerlegion-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394867,
+      "day": "2026-06-06",
+      "round": 1,
+      "bo": 1,
+      "a": "G2",
+      "b": "M80",
+      "actions": [
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "G2",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "G2",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "G2",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tyhiqp/g2_vs_m80_iem_cologne_major_2026_stage_2_swiss/",
+        "https://www.hltv.org/matches/2394867/g2-vs-m80-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394868,
+      "day": "2026-06-06",
+      "round": 1,
+      "bo": 1,
+      "a": "FUT",
+      "b": "B8",
+      "actions": [
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "FUT",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "FUT",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "FUT",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Ancient"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tyhjsr/fut_vs_b8_iem_cologne_major_2026_stage_2_swiss/",
+        "https://www.hltv.org/matches/2394868/fut-vs-b8-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394869,
+      "day": "2026-06-06",
+      "round": 1,
+      "bo": 1,
+      "a": "Legacy",
+      "b": "MIBR",
+      "actions": [
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "Legacy",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "Legacy",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "Legacy",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Nuke"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tyjj0k/legacy_vs_mibr_iem_cologne_major_2026_stage_2/",
+        "https://www.hltv.org/matches/2394869/legacy-vs-mibr-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394870,
+      "day": "2026-06-06",
+      "round": 1,
+      "bo": 1,
+      "a": "9z",
+      "b": "FlyQuest",
+      "actions": [
+        {
+          "team": "FlyQuest",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "FlyQuest",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "FlyQuest",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Dust2"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tyes2b/9z_vs_flyquest_iem_cologne_major_2026_stage_2/",
+        "https://www.hltv.org/matches/2394870/9z-vs-flyquest-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394871,
+      "day": "2026-06-06",
+      "round": 1,
+      "bo": 1,
+      "a": "paiN",
+      "b": "TYLOO",
+      "actions": [
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tyh94d/pain_vs_tyloo_iem_cologne_major_2026_stage_2/",
+        "https://www.hltv.org/matches/2394871/pain-vs-tyloo-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394872,
+      "day": "2026-06-06",
+      "round": 1,
+      "bo": 1,
+      "a": "Monte",
+      "b": "BIG",
+      "actions": [
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tyj7sg/monte_vs_big_iem_cologne_major_2026_stage_2_swiss/",
+        "https://www.hltv.org/matches/2394872/monte-vs-big-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394873,
+      "day": "2026-06-06",
+      "round": 2,
+      "bo": 1,
+      "a": "FUT",
+      "b": "TYLOO",
+      "actions": [
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "FUT",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "FUT",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "FUT",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Overpass"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tym547/fut_vs_tyloo_iem_cologne_major_2026_stage_2_swiss/",
+        "https://www.hltv.org/matches/2394873/fut-vs-tyloo-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394874,
+      "day": "2026-06-06",
+      "round": 2,
+      "bo": 1,
+      "a": "Astralis",
+      "b": "9z",
+      "actions": [
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Nuke"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tym3ze/astralis_vs_9z_iem_cologne_major_2026_stage_2/",
+        "https://www.hltv.org/matches/2394874/astralis-vs-9z-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394875,
+      "day": "2026-06-06",
+      "round": 2,
+      "bo": 1,
+      "a": "G2",
+      "b": "Monte",
+      "actions": [
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "G2",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "G2",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "G2",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tyom25/g2_vs_monte_iem_cologne_major_2026_stage_2_swiss/",
+        "https://www.hltv.org/matches/2394875/g2-vs-monte-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394876,
+      "day": "2026-06-06",
+      "round": 2,
+      "bo": 1,
+      "a": "paiN",
+      "b": "BIG",
+      "actions": [
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Overpass"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tyobl6/pain_vs_big_iem_cologne_major_2026_stage_2_swiss/",
+        "https://www.hltv.org/matches/2394876/pain-vs-big-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394877,
+      "day": "2026-06-06",
+      "round": 2,
+      "bo": 1,
+      "a": "BetBoom",
+      "b": "GamerLegion",
+      "actions": [
+        {
+          "team": "GamerLegion",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "GamerLegion",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "BetBoom",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "BetBoom",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "BetBoom",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "GamerLegion",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Nuke"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tyqnl4/bb_vs_gamerlegion_iem_cologne_major_2026_stage_2/",
+        "https://www.hltv.org/matches/2394877/betboom-vs-gamerlegion-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394878,
+      "day": "2026-06-06",
+      "round": 2,
+      "bo": 1,
+      "a": "Legacy",
+      "b": "FlyQuest",
+      "actions": [
+        {
+          "team": "FlyQuest",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "FlyQuest",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "Legacy",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "Legacy",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "Legacy",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "FlyQuest",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Dust2"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1typy1g/legacy_vs_flyquest_iem_cologne_major_2026_stage_2/",
+        "https://www.hltv.org/matches/2394878/legacy-vs-flyquest-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394879,
+      "day": "2026-06-06",
+      "round": 2,
+      "bo": 1,
+      "a": "Spirit",
+      "b": "MIBR",
+      "actions": [
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "Spirit",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "Spirit",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "Spirit",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tyrm1i/spirit_vs_mibr_iem_cologne_major_2026_stage_2/",
+        "https://www.hltv.org/matches/2394879/spirit-vs-mibr-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394880,
+      "day": "2026-06-06",
+      "round": 2,
+      "bo": 1,
+      "a": "B8",
+      "b": "M80",
+      "actions": [
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tyrqyl/b8_vs_m80_iem_cologne_major_2026_stage_2_swiss/",
+        "https://www.hltv.org/matches/2394880/b8-vs-m80-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394881,
+      "day": "2026-06-07",
+      "round": 3,
+      "bo": 1,
+      "a": "Monte",
+      "b": "Legacy",
+      "actions": [
+        {
+          "team": "Legacy",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "Legacy",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "Legacy",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Ancient"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tzd5xn/monte_vs_legacy_iem_cologne_major_2026_stage_2/",
+        "https://www.hltv.org/matches/2394881/monte-vs-legacy-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394882,
+      "day": "2026-06-07",
+      "round": 3,
+      "bo": 1,
+      "a": "Astralis",
+      "b": "TYLOO",
+      "actions": [
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Nuke"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tzbryf/astralis_vs_tyloo_iem_cologne_major_2026_stage_2/",
+        "https://www.hltv.org/matches/2394882/astralis-vs-tyloo-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394883,
+      "day": "2026-06-07",
+      "round": 3,
+      "bo": 1,
+      "a": "BetBoom",
+      "b": "M80",
+      "actions": [
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "BetBoom",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "BetBoom",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "BetBoom",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Dust2"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tzem5o/bb_vs_m80_iem_cologne_major_2026_stage_2_swiss/",
+        "https://www.hltv.org/matches/2394883/betboom-vs-m80-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394884,
+      "day": "2026-06-07",
+      "round": 3,
+      "bo": 1,
+      "a": "MIBR",
+      "b": "BIG",
+      "actions": [
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Inferno"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tzdnvr/mibr_vs_big_iem_cologne_major_2026_stage_2_swiss/",
+        "https://www.hltv.org/matches/2394884/mibr-vs-big-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394885,
+      "day": "2026-06-07",
+      "round": 3,
+      "bo": 3,
+      "a": "B8",
+      "b": "GamerLegion",
+      "actions": [
+        {
+          "team": "GamerLegion",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "GamerLegion",
+          "action": "pick",
+          "map": "Inferno"
+        },
+        {
+          "team": "B8",
+          "action": "pick",
+          "map": "Mirage"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "GamerLegion",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Nuke"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tzk8ic/b8_vs_gamerlegion_iem_cologne_major_2026_stage_2/",
+        "https://www.hltv.org/matches/2394885/b8-vs-gamerlegion-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394886,
+      "day": "2026-06-07",
+      "round": 3,
+      "bo": 3,
+      "a": "FlyQuest",
+      "b": "paiN",
+      "actions": [
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "FlyQuest",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "paiN",
+          "action": "pick",
+          "map": "Nuke"
+        },
+        {
+          "team": "FlyQuest",
+          "action": "pick",
+          "map": "Anubis"
+        },
+        {
+          "team": "FlyQuest",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Dust2"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tzhbmi/flyquest_vs_pain_iem_cologne_major_2026_stage_2/",
+        "https://www.hltv.org/matches/2394886/flyquest-vs-pain-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394887,
+      "day": "2026-06-07",
+      "round": 3,
+      "bo": 3,
+      "a": "G2",
+      "b": "FUT",
+      "actions": [
+        {
+          "team": "FUT",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "G2",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "FUT",
+          "action": "pick",
+          "map": "Anubis"
+        },
+        {
+          "team": "G2",
+          "action": "pick",
+          "map": "Overpass"
+        },
+        {
+          "team": "G2",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "FUT",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Ancient"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tzpb0h/g2_vs_fut_iem_cologne_major_2026_stage_2_swiss/",
+        "https://www.hltv.org/matches/2394887/g2-vs-fut-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394888,
+      "day": "2026-06-07",
+      "round": 3,
+      "bo": 3,
+      "a": "Spirit",
+      "b": "9z",
+      "actions": [
+        {
+          "team": "Spirit",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "Spirit",
+          "action": "pick",
+          "map": "Mirage"
+        },
+        {
+          "team": "9z",
+          "action": "pick",
+          "map": "Nuke"
+        },
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "Spirit",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Dust2"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1tzjx68/spirit_vs_9z_iem_cologne_major_2026_stage_2_swiss/",
+        "https://www.hltv.org/matches/2394888/spirit-vs-9z-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394889,
+      "day": "2026-06-08",
+      "round": 4,
+      "bo": 3,
+      "a": "Astralis",
+      "b": "paiN",
+      "actions": [
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "paiN",
+          "action": "pick",
+          "map": "Nuke"
+        },
+        {
+          "team": "Astralis",
+          "action": "pick",
+          "map": "Overpass"
+        },
+        {
+          "team": "Astralis",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1u08jbd/astralis_vs_pain_iem_cologne_major_2026_stage_2/",
+        "https://www.hltv.org/matches/2394889/astralis-vs-pain-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394890,
+      "day": "2026-06-08",
+      "round": 4,
+      "bo": 3,
+      "a": "MIBR",
+      "b": "B8",
+      "actions": [
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "B8",
+          "action": "pick",
+          "map": "Mirage"
+        },
+        {
+          "team": "MIBR",
+          "action": "pick",
+          "map": "Nuke"
+        },
+        {
+          "team": "MIBR",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Ancient"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1u0a3zc/mibr_vs_b8_iem_cologne_major_2026_stage_2_swiss/",
+        "https://www.hltv.org/matches/2394890/mibr-vs-b8-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394891,
+      "day": "2026-06-08",
+      "round": 4,
+      "bo": 3,
+      "a": "Monte",
+      "b": "BetBoom",
+      "actions": [
+        {
+          "team": "BetBoom",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "BetBoom",
+          "action": "pick",
+          "map": "Nuke"
+        },
+        {
+          "team": "Monte",
+          "action": "pick",
+          "map": "Mirage"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "BetBoom",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Dust2"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1u0e9h0/monte_vs_bb_iem_cologne_major_2026_stage_2_swiss/",
+        "https://www.hltv.org/matches/2394891/monte-vs-betboom-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394892,
+      "day": "2026-06-08",
+      "round": 4,
+      "bo": 3,
+      "a": "TYLOO",
+      "b": "9z",
+      "actions": [
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "9z",
+          "action": "pick",
+          "map": "Overpass"
+        },
+        {
+          "team": "TYLOO",
+          "action": "pick",
+          "map": "Inferno"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "9z",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Nuke"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1u0dyyh/tyloo_vs_9z_iem_cologne_major_2026_stage_2_swiss/",
+        "https://www.hltv.org/matches/2394892/tyloo-vs-9z-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394893,
+      "day": "2026-06-08",
+      "round": 4,
+      "bo": 3,
+      "a": "G2",
+      "b": "BIG",
+      "actions": [
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "G2",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "BIG",
+          "action": "pick",
+          "map": "Inferno"
+        },
+        {
+          "team": "G2",
+          "action": "pick",
+          "map": "Mirage"
+        },
+        {
+          "team": "G2",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Overpass"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1u0hmm2/g2_vs_big_iem_cologne_major_2026_stage_2_swiss/",
+        "https://www.hltv.org/matches/2394893/g2-vs-big-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394894,
+      "day": "2026-06-08",
+      "round": 4,
+      "bo": 3,
+      "a": "M80",
+      "b": "Legacy",
+      "actions": [
+        {
+          "team": "Legacy",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": "Legacy",
+          "action": "pick",
+          "map": "Dust2"
+        },
+        {
+          "team": "M80",
+          "action": "pick",
+          "map": "Inferno"
+        },
+        {
+          "team": "M80",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "Legacy",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1u0ipf0/m80_vs_legacy_iem_cologne_major_2026_stage_2/",
+        "https://www.hltv.org/matches/2394894/m80-vs-legacy-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394895,
+      "day": "2026-06-09",
+      "round": 5,
+      "bo": 3,
+      "a": "Monte",
+      "b": "paiN",
+      "actions": [
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": "paiN",
+          "action": "pick",
+          "map": "Nuke"
+        },
+        {
+          "team": "Monte",
+          "action": "pick",
+          "map": "Dust2"
+        },
+        {
+          "team": "Monte",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "paiN",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Mirage"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1u15z50/monte_vs_pain_iem_cologne_major_2026_stage_2/",
+        "https://www.hltv.org/matches/2394895/monte-vs-pain-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394896,
+      "day": "2026-06-09",
+      "round": 5,
+      "bo": 3,
+      "a": "Legacy",
+      "b": "TYLOO",
+      "actions": [
+        {
+          "team": "Legacy",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Dust2"
+        },
+        {
+          "team": "Legacy",
+          "action": "pick",
+          "map": "Mirage"
+        },
+        {
+          "team": "TYLOO",
+          "action": "pick",
+          "map": "Inferno"
+        },
+        {
+          "team": "TYLOO",
+          "action": "ban",
+          "map": "Ancient"
+        },
+        {
+          "team": "Legacy",
+          "action": "ban",
+          "map": "Overpass"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Nuke"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1u19u7a/legacy_vs_tyloo_iem_cologne_major_2026_stage_2/",
+        "https://www.hltv.org/matches/2394896/legacy-vs-tyloo-iem-cologne-major-2026-stage-2"
+      ]
+    },
+    {
+      "hltvId": 2394897,
+      "day": "2026-06-09",
+      "round": 5,
+      "bo": 3,
+      "a": "BIG",
+      "b": "B8",
+      "actions": [
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Anubis"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Mirage"
+        },
+        {
+          "team": "B8",
+          "action": "pick",
+          "map": "Ancient"
+        },
+        {
+          "team": "BIG",
+          "action": "pick",
+          "map": "Overpass"
+        },
+        {
+          "team": "BIG",
+          "action": "ban",
+          "map": "Inferno"
+        },
+        {
+          "team": "B8",
+          "action": "ban",
+          "map": "Nuke"
+        },
+        {
+          "team": null,
+          "action": "left",
+          "map": "Dust2"
+        }
+      ],
+      "sources": [
+        "https://www.reddit.com/r/GlobalOffensive/comments/1u1fnsz/big_vs_b8_iem_cologne_major_2026_stage_2_swiss/",
+        "https://www.hltv.org/matches/2394897/big-vs-b8-iem-cologne-major-2026-stage-2"
+      ]
+    }
+  ]
+}

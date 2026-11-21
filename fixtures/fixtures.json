@@ -1,0 +1,542 @@
+{
+  "austin": {
+    "label": "奥斯汀 2025",
+    "seeds": [
+      "Complexity",
+      "HEROIC",
+      "B8",
+      "BetBoom",
+      "TYLOO",
+      "Lynn Vision",
+      "Wildcard",
+      "FlyQuest",
+      "OG",
+      "Chinggis Warriors",
+      "Imperial",
+      "Nemiga",
+      "NRG",
+      "Legacy",
+      "Metizport",
+      "Fluxo"
+    ],
+    "rounds": [
+      [
+        [
+          "OG",
+          "Complexity"
+        ],
+        [
+          "HEROIC",
+          "Chinggis Warriors"
+        ],
+        [
+          "B8",
+          "Imperial"
+        ],
+        [
+          "BetBoom",
+          "Nemiga"
+        ],
+        [
+          "NRG",
+          "TYLOO"
+        ],
+        [
+          "Lynn Vision",
+          "Legacy"
+        ],
+        [
+          "Wildcard",
+          "Metizport"
+        ],
+        [
+          "FlyQuest",
+          "Fluxo"
+        ]
+      ],
+      [
+        [
+          "HEROIC",
+          "NRG"
+        ],
+        [
+          "B8",
+          "OG"
+        ],
+        [
+          "FlyQuest",
+          "BetBoom"
+        ],
+        [
+          "Wildcard",
+          "Lynn Vision"
+        ],
+        [
+          "Complexity",
+          "Fluxo"
+        ],
+        [
+          "Legacy",
+          "Chinggis Warriors"
+        ],
+        [
+          "TYLOO",
+          "Metizport"
+        ],
+        [
+          "Nemiga",
+          "Imperial"
+        ]
+      ],
+      [
+        [
+          "HEROIC",
+          "FlyQuest"
+        ],
+        [
+          "B8",
+          "Wildcard"
+        ],
+        [
+          "BetBoom",
+          "Legacy"
+        ],
+        [
+          "NRG",
+          "Complexity"
+        ],
+        [
+          "Nemiga",
+          "Lynn Vision"
+        ],
+        [
+          "OG",
+          "TYLOO"
+        ],
+        [
+          "Chinggis Warriors",
+          "Fluxo"
+        ],
+        [
+          "Imperial",
+          "Metizport"
+        ]
+      ],
+      [
+        [
+          "OG",
+          "NRG"
+        ],
+        [
+          "BetBoom",
+          "Wildcard"
+        ],
+        [
+          "Nemiga",
+          "FlyQuest"
+        ],
+        [
+          "Legacy",
+          "Imperial"
+        ],
+        [
+          "TYLOO",
+          "Complexity"
+        ],
+        [
+          "Lynn Vision",
+          "Chinggis Warriors"
+        ]
+      ],
+      [
+        [
+          "Lynn Vision",
+          "NRG"
+        ],
+        [
+          "Legacy",
+          "Wildcard"
+        ],
+        [
+          "TYLOO",
+          "FlyQuest"
+        ]
+      ]
+    ],
+    "sources": [
+      "https://blast.tv/cs/tournaments/austin-major-2025-finals/match?view=results",
+      "https://fragcharts.com/pickem/austin-2025/1",
+      "https://en.wikipedia.org/wiki/Blast_Austin_Major_2025",
+      "https://liquipedia.net/counterstrike/BLAST/Major/2025/Austin/Stage_1"
+    ]
+  },
+  "budapest": {
+    "label": "布达佩斯 2025",
+    "seeds": [
+      "Legacy",
+      "FaZe",
+      "B8",
+      "GamerLegion",
+      "fnatic",
+      "PARIVISION",
+      "Ninjas in Pyjamas",
+      "Imperial",
+      "FlyQuest",
+      "Lynn Vision",
+      "M80",
+      "Fluxo",
+      "RED Canids",
+      "The Huns",
+      "NRG",
+      "Rare Atom"
+    ],
+    "rounds": [
+      [
+        [
+          "M80",
+          "B8"
+        ],
+        [
+          "Imperial",
+          "Rare Atom"
+        ],
+        [
+          "FlyQuest",
+          "Legacy"
+        ],
+        [
+          "PARIVISION",
+          "The Huns"
+        ],
+        [
+          "NRG",
+          "Ninjas in Pyjamas"
+        ],
+        [
+          "Fluxo",
+          "GamerLegion"
+        ],
+        [
+          "FaZe",
+          "Lynn Vision"
+        ],
+        [
+          "fnatic",
+          "RED Canids"
+        ]
+      ],
+      [
+        [
+          "FlyQuest",
+          "Imperial"
+        ],
+        [
+          "M80",
+          "PARIVISION"
+        ],
+        [
+          "Fluxo",
+          "fnatic"
+        ],
+        [
+          "NRG",
+          "FaZe"
+        ],
+        [
+          "Legacy",
+          "Rare Atom"
+        ],
+        [
+          "B8",
+          "The Huns"
+        ],
+        [
+          "RED Canids",
+          "GamerLegion"
+        ],
+        [
+          "Ninjas in Pyjamas",
+          "Lynn Vision"
+        ]
+      ],
+      [
+        [
+          "FlyQuest",
+          "Fluxo"
+        ],
+        [
+          "M80",
+          "NRG"
+        ],
+        [
+          "Legacy",
+          "RED Canids"
+        ],
+        [
+          "B8",
+          "PARIVISION"
+        ],
+        [
+          "Ninjas in Pyjamas",
+          "FaZe"
+        ],
+        [
+          "fnatic",
+          "Imperial"
+        ],
+        [
+          "GamerLegion",
+          "Rare Atom"
+        ],
+        [
+          "The Huns",
+          "Lynn Vision"
+        ]
+      ],
+      [
+        [
+          "Ninjas in Pyjamas",
+          "Fluxo"
+        ],
+        [
+          "B8",
+          "Legacy"
+        ],
+        [
+          "fnatic",
+          "NRG"
+        ],
+        [
+          "FaZe",
+          "RED Canids"
+        ],
+        [
+          "PARIVISION",
+          "GamerLegion"
+        ],
+        [
+          "Imperial",
+          "The Huns"
+        ]
+      ],
+      [
+        [
+          "FaZe",
+          "Fluxo"
+        ],
+        [
+          "Imperial",
+          "NRG"
+        ],
+        [
+          "PARIVISION",
+          "Legacy"
+        ]
+      ]
+    ],
+    "sources": [
+      "https://blast.tv/cs/tournaments/budapest-major-finals-2025/match?view=results",
+      "https://fragcharts.com/pickem/budapest-2025/1",
+      "https://en.wikipedia.org/wiki/StarLadder_Budapest_Major_2025",
+      "https://liquipedia.net/counterstrike/StarLadder/2025/Major/Stage_1"
+    ]
+  },
+  "cologne": {
+    "label": "科隆 2026",
+    "seeds": [
+      "GamerLegion",
+      "B8",
+      "HEROIC",
+      "BetBoom",
+      "BIG",
+      "M80",
+      "MIBR",
+      "SINNERS",
+      "NRG",
+      "TYLOO",
+      "Sharks",
+      "Gaimin Gladiators",
+      "Liquid",
+      "Lynn Vision",
+      "THUNDER dOWNUNDER",
+      "FlyQuest"
+    ],
+    "rounds": [
+      [
+        [
+          "M80",
+          "Lynn Vision"
+        ],
+        [
+          "FlyQuest",
+          "SINNERS"
+        ],
+        [
+          "B8",
+          "TYLOO"
+        ],
+        [
+          "THUNDER dOWNUNDER",
+          "MIBR"
+        ],
+        [
+          "GamerLegion",
+          "NRG"
+        ],
+        [
+          "Sharks",
+          "HEROIC"
+        ],
+        [
+          "BetBoom",
+          "Gaimin Gladiators"
+        ],
+        [
+          "Liquid",
+          "BIG"
+        ]
+      ],
+      [
+        [
+          "B8",
+          "THUNDER dOWNUNDER"
+        ],
+        [
+          "GamerLegion",
+          "FlyQuest"
+        ],
+        [
+          "M80",
+          "Sharks"
+        ],
+        [
+          "BetBoom",
+          "Liquid"
+        ],
+        [
+          "Lynn Vision",
+          "HEROIC"
+        ],
+        [
+          "MIBR",
+          "TYLOO"
+        ],
+        [
+          "NRG",
+          "SINNERS"
+        ],
+        [
+          "BIG",
+          "Gaimin Gladiators"
+        ]
+      ],
+      [
+        [
+          "BetBoom",
+          "GamerLegion"
+        ],
+        [
+          "B8",
+          "M80"
+        ],
+        [
+          "NRG",
+          "FlyQuest"
+        ],
+        [
+          "Lynn Vision",
+          "Sharks"
+        ],
+        [
+          "MIBR",
+          "Liquid"
+        ],
+        [
+          "BIG",
+          "THUNDER dOWNUNDER"
+        ],
+        [
+          "TYLOO",
+          "SINNERS"
+        ],
+        [
+          "HEROIC",
+          "Gaimin Gladiators"
+        ]
+      ],
+      [
+        [
+          "GamerLegion",
+          "BIG"
+        ],
+        [
+          "MIBR",
+          "Lynn Vision"
+        ],
+        [
+          "M80",
+          "NRG"
+        ],
+        [
+          "FlyQuest",
+          "THUNDER dOWNUNDER"
+        ],
+        [
+          "TYLOO",
+          "Sharks"
+        ],
+        [
+          "Liquid",
+          "HEROIC"
+        ]
+      ],
+      [
+        [
+          "TYLOO",
+          "Lynn Vision"
+        ],
+        [
+          "FlyQuest",
+          "Liquid"
+        ],
+        [
+          "BIG",
+          "NRG"
+        ]
+      ]
+    ],
+    "sources": [
+      "https://blast.tv/cs/tournaments/iem-cologne-major-2026/match?view=results",
+      "https://fragcharts.com/pickem/cologne-2026/1",
+      "https://en.wikipedia.org/wiki/IEM_Cologne_Major_2026",
+      "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_1"
+    ]
+  },
+  "singapore": {
+    "label": "新加坡 2026",
+    "seeds": [
+      "Ninjas in Pyjamas",
+      "PARIVISION",
+      "HEROIC",
+      "FaZe",
+      "Liquid",
+      "Eternal Fire",
+      "100 Thieves",
+      "9z",
+      "M80",
+      "DENDELE",
+      "Imperial",
+      "Wildcard",
+      "GOSH",
+      "FlyQuest",
+      "Chinggis Warriors",
+      "Lynn Vision"
+    ],
+    "rounds": [],
+    "sources": [
+      "https://fragcharts.com/pickem/simulator",
+      "https://www.pglesports.com/cs2/pgl-major-singapore-2026/",
+      "https://liquipedia.net/counterstrike/PGL/2026/Singapore/Stage_1"
+    ]
+  }
+}

@@ -1,0 +1,1438 @@
+{
+  "fields": {
+    "epl23-stage2": {
+      "id": "epl23-stage2",
+      "start": "2026-03-06",
+      "donorStage": 1,
+      "donorId": "epl23-stage1",
+      "stage2Start": "2026-03-01",
+      "stage2End": "2026-03-05",
+      "rankDay": "2026-02-02",
+      "ratingCutoff": "2026-02-28T23:59:59Z",
+      "rankSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/73c71008fb393980255103b93d6b868fb616f5ce/invitation/2026/standings_global_2026_02_02.md",
+      "seriesIndexSource": "https://www.hltv.org/results?event=8241",
+      "archiveSource": "https://raw.githubusercontent.com/zugzugs/hltvy/1a00ba2893a63646f0d940e626b6da95d342a187/results.json.gz",
+      "archiveSha256": "750b0da45142fc797eddb708698d14d269237e59784d6a1d066eddba0ba31551",
+      "series": [
+        {
+          "id": "2391011",
+          "day": "2026-03-01",
+          "bo": 3,
+          "a": "HEROIC",
+          "b": "NRG",
+          "fiveA": [
+            "chr1zn",
+            "nilo",
+            "susp",
+            "xfl0ud",
+            "yxngstxr"
+          ],
+          "fiveB": [
+            "br0",
+            "grim",
+            "nitr0",
+            "osee",
+            "sonic"
+          ],
+          "pointsA": 1536,
+          "pointsB": 1600,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Inferno",
+              13,
+              8
+            ],
+            [
+              "Nuke",
+              13,
+              10
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391011/heroic-vs-nrg-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391012",
+          "day": "2026-03-01",
+          "bo": 3,
+          "a": "PARIVISION",
+          "b": "SemperFi",
+          "fiveA": [
+            "belchonokk",
+            "jame",
+            "nota",
+            "xielo",
+            "zweih"
+          ],
+          "fiveB": [
+            "addict",
+            "hazr",
+            "keen",
+            "savage",
+            "shadiy"
+          ],
+          "pointsA": 1939,
+          "pointsB": 975,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Mirage",
+              13,
+              5
+            ],
+            [
+              "Dust2",
+              13,
+              11
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391012/parivision-vs-semperfi-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391013",
+          "day": "2026-03-01",
+          "bo": 3,
+          "a": "G2",
+          "b": "Gaimin Gladiators",
+          "fiveA": [
+            "heavygod",
+            "hunter-",
+            "malbsmd",
+            "matys",
+            "sunpayus"
+          ],
+          "fiveB": [
+            "felps",
+            "hen1",
+            "jota",
+            "luken",
+            "nekiz"
+          ],
+          "pointsA": 1623,
+          "pointsB": 1235,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              5
+            ],
+            [
+              "Inferno",
+              13,
+              10
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391013/g2-vs-gaimin-gladiators-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391014",
+          "day": "2026-03-01",
+          "bo": 3,
+          "a": "Astralis",
+          "b": "Monte",
+          "fiveA": [
+            "hooxi",
+            "jabbi",
+            "phzy",
+            "ryu",
+            "staehr"
+          ],
+          "fiveB": [
+            "afro",
+            "azuwu",
+            "bymas",
+            "gizmy",
+            "rainwaker"
+          ],
+          "pointsA": 1610,
+          "pointsB": 1348,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Dust2",
+              4,
+              13
+            ],
+            [
+              "Ancient",
+              13,
+              3
+            ],
+            [
+              "Nuke",
+              13,
+              5
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391014/astralis-vs-monte-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391015",
+          "day": "2026-03-01",
+          "bo": 3,
+          "a": "Ninjas in Pyjamas",
+          "b": "Legacy",
+          "fiveA": [
+            "cairne",
+            "r1nkle",
+            "sjuush",
+            "snappi",
+            "xkacpersky"
+          ],
+          "fiveB": [
+            "art",
+            "dumau",
+            "latto",
+            "n1ssim",
+            "saadzin"
+          ],
+          "pointsA": 1536,
+          "pointsB": 1609,
+          "rankDay": "2026-02-02",
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Ancient",
+              13,
+              16
+            ],
+            [
+              "Nuke",
+              13,
+              11
+            ],
+            [
+              "Overpass",
+              9,
+              13
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391015/ninjas-in-pyjamas-vs-legacy-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391016",
+          "day": "2026-03-01",
+          "bo": 3,
+          "a": "FUT",
+          "b": "M80",
+          "fiveA": [
+            "cmtry",
+            "dem0n",
+            "dziugss",
+            "krabeni",
+            "launx"
+          ],
+          "fiveB": [
+            "jba",
+            "lake",
+            "s1n",
+            "slaxz-",
+            "swisher"
+          ],
+          "pointsA": 1558,
+          "pointsB": 1542,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Anubis",
+              10,
+              13
+            ],
+            [
+              "Mirage",
+              13,
+              5
+            ],
+            [
+              "Ancient",
+              13,
+              5
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391016/fut-vs-m80-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391017",
+          "day": "2026-03-01",
+          "bo": 3,
+          "a": "Liquid",
+          "b": "Passion UA",
+          "fiveA": [
+            "elige",
+            "naf",
+            "nertz",
+            "siuhy",
+            "ultimate"
+          ],
+          "fiveB": [
+            "jt",
+            "kvem",
+            "nicx",
+            "senzu",
+            "try"
+          ],
+          "pointsA": 1645,
+          "pointsB": 1490,
+          "rankDay": "2026-02-02",
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Dust2",
+              8,
+              13
+            ],
+            [
+              "Nuke",
+              15,
+              19
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391017/liquid-vs-passion-ua-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391018",
+          "day": "2026-03-01",
+          "bo": 3,
+          "a": "3DMAX",
+          "b": "paiN",
+          "fiveA": [
+            "ex3rcice",
+            "graviti",
+            "lucky",
+            "maka",
+            "misutaaa"
+          ],
+          "fiveB": [
+            "biguzera",
+            "nqz",
+            "piriajr",
+            "snow",
+            "vsm"
+          ],
+          "pointsA": 1611,
+          "pointsB": 1556,
+          "rankDay": "2026-02-02",
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Nuke",
+              8,
+              13
+            ],
+            [
+              "Dust2",
+              13,
+              7
+            ],
+            [
+              "Inferno",
+              14,
+              16
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391018/3dmax-vs-pain-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391019",
+          "day": "2026-03-02",
+          "bo": 3,
+          "a": "HEROIC",
+          "b": "Astralis",
+          "fiveA": [
+            "chr1zn",
+            "nilo",
+            "susp",
+            "xfl0ud",
+            "yxngstxr"
+          ],
+          "fiveB": [
+            "hooxi",
+            "jabbi",
+            "phzy",
+            "ryu",
+            "staehr"
+          ],
+          "pointsA": 1536,
+          "pointsB": 1610,
+          "rankDay": "2026-02-02",
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              16
+            ],
+            [
+              "Overpass",
+              10,
+              13
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391019/heroic-vs-astralis-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391020",
+          "day": "2026-03-02",
+          "bo": 3,
+          "a": "NRG",
+          "b": "Monte",
+          "fiveA": [
+            "br0",
+            "grim",
+            "nitr0",
+            "osee",
+            "sonic"
+          ],
+          "fiveB": [
+            "afro",
+            "azuwu",
+            "bymas",
+            "gizmy",
+            "rainwaker"
+          ],
+          "pointsA": 1600,
+          "pointsB": 1348,
+          "rankDay": "2026-02-02",
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Nuke",
+              9,
+              13
+            ],
+            [
+              "Anubis",
+              10,
+              13
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391020/nrg-vs-monte-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391021",
+          "day": "2026-03-02",
+          "bo": 3,
+          "a": "PARIVISION",
+          "b": "paiN",
+          "fiveA": [
+            "belchonokk",
+            "jame",
+            "nota",
+            "xielo",
+            "zweih"
+          ],
+          "fiveB": [
+            "biguzera",
+            "nqz",
+            "piriajr",
+            "snow",
+            "vsm"
+          ],
+          "pointsA": 1939,
+          "pointsB": 1556,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Mirage",
+              19,
+              15
+            ],
+            [
+              "Dust2",
+              13,
+              11
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391021/parivision-vs-pain-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391022",
+          "day": "2026-03-02",
+          "bo": 3,
+          "a": "3DMAX",
+          "b": "SemperFi",
+          "fiveA": [
+            "ex3rcice",
+            "graviti",
+            "lucky",
+            "maka",
+            "misutaaa"
+          ],
+          "fiveB": [
+            "addict",
+            "hazr",
+            "keen",
+            "savage",
+            "shadiy"
+          ],
+          "pointsA": 1611,
+          "pointsB": 975,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              8
+            ],
+            [
+              "Inferno",
+              13,
+              7
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391022/3dmax-vs-semperfi-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391023",
+          "day": "2026-03-02",
+          "bo": 3,
+          "a": "Passion UA",
+          "b": "FUT",
+          "fiveA": [
+            "jt",
+            "kvem",
+            "nicx",
+            "senzu",
+            "try"
+          ],
+          "fiveB": [
+            "cmtry",
+            "dem0n",
+            "dziugss",
+            "krabeni",
+            "launx"
+          ],
+          "pointsA": 1490,
+          "pointsB": 1558,
+          "rankDay": "2026-02-02",
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Anubis",
+              7,
+              13
+            ],
+            [
+              "Mirage",
+              13,
+              10
+            ],
+            [
+              "Dust2",
+              11,
+              13
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391023/passion-ua-vs-fut-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391024",
+          "day": "2026-03-02",
+          "bo": 3,
+          "a": "Ninjas in Pyjamas",
+          "b": "M80",
+          "fiveA": [
+            "cairne",
+            "r1nkle",
+            "sjuush",
+            "snappi",
+            "xkacpersky"
+          ],
+          "fiveB": [
+            "jba",
+            "lake",
+            "s1n",
+            "slaxz-",
+            "swisher"
+          ],
+          "pointsA": 1536,
+          "pointsB": 1542,
+          "rankDay": "2026-02-02",
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Anubis",
+              3,
+              13
+            ],
+            [
+              "Ancient",
+              13,
+              11
+            ],
+            [
+              "Dust2",
+              8,
+              13
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391024/ninjas-in-pyjamas-vs-m80-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391025",
+          "day": "2026-03-02",
+          "bo": 3,
+          "a": "G2",
+          "b": "Legacy",
+          "fiveA": [
+            "heavygod",
+            "hunter-",
+            "malbsmd",
+            "matys",
+            "sunpayus"
+          ],
+          "fiveB": [
+            "art",
+            "dumau",
+            "latto",
+            "n1ssim",
+            "saadzin"
+          ],
+          "pointsA": 1623,
+          "pointsB": 1609,
+          "rankDay": "2026-02-02",
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Inferno",
+              14,
+              16
+            ],
+            [
+              "Dust2",
+              8,
+              13
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391025/g2-vs-legacy-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391026",
+          "day": "2026-03-02",
+          "bo": 3,
+          "a": "Liquid",
+          "b": "Gaimin Gladiators",
+          "fiveA": [
+            "elige",
+            "naf",
+            "nertz",
+            "siuhy",
+            "ultimate"
+          ],
+          "fiveB": [
+            "felps",
+            "hen1",
+            "jota",
+            "luken",
+            "nekiz"
+          ],
+          "pointsA": 1645,
+          "pointsB": 1235,
+          "rankDay": "2026-02-02",
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Dust2",
+              9,
+              13
+            ],
+            [
+              "Nuke",
+              13,
+              11
+            ],
+            [
+              "Ancient",
+              10,
+              13
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391026/liquid-vs-gaimin-gladiators-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391027",
+          "day": "2026-03-03",
+          "bo": 3,
+          "a": "FUT",
+          "b": "Astralis",
+          "fiveA": [
+            "cmtry",
+            "dem0n",
+            "dziugss",
+            "krabeni",
+            "launx"
+          ],
+          "fiveB": [
+            "hooxi",
+            "jabbi",
+            "phzy",
+            "ryu",
+            "staehr"
+          ],
+          "pointsA": 1558,
+          "pointsB": 1610,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Overpass",
+              13,
+              3
+            ],
+            [
+              "Mirage",
+              13,
+              11
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391027/fut-vs-astralis-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391028",
+          "day": "2026-03-03",
+          "bo": 3,
+          "a": "HEROIC",
+          "b": "Monte",
+          "fiveA": [
+            "chr1zn",
+            "nilo",
+            "susp",
+            "xfl0ud",
+            "yxngstxr"
+          ],
+          "fiveB": [
+            "afro",
+            "azuwu",
+            "bymas",
+            "gizmy",
+            "rainwaker"
+          ],
+          "pointsA": 1536,
+          "pointsB": 1348,
+          "rankDay": "2026-02-02",
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              16
+            ],
+            [
+              "Nuke",
+              20,
+              22
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391028/heroic-vs-monte-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391029",
+          "day": "2026-03-03",
+          "bo": 3,
+          "a": "PARIVISION",
+          "b": "Legacy",
+          "fiveA": [
+            "belchonokk",
+            "jame",
+            "nota",
+            "xielo",
+            "zweih"
+          ],
+          "fiveB": [
+            "art",
+            "dumau",
+            "latto",
+            "n1ssim",
+            "saadzin"
+          ],
+          "pointsA": 1939,
+          "pointsB": 1609,
+          "rankDay": "2026-02-02",
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Inferno",
+              11,
+              13
+            ],
+            [
+              "Dust2",
+              10,
+              13
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391029/parivision-vs-legacy-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391030",
+          "day": "2026-03-03",
+          "bo": 3,
+          "a": "Liquid",
+          "b": "SemperFi",
+          "fiveA": [
+            "elige",
+            "naf",
+            "nertz",
+            "siuhy",
+            "ultimate"
+          ],
+          "fiveB": [
+            "addict",
+            "hazr",
+            "keen",
+            "savage",
+            "shadiy"
+          ],
+          "pointsA": 1645,
+          "pointsB": 975,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Dust2",
+              13,
+              6
+            ],
+            [
+              "Mirage",
+              7,
+              13
+            ],
+            [
+              "Inferno",
+              13,
+              9
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391030/liquid-vs-semperfi-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391031",
+          "day": "2026-03-03",
+          "bo": 3,
+          "a": "3DMAX",
+          "b": "Gaimin Gladiators",
+          "fiveA": [
+            "ex3rcice",
+            "graviti",
+            "lucky",
+            "maka",
+            "misutaaa"
+          ],
+          "fiveB": [
+            "felps",
+            "hen1",
+            "jota",
+            "luken",
+            "nekiz"
+          ],
+          "pointsA": 1611,
+          "pointsB": 1235,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Nuke",
+              13,
+              4
+            ],
+            [
+              "Dust2",
+              16,
+              14
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391031/3dmax-vs-gaimin-gladiators-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391032",
+          "day": "2026-03-03",
+          "bo": 3,
+          "a": "paiN",
+          "b": "Passion UA",
+          "fiveA": [
+            "biguzera",
+            "nqz",
+            "piriajr",
+            "snow",
+            "vsm"
+          ],
+          "fiveB": [
+            "jt",
+            "kvem",
+            "nicx",
+            "senzu",
+            "try"
+          ],
+          "pointsA": 1556,
+          "pointsB": 1490,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Inferno",
+              13,
+              7
+            ],
+            [
+              "Overpass",
+              8,
+              13
+            ],
+            [
+              "Mirage",
+              13,
+              9
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391032/pain-vs-passion-ua-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391033",
+          "day": "2026-03-03",
+          "bo": 3,
+          "a": "G2",
+          "b": "M80",
+          "fiveA": [
+            "heavygod",
+            "hunter-",
+            "malbsmd",
+            "matys",
+            "sunpayus"
+          ],
+          "fiveB": [
+            "jba",
+            "lake",
+            "s1n",
+            "slaxz-",
+            "swisher"
+          ],
+          "pointsA": 1623,
+          "pointsB": 1542,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Overpass",
+              13,
+              3
+            ],
+            [
+              "Mirage",
+              9,
+              13
+            ],
+            [
+              "Dust2",
+              13,
+              9
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391033/g2-vs-m80-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391034",
+          "day": "2026-03-03",
+          "bo": 3,
+          "a": "Ninjas in Pyjamas",
+          "b": "NRG",
+          "fiveA": [
+            "cairne",
+            "r1nkle",
+            "sjuush",
+            "snappi",
+            "xkacpersky"
+          ],
+          "fiveB": [
+            "br0",
+            "grim",
+            "nitr0",
+            "osee",
+            "sonic"
+          ],
+          "pointsA": 1536,
+          "pointsB": 1600,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Mirage",
+              13,
+              4
+            ],
+            [
+              "Ancient",
+              7,
+              13
+            ],
+            [
+              "Anubis",
+              19,
+              16
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391034/ninjas-in-pyjamas-vs-nrg-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391035",
+          "day": "2026-03-04",
+          "bo": 3,
+          "a": "PARIVISION",
+          "b": "Monte",
+          "fiveA": [
+            "belchonokk",
+            "jame",
+            "nota",
+            "xielo",
+            "zweih"
+          ],
+          "fiveB": [
+            "afro",
+            "azuwu",
+            "bymas",
+            "gizmy",
+            "rainwaker"
+          ],
+          "pointsA": 1939,
+          "pointsB": 1348,
+          "rankDay": "2026-02-02",
+          "score": [
+            1,
+            2
+          ],
+          "maps": [
+            [
+              "Mirage",
+              10,
+              13
+            ],
+            [
+              "Dust2",
+              19,
+              15
+            ],
+            [
+              "Inferno",
+              7,
+              13
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391035/parivision-vs-monte-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391036",
+          "day": "2026-03-04",
+          "bo": 3,
+          "a": "3DMAX",
+          "b": "Astralis",
+          "fiveA": [
+            "ex3rcice",
+            "graviti",
+            "lucky",
+            "maka",
+            "misutaaa"
+          ],
+          "fiveB": [
+            "hooxi",
+            "jabbi",
+            "phzy",
+            "ryu",
+            "staehr"
+          ],
+          "pointsA": 1611,
+          "pointsB": 1610,
+          "rankDay": "2026-02-02",
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Dust2",
+              6,
+              13
+            ],
+            [
+              "Overpass",
+              5,
+              13
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391036/3dmax-vs-astralis-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391037",
+          "day": "2026-03-04",
+          "bo": 3,
+          "a": "HEROIC",
+          "b": "Passion UA",
+          "fiveA": [
+            "chr1zn",
+            "nilo",
+            "susp",
+            "xfl0ud",
+            "yxngstxr"
+          ],
+          "fiveB": [
+            "jt",
+            "kvem",
+            "nicx",
+            "senzu",
+            "try"
+          ],
+          "pointsA": 1536,
+          "pointsB": 1490,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Overpass",
+              13,
+              5
+            ],
+            [
+              "Nuke",
+              13,
+              8
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391037/heroic-vs-passion-ua-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391038",
+          "day": "2026-03-04",
+          "bo": 3,
+          "a": "Ninjas in Pyjamas",
+          "b": "Gaimin Gladiators",
+          "fiveA": [
+            "cairne",
+            "r1nkle",
+            "sjuush",
+            "snappi",
+            "xkacpersky"
+          ],
+          "fiveB": [
+            "felps",
+            "hen1",
+            "jota",
+            "luken",
+            "nekiz"
+          ],
+          "pointsA": 1536,
+          "pointsB": 1235,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Dust2",
+              16,
+              14
+            ],
+            [
+              "Nuke",
+              13,
+              4
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391038/ninjas-in-pyjamas-vs-gaimin-gladiators-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391039",
+          "day": "2026-03-04",
+          "bo": 3,
+          "a": "Liquid",
+          "b": "M80",
+          "fiveA": [
+            "elige",
+            "naf",
+            "nertz",
+            "siuhy",
+            "ultimate"
+          ],
+          "fiveB": [
+            "jba",
+            "lake",
+            "s1n",
+            "slaxz-",
+            "swisher"
+          ],
+          "pointsA": 1645,
+          "pointsB": 1542,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            1
+          ],
+          "maps": [
+            [
+              "Anubis",
+              13,
+              3
+            ],
+            [
+              "Inferno",
+              10,
+              13
+            ],
+            [
+              "Mirage",
+              16,
+              13
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391039/liquid-vs-m80-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391040",
+          "day": "2026-03-04",
+          "bo": 3,
+          "a": "G2",
+          "b": "paiN",
+          "fiveA": [
+            "heavygod",
+            "hunter-",
+            "malbsmd",
+            "matys",
+            "sunpayus"
+          ],
+          "fiveB": [
+            "biguzera",
+            "nqz",
+            "piriajr",
+            "snow",
+            "vsm"
+          ],
+          "pointsA": 1623,
+          "pointsB": 1556,
+          "rankDay": "2026-02-02",
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Inferno",
+              14,
+              16
+            ],
+            [
+              "Mirage",
+              12,
+              16
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391040/g2-vs-pain-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391041",
+          "day": "2026-03-05",
+          "bo": 3,
+          "a": "PARIVISION",
+          "b": "HEROIC",
+          "fiveA": [
+            "belchonokk",
+            "jame",
+            "nota",
+            "xielo",
+            "zweih"
+          ],
+          "fiveB": [
+            "chr1zn",
+            "nilo",
+            "susp",
+            "xfl0ud",
+            "yxngstxr"
+          ],
+          "pointsA": 1939,
+          "pointsB": 1536,
+          "rankDay": "2026-02-02",
+          "score": [
+            0,
+            2
+          ],
+          "maps": [
+            [
+              "Inferno",
+              5,
+              13
+            ],
+            [
+              "Dust2",
+              6,
+              13
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391041/parivision-vs-heroic-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391042",
+          "day": "2026-03-05",
+          "bo": 3,
+          "a": "G2",
+          "b": "Ninjas in Pyjamas",
+          "fiveA": [
+            "heavygod",
+            "hunter-",
+            "malbsmd",
+            "matys",
+            "sunpayus"
+          ],
+          "fiveB": [
+            "cairne",
+            "r1nkle",
+            "sjuush",
+            "snappi",
+            "xkacpersky"
+          ],
+          "pointsA": 1623,
+          "pointsB": 1536,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Anubis",
+              13,
+              10
+            ],
+            [
+              "Dust2",
+              16,
+              13
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391042/g2-vs-ninjas-in-pyjamas-esl-pro-league-season-23-stage-1"
+        },
+        {
+          "id": "2391043",
+          "day": "2026-03-05",
+          "bo": 3,
+          "a": "3DMAX",
+          "b": "Liquid",
+          "fiveA": [
+            "ex3rcice",
+            "graviti",
+            "lucky",
+            "maka",
+            "misutaaa"
+          ],
+          "fiveB": [
+            "elige",
+            "naf",
+            "nertz",
+            "siuhy",
+            "ultimate"
+          ],
+          "pointsA": 1611,
+          "pointsB": 1645,
+          "rankDay": "2026-02-02",
+          "score": [
+            2,
+            0
+          ],
+          "maps": [
+            [
+              "Nuke",
+              13,
+              5
+            ],
+            [
+              "Dust2",
+              13,
+              10
+            ]
+          ],
+          "sourceUrl": "https://www.hltv.org/matches/2391043/3dmax-vs-liquid-esl-pro-league-season-23-stage-1"
+        }
+      ]
+    }
+  }
+}

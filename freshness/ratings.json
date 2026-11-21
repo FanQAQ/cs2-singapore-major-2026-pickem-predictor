@@ -1,0 +1,496 @@
+{
+  "budapest": {
+    "asOf": "2025-11-23",
+    "monthlyAsOf": "2025-11-03",
+    "source": "https://www.hltv.org/valve-ranking/teams/2025/november/23",
+    "teams": {
+      "Legacy": {
+        "rank": 7,
+        "points": 1756,
+        "roster": [
+          "dumau",
+          "latto",
+          "n1ssim",
+          "lux",
+          "saadzin"
+        ],
+        "overlap": 5,
+        "sourceName": "Legacy",
+        "monthlyPoints": 1748,
+        "monthlyRank": 10
+      },
+      "FaZe": {
+        "rank": 16,
+        "points": 1566,
+        "roster": [
+          "karrigan",
+          "frozen",
+          "Twistzz",
+          "broky",
+          "jcobbb"
+        ],
+        "overlap": 4,
+        "sourceName": "FaZe",
+        "monthlyPoints": 1659,
+        "monthlyRank": 13
+      },
+      "B8": {
+        "rank": 18,
+        "points": 1527,
+        "roster": [
+          "headtr1ck",
+          "alex666",
+          "npl",
+          "kensizor",
+          "esenthial"
+        ],
+        "overlap": 5,
+        "sourceName": "B8",
+        "monthlyPoints": 1571,
+        "monthlyRank": 17
+      },
+      "GamerLegion": {
+        "rank": 19,
+        "points": 1523,
+        "roster": [
+          "REZ",
+          "ztr",
+          "Tauson",
+          "PR",
+          "hypex"
+        ],
+        "overlap": 5,
+        "sourceName": "GamerLegion",
+        "monthlyPoints": 1561,
+        "monthlyRank": 18
+      },
+      "fnatic": {
+        "rank": 23,
+        "points": 1418,
+        "roster": [
+          "KRIMZ",
+          "blameF",
+          "fEAR",
+          "jambo",
+          "jackasmo"
+        ],
+        "overlap": 5,
+        "sourceName": "fnatic",
+        "monthlyPoints": 1424,
+        "monthlyRank": 22
+      },
+      "PARIVISION": {
+        "rank": 25,
+        "points": 1412,
+        "roster": [
+          "Jame",
+          "BELCHONOKK",
+          "AW",
+          "xiELO",
+          "nota"
+        ],
+        "overlap": 5,
+        "sourceName": "PARIVISION",
+        "monthlyPoints": 1420,
+        "monthlyRank": 23
+      },
+      "Ninjas in Pyjamas": {
+        "rank": 40,
+        "points": 1280,
+        "roster": [
+          "Snappi",
+          "sjuush",
+          "r1nkle",
+          "ewjerkz",
+          "xKacpersky"
+        ],
+        "overlap": 5,
+        "sourceName": "Ninjas in Pyjamas",
+        "monthlyPoints": 1336,
+        "monthlyRank": 29
+      },
+      "Imperial": {
+        "rank": 34,
+        "points": 1304,
+        "roster": [
+          "chelo",
+          "VINI",
+          "skullz",
+          "try",
+          "noway"
+        ],
+        "overlap": 5,
+        "sourceName": "Imperial",
+        "monthlyPoints": 1336,
+        "monthlyRank": 30
+      },
+      "FlyQuest": {
+        "rank": 44,
+        "points": 1260,
+        "roster": [
+          "jks",
+          "INS",
+          "Vexite",
+          "nettik",
+          "regali"
+        ],
+        "overlap": 5,
+        "sourceName": "FlyQuest",
+        "monthlyPoints": 1327,
+        "monthlyRank": 33
+      },
+      "Lynn Vision": {
+        "rank": 24,
+        "points": 1413,
+        "roster": [
+          "Westmelon",
+          "z4KR",
+          "Starry",
+          "EmiliaQAQ",
+          "C4LLM3SU3"
+        ],
+        "overlap": 5,
+        "sourceName": "Lynn Vision",
+        "monthlyPoints": 1269,
+        "monthlyRank": 35
+      },
+      "M80": {
+        "rank": 31,
+        "points": 1320,
+        "roster": [
+          "slaxz-",
+          "Swisher",
+          "HexT",
+          "s1n",
+          "Lake"
+        ],
+        "overlap": 5,
+        "sourceName": "M80",
+        "monthlyPoints": 1252,
+        "monthlyRank": 39
+      },
+      "Fluxo": {
+        "rank": 42,
+        "points": 1277,
+        "roster": [
+          "arT",
+          "Lucaozy",
+          "zevy",
+          "kye",
+          "mlhzin"
+        ],
+        "overlap": 4,
+        "sourceName": "Fluxo",
+        "monthlyPoints": 1164,
+        "monthlyRank": 42
+      },
+      "RED Canids": {
+        "rank": 70,
+        "points": 1067,
+        "roster": [
+          "drop",
+          "chayJESUS",
+          "kauez",
+          "history",
+          "venomzera"
+        ],
+        "overlap": 5,
+        "sourceName": "RED Canids",
+        "monthlyPoints": 1141,
+        "monthlyRank": 47
+      },
+      "The Huns": {
+        "rank": 61,
+        "points": 1099,
+        "roster": [
+          "nin9",
+          "sk0R",
+          "Bart4k",
+          "xerolte",
+          "cobrazera"
+        ],
+        "overlap": 5,
+        "sourceName": "The Huns",
+        "monthlyPoints": 1136,
+        "monthlyRank": 48
+      },
+      "NRG": {
+        "rank": 33,
+        "points": 1306,
+        "roster": [
+          "nitr0",
+          "Sonic",
+          "XotiC",
+          "br0",
+          "Jeorge"
+        ],
+        "overlap": 5,
+        "sourceName": "NRG",
+        "monthlyPoints": 1129,
+        "monthlyRank": 49
+      },
+      "Rare Atom": {
+        "rank": 52,
+        "points": 1160,
+        "roster": [
+          "Summer",
+          "Marek",
+          "ChildKing",
+          "Tiger",
+          "L1haNg"
+        ],
+        "overlap": 5,
+        "sourceName": "Rare Atom",
+        "monthlyPoints": 1071,
+        "monthlyRank": 57
+      }
+    }
+  },
+  "singapore": {
+    "asOf": "2026-11-20",
+    "monthlyAsOf": "2026-11-02",
+    "source": "https://www.hltv.org/valve-ranking/teams/2026/november/20",
+    "teams": {
+      "Ninjas in Pyjamas": {
+        "rank": 21,
+        "points": 1473,
+        "roster": [
+          "stavn",
+          "sjuush",
+          "Krimbo",
+          "adamb",
+          "xKacpersky"
+        ],
+        "overlap": 5,
+        "sourceName": "Ninjas in Pyjamas",
+        "monthlyPoints": 1564,
+        "monthlyRank": 15
+      },
+      "PARIVISION": {
+        "rank": 13,
+        "points": 1574,
+        "roster": [
+          "HObbit",
+          "FL1T",
+          "Jame",
+          "xiELO",
+          "zweih"
+        ],
+        "overlap": 5,
+        "sourceName": "PARIVISION",
+        "monthlyPoints": 1560,
+        "monthlyRank": 16
+      },
+      "HEROIC": {
+        "rank": 19,
+        "points": 1496,
+        "roster": [
+          "Brollan",
+          "nilo",
+          "susp",
+          "MartinezSa",
+          "Chr1zN"
+        ],
+        "overlap": 5,
+        "sourceName": "HEROIC",
+        "monthlyPoints": 1548,
+        "monthlyRank": 18
+      },
+      "FaZe": {
+        "rank": 23,
+        "points": 1448,
+        "roster": [
+          "frozen",
+          "Twistzz",
+          "Neityu",
+          "jcobbb",
+          "JBOEN"
+        ],
+        "overlap": 5,
+        "sourceName": "FaZe",
+        "monthlyPoints": 1539,
+        "monthlyRank": 20
+      },
+      "Liquid": {
+        "rank": 15,
+        "points": 1528,
+        "roster": [
+          "NAF",
+          "EliGE",
+          "malbsMd",
+          "JT",
+          "Jorko"
+        ],
+        "overlap": 5,
+        "sourceName": "Liquid",
+        "monthlyPoints": 1528,
+        "monthlyRank": 21
+      },
+      "Eternal Fire": {
+        "rank": 25,
+        "points": 1439,
+        "roster": [
+          "MisteM",
+          "regali",
+          "soulfly",
+          "Kvem",
+          "jottAAA"
+        ],
+        "overlap": 5,
+        "sourceName": "Eternal Fire",
+        "monthlyPoints": 1513,
+        "monthlyRank": 22
+      },
+      "100 Thieves": {
+        "rank": 16,
+        "points": 1516,
+        "roster": [
+          "device",
+          "rain",
+          "Gizmy",
+          "sirah",
+          "poiii"
+        ],
+        "overlap": 5,
+        "sourceName": "100 Thieves",
+        "monthlyPoints": 1511,
+        "monthlyRank": 23
+      },
+      "9z": {
+        "rank": 31,
+        "points": 1375,
+        "roster": [
+          "max",
+          "dgt",
+          "meyern",
+          "luchov",
+          "HUASOPEEK"
+        ],
+        "overlap": 5,
+        "sourceName": "9z",
+        "monthlyPoints": 1490,
+        "monthlyRank": 24
+      },
+      "M80": {
+        "rank": 27,
+        "points": 1420,
+        "roster": [
+          "slaxz-",
+          "Swisher",
+          "s1n",
+          "JBa",
+          "Lake"
+        ],
+        "overlap": 5,
+        "sourceName": "M80",
+        "monthlyPoints": 1489,
+        "monthlyRank": 25
+      },
+      "DENDELE": {
+        "rank": 28,
+        "points": 1415,
+        "roster": [
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao",
+          "doc"
+        ],
+        "overlap": 5,
+        "sourceName": "DENDELE",
+        "monthlyPoints": 1466,
+        "monthlyRank": 29
+      },
+      "Imperial": {
+        "rank": 36,
+        "points": 1354,
+        "roster": [
+          "chelo",
+          "VINI",
+          "decenty",
+          "noway",
+          "saadzin"
+        ],
+        "overlap": 5,
+        "sourceName": "Imperial",
+        "monthlyPoints": 1406,
+        "monthlyRank": 35
+      },
+      "Wildcard": {
+        "rank": 42,
+        "points": 1327,
+        "roster": [
+          "nEMANHA",
+          "Cxzi",
+          "reck",
+          "HexT",
+          "fr3nd"
+        ],
+        "overlap": 5,
+        "sourceName": "Wildcard",
+        "monthlyPoints": 1391,
+        "monthlyRank": 38
+      },
+      "GOSH": {
+        "rank": 45,
+        "points": 1289,
+        "roster": [
+          "s1mple",
+          "Magisk",
+          "asap",
+          "Senzu",
+          "mzinho"
+        ],
+        "overlap": 5,
+        "sourceName": "BC.Game",
+        "monthlyPoints": 1337,
+        "monthlyRank": 45
+      },
+      "FlyQuest": {
+        "rank": 44,
+        "points": 1296,
+        "roster": [
+          "jks",
+          "aliStair",
+          "INS",
+          "Vexite",
+          "nettik"
+        ],
+        "overlap": 5,
+        "sourceName": "FlyQuest",
+        "monthlyPoints": 1318,
+        "monthlyRank": 48
+      },
+      "Chinggis Warriors": {
+        "rank": 54,
+        "points": 1223,
+        "roster": [
+          "sk0R",
+          "ROUX",
+          "cool4st",
+          "fury5k",
+          "tikuak"
+        ],
+        "overlap": 5,
+        "sourceName": "Chinggis Warriors",
+        "monthlyPoints": 1272,
+        "monthlyRank": 55
+      },
+      "Lynn Vision": {
+        "rank": 57,
+        "points": 1201,
+        "roster": [
+          "Westmelon",
+          "z4KR",
+          "Starry",
+          "EmiliaQAQ",
+          "C4LLM3SU3"
+        ],
+        "overlap": 5,
+        "sourceName": "Lynn Vision",
+        "monthlyPoints": 1267,
+        "monthlyRank": 56
+      }
+    }
+  }
+}

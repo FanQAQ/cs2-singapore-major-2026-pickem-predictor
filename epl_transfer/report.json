@@ -1,0 +1,1827 @@
+{
+  "event": "epl23-stage2",
+  "trainingN": 12000,
+  "evaluationN": 12000,
+  "earlier": [
+    "copenhagen-2024-2",
+    "shanghai-2024-2",
+    "austin-2025-2",
+    "austin-2025-3",
+    "budapest-2025-2",
+    "budapest-2025-3"
+  ],
+  "pairedMatchups": 33,
+  "actual": [
+    3,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    3,
+    3,
+    1,
+    1,
+    3,
+    2,
+    2,
+    3,
+    3
+  ],
+  "bo3Brier": 0.24087165728225304,
+  "summary": {
+    "original": {
+      "passes": 30,
+      "meanActual": 5,
+      "meanSimulatedPass": 0.7953083333333332
+    },
+    "historical": {
+      "passes": 30,
+      "meanActual": 5,
+      "meanSimulatedPass": 0.7608027777777778
+    }
+  },
+  "hitsCompared": {
+    "better": 0,
+    "tied": 30,
+    "worse": 0
+  },
+  "passCompared": {
+    "better": 0,
+    "tied": 30,
+    "worse": 0
+  },
+  "rows": [
+    {
+      "seed": 33719,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7935833333333333,
+        "simulatedMean": 5.81225
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7600833333333333,
+        "simulatedMean": 5.617166666666667
+      }
+    },
+    {
+      "seed": 2654469480,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7976666666666666,
+        "simulatedMean": 5.830416666666666
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.765,
+        "simulatedMean": 5.629166666666666
+      }
+    },
+    {
+      "seed": 1013937945,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7950833333333334,
+        "simulatedMean": 5.810333333333333
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7608333333333334,
+        "simulatedMean": 5.625
+      }
+    },
+    {
+      "seed": 3668373706,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.79175,
+        "simulatedMean": 5.815416666666667
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7590833333333333,
+        "simulatedMean": 5.604833333333334
+      }
+    },
+    {
+      "seed": 2027842171,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7983333333333333,
+        "simulatedMean": 5.823416666666667
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7598333333333334,
+        "simulatedMean": 5.613333333333333
+      }
+    },
+    {
+      "seed": 387310636,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7925,
+        "simulatedMean": 5.8195
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7595,
+        "simulatedMean": 5.6225
+      }
+    },
+    {
+      "seed": 3041746397,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7996666666666666,
+        "simulatedMean": 5.817916666666667
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7594166666666666,
+        "simulatedMean": 5.61475
+      }
+    },
+    {
+      "seed": 1401214862,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.79525,
+        "simulatedMean": 5.808416666666667
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7544166666666666,
+        "simulatedMean": 5.608
+      }
+    },
+    {
+      "seed": 4055650623,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.79175,
+        "simulatedMean": 5.803166666666667
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7595833333333334,
+        "simulatedMean": 5.6185
+      }
+    },
+    {
+      "seed": 2415119088,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7883333333333333,
+        "simulatedMean": 5.797
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7554166666666666,
+        "simulatedMean": 5.5986666666666665
+      }
+    },
+    {
+      "seed": 774587553,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7889166666666667,
+        "simulatedMean": 5.805
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7558333333333334,
+        "simulatedMean": 5.595666666666666
+      }
+    },
+    {
+      "seed": 3429023314,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7963333333333333,
+        "simulatedMean": 5.830666666666667
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.76075,
+        "simulatedMean": 5.61325
+      }
+    },
+    {
+      "seed": 1788491779,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7988333333333333,
+        "simulatedMean": 5.83225
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7608333333333334,
+        "simulatedMean": 5.621
+      }
+    },
+    {
+      "seed": 147960244,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7985,
+        "simulatedMean": 5.837666666666666
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7604166666666666,
+        "simulatedMean": 5.6225
+      }
+    },
+    {
+      "seed": 2802396005,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7955,
+        "simulatedMean": 5.825083333333334
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.766,
+        "simulatedMean": 5.630416666666667
+      }
+    },
+    {
+      "seed": 1161864470,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7963333333333333,
+        "simulatedMean": 5.84625
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7686666666666667,
+        "simulatedMean": 5.631916666666666
+      }
+    },
+    {
+      "seed": 3816300231,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.80175,
+        "simulatedMean": 5.84125
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7650833333333333,
+        "simulatedMean": 5.626083333333334
+      }
+    },
+    {
+      "seed": 2175768696,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7971666666666667,
+        "simulatedMean": 5.811166666666667
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7626666666666667,
+        "simulatedMean": 5.615833333333334
+      }
+    },
+    {
+      "seed": 535237161,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7939166666666667,
+        "simulatedMean": 5.812166666666666
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.76325,
+        "simulatedMean": 5.619833333333333
+      }
+    },
+    {
+      "seed": 3189672922,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7988333333333333,
+        "simulatedMean": 5.830333333333333
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7635,
+        "simulatedMean": 5.62125
+      }
+    },
+    {
+      "seed": 1549141387,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7905,
+        "simulatedMean": 5.81475
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.75775,
+        "simulatedMean": 5.604583333333333
+      }
+    },
+    {
+      "seed": 4203577148,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7930833333333334,
+        "simulatedMean": 5.812833333333334
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7561666666666667,
+        "simulatedMean": 5.599583333333333
+      }
+    },
+    {
+      "seed": 2563045613,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.8005,
+        "simulatedMean": 5.832583333333333
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7706666666666667,
+        "simulatedMean": 5.6405
+      }
+    },
+    {
+      "seed": 922514078,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7945,
+        "simulatedMean": 5.829083333333333
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.76275,
+        "simulatedMean": 5.608833333333333
+      }
+    },
+    {
+      "seed": 3576949839,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.794,
+        "simulatedMean": 5.818083333333333
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.75825,
+        "simulatedMean": 5.61175
+      }
+    },
+    {
+      "seed": 1936418304,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7949166666666667,
+        "simulatedMean": 5.814166666666667
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7574166666666666,
+        "simulatedMean": 5.611083333333333
+      }
+    },
+    {
+      "seed": 295886769,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7923333333333333,
+        "simulatedMean": 5.801166666666667
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7580833333333333,
+        "simulatedMean": 5.608666666666666
+      }
+    },
+    {
+      "seed": 2950322530,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7980833333333334,
+        "simulatedMean": 5.819916666666667
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.76225,
+        "simulatedMean": 5.627833333333333
+      }
+    },
+    {
+      "seed": 1309790995,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7948333333333333,
+        "simulatedMean": 5.816166666666667
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.76075,
+        "simulatedMean": 5.606583333333333
+      }
+    },
+    {
+      "seed": 3964226756,
+      "original": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7965,
+        "simulatedMean": 5.816666666666666
+      },
+      "historical": {
+        "card": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "actualHits": 5,
+        "actualBySlot": [
+          1,
+          4,
+          0
+        ],
+        "simulatedPass": 0.7598333333333334,
+        "simulatedMean": 5.611833333333333
+      }
+    }
+  ]
+}

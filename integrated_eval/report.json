@@ -1,0 +1,2386 @@
+{
+  "seed": 33719,
+  "simulationCount": 24000,
+  "selectionPaths": 12000,
+  "evaluationPaths": 12000,
+  "gatePathsWhenCandidatesDiffer": 12000,
+  "sensitivitySeeds": [
+    33719,
+    2654469480,
+    1013937945,
+    3668373706,
+    2027842171,
+    387310636,
+    3041746397,
+    1401214862,
+    4055650623,
+    2415119088,
+    774587553,
+    3429023314,
+    1788491779,
+    147960244,
+    2802396005,
+    1161864470,
+    3816300231,
+    2175768696,
+    535237161,
+    3189672922,
+    1549141387,
+    4203577148,
+    2563045613,
+    922514078,
+    3576949839,
+    1936418304,
+    295886769,
+    2950322530,
+    1309790995,
+    3964226756
+  ],
+  "stageCount": 5,
+  "labels": {
+    "base": "原近期表现",
+    "close": "只更新临赛战绩",
+    "region": "只加跨区校正",
+    "card": "只更换选卡方式",
+    "combined": "临赛综合策略"
+  },
+  "stages": [
+    {
+      "id": "copenhagen",
+      "label": "哥本哈根 2024",
+      "baseAsOf": "2024-03-04",
+      "closeAsOf": "2024-03-16",
+      "latestMatch": "2024-03-13",
+      "addedSeries": 29,
+      "teamsCovered": 9,
+      "regionCoverage": {
+        "region": {
+          "enabled": 0,
+          "changed": 0,
+          "matches": 33,
+          "persistentState": false
+        },
+        "combined": {
+          "enabled": 0,
+          "changed": 0,
+          "matches": 33,
+          "persistentState": false
+        }
+      },
+      "models": {
+        "base": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.23482687,
+            "logLoss": 0.66112262
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 12,
+            "brier": 0.24613827,
+            "logLoss": 0.68412801
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 7,
+            "brier": 0.21742472,
+            "logLoss": 0.62572972
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.23482687,
+              "logLoss": 0.66112262
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 12,
+              "brier": 0.24613827,
+              "logLoss": 0.68412801
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 7,
+              "brier": 0.21742472,
+              "logLoss": 0.62572972
+            }
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              3,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 2,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        },
+        "close": {
+          "all": {
+            "n": 33,
+            "correct": 20,
+            "brier": 0.23485184,
+            "logLoss": 0.66135902
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 12,
+            "brier": 0.24572819,
+            "logLoss": 0.68336234
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 8,
+            "brier": 0.21811898,
+            "logLoss": 0.62750776
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 20,
+              "brier": 0.23485184,
+              "logLoss": 0.66135902
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 12,
+              "brier": 0.24572819,
+              "logLoss": 0.68336234
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 8,
+              "brier": 0.21811898,
+              "logLoss": 0.62750776
+            }
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              3,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 2,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        },
+        "region": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.23482687,
+            "logLoss": 0.66112262
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 12,
+            "brier": 0.24613827,
+            "logLoss": 0.68412801
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 7,
+            "brier": 0.21742472,
+            "logLoss": 0.62572972
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.23482687,
+              "logLoss": 0.66112262
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 12,
+              "brier": 0.24613827,
+              "logLoss": 0.68412801
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 7,
+              "brier": 0.21742472,
+              "logLoss": 0.62572972
+            }
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              3,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 2,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        },
+        "card": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.23482687,
+            "logLoss": 0.66112262
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 12,
+            "brier": 0.24613827,
+            "logLoss": 0.68412801
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 7,
+            "brier": 0.21742472,
+            "logLoss": 0.62572972
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.23482687,
+              "logLoss": 0.66112262
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 12,
+              "brier": 0.24613827,
+              "logLoss": 0.68412801
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 7,
+              "brier": 0.21742472,
+              "logLoss": 0.62572972
+            }
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              3,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 2,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        },
+        "combined": {
+          "all": {
+            "n": 33,
+            "correct": 20,
+            "brier": 0.23485184,
+            "logLoss": 0.66135902
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 12,
+            "brier": 0.24572819,
+            "logLoss": 0.68336234
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 8,
+            "brier": 0.21811898,
+            "logLoss": 0.62750776
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 20,
+              "brier": 0.23485184,
+              "logLoss": 0.66135902
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 12,
+              "brier": 0.24572819,
+              "logLoss": 0.68336234
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 8,
+              "brier": 0.21811898,
+              "logLoss": 0.62750776
+            }
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              3,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 2,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "shanghai",
+      "label": "上海 2024",
+      "baseAsOf": "2024-11-06",
+      "closeAsOf": "2024-11-29",
+      "latestMatch": "2024-11-24",
+      "addedSeries": 54,
+      "teamsCovered": 16,
+      "regionCoverage": {
+        "region": {
+          "enabled": 0,
+          "changed": 0,
+          "matches": 33,
+          "persistentState": true
+        },
+        "combined": {
+          "enabled": 0,
+          "changed": 0,
+          "matches": 33,
+          "persistentState": true
+        }
+      },
+      "models": {
+        "base": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.22412775,
+            "logLoss": 0.63725698
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 10,
+            "brier": 0.22726146,
+            "logLoss": 0.64206795
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 9,
+            "brier": 0.21930664,
+            "logLoss": 0.62985548
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.22412775,
+              "logLoss": 0.63725698
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 10,
+              "brier": 0.22726146,
+              "logLoss": 0.64206795
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.21930664,
+              "logLoss": 0.62985548
+            }
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              1,
+              2,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 0,
+            "top6": 1,
+            "seedBottom2": 1
+          }
+        },
+        "close": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.22561212,
+            "logLoss": 0.64067982
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 10,
+            "brier": 0.23069523,
+            "logLoss": 0.64956397
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 9,
+            "brier": 0.21779195,
+            "logLoss": 0.6270119
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.22561212,
+              "logLoss": 0.64067982
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 10,
+              "brier": 0.23069523,
+              "logLoss": 0.64956397
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.21779195,
+              "logLoss": 0.6270119
+            }
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              1,
+              2,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 1,
+            "top6": 1,
+            "seedBottom2": 1
+          }
+        },
+        "region": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.22412775,
+            "logLoss": 0.63725698
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 10,
+            "brier": 0.22726146,
+            "logLoss": 0.64206795
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 9,
+            "brier": 0.21930664,
+            "logLoss": 0.62985548
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.22470207,
+              "logLoss": 0.63893833
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 10,
+              "brier": 0.22751562,
+              "logLoss": 0.64325636
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.22037353,
+              "logLoss": 0.6322952
+            }
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              1,
+              2,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 1,
+            "top6": 1,
+            "seedBottom2": 1
+          }
+        },
+        "card": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.22412775,
+            "logLoss": 0.63725698
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 10,
+            "brier": 0.22726146,
+            "logLoss": 0.64206795
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 9,
+            "brier": 0.21930664,
+            "logLoss": 0.62985548
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.22412775,
+              "logLoss": 0.63725698
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 10,
+              "brier": 0.22726146,
+              "logLoss": 0.64206795
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.21930664,
+              "logLoss": 0.62985548
+            }
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              1,
+              2,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 0,
+            "top6": 1,
+            "seedBottom2": 1
+          }
+        },
+        "combined": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.22561212,
+            "logLoss": 0.64067982
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 10,
+            "brier": 0.23069523,
+            "logLoss": 0.64956397
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 9,
+            "brier": 0.21779195,
+            "logLoss": 0.6270119
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.22620506,
+              "logLoss": 0.6423494
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 10,
+              "brier": 0.23086695,
+              "logLoss": 0.65053549
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.21903292,
+              "logLoss": 0.62975542
+            }
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              1,
+              2,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 1,
+            "top6": 1,
+            "seedBottom2": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "austin",
+      "label": "奥斯汀 Major 2025",
+      "baseAsOf": "2025-06-02",
+      "closeAsOf": "2025-06-02",
+      "latestMatch": null,
+      "addedSeries": 0,
+      "teamsCovered": 0,
+      "regionCoverage": {
+        "region": {
+          "enabled": 21,
+          "changed": 21,
+          "matches": 33,
+          "persistentState": true
+        },
+        "combined": {
+          "enabled": 21,
+          "changed": 21,
+          "matches": 33,
+          "persistentState": true
+        }
+      },
+      "models": {
+        "base": {
+          "all": {
+            "n": 33,
+            "correct": 18,
+            "brier": 0.22223055,
+            "logLoss": 0.6330897
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 9,
+            "brier": 0.24262137,
+            "logLoss": 0.67574114
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 9,
+            "brier": 0.19086004,
+            "logLoss": 0.56747211
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 18,
+              "brier": 0.22223055,
+              "logLoss": 0.6330897
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 9,
+              "brier": 0.24262137,
+              "logLoss": 0.67574114
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.19086004,
+              "logLoss": 0.56747211
+            }
+          },
+          "card": {
+            "hits": 4,
+            "passed": false,
+            "bucketHits": [
+              1,
+              3,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 2,
+            "top6": 2,
+            "seedBottom2": 2
+          }
+        },
+        "close": {
+          "all": {
+            "n": 33,
+            "correct": 18,
+            "brier": 0.22223055,
+            "logLoss": 0.6330897
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 9,
+            "brier": 0.24262137,
+            "logLoss": 0.67574114
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 9,
+            "brier": 0.19086004,
+            "logLoss": 0.56747211
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 18,
+              "brier": 0.22223055,
+              "logLoss": 0.6330897
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 9,
+              "brier": 0.24262137,
+              "logLoss": 0.67574114
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.19086004,
+              "logLoss": 0.56747211
+            }
+          },
+          "card": {
+            "hits": 4,
+            "passed": false,
+            "bucketHits": [
+              1,
+              3,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 2,
+            "top6": 2,
+            "seedBottom2": 2
+          }
+        },
+        "region": {
+          "all": {
+            "n": 33,
+            "correct": 23,
+            "brier": 0.20863472,
+            "logLoss": 0.60304015
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 13,
+            "brier": 0.23039861,
+            "logLoss": 0.64911235
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 10,
+            "brier": 0.17515182,
+            "logLoss": 0.53215986
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 23,
+              "brier": 0.21000845,
+              "logLoss": 0.60615156
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 13,
+              "brier": 0.23012448,
+              "logLoss": 0.6486086
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 10,
+              "brier": 0.17906072,
+              "logLoss": 0.54083305
+            }
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              4,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 1,
+            "top6": 1,
+            "seedBottom2": 2
+          }
+        },
+        "card": {
+          "all": {
+            "n": 33,
+            "correct": 18,
+            "brier": 0.22223055,
+            "logLoss": 0.6330897
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 9,
+            "brier": 0.24262137,
+            "logLoss": 0.67574114
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 9,
+            "brier": 0.19086004,
+            "logLoss": 0.56747211
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 18,
+              "brier": 0.22223055,
+              "logLoss": 0.6330897
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 9,
+              "brier": 0.24262137,
+              "logLoss": 0.67574114
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.19086004,
+              "logLoss": 0.56747211
+            }
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              4,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 2,
+            "top6": 2,
+            "seedBottom2": 2
+          }
+        },
+        "combined": {
+          "all": {
+            "n": 33,
+            "correct": 23,
+            "brier": 0.20863472,
+            "logLoss": 0.60304015
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 13,
+            "brier": 0.23039861,
+            "logLoss": 0.64911235
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 10,
+            "brier": 0.17515182,
+            "logLoss": 0.53215986
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 23,
+              "brier": 0.21000845,
+              "logLoss": 0.60615156
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 13,
+              "brier": 0.23012448,
+              "logLoss": 0.6486086
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 10,
+              "brier": 0.17906072,
+              "logLoss": 0.54083305
+            }
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              1,
+              4,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 1,
+            "top6": 1,
+            "seedBottom2": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "budapest",
+      "label": "布达佩斯 Major 2025",
+      "baseAsOf": "2025-11-03",
+      "closeAsOf": "2025-11-23",
+      "latestMatch": "2025-11-19",
+      "addedSeries": 30,
+      "teamsCovered": 9,
+      "regionCoverage": {
+        "region": {
+          "enabled": 0,
+          "changed": 0,
+          "matches": 33,
+          "persistentState": false
+        },
+        "combined": {
+          "enabled": 0,
+          "changed": 0,
+          "matches": 33,
+          "persistentState": false
+        }
+      },
+      "models": {
+        "base": {
+          "all": {
+            "n": 33,
+            "correct": 18,
+            "brier": 0.24175739,
+            "logLoss": 0.67550242
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 8,
+            "brier": 0.26920199,
+            "logLoss": 0.73193103
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 10,
+            "brier": 0.19953492,
+            "logLoss": 0.58868919
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 18,
+              "brier": 0.24175739,
+              "logLoss": 0.67550242
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 8,
+              "brier": 0.26920199,
+              "logLoss": 0.73193103
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 10,
+              "brier": 0.19953492,
+              "logLoss": 0.58868919
+            }
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              0,
+              4,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 1,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        },
+        "close": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.24460705,
+            "logLoss": 0.68131942
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 9,
+            "brier": 0.26617015,
+            "logLoss": 0.72543394
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 10,
+            "brier": 0.21143306,
+            "logLoss": 0.61345093
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.24460705,
+              "logLoss": 0.68131942
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 9,
+              "brier": 0.26617015,
+              "logLoss": 0.72543394
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 10,
+              "brier": 0.21143306,
+              "logLoss": 0.61345093
+            }
+          },
+          "card": {
+            "hits": 4,
+            "passed": false,
+            "bucketHits": [
+              0,
+              4,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 1,
+            "top6": 1,
+            "seedBottom2": 1
+          }
+        },
+        "region": {
+          "all": {
+            "n": 33,
+            "correct": 18,
+            "brier": 0.24175739,
+            "logLoss": 0.67550242
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 8,
+            "brier": 0.26920199,
+            "logLoss": 0.73193103
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 10,
+            "brier": 0.19953492,
+            "logLoss": 0.58868919
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 18,
+              "brier": 0.24175739,
+              "logLoss": 0.67550242
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 8,
+              "brier": 0.26920199,
+              "logLoss": 0.73193103
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 10,
+              "brier": 0.19953492,
+              "logLoss": 0.58868919
+            }
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              0,
+              4,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 1,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        },
+        "card": {
+          "all": {
+            "n": 33,
+            "correct": 18,
+            "brier": 0.24175739,
+            "logLoss": 0.67550242
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 8,
+            "brier": 0.26920199,
+            "logLoss": 0.73193103
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 10,
+            "brier": 0.19953492,
+            "logLoss": 0.58868919
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 18,
+              "brier": 0.24175739,
+              "logLoss": 0.67550242
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 8,
+              "brier": 0.26920199,
+              "logLoss": 0.73193103
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 10,
+              "brier": 0.19953492,
+              "logLoss": 0.58868919
+            }
+          },
+          "card": {
+            "hits": 5,
+            "passed": true,
+            "bucketHits": [
+              0,
+              4,
+              1
+            ]
+          },
+          "tail": {
+            "top2": 1,
+            "top4": 1,
+            "top6": 2,
+            "seedBottom2": 1
+          }
+        },
+        "combined": {
+          "all": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.24460705,
+            "logLoss": 0.68131942
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 9,
+            "brier": 0.26617015,
+            "logLoss": 0.72543394
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 10,
+            "brier": 0.21143306,
+            "logLoss": 0.61345093
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.24460705,
+              "logLoss": 0.68131942
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 9,
+              "brier": 0.26617015,
+              "logLoss": 0.72543394
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 10,
+              "brier": 0.21143306,
+              "logLoss": 0.61345093
+            }
+          },
+          "card": {
+            "hits": 4,
+            "passed": false,
+            "bucketHits": [
+              0,
+              4,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 1,
+            "top6": 1,
+            "seedBottom2": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "cologne",
+      "label": "科隆 Major 2026",
+      "baseAsOf": "2026-06-01",
+      "closeAsOf": "2026-06-01",
+      "latestMatch": null,
+      "addedSeries": 0,
+      "teamsCovered": 0,
+      "regionCoverage": {
+        "region": {
+          "enabled": 26,
+          "changed": 26,
+          "matches": 33,
+          "persistentState": false
+        },
+        "combined": {
+          "enabled": 26,
+          "changed": 26,
+          "matches": 33,
+          "persistentState": false
+        }
+      },
+      "models": {
+        "base": {
+          "all": {
+            "n": 33,
+            "correct": 21,
+            "brier": 0.22584131,
+            "logLoss": 0.64094867
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 15,
+            "brier": 0.21307651,
+            "logLoss": 0.6143028
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 6,
+            "brier": 0.24547947,
+            "logLoss": 0.68194231
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 21,
+              "brier": 0.22584131,
+              "logLoss": 0.64094867
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 15,
+              "brier": 0.21307651,
+              "logLoss": 0.6143028
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 6,
+              "brier": 0.24547947,
+              "logLoss": 0.68194231
+            }
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              0,
+              3,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 0,
+            "top6": 1,
+            "seedBottom2": 0
+          }
+        },
+        "close": {
+          "all": {
+            "n": 33,
+            "correct": 21,
+            "brier": 0.22584131,
+            "logLoss": 0.64094867
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 15,
+            "brier": 0.21307651,
+            "logLoss": 0.6143028
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 6,
+            "brier": 0.24547947,
+            "logLoss": 0.68194231
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 21,
+              "brier": 0.22584131,
+              "logLoss": 0.64094867
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 15,
+              "brier": 0.21307651,
+              "logLoss": 0.6143028
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 6,
+              "brier": 0.24547947,
+              "logLoss": 0.68194231
+            }
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              0,
+              3,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 0,
+            "top6": 1,
+            "seedBottom2": 0
+          }
+        },
+        "region": {
+          "all": {
+            "n": 33,
+            "correct": 20,
+            "brier": 0.23028308,
+            "logLoss": 0.64981731
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 14,
+            "brier": 0.22032701,
+            "logLoss": 0.62946238
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 6,
+            "brier": 0.24560013,
+            "logLoss": 0.68113258
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 20,
+              "brier": 0.23028308,
+              "logLoss": 0.64981731
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 14,
+              "brier": 0.22032701,
+              "logLoss": 0.62946238
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 6,
+              "brier": 0.24560013,
+              "logLoss": 0.68113258
+            }
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              1,
+              2,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 0,
+            "top6": 1,
+            "seedBottom2": 0
+          }
+        },
+        "card": {
+          "all": {
+            "n": 33,
+            "correct": 21,
+            "brier": 0.22584131,
+            "logLoss": 0.64094867
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 15,
+            "brier": 0.21307651,
+            "logLoss": 0.6143028
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 6,
+            "brier": 0.24547947,
+            "logLoss": 0.68194231
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 21,
+              "brier": 0.22584131,
+              "logLoss": 0.64094867
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 15,
+              "brier": 0.21307651,
+              "logLoss": 0.6143028
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 6,
+              "brier": 0.24547947,
+              "logLoss": 0.68194231
+            }
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              0,
+              3,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 0,
+            "top6": 1,
+            "seedBottom2": 0
+          }
+        },
+        "combined": {
+          "all": {
+            "n": 33,
+            "correct": 20,
+            "brier": 0.23028308,
+            "logLoss": 0.64981731
+          },
+          "bo1": {
+            "n": 20,
+            "correct": 14,
+            "brier": 0.22032701,
+            "logLoss": 0.62946238
+          },
+          "bo3": {
+            "n": 13,
+            "correct": 6,
+            "brier": 0.24560013,
+            "logLoss": 0.68113258
+          },
+          "afterPriorRounds": {
+            "all": {
+              "n": 33,
+              "correct": 20,
+              "brier": 0.23028308,
+              "logLoss": 0.64981731
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 14,
+              "brier": 0.22032701,
+              "logLoss": 0.62946238
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 6,
+              "brier": 0.24560013,
+              "logLoss": 0.68113258
+            }
+          },
+          "card": {
+            "hits": 3,
+            "passed": false,
+            "bucketHits": [
+              1,
+              2,
+              0
+            ]
+          },
+          "tail": {
+            "top2": 0,
+            "top4": 0,
+            "top6": 1,
+            "seedBottom2": 0
+          }
+        }
+      }
+    }
+  ],
+  "totals": {
+    "base": {
+      "all": {
+        "n": 165,
+        "correct": 95,
+        "brier": 0.22975677,
+        "logLoss": 0.64958408
+      },
+      "bo1": {
+        "n": 100,
+        "correct": 54,
+        "brier": 0.23965992,
+        "logLoss": 0.66963419
+      },
+      "bo3": {
+        "n": 65,
+        "correct": 41,
+        "brier": 0.21452116,
+        "logLoss": 0.61873776
+      },
+      "card": {
+        "hits": 20,
+        "passes": 2,
+        "bucketHits": [
+          3,
+          15,
+          2
+        ]
+      },
+      "afterPriorRounds": {
+        "all": {
+          "n": 165,
+          "correct": 95,
+          "brier": 0.22975677,
+          "logLoss": 0.64958408
+        },
+        "bo1": {
+          "n": 100,
+          "correct": 54,
+          "brier": 0.23965992,
+          "logLoss": 0.66963419
+        },
+        "bo3": {
+          "n": 65,
+          "correct": 41,
+          "brier": 0.21452116,
+          "logLoss": 0.61873776
+        }
+      },
+      "tail": {
+        "top2": 2,
+        "top4": 5,
+        "top6": 8,
+        "seedBottom2": 5
+      },
+      "tailQuality": {
+        "openingLosses": {
+          "n": 80,
+          "brier": 0.17715871
+        },
+        "eliminationGiven02": {
+          "n": 20,
+          "brier": 0.2332879
+        },
+        "allLosses": {
+          "n": 80,
+          "brier": 0.10418291
+        }
+      },
+      "stability": {
+        "meanHits": 21.5,
+        "meanPasses": 2.5,
+        "improved": 0,
+        "unchanged": 30,
+        "worse": 0
+      }
+    },
+    "close": {
+      "all": {
+        "n": 165,
+        "correct": 97,
+        "brier": 0.23062857,
+        "logLoss": 0.65147933
+      },
+      "bo1": {
+        "n": 100,
+        "correct": 55,
+        "brier": 0.23965829,
+        "logLoss": 0.66968084
+      },
+      "bo3": {
+        "n": 65,
+        "correct": 42,
+        "brier": 0.2167367,
+        "logLoss": 0.623477
+      },
+      "card": {
+        "hits": 19,
+        "passes": 1,
+        "bucketHits": [
+          3,
+          15,
+          1
+        ]
+      },
+      "afterPriorRounds": {
+        "all": {
+          "n": 165,
+          "correct": 97,
+          "brier": 0.23062857,
+          "logLoss": 0.65147933
+        },
+        "bo1": {
+          "n": 100,
+          "correct": 55,
+          "brier": 0.23965829,
+          "logLoss": 0.66968084
+        },
+        "bo3": {
+          "n": 65,
+          "correct": 42,
+          "brier": 0.2167367,
+          "logLoss": 0.623477
+        }
+      },
+      "tail": {
+        "top2": 1,
+        "top4": 6,
+        "top6": 7,
+        "seedBottom2": 5
+      },
+      "tailQuality": {
+        "openingLosses": {
+          "n": 80,
+          "brier": 0.17848422
+        },
+        "eliminationGiven02": {
+          "n": 20,
+          "brier": 0.23568832
+        },
+        "allLosses": {
+          "n": 80,
+          "brier": 0.10507893
+        }
+      },
+      "stability": {
+        "meanHits": 21.13333333,
+        "meanPasses": 2.2,
+        "improved": 2,
+        "unchanged": 17,
+        "worse": 11
+      }
+    },
+    "region": {
+      "all": {
+        "n": 165,
+        "correct": 99,
+        "brier": 0.22792596,
+        "logLoss": 0.6453479
+      },
+      "bo1": {
+        "n": 100,
+        "correct": 57,
+        "brier": 0.23866547,
+        "logLoss": 0.66734034
+      },
+      "bo3": {
+        "n": 65,
+        "correct": 42,
+        "brier": 0.21140365,
+        "logLoss": 0.61151336
+      },
+      "card": {
+        "hits": 21,
+        "passes": 3,
+        "bucketHits": [
+          4,
+          15,
+          2
+        ]
+      },
+      "afterPriorRounds": {
+        "all": {
+          "n": 165,
+          "correct": 99,
+          "brier": 0.22831557,
+          "logLoss": 0.64630645
+        },
+        "bo1": {
+          "n": 100,
+          "correct": 57,
+          "brier": 0.23866147,
+          "logLoss": 0.66747728
+        },
+        "bo3": {
+          "n": 65,
+          "correct": 42,
+          "brier": 0.2123988,
+          "logLoss": 0.61373595
+        }
+      },
+      "tail": {
+        "top2": 2,
+        "top4": 5,
+        "top6": 7,
+        "seedBottom2": 5
+      },
+      "tailQuality": {
+        "openingLosses": {
+          "n": 80,
+          "brier": 0.17733007
+        },
+        "eliminationGiven02": {
+          "n": 20,
+          "brier": 0.23907614
+        },
+        "allLosses": {
+          "n": 80,
+          "brier": 0.10566949
+        }
+      },
+      "stability": {
+        "meanHits": 21.56666667,
+        "meanPasses": 2.73333333,
+        "improved": 12,
+        "unchanged": 12,
+        "worse": 6
+      }
+    },
+    "card": {
+      "all": {
+        "n": 165,
+        "correct": 95,
+        "brier": 0.22975677,
+        "logLoss": 0.64958408
+      },
+      "bo1": {
+        "n": 100,
+        "correct": 54,
+        "brier": 0.23965992,
+        "logLoss": 0.66963419
+      },
+      "bo3": {
+        "n": 65,
+        "correct": 41,
+        "brier": 0.21452116,
+        "logLoss": 0.61873776
+      },
+      "card": {
+        "hits": 21,
+        "passes": 3,
+        "bucketHits": [
+          3,
+          16,
+          2
+        ]
+      },
+      "afterPriorRounds": {
+        "all": {
+          "n": 165,
+          "correct": 95,
+          "brier": 0.22975677,
+          "logLoss": 0.64958408
+        },
+        "bo1": {
+          "n": 100,
+          "correct": 54,
+          "brier": 0.23965992,
+          "logLoss": 0.66963419
+        },
+        "bo3": {
+          "n": 65,
+          "correct": 41,
+          "brier": 0.21452116,
+          "logLoss": 0.61873776
+        }
+      },
+      "tail": {
+        "top2": 2,
+        "top4": 5,
+        "top6": 8,
+        "seedBottom2": 5
+      },
+      "tailQuality": {
+        "openingLosses": {
+          "n": 80,
+          "brier": 0.17715871
+        },
+        "eliminationGiven02": {
+          "n": 20,
+          "brier": 0.2332879
+        },
+        "allLosses": {
+          "n": 80,
+          "brier": 0.10418291
+        }
+      },
+      "stability": {
+        "meanHits": 21.53333333,
+        "meanPasses": 2.96666667,
+        "improved": 14,
+        "unchanged": 14,
+        "worse": 2
+      }
+    },
+    "combined": {
+      "all": {
+        "n": 165,
+        "correct": 101,
+        "brier": 0.22879776,
+        "logLoss": 0.64724314
+      },
+      "bo1": {
+        "n": 100,
+        "correct": 58,
+        "brier": 0.23866384,
+        "logLoss": 0.66738699
+      },
+      "bo3": {
+        "n": 65,
+        "correct": 43,
+        "brier": 0.21361919,
+        "logLoss": 0.61625261
+      },
+      "card": {
+        "hits": 20,
+        "passes": 2,
+        "bucketHits": [
+          4,
+          15,
+          1
+        ]
+      },
+      "afterPriorRounds": {
+        "all": {
+          "n": 165,
+          "correct": 101,
+          "brier": 0.2291911,
+          "logLoss": 0.64819934
+        },
+        "bo1": {
+          "n": 100,
+          "correct": 58,
+          "brier": 0.23864335,
+          "logLoss": 0.66748055
+        },
+        "bo3": {
+          "n": 65,
+          "correct": 43,
+          "brier": 0.21464916,
+          "logLoss": 0.61853595
+        }
+      },
+      "tail": {
+        "top2": 1,
+        "top4": 5,
+        "top6": 6,
+        "seedBottom2": 5
+      },
+      "tailQuality": {
+        "openingLosses": {
+          "n": 80,
+          "brier": 0.17866517
+        },
+        "eliminationGiven02": {
+          "n": 20,
+          "brier": 0.24133261
+        },
+        "allLosses": {
+          "n": 80,
+          "brier": 0.1065552
+        }
+      },
+      "stability": {
+        "meanHits": 21.2,
+        "meanPasses": 2.73333333,
+        "improved": 11,
+        "unchanged": 13,
+        "worse": 6
+      }
+    }
+  },
+  "cardTransfer": {
+    "stageCount": 6,
+    "stages": [
+      {
+        "id": "austin-2025-2",
+        "label": "austin-2025-2",
+        "baseAsOf": "2025-06-02",
+        "models": {
+          "base": {
+            "all": {
+              "n": 33,
+              "correct": 14,
+              "brier": 0.29406176,
+              "logLoss": 0.7915198
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 6,
+              "brier": 0.30212304,
+              "logLoss": 0.80370075
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 8,
+              "brier": 0.2816598,
+              "logLoss": 0.77277986
+            },
+            "card": {
+              "hits": 3,
+              "passed": false,
+              "bucketHits": [
+                0,
+                3,
+                0
+              ]
+            }
+          },
+          "card": {
+            "all": {
+              "n": 33,
+              "correct": 14,
+              "brier": 0.29406176,
+              "logLoss": 0.7915198
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 6,
+              "brier": 0.30212304,
+              "logLoss": 0.80370075
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 8,
+              "brier": 0.2816598,
+              "logLoss": 0.77277986
+            },
+            "card": {
+              "hits": 3,
+              "passed": false,
+              "bucketHits": [
+                0,
+                3,
+                0
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "austin-2025-3",
+        "label": "austin-2025-3",
+        "baseAsOf": "2025-06-02",
+        "models": {
+          "base": {
+            "all": {
+              "n": 33,
+              "correct": 20,
+              "brier": 0.23323742,
+              "logLoss": 0.65653413
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 12,
+              "brier": 0.23790244,
+              "logLoss": 0.67108892
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 8,
+              "brier": 0.22606048,
+              "logLoss": 0.63414215
+            },
+            "card": {
+              "hits": 4,
+              "passed": false,
+              "bucketHits": [
+                1,
+                3,
+                0
+              ]
+            }
+          },
+          "card": {
+            "all": {
+              "n": 33,
+              "correct": 20,
+              "brier": 0.23323742,
+              "logLoss": 0.65653413
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 12,
+              "brier": 0.23790244,
+              "logLoss": 0.67108892
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 8,
+              "brier": 0.22606048,
+              "logLoss": 0.63414215
+            },
+            "card": {
+              "hits": 2,
+              "passed": false,
+              "bucketHits": [
+                0,
+                2,
+                0
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "budapest-2025-2",
+        "label": "budapest-2025-2",
+        "baseAsOf": "2025-11-03",
+        "models": {
+          "base": {
+            "all": {
+              "n": 33,
+              "correct": 16,
+              "brier": 0.23730639,
+              "logLoss": 0.66531496
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 7,
+              "brier": 0.26518677,
+              "logLoss": 0.72195569
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.19441351,
+              "logLoss": 0.57817536
+            },
+            "card": {
+              "hits": 5,
+              "passed": true,
+              "bucketHits": [
+                1,
+                4,
+                0
+              ]
+            }
+          },
+          "card": {
+            "all": {
+              "n": 33,
+              "correct": 16,
+              "brier": 0.23730639,
+              "logLoss": 0.66531496
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 7,
+              "brier": 0.26518677,
+              "logLoss": 0.72195569
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.19441351,
+              "logLoss": 0.57817536
+            },
+            "card": {
+              "hits": 5,
+              "passed": true,
+              "bucketHits": [
+                1,
+                4,
+                0
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "budapest-2025-3",
+        "label": "budapest-2025-3",
+        "baseAsOf": "2025-11-03",
+        "models": {
+          "base": {
+            "all": {
+              "n": 33,
+              "correct": 22,
+              "brier": 0.217057,
+              "logLoss": 0.62543637
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 15,
+              "brier": 0.19790072,
+              "logLoss": 0.58491492
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 7,
+              "brier": 0.2465282,
+              "logLoss": 0.68777705
+            },
+            "card": {
+              "hits": 3,
+              "passed": false,
+              "bucketHits": [
+                0,
+                3,
+                0
+              ]
+            }
+          },
+          "card": {
+            "all": {
+              "n": 33,
+              "correct": 22,
+              "brier": 0.217057,
+              "logLoss": 0.62543637
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 15,
+              "brier": 0.19790072,
+              "logLoss": 0.58491492
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 7,
+              "brier": 0.2465282,
+              "logLoss": 0.68777705
+            },
+            "card": {
+              "hits": 3,
+              "passed": false,
+              "bucketHits": [
+                0,
+                3,
+                0
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "cologne-2026-2",
+        "label": "cologne-2026-2",
+        "baseAsOf": "2026-06-01",
+        "models": {
+          "base": {
+            "all": {
+              "n": 33,
+              "correct": 20,
+              "brier": 0.21738671,
+              "logLoss": 0.62140376
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 11,
+              "brier": 0.2395581,
+              "logLoss": 0.66757194
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.18327688,
+              "logLoss": 0.55037579
+            },
+            "card": {
+              "hits": 4,
+              "passed": false,
+              "bucketHits": [
+                1,
+                2,
+                1
+              ]
+            }
+          },
+          "card": {
+            "all": {
+              "n": 33,
+              "correct": 20,
+              "brier": 0.21738671,
+              "logLoss": 0.62140376
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 11,
+              "brier": 0.2395581,
+              "logLoss": 0.66757194
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.18327688,
+              "logLoss": 0.55037579
+            },
+            "card": {
+              "hits": 4,
+              "passed": false,
+              "bucketHits": [
+                1,
+                2,
+                1
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "cologne-2026-3",
+        "label": "cologne-2026-3",
+        "baseAsOf": "2026-06-01",
+        "models": {
+          "base": {
+            "all": {
+              "n": 33,
+              "correct": 21,
+              "brier": 0.2273474,
+              "logLoss": 0.64559977
+            },
+            "bo1": {
+              "n": 0,
+              "correct": 0,
+              "brier": null,
+              "logLoss": null
+            },
+            "bo3": {
+              "n": 33,
+              "correct": 21,
+              "brier": 0.2273474,
+              "logLoss": 0.64559977
+            },
+            "card": {
+              "hits": 2,
+              "passed": false,
+              "bucketHits": [
+                0,
+                1,
+                1
+              ]
+            }
+          },
+          "card": {
+            "all": {
+              "n": 33,
+              "correct": 21,
+              "brier": 0.2273474,
+              "logLoss": 0.64559977
+            },
+            "bo1": {
+              "n": 0,
+              "correct": 0,
+              "brier": null,
+              "logLoss": null
+            },
+            "bo3": {
+              "n": 33,
+              "correct": 21,
+              "brier": 0.2273474,
+              "logLoss": 0.64559977
+            },
+            "card": {
+              "hits": 2,
+              "passed": false,
+              "bucketHits": [
+                0,
+                1,
+                1
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "totals": {
+      "base": {
+        "all": {
+          "n": 198,
+          "correct": 113,
+          "brier": 0.23773278,
+          "logLoss": 0.6676348
+        },
+        "bo1": {
+          "n": 100,
+          "correct": 51,
+          "brier": 0.24853421,
+          "logLoss": 0.68984645
+        },
+        "bo3": {
+          "n": 98,
+          "correct": 62,
+          "brier": 0.22671091,
+          "logLoss": 0.64496985
+        },
+        "card": {
+          "hits": 21,
+          "passes": 1,
+          "bucketHits": [
+            3,
+            16,
+            2
+          ]
+        }
+      },
+      "card": {
+        "all": {
+          "n": 198,
+          "correct": 113,
+          "brier": 0.23773278,
+          "logLoss": 0.6676348
+        },
+        "bo1": {
+          "n": 100,
+          "correct": 51,
+          "brier": 0.24853421,
+          "logLoss": 0.68984645
+        },
+        "bo3": {
+          "n": 98,
+          "correct": 62,
+          "brier": 0.22671091,
+          "logLoss": 0.64496985
+        },
+        "card": {
+          "hits": 19,
+          "passes": 1,
+          "bucketHits": [
+            2,
+            15,
+            2
+          ]
+        }
+      }
+    }
+  }
+}

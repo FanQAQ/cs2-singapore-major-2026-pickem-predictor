@@ -1,0 +1,26 @@
+'use strict';
+const assert = require('node:assert/strict');
+const {slope,calibrated,bin} = require('./model.cjs');
+const {recommendedFit} = require('./evaluate.cjs');
+const rows = [{p:.92,y:0},{p:.85,y:1},{p:.8,y:0},{p:.21,y:0},{p:.51,y:1}];
+const fitted = slope(rows);
+const loss = b => rows.reduce((value,g)=>{
+  const q=calibrated(g.p,b);
+  return value-(g.y?Math.log(q):Math.log1p(-q));
+},2*(b-1)**2);
+assert.equal(slope([]),1);
+assert(fitted>0 && fitted<1);
+assert(loss(fitted)<loss(fitted+.0001) && loss(fitted)<loss(fitted-.0001));
+assert(Math.abs(fitted-slope(rows.map(g=>({p:1-g.p,y:1-g.y}))))<1e-12);
+assert.equal(calibrated(.5,4),.5);
+assert(calibrated(1-Number.EPSILON,4)<1);
+assert(calibrated(Number.EPSILON,4)>0);
+assert.equal(bin(.99,.96).index,4);
+assert.equal(bin(.01,.04).actual,1);
+assert.equal(bin(.44,.47).index,0);
+assert.equal(bin(.5,.5).index,5);
+const target={start:'2025-07-04'};
+const before={id:'before',end:'2025-07-03',records:rows.map((g,i)=>({...g,id:i,day:'2025-07-02',bo:3}))};
+const later={id:'later',end:'2025-07-04',records:[{id:99,day:'2025-07-04',bo:3,p:.999,y:0}]};
+assert.deepEqual(recommendedFit(target,[before]),recommendedFit(target,[before,later]));
+console.log('Penalized loss, symmetry, tail bins and same-day data exclusion passed.');

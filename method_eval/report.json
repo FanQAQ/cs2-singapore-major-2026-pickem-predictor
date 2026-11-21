@@ -1,0 +1,2178 @@
+{
+  "seed": 33719,
+  "seeds": [
+    33719,
+    2654469480,
+    1013937945,
+    3668373706,
+    2027842171,
+    387310636,
+    3041746397,
+    1401214862,
+    4055650623,
+    2415119088,
+    774587553,
+    3429023314,
+    1788491779,
+    147960244,
+    2802396005,
+    1161864470,
+    3816300231,
+    2175768696,
+    535237161,
+    3189672922,
+    1549141387,
+    4203577148,
+    2563045613,
+    922514078,
+    3576949839,
+    1936418304,
+    295886769,
+    2950322530,
+    1309790995,
+    3964226756
+  ],
+  "simulationCount": 24000,
+  "stageCount": 5,
+  "matchCount": 165,
+  "totals": {
+    "recommended": {
+      "base": {
+        "all": {
+          "n": 165,
+          "correct": 98,
+          "brier": 0.22721785,
+          "logLoss": 0.64413236,
+          "changed": 0
+        },
+        "bo1": {
+          "n": 100,
+          "correct": 58,
+          "brier": 0.23910082,
+          "logLoss": 0.66891354,
+          "changed": 0
+        },
+        "bo3": {
+          "n": 65,
+          "correct": 40,
+          "brier": 0.20893637,
+          "logLoss": 0.60600746,
+          "changed": 0
+        },
+        "card": {
+          "hits": 23,
+          "passes": 3,
+          "bucketHits": [
+            4,
+            17,
+            2
+          ]
+        },
+        "stability": {
+          "meanHits": 22.8,
+          "meanPasses": 2.86666667,
+          "more": 0,
+          "same": 30,
+          "fewer": 0
+        }
+      },
+      "lan": {
+        "all": {
+          "n": 165,
+          "correct": 98,
+          "brier": 0.22854745,
+          "logLoss": 0.64720943,
+          "changed": 160
+        },
+        "bo1": {
+          "n": 100,
+          "correct": 59,
+          "brier": 0.23540243,
+          "logLoss": 0.66109053,
+          "changed": 98
+        },
+        "bo3": {
+          "n": 65,
+          "correct": 39,
+          "brier": 0.21800132,
+          "logLoss": 0.62585388,
+          "changed": 62
+        },
+        "card": {
+          "hits": 24,
+          "passes": 3,
+          "bucketHits": [
+            4,
+            16,
+            4
+          ]
+        },
+        "stability": {
+          "meanHits": 22.23333333,
+          "meanPasses": 2.66666667,
+          "more": 2,
+          "same": 20,
+          "fewer": 8
+        }
+      },
+      "pick": {
+        "all": {
+          "n": 165,
+          "correct": 98,
+          "brier": 0.22765274,
+          "logLoss": 0.64510612,
+          "changed": 23
+        },
+        "bo1": {
+          "n": 100,
+          "correct": 58,
+          "brier": 0.23910082,
+          "logLoss": 0.66891354,
+          "changed": 0
+        },
+        "bo3": {
+          "n": 65,
+          "correct": 40,
+          "brier": 0.21004032,
+          "logLoss": 0.60847932,
+          "changed": 23
+        },
+        "card": {
+          "hits": 23,
+          "passes": 3,
+          "bucketHits": [
+            4,
+            17,
+            2
+          ]
+        },
+        "stability": {
+          "meanHits": 22.86666667,
+          "meanPasses": 2.9,
+          "more": 1,
+          "same": 29,
+          "fewer": 0
+        }
+      },
+      "both": {
+        "all": {
+          "n": 165,
+          "correct": 98,
+          "brier": 0.22907991,
+          "logLoss": 0.64835155,
+          "changed": 160
+        },
+        "bo1": {
+          "n": 100,
+          "correct": 59,
+          "brier": 0.23540243,
+          "logLoss": 0.66109053,
+          "changed": 98
+        },
+        "bo3": {
+          "n": 65,
+          "correct": 39,
+          "brier": 0.21935296,
+          "logLoss": 0.6287531,
+          "changed": 62
+        },
+        "card": {
+          "hits": 24,
+          "passes": 3,
+          "bucketHits": [
+            4,
+            16,
+            4
+          ]
+        },
+        "stability": {
+          "meanHits": 22.26666667,
+          "meanPasses": 2.7,
+          "more": 3,
+          "same": 19,
+          "fewer": 8
+        }
+      }
+    },
+    "tree": {
+      "base": {
+        "all": {
+          "n": 165,
+          "correct": 98,
+          "brier": 0.23603017,
+          "logLoss": 0.66302873,
+          "changed": 0
+        },
+        "bo1": {
+          "n": 100,
+          "correct": 57,
+          "brier": 0.24465726,
+          "logLoss": 0.68057669,
+          "changed": 0
+        },
+        "bo3": {
+          "n": 65,
+          "correct": 41,
+          "brier": 0.22275772,
+          "logLoss": 0.63603187,
+          "changed": 0
+        },
+        "card": {
+          "hits": 21,
+          "passes": 2,
+          "bucketHits": [
+            3,
+            16,
+            2
+          ]
+        },
+        "stability": {
+          "meanHits": 20.8,
+          "meanPasses": 2.06666667,
+          "more": 0,
+          "same": 30,
+          "fewer": 0
+        }
+      },
+      "lan": {
+        "all": {
+          "n": 165,
+          "correct": 93,
+          "brier": 0.23758776,
+          "logLoss": 0.66638767,
+          "changed": 160
+        },
+        "bo1": {
+          "n": 100,
+          "correct": 58,
+          "brier": 0.24240658,
+          "logLoss": 0.67580742,
+          "changed": 98
+        },
+        "bo3": {
+          "n": 65,
+          "correct": 35,
+          "brier": 0.23017421,
+          "logLoss": 0.65189576,
+          "changed": 62
+        },
+        "card": {
+          "hits": 18,
+          "passes": 1,
+          "bucketHits": [
+            2,
+            13,
+            3
+          ]
+        },
+        "stability": {
+          "meanHits": 18.3,
+          "meanPasses": 0.5,
+          "more": 0,
+          "same": 0,
+          "fewer": 30
+        }
+      },
+      "pick": {
+        "all": {
+          "n": 165,
+          "correct": 98,
+          "brier": 0.23648295,
+          "logLoss": 0.6640306,
+          "changed": 23
+        },
+        "bo1": {
+          "n": 100,
+          "correct": 57,
+          "brier": 0.24465726,
+          "logLoss": 0.68057669,
+          "changed": 0
+        },
+        "bo3": {
+          "n": 65,
+          "correct": 41,
+          "brier": 0.22390709,
+          "logLoss": 0.63857509,
+          "changed": 23
+        },
+        "card": {
+          "hits": 23,
+          "passes": 3,
+          "bucketHits": [
+            3,
+            17,
+            3
+          ]
+        },
+        "stability": {
+          "meanHits": 20.83333333,
+          "meanPasses": 2.1,
+          "more": 2,
+          "same": 27,
+          "fewer": 1
+        }
+      },
+      "both": {
+        "all": {
+          "n": 165,
+          "correct": 92,
+          "brier": 0.23816277,
+          "logLoss": 0.66759813,
+          "changed": 160
+        },
+        "bo1": {
+          "n": 100,
+          "correct": 58,
+          "brier": 0.24240658,
+          "logLoss": 0.67580742,
+          "changed": 98
+        },
+        "bo3": {
+          "n": 65,
+          "correct": 34,
+          "brier": 0.23163383,
+          "logLoss": 0.65496845,
+          "changed": 62
+        },
+        "card": {
+          "hits": 18,
+          "passes": 1,
+          "bucketHits": [
+            2,
+            13,
+            3
+          ]
+        },
+        "stability": {
+          "meanHits": 18.63333333,
+          "meanPasses": 0.83333333,
+          "more": 0,
+          "same": 3,
+          "fewer": 27
+        }
+      }
+    }
+  },
+  "forward": {
+    "recommended": {
+      "all": {
+        "n": 165,
+        "correct": 98,
+        "brier": 0.22721785,
+        "logLoss": 0.64413236,
+        "changed": 0
+      },
+      "bo1": {
+        "n": 100,
+        "correct": 58,
+        "brier": 0.23910082,
+        "logLoss": 0.66891354,
+        "changed": 0
+      },
+      "bo3": {
+        "n": 65,
+        "correct": 40,
+        "brier": 0.20893637,
+        "logLoss": 0.60600746,
+        "changed": 0
+      },
+      "card": {
+        "hits": 23,
+        "passes": 3,
+        "bucketHits": [
+          4,
+          17,
+          2
+        ]
+      },
+      "stability": {
+        "meanHits": 22.8,
+        "meanPasses": 2.86666667,
+        "more": 0,
+        "same": 30,
+        "fewer": 0
+      }
+    },
+    "tree": {
+      "all": {
+        "n": 165,
+        "correct": 98,
+        "brier": 0.23603017,
+        "logLoss": 0.66302873,
+        "changed": 0
+      },
+      "bo1": {
+        "n": 100,
+        "correct": 57,
+        "brier": 0.24465726,
+        "logLoss": 0.68057669,
+        "changed": 0
+      },
+      "bo3": {
+        "n": 65,
+        "correct": 41,
+        "brier": 0.22275772,
+        "logLoss": 0.63603187,
+        "changed": 0
+      },
+      "card": {
+        "hits": 21,
+        "passes": 2,
+        "bucketHits": [
+          3,
+          16,
+          2
+        ]
+      },
+      "stability": {
+        "meanHits": 20.8,
+        "meanPasses": 2.06666667,
+        "more": 0,
+        "same": 30,
+        "fewer": 0
+      }
+    }
+  },
+  "selected": {
+    "recommended": "base",
+    "tree": "base"
+  },
+  "stages": [
+    {
+      "id": "copenhagen",
+      "label": "哥本哈根 2024",
+      "models": {
+        "recommended": {
+          "base": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.23482687,
+              "logLoss": 0.66112262,
+              "changed": 0
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 12,
+              "brier": 0.24613827,
+              "logLoss": 0.68412801,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 7,
+              "brier": 0.21742472,
+              "logLoss": 0.62572972,
+              "changed": 0
+            },
+            "card": {
+              "hits": 5,
+              "passes": 1,
+              "bucketHits": [
+                1,
+                3,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 4.73333333,
+              "meanPasses": 0.7,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "lan": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.23652827,
+              "logLoss": 0.66470875,
+              "changed": 29
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 12,
+              "brier": 0.24611672,
+              "logLoss": 0.68403264,
+              "changed": 18
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 7,
+              "brier": 0.22177681,
+              "logLoss": 0.63497969,
+              "changed": 11
+            },
+            "card": {
+              "hits": 5,
+              "passes": 1,
+              "bucketHits": [
+                1,
+                3,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 4.66666667,
+              "meanPasses": 0.66666667,
+              "more": 2,
+              "same": 25,
+              "fewer": 3
+            }
+          },
+          "pick": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.23467992,
+              "logLoss": 0.66080877,
+              "changed": 2
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 12,
+              "brier": 0.24613827,
+              "logLoss": 0.68412801,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 7,
+              "brier": 0.21705168,
+              "logLoss": 0.62493302,
+              "changed": 2
+            },
+            "card": {
+              "hits": 5,
+              "passes": 1,
+              "bucketHits": [
+                1,
+                3,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 4.73333333,
+              "meanPasses": 0.7,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "both": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.23638134,
+              "logLoss": 0.66439478,
+              "changed": 29
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 12,
+              "brier": 0.24611672,
+              "logLoss": 0.68403264,
+              "changed": 18
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 7,
+              "brier": 0.22140384,
+              "logLoss": 0.6341827,
+              "changed": 11
+            },
+            "card": {
+              "hits": 5,
+              "passes": 1,
+              "bucketHits": [
+                1,
+                3,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 4.66666667,
+              "meanPasses": 0.66666667,
+              "more": 2,
+              "same": 25,
+              "fewer": 3
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "all": {
+              "n": 33,
+              "correct": 17,
+              "brier": 0.2586651,
+              "logLoss": 0.71065192,
+              "changed": 0
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 10,
+              "brier": 0.26327737,
+              "logLoss": 0.71910131,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 7,
+              "brier": 0.25156932,
+              "logLoss": 0.69765285,
+              "changed": 0
+            },
+            "card": {
+              "hits": 4,
+              "passes": 0,
+              "bucketHits": [
+                1,
+                3,
+                0
+              ]
+            },
+            "stability": {
+              "meanHits": 4.03333333,
+              "meanPasses": 0.03333333,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "lan": {
+            "all": {
+              "n": 33,
+              "correct": 17,
+              "brier": 0.26030435,
+              "logLoss": 0.71427289,
+              "changed": 29
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 10,
+              "brier": 0.26346979,
+              "logLoss": 0.71967073,
+              "changed": 18
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 7,
+              "brier": 0.25543445,
+              "logLoss": 0.70596852,
+              "changed": 11
+            },
+            "card": {
+              "hits": 3,
+              "passes": 0,
+              "bucketHits": [
+                0,
+                3,
+                0
+              ]
+            },
+            "stability": {
+              "meanHits": 3.93333333,
+              "meanPasses": 0,
+              "more": 0,
+              "same": 29,
+              "fewer": 1
+            }
+          },
+          "pick": {
+            "all": {
+              "n": 33,
+              "correct": 17,
+              "brier": 0.25853656,
+              "logLoss": 0.71036601,
+              "changed": 2
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 10,
+              "brier": 0.26327737,
+              "logLoss": 0.71910131,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 7,
+              "brier": 0.251243,
+              "logLoss": 0.69692708,
+              "changed": 2
+            },
+            "card": {
+              "hits": 4,
+              "passes": 0,
+              "bucketHits": [
+                1,
+                3,
+                0
+              ]
+            },
+            "stability": {
+              "meanHits": 4,
+              "meanPasses": 0,
+              "more": 0,
+              "same": 29,
+              "fewer": 1
+            }
+          },
+          "both": {
+            "all": {
+              "n": 33,
+              "correct": 17,
+              "brier": 0.26017645,
+              "logLoss": 0.71398782,
+              "changed": 29
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 10,
+              "brier": 0.26346979,
+              "logLoss": 0.71967073,
+              "changed": 18
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 7,
+              "brier": 0.25510977,
+              "logLoss": 0.70524488,
+              "changed": 11
+            },
+            "card": {
+              "hits": 3,
+              "passes": 0,
+              "bucketHits": [
+                0,
+                3,
+                0
+              ]
+            },
+            "stability": {
+              "meanHits": 3.9,
+              "meanPasses": 0,
+              "more": 0,
+              "same": 29,
+              "fewer": 1
+            }
+          }
+        }
+      },
+      "selectedBefore": {
+        "recommended": "base",
+        "tree": "base"
+      }
+    },
+    {
+      "id": "shanghai",
+      "label": "上海 2024",
+      "models": {
+        "recommended": {
+          "base": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.22412775,
+              "logLoss": 0.63725698,
+              "changed": 0
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 10,
+              "brier": 0.22726146,
+              "logLoss": 0.64206795,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.21930664,
+              "logLoss": 0.62985548,
+              "changed": 0
+            },
+            "card": {
+              "hits": 3,
+              "passes": 0,
+              "bucketHits": [
+                1,
+                2,
+                0
+              ]
+            },
+            "stability": {
+              "meanHits": 3.33333333,
+              "meanPasses": 0.16666667,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "lan": {
+            "all": {
+              "n": 33,
+              "correct": 21,
+              "brier": 0.21391608,
+              "logLoss": 0.61769277,
+              "changed": 33
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 13,
+              "brier": 0.2123637,
+              "logLoss": 0.61342832,
+              "changed": 20
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 8,
+              "brier": 0.21630437,
+              "logLoss": 0.62425348,
+              "changed": 13
+            },
+            "card": {
+              "hits": 4,
+              "passes": 0,
+              "bucketHits": [
+                1,
+                2,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 4,
+              "meanPasses": 0,
+              "more": 0,
+              "same": 25,
+              "fewer": 5
+            }
+          },
+          "pick": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.22621392,
+              "logLoss": 0.64161286,
+              "changed": 9
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 10,
+              "brier": 0.22726146,
+              "logLoss": 0.64206795,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.22460233,
+              "logLoss": 0.64091271,
+              "changed": 9
+            },
+            "card": {
+              "hits": 3,
+              "passes": 0,
+              "bucketHits": [
+                1,
+                2,
+                0
+              ]
+            },
+            "stability": {
+              "meanHits": 3.4,
+              "meanPasses": 0.2,
+              "more": 1,
+              "same": 29,
+              "fewer": 0
+            }
+          },
+          "both": {
+            "all": {
+              "n": 33,
+              "correct": 21,
+              "brier": 0.21637404,
+              "logLoss": 0.62266089,
+              "changed": 33
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 13,
+              "brier": 0.2123637,
+              "logLoss": 0.61342832,
+              "changed": 20
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 8,
+              "brier": 0.2225438,
+              "logLoss": 0.63686484,
+              "changed": 13
+            },
+            "card": {
+              "hits": 4,
+              "passes": 0,
+              "bucketHits": [
+                1,
+                2,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 4.03333333,
+              "meanPasses": 0.03333333,
+              "more": 1,
+              "same": 24,
+              "fewer": 5
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.23515127,
+              "logLoss": 0.66227608,
+              "changed": 0
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 10,
+              "brier": 0.2440169,
+              "logLoss": 0.68009047,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.22151184,
+              "logLoss": 0.63486931,
+              "changed": 0
+            },
+            "card": {
+              "hits": 3,
+              "passes": 0,
+              "bucketHits": [
+                1,
+                2,
+                0
+              ]
+            },
+            "stability": {
+              "meanHits": 3.16666667,
+              "meanPasses": 0.03333333,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "lan": {
+            "all": {
+              "n": 33,
+              "correct": 21,
+              "brier": 0.22669472,
+              "logLoss": 0.64483123,
+              "changed": 33
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 13,
+              "brier": 0.23190334,
+              "logLoss": 0.65527132,
+              "changed": 20
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 8,
+              "brier": 0.21868145,
+              "logLoss": 0.62876955,
+              "changed": 13
+            },
+            "card": {
+              "hits": 4,
+              "passes": 0,
+              "bucketHits": [
+                1,
+                2,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 4.33333333,
+              "meanPasses": 0.33333333,
+              "more": 10,
+              "same": 19,
+              "fewer": 1
+            }
+          },
+          "pick": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.23714188,
+              "logLoss": 0.66649443,
+              "changed": 9
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 10,
+              "brier": 0.2440169,
+              "logLoss": 0.68009047,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.22656494,
+              "logLoss": 0.64557745,
+              "changed": 9
+            },
+            "card": {
+              "hits": 5,
+              "passes": 1,
+              "bucketHits": [
+                1,
+                3,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 3.26666667,
+              "meanPasses": 0.1,
+              "more": 2,
+              "same": 28,
+              "fewer": 0
+            }
+          },
+          "both": {
+            "all": {
+              "n": 33,
+              "correct": 20,
+              "brier": 0.22920134,
+              "logLoss": 0.64990135,
+              "changed": 33
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 13,
+              "brier": 0.23190334,
+              "logLoss": 0.65527132,
+              "changed": 20
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 7,
+              "brier": 0.22504442,
+              "logLoss": 0.64163987,
+              "changed": 13
+            },
+            "card": {
+              "hits": 4,
+              "passes": 0,
+              "bucketHits": [
+                1,
+                2,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 4.6,
+              "meanPasses": 0.6,
+              "more": 17,
+              "same": 13,
+              "fewer": 0
+            }
+          }
+        }
+      },
+      "selectedBefore": {
+        "recommended": "base",
+        "tree": "base"
+      }
+    },
+    {
+      "id": "austin",
+      "label": "奥斯汀 Major 2025",
+      "models": {
+        "recommended": {
+          "base": {
+            "all": {
+              "n": 33,
+              "correct": 22,
+              "brier": 0.20846377,
+              "logLoss": 0.60367852,
+              "changed": 0
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 13,
+              "brier": 0.22516748,
+              "logLoss": 0.63908068,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.18276574,
+              "logLoss": 0.54921365,
+              "changed": 0
+            },
+            "card": {
+              "hits": 5,
+              "passes": 1,
+              "bucketHits": [
+                1,
+                4,
+                0
+              ]
+            },
+            "stability": {
+              "meanHits": 5.26666667,
+              "meanPasses": 1,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "lan": {
+            "all": {
+              "n": 33,
+              "correct": 21,
+              "brier": 0.212138,
+              "logLoss": 0.61138749,
+              "changed": 33
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 11,
+              "brier": 0.2312825,
+              "logLoss": 0.6511717,
+              "changed": 20
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 10,
+              "brier": 0.18268492,
+              "logLoss": 0.55018101,
+              "changed": 13
+            },
+            "card": {
+              "hits": 6,
+              "passes": 1,
+              "bucketHits": [
+                1,
+                4,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 5.66666667,
+              "meanPasses": 1,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "pick": {
+            "all": {
+              "n": 33,
+              "correct": 22,
+              "brier": 0.20883206,
+              "logLoss": 0.60477594,
+              "changed": 6
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 13,
+              "brier": 0.22516748,
+              "logLoss": 0.63908068,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.18370064,
+              "logLoss": 0.5519994,
+              "changed": 6
+            },
+            "card": {
+              "hits": 5,
+              "passes": 1,
+              "bucketHits": [
+                1,
+                4,
+                0
+              ]
+            },
+            "stability": {
+              "meanHits": 5.26666667,
+              "meanPasses": 1,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "both": {
+            "all": {
+              "n": 33,
+              "correct": 21,
+              "brier": 0.21263267,
+              "logLoss": 0.61273869,
+              "changed": 33
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 11,
+              "brier": 0.2312825,
+              "logLoss": 0.6511717,
+              "changed": 20
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 10,
+              "brier": 0.18394063,
+              "logLoss": 0.55361098,
+              "changed": 13
+            },
+            "card": {
+              "hits": 6,
+              "passes": 1,
+              "bucketHits": [
+                1,
+                4,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 5.66666667,
+              "meanPasses": 1,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.22925931,
+              "logLoss": 0.6483318,
+              "changed": 0
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 10,
+              "brier": 0.25080563,
+              "logLoss": 0.69328703,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.19611112,
+              "logLoss": 0.57916991,
+              "changed": 0
+            },
+            "card": {
+              "hits": 6,
+              "passes": 1,
+              "bucketHits": [
+                1,
+                4,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 5.9,
+              "meanPasses": 1,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "lan": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.23199523,
+              "logLoss": 0.65418639,
+              "changed": 33
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 10,
+              "brier": 0.25901854,
+              "logLoss": 0.71072285,
+              "changed": 20
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.1904209,
+              "logLoss": 0.56720724,
+              "changed": 13
+            },
+            "card": {
+              "hits": 5,
+              "passes": 1,
+              "bucketHits": [
+                1,
+                3,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 4.16666667,
+              "meanPasses": 0.16666667,
+              "more": 0,
+              "same": 5,
+              "fewer": 25
+            }
+          },
+          "pick": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.22980339,
+              "logLoss": 0.64970573,
+              "changed": 6
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 10,
+              "brier": 0.25080563,
+              "logLoss": 0.69328703,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.19749225,
+              "logLoss": 0.58265757,
+              "changed": 6
+            },
+            "card": {
+              "hits": 6,
+              "passes": 1,
+              "bucketHits": [
+                1,
+                4,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 5.9,
+              "meanPasses": 1,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "both": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.23263771,
+              "logLoss": 0.65576604,
+              "changed": 33
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 10,
+              "brier": 0.25901854,
+              "logLoss": 0.71072285,
+              "changed": 20
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.19205182,
+              "logLoss": 0.57121711,
+              "changed": 13
+            },
+            "card": {
+              "hits": 5,
+              "passes": 1,
+              "bucketHits": [
+                1,
+                3,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 4.23333333,
+              "meanPasses": 0.23333333,
+              "more": 0,
+              "same": 7,
+              "fewer": 23
+            }
+          }
+        }
+      },
+      "selectedBefore": {
+        "recommended": "base",
+        "tree": "base"
+      }
+    },
+    {
+      "id": "budapest",
+      "label": "布达佩斯 Major 2025",
+      "models": {
+        "recommended": {
+          "base": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.23960393,
+              "logLoss": 0.67160982,
+              "changed": 0
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 9,
+              "brier": 0.2834868,
+              "logLoss": 0.76465258,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 10,
+              "brier": 0.17209181,
+              "logLoss": 0.52846711,
+              "changed": 0
+            },
+            "card": {
+              "hits": 6,
+              "passes": 1,
+              "bucketHits": [
+                0,
+                5,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 6,
+              "meanPasses": 1,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "lan": {
+            "all": {
+              "n": 33,
+              "correct": 18,
+              "brier": 0.24757412,
+              "logLoss": 0.68793693,
+              "changed": 33
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 9,
+              "brier": 0.27365127,
+              "logLoss": 0.74188317,
+              "changed": 20
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.20745541,
+              "logLoss": 0.60494271,
+              "changed": 13
+            },
+            "card": {
+              "hits": 5,
+              "passes": 1,
+              "bucketHits": [
+                0,
+                4,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 5,
+              "meanPasses": 1,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "pick": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.23950855,
+              "logLoss": 0.67141767,
+              "changed": 5
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 9,
+              "brier": 0.2834868,
+              "logLoss": 0.76465258,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 10,
+              "brier": 0.17184969,
+              "logLoss": 0.52797935,
+              "changed": 5
+            },
+            "card": {
+              "hits": 6,
+              "passes": 1,
+              "bucketHits": [
+                0,
+                5,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 6,
+              "meanPasses": 1,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "both": {
+            "all": {
+              "n": 33,
+              "correct": 18,
+              "brier": 0.24746884,
+              "logLoss": 0.68772248,
+              "changed": 33
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 9,
+              "brier": 0.27365127,
+              "logLoss": 0.74188317,
+              "changed": 20
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 9,
+              "brier": 0.20718818,
+              "logLoss": 0.60439834,
+              "changed": 13
+            },
+            "card": {
+              "hits": 5,
+              "passes": 1,
+              "bucketHits": [
+                0,
+                4,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 5,
+              "meanPasses": 1,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "all": {
+              "n": 33,
+              "correct": 22,
+              "brier": 0.23862689,
+              "logLoss": 0.66930719,
+              "changed": 0
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 12,
+              "brier": 0.25972896,
+              "logLoss": 0.7144779,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 10,
+              "brier": 0.20616217,
+              "logLoss": 0.59981378,
+              "changed": 0
+            },
+            "card": {
+              "hits": 5,
+              "passes": 1,
+              "bucketHits": [
+                0,
+                4,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 5.06666667,
+              "meanPasses": 1,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "lan": {
+            "all": {
+              "n": 33,
+              "correct": 18,
+              "brier": 0.24668271,
+              "logLoss": 0.68618374,
+              "changed": 33
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 11,
+              "brier": 0.25064319,
+              "logLoss": 0.69405474,
+              "changed": 20
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 7,
+              "brier": 0.24058966,
+              "logLoss": 0.67407451,
+              "changed": 13
+            },
+            "card": {
+              "hits": 4,
+              "passes": 0,
+              "bucketHits": [
+                0,
+                3,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 3.93333333,
+              "meanPasses": 0,
+              "more": 0,
+              "same": 0,
+              "fewer": 30
+            }
+          },
+          "pick": {
+            "all": {
+              "n": 33,
+              "correct": 22,
+              "brier": 0.23851753,
+              "logLoss": 0.66907593,
+              "changed": 5
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 12,
+              "brier": 0.25972896,
+              "logLoss": 0.7144779,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 10,
+              "brier": 0.20588456,
+              "logLoss": 0.59922673,
+              "changed": 5
+            },
+            "card": {
+              "hits": 5,
+              "passes": 1,
+              "bucketHits": [
+                0,
+                4,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 5.03333333,
+              "meanPasses": 1,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "both": {
+            "all": {
+              "n": 33,
+              "correct": 18,
+              "brier": 0.24656982,
+              "logLoss": 0.68593791,
+              "changed": 33
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 11,
+              "brier": 0.25064319,
+              "logLoss": 0.69405474,
+              "changed": 20
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 7,
+              "brier": 0.24030308,
+              "logLoss": 0.67345048,
+              "changed": 13
+            },
+            "card": {
+              "hits": 4,
+              "passes": 0,
+              "bucketHits": [
+                0,
+                3,
+                1
+              ]
+            },
+            "stability": {
+              "meanHits": 3.96666667,
+              "meanPasses": 0,
+              "more": 0,
+              "same": 0,
+              "fewer": 30
+            }
+          }
+        }
+      },
+      "selectedBefore": {
+        "recommended": "base",
+        "tree": "base"
+      }
+    },
+    {
+      "id": "cologne",
+      "label": "科隆 Major 2026",
+      "models": {
+        "recommended": {
+          "base": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.22906695,
+              "logLoss": 0.64699384,
+              "changed": 0
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 14,
+              "brier": 0.21345007,
+              "logLoss": 0.61463845,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 5,
+              "brier": 0.25309292,
+              "logLoss": 0.69677136,
+              "changed": 0
+            },
+            "card": {
+              "hits": 4,
+              "passes": 0,
+              "bucketHits": [
+                1,
+                3,
+                0
+              ]
+            },
+            "stability": {
+              "meanHits": 3.46666667,
+              "meanPasses": 0,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "lan": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.23258076,
+              "logLoss": 0.65432119,
+              "changed": 32
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 14,
+              "brier": 0.21359796,
+              "logLoss": 0.61493684,
+              "changed": 20
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 5,
+              "brier": 0.26178506,
+              "logLoss": 0.71491249,
+              "changed": 12
+            },
+            "card": {
+              "hits": 4,
+              "passes": 0,
+              "bucketHits": [
+                1,
+                3,
+                0
+              ]
+            },
+            "stability": {
+              "meanHits": 2.9,
+              "meanPasses": 0,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "pick": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.22902926,
+              "logLoss": 0.64691535,
+              "changed": 1
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 14,
+              "brier": 0.21345007,
+              "logLoss": 0.61463845,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 5,
+              "brier": 0.25299723,
+              "logLoss": 0.69657211,
+              "changed": 1
+            },
+            "card": {
+              "hits": 4,
+              "passes": 0,
+              "bucketHits": [
+                1,
+                3,
+                0
+              ]
+            },
+            "stability": {
+              "meanHits": 3.46666667,
+              "meanPasses": 0,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "both": {
+            "all": {
+              "n": 33,
+              "correct": 19,
+              "brier": 0.23254267,
+              "logLoss": 0.65424089,
+              "changed": 32
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 14,
+              "brier": 0.21359796,
+              "logLoss": 0.61493684,
+              "changed": 20
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 5,
+              "brier": 0.26168837,
+              "logLoss": 0.71470866,
+              "changed": 12
+            },
+            "card": {
+              "hits": 4,
+              "passes": 0,
+              "bucketHits": [
+                1,
+                3,
+                0
+              ]
+            },
+            "stability": {
+              "meanHits": 2.9,
+              "meanPasses": 0,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          }
+        },
+        "tree": {
+          "base": {
+            "all": {
+              "n": 33,
+              "correct": 21,
+              "brier": 0.21844826,
+              "logLoss": 0.62457667,
+              "changed": 0
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 15,
+              "brier": 0.20545745,
+              "logLoss": 0.59592671,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 6,
+              "brier": 0.23843413,
+              "logLoss": 0.66865352,
+              "changed": 0
+            },
+            "card": {
+              "hits": 3,
+              "passes": 0,
+              "bucketHits": [
+                0,
+                3,
+                0
+              ]
+            },
+            "stability": {
+              "meanHits": 2.63333333,
+              "meanPasses": 0,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "lan": {
+            "all": {
+              "n": 33,
+              "correct": 18,
+              "brier": 0.22226182,
+              "logLoss": 0.63246411,
+              "changed": 32
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 14,
+              "brier": 0.20699802,
+              "logLoss": 0.59931745,
+              "changed": 20
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 4,
+              "brier": 0.24574457,
+              "logLoss": 0.68345897,
+              "changed": 12
+            },
+            "card": {
+              "hits": 2,
+              "passes": 0,
+              "bucketHits": [
+                0,
+                2,
+                0
+              ]
+            },
+            "stability": {
+              "meanHits": 1.93333333,
+              "meanPasses": 0,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "pick": {
+            "all": {
+              "n": 33,
+              "correct": 21,
+              "brier": 0.21841539,
+              "logLoss": 0.62451092,
+              "changed": 1
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 15,
+              "brier": 0.20545745,
+              "logLoss": 0.59592671,
+              "changed": 0
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 6,
+              "brier": 0.23835068,
+              "logLoss": 0.66848663,
+              "changed": 1
+            },
+            "card": {
+              "hits": 3,
+              "passes": 0,
+              "bucketHits": [
+                0,
+                3,
+                0
+              ]
+            },
+            "stability": {
+              "meanHits": 2.63333333,
+              "meanPasses": 0,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          },
+          "both": {
+            "all": {
+              "n": 33,
+              "correct": 18,
+              "brier": 0.22222853,
+              "logLoss": 0.63239752,
+              "changed": 32
+            },
+            "bo1": {
+              "n": 20,
+              "correct": 14,
+              "brier": 0.20699802,
+              "logLoss": 0.59931745,
+              "changed": 20
+            },
+            "bo3": {
+              "n": 13,
+              "correct": 4,
+              "brier": 0.24566008,
+              "logLoss": 0.68328993,
+              "changed": 12
+            },
+            "card": {
+              "hits": 2,
+              "passes": 0,
+              "bucketHits": [
+                0,
+                2,
+                0
+              ]
+            },
+            "stability": {
+              "meanHits": 1.93333333,
+              "meanPasses": 0,
+              "more": 0,
+              "same": 30,
+              "fewer": 0
+            }
+          }
+        }
+      },
+      "selectedBefore": {
+        "recommended": "base",
+        "tree": "base"
+      }
+    }
+  ],
+  "singapore": {
+    "recommended": {
+      "selected": "base",
+      "variants": {
+        "base": {
+          "matrixSha256": "ea71c1eb92629292825192a210a5b337c86d540d567daca431dc27afa3fcad84",
+          "bo1": {
+            "changed": 0,
+            "maxAbsPP": 0
+          },
+          "bo3": {
+            "changed": 0,
+            "maxAbsPP": 0
+          }
+        },
+        "lan": {
+          "matrixSha256": "e3a7c532b031ddd3a365222797501b25d679fce4851270c6ef133643b87ad84a",
+          "bo1": {
+            "changed": 120,
+            "maxAbsPP": 11.04953139
+          },
+          "bo3": {
+            "changed": 120,
+            "maxAbsPP": 11.20204044
+          }
+        },
+        "pick": {
+          "matrixSha256": "975dcd3d08429f24fb5fe79668de225ea4eefae11ee9ab651992a9653b3fce81",
+          "bo1": {
+            "changed": 0,
+            "maxAbsPP": 0
+          },
+          "bo3": {
+            "changed": 78,
+            "maxAbsPP": 2.89625723
+          }
+        },
+        "both": {
+          "matrixSha256": "f978f9e620dd0567f085472402fd36d8c0f62e8a5fad07a829967ffa9e238ebe",
+          "bo1": {
+            "changed": 120,
+            "maxAbsPP": 11.04953139
+          },
+          "bo3": {
+            "changed": 120,
+            "maxAbsPP": 13.36466884
+          }
+        }
+      }
+    },
+    "tree": {
+      "selected": "base",
+      "variants": {
+        "base": {
+          "matrixSha256": "ad5d0fa42fd83b52a9e8d937ef89e9c83313316ed639aa3146aef508e351afc6",
+          "bo1": {
+            "changed": 0,
+            "maxAbsPP": 0
+          },
+          "bo3": {
+            "changed": 0,
+            "maxAbsPP": 0
+          }
+        },
+        "lan": {
+          "matrixSha256": "c02c9df2cec654d40671ef55159663e0402fff36282860b42405724e6d95da19",
+          "bo1": {
+            "changed": 120,
+            "maxAbsPP": 11.20191321
+          },
+          "bo3": {
+            "changed": 120,
+            "maxAbsPP": 11.20191321
+          }
+        },
+        "pick": {
+          "matrixSha256": "26f4d5dde1adfc4fbcc1acd7ec356b467ce745292d4685f5463063c29c1c4b6f",
+          "bo1": {
+            "changed": 0,
+            "maxAbsPP": 0
+          },
+          "bo3": {
+            "changed": 78,
+            "maxAbsPP": 2.85622251
+          }
+        },
+        "both": {
+          "matrixSha256": "c3815fe3274273dc453cbdc6f3ec050f6fd67d210cbf69228902d869abcb7488",
+          "bo1": {
+            "changed": 120,
+            "maxAbsPP": 11.20191321
+          },
+          "bo3": {
+            "changed": 120,
+            "maxAbsPP": 13.60021118
+          }
+        }
+      }
+    }
+  },
+  "inputSha256": {
+    "lan_signal/events.json": "d9a3b0d7a9f9327fa2b8b21dba371ab6b98f8e34bcc4362a64dfd30cba846879",
+    "lan_signal/model.js": "9741ceac723e7cf507df9662d4e63edcb1118ce58caff8df7823b98cb466428b",
+    "pick_signal/events.json": "0488dd276f346b2f31fc580469fca7d297283162aab11209f0005b5007ae2df5",
+    "pick_signal/model.js": "e8ae6ca94b5a2d5e4eeda5edefff1b1ab64e058546959f2edacf2e4eda57dfd6"
+  }
+}

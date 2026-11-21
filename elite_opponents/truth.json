@@ -1,0 +1,1701 @@
+{
+  "id": "cluj-2025",
+  "name": "PGL Cluj-Napoca 2025",
+  "stage": "Swiss",
+  "start": "2025-02-14",
+  "end": "2025-02-18",
+  "officialPage": "https://www.pglesports.com/cs2/pgl-cluj-napoca-2025/",
+  "official": "https://www.pglesports.com/_next/static/chunks/app/cs2/pgl-cluj-napoca-2025/page-57328c2d57fb9ba3.js",
+  "officialSha256": "ac9e479c9cbcaa00d34b8c4259e66998acc14992b363b2d56105d6ddd6cae92b",
+  "matchArchive": "https://raw.githubusercontent.com/zugzugs/hltvy/1a00ba2893a63646f0d940e626b6da95d342a187/results.json.gz",
+  "matchArchiveSha256": "750b0da45142fc797eddb708698d14d269237e59784d6a1d066eddba0ba31551",
+  "records": {
+    "The MongolZ": [
+      3,
+      0
+    ],
+    "Virtus.pro": [
+      2,
+      3
+    ],
+    "FaZe": [
+      3,
+      0
+    ],
+    "MIBR": [
+      1,
+      3
+    ],
+    "paiN": [
+      3,
+      1
+    ],
+    "Astralis": [
+      3,
+      2
+    ],
+    "3DMAX": [
+      2,
+      3
+    ],
+    "BIG": [
+      2,
+      3
+    ],
+    "MOUZ": [
+      3,
+      2
+    ],
+    "SAW": [
+      3,
+      2
+    ],
+    "Complexity": [
+      1,
+      3
+    ],
+    "Falcons": [
+      3,
+      1
+    ],
+    "Wildcard": [
+      1,
+      3
+    ],
+    "FlyQuest": [
+      0,
+      3
+    ],
+    "Eternal Fire": [
+      3,
+      1
+    ],
+    "Imperial Valkyries": [
+      0,
+      3
+    ]
+  },
+  "perfect": [
+    "FaZe",
+    "The MongolZ"
+  ],
+  "matches": [
+    {
+      "id": 2379326,
+      "round": 1,
+      "day": "2025-02-14",
+      "bo": 3,
+      "played": true,
+      "a": "MOUZ",
+      "b": "BIG",
+      "w": "MOUZ",
+      "l": "BIG",
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Ancient",
+          16,
+          13
+        ],
+        [
+          "Mirage",
+          13,
+          5
+        ]
+      ],
+      "fiveA": [
+        "Brollan",
+        "Jimpphat",
+        "Spinx",
+        "torzsi",
+        "xertioN"
+      ],
+      "fiveB": [
+        "hyped",
+        "JDC",
+        "Krimbo",
+        "kyuubii",
+        "tabseN"
+      ],
+      "source": "https://www.hltv.org/matches/2379326/mouz-vs-big-pgl-cluj-napoca-2025",
+      "officialRound": "opening round m1",
+      "officialKeys": [
+        "mouz",
+        "big"
+      ]
+    },
+    {
+      "id": 2379327,
+      "round": 1,
+      "day": "2025-02-14",
+      "bo": 3,
+      "played": true,
+      "a": "3DMAX",
+      "b": "Virtus.pro",
+      "w": "3DMAX",
+      "l": "Virtus.pro",
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Ancient",
+          11,
+          13
+        ],
+        [
+          "Inferno",
+          13,
+          6
+        ],
+        [
+          "Dust2",
+          13,
+          11
+        ]
+      ],
+      "fiveA": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "fiveB": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "source": "https://www.hltv.org/matches/2379327/3dmax-vs-virtuspro-pgl-cluj-napoca-2025",
+      "officialRound": "opening round m2",
+      "officialKeys": [
+        "3dmax",
+        "virtus_pro"
+      ]
+    },
+    {
+      "id": 2379328,
+      "round": 1,
+      "day": "2025-02-14",
+      "bo": 3,
+      "played": true,
+      "a": "FaZe",
+      "b": "SAW",
+      "w": "FaZe",
+      "l": "SAW",
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Ancient",
+          13,
+          2
+        ],
+        [
+          "Nuke",
+          13,
+          11
+        ]
+      ],
+      "fiveA": [
+        "broky",
+        "EliGE",
+        "frozen",
+        "karrigan",
+        "rain"
+      ],
+      "fiveB": [
+        "Ag1l",
+        "MUTiRiS",
+        "roman",
+        "Shr",
+        "story"
+      ],
+      "source": "https://www.hltv.org/matches/2379328/faze-vs-saw-pgl-cluj-napoca-2025",
+      "officialRound": "opening round m3",
+      "officialKeys": [
+        "faze_clan",
+        "saw"
+      ]
+    },
+    {
+      "id": 2379329,
+      "round": 1,
+      "day": "2025-02-14",
+      "bo": 3,
+      "played": true,
+      "a": "Falcons",
+      "b": "FlyQuest",
+      "w": "Falcons",
+      "l": "FlyQuest",
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Inferno",
+          13,
+          9
+        ],
+        [
+          "Dust2",
+          13,
+          7
+        ]
+      ],
+      "fiveA": [
+        "degster",
+        "kyxsan",
+        "Magisk",
+        "NiKo",
+        "TeSeS"
+      ],
+      "fiveB": [
+        "dexter",
+        "INS",
+        "Liazz",
+        "regali",
+        "Vexite"
+      ],
+      "source": "https://www.hltv.org/matches/2379329/falcons-vs-flyquest-pgl-cluj-napoca-2025",
+      "officialRound": "opening round m4",
+      "officialKeys": [
+        "falcons",
+        "flyquest"
+      ]
+    },
+    {
+      "id": 2379330,
+      "round": 1,
+      "day": "2025-02-14",
+      "bo": 3,
+      "played": true,
+      "a": "The MongolZ",
+      "b": "Complexity",
+      "w": "The MongolZ",
+      "l": "Complexity",
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Dust2",
+          13,
+          7
+        ],
+        [
+          "Ancient",
+          13,
+          7
+        ]
+      ],
+      "fiveA": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "fiveB": [
+        "Cxzi",
+        "Grim",
+        "hallzerk",
+        "JT",
+        "nicx"
+      ],
+      "source": "https://www.hltv.org/matches/2379330/the-mongolz-vs-complexity-pgl-cluj-napoca-2025",
+      "officialRound": "opening round m5",
+      "officialKeys": [
+        "the_mongolz",
+        "complexity"
+      ]
+    },
+    {
+      "id": 2379331,
+      "round": 1,
+      "day": "2025-02-14",
+      "bo": 3,
+      "played": true,
+      "a": "MIBR",
+      "b": "Wildcard",
+      "w": "Wildcard",
+      "l": "MIBR",
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Train",
+          15,
+          19
+        ],
+        [
+          "Nuke",
+          4,
+          13
+        ]
+      ],
+      "fiveA": [
+        "drop",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "fiveB": [
+        "JBa",
+        "phzy",
+        "Sonic",
+        "stanislaw",
+        "susp"
+      ],
+      "source": "https://www.hltv.org/matches/2379331/mibr-vs-wildcard-pgl-cluj-napoca-2025",
+      "officialRound": "opening round m6",
+      "officialKeys": [
+        "made_in_brazil",
+        "wildcard"
+      ]
+    },
+    {
+      "id": 2379332,
+      "round": 1,
+      "day": "2025-02-14",
+      "bo": 3,
+      "played": true,
+      "a": "paiN",
+      "b": "Astralis",
+      "w": "paiN",
+      "l": "Astralis",
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Inferno",
+          7,
+          13
+        ],
+        [
+          "Mirage",
+          13,
+          6
+        ],
+        [
+          "Nuke",
+          13,
+          11
+        ]
+      ],
+      "fiveA": [
+        "biguzera",
+        "dav1deuS",
+        "kauez",
+        "nqz",
+        "snow"
+      ],
+      "fiveB": [
+        "cadiaN",
+        "device",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "source": "https://www.hltv.org/matches/2379332/pain-vs-astralis-pgl-cluj-napoca-2025",
+      "officialRound": "opening round m7",
+      "officialKeys": [
+        "pain_gaming",
+        "astralis"
+      ]
+    },
+    {
+      "id": 2379333,
+      "round": 1,
+      "day": "2025-02-14",
+      "bo": 3,
+      "played": true,
+      "a": "Eternal Fire",
+      "b": "Imperial Valkyries",
+      "w": "Eternal Fire",
+      "l": "Imperial Valkyries",
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          5
+        ],
+        [
+          "Nuke",
+          13,
+          4
+        ]
+      ],
+      "fiveA": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "fiveB": [
+        "ANa",
+        "Kat",
+        "tory",
+        "twenty3",
+        "zAAz"
+      ],
+      "source": "https://www.hltv.org/matches/2379333/eternal-fire-vs-imperial-valkyries-pgl-cluj-napoca-2025",
+      "officialRound": "opening round m8",
+      "officialKeys": [
+        "eternal_fire",
+        "imperial_valkyries"
+      ]
+    },
+    {
+      "id": 2379334,
+      "round": 2,
+      "day": "2025-02-15",
+      "bo": 3,
+      "played": true,
+      "a": "MOUZ",
+      "b": "3DMAX",
+      "w": "MOUZ",
+      "l": "3DMAX",
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Inferno",
+          13,
+          9
+        ],
+        [
+          "Nuke",
+          13,
+          8
+        ]
+      ],
+      "fiveA": [
+        "Brollan",
+        "Jimpphat",
+        "Spinx",
+        "torzsi",
+        "xertioN"
+      ],
+      "fiveB": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "source": "https://www.hltv.org/matches/2379334/mouz-vs-3dmax-pgl-cluj-napoca-2025",
+      "officialRound": "round 2 high match#1",
+      "officialKeys": [
+        "mouz",
+        "3dmax"
+      ]
+    },
+    {
+      "id": 2379335,
+      "round": 2,
+      "day": "2025-02-15",
+      "bo": 3,
+      "played": true,
+      "a": "BIG",
+      "b": "FlyQuest",
+      "w": "BIG",
+      "l": "FlyQuest",
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Inferno",
+          1,
+          13
+        ],
+        [
+          "Ancient",
+          13,
+          5
+        ],
+        [
+          "Nuke",
+          13,
+          5
+        ]
+      ],
+      "fiveA": [
+        "hyped",
+        "JDC",
+        "Krimbo",
+        "kyuubii",
+        "tabseN"
+      ],
+      "fiveB": [
+        "dexter",
+        "INS",
+        "Liazz",
+        "regali",
+        "Vexite"
+      ],
+      "source": "https://www.hltv.org/matches/2379335/big-vs-flyquest-pgl-cluj-napoca-2025",
+      "officialRound": "round 2 low match#1",
+      "officialKeys": [
+        "big",
+        "flyquest"
+      ]
+    },
+    {
+      "id": 2379336,
+      "round": 2,
+      "day": "2025-02-15",
+      "bo": 3,
+      "played": true,
+      "a": "The MongolZ",
+      "b": "Wildcard",
+      "w": "The MongolZ",
+      "l": "Wildcard",
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Inferno",
+          19,
+          16
+        ],
+        [
+          "Ancient",
+          13,
+          10
+        ]
+      ],
+      "fiveA": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "fiveB": [
+        "JBa",
+        "phzy",
+        "Sonic",
+        "stanislaw",
+        "susp"
+      ],
+      "source": "https://www.hltv.org/matches/2379336/the-mongolz-vs-wildcard-pgl-cluj-napoca-2025",
+      "officialRound": "round 2 high match#2",
+      "officialKeys": [
+        "the_mongolz",
+        "wildcard"
+      ]
+    },
+    {
+      "id": 2379337,
+      "round": 2,
+      "day": "2025-02-15",
+      "bo": 3,
+      "played": true,
+      "a": "Complexity",
+      "b": "Virtus.pro",
+      "w": "Virtus.pro",
+      "l": "Complexity",
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Dust2",
+          8,
+          13
+        ],
+        [
+          "Inferno",
+          13,
+          16
+        ]
+      ],
+      "fiveA": [
+        "Cxzi",
+        "Grim",
+        "hallzerk",
+        "JT",
+        "nicx"
+      ],
+      "fiveB": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "source": "https://www.hltv.org/matches/2379337/complexity-vs-virtuspro-pgl-cluj-napoca-2025",
+      "officialRound": "round 2 low match#2",
+      "officialKeys": [
+        "complexity",
+        "virtus_pro"
+      ]
+    },
+    {
+      "id": 2379338,
+      "round": 2,
+      "day": "2025-02-15",
+      "bo": 3,
+      "played": true,
+      "a": "FaZe",
+      "b": "Eternal Fire",
+      "w": "FaZe",
+      "l": "Eternal Fire",
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Dust2",
+          13,
+          4
+        ],
+        [
+          "Anubis",
+          10,
+          13
+        ],
+        [
+          "Inferno",
+          13,
+          10
+        ]
+      ],
+      "fiveA": [
+        "broky",
+        "EliGE",
+        "frozen",
+        "karrigan",
+        "rain"
+      ],
+      "fiveB": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "source": "https://www.hltv.org/matches/2379338/faze-vs-eternal-fire-pgl-cluj-napoca-2025",
+      "officialRound": "round 2 high match#3",
+      "officialKeys": [
+        "faze_clan",
+        "eternal_fire"
+      ]
+    },
+    {
+      "id": 2379339,
+      "round": 2,
+      "day": "2025-02-15",
+      "bo": 3,
+      "played": true,
+      "a": "MIBR",
+      "b": "Imperial Valkyries",
+      "w": "MIBR",
+      "l": "Imperial Valkyries",
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          3
+        ],
+        [
+          "Ancient",
+          13,
+          4
+        ]
+      ],
+      "fiveA": [
+        "drop",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "fiveB": [
+        "ANa",
+        "Kat",
+        "tory",
+        "twenty3",
+        "zAAz"
+      ],
+      "source": "https://www.hltv.org/matches/2379339/mibr-vs-imperial-valkyries-pgl-cluj-napoca-2025",
+      "officialRound": "round 2 low match#3",
+      "officialKeys": [
+        "made_in_brazil",
+        "imperial_valkyries"
+      ]
+    },
+    {
+      "id": 2379340,
+      "round": 2,
+      "day": "2025-02-15",
+      "bo": 3,
+      "played": true,
+      "a": "Falcons",
+      "b": "paiN",
+      "w": "paiN",
+      "l": "Falcons",
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Mirage",
+          8,
+          13
+        ],
+        [
+          "Dust2",
+          16,
+          12
+        ],
+        [
+          "Nuke",
+          11,
+          13
+        ]
+      ],
+      "fiveA": [
+        "degster",
+        "kyxsan",
+        "Magisk",
+        "NiKo",
+        "TeSeS"
+      ],
+      "fiveB": [
+        "biguzera",
+        "dav1deuS",
+        "kauez",
+        "nqz",
+        "snow"
+      ],
+      "source": "https://www.hltv.org/matches/2379340/falcons-vs-pain-pgl-cluj-napoca-2025",
+      "officialRound": "round 2 high match#4",
+      "officialKeys": [
+        "falcons",
+        "pain_gaming"
+      ]
+    },
+    {
+      "id": 2379341,
+      "round": 2,
+      "day": "2025-02-15",
+      "bo": 3,
+      "played": true,
+      "a": "SAW",
+      "b": "Astralis",
+      "w": "Astralis",
+      "l": "SAW",
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Nuke",
+          11,
+          13
+        ],
+        [
+          "Inferno",
+          6,
+          13
+        ]
+      ],
+      "fiveA": [
+        "Ag1l",
+        "MUTiRiS",
+        "roman",
+        "Shr",
+        "story"
+      ],
+      "fiveB": [
+        "cadiaN",
+        "device",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "source": "https://www.hltv.org/matches/2379341/saw-vs-astralis-pgl-cluj-napoca-2025",
+      "officialRound": "round 2 low match#4",
+      "officialKeys": [
+        "saw",
+        "astralis"
+      ]
+    },
+    {
+      "id": 2379342,
+      "round": 3,
+      "day": "2025-02-16",
+      "bo": 3,
+      "played": true,
+      "a": "Eternal Fire",
+      "b": "BIG",
+      "w": "Eternal Fire",
+      "l": "BIG",
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Dust2",
+          13,
+          5
+        ],
+        [
+          "Inferno",
+          13,
+          9
+        ]
+      ],
+      "fiveA": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "fiveB": [
+        "hyped",
+        "JDC",
+        "Krimbo",
+        "kyuubii",
+        "tabseN"
+      ],
+      "source": "https://www.hltv.org/matches/2379342/eternal-fire-vs-big-pgl-cluj-napoca-2025",
+      "officialRound": "round 3 mid match",
+      "officialKeys": [
+        "eternal_fire",
+        "big"
+      ]
+    },
+    {
+      "id": 2379343,
+      "round": 3,
+      "day": "2025-02-16",
+      "bo": 3,
+      "played": true,
+      "a": "3DMAX",
+      "b": "MIBR",
+      "w": "3DMAX",
+      "l": "MIBR",
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Ancient",
+          13,
+          5
+        ],
+        [
+          "Inferno",
+          13,
+          11
+        ]
+      ],
+      "fiveA": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "fiveB": [
+        "drop",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "source": "https://www.hltv.org/matches/2379343/3dmax-vs-mibr-pgl-cluj-napoca-2025",
+      "officialRound": "round 3 mid match",
+      "officialKeys": [
+        "3dmax",
+        "made_in_brazil"
+      ]
+    },
+    {
+      "id": 2379344,
+      "round": 3,
+      "day": "2025-02-16",
+      "bo": 3,
+      "played": true,
+      "a": "Falcons",
+      "b": "Astralis",
+      "w": "Falcons",
+      "l": "Astralis",
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Ancient",
+          6,
+          13
+        ],
+        [
+          "Dust2",
+          13,
+          7
+        ],
+        [
+          "Nuke",
+          13,
+          6
+        ]
+      ],
+      "fiveA": [
+        "degster",
+        "kyxsan",
+        "Magisk",
+        "NiKo",
+        "TeSeS"
+      ],
+      "fiveB": [
+        "cadiaN",
+        "device",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "source": "https://www.hltv.org/matches/2379344/falcons-vs-astralis-pgl-cluj-napoca-2025",
+      "officialRound": "round 3 mid match",
+      "officialKeys": [
+        "falcons",
+        "astralis"
+      ]
+    },
+    {
+      "id": 2379345,
+      "round": 3,
+      "day": "2025-02-16",
+      "bo": 3,
+      "played": true,
+      "a": "Wildcard",
+      "b": "Virtus.pro",
+      "w": "Virtus.pro",
+      "l": "Wildcard",
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Dust2",
+          10,
+          13
+        ],
+        [
+          "Inferno",
+          10,
+          13
+        ]
+      ],
+      "fiveA": [
+        "JBa",
+        "phzy",
+        "Sonic",
+        "stanislaw",
+        "susp"
+      ],
+      "fiveB": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "source": "https://www.hltv.org/matches/2379345/wildcard-vs-virtuspro-pgl-cluj-napoca-2025",
+      "officialRound": "round 3 mid match",
+      "officialKeys": [
+        "wildcard",
+        "virtus_pro"
+      ]
+    },
+    {
+      "id": 2379346,
+      "round": 3,
+      "day": "2025-02-16",
+      "bo": 3,
+      "played": true,
+      "a": "MOUZ",
+      "b": "FaZe",
+      "w": "FaZe",
+      "l": "MOUZ",
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Ancient",
+          11,
+          13
+        ],
+        [
+          "Mirage",
+          7,
+          13
+        ]
+      ],
+      "fiveA": [
+        "Brollan",
+        "Jimpphat",
+        "Spinx",
+        "torzsi",
+        "xertioN"
+      ],
+      "fiveB": [
+        "broky",
+        "EliGE",
+        "frozen",
+        "karrigan",
+        "rain"
+      ],
+      "source": "https://www.hltv.org/matches/2379346/mouz-vs-faze-pgl-cluj-napoca-2025",
+      "officialRound": "round 3 high match#1",
+      "officialKeys": [
+        "mouz",
+        "faze_clan"
+      ]
+    },
+    {
+      "id": 2379347,
+      "round": 3,
+      "day": "2025-02-16",
+      "bo": 3,
+      "played": true,
+      "a": "Complexity",
+      "b": "Imperial Valkyries",
+      "w": "Complexity",
+      "l": "Imperial Valkyries",
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Ancient",
+          13,
+          5
+        ],
+        [
+          "Train",
+          13,
+          2
+        ]
+      ],
+      "fiveA": [
+        "Cxzi",
+        "Grim",
+        "hallzerk",
+        "JT",
+        "nicx"
+      ],
+      "fiveB": [
+        "ANa",
+        "Kat",
+        "tory",
+        "twenty3",
+        "zAAz"
+      ],
+      "source": "https://www.hltv.org/matches/2379347/complexity-vs-imperial-valkyries-pgl-cluj-napoca-2025",
+      "officialRound": "round 3 low match#1",
+      "officialKeys": [
+        "complexity",
+        "imperial_valkyries"
+      ]
+    },
+    {
+      "id": 2379348,
+      "round": 3,
+      "day": "2025-02-16",
+      "bo": 3,
+      "played": true,
+      "a": "paiN",
+      "b": "The MongolZ",
+      "w": "The MongolZ",
+      "l": "paiN",
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Inferno",
+          13,
+          16
+        ],
+        [
+          "Dust2",
+          16,
+          14
+        ],
+        [
+          "Mirage",
+          8,
+          13
+        ]
+      ],
+      "fiveA": [
+        "biguzera",
+        "dav1deuS",
+        "kauez",
+        "nqz",
+        "snow"
+      ],
+      "fiveB": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "source": "https://www.hltv.org/matches/2379348/pain-vs-the-mongolz-pgl-cluj-napoca-2025",
+      "officialRound": "round 3 high match#2",
+      "officialKeys": [
+        "pain_gaming",
+        "the_mongolz"
+      ]
+    },
+    {
+      "id": 2379349,
+      "round": 3,
+      "day": "2025-02-16",
+      "bo": 3,
+      "played": true,
+      "a": "SAW",
+      "b": "FlyQuest",
+      "w": "SAW",
+      "l": "FlyQuest",
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Inferno",
+          16,
+          14
+        ],
+        [
+          "Dust2",
+          7,
+          13
+        ],
+        [
+          "Ancient",
+          13,
+          9
+        ]
+      ],
+      "fiveA": [
+        "Ag1l",
+        "MUTiRiS",
+        "roman",
+        "Shr",
+        "story"
+      ],
+      "fiveB": [
+        "dexter",
+        "INS",
+        "Liazz",
+        "regali",
+        "Vexite"
+      ],
+      "source": "https://www.hltv.org/matches/2379349/saw-vs-flyquest-pgl-cluj-napoca-2025",
+      "officialRound": "round 3 low match#2",
+      "officialKeys": [
+        "saw",
+        "flyquest"
+      ]
+    },
+    {
+      "id": 2379350,
+      "round": 4,
+      "day": "2025-02-17",
+      "bo": 3,
+      "played": true,
+      "a": "MOUZ",
+      "b": "Falcons",
+      "w": "Falcons",
+      "l": "MOUZ",
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Dust2",
+          13,
+          8
+        ],
+        [
+          "Mirage",
+          10,
+          13
+        ],
+        [
+          "Ancient",
+          8,
+          13
+        ]
+      ],
+      "fiveA": [
+        "Brollan",
+        "Jimpphat",
+        "Spinx",
+        "torzsi",
+        "xertioN"
+      ],
+      "fiveB": [
+        "degster",
+        "kyxsan",
+        "Magisk",
+        "NiKo",
+        "TeSeS"
+      ],
+      "source": "https://www.hltv.org/matches/2379350/mouz-vs-falcons-pgl-cluj-napoca-2025",
+      "officialRound": "round 4 high match#1",
+      "officialKeys": [
+        "mouz",
+        "falcons"
+      ]
+    },
+    {
+      "id": 2379351,
+      "round": 4,
+      "day": "2025-02-17",
+      "bo": 3,
+      "played": true,
+      "a": "Wildcard",
+      "b": "BIG",
+      "w": "BIG",
+      "l": "Wildcard",
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Ancient",
+          2,
+          13
+        ],
+        [
+          "Inferno",
+          13,
+          11
+        ],
+        [
+          "Nuke",
+          8,
+          13
+        ]
+      ],
+      "fiveA": [
+        "JBa",
+        "phzy",
+        "Sonic",
+        "stanislaw",
+        "susp"
+      ],
+      "fiveB": [
+        "hyped",
+        "JDC",
+        "Krimbo",
+        "kyuubii",
+        "tabseN"
+      ],
+      "source": "https://www.hltv.org/matches/2379351/wildcard-vs-big-pgl-cluj-napoca-2025",
+      "officialRound": "round 4 low match#1",
+      "officialKeys": [
+        "wildcard",
+        "big"
+      ]
+    },
+    {
+      "id": 2379352,
+      "round": 4,
+      "day": "2025-02-17",
+      "bo": 3,
+      "played": true,
+      "a": "3DMAX",
+      "b": "Eternal Fire",
+      "w": "Eternal Fire",
+      "l": "3DMAX",
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Anubis",
+          10,
+          13
+        ],
+        [
+          "Inferno",
+          13,
+          5
+        ],
+        [
+          "Nuke",
+          11,
+          13
+        ]
+      ],
+      "fiveA": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "fiveB": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "source": "https://www.hltv.org/matches/2379352/3dmax-vs-eternal-fire-pgl-cluj-napoca-2025",
+      "officialRound": "round 4 high match#2",
+      "officialKeys": [
+        "3dmax",
+        "eternal_fire"
+      ]
+    },
+    {
+      "id": 2379353,
+      "round": 4,
+      "day": "2025-02-17",
+      "bo": 3,
+      "played": true,
+      "a": "Astralis",
+      "b": "MIBR",
+      "w": "Astralis",
+      "l": "MIBR",
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Mirage",
+          25,
+          22
+        ],
+        [
+          "Inferno",
+          13,
+          16
+        ],
+        [
+          "Nuke",
+          13,
+          5
+        ]
+      ],
+      "fiveA": [
+        "cadiaN",
+        "device",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "fiveB": [
+        "drop",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "source": "https://www.hltv.org/matches/2379353/astralis-vs-mibr-pgl-cluj-napoca-2025",
+      "officialRound": "round 4 low match#2",
+      "officialKeys": [
+        "astralis",
+        "made_in_brazil"
+      ]
+    },
+    {
+      "id": 2379354,
+      "round": 4,
+      "day": "2025-02-17",
+      "bo": 3,
+      "played": true,
+      "a": "paiN",
+      "b": "Virtus.pro",
+      "w": "paiN",
+      "l": "Virtus.pro",
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Inferno",
+          13,
+          9
+        ],
+        [
+          "Mirage",
+          13,
+          10
+        ]
+      ],
+      "fiveA": [
+        "biguzera",
+        "dav1deuS",
+        "kauez",
+        "nqz",
+        "snow"
+      ],
+      "fiveB": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "source": "https://www.hltv.org/matches/2379354/pain-vs-virtuspro-pgl-cluj-napoca-2025",
+      "officialRound": "round 4 high match#3",
+      "officialKeys": [
+        "pain_gaming",
+        "virtus_pro"
+      ]
+    },
+    {
+      "id": 2379355,
+      "round": 4,
+      "day": "2025-02-17",
+      "bo": 3,
+      "played": true,
+      "a": "Complexity",
+      "b": "SAW",
+      "w": "SAW",
+      "l": "Complexity",
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Ancient",
+          12,
+          16
+        ],
+        [
+          "Inferno",
+          4,
+          13
+        ]
+      ],
+      "fiveA": [
+        "Cxzi",
+        "Grim",
+        "hallzerk",
+        "JT",
+        "nicx"
+      ],
+      "fiveB": [
+        "Ag1l",
+        "MUTiRiS",
+        "roman",
+        "Shr",
+        "story"
+      ],
+      "source": "https://www.hltv.org/matches/2379355/complexity-vs-saw-pgl-cluj-napoca-2025",
+      "officialRound": "round 4 low match#3",
+      "officialKeys": [
+        "complexity",
+        "saw"
+      ]
+    },
+    {
+      "id": 2379356,
+      "round": 5,
+      "day": "2025-02-18",
+      "bo": 3,
+      "played": true,
+      "a": "Astralis",
+      "b": "BIG",
+      "w": "Astralis",
+      "l": "BIG",
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Ancient",
+          13,
+          7
+        ],
+        [
+          "Inferno",
+          13,
+          8
+        ]
+      ],
+      "fiveA": [
+        "cadiaN",
+        "device",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "fiveB": [
+        "hyped",
+        "JDC",
+        "Krimbo",
+        "kyuubii",
+        "tabseN"
+      ],
+      "source": "https://www.hltv.org/matches/2379356/astralis-vs-big-pgl-cluj-napoca-2025",
+      "officialRound": "round 5 match 1",
+      "officialKeys": [
+        "astralis",
+        "big"
+      ]
+    },
+    {
+      "id": 2379358,
+      "round": 5,
+      "day": "2025-02-18",
+      "bo": 3,
+      "played": true,
+      "a": "3DMAX",
+      "b": "SAW",
+      "w": "SAW",
+      "l": "3DMAX",
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Nuke",
+          10,
+          13
+        ],
+        [
+          "Dust2",
+          14,
+          16
+        ]
+      ],
+      "fiveA": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "fiveB": [
+        "Ag1l",
+        "MUTiRiS",
+        "roman",
+        "Shr",
+        "story"
+      ],
+      "source": "https://www.hltv.org/matches/2379358/3dmax-vs-saw-pgl-cluj-napoca-2025",
+      "officialRound": "round 5 match 2",
+      "officialKeys": [
+        "3dmax",
+        "saw"
+      ]
+    },
+    {
+      "id": 2379357,
+      "round": 5,
+      "day": "2025-02-18",
+      "bo": 3,
+      "played": true,
+      "a": "MOUZ",
+      "b": "Virtus.pro",
+      "w": "MOUZ",
+      "l": "Virtus.pro",
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Ancient",
+          13,
+          8
+        ],
+        [
+          "Inferno",
+          13,
+          16
+        ],
+        [
+          "Mirage",
+          13,
+          2
+        ]
+      ],
+      "fiveA": [
+        "Brollan",
+        "Jimpphat",
+        "Spinx",
+        "torzsi",
+        "xertioN"
+      ],
+      "fiveB": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "source": "https://www.hltv.org/matches/2379357/mouz-vs-virtuspro-pgl-cluj-napoca-2025",
+      "officialRound": "round 5 match 3",
+      "officialKeys": [
+        "mouz",
+        "virtus_pro"
+      ]
+    }
+  ],
+  "mapDisagreements": []
+}

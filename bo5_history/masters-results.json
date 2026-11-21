@@ -1,0 +1,3415 @@
+{
+  "id": "masters-bucharest-2025",
+  "end": "2025-10-30",
+  "entrants": [
+    "Aurora",
+    "3DMAX",
+    "Astralis",
+    "HEROIC",
+    "GamerLegion",
+    "paiN",
+    "Legacy",
+    "BetBoom",
+    "fnatic",
+    "SAW",
+    "B8",
+    "Ninjas in Pyjamas",
+    "FlyQuest",
+    "Gentle Mates",
+    "Liquid",
+    "MIBR"
+  ],
+  "matches": [
+    {
+      "id": 2387098,
+      "day": "2025-10-26",
+      "round": 1,
+      "a": 6,
+      "b": 14,
+      "w": 14,
+      "l": 6,
+      "teams": [
+        "Legacy",
+        "Liquid"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "dumau",
+        "latto",
+        "lux",
+        "n1ssim",
+        "saadzin"
+      ],
+      "rosterB": [
+        "EliGE",
+        "NAF",
+        "NertZ",
+        "siuhy",
+        "ultimate"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          11
+        ],
+        [
+          "Inferno",
+          7,
+          13
+        ],
+        [
+          "Nuke",
+          9,
+          13
+        ]
+      ],
+      "planned": [
+        "Mirage",
+        "Inferno",
+        "Nuke"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Overpass"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          null,
+          "left",
+          "Nuke"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387098/legacy-vs-liquid-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387099,
+      "day": "2025-10-26",
+      "round": 1,
+      "a": 5,
+      "b": 13,
+      "w": 5,
+      "l": 13,
+      "teams": [
+        "paiN",
+        "Gentle Mates"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "biguzera",
+        "dav1deuS",
+        "dgt",
+        "nqz",
+        "snow"
+      ],
+      "rosterB": [
+        "alex",
+        "dav1g",
+        "MartinezSa",
+        "mopoz",
+        "sausol"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Ancient",
+          19,
+          15
+        ],
+        [
+          "Mirage",
+          13,
+          10
+        ]
+      ],
+      "planned": [
+        "Ancient",
+        "Mirage",
+        "Nuke"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "pick",
+          "Ancient"
+        ],
+        [
+          "a",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Overpass"
+        ],
+        [
+          "b",
+          "ban",
+          "Inferno"
+        ],
+        [
+          null,
+          "left",
+          "Nuke"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387099/pain-vs-gentle-mates-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387101,
+      "day": "2025-10-26",
+      "round": 1,
+      "a": 3,
+      "b": 11,
+      "w": 3,
+      "l": 11,
+      "teams": [
+        "HEROIC",
+        "Ninjas in Pyjamas"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "Alkaren",
+        "LNZ",
+        "nilo",
+        "xfl0ud",
+        "yxngstxr"
+      ],
+      "rosterB": [
+        "ewjerkz",
+        "r1nkle",
+        "sjuush",
+        "Snappi",
+        "xKacpersky"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Nuke",
+          13,
+          7
+        ],
+        [
+          "Dust2",
+          13,
+          10
+        ]
+      ],
+      "planned": [
+        "Nuke",
+        "Dust2",
+        "Inferno"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "a",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "ban",
+          "Overpass"
+        ],
+        [
+          null,
+          "left",
+          "Inferno"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387101/heroic-vs-ninjas-in-pyjamas-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387100,
+      "day": "2025-10-26",
+      "round": 1,
+      "a": 4,
+      "b": 12,
+      "w": 4,
+      "l": 12,
+      "teams": [
+        "GamerLegion",
+        "FlyQuest"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "hypex",
+        "PR",
+        "REZ",
+        "Tauson",
+        "ztr"
+      ],
+      "rosterB": [
+        "INS",
+        "jks",
+        "nettik",
+        "regali",
+        "Vexite"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Dust2",
+          19,
+          15
+        ],
+        [
+          "Overpass",
+          13,
+          11
+        ]
+      ],
+      "planned": [
+        "Dust2",
+        "Overpass",
+        "Inferno"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "pick",
+          "Overpass"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "ban",
+          "Ancient"
+        ],
+        [
+          null,
+          "left",
+          "Inferno"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387100/gamerlegion-vs-flyquest-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387103,
+      "day": "2025-10-26",
+      "round": 1,
+      "a": 7,
+      "b": 15,
+      "w": 7,
+      "l": 15,
+      "teams": [
+        "BetBoom",
+        "MIBR"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "ArtFr0st",
+        "Boombl4",
+        "d1Ledez",
+        "Magnojez",
+        "S1ren"
+      ],
+      "rosterB": [
+        "brn$",
+        "brnz4n",
+        "exit",
+        "insani",
+        "Qikert"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Overpass",
+          13,
+          1
+        ],
+        [
+          "Nuke",
+          10,
+          13
+        ],
+        [
+          "Ancient",
+          13,
+          7
+        ]
+      ],
+      "planned": [
+        "Overpass",
+        "Nuke",
+        "Ancient"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "b",
+          "pick",
+          "Overpass"
+        ],
+        [
+          "a",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "ban",
+          "Mirage"
+        ],
+        [
+          null,
+          "left",
+          "Ancient"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387103/betboom-vs-mibr-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387102,
+      "day": "2025-10-26",
+      "round": 1,
+      "a": 1,
+      "b": 9,
+      "w": 1,
+      "l": 9,
+      "teams": [
+        "3DMAX",
+        "SAW"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "rosterB": [
+        "Ag1l",
+        "aragornN",
+        "krazy",
+        "MUTiRiS",
+        "story"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Ancient",
+          13,
+          5
+        ],
+        [
+          "Nuke",
+          13,
+          8
+        ]
+      ],
+      "planned": [
+        "Ancient",
+        "Nuke",
+        "Dust2"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "pick",
+          "Ancient"
+        ],
+        [
+          "a",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "ban",
+          "Overpass"
+        ],
+        [
+          null,
+          "left",
+          "Dust2"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387102/3dmax-vs-saw-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387105,
+      "day": "2025-10-26",
+      "round": 1,
+      "a": 2,
+      "b": 10,
+      "w": 10,
+      "l": 2,
+      "teams": [
+        "Astralis",
+        "B8"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "device",
+        "HooXi",
+        "jabbi",
+        "Magisk",
+        "Staehr"
+      ],
+      "rosterB": [
+        "alex666",
+        "esenthial",
+        "headtr1ck",
+        "kensizor",
+        "npl"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Mirage",
+          12,
+          16
+        ],
+        [
+          "Ancient",
+          4,
+          13
+        ]
+      ],
+      "planned": [
+        "Mirage",
+        "Ancient",
+        "Overpass"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "b",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "pick",
+          "Ancient"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "ban",
+          "Inferno"
+        ],
+        [
+          null,
+          "left",
+          "Overpass"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387105/astralis-vs-b8-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387104,
+      "day": "2025-10-26",
+      "round": 1,
+      "a": 0,
+      "b": 8,
+      "w": 0,
+      "l": 8,
+      "teams": [
+        "Aurora",
+        "fnatic"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "rosterB": [
+        "blameF",
+        "fEAR",
+        "jackasmo",
+        "jambo",
+        "KRIMZ"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Mirage",
+          16,
+          14
+        ],
+        [
+          "Dust2",
+          13,
+          8
+        ]
+      ],
+      "planned": [
+        "Mirage",
+        "Dust2",
+        "Inferno"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "ban",
+          "Overpass"
+        ],
+        [
+          null,
+          "left",
+          "Inferno"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387104/aurora-vs-fnatic-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387320,
+      "day": "2025-10-27",
+      "round": 2,
+      "a": 4,
+      "b": 5,
+      "w": 5,
+      "l": 4,
+      "teams": [
+        "GamerLegion",
+        "paiN"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "hypex",
+        "PR",
+        "REZ",
+        "Tauson",
+        "ztr"
+      ],
+      "rosterB": [
+        "biguzera",
+        "dav1deuS",
+        "dgt",
+        "nqz",
+        "snow"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Nuke",
+          13,
+          10
+        ],
+        [
+          "Overpass",
+          5,
+          13
+        ],
+        [
+          "Dust2",
+          10,
+          13
+        ]
+      ],
+      "planned": [
+        "Nuke",
+        "Overpass",
+        "Dust2"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "a",
+          "pick",
+          "Overpass"
+        ],
+        [
+          "a",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "b",
+          "ban",
+          "Ancient"
+        ],
+        [
+          null,
+          "left",
+          "Dust2"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387320/gamerlegion-vs-pain-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387321,
+      "day": "2025-10-27",
+      "round": 2,
+      "a": 6,
+      "b": 13,
+      "w": 6,
+      "l": 13,
+      "teams": [
+        "Legacy",
+        "Gentle Mates"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "dumau",
+        "latto",
+        "lux",
+        "n1ssim",
+        "saadzin"
+      ],
+      "rosterB": [
+        "alex",
+        "dav1g",
+        "MartinezSa",
+        "mopoz",
+        "sausol"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Ancient",
+          13,
+          5
+        ],
+        [
+          "Inferno",
+          16,
+          13
+        ]
+      ],
+      "planned": [
+        "Ancient",
+        "Inferno",
+        "Mirage"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Overpass"
+        ],
+        [
+          "b",
+          "pick",
+          "Ancient"
+        ],
+        [
+          "a",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          null,
+          "left",
+          "Mirage"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387321/legacy-vs-gentle-mates-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387323,
+      "day": "2025-10-27",
+      "round": 2,
+      "a": 9,
+      "b": 11,
+      "w": 9,
+      "l": 11,
+      "teams": [
+        "SAW",
+        "Ninjas in Pyjamas"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "Ag1l",
+        "aragornN",
+        "krazy",
+        "MUTiRiS",
+        "story"
+      ],
+      "rosterB": [
+        "ewjerkz",
+        "r1nkle",
+        "sjuush",
+        "Snappi",
+        "xKacpersky"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Ancient",
+          13,
+          5
+        ],
+        [
+          "Nuke",
+          10,
+          13
+        ],
+        [
+          "Train",
+          16,
+          14
+        ]
+      ],
+      "planned": [
+        "Ancient",
+        "Nuke",
+        "Train"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "pick",
+          "Ancient"
+        ],
+        [
+          "a",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Overpass"
+        ],
+        [
+          "b",
+          "ban",
+          "Inferno"
+        ],
+        [
+          null,
+          "left",
+          "Train"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387323/saw-vs-ninjas-in-pyjamas-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387322,
+      "day": "2025-10-27",
+      "round": 2,
+      "a": 3,
+      "b": 7,
+      "w": 3,
+      "l": 7,
+      "teams": [
+        "HEROIC",
+        "BetBoom"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "Alkaren",
+        "LNZ",
+        "nilo",
+        "xfl0ud",
+        "yxngstxr"
+      ],
+      "rosterB": [
+        "ArtFr0st",
+        "Boombl4",
+        "d1Ledez",
+        "Magnojez",
+        "S1ren"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Nuke",
+          13,
+          8
+        ],
+        [
+          "Mirage",
+          13,
+          11
+        ]
+      ],
+      "planned": [
+        "Nuke",
+        "Mirage",
+        "Dust2"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "a",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "ban",
+          "Overpass"
+        ],
+        [
+          null,
+          "left",
+          "Dust2"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387322/heroic-vs-betboom-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387325,
+      "day": "2025-10-27",
+      "round": 2,
+      "a": 8,
+      "b": 12,
+      "w": 12,
+      "l": 8,
+      "teams": [
+        "fnatic",
+        "FlyQuest"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "blameF",
+        "fEAR",
+        "jackasmo",
+        "jambo",
+        "KRIMZ"
+      ],
+      "rosterB": [
+        "INS",
+        "jks",
+        "nettik",
+        "regali",
+        "Vexite"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Inferno",
+          11,
+          13
+        ],
+        [
+          "Mirage",
+          11,
+          13
+        ]
+      ],
+      "planned": [
+        "Inferno",
+        "Mirage",
+        "Overpass"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          "a",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "b",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "a",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "b",
+          "ban",
+          "Ancient"
+        ],
+        [
+          null,
+          "left",
+          "Overpass"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387325/fnatic-vs-flyquest-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387324,
+      "day": "2025-10-27",
+      "round": 2,
+      "a": 0,
+      "b": 14,
+      "w": 0,
+      "l": 14,
+      "teams": [
+        "Aurora",
+        "Liquid"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "rosterB": [
+        "EliGE",
+        "NAF",
+        "NertZ",
+        "siuhy",
+        "ultimate"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Mirage",
+          16,
+          19
+        ],
+        [
+          "Train",
+          13,
+          4
+        ],
+        [
+          "Dust2",
+          13,
+          8
+        ]
+      ],
+      "planned": [
+        "Mirage",
+        "Train",
+        "Dust2"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Overpass"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "pick",
+          "Train"
+        ],
+        [
+          "a",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          null,
+          "left",
+          "Dust2"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387324/aurora-vs-liquid-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387327,
+      "day": "2025-10-27",
+      "round": 2,
+      "a": 2,
+      "b": 15,
+      "w": 2,
+      "l": 15,
+      "teams": [
+        "Astralis",
+        "MIBR"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "device",
+        "HooXi",
+        "jabbi",
+        "Magisk",
+        "Staehr"
+      ],
+      "rosterB": [
+        "brn$",
+        "brnz4n",
+        "exit",
+        "insani",
+        "Qikert"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Inferno",
+          13,
+          4
+        ],
+        [
+          "Nuke",
+          13,
+          11
+        ]
+      ],
+      "planned": [
+        "Inferno",
+        "Nuke",
+        "Ancient"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "a",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "ban",
+          "Overpass"
+        ],
+        [
+          null,
+          "left",
+          "Ancient"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387327/astralis-vs-mibr-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387326,
+      "day": "2025-10-27",
+      "round": 2,
+      "a": 1,
+      "b": 10,
+      "w": 10,
+      "l": 1,
+      "teams": [
+        "3DMAX",
+        "B8"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "rosterB": [
+        "alex666",
+        "esenthial",
+        "headtr1ck",
+        "kensizor",
+        "npl"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Ancient",
+          11,
+          13
+        ],
+        [
+          "Inferno",
+          9,
+          13
+        ]
+      ],
+      "planned": [
+        "Ancient",
+        "Inferno",
+        "Dust2"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "pick",
+          "Ancient"
+        ],
+        [
+          "a",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Overpass"
+        ],
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          null,
+          "left",
+          "Dust2"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387326/3dmax-vs-b8-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387328,
+      "day": "2025-10-28",
+      "round": 3,
+      "a": 14,
+      "b": 7,
+      "w": 14,
+      "l": 7,
+      "teams": [
+        "Liquid",
+        "BetBoom"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "EliGE",
+        "NAF",
+        "NertZ",
+        "siuhy",
+        "ultimate"
+      ],
+      "rosterB": [
+        "ArtFr0st",
+        "Boombl4",
+        "d1Ledez",
+        "Magnojez",
+        "S1ren"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          5
+        ],
+        [
+          "Nuke",
+          3,
+          13
+        ],
+        [
+          "Ancient",
+          13,
+          2
+        ]
+      ],
+      "planned": [
+        "Mirage",
+        "Nuke",
+        "Ancient"
+      ],
+      "steps": [
+        [
+          "a",
+          "ban",
+          "Overpass"
+        ],
+        [
+          "b",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "a",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "b",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          null,
+          "left",
+          "Ancient"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387328/liquid-vs-betboom-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387329,
+      "day": "2025-10-28",
+      "round": 3,
+      "a": 4,
+      "b": 9,
+      "w": 9,
+      "l": 4,
+      "teams": [
+        "GamerLegion",
+        "SAW"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "hypex",
+        "PR",
+        "REZ",
+        "Tauson",
+        "ztr"
+      ],
+      "rosterB": [
+        "Ag1l",
+        "aragornN",
+        "krazy",
+        "MUTiRiS",
+        "story"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Nuke",
+          13,
+          6
+        ],
+        [
+          "Inferno",
+          17,
+          19
+        ],
+        [
+          "Ancient",
+          14,
+          16
+        ]
+      ],
+      "planned": [
+        "Nuke",
+        "Inferno",
+        "Ancient"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "a",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "b",
+          "ban",
+          "Overpass"
+        ],
+        [
+          null,
+          "left",
+          "Ancient"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387329/gamerlegion-vs-saw-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387330,
+      "day": "2025-10-28",
+      "round": 3,
+      "a": 2,
+      "b": 6,
+      "w": 6,
+      "l": 2,
+      "teams": [
+        "Astralis",
+        "Legacy"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "device",
+        "HooXi",
+        "jabbi",
+        "Magisk",
+        "Staehr"
+      ],
+      "rosterB": [
+        "dumau",
+        "latto",
+        "lux",
+        "n1ssim",
+        "saadzin"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Inferno",
+          14,
+          16
+        ],
+        [
+          "Nuke",
+          3,
+          13
+        ]
+      ],
+      "planned": [
+        "Inferno",
+        "Nuke",
+        "Train"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Overpass"
+        ],
+        [
+          "a",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "b",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "a",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "ban",
+          "Ancient"
+        ],
+        [
+          null,
+          "left",
+          "Train"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387330/astralis-vs-legacy-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387331,
+      "day": "2025-10-28",
+      "round": 3,
+      "a": 1,
+      "b": 12,
+      "w": 12,
+      "l": 1,
+      "teams": [
+        "3DMAX",
+        "FlyQuest"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "rosterB": [
+        "INS",
+        "jks",
+        "nettik",
+        "regali",
+        "Vexite"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Train",
+          9,
+          13
+        ],
+        [
+          "Inferno",
+          13,
+          8
+        ],
+        [
+          "Dust2",
+          10,
+          13
+        ]
+      ],
+      "planned": [
+        "Train",
+        "Inferno",
+        "Dust2"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "pick",
+          "Train"
+        ],
+        [
+          "a",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Overpass"
+        ],
+        [
+          "b",
+          "ban",
+          "Ancient"
+        ],
+        [
+          null,
+          "left",
+          "Dust2"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387331/3dmax-vs-flyquest-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387332,
+      "day": "2025-10-28",
+      "round": 3,
+      "a": 0,
+      "b": 3,
+      "w": 3,
+      "l": 0,
+      "teams": [
+        "Aurora",
+        "HEROIC"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "rosterB": [
+        "Alkaren",
+        "LNZ",
+        "nilo",
+        "xfl0ud",
+        "yxngstxr"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Mirage",
+          4,
+          13
+        ],
+        [
+          "Inferno",
+          11,
+          13
+        ]
+      ],
+      "planned": [
+        "Mirage",
+        "Inferno",
+        "Dust2"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "b",
+          "ban",
+          "Overpass"
+        ],
+        [
+          null,
+          "left",
+          "Dust2"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387332/aurora-vs-heroic-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387334,
+      "day": "2025-10-28",
+      "round": 3,
+      "a": 10,
+      "b": 5,
+      "w": 5,
+      "l": 10,
+      "teams": [
+        "B8",
+        "paiN"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "alex666",
+        "esenthial",
+        "headtr1ck",
+        "kensizor",
+        "npl"
+      ],
+      "rosterB": [
+        "biguzera",
+        "dav1deuS",
+        "dgt",
+        "nqz",
+        "snow"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Dust2",
+          8,
+          13
+        ],
+        [
+          "Mirage",
+          10,
+          13
+        ]
+      ],
+      "planned": [
+        "Dust2",
+        "Mirage",
+        "Ancient"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          "a",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "b",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "b",
+          "ban",
+          "Overpass"
+        ],
+        [
+          null,
+          "left",
+          "Ancient"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387334/b8-vs-pain-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387333,
+      "day": "2025-10-28",
+      "round": 3,
+      "a": 11,
+      "b": 13,
+      "w": 13,
+      "l": 11,
+      "teams": [
+        "Ninjas in Pyjamas",
+        "Gentle Mates"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "ewjerkz",
+        "r1nkle",
+        "sjuush",
+        "Snappi",
+        "xKacpersky"
+      ],
+      "rosterB": [
+        "alex",
+        "dav1g",
+        "MartinezSa",
+        "mopoz",
+        "sausol"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Inferno",
+          9,
+          13
+        ],
+        [
+          "Train",
+          13,
+          9
+        ],
+        [
+          "Ancient",
+          10,
+          13
+        ]
+      ],
+      "planned": [
+        "Inferno",
+        "Train",
+        "Ancient"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "a",
+          "pick",
+          "Train"
+        ],
+        [
+          "a",
+          "ban",
+          "Overpass"
+        ],
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          null,
+          "left",
+          "Ancient"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387333/ninjas-in-pyjamas-vs-gentle-mates-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387335,
+      "day": "2025-10-28",
+      "round": 3,
+      "a": 8,
+      "b": 15,
+      "w": 8,
+      "l": 15,
+      "teams": [
+        "fnatic",
+        "MIBR"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "blameF",
+        "fEAR",
+        "jackasmo",
+        "jambo",
+        "KRIMZ"
+      ],
+      "rosterB": [
+        "brn$",
+        "brnz4n",
+        "exit",
+        "insani",
+        "Qikert"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Inferno",
+          13,
+          3
+        ],
+        [
+          "Mirage",
+          13,
+          5
+        ]
+      ],
+      "planned": [
+        "Inferno",
+        "Mirage",
+        "Ancient"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "b",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "a",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Overpass"
+        ],
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          null,
+          "left",
+          "Ancient"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387335/fnatic-vs-mibr-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387336,
+      "day": "2025-10-29",
+      "round": 4,
+      "a": 0,
+      "b": 9,
+      "w": 9,
+      "l": 0,
+      "teams": [
+        "Aurora",
+        "SAW"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "rosterB": [
+        "Ag1l",
+        "aragornN",
+        "krazy",
+        "MUTiRiS",
+        "story"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Nuke",
+          13,
+          10
+        ],
+        [
+          "Inferno",
+          13,
+          16
+        ],
+        [
+          "Train",
+          9,
+          13
+        ]
+      ],
+      "planned": [
+        "Nuke",
+        "Inferno",
+        "Train"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "a",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "b",
+          "ban",
+          "Overpass"
+        ],
+        [
+          null,
+          "left",
+          "Train"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387336/aurora-vs-saw-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387337,
+      "day": "2025-10-29",
+      "round": 4,
+      "a": 1,
+      "b": 2,
+      "w": 2,
+      "l": 1,
+      "teams": [
+        "3DMAX",
+        "Astralis"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "rosterB": [
+        "device",
+        "HooXi",
+        "jabbi",
+        "Magisk",
+        "Staehr"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        0,
+        2
+      ],
+      "maps": [
+        [
+          "Ancient",
+          3,
+          13
+        ],
+        [
+          "Inferno",
+          10,
+          13
+        ]
+      ],
+      "planned": [
+        "Ancient",
+        "Inferno",
+        "Nuke"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "pick",
+          "Ancient"
+        ],
+        [
+          "a",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Overpass"
+        ],
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          null,
+          "left",
+          "Nuke"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387337/3dmax-vs-astralis-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387339,
+      "day": "2025-10-29",
+      "round": 4,
+      "a": 7,
+      "b": 13,
+      "w": 13,
+      "l": 7,
+      "teams": [
+        "BetBoom",
+        "Gentle Mates"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "ArtFr0st",
+        "Boombl4",
+        "d1Ledez",
+        "Magnojez",
+        "S1ren"
+      ],
+      "rosterB": [
+        "alex",
+        "dav1g",
+        "MartinezSa",
+        "mopoz",
+        "sausol"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        1,
+        2
+      ],
+      "maps": [
+        [
+          "Ancient",
+          7,
+          13
+        ],
+        [
+          "Mirage",
+          13,
+          11
+        ],
+        [
+          "Nuke",
+          11,
+          13
+        ]
+      ],
+      "planned": [
+        "Ancient",
+        "Mirage",
+        "Nuke"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "b",
+          "pick",
+          "Ancient"
+        ],
+        [
+          "a",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Overpass"
+        ],
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          null,
+          "left",
+          "Nuke"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387339/betboom-vs-gentle-mates-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387338,
+      "day": "2025-10-29",
+      "round": 4,
+      "a": 14,
+      "b": 12,
+      "w": 14,
+      "l": 12,
+      "teams": [
+        "Liquid",
+        "FlyQuest"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "EliGE",
+        "NAF",
+        "NertZ",
+        "siuhy",
+        "ultimate"
+      ],
+      "rosterB": [
+        "INS",
+        "jks",
+        "nettik",
+        "regali",
+        "Vexite"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Mirage",
+          16,
+          14
+        ],
+        [
+          "Train",
+          13,
+          10
+        ]
+      ],
+      "planned": [
+        "Mirage",
+        "Train",
+        "Inferno"
+      ],
+      "steps": [
+        [
+          "a",
+          "ban",
+          "Overpass"
+        ],
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "a",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "b",
+          "pick",
+          "Train"
+        ],
+        [
+          "b",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "a",
+          "ban",
+          "Dust2"
+        ],
+        [
+          null,
+          "left",
+          "Inferno"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387338/liquid-vs-flyquest-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387341,
+      "day": "2025-10-29",
+      "round": 4,
+      "a": 4,
+      "b": 8,
+      "w": 4,
+      "l": 8,
+      "teams": [
+        "GamerLegion",
+        "fnatic"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "hypex",
+        "PR",
+        "REZ",
+        "Tauson",
+        "ztr"
+      ],
+      "rosterB": [
+        "blameF",
+        "fEAR",
+        "jackasmo",
+        "jambo",
+        "KRIMZ"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Train",
+          13,
+          11
+        ],
+        [
+          "Overpass",
+          13,
+          7
+        ]
+      ],
+      "planned": [
+        "Train",
+        "Overpass",
+        "Ancient"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "pick",
+          "Train"
+        ],
+        [
+          "a",
+          "pick",
+          "Overpass"
+        ],
+        [
+          "a",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          null,
+          "left",
+          "Ancient"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387341/gamerlegion-vs-fnatic-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387340,
+      "day": "2025-10-29",
+      "round": 4,
+      "a": 10,
+      "b": 6,
+      "w": 10,
+      "l": 6,
+      "teams": [
+        "B8",
+        "Legacy"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "alex666",
+        "esenthial",
+        "headtr1ck",
+        "kensizor",
+        "npl"
+      ],
+      "rosterB": [
+        "dumau",
+        "latto",
+        "lux",
+        "n1ssim",
+        "saadzin"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Dust2",
+          3,
+          13
+        ],
+        [
+          "Ancient",
+          13,
+          10
+        ],
+        [
+          "Train",
+          13,
+          11
+        ]
+      ],
+      "planned": [
+        "Dust2",
+        "Ancient",
+        "Train"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "b",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "pick",
+          "Ancient"
+        ],
+        [
+          "a",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "b",
+          "ban",
+          "Overpass"
+        ],
+        [
+          null,
+          "left",
+          "Train"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387340/b8-vs-legacy-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387342,
+      "day": "2025-10-30",
+      "round": 5,
+      "a": 4,
+      "b": 13,
+      "w": 4,
+      "l": 13,
+      "teams": [
+        "GamerLegion",
+        "Gentle Mates"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "hypex",
+        "PR",
+        "REZ",
+        "Tauson",
+        "ztr"
+      ],
+      "rosterB": [
+        "alex",
+        "dav1g",
+        "MartinezSa",
+        "mopoz",
+        "sausol"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Train",
+          13,
+          5
+        ],
+        [
+          "Inferno",
+          13,
+          9
+        ]
+      ],
+      "planned": [
+        "Train",
+        "Inferno",
+        "Nuke"
+      ],
+      "steps": [
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "a",
+          "pick",
+          "Train"
+        ],
+        [
+          "b",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "b",
+          "ban",
+          "Overpass"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          null,
+          "left",
+          "Nuke"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387342/gamerlegion-vs-gentle-mates-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387343,
+      "day": "2025-10-30",
+      "round": 5,
+      "a": 6,
+      "b": 12,
+      "w": 6,
+      "l": 12,
+      "teams": [
+        "Legacy",
+        "FlyQuest"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "dumau",
+        "latto",
+        "lux",
+        "n1ssim",
+        "saadzin"
+      ],
+      "rosterB": [
+        "INS",
+        "jks",
+        "nettik",
+        "regali",
+        "Vexite"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "score": [
+        2,
+        0
+      ],
+      "maps": [
+        [
+          "Overpass",
+          13,
+          7
+        ],
+        [
+          "Dust2",
+          13,
+          11
+        ]
+      ],
+      "planned": [
+        "Overpass",
+        "Dust2",
+        "Inferno"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "pick",
+          "Overpass"
+        ],
+        [
+          "a",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "ban",
+          "Mirage"
+        ],
+        [
+          null,
+          "left",
+          "Inferno"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387343/legacy-vs-flyquest-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387344,
+      "day": "2025-10-30",
+      "round": 5,
+      "a": 0,
+      "b": 2,
+      "w": 0,
+      "l": 2,
+      "teams": [
+        "Aurora",
+        "Astralis"
+      ],
+      "bo": 3,
+      "played": true,
+      "coreEligible": true,
+      "rosterA": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "rosterB": [
+        "HooXi",
+        "jabbi",
+        "Magisk",
+        "ruggah",
+        "Staehr"
+      ],
+      "overlap": [
+        5,
+        4
+      ],
+      "score": [
+        2,
+        1
+      ],
+      "maps": [
+        [
+          "Nuke",
+          10,
+          13
+        ],
+        [
+          "Train",
+          13,
+          8
+        ],
+        [
+          "Mirage",
+          13,
+          10
+        ]
+      ],
+      "planned": [
+        "Nuke",
+        "Train",
+        "Mirage"
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "a",
+          "pick",
+          "Train"
+        ],
+        [
+          "a",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "b",
+          "ban",
+          "Overpass"
+        ],
+        [
+          null,
+          "left",
+          "Mirage"
+        ]
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2387344/aurora-vs-astralis-pgl-masters-bucharest-2025"
+    }
+  ],
+  "rounds": [
+    [
+      [
+        14,
+        6
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        0,
+        8
+      ]
+    ],
+    [
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        12,
+        8
+      ],
+      [
+        0,
+        14
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        10,
+        1
+      ]
+    ],
+    [
+      [
+        14,
+        7
+      ],
+      [
+        9,
+        4
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        12,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        13,
+        11
+      ],
+      [
+        8,
+        15
+      ]
+    ],
+    [
+      [
+        9,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        13,
+        7
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        10,
+        6
+      ]
+    ],
+    [
+      [
+        4,
+        13
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        0,
+        2
+      ]
+    ]
+  ],
+  "actual": [
+    1,
+    3,
+    3,
+    0,
+    1,
+    0,
+    1,
+    3,
+    3,
+    1,
+    1,
+    2,
+    3,
+    3,
+    1,
+    2
+  ],
+  "matchedByRound": [
+    8,
+    8,
+    8,
+    6,
+    3
+  ],
+  "administrativeMatchIds": [],
+  "midStageRosterChanges": [
+    {
+      "id": 2387344,
+      "day": "2025-10-30",
+      "round": 5,
+      "team": "Astralis",
+      "outgoing": [
+        "device"
+      ],
+      "incoming": [
+        "ruggah"
+      ],
+      "source": "https://www.hltv.org/news/43062/device-misses-astralis-elimination-match-in-bucharest-due-to-medical-emergency-ruggah-to-stand-in"
+    }
+  ],
+  "archiveSha256": "750b0da45142fc797eddb708698d14d269237e59784d6a1d066eddba0ba31551",
+  "officialScheduleSource": "https://www.pglesports.com/_next/static/chunks/app/cs2/pgl-masters-bucharest-2025/page-cf5c007eec90e220.js",
+  "officialScheduleSha256": "528cd47cf141b742844c4f85814812225f2a097d0a72693ed7892d208895ecbd",
+  "mapScoreConflicts": [
+    {
+      "id": 2387100,
+      "map": "Overpass",
+      "teams": [
+        "GamerLegion",
+        "FlyQuest"
+      ],
+      "official": [
+        13,
+        12
+      ],
+      "recorded": [
+        13,
+        11
+      ],
+      "evidence": "https://www.hltv.org/matches/2387100/gamerlegion-vs-flyquest-pgl-masters-bucharest-2025"
+    },
+    {
+      "id": 2387336,
+      "map": "Train",
+      "teams": [
+        "Aurora",
+        "SAW"
+      ],
+      "official": [
+        10,
+        13
+      ],
+      "recorded": [
+        9,
+        13
+      ],
+      "evidence": "https://www.hltv.org/matches/2387336/aurora-vs-saw-pgl-masters-bucharest-2025"
+    }
+  ]
+}

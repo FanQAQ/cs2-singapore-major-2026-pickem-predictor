@@ -1,0 +1,44 @@
+{
+  "stage": "pgl-singapore-2026-stage-1",
+  "hltvEventId": 9303,
+  "frozenAt": "2026-11-21T14:01:54+08:00",
+  "firstMatchAt": "2026-11-24T12:00:00+08:00",
+  "fixtureSource": "https://www.hltv.org/news/45969/pgl-confirm-singapore-major-stage-1-schedule",
+  "eventSource": "https://www.hltv.org/events/9303/pgl-major-singapore-2026-stage-1",
+  "rankingSource": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/invitation/2026/standings_global_2026_11_02.md",
+  "localReference": {
+    "file": "method_archive/singapore-stage1-methods-2026-11-21.json",
+    "sha256LF": "7641bea4acd9c3768712d7ef8ed826cfd9663bb2c0d9e0045e19cb78f6d1b004",
+    "method": "recommended"
+  },
+  "roundOne": {
+    "publisher": "DAKEbits",
+    "url": "https://dakebits.com/cs2-pickem-simulator/",
+    "observedOn": "2026-11-21",
+    "vrsAsOf": "2026-11-02",
+    "probabilityUnit": "integer percent, published precision, for first team to win the BO1",
+    "pairs": [
+      ["Ninjas in Pyjamas", "M80", 60],
+      ["PARIVISION", "DENDELE", 63],
+      ["HEROIC", "Imperial", 69],
+      ["FaZe", "Wildcard", 70],
+      ["Liquid", "BC.Game", 74],
+      ["Eternal Fire", "FlyQuest", 75],
+      ["100 Thieves", "Chinggis Warriors", 79],
+      ["9z", "Lynn Vision", 78]
+    ]
+  },
+  "ticket": {
+    "publisher": "CSGOTradeUp",
+    "url": "https://csgotradeup.gg/singapore-major-pickem/",
+    "observedOn": "2026-11-21",
+    "pageUpdatedOn": "2026-11-20",
+    "runOn": "2026-11-18",
+    "vrsAsOf": "2026-11-02",
+    "simulations": 20000,
+    "threeZero": ["Ninjas in Pyjamas", "PVISION"],
+    "ordinary": ["HEROIC", "FaZe", "Liquid", "Eternal Fire", "100 Thieves", "M80"],
+    "zeroThree": ["Lynn Vision", "Chinggis Warriors"]
+  },
+  "aliases": {"PVISION":"PARIVISION","BC.Game":"GOSH"}
+}

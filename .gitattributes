@@ -1,0 +1,9 @@
+# The published forecasts record SHA-256 hashes of source and model inputs.
+*.json text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+lineup_pairs/bo1/*.py text eol=lf
+lineup_pairs/bo1/*.md text eol=lf
+f1bre_models/format_split/*.py text eol=lf
+f1bre_models/format_split/*.md text eol=lf
+f1bre_models/NEXT-FORMAT.md text eol=lf

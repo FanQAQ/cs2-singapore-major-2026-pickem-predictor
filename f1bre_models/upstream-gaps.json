@@ -1,0 +1,1255 @@
+{
+  "edition": "singapore-2026",
+  "stage": 1,
+  "source": "https://www.xiaoheihe.cn/app/bbs/link/197229714",
+  "author": "F1bre",
+  "observedAt": "2026-11-21T11:03:59Z",
+  "frozenAt": "2026-11-21T10:58:35.319Z",
+  "sourceSha256": "3ae7329aec73be2c15bad99f0080b09125c16a68bd10b89d9837551c29645dc7",
+  "forecastSha256": "1aa45aeb970df7d1ff5b6e17d246b03e9ef36de859204c8279acfe6672664459",
+  "confirmationStreams": {
+    "baseline": "a09faf8ed99f62f049962eced821828640b91bf5c77c962f1b7434d5fe27d581",
+    "elo": "45c0e3b54740e58e2d1ac6ffa30f0a0d5fba4118ef0524a0248c13ce76018dd6",
+    "ml": "5b8e8be5e16634cfbff64a76e4cb0990cc67b680310d1e1350fb0730fb7aae31"
+  },
+  "units": "percent",
+  "deltaUnits": "percentage points (author minus local baseline)",
+  "sourceDecimals": 4,
+  "pathsPerModel": 60000,
+  "sourceFigures": {
+    "elo": {
+      "figure": 2,
+      "url": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/968fa99dd99faa38318e1f4c1f03ca2e/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+      "sha256": "9346bfbffd6d8839ecf3f97fbee89e7e7f94a1474e0ffba8e8a1ad086ebb5d80"
+    },
+    "ml": {
+      "figure": 5,
+      "url": "https://imgheybox1.max-c.com/web/bbs/2026/11/19/c678973b77e529fe0613b6011dcfa4d6/thumb.png?imageMogr2/auto-orient/ignore-error/1/format/webp",
+      "sha256": "d21bd6ee686746d93359b90ab3c86c8262958b005f74f829a02dfd44a23e9fff"
+    }
+  },
+  "top": {
+    "elo": {
+      "qualified": [
+        {
+          "seed": 6,
+          "name": "Eternal Fire",
+          "sourcePercent": 51.3707,
+          "baselinePercent": 70.91833333333334,
+          "deltaPp": -19.547633333333337
+        },
+        {
+          "seed": 16,
+          "name": "Lynn Vision",
+          "sourcePercent": 45.568,
+          "baselinePercent": 27.02166666666667,
+          "deltaPp": 18.54633333333333
+        }
+      ],
+      "zero": [
+        {
+          "seed": 14,
+          "name": "FlyQuest",
+          "sourcePercent": 13.9945,
+          "baselinePercent": 22.55,
+          "deltaPp": -8.5555
+        },
+        {
+          "seed": 16,
+          "name": "Lynn Vision",
+          "sourcePercent": 14.4883,
+          "baselinePercent": 22.776666666666667,
+          "deltaPp": -8.288366666666667
+        }
+      ]
+    },
+    "ml": {
+      "qualified": [
+        {
+          "seed": 16,
+          "name": "Lynn Vision",
+          "sourcePercent": 59.9281,
+          "baselinePercent": 27.02166666666667,
+          "deltaPp": 32.90643333333333
+        },
+        {
+          "seed": 14,
+          "name": "FlyQuest",
+          "sourcePercent": 59.6772,
+          "baselinePercent": 30.911666666666665,
+          "deltaPp": 28.765533333333334
+        }
+      ],
+      "zero": [
+        {
+          "seed": 14,
+          "name": "FlyQuest",
+          "sourcePercent": 8.6286,
+          "baselinePercent": 22.55,
+          "deltaPp": -13.9214
+        },
+        {
+          "seed": 16,
+          "name": "Lynn Vision",
+          "sourcePercent": 9.088,
+          "baselinePercent": 22.776666666666667,
+          "deltaPp": -13.688666666666668
+        }
+      ]
+    }
+  },
+  "rows": [
+    {
+      "seed": 1,
+      "name": "Ninjas in Pyjamas",
+      "authors": {
+        "elo": {
+          "perfect": 16.9699,
+          "qualified": 60.2351,
+          "zero": 8.4122,
+          "advance": 43.2652
+        },
+        "ml": {
+          "perfect": 22.1106,
+          "qualified": 71.0506,
+          "zero": 5.4906,
+          "advance": 48.94
+        }
+      },
+      "local": {
+        "baseline": {
+          "perfect": 23.491666666666667,
+          "qualified": 71.28333333333333,
+          "zero": 4.453333333333333,
+          "advance": 47.791666666666664
+        },
+        "elo": {
+          "perfect": 17.745,
+          "qualified": 63.86333333333334,
+          "zero": 5.868333333333333,
+          "advance": 46.11833333333333
+        },
+        "ml": {
+          "perfect": 15.776666666666667,
+          "qualified": 58.858333333333334,
+          "zero": 8.806666666666667,
+          "advance": 43.08166666666666
+        }
+      },
+      "localCounts": {
+        "baseline": {
+          "perfect": 14095,
+          "qualified": 42770,
+          "zero": 2672,
+          "advance": 28675
+        },
+        "elo": {
+          "perfect": 10647,
+          "qualified": 38318,
+          "zero": 3521,
+          "advance": 27671
+        },
+        "ml": {
+          "perfect": 9466,
+          "qualified": 35315,
+          "zero": 5284,
+          "advance": 25849
+        }
+      },
+      "gaps": {
+        "elo": {
+          "perfect": -6.521766666666668,
+          "qualified": -11.048233333333329,
+          "zero": 3.958866666666667,
+          "advance": -4.526466666666664
+        },
+        "ml": {
+          "perfect": -1.3810666666666656,
+          "qualified": -0.23273333333332857,
+          "zero": 1.0372666666666666,
+          "advance": 1.1483333333333334
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "name": "PARIVISION",
+      "authors": {
+        "elo": {
+          "perfect": 18.6969,
+          "qualified": 63.3681,
+          "zero": 7.4122,
+          "advance": 44.6712
+        },
+        "ml": {
+          "perfect": 11.6483,
+          "qualified": 50.9767,
+          "zero": 12.2464,
+          "advance": 39.3284
+        }
+      },
+      "local": {
+        "baseline": {
+          "perfect": 19.631666666666668,
+          "qualified": 65.79333333333334,
+          "zero": 5.865,
+          "advance": 46.16166666666667
+        },
+        "elo": {
+          "perfect": 22.863333333333333,
+          "qualified": 71.82,
+          "zero": 3.955,
+          "advance": 48.95666666666666
+        },
+        "ml": {
+          "perfect": 14.741666666666667,
+          "qualified": 57.903333333333336,
+          "zero": 9.381666666666666,
+          "advance": 43.16166666666667
+        }
+      },
+      "localCounts": {
+        "baseline": {
+          "perfect": 11779,
+          "qualified": 39476,
+          "zero": 3519,
+          "advance": 27697
+        },
+        "elo": {
+          "perfect": 13718,
+          "qualified": 43092,
+          "zero": 2373,
+          "advance": 29374
+        },
+        "ml": {
+          "perfect": 8845,
+          "qualified": 34742,
+          "zero": 5629,
+          "advance": 25897
+        }
+      },
+      "gaps": {
+        "elo": {
+          "perfect": -0.9347666666666683,
+          "qualified": -2.4252333333333382,
+          "zero": 1.5472000000000001,
+          "advance": -1.49046666666667
+        },
+        "ml": {
+          "perfect": -7.983366666666667,
+          "qualified": -14.816633333333336,
+          "zero": 6.381399999999999,
+          "advance": -6.833266666666667
+        }
+      }
+    },
+    {
+      "seed": 3,
+      "name": "HEROIC",
+      "authors": {
+        "elo": {
+          "perfect": 15.1378,
+          "qualified": 56.7493,
+          "zero": 9.504,
+          "advance": 41.6115
+        },
+        "ml": {
+          "perfect": 15.3613,
+          "qualified": 57.5754,
+          "zero": 8.7896,
+          "advance": 42.2141
+        }
+      },
+      "local": {
+        "baseline": {
+          "perfect": 22.426666666666666,
+          "qualified": 71.35333333333334,
+          "zero": 4.6866666666666665,
+          "advance": 48.92666666666667
+        },
+        "elo": {
+          "perfect": 18.203333333333333,
+          "qualified": 64.78,
+          "zero": 5.341666666666667,
+          "advance": 46.57666666666667
+        },
+        "ml": {
+          "perfect": 20.456666666666667,
+          "qualified": 64.745,
+          "zero": 6.073333333333333,
+          "advance": 44.288333333333334
+        }
+      },
+      "localCounts": {
+        "baseline": {
+          "perfect": 13456,
+          "qualified": 42812,
+          "zero": 2812,
+          "advance": 29356
+        },
+        "elo": {
+          "perfect": 10922,
+          "qualified": 38868,
+          "zero": 3205,
+          "advance": 27946
+        },
+        "ml": {
+          "perfect": 12274,
+          "qualified": 38847,
+          "zero": 3644,
+          "advance": 26573
+        }
+      },
+      "gaps": {
+        "elo": {
+          "perfect": -7.2888666666666655,
+          "qualified": -14.60403333333334,
+          "zero": 4.817333333333333,
+          "advance": -7.31516666666667
+        },
+        "ml": {
+          "perfect": -7.065366666666666,
+          "qualified": -13.777933333333337,
+          "zero": 4.1029333333333335,
+          "advance": -6.7125666666666675
+        }
+      }
+    },
+    {
+      "seed": 4,
+      "name": "FaZe",
+      "authors": {
+        "elo": {
+          "perfect": 12.0751,
+          "qualified": 49.248,
+          "zero": 12.058,
+          "advance": 37.1729
+        },
+        "ml": {
+          "perfect": 12.0831,
+          "qualified": 49.7267,
+          "zero": 11.8491,
+          "advance": 37.6436
+        }
+      },
+      "local": {
+        "baseline": {
+          "perfect": 18.476666666666667,
+          "qualified": 64.50833333333334,
+          "zero": 6.133333333333334,
+          "advance": 46.031666666666666
+        },
+        "elo": {
+          "perfect": 14.105,
+          "qualified": 57.531666666666666,
+          "zero": 7.411666666666667,
+          "advance": 43.42666666666667
+        },
+        "ml": {
+          "perfect": 12.571666666666667,
+          "qualified": 51.711666666666666,
+          "zero": 10.578333333333333,
+          "advance": 39.14
+        }
+      },
+      "localCounts": {
+        "baseline": {
+          "perfect": 11086,
+          "qualified": 38705,
+          "zero": 3680,
+          "advance": 27619
+        },
+        "elo": {
+          "perfect": 8463,
+          "qualified": 34519,
+          "zero": 4447,
+          "advance": 26056
+        },
+        "ml": {
+          "perfect": 7543,
+          "qualified": 31027,
+          "zero": 6347,
+          "advance": 23484
+        }
+      },
+      "gaps": {
+        "elo": {
+          "perfect": -6.401566666666666,
+          "qualified": -15.260333333333342,
+          "zero": 5.924666666666666,
+          "advance": -8.858766666666668
+        },
+        "ml": {
+          "perfect": -6.393566666666667,
+          "qualified": -14.781633333333339,
+          "zero": 5.715766666666666,
+          "advance": -8.388066666666667
+        }
+      }
+    },
+    {
+      "seed": 5,
+      "name": "Liquid",
+      "authors": {
+        "elo": {
+          "perfect": 14.197,
+          "qualified": 52.5567,
+          "zero": 10.2013,
+          "advance": 38.3596
+        },
+        "ml": {
+          "perfect": 12.4492,
+          "qualified": 48.9672,
+          "zero": 10.8243,
+          "advance": 36.5179
+        }
+      },
+      "local": {
+        "baseline": {
+          "perfect": 13.143333333333333,
+          "qualified": 53.86,
+          "zero": 8.891666666666667,
+          "advance": 40.71666666666667
+        },
+        "elo": {
+          "perfect": 16.743333333333332,
+          "qualified": 57.42,
+          "zero": 5.9816666666666665,
+          "advance": 40.67666666666667
+        },
+        "ml": {
+          "perfect": 16.285,
+          "qualified": 59.95333333333333,
+          "zero": 8.141666666666667,
+          "advance": 43.66833333333334
+        }
+      },
+      "localCounts": {
+        "baseline": {
+          "perfect": 7886,
+          "qualified": 32316,
+          "zero": 5335,
+          "advance": 24430
+        },
+        "elo": {
+          "perfect": 10046,
+          "qualified": 34452,
+          "zero": 3589,
+          "advance": 24406
+        },
+        "ml": {
+          "perfect": 9771,
+          "qualified": 35972,
+          "zero": 4885,
+          "advance": 26201
+        }
+      },
+      "gaps": {
+        "elo": {
+          "perfect": 1.0536666666666665,
+          "qualified": -1.3033000000000001,
+          "zero": 1.3096333333333323,
+          "advance": -2.357066666666668
+        },
+        "ml": {
+          "perfect": -0.6941333333333333,
+          "qualified": -4.892800000000001,
+          "zero": 1.9326333333333316,
+          "advance": -4.198766666666671
+        }
+      }
+    },
+    {
+      "seed": 6,
+      "name": "Eternal Fire",
+      "authors": {
+        "elo": {
+          "perfect": 12.8516,
+          "qualified": 51.3707,
+          "zero": 11.3201,
+          "advance": 38.5191
+        },
+        "ml": {
+          "perfect": 9.0695,
+          "qualified": 42.887,
+          "zero": 14.5083,
+          "advance": 33.8175
+        }
+      },
+      "local": {
+        "baseline": {
+          "perfect": 22.711666666666666,
+          "qualified": 70.91833333333334,
+          "zero": 4.471666666666667,
+          "advance": 48.20666666666666
+        },
+        "elo": {
+          "perfect": 14.885,
+          "qualified": 57.52166666666667,
+          "zero": 7.27,
+          "advance": 42.63666666666666
+        },
+        "ml": {
+          "perfect": 18.32,
+          "qualified": 62.905,
+          "zero": 7.198333333333333,
+          "advance": 44.585
+        }
+      },
+      "localCounts": {
+        "baseline": {
+          "perfect": 13627,
+          "qualified": 42551,
+          "zero": 2683,
+          "advance": 28924
+        },
+        "elo": {
+          "perfect": 8931,
+          "qualified": 34513,
+          "zero": 4362,
+          "advance": 25582
+        },
+        "ml": {
+          "perfect": 10992,
+          "qualified": 37743,
+          "zero": 4319,
+          "advance": 26751
+        }
+      },
+      "gaps": {
+        "elo": {
+          "perfect": -9.860066666666667,
+          "qualified": -19.547633333333337,
+          "zero": 6.848433333333333,
+          "advance": -9.687566666666662
+        },
+        "ml": {
+          "perfect": -13.642166666666666,
+          "qualified": -28.031333333333336,
+          "zero": 10.036633333333334,
+          "advance": -14.38916666666666
+        }
+      }
+    },
+    {
+      "seed": 7,
+      "name": "100 Thieves",
+      "authors": {
+        "elo": {
+          "perfect": 18.9875,
+          "qualified": 62.7397,
+          "zero": 7.2723,
+          "advance": 43.7522
+        },
+        "ml": {
+          "perfect": 21.0861,
+          "qualified": 67.1646,
+          "zero": 5.9405,
+          "advance": 46.0785
+        }
+      },
+      "local": {
+        "baseline": {
+          "perfect": 18.465,
+          "qualified": 64.71333333333334,
+          "zero": 5.866666666666666,
+          "advance": 46.248333333333335
+        },
+        "elo": {
+          "perfect": 16.988333333333333,
+          "qualified": 58.096666666666664,
+          "zero": 5.801666666666667,
+          "advance": 41.108333333333334
+        },
+        "ml": {
+          "perfect": 14.12,
+          "qualified": 54.97833333333333,
+          "zero": 9.591666666666667,
+          "advance": 40.858333333333334
+        }
+      },
+      "localCounts": {
+        "baseline": {
+          "perfect": 11079,
+          "qualified": 38828,
+          "zero": 3520,
+          "advance": 27749
+        },
+        "elo": {
+          "perfect": 10193,
+          "qualified": 34858,
+          "zero": 3481,
+          "advance": 24665
+        },
+        "ml": {
+          "perfect": 8472,
+          "qualified": 32987,
+          "zero": 5755,
+          "advance": 24515
+        }
+      },
+      "gaps": {
+        "elo": {
+          "perfect": 0.5225000000000009,
+          "qualified": -1.9736333333333391,
+          "zero": 1.4056333333333342,
+          "advance": -2.496133333333333
+        },
+        "ml": {
+          "perfect": 2.6210999999999984,
+          "qualified": 2.4512666666666547,
+          "zero": 0.07383333333333386,
+          "advance": -0.1698333333333366
+        }
+      }
+    },
+    {
+      "seed": 8,
+      "name": "9z",
+      "authors": {
+        "elo": {
+          "perfect": 12.3599,
+          "qualified": 50.5178,
+          "zero": 11.8003,
+          "advance": 38.1579
+        },
+        "ml": {
+          "perfect": 9.579,
+          "qualified": 42.2593,
+          "zero": 15.1989,
+          "advance": 32.6803
+        }
+      },
+      "local": {
+        "baseline": {
+          "perfect": 7.663333333333333,
+          "qualified": 37.56333333333333,
+          "zero": 14.43,
+          "advance": 29.9
+        },
+        "elo": {
+          "perfect": 13.585,
+          "qualified": 56.13166666666667,
+          "zero": 8.363333333333333,
+          "advance": 42.54666666666667
+        },
+        "ml": {
+          "perfect": 13.045,
+          "qualified": 51.663333333333334,
+          "zero": 10.713333333333333,
+          "advance": 38.61833333333333
+        }
+      },
+      "localCounts": {
+        "baseline": {
+          "perfect": 4598,
+          "qualified": 22538,
+          "zero": 8658,
+          "advance": 17940
+        },
+        "elo": {
+          "perfect": 8151,
+          "qualified": 33679,
+          "zero": 5018,
+          "advance": 25528
+        },
+        "ml": {
+          "perfect": 7827,
+          "qualified": 30998,
+          "zero": 6428,
+          "advance": 23171
+        }
+      },
+      "gaps": {
+        "elo": {
+          "perfect": 4.696566666666667,
+          "qualified": 12.954466666666669,
+          "zero": -2.6296999999999997,
+          "advance": 8.2579
+        },
+        "ml": {
+          "perfect": 1.9156666666666675,
+          "qualified": 4.695966666666671,
+          "zero": 0.7689000000000004,
+          "advance": 2.780300000000004
+        }
+      }
+    },
+    {
+      "seed": 9,
+      "name": "M80",
+      "authors": {
+        "elo": {
+          "perfect": 11.5118,
+          "qualified": 49.5138,
+          "zero": 12.6907,
+          "advance": 38.0021
+        },
+        "ml": {
+          "perfect": 7.5523,
+          "qualified": 38.3955,
+          "zero": 17.4556,
+          "advance": 30.8433
+        }
+      },
+      "local": {
+        "baseline": {
+          "perfect": 9.398333333333333,
+          "qualified": 47.86666666666667,
+          "zero": 12.613333333333333,
+          "advance": 38.468333333333334
+        },
+        "elo": {
+          "perfect": 12.938333333333333,
+          "qualified": 56.04,
+          "zero": 8.728333333333333,
+          "advance": 43.10166666666667
+        },
+        "ml": {
+          "perfect": 13.811666666666667,
+          "qualified": 54.67666666666667,
+          "zero": 10.718333333333334,
+          "advance": 40.865
+        }
+      },
+      "localCounts": {
+        "baseline": {
+          "perfect": 5639,
+          "qualified": 28720,
+          "zero": 7568,
+          "advance": 23081
+        },
+        "elo": {
+          "perfect": 7763,
+          "qualified": 33624,
+          "zero": 5237,
+          "advance": 25861
+        },
+        "ml": {
+          "perfect": 8287,
+          "qualified": 32806,
+          "zero": 6431,
+          "advance": 24519
+        }
+      },
+      "gaps": {
+        "elo": {
+          "perfect": 2.1134666666666657,
+          "qualified": 1.6471333333333362,
+          "zero": 0.07736666666666636,
+          "advance": -0.46623333333333505
+        },
+        "ml": {
+          "perfect": -1.8460333333333336,
+          "qualified": -9.471166666666669,
+          "zero": 4.842266666666667,
+          "advance": -7.625033333333334
+        }
+      }
+    },
+    {
+      "seed": 10,
+      "name": "DENDELE",
+      "authors": {
+        "elo": {
+          "perfect": 10.5778,
+          "qualified": 47.5067,
+          "zero": 13.7784,
+          "advance": 36.9288
+        },
+        "ml": {
+          "perfect": 15.8481,
+          "qualified": 59.7572,
+          "zero": 8.5429,
+          "advance": 43.9091
+        }
+      },
+      "local": {
+        "baseline": {
+          "perfect": 8.745,
+          "qualified": 45.266666666666666,
+          "zero": 13.575,
+          "advance": 36.52166666666667
+        },
+        "elo": {
+          "perfect": 9.923333333333334,
+          "qualified": 48.348333333333336,
+          "zero": 11.748333333333333,
+          "advance": 38.425
+        },
+        "ml": {
+          "perfect": 15.295,
+          "qualified": 59.01,
+          "zero": 9.155,
+          "advance": 43.715
+        }
+      },
+      "localCounts": {
+        "baseline": {
+          "perfect": 5247,
+          "qualified": 27160,
+          "zero": 8145,
+          "advance": 21913
+        },
+        "elo": {
+          "perfect": 5954,
+          "qualified": 29009,
+          "zero": 7049,
+          "advance": 23055
+        },
+        "ml": {
+          "perfect": 9177,
+          "qualified": 35406,
+          "zero": 5493,
+          "advance": 26229
+        }
+      },
+      "gaps": {
+        "elo": {
+          "perfect": 1.8328000000000007,
+          "qualified": 2.2400333333333364,
+          "zero": 0.20340000000000025,
+          "advance": 0.40713333333333424
+        },
+        "ml": {
+          "perfect": 7.103100000000001,
+          "qualified": 14.490533333333332,
+          "zero": -5.0321,
+          "advance": 7.387433333333334
+        }
+      }
+    },
+    {
+      "seed": 11,
+      "name": "Imperial",
+      "authors": {
+        "elo": {
+          "perfect": 11.9254,
+          "qualified": 50.4316,
+          "zero": 12.2998,
+          "advance": 38.5062
+        },
+        "ml": {
+          "perfect": 8.8805,
+          "qualified": 42.4681,
+          "zero": 15.2933,
+          "advance": 33.5876
+        }
+      },
+      "local": {
+        "baseline": {
+          "perfect": 9.125,
+          "qualified": 47.845,
+          "zero": 12.801666666666666,
+          "advance": 38.72
+        },
+        "elo": {
+          "perfect": 9.225,
+          "qualified": 45.10666666666667,
+          "zero": 12.918333333333333,
+          "advance": 35.88166666666667
+        },
+        "ml": {
+          "perfect": 5.071666666666666,
+          "qualified": 28.843333333333334,
+          "zero": 23.6,
+          "advance": 23.77166666666667
+        }
+      },
+      "localCounts": {
+        "baseline": {
+          "perfect": 5475,
+          "qualified": 28707,
+          "zero": 7681,
+          "advance": 23232
+        },
+        "elo": {
+          "perfect": 5535,
+          "qualified": 27064,
+          "zero": 7751,
+          "advance": 21529
+        },
+        "ml": {
+          "perfect": 3043,
+          "qualified": 17306,
+          "zero": 14160,
+          "advance": 14263
+        }
+      },
+      "gaps": {
+        "elo": {
+          "perfect": 2.8004,
+          "qualified": 2.5866000000000042,
+          "zero": -0.5018666666666665,
+          "advance": -0.2137999999999991
+        },
+        "ml": {
+          "perfect": -0.24450000000000038,
+          "qualified": -5.376899999999999,
+          "zero": 2.4916333333333345,
+          "advance": -5.132399999999997
+        }
+      }
+    },
+    {
+      "seed": 12,
+      "name": "Wildcard",
+      "authors": {
+        "elo": {
+          "perfect": 11.1794,
+          "qualified": 47.5656,
+          "zero": 13.0784,
+          "advance": 36.3862
+        },
+        "ml": {
+          "perfect": 11.7035,
+          "qualified": 49.1988,
+          "zero": 12.126,
+          "advance": 37.4952
+        }
+      },
+      "local": {
+        "baseline": {
+          "perfect": 7.33,
+          "qualified": 41.205,
+          "zero": 15.773333333333333,
+          "advance": 33.875
+        },
+        "elo": {
+          "perfect": 12.455,
+          "qualified": 54.513333333333335,
+          "zero": 9.223333333333333,
+          "advance": 42.05833333333333
+        },
+        "ml": {
+          "perfect": 10.065,
+          "qualified": 44.403333333333336,
+          "zero": 14.243333333333334,
+          "advance": 34.33833333333333
+        }
+      },
+      "localCounts": {
+        "baseline": {
+          "perfect": 4398,
+          "qualified": 24723,
+          "zero": 9464,
+          "advance": 20325
+        },
+        "elo": {
+          "perfect": 7473,
+          "qualified": 32708,
+          "zero": 5534,
+          "advance": 25235
+        },
+        "ml": {
+          "perfect": 6039,
+          "qualified": 26642,
+          "zero": 8546,
+          "advance": 20603
+        }
+      },
+      "gaps": {
+        "elo": {
+          "perfect": 3.8493999999999993,
+          "qualified": 6.360600000000005,
+          "zero": -2.694933333333333,
+          "advance": 2.5112000000000023
+        },
+        "ml": {
+          "perfect": 4.3735,
+          "qualified": 7.9938,
+          "zero": -3.647333333333334,
+          "advance": 3.620199999999997
+        }
+      }
+    },
+    {
+      "seed": 13,
+      "name": "GOSH",
+      "authors": {
+        "elo": {
+          "perfect": 6.5367,
+          "qualified": 32.9806,
+          "zero": 20.495,
+          "advance": 26.444
+        },
+        "ml": {
+          "perfect": 6.545,
+          "qualified": 32.1101,
+          "zero": 20.2701,
+          "advance": 25.5651
+        }
+      },
+      "local": {
+        "baseline": {
+          "perfect": 5.828333333333333,
+          "qualified": 33.29833333333333,
+          "zero": 19.173333333333332,
+          "advance": 27.47
+        },
+        "elo": {
+          "perfect": 1.7183333333333333,
+          "qualified": 12.193333333333333,
+          "zero": 37.373333333333335,
+          "advance": 10.475
+        },
+        "ml": {
+          "perfect": 9.346666666666666,
+          "qualified": 43.846666666666664,
+          "zero": 14.675,
+          "advance": 34.5
+        }
+      },
+      "localCounts": {
+        "baseline": {
+          "perfect": 3497,
+          "qualified": 19979,
+          "zero": 11504,
+          "advance": 16482
+        },
+        "elo": {
+          "perfect": 1031,
+          "qualified": 7316,
+          "zero": 22424,
+          "advance": 6285
+        },
+        "ml": {
+          "perfect": 5608,
+          "qualified": 26308,
+          "zero": 8805,
+          "advance": 20700
+        }
+      },
+      "gaps": {
+        "elo": {
+          "perfect": 0.7083666666666666,
+          "qualified": -0.3177333333333294,
+          "zero": 1.321666666666669,
+          "advance": -1.0259999999999998
+        },
+        "ml": {
+          "perfect": 0.7166666666666668,
+          "qualified": -1.1882333333333293,
+          "zero": 1.0967666666666673,
+          "advance": -1.9048999999999978
+        }
+      }
+    },
+    {
+      "seed": 14,
+      "name": "FlyQuest",
+      "authors": {
+        "elo": {
+          "perfect": 10.4809,
+          "qualified": 46.055,
+          "zero": 13.9945,
+          "advance": 35.5741
+        },
+        "ml": {
+          "perfect": 15.7916,
+          "qualified": 59.6772,
+          "zero": 8.6286,
+          "advance": 43.8856
+        }
+      },
+      "local": {
+        "baseline": {
+          "perfect": 4.76,
+          "qualified": 30.911666666666665,
+          "zero": 22.55,
+          "advance": 26.151666666666667
+        },
+        "elo": {
+          "perfect": 7.885,
+          "qualified": 41.17,
+          "zero": 14.63,
+          "advance": 33.285
+        },
+        "ml": {
+          "perfect": 6.046666666666667,
+          "qualified": 33.001666666666665,
+          "zero": 20.69,
+          "advance": 26.955
+        }
+      },
+      "localCounts": {
+        "baseline": {
+          "perfect": 2856,
+          "qualified": 18547,
+          "zero": 13530,
+          "advance": 15691
+        },
+        "elo": {
+          "perfect": 4731,
+          "qualified": 24702,
+          "zero": 8778,
+          "advance": 19971
+        },
+        "ml": {
+          "perfect": 3628,
+          "qualified": 19801,
+          "zero": 12414,
+          "advance": 16173
+        }
+      },
+      "gaps": {
+        "elo": {
+          "perfect": 5.7209,
+          "qualified": 15.143333333333334,
+          "zero": -8.5555,
+          "advance": 9.422433333333334
+        },
+        "ml": {
+          "perfect": 11.031600000000001,
+          "qualified": 28.765533333333334,
+          "zero": -13.9214,
+          "advance": 17.73393333333333
+        }
+      }
+    },
+    {
+      "seed": 15,
+      "name": "Chinggis Warriors",
+      "authors": {
+        "elo": {
+          "perfect": 6.3083,
+          "qualified": 33.5933,
+          "zero": 21.1943,
+          "advance": 27.2851
+        },
+        "ml": {
+          "perfect": 4.8753,
+          "qualified": 27.8573,
+          "zero": 23.7477,
+          "advance": 22.9821
+        }
+      },
+      "local": {
+        "baseline": {
+          "perfect": 3.95,
+          "qualified": 26.591666666666665,
+          "zero": 25.938333333333333,
+          "advance": 22.641666666666666
+        },
+        "elo": {
+          "perfect": 1.28,
+          "qualified": 9.701666666666666,
+          "zero": 41.70333333333333,
+          "advance": 8.421666666666667
+        },
+        "ml": {
+          "perfect": 7.206666666666667,
+          "qualified": 35.46333333333333,
+          "zero": 18.876666666666665,
+          "advance": 28.256666666666668
+        }
+      },
+      "localCounts": {
+        "baseline": {
+          "perfect": 2370,
+          "qualified": 15955,
+          "zero": 15563,
+          "advance": 13585
+        },
+        "elo": {
+          "perfect": 768,
+          "qualified": 5821,
+          "zero": 25022,
+          "advance": 5053
+        },
+        "ml": {
+          "perfect": 4324,
+          "qualified": 21278,
+          "zero": 11326,
+          "advance": 16954
+        }
+      },
+      "gaps": {
+        "elo": {
+          "perfect": 2.3583,
+          "qualified": 7.001633333333334,
+          "zero": -4.744033333333334,
+          "advance": 4.643433333333334
+        },
+        "ml": {
+          "perfect": 0.9253,
+          "qualified": 1.2656333333333336,
+          "zero": -2.1906333333333343,
+          "advance": 0.34043333333333337
+        }
+      }
+    },
+    {
+      "seed": 16,
+      "name": "Lynn Vision",
+      "authors": {
+        "elo": {
+          "perfect": 10.2041,
+          "qualified": 45.568,
+          "zero": 14.4883,
+          "advance": 35.3639
+        },
+        "ml": {
+          "perfect": 15.4166,
+          "qualified": 59.9281,
+          "zero": 9.088,
+          "advance": 44.5115
+        }
+      },
+      "local": {
+        "baseline": {
+          "perfect": 4.8533333333333335,
+          "qualified": 27.02166666666667,
+          "zero": 22.776666666666667,
+          "advance": 22.168333333333333
+        },
+        "elo": {
+          "perfect": 9.456666666666667,
+          "qualified": 45.76166666666666,
+          "zero": 13.681666666666667,
+          "advance": 36.305
+        },
+        "ml": {
+          "perfect": 7.84,
+          "qualified": 38.03666666666667,
+          "zero": 17.55666666666667,
+          "advance": 30.196666666666665
+        }
+      },
+      "localCounts": {
+        "baseline": {
+          "perfect": 2912,
+          "qualified": 16213,
+          "zero": 13666,
+          "advance": 13301
+        },
+        "elo": {
+          "perfect": 5674,
+          "qualified": 27457,
+          "zero": 8209,
+          "advance": 21783
+        },
+        "ml": {
+          "perfect": 4704,
+          "qualified": 22822,
+          "zero": 10534,
+          "advance": 18118
+        }
+      },
+      "gaps": {
+        "elo": {
+          "perfect": 5.350766666666667,
+          "qualified": 18.54633333333333,
+          "zero": -8.288366666666667,
+          "advance": 13.195566666666668
+        },
+        "ml": {
+          "perfect": 10.563266666666667,
+          "qualified": 32.90643333333333,
+          "zero": -13.688666666666668,
+          "advance": 22.343166666666665
+        }
+      }
+    }
+  ]
+}

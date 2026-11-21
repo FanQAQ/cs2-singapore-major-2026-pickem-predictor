@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Fango's Lab · CS2 Major 竞猜实验室</title>
+<meta name="application-name" content="Fango's Lab">
+<meta name="theme-color" content="#101c29">
+<link rel="icon" type="image/png" sizes="64x64" href="fango-lab.png">
+<meta name="description" content="Fango's Lab 的 CS2 Major 竞猜实验室。查看新加坡 Major 推荐卡、推演瑞士轮，并核对三个阶段的历史命中。">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="swiss-board.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Fango's <b>Lab</b></span></div>
+    <span class="brand-sub">CS2 Major 竞猜实验室</span>
+  </div>
+</header>
+<main class="shell">
+  <div id="error-box" role="alert" hidden></div>
+  <section class="hero event-hero" aria-labelledby="event-title">
+    <div class="event-heading">
+    <div class="context"><span class="stage-tag">STAGE 1</span><span>瑞士轮</span><i></i><span id="mode-label">赛前推演</span></div>
+    <h1 id="event-title">新加坡 Major 2026</h1>
+    <div class="metadata" id="metadata"></div>
+    <span class="compute-state" id="compute-state" role="status" aria-live="polite"></span>
+    </div>
+    <a class="event-opener" href="https://www.pglesports.com/cs2/pgl-major-singapore-2026/" target="_blank" rel="noopener noreferrer" aria-label="北京时间 11 月 24 日 12:00 首场开赛，查看 PGL 官方赛程"><span>首场开赛 · 北京时间 ↗</span><time datetime="2026-11-24T12:00:00+08:00">11.24 <b>12:00</b></time></a>
+  </section>
+  <div class="workspace-tabs" role="group" aria-label="工作区">
+    <button type="button" data-view="picks" aria-pressed="true">我的竞猜卡</button>
+    <button type="button" data-view="bracket" aria-pressed="false">对阵推演</button>
+    <button type="button" data-view="duel" aria-pressed="false">对局与打法</button>
+    <button type="button" data-view="verify" aria-pressed="false">数据与验证</button>
+  </div>
+  <div class="strategy-board">
+    <section class="method-panel panel" aria-label="预测模型">
+      <div class="method-bar">
+        <h2>预测模型</h2>
+        <div class="method-switch" role="group" aria-label="选择预测模型">
+          <button type="button" data-family="v4" aria-pressed="true">推荐模型</button>
+          <button type="button" data-family="boost" aria-pressed="false">决策树</button>
+        </div>
+      </div>
+      <details class="method-settings" id="strategy-settings">
+        <summary id="strategy-title"><span>模型设置</span><span id="method-state">推荐配置</span></summary>
+        <div class="config-body">
+          <p id="method-description"></p>
+          <fieldset class="model-features"><legend>预测特征</legend><div id="features"></div></fieldset>
+          <div class="method-actions">
+            <label class="fill-mode"><span>填卡目标</span><select id="fill-mode" disabled>
+              <option value="seedConditional">按晋级后的全胜率与末位种子填卡</option>
+              <option value="model">过关率优先</option>
+              <option value="robust">比较两种填法后选卡</option>
+              <option value="expected">最高期望命中</option>
+              <option value="seed">按赛事种子</option>
+              <option value="manual" hidden disabled>手动调整</option>
+            </select></label>
+            <button id="restore-model" type="button" class="text-button">恢复此模型的推荐配置</button>
+          </div>
+          <p id="data-dates" class="feature-coverage"></p>
+        </div>
+      </details>
+    </section>
+    <div id="workspace" aria-busy="true"></div>
+    <aside class="history-sidebar panel" aria-labelledby="history-title">
+      <div class="history-heading"><h2 id="history-title" tabindex="-1">Major 历史命中</h2><p>每张卡命中 5/10 即过关。Stage 1、2 看最近五届，目标过三届。Stage 3 看最近三届，目标过两届。</p></div>
+      <div id="history-strategy" class="history-strategy"></div>
+      <div class="history-stages" role="group" aria-label="按阶段查看历史成绩">
+        <div class="history-stage-head" aria-hidden="true"><span>查看阶段</span><span>过关届数</span><span>总命中</span></div>
+        <button type="button" data-history-stage="1" aria-pressed="true" aria-controls="history-stage-title history-list"><span>Stage 1</span><span class="stage-passes">—</span><span class="stage-hits">—</span></button>
+        <button type="button" data-history-stage="2" aria-pressed="false" aria-controls="history-stage-title history-list"><span>Stage 2</span><span class="stage-passes">—</span><span class="stage-hits">—</span></button>
+        <button type="button" data-history-stage="3" aria-pressed="false" aria-controls="history-stage-title history-list"><span>Stage 3</span><span class="stage-passes">—</span><span class="stage-hits">—</span></button>
+      </div>
+      <div id="history-feedback" class="history-feedback" role="status" aria-live="polite" aria-atomic="true">正在载入历届赛果…</div>
+      <h3 id="history-stage-title" class="history-stage-title">Stage 1 逐届成绩</h3>
+      <p id="history-goal-status" class="history-goal-status"></p>
+      <details id="rolling-goal" class="history-training-study" hidden>
+        <summary>推荐卡的正式计分记录</summary>
+        <div id="rolling-goal-records"></div>
+      </details>
+      <div id="stage3-settings" class="stage3-settings" hidden>
+        <label><input type="checkbox" id="stage3-allocation">试用 Stage 3 分组填卡</label>
+        <small id="stage3-availability">按直邀队与上阶段晋级队分别估计填卡位置。</small>
+        <details><summary>这套填法在哪些比赛有效？</summary><div id="stage3-evidence"></div></details>
+        <details id="round-form-study" hidden>
+          <summary>上一阶段的大胜，比险胜更有参考价值吗？</summary>
+          <label for="round-form-field">查看赛事 <select id="round-form-field"></select></label>
+          <div id="round-form-result" aria-live="polite"></div>
+        </details>
+        <details id="stage3-map-study" hidden><summary>地图池能改善 BO3 胜率吗？</summary><div id="stage3-map-results"></div></details>
+      </div>
+      <ol id="history-list" class="history-list" aria-labelledby="history-stage-title"></ol>
+      <details id="f1-sidebar" class="history-training-study" hidden>
+        <summary>同阶段的 Elo 和地图 ML</summary><div></div>
+      </details>
+      <div id="history-notes" class="history-notes"></div>
+      <details id="stage-transfer-study" class="history-training-study" hidden>
+        <summary>后来阶段能提供哪些经验？</summary>
+        <div id="stage-transfer-data"></div>
+      </details>
+      <details id="history-training-study" class="history-training-study" hidden>
+        <summary>跨阶段校准的检验结果</summary>
+        <div id="history-training-comparison"></div>
+      </details>
+    </aside>
+  </div>
+  <footer><span>Fango's Lab</span><span>CS2 · Stage 1</span></footer>
+</main>
+<dialog id="team-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-note">
+  <div class="dialog-header"><h2 id="dialog-title">更换队伍</h2><button type="button" class="icon-btn" id="close-dialog" aria-label="关闭">×</button></div>
+  <p id="dialog-note">选中已入卡的队伍会交换两队的位置。</p>
+  <div id="dialog-teams"></div>
+</dialog>
+<script src="engine.js"></script>
+<script src="data.js"></script>
+<script src="format.js"></script>
+<script src="style-model.js"></script>
+<script src="rolling.js"></script>
+<script src="boost.js"></script>
+<script src="v4.js"></script>
+<script src="map-model.js"></script>
+<script src="close-model.js"></script>
+<script src="region-risk.js"></script>
+<script src="region-vrs.js"></script>
+<script src="major-form.js"></script>
+<script src="robust-card.js"></script>
+<script src="lan-signal.js"></script>
+<script src="pick-signal.js"></script>
+<script src="methods.js"></script>
+<script src="stage3-card.js"></script>
+<script src="stage-inputs.js"></script>
+<script src="stage-training.js"></script>
+<script src="adapter.js"></script>
+<script src="swap.js"></script>
+<script src="history.js"></script>
+<script src="swiss-board.js"></script>
+<script src="pick-constraints.js"></script>
+<script src="card-alternatives.js"></script>
+<script src="method-validation.js"></script>
+<script src="style-report.js"></script>
+<script src="event-context.js"></script>
+<script src="f1bre-study.js"></script>
+<script src="bo5-history.js"></script>
+<script src="elite-opponents.js"></script>
+<script src="app.js"></script>
+</body></html>

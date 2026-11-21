@@ -1,0 +1,1176 @@
+{
+  "id": "cluj-2025",
+  "fieldSha256": "41812ecd382a980834af8acd861ead038bddfca8d3470269520996fb24d87605",
+  "matrixLockSha256": "6b6c8e6d562f402ceaa9ef84e434e810250da556487c7d4752d0e6a7f8838fc9",
+  "source": "https://raw.githubusercontent.com/zugzugs/hltvy/1a00ba2893a63646f0d940e626b6da95d342a187/results.json.gz",
+  "sourceSha256": "750b0da45142fc797eddb708698d14d269237e59784d6a1d066eddba0ba31551",
+  "matchCount": 33,
+  "mapCount": 79,
+  "sidesByOverlap": {
+    "5": 66
+  },
+  "rounds": [
+    8,
+    8,
+    8,
+    6,
+    3
+  ],
+  "matches": [
+    {
+      "id": 2379326,
+      "day": "2025-02-14",
+      "round": 1,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "MOUZ",
+          "actualFive": [
+            "Brollan",
+            "Jimpphat",
+            "Spinx",
+            "torzsi",
+            "xertioN"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "BIG",
+          "actualFive": [
+            "hyped",
+            "JDC",
+            "Krimbo",
+            "kyuubii",
+            "tabseN"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379326/mouz-vs-big-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379327,
+      "day": "2025-02-14",
+      "round": 1,
+      "mapCount": 3,
+      "teams": [
+        {
+          "team": "3DMAX",
+          "actualFive": [
+            "bodyy",
+            "Ex3rcice",
+            "Graviti",
+            "Lucky",
+            "Maka"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "Virtus.pro",
+          "actualFive": [
+            "electroNic",
+            "fame",
+            "FL1T",
+            "FL4MUS",
+            "ICY"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379327/3dmax-vs-virtuspro-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379328,
+      "day": "2025-02-14",
+      "round": 1,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "FaZe",
+          "actualFive": [
+            "broky",
+            "EliGE",
+            "frozen",
+            "karrigan",
+            "rain"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "SAW",
+          "actualFive": [
+            "Ag1l",
+            "MUTiRiS",
+            "roman",
+            "Shr",
+            "story"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379328/faze-vs-saw-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379329,
+      "day": "2025-02-14",
+      "round": 1,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "Falcons",
+          "actualFive": [
+            "degster",
+            "kyxsan",
+            "Magisk",
+            "NiKo",
+            "TeSeS"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "FlyQuest",
+          "actualFive": [
+            "dexter",
+            "INS",
+            "Liazz",
+            "regali",
+            "Vexite"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379329/falcons-vs-flyquest-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379330,
+      "day": "2025-02-14",
+      "round": 1,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "The MongolZ",
+          "actualFive": [
+            "910",
+            "bLitz",
+            "mzinho",
+            "Senzu",
+            "Techno"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "Complexity",
+          "actualFive": [
+            "Cxzi",
+            "Grim",
+            "hallzerk",
+            "JT",
+            "nicx"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379330/the-mongolz-vs-complexity-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379331,
+      "day": "2025-02-14",
+      "round": 1,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "MIBR",
+          "actualFive": [
+            "drop",
+            "exit",
+            "insani",
+            "Lucaozy",
+            "saffee"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "Wildcard",
+          "actualFive": [
+            "JBa",
+            "phzy",
+            "Sonic",
+            "stanislaw",
+            "susp"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379331/mibr-vs-wildcard-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379332,
+      "day": "2025-02-14",
+      "round": 1,
+      "mapCount": 3,
+      "teams": [
+        {
+          "team": "paiN",
+          "actualFive": [
+            "biguzera",
+            "dav1deuS",
+            "kauez",
+            "nqz",
+            "snow"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "Astralis",
+          "actualFive": [
+            "cadiaN",
+            "device",
+            "jabbi",
+            "Staehr",
+            "stavn"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379332/pain-vs-astralis-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379333,
+      "day": "2025-02-14",
+      "round": 1,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "Eternal Fire",
+          "actualFive": [
+            "jottAAA",
+            "MAJ3R",
+            "Wicadia",
+            "woxic",
+            "XANTARES"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "Imperial Valkyries",
+          "actualFive": [
+            "ANa",
+            "Kat",
+            "tory",
+            "twenty3",
+            "zAAz"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379333/eternal-fire-vs-imperial-valkyries-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379334,
+      "day": "2025-02-15",
+      "round": 2,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "MOUZ",
+          "actualFive": [
+            "Brollan",
+            "Jimpphat",
+            "Spinx",
+            "torzsi",
+            "xertioN"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "3DMAX",
+          "actualFive": [
+            "bodyy",
+            "Ex3rcice",
+            "Graviti",
+            "Lucky",
+            "Maka"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379334/mouz-vs-3dmax-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379335,
+      "day": "2025-02-15",
+      "round": 2,
+      "mapCount": 3,
+      "teams": [
+        {
+          "team": "BIG",
+          "actualFive": [
+            "hyped",
+            "JDC",
+            "Krimbo",
+            "kyuubii",
+            "tabseN"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "FlyQuest",
+          "actualFive": [
+            "dexter",
+            "INS",
+            "Liazz",
+            "regali",
+            "Vexite"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379335/big-vs-flyquest-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379336,
+      "day": "2025-02-15",
+      "round": 2,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "The MongolZ",
+          "actualFive": [
+            "910",
+            "bLitz",
+            "mzinho",
+            "Senzu",
+            "Techno"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "Wildcard",
+          "actualFive": [
+            "JBa",
+            "phzy",
+            "Sonic",
+            "stanislaw",
+            "susp"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379336/the-mongolz-vs-wildcard-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379337,
+      "day": "2025-02-15",
+      "round": 2,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "Complexity",
+          "actualFive": [
+            "Cxzi",
+            "Grim",
+            "hallzerk",
+            "JT",
+            "nicx"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "Virtus.pro",
+          "actualFive": [
+            "electroNic",
+            "fame",
+            "FL1T",
+            "FL4MUS",
+            "ICY"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379337/complexity-vs-virtuspro-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379338,
+      "day": "2025-02-15",
+      "round": 2,
+      "mapCount": 3,
+      "teams": [
+        {
+          "team": "FaZe",
+          "actualFive": [
+            "broky",
+            "EliGE",
+            "frozen",
+            "karrigan",
+            "rain"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "Eternal Fire",
+          "actualFive": [
+            "jottAAA",
+            "MAJ3R",
+            "Wicadia",
+            "woxic",
+            "XANTARES"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379338/faze-vs-eternal-fire-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379339,
+      "day": "2025-02-15",
+      "round": 2,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "MIBR",
+          "actualFive": [
+            "drop",
+            "exit",
+            "insani",
+            "Lucaozy",
+            "saffee"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "Imperial Valkyries",
+          "actualFive": [
+            "ANa",
+            "Kat",
+            "tory",
+            "twenty3",
+            "zAAz"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379339/mibr-vs-imperial-valkyries-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379340,
+      "day": "2025-02-15",
+      "round": 2,
+      "mapCount": 3,
+      "teams": [
+        {
+          "team": "Falcons",
+          "actualFive": [
+            "degster",
+            "kyxsan",
+            "Magisk",
+            "NiKo",
+            "TeSeS"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "paiN",
+          "actualFive": [
+            "biguzera",
+            "dav1deuS",
+            "kauez",
+            "nqz",
+            "snow"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379340/falcons-vs-pain-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379341,
+      "day": "2025-02-15",
+      "round": 2,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "SAW",
+          "actualFive": [
+            "Ag1l",
+            "MUTiRiS",
+            "roman",
+            "Shr",
+            "story"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "Astralis",
+          "actualFive": [
+            "cadiaN",
+            "device",
+            "jabbi",
+            "Staehr",
+            "stavn"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379341/saw-vs-astralis-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379342,
+      "day": "2025-02-16",
+      "round": 3,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "Eternal Fire",
+          "actualFive": [
+            "jottAAA",
+            "MAJ3R",
+            "Wicadia",
+            "woxic",
+            "XANTARES"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "BIG",
+          "actualFive": [
+            "hyped",
+            "JDC",
+            "Krimbo",
+            "kyuubii",
+            "tabseN"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379342/eternal-fire-vs-big-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379343,
+      "day": "2025-02-16",
+      "round": 3,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "3DMAX",
+          "actualFive": [
+            "bodyy",
+            "Ex3rcice",
+            "Graviti",
+            "Lucky",
+            "Maka"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "MIBR",
+          "actualFive": [
+            "drop",
+            "exit",
+            "insani",
+            "Lucaozy",
+            "saffee"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379343/3dmax-vs-mibr-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379344,
+      "day": "2025-02-16",
+      "round": 3,
+      "mapCount": 3,
+      "teams": [
+        {
+          "team": "Falcons",
+          "actualFive": [
+            "degster",
+            "kyxsan",
+            "Magisk",
+            "NiKo",
+            "TeSeS"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "Astralis",
+          "actualFive": [
+            "cadiaN",
+            "device",
+            "jabbi",
+            "Staehr",
+            "stavn"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379344/falcons-vs-astralis-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379345,
+      "day": "2025-02-16",
+      "round": 3,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "Wildcard",
+          "actualFive": [
+            "JBa",
+            "phzy",
+            "Sonic",
+            "stanislaw",
+            "susp"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "Virtus.pro",
+          "actualFive": [
+            "electroNic",
+            "fame",
+            "FL1T",
+            "FL4MUS",
+            "ICY"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379345/wildcard-vs-virtuspro-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379346,
+      "day": "2025-02-16",
+      "round": 3,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "MOUZ",
+          "actualFive": [
+            "Brollan",
+            "Jimpphat",
+            "Spinx",
+            "torzsi",
+            "xertioN"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "FaZe",
+          "actualFive": [
+            "broky",
+            "EliGE",
+            "frozen",
+            "karrigan",
+            "rain"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379346/mouz-vs-faze-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379347,
+      "day": "2025-02-16",
+      "round": 3,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "Complexity",
+          "actualFive": [
+            "Cxzi",
+            "Grim",
+            "hallzerk",
+            "JT",
+            "nicx"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "Imperial Valkyries",
+          "actualFive": [
+            "ANa",
+            "Kat",
+            "tory",
+            "twenty3",
+            "zAAz"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379347/complexity-vs-imperial-valkyries-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379348,
+      "day": "2025-02-16",
+      "round": 3,
+      "mapCount": 3,
+      "teams": [
+        {
+          "team": "paiN",
+          "actualFive": [
+            "biguzera",
+            "dav1deuS",
+            "kauez",
+            "nqz",
+            "snow"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "The MongolZ",
+          "actualFive": [
+            "910",
+            "bLitz",
+            "mzinho",
+            "Senzu",
+            "Techno"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379348/pain-vs-the-mongolz-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379349,
+      "day": "2025-02-16",
+      "round": 3,
+      "mapCount": 3,
+      "teams": [
+        {
+          "team": "SAW",
+          "actualFive": [
+            "Ag1l",
+            "MUTiRiS",
+            "roman",
+            "Shr",
+            "story"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "FlyQuest",
+          "actualFive": [
+            "dexter",
+            "INS",
+            "Liazz",
+            "regali",
+            "Vexite"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379349/saw-vs-flyquest-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379350,
+      "day": "2025-02-17",
+      "round": 4,
+      "mapCount": 3,
+      "teams": [
+        {
+          "team": "MOUZ",
+          "actualFive": [
+            "Brollan",
+            "Jimpphat",
+            "Spinx",
+            "torzsi",
+            "xertioN"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "Falcons",
+          "actualFive": [
+            "degster",
+            "kyxsan",
+            "Magisk",
+            "NiKo",
+            "TeSeS"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379350/mouz-vs-falcons-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379351,
+      "day": "2025-02-17",
+      "round": 4,
+      "mapCount": 3,
+      "teams": [
+        {
+          "team": "Wildcard",
+          "actualFive": [
+            "JBa",
+            "phzy",
+            "Sonic",
+            "stanislaw",
+            "susp"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "BIG",
+          "actualFive": [
+            "hyped",
+            "JDC",
+            "Krimbo",
+            "kyuubii",
+            "tabseN"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379351/wildcard-vs-big-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379352,
+      "day": "2025-02-17",
+      "round": 4,
+      "mapCount": 3,
+      "teams": [
+        {
+          "team": "3DMAX",
+          "actualFive": [
+            "bodyy",
+            "Ex3rcice",
+            "Graviti",
+            "Lucky",
+            "Maka"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "Eternal Fire",
+          "actualFive": [
+            "jottAAA",
+            "MAJ3R",
+            "Wicadia",
+            "woxic",
+            "XANTARES"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379352/3dmax-vs-eternal-fire-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379353,
+      "day": "2025-02-17",
+      "round": 4,
+      "mapCount": 3,
+      "teams": [
+        {
+          "team": "Astralis",
+          "actualFive": [
+            "cadiaN",
+            "device",
+            "jabbi",
+            "Staehr",
+            "stavn"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "MIBR",
+          "actualFive": [
+            "drop",
+            "exit",
+            "insani",
+            "Lucaozy",
+            "saffee"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379353/astralis-vs-mibr-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379354,
+      "day": "2025-02-17",
+      "round": 4,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "paiN",
+          "actualFive": [
+            "biguzera",
+            "dav1deuS",
+            "kauez",
+            "nqz",
+            "snow"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "Virtus.pro",
+          "actualFive": [
+            "electroNic",
+            "fame",
+            "FL1T",
+            "FL4MUS",
+            "ICY"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379354/pain-vs-virtuspro-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379355,
+      "day": "2025-02-17",
+      "round": 4,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "Complexity",
+          "actualFive": [
+            "Cxzi",
+            "Grim",
+            "hallzerk",
+            "JT",
+            "nicx"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "SAW",
+          "actualFive": [
+            "Ag1l",
+            "MUTiRiS",
+            "roman",
+            "Shr",
+            "story"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379355/complexity-vs-saw-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379356,
+      "day": "2025-02-18",
+      "round": 5,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "Astralis",
+          "actualFive": [
+            "cadiaN",
+            "device",
+            "jabbi",
+            "Staehr",
+            "stavn"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "BIG",
+          "actualFive": [
+            "hyped",
+            "JDC",
+            "Krimbo",
+            "kyuubii",
+            "tabseN"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379356/astralis-vs-big-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379357,
+      "day": "2025-02-18",
+      "round": 5,
+      "mapCount": 3,
+      "teams": [
+        {
+          "team": "MOUZ",
+          "actualFive": [
+            "Brollan",
+            "Jimpphat",
+            "Spinx",
+            "torzsi",
+            "xertioN"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "Virtus.pro",
+          "actualFive": [
+            "electroNic",
+            "fame",
+            "FL1T",
+            "FL4MUS",
+            "ICY"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379357/mouz-vs-virtuspro-pgl-cluj-napoca-2025"
+    },
+    {
+      "id": 2379358,
+      "day": "2025-02-18",
+      "round": 5,
+      "mapCount": 2,
+      "teams": [
+        {
+          "team": "3DMAX",
+          "actualFive": [
+            "bodyy",
+            "Ex3rcice",
+            "Graviti",
+            "Lucky",
+            "Maka"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        },
+        {
+          "team": "SAW",
+          "actualFive": [
+            "Ag1l",
+            "MUTiRiS",
+            "roman",
+            "Shr",
+            "story"
+          ],
+          "overlap": 5,
+          "incoming": [],
+          "outgoing": []
+        }
+      ],
+      "source": "https://www.hltv.org/matches/2379358/3dmax-vs-saw-pgl-cluj-napoca-2025"
+    }
+  ]
+}

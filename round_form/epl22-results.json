@@ -1,0 +1,558 @@
+{
+  "id": "epl22-stage2",
+  "end": "2025-10-08",
+  "rounds": [
+    [
+      [
+        2,
+        13,
+        1
+      ],
+      [
+        3,
+        12,
+        0
+      ],
+      [
+        4,
+        11,
+        0
+      ],
+      [
+        14,
+        1,
+        1
+      ],
+      [
+        8,
+        7,
+        0
+      ],
+      [
+        6,
+        9,
+        0
+      ],
+      [
+        15,
+        0,
+        0
+      ],
+      [
+        5,
+        10,
+        0
+      ]
+    ],
+    [
+      [
+        13,
+        1,
+        0
+      ],
+      [
+        4,
+        8,
+        0
+      ],
+      [
+        7,
+        11,
+        1
+      ],
+      [
+        3,
+        15,
+        0
+      ],
+      [
+        2,
+        14,
+        0
+      ],
+      [
+        0,
+        12,
+        0
+      ],
+      [
+        6,
+        5,
+        0
+      ],
+      [
+        10,
+        9,
+        0
+      ]
+    ],
+    [
+      [
+        7,
+        15,
+        0
+      ],
+      [
+        0,
+        14,
+        0
+      ],
+      [
+        10,
+        8,
+        1
+      ],
+      [
+        5,
+        13,
+        0
+      ],
+      [
+        9,
+        11,
+        0
+      ],
+      [
+        1,
+        12,
+        1
+      ],
+      [
+        2,
+        6,
+        0
+      ],
+      [
+        4,
+        3,
+        1
+      ]
+    ],
+    [
+      [
+        5,
+        7,
+        1
+      ],
+      [
+        8,
+        14,
+        0
+      ],
+      [
+        1,
+        15,
+        0
+      ],
+      [
+        3,
+        10,
+        0
+      ],
+      [
+        0,
+        6,
+        0
+      ],
+      [
+        9,
+        13,
+        0
+      ]
+    ],
+    [
+      [
+        8,
+        1,
+        0
+      ],
+      [
+        10,
+        6,
+        0
+      ],
+      [
+        9,
+        7,
+        1
+      ]
+    ]
+  ],
+  "matchIds": [
+    [
+      2385931,
+      2385930,
+      2385932,
+      2385933,
+      2385934,
+      2385936,
+      2385935,
+      2385937
+    ],
+    [
+      2385939,
+      2385938,
+      2385941,
+      2385940,
+      2385942,
+      2385943,
+      2385945,
+      2385944
+    ],
+    [
+      2385947,
+      2385946,
+      2385948,
+      2385949,
+      2385951,
+      2385950,
+      2385953,
+      2385952
+    ],
+    [
+      2385954,
+      2385955,
+      2385957,
+      2385956,
+      2385958,
+      2385959
+    ],
+    [
+      2385960,
+      2385961,
+      2385962
+    ]
+  ],
+  "administrativeMatchIds": [
+    2385936
+  ],
+  "playedRosters": {
+    "Spirit": {
+      "roster": [
+        "chopper",
+        "donk",
+        "sh1ro",
+        "tN1R",
+        "zweih"
+      ],
+      "firstDay": "2025-10-04",
+      "source": "https://www.hltv.org/matches/2385931/spirit-vs-inner-circle-esl-pro-league-season-22"
+    },
+    "Inner Circle": {
+      "roster": [
+        "cairne",
+        "Dawy",
+        "Flierax",
+        "nifee",
+        "onic"
+      ],
+      "firstDay": "2025-10-04",
+      "source": "https://www.hltv.org/matches/2385931/spirit-vs-inner-circle-esl-pro-league-season-22"
+    },
+    "MOUZ": {
+      "roster": [
+        "Brollan",
+        "Jimpphat",
+        "Spinx",
+        "torzsi",
+        "xertioN"
+      ],
+      "firstDay": "2025-10-04",
+      "source": "https://www.hltv.org/matches/2385930/mouz-vs-gamerlegion-esl-pro-league-season-22"
+    },
+    "GamerLegion": {
+      "roster": [
+        "hypex",
+        "PR",
+        "REZ",
+        "Tauson",
+        "ztr"
+      ],
+      "firstDay": "2025-10-04",
+      "source": "https://www.hltv.org/matches/2385930/mouz-vs-gamerlegion-esl-pro-league-season-22"
+    },
+    "Falcons": {
+      "roster": [
+        "kyousuke",
+        "kyxsan",
+        "m0NESY",
+        "NiKo",
+        "TeSeS"
+      ],
+      "firstDay": "2025-10-04",
+      "source": "https://www.hltv.org/matches/2385932/falcons-vs-astralis-esl-pro-league-season-22"
+    },
+    "Astralis": {
+      "roster": [
+        "device",
+        "HooXi",
+        "jabbi",
+        "Magisk",
+        "Staehr"
+      ],
+      "firstDay": "2025-10-04",
+      "source": "https://www.hltv.org/matches/2385932/falcons-vs-astralis-esl-pro-league-season-22"
+    },
+    "The MongolZ": {
+      "roster": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "firstDay": "2025-10-04",
+      "source": "https://www.hltv.org/matches/2385933/the-mongolz-vs-hotu-esl-pro-league-season-22"
+    },
+    "HOTU": {
+      "roster": [
+        "dukefissura",
+        "frontales",
+        "kade0",
+        "mizu",
+        "n0rb3r7"
+      ],
+      "firstDay": "2025-10-04",
+      "source": "https://www.hltv.org/matches/2385933/the-mongolz-vs-hotu-esl-pro-league-season-22"
+    },
+    "Aurora": {
+      "roster": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "firstDay": "2025-10-04",
+      "source": "https://www.hltv.org/matches/2385934/aurora-vs-natus-vincere-esl-pro-league-season-22"
+    },
+    "Natus Vincere": {
+      "roster": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "makazze",
+        "w0nderful"
+      ],
+      "firstDay": "2025-10-04",
+      "source": "https://www.hltv.org/matches/2385934/aurora-vs-natus-vincere-esl-pro-league-season-22"
+    },
+    "Vitality": {
+      "roster": [
+        "apEX",
+        "flameZ",
+        "mezii",
+        "ropz",
+        "ZywOo"
+      ],
+      "firstDay": "2025-10-04",
+      "source": "https://www.hltv.org/matches/2385935/vitality-vs-gentle-mates-esl-pro-league-season-22"
+    },
+    "Gentle Mates": {
+      "roster": [
+        "alex",
+        "dav1g",
+        "MartinezSa",
+        "mopoz",
+        "sausol"
+      ],
+      "firstDay": "2025-10-04",
+      "source": "https://www.hltv.org/matches/2385935/vitality-vs-gentle-mates-esl-pro-league-season-22"
+    },
+    "FURIA": {
+      "roster": [
+        "FalleN",
+        "KSCERATO",
+        "molodoy",
+        "YEKINDAR",
+        "yuurih"
+      ],
+      "firstDay": "2025-10-04",
+      "source": "https://www.hltv.org/matches/2385937/furia-vs-3dmax-esl-pro-league-season-22"
+    },
+    "3DMAX": {
+      "roster": [
+        "bodyy",
+        "Ex3rcice",
+        "Graviti",
+        "Lucky",
+        "Maka"
+      ],
+      "firstDay": "2025-10-04",
+      "source": "https://www.hltv.org/matches/2385937/furia-vs-3dmax-esl-pro-league-season-22"
+    },
+    "G2": {
+      "roster": [
+        "HeavyGod",
+        "huNter-",
+        "malbsMd",
+        "MATYS",
+        "SunPayus"
+      ],
+      "firstDay": "2025-10-05",
+      "source": "https://www.hltv.org/matches/2385945/furia-vs-g2-esl-pro-league-season-22"
+    },
+    "FaZe": {
+      "roster": [
+        "broky",
+        "frozen",
+        "karrigan",
+        "rain",
+        "Twistzz"
+      ],
+      "firstDay": "2025-10-05",
+      "source": "https://www.hltv.org/matches/2385944/faze-vs-3dmax-esl-pro-league-season-22"
+    }
+  },
+  "sources": [
+    "https://www.hltv.org/matches/2385931/spirit-vs-inner-circle-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385930/mouz-vs-gamerlegion-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385932/falcons-vs-astralis-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385933/the-mongolz-vs-hotu-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385934/aurora-vs-natus-vincere-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385936/g2-vs-faze-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385935/vitality-vs-gentle-mates-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385937/furia-vs-3dmax-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385939/the-mongolz-vs-inner-circle-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385938/falcons-vs-natus-vincere-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385941/aurora-vs-astralis-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385940/mouz-vs-gentle-mates-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385942/spirit-vs-hotu-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385943/vitality-vs-gamerlegion-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385945/furia-vs-g2-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385944/faze-vs-3dmax-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385947/gentle-mates-vs-aurora-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385946/vitality-vs-hotu-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385948/3dmax-vs-natus-vincere-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385949/inner-circle-vs-furia-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385951/astralis-vs-faze-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385950/the-mongolz-vs-gamerlegion-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385953/spirit-vs-g2-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385952/mouz-vs-falcons-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385954/furia-vs-aurora-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385955/natus-vincere-vs-hotu-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385957/the-mongolz-vs-gentle-mates-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385956/3dmax-vs-mouz-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385958/vitality-vs-g2-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385959/faze-vs-inner-circle-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385960/the-mongolz-vs-natus-vincere-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385961/g2-vs-3dmax-esl-pro-league-season-22",
+    "https://www.hltv.org/matches/2385962/aurora-vs-faze-esl-pro-league-season-22"
+  ],
+  "administrativeReplay": {
+    "twoZeroMovement": [
+      {
+        "round": 1,
+        "expected": 8,
+        "matched": 8,
+        "unmatchedActual": []
+      },
+      {
+        "round": 2,
+        "expected": 8,
+        "matched": 8,
+        "unmatchedActual": []
+      },
+      {
+        "round": 3,
+        "expected": 8,
+        "matched": 8,
+        "unmatchedActual": []
+      },
+      {
+        "round": 4,
+        "expected": 6,
+        "matched": 6,
+        "unmatchedActual": []
+      },
+      {
+        "round": 5,
+        "expected": 3,
+        "matched": 3,
+        "unmatchedActual": []
+      }
+    ],
+    "twoOneMovement": [
+      {
+        "round": 1,
+        "expected": 8,
+        "matched": 8,
+        "unmatchedActual": []
+      },
+      {
+        "round": 2,
+        "expected": 8,
+        "matched": 8,
+        "unmatchedActual": []
+      },
+      {
+        "round": 3,
+        "expected": 8,
+        "matched": 8,
+        "unmatchedActual": []
+      },
+      {
+        "round": 4,
+        "expected": 6,
+        "matched": 6,
+        "unmatchedActual": []
+      },
+      {
+        "round": 5,
+        "expected": 3,
+        "matched": 3,
+        "unmatchedActual": []
+      }
+    ],
+    "noMovement": [
+      {
+        "round": 1,
+        "expected": 8,
+        "matched": 8,
+        "unmatchedActual": []
+      },
+      {
+        "round": 2,
+        "expected": 8,
+        "matched": 8,
+        "unmatchedActual": []
+      },
+      {
+        "round": 3,
+        "expected": 8,
+        "matched": 8,
+        "unmatchedActual": []
+      },
+      {
+        "round": 4,
+        "expected": 6,
+        "matched": 6,
+        "unmatchedActual": []
+      },
+      {
+        "round": 5,
+        "expected": 3,
+        "matched": 1,
+        "unmatchedActual": [
+          [
+            1,
+            8
+          ],
+          [
+            6,
+            10
+          ]
+        ]
+      }
+    ]
+  },
+  "administrativeDescription": {
+    "matchId": 2385936,
+    "actualMaps": 0,
+    "winner": "G2",
+    "loser": "FaZe",
+    "probabilityScoring": false,
+    "roundResultSource": "https://www.hltv.org/news/42844/faze-forfeit-esl-pro-league-match-against-g2",
+    "rosterUpdateSource": "https://x.com/FaZeEsports/status/1974492381710791163"
+  }
+}

@@ -1,0 +1,922 @@
+{
+  "budget": 24000,
+  "seeds": [
+    33719,
+    2654469480,
+    1013937945,
+    3668373706,
+    2027842171,
+    387310636,
+    3041746397,
+    1401214862,
+    4055650623,
+    2415119088,
+    774587553,
+    3429023314,
+    1788491779,
+    147960244,
+    2802396005,
+    1161864470,
+    3816300231,
+    2175768696,
+    535237161,
+    3189672922,
+    1549141387,
+    4203577148,
+    2563045613,
+    922514078,
+    3576949839,
+    1936418304,
+    295886769,
+    2950322530,
+    1309790995,
+    3964226756
+  ],
+  "settings": {
+    "classic": {
+      "family": "logit",
+      "format": true,
+      "shrinkBO": true
+    },
+    "v4": {
+      "family": "v4",
+      "form": true,
+      "strong": true,
+      "weak": true,
+      "roundMargin": true,
+      "format": true,
+      "shrinkBO": true
+    }
+  },
+  "holdoutSummary": {
+    "n": 198,
+    "baseCorrect": 120,
+    "v4Correct": 113,
+    "baseBrier": 0.2332703,
+    "v4Brier": 0.2377328,
+    "basePassed": 1,
+    "v4Passed": 1,
+    "stageCount": 6
+  },
+  "opening": {
+    "classic": {
+      "n": 165,
+      "correct": 96,
+      "brier": 0.2320621,
+      "logLoss": 0.6553946,
+      "cardHits": 19,
+      "passes": 2,
+      "sensitivity": {
+        "meanPasses": 1.7333333,
+        "meanHits": 19.4333333,
+        "passBySeed": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          2,
+          2,
+          1,
+          3,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          2,
+          2,
+          3,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          3
+        ]
+      }
+    },
+    "v4": {
+      "n": 165,
+      "correct": 95,
+      "brier": 0.2297568,
+      "logLoss": 0.6495841,
+      "cardHits": 20,
+      "passes": 2,
+      "sensitivity": {
+        "meanPasses": 2.5,
+        "meanHits": 21.5,
+        "passBySeed": [
+          2,
+          3,
+          2,
+          2,
+          3,
+          3,
+          4,
+          3,
+          3,
+          3,
+          3,
+          2,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          4,
+          1,
+          2,
+          1,
+          2,
+          3,
+          3,
+          4,
+          2,
+          2,
+          1,
+          3
+        ]
+      }
+    },
+    "stages": [
+      {
+        "id": "copenhagen",
+        "asOf": "2024-03-04",
+        "format": "mixed",
+        "models": {
+          "classic": {
+            "n": 33,
+            "correct": 18,
+            "brier": 0.2404892,
+            "logLoss": 0.6733858,
+            "card": {
+              "hits": 5,
+              "passed": true,
+              "byBucket": [
+                1,
+                3,
+                1
+              ],
+              "expectedCardHits": 5
+            },
+            "hitsBySeed": [
+              5,
+              4,
+              4,
+              4,
+              5,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              5,
+              4,
+              4,
+              5,
+              4,
+              4,
+              4,
+              5,
+              4,
+              5
+            ]
+          },
+          "v4": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.2348269,
+            "logLoss": 0.6611226,
+            "card": {
+              "hits": 5,
+              "passed": true,
+              "byBucket": [
+                1,
+                3,
+                1
+              ],
+              "expectedCardHits": 5
+            },
+            "hitsBySeed": [
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              4,
+              4,
+              4,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              4,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5
+            ]
+          }
+        }
+      },
+      {
+        "id": "shanghai",
+        "asOf": "2024-11-06",
+        "format": "mixed",
+        "models": {
+          "classic": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.2231822,
+            "logLoss": 0.6352351,
+            "card": {
+              "hits": 3,
+              "passed": false,
+              "byBucket": [
+                1,
+                2,
+                0
+              ],
+              "expectedCardHits": 3
+            },
+            "hitsBySeed": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              5,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3
+            ]
+          },
+          "v4": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.2241277,
+            "logLoss": 0.637257,
+            "card": {
+              "hits": 3,
+              "passed": false,
+              "byBucket": [
+                1,
+                2,
+                0
+              ],
+              "expectedCardHits": 3
+            },
+            "hitsBySeed": [
+              3,
+              5,
+              3,
+              3,
+              3,
+              3,
+              5,
+              3,
+              3,
+              3,
+              5,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              5,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              5,
+              3,
+              3,
+              3,
+              3
+            ]
+          }
+        }
+      },
+      {
+        "id": "austin",
+        "asOf": "2025-06-02",
+        "format": "mixed",
+        "models": {
+          "classic": {
+            "n": 33,
+            "correct": 18,
+            "brier": 0.23329,
+            "logLoss": 0.6586288,
+            "card": {
+              "hits": 4,
+              "passed": false,
+              "byBucket": [
+                1,
+                3,
+                0
+              ],
+              "expectedCardHits": 4
+            },
+            "hitsBySeed": [
+              4,
+              5,
+              5,
+              5,
+              4,
+              4,
+              5,
+              5,
+              5,
+              4,
+              5,
+              4,
+              4,
+              4,
+              5,
+              4,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              3,
+              4,
+              4,
+              5,
+              4,
+              4,
+              3,
+              5
+            ]
+          },
+          "v4": {
+            "n": 33,
+            "correct": 18,
+            "brier": 0.2222305,
+            "logLoss": 0.6330897,
+            "card": {
+              "hits": 4,
+              "passed": false,
+              "byBucket": [
+                1,
+                3,
+                0
+              ],
+              "expectedCardHits": 5
+            },
+            "hitsBySeed": [
+              4,
+              4,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              5,
+              5,
+              5,
+              4,
+              5,
+              4,
+              4,
+              4,
+              5,
+              5,
+              5,
+              5,
+              4,
+              4,
+              4,
+              5
+            ]
+          }
+        }
+      },
+      {
+        "id": "budapest",
+        "asOf": "2025-11-03",
+        "format": "mixed",
+        "models": {
+          "classic": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.2432044,
+            "logLoss": 0.6786837,
+            "card": {
+              "hits": 6,
+              "passed": true,
+              "byBucket": [
+                0,
+                5,
+                1
+              ],
+              "expectedCardHits": 6
+            },
+            "hitsBySeed": [
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6,
+              6
+            ]
+          },
+          "v4": {
+            "n": 33,
+            "correct": 18,
+            "brier": 0.2417574,
+            "logLoss": 0.6755024,
+            "card": {
+              "hits": 5,
+              "passed": true,
+              "byBucket": [
+                0,
+                4,
+                1
+              ],
+              "expectedCardHits": 5
+            },
+            "hitsBySeed": [
+              5,
+              5,
+              6,
+              6,
+              5,
+              5,
+              5,
+              5,
+              5,
+              6,
+              5,
+              5,
+              5,
+              6,
+              6,
+              5,
+              5,
+              5,
+              6,
+              5,
+              6,
+              6,
+              5,
+              5,
+              6,
+              5,
+              6,
+              5,
+              5,
+              6
+            ]
+          }
+        }
+      },
+      {
+        "id": "cologne",
+        "asOf": "2026-06-01",
+        "format": "mixed",
+        "models": {
+          "classic": {
+            "n": 33,
+            "correct": 22,
+            "brier": 0.2201448,
+            "logLoss": 0.6310394,
+            "card": {
+              "hits": 1,
+              "passed": false,
+              "byBucket": [
+                0,
+                1,
+                0
+              ],
+              "expectedCardHits": 2
+            },
+            "hitsBySeed": [
+              1,
+              1,
+              2,
+              2,
+              1,
+              2,
+              2,
+              2,
+              1,
+              1,
+              2,
+              1,
+              1,
+              4,
+              2,
+              1,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              3,
+              1,
+              2,
+              1,
+              2,
+              2
+            ]
+          },
+          "v4": {
+            "n": 33,
+            "correct": 21,
+            "brier": 0.2258413,
+            "logLoss": 0.6409487,
+            "card": {
+              "hits": 3,
+              "passed": false,
+              "byBucket": [
+                0,
+                3,
+                0
+              ],
+              "expectedCardHits": 3
+            },
+            "hitsBySeed": [
+              3,
+              3,
+              4,
+              2,
+              4,
+              3,
+              4,
+              4,
+              4,
+              2,
+              4,
+              3,
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              3,
+              2,
+              4,
+              3,
+              3,
+              4,
+              2,
+              4,
+              4,
+              4,
+              4,
+              3
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "later": {
+    "classic": {
+      "n": 198,
+      "correct": 120,
+      "brier": 0.2332703,
+      "logLoss": 0.6585796,
+      "cardHits": 20,
+      "passes": 1
+    },
+    "v4": {
+      "n": 198,
+      "correct": 113,
+      "brier": 0.2377328,
+      "logLoss": 0.6676348,
+      "cardHits": 21,
+      "passes": 1
+    },
+    "stages": [
+      {
+        "id": "austin-2025-2",
+        "asOf": "2025-06-02",
+        "format": "mixed",
+        "models": {
+          "classic": {
+            "n": 33,
+            "correct": 17,
+            "brier": 0.2736628,
+            "logLoss": 0.7458207,
+            "card": {
+              "hits": 3,
+              "passed": false,
+              "byBucket": [
+                0,
+                3,
+                0
+              ],
+              "expectedCardHits": 3
+            }
+          },
+          "v4": {
+            "n": 33,
+            "correct": 14,
+            "brier": 0.2940618,
+            "logLoss": 0.7915198,
+            "card": {
+              "hits": 3,
+              "passed": false,
+              "byBucket": [
+                0,
+                3,
+                0
+              ],
+              "expectedCardHits": 3
+            }
+          }
+        }
+      },
+      {
+        "id": "austin-2025-3",
+        "asOf": "2025-06-02",
+        "format": "mixed",
+        "models": {
+          "classic": {
+            "n": 33,
+            "correct": 19,
+            "brier": 0.2254624,
+            "logLoss": 0.6405866,
+            "card": {
+              "hits": 4,
+              "passed": false,
+              "byBucket": [
+                0,
+                3,
+                1
+              ],
+              "expectedCardHits": 4
+            }
+          },
+          "v4": {
+            "n": 33,
+            "correct": 20,
+            "brier": 0.2332374,
+            "logLoss": 0.6565341,
+            "card": {
+              "hits": 4,
+              "passed": false,
+              "byBucket": [
+                1,
+                3,
+                0
+              ],
+              "expectedCardHits": 2
+            }
+          }
+        }
+      },
+      {
+        "id": "budapest-2025-2",
+        "asOf": "2025-11-03",
+        "format": "mixed",
+        "models": {
+          "classic": {
+            "n": 33,
+            "correct": 18,
+            "brier": 0.2359624,
+            "logLoss": 0.6636039,
+            "card": {
+              "hits": 5,
+              "passed": true,
+              "byBucket": [
+                1,
+                3,
+                1
+              ],
+              "expectedCardHits": 5
+            }
+          },
+          "v4": {
+            "n": 33,
+            "correct": 16,
+            "brier": 0.2373064,
+            "logLoss": 0.665315,
+            "card": {
+              "hits": 5,
+              "passed": true,
+              "byBucket": [
+                1,
+                4,
+                0
+              ],
+              "expectedCardHits": 5
+            }
+          }
+        }
+      },
+      {
+        "id": "budapest-2025-3",
+        "asOf": "2025-11-03",
+        "format": "mixed",
+        "models": {
+          "classic": {
+            "n": 33,
+            "correct": 25,
+            "brier": 0.2100577,
+            "logLoss": 0.6115337,
+            "card": {
+              "hits": 3,
+              "passed": false,
+              "byBucket": [
+                0,
+                3,
+                0
+              ],
+              "expectedCardHits": 3
+            }
+          },
+          "v4": {
+            "n": 33,
+            "correct": 22,
+            "brier": 0.217057,
+            "logLoss": 0.6254364,
+            "card": {
+              "hits": 3,
+              "passed": false,
+              "byBucket": [
+                0,
+                3,
+                0
+              ],
+              "expectedCardHits": 3
+            }
+          }
+        }
+      },
+      {
+        "id": "cologne-2026-2",
+        "asOf": "2026-06-01",
+        "format": "mixed",
+        "models": {
+          "classic": {
+            "n": 33,
+            "correct": 20,
+            "brier": 0.2190655,
+            "logLoss": 0.6264725,
+            "card": {
+              "hits": 4,
+              "passed": false,
+              "byBucket": [
+                1,
+                2,
+                1
+              ],
+              "expectedCardHits": 5
+            }
+          },
+          "v4": {
+            "n": 33,
+            "correct": 20,
+            "brier": 0.2173867,
+            "logLoss": 0.6214038,
+            "card": {
+              "hits": 4,
+              "passed": false,
+              "byBucket": [
+                1,
+                2,
+                1
+              ],
+              "expectedCardHits": 4
+            }
+          }
+        }
+      },
+      {
+        "id": "cologne-2026-3",
+        "asOf": "2026-06-01",
+        "format": "all-bo3",
+        "models": {
+          "classic": {
+            "n": 33,
+            "correct": 21,
+            "brier": 0.235411,
+            "logLoss": 0.6634601,
+            "card": {
+              "hits": 1,
+              "passed": false,
+              "byBucket": [
+                0,
+                1,
+                0
+              ],
+              "expectedCardHits": 2
+            }
+          },
+          "v4": {
+            "n": 33,
+            "correct": 21,
+            "brier": 0.2273474,
+            "logLoss": 0.6455998,
+            "card": {
+              "hits": 2,
+              "passed": false,
+              "byBucket": [
+                0,
+                1,
+                1
+              ],
+              "expectedCardHits": 2
+            }
+          }
+        }
+      }
+    ]
+  }
+}

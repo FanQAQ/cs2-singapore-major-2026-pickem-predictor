@@ -1,0 +1,478 @@
+{
+  "cutoff": "2026-03-05T23:59:59Z",
+  "commit": "3404a877b6ca513a1f508d6b23d20562c4afcc73",
+  "commitTime": "2026-03-02T17:40:13Z",
+  "teams": [
+    {
+      "name": "FURIA",
+      "points": 1893,
+      "vrsRoster": [
+        "fallen",
+        "kscerato",
+        "molodoy",
+        "yekindar",
+        "yuurih"
+      ],
+      "roster": [
+        "fallen",
+        "kscerato",
+        "molodoy",
+        "yekindar",
+        "yuurih"
+      ],
+      "core": [
+        "fallen",
+        "kscerato",
+        "molodoy",
+        "yekindar",
+        "yuurih"
+      ],
+      "witness": {
+        "day": "2026-02-20",
+        "series": "4310"
+      }
+    },
+    {
+      "name": "Spirit",
+      "points": 1777,
+      "vrsRoster": [
+        "donk",
+        "magixx",
+        "sh1ro",
+        "tn1r",
+        "zont1x"
+      ],
+      "roster": [
+        "donk",
+        "magixx",
+        "sh1ro",
+        "tn1r",
+        "zont1x"
+      ],
+      "core": [
+        "donk",
+        "magixx",
+        "sh1ro",
+        "tn1r",
+        "zont1x"
+      ],
+      "witness": {
+        "day": "2026-02-08",
+        "series": "4894"
+      }
+    },
+    {
+      "name": "MOUZ",
+      "points": 1886,
+      "vrsRoster": [
+        "brollan",
+        "jimpphat",
+        "spinx",
+        "torzsi",
+        "xertion"
+      ],
+      "roster": [
+        "brollan",
+        "jimpphat",
+        "spinx",
+        "torzsi",
+        "xertion"
+      ],
+      "core": [
+        "brollan",
+        "jimpphat",
+        "spinx",
+        "torzsi",
+        "xertion"
+      ],
+      "witness": {
+        "day": "2026-02-22",
+        "series": "4235"
+      }
+    },
+    {
+      "name": "Natus Vincere",
+      "points": 1686,
+      "vrsRoster": [
+        "aleksib",
+        "b1t",
+        "im",
+        "makazze",
+        "w0nderful"
+      ],
+      "roster": [
+        "aleksib",
+        "b1t",
+        "im",
+        "makazze",
+        "w0nderful"
+      ],
+      "core": [
+        "aleksib",
+        "b1t",
+        "im",
+        "makazze",
+        "w0nderful"
+      ],
+      "witness": {
+        "day": "2026-02-20",
+        "series": "4332"
+      }
+    },
+    {
+      "name": "The MongolZ",
+      "points": 1616,
+      "vrsRoster": [
+        "910",
+        "blitz",
+        "cobrazera",
+        "mzinho",
+        "techno"
+      ],
+      "roster": [
+        "910",
+        "blitz",
+        "cobrazera",
+        "mzinho",
+        "techno"
+      ],
+      "core": [
+        "910",
+        "blitz",
+        "cobrazera",
+        "mzinho",
+        "techno"
+      ],
+      "witness": {
+        "day": "2026-02-22",
+        "series": "4235"
+      }
+    },
+    {
+      "name": "Aurora",
+      "points": 1707,
+      "vrsRoster": [
+        "maj3r",
+        "soulfly",
+        "wicadia",
+        "woxic",
+        "xantares"
+      ],
+      "roster": [
+        "maj3r",
+        "soulfly",
+        "wicadia",
+        "woxic",
+        "xantares"
+      ],
+      "core": [
+        "maj3r",
+        "soulfly",
+        "wicadia",
+        "woxic",
+        "xantares"
+      ],
+      "witness": {
+        "day": "2026-02-20",
+        "series": "4321"
+      }
+    },
+    {
+      "name": "FUT",
+      "points": 1530,
+      "vrsRoster": [
+        "cmtry",
+        "dem0n",
+        "dziugss",
+        "krabeni",
+        "launx"
+      ],
+      "roster": [
+        "cmtry",
+        "dem0n",
+        "dziugss",
+        "krabeni",
+        "launx"
+      ],
+      "core": [
+        "cmtry",
+        "dem0n",
+        "dziugss",
+        "krabeni",
+        "launx"
+      ],
+      "witness": {
+        "day": "2026-03-03",
+        "series": "3787"
+      }
+    },
+    {
+      "name": "G2",
+      "points": 1587,
+      "vrsRoster": [
+        "heavygod",
+        "hunter-",
+        "malbsmd",
+        "matys",
+        "sunpayus"
+      ],
+      "roster": [
+        "heavygod",
+        "hunter-",
+        "malbsmd",
+        "matys",
+        "sunpayus"
+      ],
+      "core": [
+        "heavygod",
+        "hunter-",
+        "malbsmd",
+        "matys",
+        "sunpayus"
+      ],
+      "witness": {
+        "day": "2026-03-05",
+        "series": "3671"
+      }
+    },
+    {
+      "name": "FaZe",
+      "points": 1552,
+      "vrsRoster": [
+        "broky",
+        "frozen",
+        "jcobbb",
+        "karrigan",
+        "twistzz"
+      ],
+      "roster": [
+        "broky",
+        "frozen",
+        "jcobbb",
+        "karrigan",
+        "twistzz"
+      ],
+      "core": [
+        "broky",
+        "frozen",
+        "jcobbb",
+        "karrigan",
+        "twistzz"
+      ],
+      "witness": {
+        "day": "2026-02-17",
+        "series": "4513"
+      }
+    },
+    {
+      "name": "Astralis",
+      "points": 1588,
+      "vrsRoster": [
+        "hooxi",
+        "jabbi",
+        "phzy",
+        "ryu",
+        "staehr"
+      ],
+      "roster": [
+        "hooxi",
+        "jabbi",
+        "phzy",
+        "ryu",
+        "staehr"
+      ],
+      "core": [
+        "hooxi",
+        "jabbi",
+        "phzy",
+        "ryu",
+        "staehr"
+      ],
+      "witness": {
+        "day": "2026-03-04",
+        "series": "3733"
+      }
+    },
+    {
+      "name": "Legacy",
+      "points": 1350,
+      "vrsRoster": [
+        "dumau",
+        "latto",
+        "lux",
+        "n1ssim",
+        "saadzin"
+      ],
+      "roster": [
+        "art",
+        "dumau",
+        "latto",
+        "n1ssim",
+        "saadzin"
+      ],
+      "core": [
+        "dumau",
+        "latto",
+        "n1ssim",
+        "saadzin"
+      ],
+      "witness": {
+        "day": "2026-03-03",
+        "series": "3778"
+      }
+    },
+    {
+      "name": "paiN",
+      "points": 1308,
+      "vrsRoster": [
+        "biguzera",
+        "nqz",
+        "piriajr",
+        "snow",
+        "vsm"
+      ],
+      "roster": [
+        "biguzera",
+        "nqz",
+        "piriajr",
+        "snow",
+        "vsm"
+      ],
+      "core": [
+        "biguzera",
+        "nqz",
+        "piriajr",
+        "snow",
+        "vsm"
+      ],
+      "witness": {
+        "day": "2026-03-04",
+        "series": "3709"
+      }
+    },
+    {
+      "name": "Monte",
+      "points": 1429,
+      "vrsRoster": [
+        "afro",
+        "azuwu",
+        "bymas",
+        "gizmy",
+        "rainwaker"
+      ],
+      "roster": [
+        "afro",
+        "azuwu",
+        "bymas",
+        "gizmy",
+        "rainwaker"
+      ],
+      "core": [
+        "afro",
+        "azuwu",
+        "bymas",
+        "gizmy",
+        "rainwaker"
+      ],
+      "witness": {
+        "day": "2026-03-04",
+        "series": "3725"
+      }
+    },
+    {
+      "name": "HEROIC",
+      "points": 1475,
+      "vrsRoster": [
+        "chr1zn",
+        "nilo",
+        "susp",
+        "xfl0ud",
+        "yxngstxr"
+      ],
+      "roster": [
+        "chr1zn",
+        "nilo",
+        "susp",
+        "xfl0ud",
+        "yxngstxr"
+      ],
+      "core": [
+        "chr1zn",
+        "nilo",
+        "susp",
+        "xfl0ud",
+        "yxngstxr"
+      ],
+      "witness": {
+        "day": "2026-03-05",
+        "series": "3683"
+      }
+    },
+    {
+      "name": "3DMAX",
+      "points": 1397,
+      "vrsRoster": [
+        "bodyy",
+        "ex3rcice",
+        "graviti",
+        "lucky",
+        "maka"
+      ],
+      "roster": [
+        "ex3rcice",
+        "graviti",
+        "lucky",
+        "maka",
+        "misutaaa"
+      ],
+      "core": [
+        "ex3rcice",
+        "graviti",
+        "lucky",
+        "maka"
+      ],
+      "witness": {
+        "day": "2026-03-05",
+        "series": "3663"
+      }
+    },
+    {
+      "name": "B8",
+      "points": 1404,
+      "vrsRoster": [
+        "alex666",
+        "esenthial",
+        "kensizor",
+        "npl"
+      ],
+      "roster": [
+        "alex666",
+        "esenthial",
+        "kensizor",
+        "npl",
+        "s1zzi"
+      ],
+      "core": [
+        "alex666",
+        "esenthial",
+        "kensizor",
+        "npl"
+      ],
+      "witness": {
+        "day": "2026-02-17",
+        "series": "4507",
+        "lastFullVrsRoster": [
+          "alex666",
+          "esenthial",
+          "headtr1ck",
+          "kensizor",
+          "npl"
+        ]
+      }
+    }
+  ],
+  "sha256": {
+    "2026_03_02.md": "a2545d1143febf7e6544767ab970ac08331aeb46d1fc2aad25e55896ae3c088b",
+    "2026_02_02.md": "2dcc74d27a58e5d6ad06ee26479346afe4b41d5bb67dd93fff65bee66af80bca"
+  }
+}

@@ -1,0 +1,503 @@
+{
+  "asOf": "2024-03-04",
+  "fieldAsOf": "2024-03-20",
+  "stageStart": "2024-03-21",
+  "teams": [
+    {
+      "name": "FaZe",
+      "seed": 1,
+      "roster": [
+        "karrigan",
+        "rain",
+        "frozen",
+        "ropz",
+        "broky"
+      ],
+      "points": 1942,
+      "vrsRoster": [
+        "broky",
+        "frozen",
+        "karrigan",
+        "rain",
+        "ropz"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": -0.03334702175,
+        "strong": 0.0,
+        "weak": 0.027199546234,
+        "round": -0.011929683598,
+        "n": 15,
+        "ns": 0,
+        "nw": 10,
+        "nRound": 13
+      }
+    },
+    {
+      "name": "Spirit",
+      "seed": 2,
+      "roster": [
+        "chopper",
+        "sh1ro",
+        "magixx",
+        "zont1x",
+        "donk"
+      ],
+      "points": 1933,
+      "vrsRoster": [
+        "chopper",
+        "donk",
+        "magixx",
+        "sh1ro",
+        "zont1x"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": 0.204622062691,
+        "strong": 0.0,
+        "weak": 0.045435007256,
+        "round": 0.132360804376,
+        "n": 18,
+        "ns": 0,
+        "nw": 6,
+        "nRound": 14
+      }
+    },
+    {
+      "name": "Vitality",
+      "seed": 3,
+      "roster": [
+        "apEX",
+        "ZywOo",
+        "flameZ",
+        "Spinx",
+        "mezii"
+      ],
+      "points": 1822,
+      "vrsRoster": [
+        "apex",
+        "flamez",
+        "mezii",
+        "spinx",
+        "zywoo"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": 0.00756889291,
+        "strong": 0.0,
+        "weak": -0.134365778683,
+        "round": 0.039333291414,
+        "n": 11,
+        "ns": 0,
+        "nw": 7,
+        "nRound": 11
+      }
+    },
+    {
+      "name": "MOUZ",
+      "seed": 4,
+      "roster": [
+        "Brollan",
+        "siuhy",
+        "torzsi",
+        "Jimpphat",
+        "xertioN"
+      ],
+      "points": 1801,
+      "vrsRoster": [
+        "brollan",
+        "jimpphat",
+        "siuhy",
+        "torzsi",
+        "xertion"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": 0.017007559131,
+        "strong": 0.0,
+        "weak": 0.078485614123,
+        "round": -0.009906086705,
+        "n": 15,
+        "ns": 0,
+        "nw": 8,
+        "nRound": 11
+      }
+    },
+    {
+      "name": "Complexity",
+      "seed": 5,
+      "roster": [
+        "hallzerk",
+        "JT",
+        "floppy",
+        "Grim",
+        "EliGE"
+      ],
+      "points": 1434,
+      "vrsRoster": [
+        "elige",
+        "floppy",
+        "grim",
+        "hallzerk",
+        "jt"
+      ],
+      "coreOverlap": 5,
+      "region": "americas",
+      "profile": {
+        "form": -0.119009647742,
+        "strong": 0.0,
+        "weak": -0.111652411062,
+        "round": -0.024922343916,
+        "n": 7,
+        "ns": 0,
+        "nw": 4,
+        "nRound": 4
+      }
+    },
+    {
+      "name": "Virtus.pro",
+      "seed": 6,
+      "roster": [
+        "Jame",
+        "FL1T",
+        "fame",
+        "n0rb3r7",
+        "mir"
+      ],
+      "points": 1779,
+      "vrsRoster": [
+        "fame",
+        "fl1t",
+        "jame",
+        "mir",
+        "n0rb3r7"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": 0.075828683553,
+        "strong": 0.0,
+        "weak": 0.097070175715,
+        "round": 0.036045567578,
+        "n": 19,
+        "ns": 0,
+        "nw": 11,
+        "nRound": 15
+      }
+    },
+    {
+      "name": "Natus Vincere",
+      "seed": 7,
+      "roster": [
+        "Aleksib",
+        "iM",
+        "b1t",
+        "jL",
+        "w0nderful"
+      ],
+      "points": 1744,
+      "vrsRoster": [
+        "aleksib",
+        "b1t",
+        "im",
+        "jl",
+        "w0nderful"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": 0.148951881944,
+        "strong": 0.0,
+        "weak": 0.117212172027,
+        "round": 0.007547128498,
+        "n": 16,
+        "ns": 0,
+        "nw": 4,
+        "nRound": 12
+      }
+    },
+    {
+      "name": "G2",
+      "seed": 8,
+      "roster": [
+        "NiKo",
+        "huNter-",
+        "nexa",
+        "HooXi",
+        "m0NESY"
+      ],
+      "points": 1704,
+      "vrsRoster": [
+        "hooxi",
+        "hunter-",
+        "m0nesy",
+        "nexa",
+        "niko"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": -0.084804847959,
+        "strong": -0.003793376541,
+        "weak": -0.169899900477,
+        "round": 0.007532864036,
+        "n": 12,
+        "ns": 3,
+        "nw": 3,
+        "nRound": 12
+      }
+    },
+    {
+      "name": "HEROIC",
+      "seed": 9,
+      "roster": [
+        "kyxsan",
+        "Nertz",
+        "nicoodoz",
+        "sjuush",
+        "TeSeS"
+      ],
+      "points": 1433,
+      "vrsRoster": [
+        "kyxsan",
+        "nertz",
+        "nicoodoz",
+        "sjuush",
+        "teses"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": 0.0,
+        "strong": 0.0,
+        "weak": 0.0,
+        "round": 0.0,
+        "n": 0,
+        "ns": 0,
+        "nw": 0,
+        "nRound": 0
+      }
+    },
+    {
+      "name": "Cloud9",
+      "seed": 10,
+      "roster": [
+        "Ax1Le",
+        "Boombl4",
+        "electronic",
+        "HObbit",
+        "Perfecto"
+      ],
+      "points": 1520,
+      "vrsRoster": [
+        "ax1le",
+        "boombl4",
+        "electronic",
+        "hobbit",
+        "perfecto"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": -0.031388241617,
+        "strong": 0.114077959761,
+        "weak": -0.112684682565,
+        "round": 0.039746536072,
+        "n": 18,
+        "ns": 1,
+        "nw": 4,
+        "nRound": 11
+      }
+    },
+    {
+      "name": "Eternal Fire",
+      "seed": 11,
+      "roster": [
+        "Calyx",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "points": 1508,
+      "vrsRoster": [
+        "calyx",
+        "maj3r",
+        "wicadia",
+        "woxic",
+        "xantares"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": 0.064381410634,
+        "strong": 0.018445661667,
+        "weak": 0.093532548499,
+        "round": -0.010116833431,
+        "n": 10,
+        "ns": 3,
+        "nw": 3,
+        "nRound": 5
+      }
+    },
+    {
+      "name": "ECSTATIC",
+      "seed": 12,
+      "roster": [
+        "kraghen",
+        "Nodios",
+        "Patti",
+        "Queenix",
+        "salazar"
+      ],
+      "points": 1127,
+      "vrsRoster": [
+        "kraghen",
+        "nodios",
+        "patti",
+        "queenix",
+        "salazar"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "profile": {
+        "form": 0.039173041644,
+        "strong": 0.074454627196,
+        "weak": 0.0,
+        "round": 0.081457442199,
+        "n": 17,
+        "ns": 5,
+        "nw": 0,
+        "nRound": 6
+      }
+    },
+    {
+      "name": "paiN",
+      "seed": 13,
+      "roster": [
+        "biguzera",
+        "kauez",
+        "lux",
+        "n1ssim",
+        "nqz"
+      ],
+      "points": 1048,
+      "vrsRoster": [
+        "biguzera",
+        "kauez",
+        "lux",
+        "n1ssim",
+        "nqz"
+      ],
+      "coreOverlap": 5,
+      "region": "americas",
+      "profile": {
+        "form": 0.061968361856,
+        "strong": 0.0,
+        "weak": 0.0,
+        "round": 0.105129423697,
+        "n": 9,
+        "ns": 0,
+        "nw": 0,
+        "nRound": 3
+      }
+    },
+    {
+      "name": "Imperial",
+      "seed": 14,
+      "roster": [
+        "Decenty",
+        "felps",
+        "HEN1",
+        "noway",
+        "VINI"
+      ],
+      "points": 1152,
+      "vrsRoster": [
+        "decenty",
+        "felps",
+        "hen1",
+        "noway",
+        "vini"
+      ],
+      "coreOverlap": 5,
+      "region": "americas",
+      "profile": {
+        "form": -0.020424793951,
+        "strong": -0.041050624079,
+        "weak": 0.0,
+        "round": 0.0,
+        "n": 7,
+        "ns": 1,
+        "nw": 0,
+        "nRound": 0
+      }
+    },
+    {
+      "name": "The MongolZ",
+      "seed": 15,
+      "roster": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "senzu",
+        "Techno"
+      ],
+      "points": 1433,
+      "vrsRoster": [
+        "910",
+        "blitz",
+        "mzinho",
+        "senzu",
+        "techno"
+      ],
+      "coreOverlap": 5,
+      "region": "asia",
+      "profile": {
+        "form": 0.106519482828,
+        "strong": 0.137343328237,
+        "weak": 0.0,
+        "round": 0.042568646351,
+        "n": 11,
+        "ns": 6,
+        "nw": 0,
+        "nRound": 7
+      }
+    },
+    {
+      "name": "FURIA",
+      "seed": 16,
+      "roster": [
+        "arT",
+        "chelo",
+        "FalleN",
+        "KSCERATO",
+        "yuurih"
+      ],
+      "points": 1391,
+      "vrsRoster": [
+        "art",
+        "chelo",
+        "fallen",
+        "kscerato",
+        "yuurih"
+      ],
+      "coreOverlap": 5,
+      "region": "americas",
+      "profile": {
+        "form": -0.114661226628,
+        "strong": 0.0,
+        "weak": -0.067785726406,
+        "round": -0.025031514536,
+        "n": 9,
+        "ns": 0,
+        "nw": 5,
+        "nRound": 7
+      }
+    }
+  ]
+}

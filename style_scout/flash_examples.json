@@ -1,0 +1,770 @@
+{
+  "M80": [
+    {
+      "day": "2026-10-07",
+      "roster": [
+        "JBa",
+        "Lake",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ],
+      "map": "Dust2",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/240945/m80-vs-spirit",
+      "rounds": 19,
+      "opponent": "Spirit",
+      "sideName": "M80",
+      "kills": 51,
+      "headshots": 31,
+      "assists": 14,
+      "flashAssists": 2,
+      "openingKills": 11,
+      "openingDeaths": 8,
+      "id": "240945",
+      "seriesId": "2398749"
+    },
+    {
+      "day": "2026-10-06",
+      "roster": [
+        "JBa",
+        "Lake",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ],
+      "map": "Cache",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/240814/legacy-vs-m80",
+      "rounds": 17,
+      "opponent": "Legacy",
+      "sideName": "M80",
+      "kills": 62,
+      "headshots": 33,
+      "assists": 27,
+      "flashAssists": 10,
+      "openingKills": 15,
+      "openingDeaths": 2,
+      "id": "240814",
+      "seriesId": "2398746"
+    }
+  ],
+  "PARIVISION": [
+    {
+      "day": "2026-11-16",
+      "roster": [
+        "zweih",
+        "Jame",
+        "xiELO",
+        "HObbit",
+        "FL1T"
+      ],
+      "map": "Ancient",
+      "id": "244539",
+      "seriesId": "2400420",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/244539/heroic-vs-parivision",
+      "rounds": 22,
+      "opponent": "HEROIC",
+      "sideName": "PARIVISION",
+      "openingKills": 12,
+      "openingDeaths": 10,
+      "kills": 56,
+      "headshots": 27,
+      "assists": 23,
+      "flashAssists": 7
+    },
+    {
+      "day": "2026-11-15",
+      "roster": [
+        "xiELO",
+        "HObbit",
+        "zweih",
+        "FL1T",
+        "Jame"
+      ],
+      "map": "Inferno",
+      "id": "244496",
+      "seriesId": "2400418",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/244496/100-thieves-vs-parivision",
+      "rounds": 22,
+      "opponent": "100 Thieves",
+      "sideName": "PARIVISION",
+      "openingKills": 7,
+      "openingDeaths": 15,
+      "kills": 75,
+      "headshots": 38,
+      "assists": 32,
+      "flashAssists": 6
+    }
+  ],
+  "Ninjas in Pyjamas": [
+    {
+      "day": "2026-11-19",
+      "roster": [
+        "adamb",
+        "stavn",
+        "xKacpersky",
+        "sjuush",
+        "Krimbo"
+      ],
+      "map": "Inferno",
+      "id": "244669",
+      "seriesId": "2400445",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/244669/ninjas-in-pyjamas-vs-big",
+      "rounds": 24,
+      "opponent": "BIG",
+      "sideName": "Ninjas in Pyjamas",
+      "openingKills": 14,
+      "openingDeaths": 10,
+      "kills": 73,
+      "headshots": 39,
+      "assists": 31,
+      "flashAssists": 5
+    },
+    {
+      "day": "2026-11-18",
+      "roster": [
+        "sjuush",
+        "stavn",
+        "adamb",
+        "Krimbo",
+        "xKacpersky"
+      ],
+      "map": "Mirage",
+      "id": "244638",
+      "seriesId": "2400443",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/244638/ninjas-in-pyjamas-vs-luminosity",
+      "rounds": 20,
+      "opponent": "Luminosity",
+      "sideName": "Ninjas in Pyjamas",
+      "openingKills": 6,
+      "openingDeaths": 14,
+      "kills": 59,
+      "headshots": 31,
+      "assists": 22,
+      "flashAssists": 5
+    }
+  ],
+  "HEROIC": [
+    {
+      "day": "2026-11-17",
+      "roster": [
+        "Brollan",
+        "nilo",
+        "susp",
+        "MartinezSa",
+        "Chr1zN"
+      ],
+      "map": "Dust2",
+      "id": "244556",
+      "seriesId": "2400422",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/244556/heroic-vs-magic",
+      "rounds": 22,
+      "opponent": "magic",
+      "sideName": "HEROIC",
+      "openingKills": 5,
+      "openingDeaths": 17,
+      "kills": 61,
+      "headshots": 34,
+      "assists": 22,
+      "flashAssists": 6
+    },
+    {
+      "day": "2026-11-16",
+      "roster": [
+        "MartinezSa",
+        "susp",
+        "Chr1zN",
+        "nilo",
+        "Brollan"
+      ],
+      "map": "Ancient",
+      "id": "244539",
+      "seriesId": "2400420",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/244539/heroic-vs-parivision",
+      "rounds": 22,
+      "opponent": "PARIVISION",
+      "sideName": "HEROIC",
+      "openingKills": 10,
+      "openingDeaths": 12,
+      "kills": 73,
+      "headshots": 41,
+      "assists": 29,
+      "flashAssists": 4
+    }
+  ],
+  "FaZe": [
+    {
+      "day": "2026-11-15",
+      "roster": [
+        "JBOEN",
+        "Twistzz",
+        "frozen",
+        "Neityu",
+        "enkay J"
+      ],
+      "map": "Anubis",
+      "id": "244412",
+      "seriesId": "2400411",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/244412/fnatic-vs-faze",
+      "rounds": 20,
+      "opponent": "fnatic",
+      "sideName": "FaZe",
+      "openingKills": 4,
+      "openingDeaths": 16,
+      "kills": 48,
+      "headshots": 30,
+      "assists": 10,
+      "flashAssists": 2
+    },
+    {
+      "day": "2026-11-15",
+      "roster": [
+        "Neityu",
+        "jcobbb",
+        "frozen",
+        "JBOEN",
+        "Twistzz"
+      ],
+      "map": "Mirage",
+      "id": "244461",
+      "seriesId": "2400415",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/244461/heroic-vs-faze",
+      "rounds": 29,
+      "opponent": "HEROIC",
+      "sideName": "FaZe",
+      "openingKills": 13,
+      "openingDeaths": 16,
+      "kills": 89,
+      "headshots": 46,
+      "assists": 32,
+      "flashAssists": 6
+    }
+  ],
+  "Eternal Fire": [
+    {
+      "day": "2026-11-16",
+      "roster": [
+        "MisteM",
+        "Kvem",
+        "soulfly",
+        "regali",
+        "jottAAA"
+      ],
+      "map": "Mirage",
+      "id": "244531",
+      "seriesId": "2400419",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/244531/eternal-fire-vs-magic",
+      "rounds": 20,
+      "opponent": "magic",
+      "sideName": "Eternal Fire",
+      "openingKills": 10,
+      "openingDeaths": 10,
+      "kills": 63,
+      "headshots": 24,
+      "assists": 26,
+      "flashAssists": 5
+    },
+    {
+      "day": "2026-11-15",
+      "roster": [
+        "regali",
+        "soulfly",
+        "jottAAA",
+        "Kvem",
+        "MisteM"
+      ],
+      "map": "Inferno",
+      "id": "244480",
+      "seriesId": "2400416",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/244480/eternal-fire-vs-33",
+      "rounds": 22,
+      "opponent": "33",
+      "sideName": "Eternal Fire",
+      "openingKills": 14,
+      "openingDeaths": 8,
+      "kills": 80,
+      "headshots": 47,
+      "assists": 28,
+      "flashAssists": 8
+    }
+  ],
+  "Liquid": [
+    {
+      "day": "2026-11-04",
+      "roster": [
+        "Jorko",
+        "malbsMd",
+        "NAF",
+        "JT",
+        "EliGE"
+      ],
+      "map": "Anubis",
+      "id": "243624",
+      "seriesId": "2400002",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/243624/liquid-vs-betboom",
+      "rounds": 18,
+      "opponent": "BETBOOM",
+      "sideName": "Liquid",
+      "openingKills": 5,
+      "openingDeaths": 13,
+      "kills": 40,
+      "headshots": 19,
+      "assists": 16,
+      "flashAssists": 6
+    },
+    {
+      "day": "2026-11-04",
+      "roster": [
+        "EliGE",
+        "malbsMd",
+        "Jorko",
+        "JT",
+        "NAF"
+      ],
+      "map": "Mirage",
+      "id": "243616",
+      "seriesId": "2399998",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/243616/liquid-vs-tyloo",
+      "rounds": 24,
+      "opponent": "TYLOO",
+      "sideName": "Liquid",
+      "openingKills": 14,
+      "openingDeaths": 10,
+      "kills": 76,
+      "headshots": 36,
+      "assists": 31,
+      "flashAssists": 9
+    }
+  ],
+  "9z": [
+    {
+      "day": "2026-11-02",
+      "roster": [
+        "HUASOPEEK",
+        "meyern",
+        "luchov",
+        "max",
+        "dgt"
+      ],
+      "map": "Dust2",
+      "id": "243497",
+      "seriesId": "2399860",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/243497/betboom-vs-9z",
+      "rounds": 21,
+      "opponent": "BETBOOM",
+      "sideName": "9z",
+      "openingKills": 13,
+      "openingDeaths": 8,
+      "kills": 66,
+      "headshots": 41,
+      "assists": 25,
+      "flashAssists": 8
+    },
+    {
+      "day": "2026-11-03",
+      "roster": [
+        "HUASOPEEK",
+        "meyern",
+        "max",
+        "dgt",
+        "luchov"
+      ],
+      "map": "Inferno",
+      "id": "243533",
+      "seriesId": "2399992",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/243533/9z-vs-tyloo",
+      "rounds": 18,
+      "opponent": "TYLOO",
+      "sideName": "9z",
+      "openingKills": 8,
+      "openingDeaths": 10,
+      "kills": 42,
+      "headshots": 24,
+      "assists": 16,
+      "flashAssists": 4
+    }
+  ],
+  "100 Thieves": [
+    {
+      "day": "2026-11-17",
+      "roster": [
+        "device",
+        "sirah",
+        "Gizmy",
+        "rain",
+        "poiii"
+      ],
+      "map": "Ancient",
+      "id": "244553",
+      "seriesId": "2400421",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/244553/100-thieves-vs-fnatic",
+      "rounds": 18,
+      "opponent": "fnatic",
+      "sideName": "100 Thieves",
+      "openingKills": 9,
+      "openingDeaths": 8,
+      "kills": 42,
+      "headshots": 28,
+      "assists": 11,
+      "flashAssists": 2
+    },
+    {
+      "day": "2026-11-15",
+      "roster": [
+        "rain",
+        "Gizmy",
+        "sirah",
+        "device",
+        "poiii"
+      ],
+      "map": "Inferno",
+      "id": "244496",
+      "seriesId": "2400418",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/244496/100-thieves-vs-parivision",
+      "rounds": 22,
+      "opponent": "PARIVISION",
+      "sideName": "100 Thieves",
+      "openingKills": 15,
+      "openingDeaths": 7,
+      "kills": 66,
+      "headshots": 33,
+      "assists": 28,
+      "flashAssists": 11
+    }
+  ],
+  "DENDELE": [
+    {
+      "day": "2026-10-31",
+      "roster": [
+        "doc",
+        "koala",
+        "gafolo",
+        "rdnzao",
+        "maxxkor"
+      ],
+      "map": "Cache",
+      "id": "243379",
+      "seriesId": "2399958",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/243379/dendele-vs-naocopulas",
+      "rounds": 19,
+      "opponent": "NAOCOPULAS",
+      "sideName": "DENDELE",
+      "openingKills": 12,
+      "openingDeaths": 7,
+      "kills": 78,
+      "headshots": 40,
+      "assists": 26,
+      "flashAssists": 4
+    },
+    {
+      "day": "2026-11-01",
+      "roster": [
+        "maxxkor",
+        "koala",
+        "doc",
+        "gafolo",
+        "rdnzao"
+      ],
+      "map": "Mirage",
+      "id": "243477",
+      "seriesId": "2399961",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/243477/dendele-vs-imperial",
+      "rounds": 21,
+      "opponent": "Imperial",
+      "sideName": "DENDELE",
+      "openingKills": 7,
+      "openingDeaths": 14,
+      "kills": 72,
+      "headshots": 35,
+      "assists": 29,
+      "flashAssists": 7
+    }
+  ],
+  "Imperial": [
+    {
+      "day": "2026-11-01",
+      "roster": [
+        "VINI",
+        "decenty",
+        "chelo",
+        "noway",
+        "saadzin"
+      ],
+      "map": "Mirage",
+      "id": "243477",
+      "seriesId": "2399961",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/243477/dendele-vs-imperial",
+      "rounds": 21,
+      "opponent": "DENDELE",
+      "sideName": "Imperial",
+      "openingKills": 14,
+      "openingDeaths": 7,
+      "kills": 60,
+      "headshots": 24,
+      "assists": 21,
+      "flashAssists": 3
+    },
+    {
+      "day": "2026-10-31",
+      "roster": [
+        "decenty",
+        "VINI",
+        "saadzin",
+        "noway",
+        "chelo"
+      ],
+      "map": "Anubis",
+      "id": "243392",
+      "seriesId": "2399959",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/243392/low-cortisol-vs-imperial",
+      "rounds": 21,
+      "opponent": "Low Cortisol",
+      "sideName": "Imperial",
+      "openingKills": 10,
+      "openingDeaths": 11,
+      "kills": 63,
+      "headshots": 37,
+      "assists": 21,
+      "flashAssists": 5
+    }
+  ],
+  "GOSH": [
+    {
+      "day": "2026-10-30",
+      "roster": [
+        "Senzu",
+        "Magisk",
+        "s1mple",
+        "mzinho",
+        "asap"
+      ],
+      "map": "Inferno",
+      "id": "243272",
+      "seriesId": "2399939",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/243272/bcgame-vs-og",
+      "rounds": 22,
+      "opponent": "OG",
+      "sideName": "BC.Game",
+      "openingKills": 10,
+      "openingDeaths": 12,
+      "kills": 57,
+      "headshots": 28,
+      "assists": 22,
+      "flashAssists": 5
+    },
+    {
+      "day": "2026-10-30",
+      "roster": [
+        "mzinho",
+        "Senzu",
+        "s1mple",
+        "asap",
+        "Magisk"
+      ],
+      "map": "Nuke",
+      "id": "243251",
+      "seriesId": "2399937",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/243251/bcgame-vs-metizport",
+      "rounds": 16,
+      "opponent": "Metizport",
+      "sideName": "BC.Game",
+      "openingKills": 9,
+      "openingDeaths": 7,
+      "kills": 69,
+      "headshots": 37,
+      "assists": 27,
+      "flashAssists": 3
+    }
+  ],
+  "Wildcard": [
+    {
+      "day": "2026-11-01",
+      "roster": [
+        "reck",
+        "fr3nd",
+        "nEMANHA",
+        "Cxzi",
+        "HexT"
+      ],
+      "map": "Inferno",
+      "id": "243451",
+      "seriesId": "2399987",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/243451/wildcard-vs-barca",
+      "rounds": 20,
+      "opponent": "BARCA",
+      "sideName": "Wildcard",
+      "openingKills": 9,
+      "openingDeaths": 11,
+      "kills": 70,
+      "headshots": 32,
+      "assists": 26,
+      "flashAssists": 6
+    },
+    {
+      "day": "2026-11-01",
+      "roster": [
+        "HexT",
+        "reck",
+        "Cxzi",
+        "fr3nd",
+        "nEMANHA"
+      ],
+      "map": "Cache",
+      "id": "243471",
+      "seriesId": "2399989",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/243471/100-thieves-vs-wildcard",
+      "rounds": 35,
+      "opponent": "100 Thieves",
+      "sideName": "Wildcard",
+      "openingKills": 14,
+      "openingDeaths": 21,
+      "kills": 114,
+      "headshots": 50,
+      "assists": 37,
+      "flashAssists": 4
+    }
+  ],
+  "FlyQuest": [
+    {
+      "day": "2026-10-30",
+      "roster": [
+        "Vexite",
+        "INS",
+        "jks",
+        "nettik",
+        "aliStair"
+      ],
+      "map": "Ancient",
+      "id": "243201",
+      "seriesId": "2399900",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/243201/flyquest-vs-alter-ego",
+      "rounds": 23,
+      "opponent": "Alter Ego",
+      "sideName": "FlyQuest",
+      "openingKills": 11,
+      "openingDeaths": 12,
+      "kills": 84,
+      "headshots": 39,
+      "assists": 30,
+      "flashAssists": 7
+    },
+    {
+      "day": "2026-11-01",
+      "roster": [
+        "nettik",
+        "aliStair",
+        "Vexite",
+        "INS",
+        "jks"
+      ],
+      "map": "Inferno",
+      "id": "243403",
+      "seriesId": "2399901",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/243403/alter-ego-vs-flyquest",
+      "rounds": 22,
+      "opponent": "Alter Ego",
+      "sideName": "FlyQuest",
+      "openingKills": 12,
+      "openingDeaths": 10,
+      "kills": 85,
+      "headshots": 36,
+      "assists": 44,
+      "flashAssists": 9
+    }
+  ],
+  "Chinggis Warriors": [
+    {
+      "day": "2026-10-29",
+      "roster": [
+        "fury5k",
+        "sk0R",
+        "tikuak",
+        "cool4st",
+        "ROUX"
+      ],
+      "map": "Inferno",
+      "id": "243087",
+      "seriesId": "2399925",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/243087/the-audacity-vs-chinggis-warriors",
+      "rounds": 30,
+      "opponent": "The Audacity",
+      "sideName": "Chinggis Warriors",
+      "openingKills": 18,
+      "openingDeaths": 12,
+      "kills": 100,
+      "headshots": 43,
+      "assists": 39,
+      "flashAssists": 6
+    },
+    {
+      "day": "2026-10-29",
+      "roster": [
+        "cool4st",
+        "sk0R",
+        "tikuak",
+        "fury5k",
+        "ROUX"
+      ],
+      "map": "Inferno",
+      "id": "243084",
+      "seriesId": "2399924",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/243084/chinggis-warriors-vs-5star",
+      "rounds": 23,
+      "opponent": "5star",
+      "sideName": "Chinggis Warriors",
+      "openingKills": 9,
+      "openingDeaths": 14,
+      "kills": 75,
+      "headshots": 43,
+      "assists": 28,
+      "flashAssists": 3
+    }
+  ],
+  "Lynn Vision": [
+    {
+      "day": "2026-10-23",
+      "roster": [
+        "C4LLM3SU3",
+        "z4KR",
+        "Starry",
+        "Westmelon",
+        "EmiliaQAQ"
+      ],
+      "map": "Nuke",
+      "id": "242654",
+      "seriesId": "2399586",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/242654/lynn-vision-vs-chinggis-warriors",
+      "rounds": 24,
+      "opponent": "Chinggis Warriors",
+      "sideName": "Lynn Vision",
+      "openingKills": 11,
+      "openingDeaths": 13,
+      "kills": 76,
+      "headshots": 46,
+      "assists": 13,
+      "flashAssists": 0
+    },
+    {
+      "day": "2026-10-24",
+      "roster": [
+        "EmiliaQAQ",
+        "z4KR",
+        "Starry",
+        "C4LLM3SU3",
+        "Westmelon"
+      ],
+      "map": "Nuke",
+      "id": "242727",
+      "seriesId": "2399589",
+      "url": "https://www.hltv.org/stats/matches/mapstatsid/242727/lynn-vision-vs-chinggis-warriors",
+      "rounds": 17,
+      "opponent": "Chinggis Warriors",
+      "sideName": "Lynn Vision",
+      "openingKills": 9,
+      "openingDeaths": 8,
+      "kills": 72,
+      "headshots": 41,
+      "assists": 19,
+      "flashAssists": 2
+    }
+  ]
+}

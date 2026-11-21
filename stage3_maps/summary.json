@@ -1,0 +1,1183 @@
+{
+  "asOf": "2026-11-21",
+  "major": {
+    "base": {
+      "hits": [
+        9,
+        9,
+        9,
+        10,
+        11,
+        10,
+        10,
+        10,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        10,
+        8,
+        11,
+        10,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        10,
+        11,
+        11,
+        10,
+        10
+      ],
+      "passes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "fixedHits": 9,
+      "fixedPasses": 1,
+      "meanHits": 10.4,
+      "meanPasses": 0.96666667,
+      "fixedByStage": [
+        5,
+        2,
+        2
+      ],
+      "bo1": {
+        "n": 40,
+        "brier": 0.21845931,
+        "logLoss": 0.62809131,
+        "changed": 0
+      },
+      "bo3": {
+        "n": 59,
+        "brier": 0.23970587,
+        "logLoss": 0.67237606,
+        "changed": 0
+      },
+      "fixedBySlot": [
+        1,
+        6,
+        2
+      ]
+    },
+    "veto": {
+      "hits": [
+        9,
+        10,
+        10,
+        10,
+        11,
+        11,
+        10,
+        10,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        10,
+        11,
+        11,
+        10,
+        11,
+        11,
+        11,
+        10,
+        11,
+        10,
+        11,
+        10,
+        11,
+        11,
+        10,
+        10
+      ],
+      "passes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "fixedHits": 9,
+      "fixedPasses": 1,
+      "meanHits": 10.53333333,
+      "meanPasses": 1,
+      "fixedByStage": [
+        5,
+        2,
+        2
+      ],
+      "bo1": {
+        "n": 40,
+        "brier": 0.21845931,
+        "logLoss": 0.62809131,
+        "changed": 0
+      },
+      "bo3": {
+        "n": 59,
+        "brier": 0.23954601,
+        "logLoss": 0.67184804,
+        "changed": 59
+      },
+      "fixedBySlot": [
+        1,
+        6,
+        2
+      ],
+      "paired": {
+        "hits": {
+          "better": 4,
+          "equal": 24,
+          "worse": 2
+        },
+        "passes": {
+          "better": 1,
+          "equal": 29,
+          "worse": 0
+        }
+      }
+    },
+    "appearance": {
+      "hits": [
+        9,
+        10,
+        10,
+        10,
+        11,
+        10,
+        10,
+        10,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        10,
+        10,
+        11,
+        10,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        10,
+        11,
+        11,
+        10,
+        10
+      ],
+      "passes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "fixedHits": 9,
+      "fixedPasses": 1,
+      "meanHits": 10.53333333,
+      "meanPasses": 1,
+      "fixedByStage": [
+        5,
+        2,
+        2
+      ],
+      "bo1": {
+        "n": 40,
+        "brier": 0.21845931,
+        "logLoss": 0.62809131,
+        "changed": 0
+      },
+      "bo3": {
+        "n": 59,
+        "brier": 0.23956148,
+        "logLoss": 0.67188205,
+        "changed": 59
+      },
+      "fixedBySlot": [
+        1,
+        6,
+        2
+      ],
+      "paired": {
+        "hits": {
+          "better": 3,
+          "equal": 27,
+          "worse": 0
+        },
+        "passes": {
+          "better": 1,
+          "equal": 29,
+          "worse": 0
+        }
+      }
+    }
+  },
+  "external": {
+    "base": {
+      "hits": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "passes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "fixedHits": 5,
+      "fixedPasses": 1,
+      "meanHits": 5,
+      "meanPasses": 1,
+      "fixedByStage": [
+        5
+      ],
+      "bo1": {
+        "n": 0,
+        "brier": null,
+        "logLoss": null,
+        "changed": 0
+      },
+      "bo3": {
+        "n": 33,
+        "brier": 0.24087166,
+        "logLoss": 0.71806585,
+        "changed": 0
+      },
+      "fixedBySlot": [
+        1,
+        4,
+        0
+      ]
+    },
+    "veto": {
+      "hits": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "passes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "fixedHits": 5,
+      "fixedPasses": 1,
+      "meanHits": 5,
+      "meanPasses": 1,
+      "fixedByStage": [
+        5
+      ],
+      "bo1": {
+        "n": 0,
+        "brier": null,
+        "logLoss": null,
+        "changed": 0
+      },
+      "bo3": {
+        "n": 33,
+        "brier": 0.23885164,
+        "logLoss": 0.71469464,
+        "changed": 33
+      },
+      "fixedBySlot": [
+        1,
+        4,
+        0
+      ],
+      "paired": {
+        "hits": {
+          "better": 0,
+          "equal": 30,
+          "worse": 0
+        },
+        "passes": {
+          "better": 0,
+          "equal": 30,
+          "worse": 0
+        }
+      }
+    },
+    "appearance": {
+      "hits": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "passes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "fixedHits": 5,
+      "fixedPasses": 1,
+      "meanHits": 5,
+      "meanPasses": 1,
+      "fixedByStage": [
+        5
+      ],
+      "bo1": {
+        "n": 0,
+        "brier": null,
+        "logLoss": null,
+        "changed": 0
+      },
+      "bo3": {
+        "n": 33,
+        "brier": 0.24040909,
+        "logLoss": 0.71815686,
+        "changed": 33
+      },
+      "fixedBySlot": [
+        1,
+        4,
+        0
+      ],
+      "paired": {
+        "hits": {
+          "better": 0,
+          "equal": 30,
+          "worse": 0
+        },
+        "passes": {
+          "better": 0,
+          "equal": 30,
+          "worse": 0
+        }
+      }
+    }
+  },
+  "byStage": [
+    {
+      "id": "austin-2025-3",
+      "start": "2025-06-12",
+      "external": false,
+      "coverage": {
+        "strengthTeams": 16,
+        "vetoTeams": 16,
+        "proxyTeams": 16,
+        "pairsWithChangedBO3": {
+          "veto": 120,
+          "appearance": 120
+        },
+        "teamsRepeatedOpponent": 16
+      },
+      "groups": {
+        "base": {
+          "fixedHits": 5,
+          "bySlot": [
+            1,
+            3,
+            1
+          ],
+          "passed": true,
+          "card": [
+            [
+              "Vitality",
+              "Spirit"
+            ],
+            [
+              "MOUZ",
+              "G2",
+              "The MongolZ",
+              "Aurora",
+              "Natus Vincere",
+              "3DMAX"
+            ],
+            [
+              "Nemiga",
+              "Lynn Vision"
+            ]
+          ],
+          "fixedSimulatedPass": 0.40658333,
+          "passesAcrossSeeds": 29,
+          "bo3Brier": 0.25373978,
+          "bo3LogLoss": 0.69920244,
+          "changedBo3": 0
+        },
+        "veto": {
+          "fixedHits": 5,
+          "bySlot": [
+            1,
+            3,
+            1
+          ],
+          "passed": true,
+          "card": [
+            [
+              "Vitality",
+              "Spirit"
+            ],
+            [
+              "MOUZ",
+              "G2",
+              "The MongolZ",
+              "Aurora",
+              "Natus Vincere",
+              "3DMAX"
+            ],
+            [
+              "Nemiga",
+              "Lynn Vision"
+            ]
+          ],
+          "fixedSimulatedPass": 0.41025,
+          "passesAcrossSeeds": 30,
+          "bo3Brier": 0.25349351,
+          "bo3LogLoss": 0.69838239,
+          "changedBo3": 13,
+          "largestPotential": {
+            "teams": [
+              "paiN",
+              "Lynn Vision"
+            ],
+            "base": 0.38023775,
+            "adjusted": 0.41194929,
+            "delta": 0.03171154
+          },
+          "largestPlayed": {
+            "winner": "paiN",
+            "loser": "Nemiga",
+            "base": 0.37776181,
+            "adjusted": 0.39170141,
+            "delta": 0.0139396
+          }
+        },
+        "appearance": {
+          "fixedHits": 5,
+          "bySlot": [
+            1,
+            3,
+            1
+          ],
+          "passed": true,
+          "card": [
+            [
+              "Vitality",
+              "Spirit"
+            ],
+            [
+              "MOUZ",
+              "G2",
+              "The MongolZ",
+              "Aurora",
+              "Natus Vincere",
+              "3DMAX"
+            ],
+            [
+              "Nemiga",
+              "Lynn Vision"
+            ]
+          ],
+          "fixedSimulatedPass": 0.40816667,
+          "passesAcrossSeeds": 30,
+          "bo3Brier": 0.25319796,
+          "bo3LogLoss": 0.69749652,
+          "changedBo3": 13,
+          "largestPotential": {
+            "teams": [
+              "paiN",
+              "Lynn Vision"
+            ],
+            "base": 0.38023775,
+            "adjusted": 0.3976382,
+            "delta": 0.01740045
+          },
+          "largestPlayed": {
+            "winner": "MOUZ",
+            "loser": "Aurora",
+            "base": 0.63548335,
+            "adjusted": 0.62608084,
+            "delta": -0.00940251
+          }
+        }
+      }
+    },
+    {
+      "id": "budapest-2025-3",
+      "start": "2025-12-04",
+      "external": false,
+      "coverage": {
+        "strengthTeams": 16,
+        "vetoTeams": 16,
+        "proxyTeams": 16,
+        "pairsWithChangedBO3": {
+          "veto": 120,
+          "appearance": 120
+        },
+        "teamsRepeatedOpponent": 16
+      },
+      "groups": {
+        "base": {
+          "fixedHits": 2,
+          "bySlot": [
+            0,
+            2,
+            0
+          ],
+          "passed": false,
+          "card": [
+            [
+              "Vitality",
+              "Falcons"
+            ],
+            [
+              "FURIA",
+              "MOUZ",
+              "Spirit",
+              "G2",
+              "Natus Vincere",
+              "Liquid"
+            ],
+            [
+              "Passion UA",
+              "3DMAX"
+            ]
+          ],
+          "fixedSimulatedPass": 0.30158333,
+          "passesAcrossSeeds": 0,
+          "bo3Brier": 0.25658254,
+          "bo3LogLoss": 0.71097665,
+          "changedBo3": 0
+        },
+        "veto": {
+          "fixedHits": 2,
+          "bySlot": [
+            0,
+            2,
+            0
+          ],
+          "passed": false,
+          "card": [
+            [
+              "Vitality",
+              "Falcons"
+            ],
+            [
+              "FURIA",
+              "MOUZ",
+              "Spirit",
+              "G2",
+              "Natus Vincere",
+              "Liquid"
+            ],
+            [
+              "Passion UA",
+              "3DMAX"
+            ]
+          ],
+          "fixedSimulatedPass": 0.29975,
+          "passesAcrossSeeds": 0,
+          "bo3Brier": 0.25634531,
+          "bo3LogLoss": 0.71006303,
+          "changedBo3": 13,
+          "largestPotential": {
+            "teams": [
+              "The MongolZ",
+              "PARIVISION"
+            ],
+            "base": 0.54483746,
+            "adjusted": 0.57434731,
+            "delta": 0.02950985
+          },
+          "largestPlayed": {
+            "winner": "3DMAX",
+            "loser": "PARIVISION",
+            "base": 0.54309045,
+            "adjusted": 0.55420766,
+            "delta": 0.01111721
+          }
+        },
+        "appearance": {
+          "fixedHits": 2,
+          "bySlot": [
+            0,
+            2,
+            0
+          ],
+          "passed": false,
+          "card": [
+            [
+              "Vitality",
+              "Falcons"
+            ],
+            [
+              "FURIA",
+              "MOUZ",
+              "Spirit",
+              "G2",
+              "Natus Vincere",
+              "Liquid"
+            ],
+            [
+              "Passion UA",
+              "3DMAX"
+            ]
+          ],
+          "fixedSimulatedPass": 0.3005,
+          "passesAcrossSeeds": 0,
+          "bo3Brier": 0.25537742,
+          "bo3LogLoss": 0.70830064,
+          "changedBo3": 13,
+          "largestPotential": {
+            "teams": [
+              "Natus Vincere",
+              "3DMAX"
+            ],
+            "base": 0.5734495,
+            "adjusted": 0.56122464,
+            "delta": -0.01222486
+          },
+          "largestPlayed": {
+            "winner": "B8",
+            "loser": "paiN",
+            "base": 0.56143313,
+            "adjusted": 0.56623823,
+            "delta": 0.0048051
+          }
+        }
+      }
+    },
+    {
+      "id": "cologne-2026-3",
+      "start": "2026-06-11",
+      "external": false,
+      "coverage": {
+        "strengthTeams": 16,
+        "vetoTeams": 12,
+        "proxyTeams": 16,
+        "pairsWithChangedBO3": {
+          "veto": 114,
+          "appearance": 120
+        },
+        "teamsRepeatedOpponent": 16
+      },
+      "groups": {
+        "base": {
+          "fixedHits": 2,
+          "bySlot": [
+            0,
+            1,
+            1
+          ],
+          "passed": false,
+          "card": [
+            [
+              "Vitality",
+              "Falcons"
+            ],
+            [
+              "Natus Vincere",
+              "Aurora",
+              "MOUZ",
+              "FUT",
+              "Spirit",
+              "Legacy"
+            ],
+            [
+              "Monte",
+              "B8"
+            ]
+          ],
+          "fixedSimulatedPass": 0.27116667,
+          "passesAcrossSeeds": 0,
+          "bo3Brier": 0.22752898,
+          "bo3LogLoss": 0.6466018,
+          "changedBo3": 0
+        },
+        "veto": {
+          "fixedHits": 2,
+          "bySlot": [
+            0,
+            1,
+            1
+          ],
+          "passed": false,
+          "card": [
+            [
+              "Vitality",
+              "Falcons"
+            ],
+            [
+              "Natus Vincere",
+              "Aurora",
+              "MOUZ",
+              "FUT",
+              "Spirit",
+              "Legacy"
+            ],
+            [
+              "Monte",
+              "B8"
+            ]
+          ],
+          "fixedSimulatedPass": 0.27166667,
+          "passesAcrossSeeds": 0,
+          "bo3Brier": 0.22743363,
+          "bo3LogLoss": 0.64634073,
+          "changedBo3": 33,
+          "largestPotential": {
+            "teams": [
+              "Natus Vincere",
+              "Legacy"
+            ],
+            "base": 0.57353889,
+            "adjusted": 0.57960743,
+            "delta": 0.00606854
+          },
+          "largestPlayed": {
+            "winner": "Natus Vincere",
+            "loser": "Legacy",
+            "base": 0.57353889,
+            "adjusted": 0.57960743,
+            "delta": 0.00606854
+          }
+        },
+        "appearance": {
+          "fixedHits": 2,
+          "bySlot": [
+            0,
+            1,
+            1
+          ],
+          "passed": false,
+          "card": [
+            [
+              "Vitality",
+              "Falcons"
+            ],
+            [
+              "Natus Vincere",
+              "Aurora",
+              "MOUZ",
+              "FUT",
+              "Spirit",
+              "Legacy"
+            ],
+            [
+              "Monte",
+              "B8"
+            ]
+          ],
+          "fixedSimulatedPass": 0.27358333,
+          "passesAcrossSeeds": 0,
+          "bo3Brier": 0.22795901,
+          "bo3LogLoss": 0.64744478,
+          "changedBo3": 33,
+          "largestPotential": {
+            "teams": [
+              "FURIA",
+              "Legacy"
+            ],
+            "base": 0.33900674,
+            "adjusted": 0.32601298,
+            "delta": -0.01299376
+          },
+          "largestPlayed": {
+            "winner": "MOUZ",
+            "loser": "Legacy",
+            "base": 0.47362763,
+            "adjusted": 0.4619487,
+            "delta": -0.01167893
+          }
+        }
+      }
+    },
+    {
+      "id": "epl23-stage2",
+      "start": "2026-03-06",
+      "external": true,
+      "coverage": {
+        "strengthTeams": 16,
+        "vetoTeams": 16,
+        "proxyTeams": 16,
+        "pairsWithChangedBO3": {
+          "veto": 120,
+          "appearance": 120
+        },
+        "teamsRepeatedOpponent": 15
+      },
+      "groups": {
+        "base": {
+          "fixedHits": 5,
+          "bySlot": [
+            1,
+            4,
+            0
+          ],
+          "passed": true,
+          "card": [
+            [
+              "FURIA",
+              "MOUZ"
+            ],
+            [
+              "Spirit",
+              "Natus Vincere",
+              "The MongolZ",
+              "Aurora",
+              "G2",
+              "Astralis"
+            ],
+            [
+              "3DMAX",
+              "B8"
+            ]
+          ],
+          "fixedSimulatedPass": 0.79358333,
+          "passesAcrossSeeds": 30,
+          "bo3Brier": 0.24087166,
+          "bo3LogLoss": 0.71806585,
+          "changedBo3": 0
+        },
+        "veto": {
+          "fixedHits": 5,
+          "bySlot": [
+            1,
+            4,
+            0
+          ],
+          "passed": true,
+          "card": [
+            [
+              "FURIA",
+              "MOUZ"
+            ],
+            [
+              "Spirit",
+              "Natus Vincere",
+              "The MongolZ",
+              "Aurora",
+              "G2",
+              "Astralis"
+            ],
+            [
+              "3DMAX",
+              "B8"
+            ]
+          ],
+          "fixedSimulatedPass": 0.792,
+          "passesAcrossSeeds": 30,
+          "bo3Brier": 0.23885164,
+          "bo3LogLoss": 0.71469464,
+          "changedBo3": 33,
+          "largestPotential": {
+            "teams": [
+              "FaZe",
+              "Astralis"
+            ],
+            "base": 0.44837645,
+            "adjusted": 0.42413063,
+            "delta": -0.02424582
+          },
+          "largestPlayed": {
+            "winner": "Astralis",
+            "loser": "FaZe",
+            "base": 0.55162355,
+            "adjusted": 0.57586937,
+            "delta": 0.02424582
+          }
+        },
+        "appearance": {
+          "fixedHits": 5,
+          "bySlot": [
+            1,
+            4,
+            0
+          ],
+          "passed": true,
+          "card": [
+            [
+              "FURIA",
+              "MOUZ"
+            ],
+            [
+              "Spirit",
+              "Natus Vincere",
+              "The MongolZ",
+              "Aurora",
+              "G2",
+              "Astralis"
+            ],
+            [
+              "3DMAX",
+              "B8"
+            ]
+          ],
+          "fixedSimulatedPass": 0.79241667,
+          "passesAcrossSeeds": 30,
+          "bo3Brier": 0.24040909,
+          "bo3LogLoss": 0.71815686,
+          "changedBo3": 33,
+          "largestPotential": {
+            "teams": [
+              "The MongolZ",
+              "Astralis"
+            ],
+            "base": 0.54020823,
+            "adjusted": 0.55266948,
+            "delta": 0.01246125
+          },
+          "largestPlayed": {
+            "winner": "3DMAX",
+            "loser": "FUT",
+            "base": 0.31742961,
+            "adjusted": 0.32825802,
+            "delta": 0.01082841
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,3204 @@
+{
+  "id": "astana-2025",
+  "end": "2025-05-14",
+  "entrants": [
+    "Spirit",
+    "The MongolZ",
+    "Aurora",
+    "G2",
+    "Natus Vincere",
+    "Astralis",
+    "paiN",
+    "Virtus.pro",
+    "GamerLegion",
+    "FURIA",
+    "BIG",
+    "MIBR",
+    "M80",
+    "ODDIK",
+    "HOTU",
+    "Ninjas in Pyjamas"
+  ],
+  "matches": [
+    {
+      "id": 2382201,
+      "day": "2025-05-10",
+      "round": 1,
+      "a": 2,
+      "b": 10,
+      "w": 10,
+      "l": 2,
+      "teams": [
+        "Aurora",
+        "BIG"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "rosterB": [
+        "hyped",
+        "JDC",
+        "Krimbo",
+        "kyuubii",
+        "tabseN"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          11
+        ],
+        [
+          "Inferno",
+          11,
+          13
+        ],
+        [
+          "Dust2",
+          8,
+          13
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Anubis"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          null,
+          "left",
+          "Dust2"
+        ]
+      ],
+      "planned": [
+        "Mirage",
+        "Inferno",
+        "Dust2"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382201/aurora-vs-big-pgl-astana-2025"
+    },
+    {
+      "id": 2382202,
+      "day": "2025-05-10",
+      "round": 1,
+      "a": 5,
+      "b": 13,
+      "w": 5,
+      "l": 13,
+      "teams": [
+        "Astralis",
+        "ODDIK"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "device",
+        "HooXi",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "rosterB": [
+        "ksloks",
+        "matios",
+        "naitte",
+        "pancc",
+        "WOOD7"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Dust2",
+          13,
+          9
+        ],
+        [
+          "Ancient",
+          2,
+          13
+        ],
+        [
+          "Inferno",
+          13,
+          7
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Anubis"
+        ],
+        [
+          "b",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "pick",
+          "Ancient"
+        ],
+        [
+          "a",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          null,
+          "left",
+          "Inferno"
+        ]
+      ],
+      "planned": [
+        "Dust2",
+        "Ancient",
+        "Inferno"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382202/astralis-vs-oddik-pgl-astana-2025"
+    },
+    {
+      "id": 2382204,
+      "day": "2025-05-10",
+      "round": 1,
+      "a": 3,
+      "b": 11,
+      "w": 11,
+      "l": 3,
+      "teams": [
+        "G2",
+        "MIBR"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "hades",
+        "HeavyGod",
+        "malbsMd",
+        "Snax",
+        "TaZ"
+      ],
+      "rosterB": [
+        "brnz4n",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Anubis",
+          7,
+          13
+        ],
+        [
+          "Ancient",
+          13,
+          8
+        ],
+        [
+          "Nuke",
+          11,
+          13
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "pick",
+          "Anubis"
+        ],
+        [
+          "a",
+          "pick",
+          "Ancient"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "ban",
+          "Inferno"
+        ],
+        [
+          null,
+          "left",
+          "Nuke"
+        ]
+      ],
+      "planned": [
+        "Anubis",
+        "Ancient",
+        "Nuke"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382204/g2-vs-mibr-pgl-astana-2025"
+    },
+    {
+      "id": 2382203,
+      "day": "2025-05-10",
+      "round": 1,
+      "a": 1,
+      "b": 9,
+      "w": 1,
+      "l": 9,
+      "teams": [
+        "The MongolZ",
+        "FURIA"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "rosterB": [
+        "FalleN",
+        "KSCERATO",
+        "molodoy",
+        "YEKINDAR",
+        "yuurih"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          4
+        ],
+        [
+          "Anubis",
+          7,
+          13
+        ],
+        [
+          "Inferno",
+          13,
+          9
+        ]
+      ],
+      "steps": [
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "a",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "b",
+          "pick",
+          "Anubis"
+        ],
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Dust2"
+        ],
+        [
+          null,
+          "left",
+          "Inferno"
+        ]
+      ],
+      "planned": [
+        "Mirage",
+        "Anubis",
+        "Inferno"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382203/the-mongolz-vs-furia-pgl-astana-2025"
+    },
+    {
+      "id": 2382206,
+      "day": "2025-05-10",
+      "round": 1,
+      "a": 7,
+      "b": 15,
+      "w": 15,
+      "l": 7,
+      "teams": [
+        "Virtus.pro",
+        "Ninjas in Pyjamas"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "rosterB": [
+        "arrozdoce",
+        "ewjerkz",
+        "r1nkle",
+        "sjuush",
+        "Snappi"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Train",
+          6,
+          13
+        ],
+        [
+          "Dust2",
+          13,
+          11
+        ],
+        [
+          "Ancient",
+          9,
+          13
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "b",
+          "pick",
+          "Train"
+        ],
+        [
+          "a",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "b",
+          "ban",
+          "Anubis"
+        ],
+        [
+          null,
+          "left",
+          "Ancient"
+        ]
+      ],
+      "planned": [
+        "Train",
+        "Dust2",
+        "Ancient"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382206/virtuspro-vs-ninjas-in-pyjamas-pgl-astana-2025"
+    },
+    {
+      "id": 2382205,
+      "day": "2025-05-10",
+      "round": 1,
+      "a": 4,
+      "b": 12,
+      "w": 4,
+      "l": 12,
+      "teams": [
+        "Natus Vincere",
+        "M80"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "jL",
+        "w0nderful"
+      ],
+      "rosterB": [
+        "Lake",
+        "reck",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Dust2",
+          13,
+          4
+        ],
+        [
+          "Mirage",
+          13,
+          7
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Anubis"
+        ],
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          null,
+          "left",
+          "Inferno"
+        ]
+      ],
+      "planned": [
+        "Dust2",
+        "Mirage",
+        "Inferno"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382205/natus-vincere-vs-m80-pgl-astana-2025"
+    },
+    {
+      "id": 2382207,
+      "day": "2025-05-10",
+      "round": 1,
+      "a": 0,
+      "b": 8,
+      "w": 0,
+      "l": 8,
+      "teams": [
+        "Spirit",
+        "GamerLegion"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "chopper",
+        "donk",
+        "magixx",
+        "sh1ro",
+        "zont1x"
+      ],
+      "rosterB": [
+        "PR",
+        "REZ",
+        "sl3nd",
+        "Tauson",
+        "ztr"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          11
+        ],
+        [
+          "Nuke",
+          13,
+          11
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "b",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Anubis"
+        ],
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          null,
+          "left",
+          "Ancient"
+        ]
+      ],
+      "planned": [
+        "Mirage",
+        "Nuke",
+        "Ancient"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382207/spirit-vs-gamerlegion-pgl-astana-2025"
+    },
+    {
+      "id": 2382208,
+      "day": "2025-05-10",
+      "round": 1,
+      "a": 6,
+      "b": 14,
+      "w": 6,
+      "l": 14,
+      "teams": [
+        "paiN",
+        "HOTU"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "biguzera",
+        "dav1deuS",
+        "nqz",
+        "rikz",
+        "snow"
+      ],
+      "rosterB": [
+        "dukefissura",
+        "kade0",
+        "lampada",
+        "mizu",
+        "youka"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          8
+        ],
+        [
+          "Nuke",
+          13,
+          4
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          null,
+          "left",
+          "Anubis"
+        ]
+      ],
+      "planned": [
+        "Mirage",
+        "Nuke",
+        "Anubis"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382208/pain-vs-hotu-pgl-astana-2025"
+    },
+    {
+      "id": 2382219,
+      "day": "2025-05-11",
+      "round": 2,
+      "a": 1,
+      "b": 11,
+      "w": 1,
+      "l": 11,
+      "teams": [
+        "The MongolZ",
+        "MIBR"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "rosterB": [
+        "brnz4n",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          5
+        ],
+        [
+          "Anubis",
+          13,
+          6
+        ]
+      ],
+      "steps": [
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "a",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "b",
+          "pick",
+          "Anubis"
+        ],
+        [
+          "b",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "a",
+          "ban",
+          "Nuke"
+        ],
+        [
+          null,
+          "left",
+          "Inferno"
+        ]
+      ],
+      "planned": [
+        "Mirage",
+        "Anubis",
+        "Inferno"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382219/the-mongolz-vs-mibr-pgl-astana-2025"
+    },
+    {
+      "id": 2382220,
+      "day": "2025-05-11",
+      "round": 2,
+      "a": 7,
+      "b": 12,
+      "w": 7,
+      "l": 12,
+      "teams": [
+        "Virtus.pro",
+        "M80"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "rosterB": [
+        "Lake",
+        "reck",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Ancient",
+          9,
+          13
+        ],
+        [
+          "Mirage",
+          13,
+          8
+        ],
+        [
+          "Inferno",
+          13,
+          10
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "b",
+          "pick",
+          "Ancient"
+        ],
+        [
+          "a",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "ban",
+          "Anubis"
+        ],
+        [
+          null,
+          "left",
+          "Inferno"
+        ]
+      ],
+      "planned": [
+        "Ancient",
+        "Mirage",
+        "Inferno"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382220/virtuspro-vs-m80-pgl-astana-2025"
+    },
+    {
+      "id": 2382221,
+      "day": "2025-05-11",
+      "round": 2,
+      "a": 5,
+      "b": 6,
+      "w": 5,
+      "l": 6,
+      "teams": [
+        "Astralis",
+        "paiN"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "device",
+        "HooXi",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "rosterB": [
+        "biguzera",
+        "dav1deuS",
+        "nqz",
+        "rikz",
+        "snow"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Nuke",
+          13,
+          4
+        ],
+        [
+          "Inferno",
+          13,
+          9
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "a",
+          "ban",
+          "Anubis"
+        ],
+        [
+          "b",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "a",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          null,
+          "left",
+          "Dust2"
+        ]
+      ],
+      "planned": [
+        "Nuke",
+        "Inferno",
+        "Dust2"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382221/astralis-vs-pain-pgl-astana-2025"
+    },
+    {
+      "id": 2382222,
+      "day": "2025-05-11",
+      "round": 2,
+      "a": 8,
+      "b": 9,
+      "w": 9,
+      "l": 8,
+      "teams": [
+        "GamerLegion",
+        "FURIA"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "PR",
+        "REZ",
+        "sl3nd",
+        "Tauson",
+        "ztr"
+      ],
+      "rosterB": [
+        "FalleN",
+        "KSCERATO",
+        "molodoy",
+        "YEKINDAR",
+        "yuurih"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Anubis",
+          9,
+          13
+        ],
+        [
+          "Mirage",
+          13,
+          7
+        ],
+        [
+          "Nuke",
+          9,
+          13
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "a",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "b",
+          "pick",
+          "Anubis"
+        ],
+        [
+          "a",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "ban",
+          "Inferno"
+        ],
+        [
+          null,
+          "left",
+          "Nuke"
+        ]
+      ],
+      "planned": [
+        "Anubis",
+        "Mirage",
+        "Nuke"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382222/gamerlegion-vs-furia-pgl-astana-2025"
+    },
+    {
+      "id": 2382223,
+      "day": "2025-05-11",
+      "round": 2,
+      "a": 4,
+      "b": 10,
+      "w": 4,
+      "l": 10,
+      "teams": [
+        "Natus Vincere",
+        "BIG"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "jL",
+        "w0nderful"
+      ],
+      "rosterB": [
+        "hyped",
+        "JDC",
+        "Krimbo",
+        "kyuubii",
+        "tabseN"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Inferno",
+          13,
+          8
+        ],
+        [
+          "Mirage",
+          13,
+          10
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Anubis"
+        ],
+        [
+          "a",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "b",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "a",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          null,
+          "left",
+          "Ancient"
+        ]
+      ],
+      "planned": [
+        "Inferno",
+        "Mirage",
+        "Ancient"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382223/natus-vincere-vs-big-pgl-astana-2025"
+    },
+    {
+      "id": 2382225,
+      "day": "2025-05-11",
+      "round": 2,
+      "a": 0,
+      "b": 15,
+      "w": 0,
+      "l": 15,
+      "teams": [
+        "Spirit",
+        "Ninjas in Pyjamas"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "chopper",
+        "donk",
+        "magixx",
+        "sh1ro",
+        "zont1x"
+      ],
+      "rosterB": [
+        "arrozdoce",
+        "ewjerkz",
+        "r1nkle",
+        "sjuush",
+        "Snappi"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Train",
+          16,
+          13
+        ],
+        [
+          "Dust2",
+          13,
+          4
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "b",
+          "pick",
+          "Train"
+        ],
+        [
+          "a",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "ban",
+          "Anubis"
+        ],
+        [
+          null,
+          "left",
+          "Nuke"
+        ]
+      ],
+      "planned": [
+        "Train",
+        "Dust2",
+        "Nuke"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382225/spirit-vs-ninjas-in-pyjamas-pgl-astana-2025"
+    },
+    {
+      "id": 2382224,
+      "day": "2025-05-11",
+      "round": 2,
+      "a": 2,
+      "b": 14,
+      "w": 2,
+      "l": 14,
+      "teams": [
+        "Aurora",
+        "HOTU"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "rosterB": [
+        "dukefissura",
+        "kade0",
+        "lampada",
+        "mizu",
+        "youka"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          9
+        ],
+        [
+          "Anubis",
+          13,
+          16
+        ],
+        [
+          "Nuke",
+          13,
+          11
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "pick",
+          "Anubis"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          null,
+          "left",
+          "Nuke"
+        ]
+      ],
+      "planned": [
+        "Mirage",
+        "Anubis",
+        "Nuke"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382224/aurora-vs-hotu-pgl-astana-2025"
+    },
+    {
+      "id": 2382226,
+      "day": "2025-05-11",
+      "round": 2,
+      "a": 3,
+      "b": 13,
+      "w": 13,
+      "l": 3,
+      "teams": [
+        "G2",
+        "ODDIK"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "hades",
+        "HeavyGod",
+        "malbsMd",
+        "Snax",
+        "TaZ"
+      ],
+      "rosterB": [
+        "ksloks",
+        "matios",
+        "naitte",
+        "pancc",
+        "WOOD7"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Anubis",
+          8,
+          13
+        ],
+        [
+          "Dust2",
+          13,
+          3
+        ],
+        [
+          "Nuke",
+          9,
+          13
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "pick",
+          "Anubis"
+        ],
+        [
+          "a",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "ban",
+          "Inferno"
+        ],
+        [
+          null,
+          "left",
+          "Nuke"
+        ]
+      ],
+      "planned": [
+        "Anubis",
+        "Dust2",
+        "Nuke"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382226/g2-vs-oddik-pgl-astana-2025"
+    },
+    {
+      "id": 2382227,
+      "day": "2025-05-12",
+      "round": 3,
+      "a": 9,
+      "b": 11,
+      "w": 9,
+      "l": 11,
+      "teams": [
+        "FURIA",
+        "MIBR"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "FalleN",
+        "KSCERATO",
+        "molodoy",
+        "YEKINDAR",
+        "yuurih"
+      ],
+      "rosterB": [
+        "brnz4n",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Train",
+          13,
+          4
+        ],
+        [
+          "Anubis",
+          11,
+          13
+        ],
+        [
+          "Inferno",
+          13,
+          8
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "pick",
+          "Train"
+        ],
+        [
+          "a",
+          "pick",
+          "Anubis"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          null,
+          "left",
+          "Inferno"
+        ]
+      ],
+      "planned": [
+        "Train",
+        "Anubis",
+        "Inferno"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382227/furia-vs-mibr-pgl-astana-2025"
+    },
+    {
+      "id": 2382228,
+      "day": "2025-05-12",
+      "round": 3,
+      "a": 10,
+      "b": 7,
+      "w": 7,
+      "l": 10,
+      "teams": [
+        "BIG",
+        "Virtus.pro"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "hyped",
+        "JDC",
+        "Krimbo",
+        "kyuubii",
+        "tabseN"
+      ],
+      "rosterB": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Dust2",
+          9,
+          13
+        ],
+        [
+          "Ancient",
+          3,
+          13
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Anubis"
+        ],
+        [
+          "b",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "pick",
+          "Ancient"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "ban",
+          "Inferno"
+        ],
+        [
+          null,
+          "left",
+          "Mirage"
+        ]
+      ],
+      "planned": [
+        "Dust2",
+        "Ancient",
+        "Mirage"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382228/big-vs-virtuspro-pgl-astana-2025"
+    },
+    {
+      "id": 2382230,
+      "day": "2025-05-12",
+      "round": 3,
+      "a": 6,
+      "b": 13,
+      "w": 13,
+      "l": 6,
+      "teams": [
+        "paiN",
+        "ODDIK"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "biguzera",
+        "dav1deuS",
+        "dgt",
+        "nqz",
+        "snow"
+      ],
+      "rosterB": [
+        "ksloks",
+        "matios",
+        "naitte",
+        "pancc",
+        "WOOD7"
+      ],
+      "overlap": [
+        4,
+        5
+      ],
+      "maps": [
+        [
+          "Anubis",
+          10,
+          13
+        ],
+        [
+          "Nuke",
+          11,
+          13
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "pick",
+          "Anubis"
+        ],
+        [
+          "a",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "ban",
+          "Inferno"
+        ],
+        [
+          null,
+          "left",
+          "Dust2"
+        ]
+      ],
+      "planned": [
+        "Anubis",
+        "Nuke",
+        "Dust2"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382230/pain-vs-oddik-pgl-astana-2025"
+    },
+    {
+      "id": 2382229,
+      "day": "2025-05-12",
+      "round": 3,
+      "a": 15,
+      "b": 2,
+      "w": 2,
+      "l": 15,
+      "teams": [
+        "Ninjas in Pyjamas",
+        "Aurora"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "arrozdoce",
+        "ewjerkz",
+        "r1nkle",
+        "sjuush",
+        "Snappi"
+      ],
+      "rosterB": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Anubis",
+          10,
+          13
+        ],
+        [
+          "Train",
+          13,
+          9
+        ],
+        [
+          "Inferno",
+          8,
+          13
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "pick",
+          "Anubis"
+        ],
+        [
+          "a",
+          "pick",
+          "Train"
+        ],
+        [
+          "a",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          null,
+          "left",
+          "Inferno"
+        ]
+      ],
+      "planned": [
+        "Anubis",
+        "Train",
+        "Inferno"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382229/ninjas-in-pyjamas-vs-aurora-pgl-astana-2025"
+    },
+    {
+      "id": 2382232,
+      "day": "2025-05-12",
+      "round": 3,
+      "a": 8,
+      "b": 14,
+      "w": 14,
+      "l": 8,
+      "teams": [
+        "GamerLegion",
+        "HOTU"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "PR",
+        "REZ",
+        "sl3nd",
+        "Tauson",
+        "ztr"
+      ],
+      "rosterB": [
+        "dukefissura",
+        "kade0",
+        "lampada",
+        "mizu",
+        "youka"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Ancient",
+          9,
+          13
+        ],
+        [
+          "Mirage",
+          6,
+          13
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "b",
+          "pick",
+          "Ancient"
+        ],
+        [
+          "a",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          null,
+          "left",
+          "Anubis"
+        ]
+      ],
+      "planned": [
+        "Ancient",
+        "Mirage",
+        "Anubis"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382232/gamerlegion-vs-hotu-pgl-astana-2025"
+    },
+    {
+      "id": 2382234,
+      "day": "2025-05-12",
+      "round": 3,
+      "a": 12,
+      "b": 3,
+      "w": 3,
+      "l": 12,
+      "teams": [
+        "M80",
+        "G2"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "Lake",
+        "reck",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ],
+      "rosterB": [
+        "hades",
+        "HeavyGod",
+        "malbsMd",
+        "Snax",
+        "TaZ"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Dust2",
+          11,
+          13
+        ],
+        [
+          "Ancient",
+          13,
+          9
+        ],
+        [
+          "Inferno",
+          10,
+          13
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          "a",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "b",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "pick",
+          "Ancient"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "ban",
+          "Anubis"
+        ],
+        [
+          null,
+          "left",
+          "Inferno"
+        ]
+      ],
+      "planned": [
+        "Dust2",
+        "Ancient",
+        "Inferno"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382234/m80-vs-g2-pgl-astana-2025"
+    },
+    {
+      "id": 2382231,
+      "day": "2025-05-12",
+      "round": 3,
+      "a": 1,
+      "b": 4,
+      "w": 1,
+      "l": 4,
+      "teams": [
+        "The MongolZ",
+        "Natus Vincere"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "910",
+        "bLitz",
+        "mzinho",
+        "Senzu",
+        "Techno"
+      ],
+      "rosterB": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "jL",
+        "w0nderful"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Inferno",
+          13,
+          11
+        ],
+        [
+          "Mirage",
+          13,
+          11
+        ]
+      ],
+      "steps": [
+        [
+          "a",
+          "ban",
+          "Train"
+        ],
+        [
+          "b",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "a",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "b",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "b",
+          "ban",
+          "Anubis"
+        ],
+        [
+          "a",
+          "ban",
+          "Nuke"
+        ],
+        [
+          null,
+          "left",
+          "Dust2"
+        ]
+      ],
+      "planned": [
+        "Inferno",
+        "Mirage",
+        "Dust2"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382231/the-mongolz-vs-natus-vincere-pgl-astana-2025"
+    },
+    {
+      "id": 2382233,
+      "day": "2025-05-12",
+      "round": 3,
+      "a": 5,
+      "b": 0,
+      "w": 0,
+      "l": 5,
+      "teams": [
+        "Astralis",
+        "Spirit"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "device",
+        "HooXi",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "rosterB": [
+        "chopper",
+        "donk",
+        "magixx",
+        "sh1ro",
+        "zont1x"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Dust2",
+          7,
+          13
+        ],
+        [
+          "Ancient",
+          5,
+          13
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Anubis"
+        ],
+        [
+          "b",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "pick",
+          "Ancient"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          null,
+          "left",
+          "Nuke"
+        ]
+      ],
+      "planned": [
+        "Dust2",
+        "Ancient",
+        "Nuke"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382233/astralis-vs-spirit-pgl-astana-2025"
+    },
+    {
+      "id": 2382235,
+      "day": "2025-05-13",
+      "round": 4,
+      "a": 9,
+      "b": 13,
+      "w": 9,
+      "l": 13,
+      "teams": [
+        "FURIA",
+        "ODDIK"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "FalleN",
+        "KSCERATO",
+        "molodoy",
+        "YEKINDAR",
+        "yuurih"
+      ],
+      "rosterB": [
+        "ksloks",
+        "matios",
+        "naitte",
+        "pancc",
+        "WOOD7"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Anubis",
+          13,
+          7
+        ],
+        [
+          "Train",
+          13,
+          6
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "pick",
+          "Anubis"
+        ],
+        [
+          "a",
+          "pick",
+          "Train"
+        ],
+        [
+          "a",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "b",
+          "ban",
+          "Inferno"
+        ],
+        [
+          null,
+          "left",
+          "Dust2"
+        ]
+      ],
+      "planned": [
+        "Anubis",
+        "Train",
+        "Dust2"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382235/furia-vs-oddik-pgl-astana-2025"
+    },
+    {
+      "id": 2382236,
+      "day": "2025-05-13",
+      "round": 4,
+      "a": 15,
+      "b": 14,
+      "w": 15,
+      "l": 14,
+      "teams": [
+        "Ninjas in Pyjamas",
+        "HOTU"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "arrozdoce",
+        "ewjerkz",
+        "r1nkle",
+        "sjuush",
+        "Snappi"
+      ],
+      "rosterB": [
+        "dukefissura",
+        "kade0",
+        "lampada",
+        "mizu",
+        "youka"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Ancient",
+          13,
+          10
+        ],
+        [
+          "Nuke",
+          13,
+          7
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "pick",
+          "Ancient"
+        ],
+        [
+          "a",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Anubis"
+        ],
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          null,
+          "left",
+          "Dust2"
+        ]
+      ],
+      "planned": [
+        "Ancient",
+        "Nuke",
+        "Dust2"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382236/ninjas-in-pyjamas-vs-hotu-pgl-astana-2025"
+    },
+    {
+      "id": 2382237,
+      "day": "2025-05-13",
+      "round": 4,
+      "a": 5,
+      "b": 7,
+      "w": 5,
+      "l": 7,
+      "teams": [
+        "Astralis",
+        "Virtus.pro"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "device",
+        "HooXi",
+        "jabbi",
+        "Staehr",
+        "stavn"
+      ],
+      "rosterB": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Dust2",
+          19,
+          17
+        ],
+        [
+          "Inferno",
+          9,
+          13
+        ],
+        [
+          "Ancient",
+          13,
+          9
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Anubis"
+        ],
+        [
+          "b",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          null,
+          "left",
+          "Ancient"
+        ]
+      ],
+      "planned": [
+        "Dust2",
+        "Inferno",
+        "Ancient"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382237/astralis-vs-virtuspro-pgl-astana-2025"
+    },
+    {
+      "id": 2382238,
+      "day": "2025-05-13",
+      "round": 4,
+      "a": 10,
+      "b": 3,
+      "w": 3,
+      "l": 10,
+      "teams": [
+        "BIG",
+        "G2"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "hyped",
+        "JDC",
+        "Krimbo",
+        "kyuubii",
+        "tabseN"
+      ],
+      "rosterB": [
+        "hades",
+        "HeavyGod",
+        "malbsMd",
+        "Snax",
+        "TaZ"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Dust2",
+          7,
+          13
+        ],
+        [
+          "Mirage",
+          4,
+          13
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          "a",
+          "ban",
+          "Anubis"
+        ],
+        [
+          "b",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          null,
+          "left",
+          "Inferno"
+        ]
+      ],
+      "planned": [
+        "Dust2",
+        "Mirage",
+        "Inferno"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382238/big-vs-g2-pgl-astana-2025"
+    },
+    {
+      "id": 2382240,
+      "day": "2025-05-13",
+      "round": 4,
+      "a": 11,
+      "b": 6,
+      "w": 11,
+      "l": 6,
+      "teams": [
+        "MIBR",
+        "paiN"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "brnz4n",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "rosterB": [
+        "biguzera",
+        "dav1deuS",
+        "dgt",
+        "nqz",
+        "snow"
+      ],
+      "overlap": [
+        5,
+        4
+      ],
+      "maps": [
+        [
+          "Train",
+          13,
+          7
+        ],
+        [
+          "Mirage",
+          13,
+          8
+        ]
+      ],
+      "steps": [
+        [
+          "a",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "b",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "a",
+          "pick",
+          "Train"
+        ],
+        [
+          "b",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "b",
+          "ban",
+          "Anubis"
+        ],
+        [
+          "a",
+          "ban",
+          "Nuke"
+        ],
+        [
+          null,
+          "left",
+          "Inferno"
+        ]
+      ],
+      "planned": [
+        "Train",
+        "Mirage",
+        "Inferno"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382240/mibr-vs-pain-pgl-astana-2025"
+    },
+    {
+      "id": 2382239,
+      "day": "2025-05-13",
+      "round": 4,
+      "a": 4,
+      "b": 2,
+      "w": 4,
+      "l": 2,
+      "teams": [
+        "Natus Vincere",
+        "Aurora"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "jL",
+        "w0nderful"
+      ],
+      "rosterB": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Train",
+          13,
+          11
+        ],
+        [
+          "Inferno",
+          13,
+          10
+        ]
+      ],
+      "steps": [
+        [
+          "a",
+          "ban",
+          "Anubis"
+        ],
+        [
+          "b",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "a",
+          "pick",
+          "Train"
+        ],
+        [
+          "b",
+          "pick",
+          "Inferno"
+        ],
+        [
+          "b",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "a",
+          "ban",
+          "Nuke"
+        ],
+        [
+          null,
+          "left",
+          "Dust2"
+        ]
+      ],
+      "planned": [
+        "Train",
+        "Inferno",
+        "Dust2"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382239/natus-vincere-vs-aurora-pgl-astana-2025"
+    },
+    {
+      "id": 2382241,
+      "day": "2025-05-14",
+      "round": 5,
+      "a": 15,
+      "b": 3,
+      "w": 15,
+      "l": 3,
+      "teams": [
+        "Ninjas in Pyjamas",
+        "G2"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "arrozdoce",
+        "ewjerkz",
+        "r1nkle",
+        "sjuush",
+        "Snappi"
+      ],
+      "rosterB": [
+        "hades",
+        "HeavyGod",
+        "malbsMd",
+        "Snax",
+        "TaZ"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Dust2",
+          13,
+          10
+        ],
+        [
+          "Nuke",
+          13,
+          10
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "pick",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "b",
+          "ban",
+          "Anubis"
+        ],
+        [
+          null,
+          "left",
+          "Ancient"
+        ]
+      ],
+      "planned": [
+        "Dust2",
+        "Nuke",
+        "Ancient"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382241/ninjas-in-pyjamas-vs-g2-pgl-astana-2025"
+    },
+    {
+      "id": 2382242,
+      "day": "2025-05-14",
+      "round": 5,
+      "a": 13,
+      "b": 2,
+      "w": 2,
+      "l": 13,
+      "teams": [
+        "ODDIK",
+        "Aurora"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "ksloks",
+        "matios",
+        "naitte",
+        "pancc",
+        "WOOD7"
+      ],
+      "rosterB": [
+        "jottAAA",
+        "MAJ3R",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Dust2",
+          4,
+          13
+        ],
+        [
+          "Anubis",
+          8,
+          13
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Ancient"
+        ],
+        [
+          "a",
+          "ban",
+          "Mirage"
+        ],
+        [
+          "b",
+          "pick",
+          "Dust2"
+        ],
+        [
+          "a",
+          "pick",
+          "Anubis"
+        ],
+        [
+          "a",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          null,
+          "left",
+          "Train"
+        ]
+      ],
+      "planned": [
+        "Dust2",
+        "Anubis",
+        "Train"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382242/oddik-vs-aurora-pgl-astana-2025"
+    },
+    {
+      "id": 2382243,
+      "day": "2025-05-14",
+      "round": 5,
+      "a": 11,
+      "b": 7,
+      "w": 11,
+      "l": 7,
+      "teams": [
+        "MIBR",
+        "Virtus.pro"
+      ],
+      "bo": 3,
+      "played": true,
+      "rosterA": [
+        "brnz4n",
+        "exit",
+        "insani",
+        "Lucaozy",
+        "saffee"
+      ],
+      "rosterB": [
+        "electroNic",
+        "fame",
+        "FL1T",
+        "FL4MUS",
+        "ICY"
+      ],
+      "overlap": [
+        5,
+        5
+      ],
+      "maps": [
+        [
+          "Mirage",
+          13,
+          11
+        ],
+        [
+          "Anubis",
+          5,
+          13
+        ],
+        [
+          "Ancient",
+          13,
+          11
+        ]
+      ],
+      "steps": [
+        [
+          "b",
+          "ban",
+          "Nuke"
+        ],
+        [
+          "a",
+          "ban",
+          "Dust2"
+        ],
+        [
+          "b",
+          "pick",
+          "Mirage"
+        ],
+        [
+          "a",
+          "pick",
+          "Anubis"
+        ],
+        [
+          "a",
+          "ban",
+          "Inferno"
+        ],
+        [
+          "b",
+          "ban",
+          "Train"
+        ],
+        [
+          null,
+          "left",
+          "Ancient"
+        ]
+      ],
+      "planned": [
+        "Mirage",
+        "Anubis",
+        "Ancient"
+      ],
+      "actors": "ABABBA",
+      "sourceUrl": "https://www.hltv.org/matches/2382243/mibr-vs-virtuspro-pgl-astana-2025"
+    }
+  ],
+  "rounds": [
+    [
+      [
+        10,
+        2
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        15,
+        7
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        6,
+        14
+      ]
+    ],
+    [
+      [
+        1,
+        11
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        0,
+        15
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        13,
+        3
+      ]
+    ],
+    [
+      [
+        9,
+        11
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        13,
+        6
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        14,
+        8
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    [
+      [
+        9,
+        13
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        11,
+        6
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    [
+      [
+        15,
+        3
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        11,
+        7
+      ]
+    ]
+  ],
+  "actual": [
+    0,
+    0,
+    1,
+    3,
+    1,
+    1,
+    3,
+    3,
+    2,
+    1,
+    3,
+    1,
+    2,
+    3,
+    3,
+    1
+  ],
+  "matchedByRound": [
+    8,
+    8,
+    8,
+    6,
+    3
+  ],
+  "administrativeMatchIds": [],
+  "archiveSha256": "750b0da45142fc797eddb708698d14d269237e59784d6a1d066eddba0ba31551",
+  "officialScheduleSource": "https://www.pglesports.com/_next/static/chunks/app/cs2/pgl-astana-2025/page-fb7e1b5997285411.js",
+  "officialScheduleSha256": "4930400ca68a6e2942a72007d2f392ad1f882eacb64fa4aca9324c30ede6c7a5"
+}

@@ -1,0 +1,3956 @@
+[
+  {
+    "id": "copenhagen-2024-2",
+    "stage": 2,
+    "asOf": "2024-03-04",
+    "start": "2024-03-21",
+    "source": {
+      "date": "2024-03-04",
+      "published": "2024-03-04T23:55:04Z",
+      "sha": "99a0ba5fff938345d10d500f8b29cd297076573e",
+      "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/commit/99a0ba5fff938345d10d500f8b29cd297076573e",
+      "history": "https://api.github.com/repos/ValveSoftware/counter-strike_regional_standings/commits?until=2024-03-20T23:59:59Z&per_page=1"
+    },
+    "teams": [
+      {
+        "name": "FaZe",
+        "original": 1942,
+        "points": 1942,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Spirit",
+        "original": 1933,
+        "points": 1933,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Vitality",
+        "original": 1822,
+        "points": 1822,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "MOUZ",
+        "original": 1801,
+        "points": 1801,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Complexity",
+        "original": 1434,
+        "points": 1434,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Virtus.pro",
+        "original": 1779,
+        "points": 1779,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Natus Vincere",
+        "original": 1744,
+        "points": 1744,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "G2",
+        "original": 1704,
+        "points": 1704,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "HEROIC",
+        "original": 1433,
+        "points": 1433,
+        "official": null,
+        "priorTeam": "HEROIC",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "1001027",
+            "day": "2024-03-17",
+            "bo": 1,
+            "p": 0.6301499128007679,
+            "y": 1
+          },
+          {
+            "id": "941775",
+            "day": "2024-03-17",
+            "bo": 1,
+            "p": 0.6363802201590499,
+            "y": 1
+          },
+          {
+            "id": "1001794",
+            "day": "2024-03-18",
+            "bo": 3,
+            "p": 0.4675552998027467,
+            "y": 1
+          }
+        ],
+        "delta": 0.269609044,
+        "combinedDelta": 0.269609044,
+        "combinedGames": 3
+      },
+      {
+        "name": "Cloud9",
+        "original": 1520,
+        "points": 1520,
+        "official": null,
+        "priorTeam": "Cloud9",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "1001028",
+            "day": "2024-03-17",
+            "bo": 1,
+            "p": 0.7489923756012851,
+            "y": 1
+          },
+          {
+            "id": "941779",
+            "day": "2024-03-17",
+            "bo": 1,
+            "p": 0.6702127877994832,
+            "y": 1
+          },
+          {
+            "id": "1001792",
+            "day": "2024-03-18",
+            "bo": 3,
+            "p": 0.693163102731983,
+            "y": 1
+          }
+        ],
+        "delta": 0.193104963,
+        "combinedDelta": 0.193104963,
+        "combinedGames": 3
+      },
+      {
+        "name": "Eternal Fire",
+        "original": 1508,
+        "points": 1508,
+        "official": null,
+        "priorTeam": "Eternal Fire",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "1001029",
+            "day": "2024-03-17",
+            "bo": 1,
+            "p": 0.678529523937276,
+            "y": 1
+          },
+          {
+            "id": "941778",
+            "day": "2024-03-17",
+            "bo": 1,
+            "p": 0.5205845872842788,
+            "y": 1
+          },
+          {
+            "id": "1001794",
+            "day": "2024-03-18",
+            "bo": 3,
+            "p": 0.5324447001972533,
+            "y": 0
+          },
+          {
+            "id": "1005006",
+            "day": "2024-03-19",
+            "bo": 3,
+            "p": 0.5346928118305848,
+            "y": 1
+          }
+        ],
+        "delta": 0.148086005,
+        "combinedDelta": 0.148086005,
+        "combinedGames": 4
+      },
+      {
+        "name": "ECSTATIC",
+        "original": 1127,
+        "points": 1127,
+        "official": null,
+        "priorTeam": "ECSTATIC",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "1001022",
+            "day": "2024-03-17",
+            "bo": 1,
+            "p": 0.37304114618504913,
+            "y": 1
+          },
+          {
+            "id": "941779",
+            "day": "2024-03-17",
+            "bo": 1,
+            "p": 0.32978721220051677,
+            "y": 0
+          },
+          {
+            "id": "1001796",
+            "day": "2024-03-18",
+            "bo": 1,
+            "p": 0.5219032605263557,
+            "y": 1
+          },
+          {
+            "id": "1005003",
+            "day": "2024-03-19",
+            "bo": 3,
+            "p": 0.4875433141778165,
+            "y": 1
+          }
+        ],
+        "delta": 0.259291006,
+        "combinedDelta": 0.259291006,
+        "combinedGames": 4
+      },
+      {
+        "name": "paiN",
+        "original": 1048,
+        "points": 1048,
+        "official": null,
+        "priorTeam": "paiN",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "1001029",
+            "day": "2024-03-17",
+            "bo": 1,
+            "p": 0.32147047606272405,
+            "y": 0
+          },
+          {
+            "id": "941776",
+            "day": "2024-03-17",
+            "bo": 1,
+            "p": 0.3525392097558705,
+            "y": 1
+          },
+          {
+            "id": "1001798",
+            "day": "2024-03-18",
+            "bo": 1,
+            "p": 0.3503292232304652,
+            "y": 1
+          },
+          {
+            "id": "1005005",
+            "day": "2024-03-19",
+            "bo": 3,
+            "p": 0.4905366299338292,
+            "y": 1
+          }
+        ],
+        "delta": 0.29997533,
+        "combinedDelta": 0.29997533,
+        "combinedGames": 4
+      },
+      {
+        "name": "Imperial",
+        "original": 1152,
+        "points": 1152,
+        "official": null,
+        "priorTeam": "Imperial",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "1001027",
+            "day": "2024-03-17",
+            "bo": 1,
+            "p": 0.36985008719923207,
+            "y": 0
+          },
+          {
+            "id": "941777",
+            "day": "2024-03-17",
+            "bo": 1,
+            "p": 0.37009938746262006,
+            "y": 1
+          },
+          {
+            "id": "1001799",
+            "day": "2024-03-18",
+            "bo": 1,
+            "p": 0.3690651441556382,
+            "y": 1
+          },
+          {
+            "id": "1005003",
+            "day": "2024-03-19",
+            "bo": 3,
+            "p": 0.5124566858221835,
+            "y": 0
+          },
+          {
+            "id": "1008949",
+            "day": "2024-03-20",
+            "bo": 3,
+            "p": 0.37910971067939836,
+            "y": 1
+          }
+        ],
+        "delta": 0.192068509,
+        "combinedDelta": 0.192068509,
+        "combinedGames": 5
+      },
+      {
+        "name": "The MongolZ",
+        "original": 1433,
+        "points": 1433,
+        "official": null,
+        "priorTeam": "The MongolZ",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "1001022",
+            "day": "2024-03-17",
+            "bo": 1,
+            "p": 0.6269588538149509,
+            "y": 0
+          },
+          {
+            "id": "941778",
+            "day": "2024-03-17",
+            "bo": 1,
+            "p": 0.4794154127157212,
+            "y": 0
+          },
+          {
+            "id": "1001795",
+            "day": "2024-03-18",
+            "bo": 3,
+            "p": 0.6726665422275107,
+            "y": 1
+          },
+          {
+            "id": "1005007",
+            "day": "2024-03-19",
+            "bo": 3,
+            "p": 0.6477962604290063,
+            "y": 1
+          },
+          {
+            "id": "10068626",
+            "day": "2024-03-20",
+            "bo": 3,
+            "p": 0.7114865122006137,
+            "y": 1
+          }
+        ],
+        "delta": -0.026907111,
+        "combinedDelta": -0.026907111,
+        "combinedGames": 5
+      },
+      {
+        "name": "FURIA",
+        "original": 1391,
+        "points": 1391,
+        "official": null,
+        "priorTeam": "FURIA",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "941772",
+            "day": "2024-03-17",
+            "bo": 1,
+            "p": 0.688502347432766,
+            "y": 0
+          },
+          {
+            "id": "1001023",
+            "day": "2024-03-18",
+            "bo": 1,
+            "p": 0.6220432863925461,
+            "y": 0
+          },
+          {
+            "id": "10068526",
+            "day": "2024-03-18",
+            "bo": 3,
+            "p": 0.667811147206497,
+            "y": 1
+          },
+          {
+            "id": "1005002",
+            "day": "2024-03-19",
+            "bo": 3,
+            "p": 0.48236396316433316,
+            "y": 1
+          },
+          {
+            "id": "1008948",
+            "day": "2024-03-20",
+            "bo": 3,
+            "p": 0.625416946400136,
+            "y": 1
+          }
+        ],
+        "delta": -0.016701302,
+        "combinedDelta": -0.016701302,
+        "combinedGames": 5
+      }
+    ]
+  },
+  {
+    "id": "shanghai-2024-2",
+    "stage": 2,
+    "asOf": "2024-11-06",
+    "start": "2024-12-05",
+    "source": {
+      "date": "2024-12-02",
+      "published": "2024-12-02T17:28:02Z",
+      "sha": "c408eada80b0aae06b10da5a90409694f4a5b019",
+      "blob": "40b5ab42ba82f7e435f5d65a01d2fd8c01d93a5b",
+      "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/c408eada80b0aae06b10da5a90409694f4a5b019/invitation/2024/standings_global_2024_12_02.md",
+      "history": "https://api.github.com/repos/ValveSoftware/counter-strike_regional_standings/commits?until=2024-12-04T23:59:59Z&per_page=1"
+    },
+    "teams": [
+      {
+        "name": "G2",
+        "original": 1970,
+        "points": 1963,
+        "official": {
+          "rank": 1,
+          "points": 1963,
+          "club": "G2",
+          "roster": [
+            "huNter-",
+            "m0NESY",
+            "malbsMd",
+            "NiKo",
+            "Snax"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Natus Vincere",
+        "original": 1887,
+        "points": 1842,
+        "official": {
+          "rank": 2,
+          "points": 1842,
+          "club": "Natus Vincere",
+          "roster": [
+            "Aleksib",
+            "b1t",
+            "iM",
+            "jL",
+            "w0nderful"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Vitality",
+        "original": 1817,
+        "points": 1834,
+        "official": {
+          "rank": 3,
+          "points": 1834,
+          "club": "Vitality",
+          "roster": [
+            "apEX",
+            "flameZ",
+            "mezii",
+            "Spinx",
+            "ZywOo"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Spirit",
+        "original": 1843,
+        "points": 1823,
+        "official": {
+          "rank": 4,
+          "points": 1823,
+          "club": "Spirit",
+          "roster": [
+            "chopper",
+            "donk",
+            "magixx",
+            "sh1ro",
+            "zont1x"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "MOUZ",
+        "original": 1678,
+        "points": 1703,
+        "official": {
+          "rank": 6,
+          "points": 1703,
+          "club": "MOUZ",
+          "roster": [
+            "Brollan",
+            "Jimpphat",
+            "siuhy",
+            "torzsi",
+            "xertioN"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "FaZe",
+        "original": 1605,
+        "points": 1636,
+        "official": {
+          "rank": 7,
+          "points": 1636,
+          "club": "FaZe",
+          "roster": [
+            "broky",
+            "frozen",
+            "karrigan",
+            "rain",
+            "ropz"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "HEROIC",
+        "original": 1603,
+        "points": 1635,
+        "official": {
+          "rank": 8,
+          "points": 1635,
+          "club": "HEROIC",
+          "roster": [
+            "degster",
+            "kyxsan",
+            "NertZ",
+            "sjuush",
+            "TeSeS"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "3DMAX",
+        "original": 1367,
+        "points": 1494,
+        "official": {
+          "rank": 13,
+          "points": 1494,
+          "club": "3DMAX",
+          "roster": [
+            "Djoko",
+            "Ex3rcice",
+            "Graviti",
+            "Lucky",
+            "Maka"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "The MongolZ",
+        "original": 1716,
+        "points": 1765,
+        "official": {
+          "rank": 5,
+          "points": 1765,
+          "club": "The MongolZ",
+          "roster": [
+            "910",
+            "bLitz",
+            "mzinho",
+            "Senzu",
+            "Techno"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": "The MongolZ",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "1840705",
+            "day": "2024-11-30",
+            "bo": 1,
+            "p": 0.8090012202893424,
+            "y": 1
+          },
+          {
+            "id": "1845161",
+            "day": "2024-11-30",
+            "bo": 1,
+            "p": 0.7195525726109776,
+            "y": 1
+          },
+          {
+            "id": "1845380",
+            "day": "2024-12-01",
+            "bo": 3,
+            "p": 0.7342285060399233,
+            "y": 1
+          }
+        ],
+        "delta": 0.162784344,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Liquid",
+        "original": 1544,
+        "points": 1599,
+        "official": {
+          "rank": 9,
+          "points": 1599,
+          "club": "Liquid",
+          "roster": [
+            "jks",
+            "NAF",
+            "Twistzz",
+            "ultimate",
+            "YEKINDAR"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": "Liquid",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "1840709",
+            "day": "2024-11-30",
+            "bo": 1,
+            "p": 0.7041500486056452,
+            "y": 1
+          },
+          {
+            "id": "1845160",
+            "day": "2024-11-30",
+            "bo": 1,
+            "p": 0.6807678057631449,
+            "y": 1
+          },
+          {
+            "id": "1845382",
+            "day": "2024-12-01",
+            "bo": 3,
+            "p": 0.6147974069958775,
+            "y": 1
+          }
+        ],
+        "delta": 0.215698659,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "GamerLegion",
+        "original": 1114,
+        "points": 1368,
+        "official": {
+          "rank": 21,
+          "points": 1368,
+          "club": "GamerLegion",
+          "roster": [
+            "FL4MUS",
+            "sl3nd",
+            "Tauson",
+            "volt",
+            "ztr"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": "GamerLegion",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "1840711",
+            "day": "2024-11-30",
+            "bo": 1,
+            "p": 0.3135757746978728,
+            "y": 1
+          },
+          {
+            "id": "1845157",
+            "day": "2024-11-30",
+            "bo": 1,
+            "p": 0.3816111633829903,
+            "y": 1
+          },
+          {
+            "id": "1845380",
+            "day": "2024-12-01",
+            "bo": 3,
+            "p": 0.2657714939600767,
+            "y": 0
+          },
+          {
+            "id": "1846245",
+            "day": "2024-12-02",
+            "bo": 3,
+            "p": 0.5417988309216595,
+            "y": 1
+          }
+        ],
+        "delta": 0.304263813,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "FURIA",
+        "original": 1593,
+        "points": 1559,
+        "official": {
+          "rank": 10,
+          "points": 1559,
+          "club": "FURIA",
+          "roster": [
+            "chelo",
+            "FalleN",
+            "KSCERATO",
+            "skullz",
+            "yuurih"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": "FURIA",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "1840711",
+            "day": "2024-11-30",
+            "bo": 1,
+            "p": 0.6864242253021272,
+            "y": 0
+          },
+          {
+            "id": "1845156",
+            "day": "2024-11-30",
+            "bo": 1,
+            "p": 0.6663707734871406,
+            "y": 1
+          },
+          {
+            "id": "1845384",
+            "day": "2024-12-01",
+            "bo": 1,
+            "p": 0.6859488388165621,
+            "y": 1
+          },
+          {
+            "id": "1846249",
+            "day": "2024-12-02",
+            "bo": 3,
+            "p": 0.5938378375119516,
+            "y": 1
+          }
+        ],
+        "delta": 0.075238477,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "paiN",
+        "original": 1402,
+        "points": 1485,
+        "official": {
+          "rank": 14,
+          "points": 1485,
+          "club": "paiN",
+          "roster": [
+            "biguzera",
+            "kauez",
+            "lux",
+            "nqz",
+            "snow"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": "paiN",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "1840704",
+            "day": "2024-11-30",
+            "bo": 1,
+            "p": 0.5968668546478496,
+            "y": 1
+          },
+          {
+            "id": "1845157",
+            "day": "2024-11-30",
+            "bo": 1,
+            "p": 0.6183888366170097,
+            "y": 0
+          },
+          {
+            "id": "1845383",
+            "day": "2024-12-01",
+            "bo": 1,
+            "p": 0.6431371294930283,
+            "y": 1
+          },
+          {
+            "id": "1846248",
+            "day": "2024-12-02",
+            "bo": 3,
+            "p": 0.5486827706995553,
+            "y": 1
+          }
+        ],
+        "delta": 0.119994986,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Wildcard",
+        "original": 1112,
+        "points": 1312,
+        "official": {
+          "rank": 24,
+          "points": 1312,
+          "club": "Wildcard",
+          "roster": [
+            "JBa",
+            "phzy",
+            "Sonic",
+            "stanislaw",
+            "susp"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": "Wildcard",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "1840706",
+            "day": "2024-11-30",
+            "bo": 1,
+            "p": 0.45838135518775813,
+            "y": 1
+          },
+          {
+            "id": "1845160",
+            "day": "2024-11-30",
+            "bo": 1,
+            "p": 0.3192321942368551,
+            "y": 0
+          },
+          {
+            "id": "1845384",
+            "day": "2024-12-01",
+            "bo": 1,
+            "p": 0.3140511611834379,
+            "y": 0
+          },
+          {
+            "id": "1846246",
+            "day": "2024-12-02",
+            "bo": 3,
+            "p": 0.3490440251557718,
+            "y": 1
+          },
+          {
+            "id": "1847262",
+            "day": "2024-12-03",
+            "bo": 3,
+            "p": 0.5418017904798784,
+            "y": 1
+          }
+        ],
+        "delta": 0.196586987,
+        "combinedDelta": 0.107890049,
+        "combinedGames": 1
+      },
+      {
+        "name": "BIG",
+        "original": 1314,
+        "points": 1434,
+        "official": {
+          "rank": 18,
+          "points": 1434,
+          "club": "BIG",
+          "roster": [
+            "JDC",
+            "Krimbo",
+            "rigoN",
+            "syrsoN",
+            "tabseN"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": "BIG",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "1840707",
+            "day": "2024-11-30",
+            "bo": 1,
+            "p": 0.6402509399653465,
+            "y": 1
+          },
+          {
+            "id": "1845163",
+            "day": "2024-11-30",
+            "bo": 1,
+            "p": 0.5288100212265483,
+            "y": 0
+          },
+          {
+            "id": "1845385",
+            "day": "2024-12-01",
+            "bo": 1,
+            "p": 0.4462414375696264,
+            "y": 1
+          },
+          {
+            "id": "1846249",
+            "day": "2024-12-02",
+            "bo": 3,
+            "p": 0.4061621624880484,
+            "y": 0
+          },
+          {
+            "id": "1847264",
+            "day": "2024-12-03",
+            "bo": 3,
+            "p": 0.46182964252396297,
+            "y": 1
+          }
+        ],
+        "delta": 0.099061382,
+        "combinedDelta": 0.126645738,
+        "combinedGames": 1
+      },
+      {
+        "name": "MIBR",
+        "original": 1172,
+        "points": 1339,
+        "official": {
+          "rank": 22,
+          "points": 1339,
+          "club": "MIBR",
+          "roster": [
+            "drop",
+            "exit",
+            "insani",
+            "Lucaozy",
+            "saffee"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": "MIBR",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "1840710",
+            "day": "2024-11-30",
+            "bo": 1,
+            "p": 0.3661618562065614,
+            "y": 1
+          },
+          {
+            "id": "1845161",
+            "day": "2024-11-30",
+            "bo": 1,
+            "p": 0.2804474273890224,
+            "y": 0
+          },
+          {
+            "id": "1845386",
+            "day": "2024-12-01",
+            "bo": 1,
+            "p": 0.5606763143039348,
+            "y": 0
+          },
+          {
+            "id": "1846250",
+            "day": "2024-12-02",
+            "bo": 3,
+            "p": 0.6242964425451386,
+            "y": 1
+          },
+          {
+            "id": "1847263",
+            "day": "2024-12-03",
+            "bo": 3,
+            "p": 0.44628053665515444,
+            "y": 1
+          }
+        ],
+        "delta": 0.139771341,
+        "combinedDelta": 0.130332858,
+        "combinedGames": 1
+      }
+    ]
+  },
+  {
+    "id": "austin-2025-2",
+    "stage": 2,
+    "asOf": "2025-06-02",
+    "start": "2025-06-07",
+    "source": {
+      "date": "2025-06-02",
+      "published": "2025-06-02T17:58:00Z",
+      "sha": "1ce8398c0be1970319488c23cfd0d4077eaec04a",
+      "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/commit/1ce8398c0be1970319488c23cfd0d4077eaec04a",
+      "history": "https://api.github.com/repos/ValveSoftware/counter-strike_regional_standings/commits?until=2025-06-06T23:59:59Z&per_page=1"
+    },
+    "teams": [
+      {
+        "name": "Falcons",
+        "original": 1888,
+        "points": 1888,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "FaZe",
+        "original": 1609,
+        "points": 1609,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "3DMAX",
+        "original": 1585,
+        "points": 1585,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Virtus.pro",
+        "original": 1452,
+        "points": 1452,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "paiN",
+        "original": 1225,
+        "points": 1225,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "FURIA",
+        "original": 1443,
+        "points": 1443,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "MIBR",
+        "original": 1352,
+        "points": 1352,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "M80",
+        "original": 1029,
+        "points": 1029,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "B8",
+        "original": 1275,
+        "points": 1275,
+        "official": null,
+        "priorTeam": "B8",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "2731602",
+            "day": "2025-06-03",
+            "bo": 1,
+            "p": 0.5563231727393763,
+            "y": 1
+          },
+          {
+            "id": "3036649",
+            "day": "2025-06-03",
+            "bo": 1,
+            "p": 0.4020471372966976,
+            "y": 1
+          },
+          {
+            "id": "3037936",
+            "day": "2025-06-04",
+            "bo": 3,
+            "p": 0.7444222235725515,
+            "y": 1
+          }
+        ],
+        "delta": 0.278127006,
+        "combinedDelta": 0.278127006,
+        "combinedGames": 3
+      },
+      {
+        "name": "HEROIC",
+        "original": 1552,
+        "points": 1552,
+        "official": null,
+        "priorTeam": "HEROIC",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "2731603",
+            "day": "2025-06-03",
+            "bo": 1,
+            "p": 0.8324820565534163,
+            "y": 1
+          },
+          {
+            "id": "3036648",
+            "day": "2025-06-03",
+            "bo": 1,
+            "p": 0.7292394711533149,
+            "y": 1
+          },
+          {
+            "id": "3037937",
+            "day": "2025-06-04",
+            "bo": 3,
+            "p": 0.8232661648089675,
+            "y": 1
+          }
+        ],
+        "delta": 0.137791969,
+        "combinedDelta": 0.137791969,
+        "combinedGames": 3
+      },
+      {
+        "name": "BetBoom",
+        "original": 1102,
+        "points": 1102,
+        "official": null,
+        "priorTeam": "BetBoom",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "2731601",
+            "day": "2025-06-03",
+            "bo": 1,
+            "p": 0.6199893566773406,
+            "y": 1
+          },
+          {
+            "id": "3036647",
+            "day": "2025-06-04",
+            "bo": 1,
+            "p": 0.6895407714152243,
+            "y": 0
+          },
+          {
+            "id": "3037940",
+            "day": "2025-06-04",
+            "bo": 1,
+            "p": 0.7077740733007374,
+            "y": 1
+          },
+          {
+            "id": "3042369",
+            "day": "2025-06-05",
+            "bo": 3,
+            "p": 0.6650727177032261,
+            "y": 1
+          }
+        ],
+        "delta": 0.06522878,
+        "combinedDelta": 0.06522878,
+        "combinedGames": 4
+      },
+      {
+        "name": "OG",
+        "original": 1097,
+        "points": 1097,
+        "official": null,
+        "priorTeam": "OG",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "2731604",
+            "day": "2025-06-03",
+            "bo": 1,
+            "p": 0.4710150931510345,
+            "y": 1
+          },
+          {
+            "id": "3036649",
+            "day": "2025-06-03",
+            "bo": 1,
+            "p": 0.5979528627033024,
+            "y": 0
+          },
+          {
+            "id": "3037938",
+            "day": "2025-06-04",
+            "bo": 1,
+            "p": 0.559106016933901,
+            "y": 1
+          },
+          {
+            "id": "3042372",
+            "day": "2025-06-05",
+            "bo": 3,
+            "p": 0.5927728389770018,
+            "y": 1
+          }
+        ],
+        "delta": 0.156857356,
+        "combinedDelta": 0.156857356,
+        "combinedGames": 4
+      },
+      {
+        "name": "Nemiga",
+        "original": 1045,
+        "points": 1045,
+        "official": null,
+        "priorTeam": "Nemiga",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "2731601",
+            "day": "2025-06-03",
+            "bo": 1,
+            "p": 0.38001064332265944,
+            "y": 0
+          },
+          {
+            "id": "10082169",
+            "day": "2025-06-04",
+            "bo": 1,
+            "p": 0.5644624268686679,
+            "y": 1
+          },
+          {
+            "id": "3037939",
+            "day": "2025-06-04",
+            "bo": 1,
+            "p": 0.5776198807423956,
+            "y": 1
+          },
+          {
+            "id": "3042370",
+            "day": "2025-06-05",
+            "bo": 3,
+            "p": 0.5633967148507799,
+            "y": 1
+          }
+        ],
+        "delta": 0.184197023,
+        "combinedDelta": 0.184197023,
+        "combinedGames": 4
+      },
+      {
+        "name": "Lynn Vision",
+        "original": 1212,
+        "points": 1212,
+        "official": null,
+        "priorTeam": "Lynn Vision",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "2942891",
+            "day": "2025-06-03",
+            "bo": 1,
+            "p": 0.5203347143495088,
+            "y": 1
+          },
+          {
+            "id": "3036645",
+            "day": "2025-06-04",
+            "bo": 1,
+            "p": 0.6048105703161578,
+            "y": 0
+          },
+          {
+            "id": "3037939",
+            "day": "2025-06-04",
+            "bo": 1,
+            "p": 0.4223801192576045,
+            "y": 0
+          },
+          {
+            "id": "3042371",
+            "day": "2025-06-05",
+            "bo": 3,
+            "p": 0.6887709545108311,
+            "y": 1
+          },
+          {
+            "id": "3047857",
+            "day": "2025-06-06",
+            "bo": 3,
+            "p": 0.4985173757350674,
+            "y": 1
+          }
+        ],
+        "delta": 0.051055354,
+        "combinedDelta": 0.051055354,
+        "combinedGames": 5
+      },
+      {
+        "name": "Legacy",
+        "original": 1035,
+        "points": 1035,
+        "official": null,
+        "priorTeam": "Legacy",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "2942891",
+            "day": "2025-06-03",
+            "bo": 1,
+            "p": 0.47966528565049116,
+            "y": 0
+          },
+          {
+            "id": "10082170",
+            "day": "2025-06-04",
+            "bo": 1,
+            "p": 0.6056408457102008,
+            "y": 1
+          },
+          {
+            "id": "3037940",
+            "day": "2025-06-04",
+            "bo": 1,
+            "p": 0.2922259266992626,
+            "y": 0
+          },
+          {
+            "id": "3042373",
+            "day": "2025-06-05",
+            "bo": 3,
+            "p": 0.47377105736952774,
+            "y": 1
+          },
+          {
+            "id": "3047856",
+            "day": "2025-06-06",
+            "bo": 3,
+            "p": 0.6421134409094466,
+            "y": 1
+          }
+        ],
+        "delta": 0.09792324,
+        "combinedDelta": 0.09792324,
+        "combinedGames": 5
+      },
+      {
+        "name": "TYLOO",
+        "original": 1358,
+        "points": 1358,
+        "official": null,
+        "priorTeam": "TYLOO",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "2731600",
+            "day": "2025-06-03",
+            "bo": 1,
+            "p": 0.5539065224249827,
+            "y": 0
+          },
+          {
+            "id": "10082171",
+            "day": "2025-06-04",
+            "bo": 1,
+            "p": 0.5338123830268326,
+            "y": 1
+          },
+          {
+            "id": "3037938",
+            "day": "2025-06-04",
+            "bo": 1,
+            "p": 0.44089398306609895,
+            "y": 0
+          },
+          {
+            "id": "3042374",
+            "day": "2025-06-05",
+            "bo": 3,
+            "p": 0.3911432137090627,
+            "y": 1
+          },
+          {
+            "id": "3047887",
+            "day": "2025-06-06",
+            "bo": 3,
+            "p": 0.63575950105322,
+            "y": 1
+          }
+        ],
+        "delta": 0.085306713,
+        "combinedDelta": 0.085306713,
+        "combinedGames": 5
+      }
+    ]
+  },
+  {
+    "id": "austin-2025-3",
+    "stage": 3,
+    "asOf": "2025-06-02",
+    "start": "2025-06-12",
+    "source": {
+      "date": "2025-06-02",
+      "published": "2025-06-02T17:58:00Z",
+      "sha": "1ce8398c0be1970319488c23cfd0d4077eaec04a",
+      "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/commit/1ce8398c0be1970319488c23cfd0d4077eaec04a",
+      "history": "https://api.github.com/repos/ValveSoftware/counter-strike_regional_standings/commits?until=2025-06-11T23:59:59Z&per_page=1"
+    },
+    "teams": [
+      {
+        "name": "Vitality",
+        "original": 2124,
+        "points": 2124,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "MOUZ",
+        "original": 1922,
+        "points": 1922,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Spirit",
+        "original": 1905,
+        "points": 1905,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "G2",
+        "original": 1636,
+        "points": 1636,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "The MongolZ",
+        "original": 1790,
+        "points": 1790,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Aurora",
+        "original": 1742,
+        "points": 1742,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Natus Vincere",
+        "original": 1632,
+        "points": 1632,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Liquid",
+        "original": 1538,
+        "points": 1538,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Legacy",
+        "original": 1035,
+        "points": 1035,
+        "official": null,
+        "priorTeam": "Legacy",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "3051903",
+            "day": "2025-06-07",
+            "bo": 1,
+            "p": 0.4724349651536335,
+            "y": 1
+          },
+          {
+            "id": "3055358",
+            "day": "2025-06-07",
+            "bo": 1,
+            "p": 0.34102603429833256,
+            "y": 1
+          },
+          {
+            "id": "3055947",
+            "day": "2025-06-08",
+            "bo": 3,
+            "p": 0.29533123753815327,
+            "y": 1
+          }
+        ],
+        "delta": 0.40163177,
+        "combinedDelta": 0.40163177,
+        "combinedGames": 3
+      },
+      {
+        "name": "Virtus.pro",
+        "original": 1452,
+        "points": 1452,
+        "official": null,
+        "priorTeam": "Virtus.pro",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "3051906",
+            "day": "2025-06-07",
+            "bo": 1,
+            "p": 0.4721064196594476,
+            "y": 1
+          },
+          {
+            "id": "3055360",
+            "day": "2025-06-07",
+            "bo": 1,
+            "p": 0.5705284338830483,
+            "y": 1
+          },
+          {
+            "id": "3055946",
+            "day": "2025-06-08",
+            "bo": 3,
+            "p": 0.7526029183248233,
+            "y": 1
+          }
+        ],
+        "delta": 0.258374897,
+        "combinedDelta": 0.258374897,
+        "combinedGames": 3
+      },
+      {
+        "name": "paiN",
+        "original": 1225,
+        "points": 1225,
+        "official": null,
+        "priorTeam": "paiN",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "3051905",
+            "day": "2025-06-07",
+            "bo": 1,
+            "p": 0.3926620072591927,
+            "y": 1
+          },
+          {
+            "id": "3055361",
+            "day": "2025-06-07",
+            "bo": 1,
+            "p": 0.4021658068104549,
+            "y": 1
+          },
+          {
+            "id": "3055946",
+            "day": "2025-06-08",
+            "bo": 3,
+            "p": 0.2473970816751767,
+            "y": 0
+          },
+          {
+            "id": "3058166",
+            "day": "2025-06-09",
+            "bo": 3,
+            "p": 0.38023774999127563,
+            "y": 1
+          }
+        ],
+        "delta": 0.319701077,
+        "combinedDelta": 0.319701077,
+        "combinedGames": 4
+      },
+      {
+        "name": "3DMAX",
+        "original": 1585,
+        "points": 1585,
+        "official": null,
+        "priorTeam": "3DMAX",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "3051907",
+            "day": "2025-06-07",
+            "bo": 1,
+            "p": 0.44518466256161526,
+            "y": 1
+          },
+          {
+            "id": "3055358",
+            "day": "2025-06-07",
+            "bo": 1,
+            "p": 0.6589739657016674,
+            "y": 0
+          },
+          {
+            "id": "3055950",
+            "day": "2025-06-08",
+            "bo": 1,
+            "p": 0.5661500710218474,
+            "y": 1
+          },
+          {
+            "id": "3058164",
+            "day": "2025-06-10",
+            "bo": 3,
+            "p": 0.5272090359578614,
+            "y": 1
+          }
+        ],
+        "delta": 0.161875318,
+        "combinedDelta": 0.161875318,
+        "combinedGames": 4
+      },
+      {
+        "name": "FURIA",
+        "original": 1443,
+        "points": 1443,
+        "official": null,
+        "priorTeam": "FURIA",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "3051904",
+            "day": "2025-06-07",
+            "bo": 1,
+            "p": 0.5464879567043003,
+            "y": 1
+          },
+          {
+            "id": "3055361",
+            "day": "2025-06-07",
+            "bo": 1,
+            "p": 0.5978341931895451,
+            "y": 0
+          },
+          {
+            "id": "3055949",
+            "day": "2025-06-08",
+            "bo": 1,
+            "p": 0.5923965139228432,
+            "y": 1
+          },
+          {
+            "id": "3058163",
+            "day": "2025-06-09",
+            "bo": 3,
+            "p": 0.4432873729456285,
+            "y": 1
+          }
+        ],
+        "delta": 0.165077421,
+        "combinedDelta": 0.165077421,
+        "combinedGames": 4
+      },
+      {
+        "name": "FaZe",
+        "original": 1609,
+        "points": 1609,
+        "official": null,
+        "priorTeam": "FaZe",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "3051908",
+            "day": "2025-06-07",
+            "bo": 1,
+            "p": 0.3622682969951387,
+            "y": 1
+          },
+          {
+            "id": "3055359",
+            "day": "2025-06-07",
+            "bo": 1,
+            "p": 0.5572925676413133,
+            "y": 1
+          },
+          {
+            "id": "3055947",
+            "day": "2025-06-08",
+            "bo": 3,
+            "p": 0.7046687624618467,
+            "y": 0
+          },
+          {
+            "id": "3058164",
+            "day": "2025-06-10",
+            "bo": 3,
+            "p": 0.47279096404213855,
+            "y": 0
+          },
+          {
+            "id": "3062477",
+            "day": "2025-06-10",
+            "bo": 3,
+            "p": 0.6695114331220583,
+            "y": 1
+          }
+        ],
+        "delta": 0.045300967,
+        "combinedDelta": 0.045300967,
+        "combinedGames": 5
+      },
+      {
+        "name": "Nemiga",
+        "original": 1045,
+        "points": 1045,
+        "official": null,
+        "priorTeam": "Nemiga",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "3051905",
+            "day": "2025-06-07",
+            "bo": 1,
+            "p": 0.6073379927408074,
+            "y": 0
+          },
+          {
+            "id": "3055354",
+            "day": "2025-06-08",
+            "bo": 1,
+            "p": 0.5818840480645995,
+            "y": 1
+          },
+          {
+            "id": "3055950",
+            "day": "2025-06-08",
+            "bo": 1,
+            "p": 0.43384992897815255,
+            "y": 0
+          },
+          {
+            "id": "3058167",
+            "day": "2025-06-09",
+            "bo": 3,
+            "p": 0.6417597440560696,
+            "y": 1
+          },
+          {
+            "id": "3062479",
+            "day": "2025-06-10",
+            "bo": 3,
+            "p": 0.21671742037409358,
+            "y": 1
+          }
+        ],
+        "delta": 0.101162201,
+        "combinedDelta": 0.101162201,
+        "combinedGames": 5
+      },
+      {
+        "name": "Lynn Vision",
+        "original": 1212,
+        "points": 1212,
+        "official": null,
+        "priorTeam": "Lynn Vision",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "3051904",
+            "day": "2025-06-07",
+            "bo": 1,
+            "p": 0.4535120432956997,
+            "y": 0
+          },
+          {
+            "id": "3055355",
+            "day": "2025-06-08",
+            "bo": 1,
+            "p": 0.2544063817399591,
+            "y": 1
+          },
+          {
+            "id": "3055951",
+            "day": "2025-06-08",
+            "bo": 1,
+            "p": 0.42829648533496345,
+            "y": 1
+          },
+          {
+            "id": "3058166",
+            "day": "2025-06-09",
+            "bo": 3,
+            "p": 0.6197622500087243,
+            "y": 0
+          },
+          {
+            "id": "3062478",
+            "day": "2025-06-10",
+            "bo": 3,
+            "p": 0.3538225934145618,
+            "y": 1
+          }
+        ],
+        "delta": 0.17257389,
+        "combinedDelta": 0.17257389,
+        "combinedGames": 5
+      }
+    ]
+  },
+  {
+    "id": "budapest-2025-2",
+    "stage": 2,
+    "asOf": "2025-11-03",
+    "start": "2025-11-29",
+    "source": {
+      "date": "2025-11-03",
+      "published": "2025-11-03T18:33:49Z",
+      "sha": "468a448707996aa7067b8201c5fc77b9b95c247e",
+      "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/commit/468a448707996aa7067b8201c5fc77b9b95c247e",
+      "history": "https://api.github.com/repos/ValveSoftware/counter-strike_regional_standings/commits?until=2025-11-28T23:59:59Z&per_page=1"
+    },
+    "teams": [
+      {
+        "name": "Aurora",
+        "original": 1829,
+        "points": 1829,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Natus Vincere",
+        "original": 1821,
+        "points": 1821,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Liquid",
+        "original": 1730,
+        "points": 1730,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "3DMAX",
+        "original": 1677,
+        "points": 1677,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Astralis",
+        "original": 1613,
+        "points": 1613,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "TYLOO",
+        "original": 1436,
+        "points": 1436,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "MIBR",
+        "original": 1365,
+        "points": 1365,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Passion UA",
+        "original": 1347,
+        "points": 1347,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "M80",
+        "original": 1252,
+        "points": 1252,
+        "official": null,
+        "priorTeam": "M80",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "5462197",
+            "day": "2025-11-24",
+            "bo": 1,
+            "p": 0.3434394988407736,
+            "y": 1
+          },
+          {
+            "id": "5677083",
+            "day": "2025-11-24",
+            "bo": 1,
+            "p": 0.33004615864275,
+            "y": 1
+          },
+          {
+            "id": "5678916",
+            "day": "2025-11-25",
+            "bo": 3,
+            "p": 0.551295687252202,
+            "y": 1
+          }
+        ],
+        "delta": 0.376915267,
+        "combinedDelta": 0.376915267,
+        "combinedGames": 3
+      },
+      {
+        "name": "FlyQuest",
+        "original": 1327,
+        "points": 1327,
+        "official": null,
+        "priorTeam": "FlyQuest",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "5462201",
+            "day": "2025-11-24",
+            "bo": 1,
+            "p": 0.2844748181866369,
+            "y": 1
+          },
+          {
+            "id": "5677085",
+            "day": "2025-11-24",
+            "bo": 1,
+            "p": 0.4497097137768653,
+            "y": 1
+          },
+          {
+            "id": "5678918",
+            "day": "2025-11-25",
+            "bo": 3,
+            "p": 0.5553253639609486,
+            "y": 1
+          }
+        ],
+        "delta": 0.363390581,
+        "combinedDelta": 0.363390581,
+        "combinedGames": 3
+      },
+      {
+        "name": "B8",
+        "original": 1571,
+        "points": 1571,
+        "official": null,
+        "priorTeam": "B8",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "5462197",
+            "day": "2025-11-24",
+            "bo": 1,
+            "p": 0.6565605011592264,
+            "y": 0
+          },
+          {
+            "id": "5677081",
+            "day": "2025-11-24",
+            "bo": 1,
+            "p": 0.7341072934306803,
+            "y": 1
+          },
+          {
+            "id": "5678921",
+            "day": "2025-11-25",
+            "bo": 1,
+            "p": 0.485137416311502,
+            "y": 1
+          },
+          {
+            "id": "5684983",
+            "day": "2025-11-26",
+            "bo": 3,
+            "p": 0.4704522620964019,
+            "y": 1
+          }
+        ],
+        "delta": 0.133165962,
+        "combinedDelta": 0.133165962,
+        "combinedGames": 4
+      },
+      {
+        "name": "fnatic",
+        "original": 1424,
+        "points": 1424,
+        "official": null,
+        "priorTeam": "fnatic",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "5462200",
+            "day": "2025-11-24",
+            "bo": 1,
+            "p": 0.6880427715365154,
+            "y": 1
+          },
+          {
+            "id": "5677080",
+            "day": "2025-11-25",
+            "bo": 1,
+            "p": 0.7206609782520907,
+            "y": 0
+          },
+          {
+            "id": "5678919",
+            "day": "2025-11-25",
+            "bo": 1,
+            "p": 0.630055925576446,
+            "y": 1
+          },
+          {
+            "id": "5684982",
+            "day": "2025-11-26",
+            "bo": 3,
+            "p": 0.684441938056816,
+            "y": 1
+          }
+        ],
+        "delta": 0.057000766,
+        "combinedDelta": 0.057000766,
+        "combinedGames": 4
+      },
+      {
+        "name": "Ninjas in Pyjamas",
+        "original": 1336,
+        "points": 1336,
+        "official": null,
+        "priorTeam": "Ninjas in Pyjamas",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "5462196",
+            "day": "2025-11-24",
+            "bo": 1,
+            "p": 0.5896229402838746,
+            "y": 0
+          },
+          {
+            "id": "5677078",
+            "day": "2025-11-25",
+            "bo": 1,
+            "p": 0.5790283532739358,
+            "y": 1
+          },
+          {
+            "id": "5678920",
+            "day": "2025-11-25",
+            "bo": 1,
+            "p": 0.36141058337098986,
+            "y": 1
+          },
+          {
+            "id": "5684936",
+            "day": "2025-11-26",
+            "bo": 3,
+            "p": 0.6316323674558026,
+            "y": 1
+          }
+        ],
+        "delta": 0.169677879,
+        "combinedDelta": 0.169677879,
+        "combinedGames": 4
+      },
+      {
+        "name": "PARIVISION",
+        "original": 1420,
+        "points": 1420,
+        "official": null,
+        "priorTeam": "PARIVISION",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "5462198",
+            "day": "2025-11-24",
+            "bo": 1,
+            "p": 0.7454761402770662,
+            "y": 1
+          },
+          {
+            "id": "5677083",
+            "day": "2025-11-24",
+            "bo": 1,
+            "p": 0.66995384135725,
+            "y": 0
+          },
+          {
+            "id": "5678921",
+            "day": "2025-11-25",
+            "bo": 1,
+            "p": 0.514862583688498,
+            "y": 0
+          },
+          {
+            "id": "5685029",
+            "day": "2025-11-26",
+            "bo": 3,
+            "p": 0.5111079032441801,
+            "y": 1
+          },
+          {
+            "id": "5692350",
+            "day": "2025-11-27",
+            "bo": 3,
+            "p": 0.4845938834802105,
+            "y": 1
+          }
+        ],
+        "delta": 0.01434492,
+        "combinedDelta": 0.01434492,
+        "combinedGames": 5
+      },
+      {
+        "name": "Imperial",
+        "original": 1336,
+        "points": 1336,
+        "official": null,
+        "priorTeam": "Imperial",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "5462194",
+            "day": "2025-11-24",
+            "bo": 1,
+            "p": 0.6542973248153839,
+            "y": 1
+          },
+          {
+            "id": "5677085",
+            "day": "2025-11-24",
+            "bo": 1,
+            "p": 0.5502902862231347,
+            "y": 0
+          },
+          {
+            "id": "5678919",
+            "day": "2025-11-25",
+            "bo": 1,
+            "p": 0.36994407442355404,
+            "y": 0
+          },
+          {
+            "id": "5685030",
+            "day": "2025-11-26",
+            "bo": 3,
+            "p": 0.6310597613522438,
+            "y": 1
+          },
+          {
+            "id": "5692351",
+            "day": "2025-11-27",
+            "bo": 3,
+            "p": 0.575461132404819,
+            "y": 1
+          }
+        ],
+        "delta": 0.042260163,
+        "combinedDelta": 0.042260163,
+        "combinedGames": 5
+      },
+      {
+        "name": "FaZe",
+        "original": 1659,
+        "points": 1659,
+        "official": null,
+        "priorTeam": "FaZe",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "5462199",
+            "day": "2025-11-24",
+            "bo": 1,
+            "p": 0.7139572071394407,
+            "y": 1
+          },
+          {
+            "id": "5677079",
+            "day": "2025-11-25",
+            "bo": 1,
+            "p": 0.7263311265138801,
+            "y": 0
+          },
+          {
+            "id": "5678920",
+            "day": "2025-11-25",
+            "bo": 1,
+            "p": 0.6385894166290101,
+            "y": 0
+          },
+          {
+            "id": "5684981",
+            "day": "2025-11-26",
+            "bo": 3,
+            "p": 0.7263220304832005,
+            "y": 1
+          },
+          {
+            "id": "5692352",
+            "day": "2025-11-27",
+            "bo": 3,
+            "p": 0.7561056032659627,
+            "y": 1
+          }
+        ],
+        "delta": -0.11136628,
+        "combinedDelta": -0.11136628,
+        "combinedGames": 5
+      }
+    ]
+  },
+  {
+    "id": "budapest-2025-3",
+    "stage": 3,
+    "asOf": "2025-11-03",
+    "start": "2025-12-04",
+    "source": {
+      "date": "2025-12-01",
+      "published": "2025-12-01T18:11:40Z",
+      "sha": "6b92cd657bfd7c281a3930a842fe2393b5bdb40b",
+      "blob": "864671e52f2c636b2b38ee287a99753470101555",
+      "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/6b92cd657bfd7c281a3930a842fe2393b5bdb40b/invitation/2025/standings_global_2025_12_01.md",
+      "history": "https://api.github.com/repos/ValveSoftware/counter-strike_regional_standings/commits?until=2025-12-03T23:59:59Z&per_page=1"
+    },
+    "teams": [
+      {
+        "name": "FURIA",
+        "original": 1948,
+        "points": 2001,
+        "official": {
+          "rank": 1,
+          "points": 2001,
+          "club": "FURIA",
+          "roster": [
+            "FalleN",
+            "KSCERATO",
+            "molodoy",
+            "YEKINDAR",
+            "yuurih"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Vitality",
+        "original": 1908,
+        "points": 1883,
+        "official": {
+          "rank": 3,
+          "points": 1883,
+          "club": "Vitality",
+          "roster": [
+            "apEX",
+            "flameZ",
+            "mezii",
+            "ropz",
+            "ZywOo"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Falcons",
+        "original": 1869,
+        "points": 1914,
+        "official": {
+          "rank": 2,
+          "points": 1914,
+          "club": "Falcons",
+          "roster": [
+            "kyousuke",
+            "kyxsan",
+            "m0NESY",
+            "NiKo",
+            "TeSeS"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "The MongolZ",
+        "original": 1859,
+        "points": 1758,
+        "official": {
+          "rank": 6,
+          "points": 1758,
+          "club": "The MongolZ",
+          "roster": [
+            "910",
+            "bLitz",
+            "controlez",
+            "mzinho",
+            "Techno"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "MOUZ",
+        "original": 1795,
+        "points": 1799,
+        "official": {
+          "rank": 5,
+          "points": 1799,
+          "club": "MOUZ",
+          "roster": [
+            "Brollan",
+            "Jimpphat",
+            "Spinx",
+            "torzsi",
+            "xertioN"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Spirit",
+        "original": 1773,
+        "points": 1717,
+        "official": {
+          "rank": 7,
+          "points": 1717,
+          "club": "Spirit",
+          "roster": [
+            "chopper",
+            "donk",
+            "sh1ro",
+            "tN1R",
+            "zweih"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "G2",
+        "original": 1755,
+        "points": 1691,
+        "official": {
+          "rank": 9,
+          "points": 1691,
+          "club": "G2",
+          "roster": [
+            "HeavyGod",
+            "huNter-",
+            "malbsMd",
+            "MATYS",
+            "SunPayus"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "paiN",
+        "original": 1555,
+        "points": 1576,
+        "official": {
+          "rank": 15,
+          "points": 1576,
+          "club": "paiN",
+          "roster": [
+            "biguzera",
+            "dav1deuS",
+            "dgt",
+            "nqz",
+            "snow"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Natus Vincere",
+        "original": 1821,
+        "points": 1690,
+        "official": {
+          "rank": 10,
+          "points": 1690,
+          "club": "Natus Vincere",
+          "roster": [
+            "Aleksib",
+            "b1t",
+            "iM",
+            "makazze",
+            "w0nderful"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": "Natus Vincere",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "5699557",
+            "day": "2025-11-29",
+            "bo": 1,
+            "p": 0.7752617094002386,
+            "y": 1
+          },
+          {
+            "id": "5711844",
+            "day": "2025-11-29",
+            "bo": 1,
+            "p": 0.757323592171096,
+            "y": 1
+          },
+          {
+            "id": "5713293",
+            "day": "2025-11-30",
+            "bo": 3,
+            "p": 0.6356994764486357,
+            "y": 1
+          }
+        ],
+        "delta": 0.182155544,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "FaZe",
+        "original": 1659,
+        "points": 1545,
+        "official": {
+          "rank": 17,
+          "points": 1545,
+          "club": "FaZe",
+          "roster": [
+            "broky",
+            "frozen",
+            "jcobbb",
+            "karrigan",
+            "Twistzz"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": "FaZe",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "5699560",
+            "day": "2025-11-29",
+            "bo": 1,
+            "p": 0.6835106715377511,
+            "y": 1
+          },
+          {
+            "id": "5711842",
+            "day": "2025-11-29",
+            "bo": 1,
+            "p": 0.39816262288071713,
+            "y": 1
+          },
+          {
+            "id": "5713295",
+            "day": "2025-11-30",
+            "bo": 3,
+            "p": 0.6385894166290101,
+            "y": 1
+          }
+        ],
+        "delta": 0.273992493,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "B8",
+        "original": 1571,
+        "points": 1573,
+        "official": {
+          "rank": 16,
+          "points": 1573,
+          "club": "B8",
+          "roster": [
+            "alex666",
+            "esenthial",
+            "headtr1ck",
+            "kensizor",
+            "npl"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": "B8",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "5699556",
+            "day": "2025-11-29",
+            "bo": 1,
+            "p": 0.3717860440346923,
+            "y": 1
+          },
+          {
+            "id": "5711840",
+            "day": "2025-11-29",
+            "bo": 1,
+            "p": 0.5135251265360674,
+            "y": 1
+          },
+          {
+            "id": "5713293",
+            "day": "2025-11-30",
+            "bo": 3,
+            "p": 0.36430052355136433,
+            "y": 0
+          },
+          {
+            "id": "5718843",
+            "day": "2025-12-01",
+            "bo": 3,
+            "p": 0.4392455969877601,
+            "y": 1
+          }
+        ],
+        "delta": 0.263525452,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Imperial",
+        "original": 1336,
+        "points": 1321,
+        "official": {
+          "rank": 32,
+          "points": 1321,
+          "club": "Imperial",
+          "roster": [
+            "chelo",
+            "noway",
+            "skullz",
+            "try",
+            "VINI"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": "Imperial",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "5699555",
+            "day": "2025-11-29",
+            "bo": 1,
+            "p": 0.4860930627848916,
+            "y": 1
+          },
+          {
+            "id": "5711844",
+            "day": "2025-11-29",
+            "bo": 1,
+            "p": 0.24267640782890398,
+            "y": 0
+          },
+          {
+            "id": "5713296",
+            "day": "2025-11-30",
+            "bo": 1,
+            "p": 0.36994407442355404,
+            "y": 1
+          },
+          {
+            "id": "5718845",
+            "day": "2025-12-01",
+            "bo": 3,
+            "p": 0.5208410726614217,
+            "y": 1
+          }
+        ],
+        "delta": 0.279861442,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "PARIVISION",
+        "original": 1420,
+        "points": 1487,
+        "official": {
+          "rank": 19,
+          "points": 1487,
+          "club": "PARIVISION",
+          "roster": [
+            "AW",
+            "BELCHONOKK",
+            "Jame",
+            "nota",
+            "xiELO"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": "PARIVISION",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "5699559",
+            "day": "2025-11-29",
+            "bo": 1,
+            "p": 0.6666746124140868,
+            "y": 0
+          },
+          {
+            "id": "5711839",
+            "day": "2025-11-29",
+            "bo": 1,
+            "p": 0.38836786334023576,
+            "y": 1
+          },
+          {
+            "id": "5713297",
+            "day": "2025-11-30",
+            "bo": 1,
+            "p": 0.3759099073363944,
+            "y": 1
+          },
+          {
+            "id": "5718847",
+            "day": "2025-12-01",
+            "bo": 3,
+            "p": 0.627271092970088,
+            "y": 1
+          }
+        ],
+        "delta": 0.191269713,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Liquid",
+        "original": 1730,
+        "points": 1694,
+        "official": {
+          "rank": 8,
+          "points": 1694,
+          "club": "Liquid",
+          "roster": [
+            "EliGE",
+            "NAF",
+            "NertZ",
+            "siuhy",
+            "ultimate"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": "Liquid",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "5699556",
+            "day": "2025-11-29",
+            "bo": 1,
+            "p": 0.6282139559653077,
+            "y": 0
+          },
+          {
+            "id": "5711839",
+            "day": "2025-11-29",
+            "bo": 1,
+            "p": 0.6116321366597642,
+            "y": 0
+          },
+          {
+            "id": "5713294",
+            "day": "2025-11-30",
+            "bo": 3,
+            "p": 0.740475827399621,
+            "y": 1
+          },
+          {
+            "id": "5718842",
+            "day": "2025-12-01",
+            "bo": 3,
+            "p": 0.7564371379918035,
+            "y": 1
+          },
+          {
+            "id": "5725245",
+            "day": "2025-12-02",
+            "bo": 3,
+            "p": 0.6018672138491391,
+            "y": 1
+          }
+        ],
+        "delta": -0.066417496,
+        "combinedDelta": 0.093961771,
+        "combinedGames": 1
+      },
+      {
+        "name": "Passion UA",
+        "original": 1347,
+        "points": 1380,
+        "official": {
+          "rank": 27,
+          "points": 1380,
+          "club": "Passion UA",
+          "roster": [
+            "Grim",
+            "hallzerk",
+            "JT",
+            "Kvem",
+            "nicx"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": "Passion UA",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "5699560",
+            "day": "2025-11-29",
+            "bo": 1,
+            "p": 0.31648932846224886,
+            "y": 0
+          },
+          {
+            "id": "5711841",
+            "day": "2025-11-29",
+            "bo": 1,
+            "p": 0.4675179994759172,
+            "y": 1
+          },
+          {
+            "id": "5713298",
+            "day": "2025-11-30",
+            "bo": 1,
+            "p": 0.29445229561163677,
+            "y": 0
+          },
+          {
+            "id": "5718846",
+            "day": "2025-12-01",
+            "bo": 3,
+            "p": 0.3532464218620238,
+            "y": 1
+          },
+          {
+            "id": "5725246",
+            "day": "2025-12-02",
+            "bo": 3,
+            "p": 0.49946018722298197,
+            "y": 1
+          }
+        ],
+        "delta": 0.206585733,
+        "combinedDelta": 0.11778164,
+        "combinedGames": 1
+      },
+      {
+        "name": "3DMAX",
+        "original": 1677,
+        "points": 1589,
+        "official": {
+          "rank": 14,
+          "points": 1589,
+          "club": "3DMAX",
+          "roster": [
+            "bodyy",
+            "Ex3rcice",
+            "Graviti",
+            "Lucky",
+            "Maka"
+          ],
+          "overlap": 5
+        },
+        "priorTeam": "3DMAX",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "10087710",
+            "day": "2025-11-29",
+            "bo": 1,
+            "p": 0.5703357810608044,
+            "y": 0
+          },
+          {
+            "id": "5711845",
+            "day": "2025-11-29",
+            "bo": 1,
+            "p": 0.7136408163769643,
+            "y": 1
+          },
+          {
+            "id": "5713298",
+            "day": "2025-11-30",
+            "bo": 1,
+            "p": 0.7055477043883632,
+            "y": 1
+          },
+          {
+            "id": "5718843",
+            "day": "2025-12-01",
+            "bo": 3,
+            "p": 0.5607544030122399,
+            "y": 0
+          },
+          {
+            "id": "5725244",
+            "day": "2025-12-02",
+            "bo": 3,
+            "p": 0.6622246222588197,
+            "y": 1
+          }
+        ],
+        "delta": -0.041395851,
+        "combinedDelta": 0.080028281,
+        "combinedGames": 1
+      }
+    ]
+  },
+  {
+    "id": "cologne-2026-2",
+    "stage": 2,
+    "asOf": "2026-06-01",
+    "start": "2026-06-06",
+    "source": {
+      "date": "2026-06-01",
+      "published": "2026-06-01T17:15:49Z",
+      "sha": "510968f54723dcb698ad3b04d396140fc263c239",
+      "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/commit/510968f54723dcb698ad3b04d396140fc263c239",
+      "history": "https://api.github.com/repos/ValveSoftware/counter-strike_regional_standings/commits?until=2026-06-05T23:59:59Z&per_page=1"
+    },
+    "teams": [
+      {
+        "name": "FUT",
+        "original": 1694,
+        "points": 1694,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Spirit",
+        "original": 1990,
+        "points": 1990,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Astralis",
+        "original": 1721,
+        "points": 1721,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "G2",
+        "original": 1683,
+        "points": 1683,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Legacy",
+        "original": 1856,
+        "points": 1856,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "paiN",
+        "original": 1549,
+        "points": 1549,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Monte",
+        "original": 1517,
+        "points": 1517,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "9z",
+        "original": 1633,
+        "points": 1633,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "B8",
+        "original": 1582,
+        "points": 1582,
+        "official": null,
+        "priorTeam": "B8",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "7301549",
+            "day": "2026-06-02",
+            "bo": 1,
+            "p": 0.6566587875656358,
+            "y": 1
+          },
+          {
+            "id": "7302349",
+            "day": "2026-06-02",
+            "bo": 1,
+            "p": 0.7306658055847447,
+            "y": 1
+          },
+          {
+            "id": "7302373",
+            "day": "2026-06-03",
+            "bo": 3,
+            "p": 0.6199589941641311,
+            "y": 1
+          }
+        ],
+        "delta": 0.214269424,
+        "combinedDelta": 0.214269424,
+        "combinedGames": 3
+      },
+      {
+        "name": "BetBoom",
+        "original": 1562,
+        "points": 1562,
+        "official": null,
+        "priorTeam": "BetBoom",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "7301548",
+            "day": "2026-06-02",
+            "bo": 1,
+            "p": 0.7040139461978996,
+            "y": 1
+          },
+          {
+            "id": "7302345",
+            "day": "2026-06-02",
+            "bo": 1,
+            "p": 0.7180131263497603,
+            "y": 1
+          },
+          {
+            "id": "7302375",
+            "day": "2026-06-03",
+            "bo": 3,
+            "p": 0.4230055351503884,
+            "y": 1
+          }
+        ],
+        "delta": 0.249131571,
+        "combinedDelta": 0.249131571,
+        "combinedGames": 3
+      },
+      {
+        "name": "GamerLegion",
+        "original": 1724,
+        "points": 1724,
+        "official": null,
+        "priorTeam": "GamerLegion",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "7301550",
+            "day": "2026-06-02",
+            "bo": 1,
+            "p": 0.8298511105151966,
+            "y": 1
+          },
+          {
+            "id": "7302350",
+            "day": "2026-06-02",
+            "bo": 1,
+            "p": 0.8454217901524178,
+            "y": 1
+          },
+          {
+            "id": "7302375",
+            "day": "2026-06-03",
+            "bo": 3,
+            "p": 0.5769944648496116,
+            "y": 0
+          },
+          {
+            "id": "7302401",
+            "day": "2026-06-04",
+            "bo": 3,
+            "p": 0.6351375531841803,
+            "y": 1
+          }
+        ],
+        "delta": 0.023732649,
+        "combinedDelta": 0.023732649,
+        "combinedGames": 4
+      },
+      {
+        "name": "M80",
+        "original": 1385,
+        "points": 1385,
+        "official": null,
+        "priorTeam": "M80",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "7301546",
+            "day": "2026-06-02",
+            "bo": 1,
+            "p": 0.4388783999203778,
+            "y": 1
+          },
+          {
+            "id": "7302346",
+            "day": "2026-06-02",
+            "bo": 1,
+            "p": 0.5144745934595312,
+            "y": 1
+          },
+          {
+            "id": "7302373",
+            "day": "2026-06-03",
+            "bo": 3,
+            "p": 0.38004100583586886,
+            "y": 0
+          },
+          {
+            "id": "7302398",
+            "day": "2026-06-04",
+            "bo": 3,
+            "p": 0.6760968432889216,
+            "y": 1
+          }
+        ],
+        "delta": 0.200177445,
+        "combinedDelta": 0.200177445,
+        "combinedGames": 4
+      },
+      {
+        "name": "MIBR",
+        "original": 1535,
+        "points": 1535,
+        "official": null,
+        "priorTeam": "MIBR",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "10093592",
+            "day": "2026-06-02",
+            "bo": 1,
+            "p": 0.5889259539053244,
+            "y": 1
+          },
+          {
+            "id": "7301544",
+            "day": "2026-06-02",
+            "bo": 1,
+            "p": 0.6668773027722784,
+            "y": 0
+          },
+          {
+            "id": "7302377",
+            "day": "2026-06-03",
+            "bo": 1,
+            "p": 0.6486408087262858,
+            "y": 1
+          },
+          {
+            "id": "7302400",
+            "day": "2026-06-04",
+            "bo": 3,
+            "p": 0.48045653986113646,
+            "y": 1
+          }
+        ],
+        "delta": 0.124770449,
+        "combinedDelta": 0.124770449,
+        "combinedGames": 4
+      },
+      {
+        "name": "TYLOO",
+        "original": 1395,
+        "points": 1395,
+        "official": null,
+        "priorTeam": "TYLOO",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "10093592",
+            "day": "2026-06-02",
+            "bo": 1,
+            "p": 0.41107404609467557,
+            "y": 0
+          },
+          {
+            "id": "7301549",
+            "day": "2026-06-02",
+            "bo": 1,
+            "p": 0.3433412124343642,
+            "y": 0
+          },
+          {
+            "id": "7302374",
+            "day": "2026-06-03",
+            "bo": 3,
+            "p": 0.4136379872872853,
+            "y": 1
+          },
+          {
+            "id": "7302403",
+            "day": "2026-06-04",
+            "bo": 3,
+            "p": 0.4676297563123926,
+            "y": 1
+          },
+          {
+            "id": "7302427",
+            "day": "2026-06-05",
+            "bo": 3,
+            "p": 0.39405134117386265,
+            "y": 1
+          }
+        ],
+        "delta": 0.186039871,
+        "combinedDelta": 0.186039871,
+        "combinedGames": 5
+      },
+      {
+        "name": "BIG",
+        "original": 1416,
+        "points": 1416,
+        "official": null,
+        "priorTeam": "BIG",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "7301547",
+            "day": "2026-06-02",
+            "bo": 1,
+            "p": 0.672458338592072,
+            "y": 0
+          },
+          {
+            "id": "7302344",
+            "day": "2026-06-02",
+            "bo": 1,
+            "p": 0.6555715144200245,
+            "y": 1
+          },
+          {
+            "id": "7302376",
+            "day": "2026-06-03",
+            "bo": 1,
+            "p": 0.689949077870901,
+            "y": 1
+          },
+          {
+            "id": "7302401",
+            "day": "2026-06-04",
+            "bo": 3,
+            "p": 0.3648624468158197,
+            "y": 0
+          },
+          {
+            "id": "7302425",
+            "day": "2026-06-05",
+            "bo": 3,
+            "p": 0.7406760621306907,
+            "y": 1
+          }
+        ],
+        "delta": -0.024281576,
+        "combinedDelta": -0.024281576,
+        "combinedGames": 5
+      },
+      {
+        "name": "FlyQuest",
+        "original": 1112,
+        "points": 1112,
+        "official": null,
+        "priorTeam": "FlyQuest",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "7301545",
+            "day": "2026-06-02",
+            "bo": 1,
+            "p": 0.26352100286797053,
+            "y": 1
+          },
+          {
+            "id": "7302350",
+            "day": "2026-06-02",
+            "bo": 1,
+            "p": 0.1545782098475822,
+            "y": 0
+          },
+          {
+            "id": "7302379",
+            "day": "2026-06-03",
+            "bo": 1,
+            "p": 0.45309817972495714,
+            "y": 0
+          },
+          {
+            "id": "7302402",
+            "day": "2026-06-04",
+            "bo": 3,
+            "p": 0.4237185708686725,
+            "y": 1
+          },
+          {
+            "id": "7302426",
+            "day": "2026-06-05",
+            "bo": 3,
+            "p": 0.38699520593782555,
+            "y": 1
+          }
+        ],
+        "delta": 0.259043778,
+        "combinedDelta": 0.259043778,
+        "combinedGames": 5
+      }
+    ]
+  },
+  {
+    "id": "cologne-2026-3",
+    "stage": 3,
+    "asOf": "2026-06-01",
+    "start": "2026-06-11",
+    "source": {
+      "date": "2026-06-01",
+      "published": "2026-06-01T17:15:49Z",
+      "sha": "510968f54723dcb698ad3b04d396140fc263c239",
+      "source": "https://github.com/ValveSoftware/counter-strike_regional_standings/commit/510968f54723dcb698ad3b04d396140fc263c239",
+      "history": "https://api.github.com/repos/ValveSoftware/counter-strike_regional_standings/commits?until=2026-06-10T23:59:59Z&per_page=1"
+    },
+    "teams": [
+      {
+        "name": "Vitality",
+        "original": 2024,
+        "points": 2024,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Natus Vincere",
+        "original": 1940,
+        "points": 1940,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Falcons",
+        "original": 1954,
+        "points": 1954,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "The MongolZ",
+        "original": 1763,
+        "points": 1763,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "PARIVISION",
+        "original": 1679,
+        "points": 1679,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "Aurora",
+        "original": 1741,
+        "points": 1741,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "FURIA",
+        "original": 1716,
+        "points": 1716,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "MOUZ",
+        "original": 1859,
+        "points": 1859,
+        "official": null,
+        "priorTeam": null,
+        "previousOverlap": 0,
+        "previousGames": [],
+        "delta": 0,
+        "combinedDelta": 0,
+        "combinedGames": 0
+      },
+      {
+        "name": "FUT",
+        "original": 1694,
+        "points": 1694,
+        "official": null,
+        "priorTeam": "FUT",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "7302463",
+            "day": "2026-06-06",
+            "bo": 1,
+            "p": 0.5822419115336226,
+            "y": 1
+          },
+          {
+            "id": "7302485",
+            "day": "2026-06-06",
+            "bo": 1,
+            "p": 0.7301512311062162,
+            "y": 1
+          },
+          {
+            "id": "7302507",
+            "day": "2026-06-07",
+            "bo": 3,
+            "p": 0.4986318080305683,
+            "y": 1
+          }
+        ],
+        "delta": 0.254548235,
+        "combinedDelta": 0.254548235,
+        "combinedGames": 3
+      },
+      {
+        "name": "Spirit",
+        "original": 1990,
+        "points": 1990,
+        "official": null,
+        "priorTeam": "Spirit",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "7302466",
+            "day": "2026-06-06",
+            "bo": 1,
+            "p": 0.7336848762432414,
+            "y": 1
+          },
+          {
+            "id": "7302478",
+            "day": "2026-06-06",
+            "bo": 1,
+            "p": 0.7992605172948144,
+            "y": 1
+          },
+          {
+            "id": "7302506",
+            "day": "2026-06-07",
+            "bo": 3,
+            "p": 0.7188745520186209,
+            "y": 1
+          }
+        ],
+        "delta": 0.164982063,
+        "combinedDelta": 0.164982063,
+        "combinedGames": 3
+      },
+      {
+        "name": "G2",
+        "original": 1683,
+        "points": 1683,
+        "official": null,
+        "priorTeam": "G2",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "7302464",
+            "day": "2026-06-06",
+            "bo": 1,
+            "p": 0.6991819488830509,
+            "y": 1
+          },
+          {
+            "id": "7302483",
+            "day": "2026-06-06",
+            "bo": 1,
+            "p": 0.6229276662521335,
+            "y": 1
+          },
+          {
+            "id": "7302507",
+            "day": "2026-06-07",
+            "bo": 3,
+            "p": 0.5013681919694317,
+            "y": 0
+          },
+          {
+            "id": "7302526",
+            "day": "2026-06-08",
+            "bo": 3,
+            "p": 0.6319897135288708,
+            "y": 1
+          }
+        ],
+        "delta": 0.110772305,
+        "combinedDelta": 0.110772305,
+        "combinedGames": 4
+      },
+      {
+        "name": "BetBoom",
+        "original": 1562,
+        "points": 1562,
+        "official": null,
+        "priorTeam": "BetBoom",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "7302466",
+            "day": "2026-06-06",
+            "bo": 1,
+            "p": 0.2663151237567586,
+            "y": 0
+          },
+          {
+            "id": "7302479",
+            "day": "2026-06-06",
+            "bo": 1,
+            "p": 0.4230055351503884,
+            "y": 1
+          },
+          {
+            "id": "7302511",
+            "day": "2026-06-07",
+            "bo": 1,
+            "p": 0.6311355015180461,
+            "y": 1
+          },
+          {
+            "id": "7302528",
+            "day": "2026-06-08",
+            "bo": 3,
+            "p": 0.5490125098509557,
+            "y": 1
+          }
+        ],
+        "delta": 0.229703472,
+        "combinedDelta": 0.229703472,
+        "combinedGames": 4
+      },
+      {
+        "name": "9z",
+        "original": 1633,
+        "points": 1633,
+        "official": null,
+        "priorTeam": "9z",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "10093663",
+            "day": "2026-06-06",
+            "bo": 1,
+            "p": 0.801787553778708,
+            "y": 1
+          },
+          {
+            "id": "10093666",
+            "day": "2026-06-06",
+            "bo": 1,
+            "p": 0.4324907686930054,
+            "y": 1
+          },
+          {
+            "id": "7302506",
+            "day": "2026-06-07",
+            "bo": 3,
+            "p": 0.28112544798137906,
+            "y": 0
+          },
+          {
+            "id": "7302527",
+            "day": "2026-06-08",
+            "bo": 3,
+            "p": 0.6869098712911103,
+            "y": 1
+          }
+        ],
+        "delta": 0.165631837,
+        "combinedDelta": 0.165631837,
+        "combinedGames": 4
+      },
+      {
+        "name": "Monte",
+        "original": 1517,
+        "points": 1517,
+        "official": null,
+        "priorTeam": "Monte",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "7302468",
+            "day": "2026-06-06",
+            "bo": 1,
+            "p": 0.5116154542090824,
+            "y": 1
+          },
+          {
+            "id": "7302483",
+            "day": "2026-06-06",
+            "bo": 1,
+            "p": 0.37707233374786653,
+            "y": 0
+          },
+          {
+            "id": "7302513",
+            "day": "2026-06-07",
+            "bo": 1,
+            "p": 0.3192999299260115,
+            "y": 1
+          },
+          {
+            "id": "7302528",
+            "day": "2026-06-08",
+            "bo": 3,
+            "p": 0.4509874901490443,
+            "y": 0
+          },
+          {
+            "id": "7302542",
+            "day": "2026-06-09",
+            "bo": 3,
+            "p": 0.49642655015506354,
+            "y": 1
+          }
+        ],
+        "delta": 0.162110928,
+        "combinedDelta": 0.162110928,
+        "combinedGames": 5
+      },
+      {
+        "name": "B8",
+        "original": 1582,
+        "points": 1582,
+        "official": null,
+        "priorTeam": "B8",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "10093673",
+            "day": "2026-06-06",
+            "bo": 1,
+            "p": 0.6199589941641311,
+            "y": 0
+          },
+          {
+            "id": "7302463",
+            "day": "2026-06-06",
+            "bo": 1,
+            "p": 0.4177580884663774,
+            "y": 0
+          },
+          {
+            "id": "7302509",
+            "day": "2026-06-07",
+            "bo": 3,
+            "p": 0.4110236744942318,
+            "y": 1
+          },
+          {
+            "id": "7302529",
+            "day": "2026-06-08",
+            "bo": 3,
+            "p": 0.5814319812498734,
+            "y": 1
+          },
+          {
+            "id": "7302540",
+            "day": "2026-06-09",
+            "bo": 3,
+            "p": 0.5462909193109442,
+            "y": 1
+          }
+        ],
+        "delta": 0.081291629,
+        "combinedDelta": 0.081291629,
+        "combinedGames": 5
+      },
+      {
+        "name": "Legacy",
+        "original": 1856,
+        "points": 1856,
+        "official": null,
+        "priorTeam": "Legacy",
+        "previousOverlap": 5,
+        "previousGames": [
+          {
+            "id": "10093662",
+            "day": "2026-06-06",
+            "bo": 1,
+            "p": 0.7169225965516336,
+            "y": 0
+          },
+          {
+            "id": "7302482",
+            "day": "2026-06-06",
+            "bo": 1,
+            "p": 0.8644928895331603,
+            "y": 1
+          },
+          {
+            "id": "7302513",
+            "day": "2026-06-07",
+            "bo": 1,
+            "p": 0.6807000700739885,
+            "y": 0
+          },
+          {
+            "id": "7302525",
+            "day": "2026-06-08",
+            "bo": 3,
+            "p": 0.754179172461732,
+            "y": 1
+          },
+          {
+            "id": "7302541",
+            "day": "2026-06-09",
+            "bo": 3,
+            "p": 0.7834104683301933,
+            "y": 1
+          }
+        ],
+        "delta": -0.16228181,
+        "combinedDelta": -0.16228181,
+        "combinedGames": 5
+      }
+    ]
+  }
+]

@@ -1,0 +1,2001 @@
+{
+  "sourceSha256": {
+    "tail_calibration/training.json.gz": "11072635a348e12715aecdc15ea8aef39a18b4cb2ef66d98fa1bd7e32ff4abc1",
+    "tail_calibration/training-releases.json": "3333d6c674d61efb5676c09bc72ccd2f9602f8490d0e3711dc3a1b7eb5a8de9b",
+    "region_vrs_data/tables.json.gz": "807e5aa4cdd2c4217374a2660bbebc5ea46f975e35bf8e200cbe71c9a2aa29af",
+    "elite_opponents/august-global.json": "cd1464e86933acb0e7b2447a3b9d01fc0fd1f6d9dec4dc187f3cd5f958a2b39e",
+    "f1bre_models/elo-data.json.gz": "5e2c5d6af8a1d6af8b4626611aedef9e01d2775556b6259825476d2f9707ffe6",
+    "elite_opponents/field.json": "41812ecd382a980834af8acd861ead038bddfca8d3470269520996fb24d87605",
+    "f1bre_models/major-fields.json": "a581a1d2b0ec658bd8b5c0c4898324a0723d93af0239d57d2ec04a2fd1409e4b"
+  },
+  "coreOrder": [
+    3,
+    4,
+    5
+  ],
+  "fields": {
+    "cluj-2025": {
+      "start": "2025-02-14",
+      "cutoffExclusive": "2025-02-14",
+      "windowStart": "2024-08-18",
+      "rawPopulation": 2173,
+      "excludedHoldout": 0,
+      "teams": {
+        "The MongolZ": {
+          "elite": [
+            0,
+            0,
+            9
+          ],
+          "other": [
+            0,
+            0,
+            16
+          ],
+          "firstInBO3Window": {
+            "day": "2024-09-04",
+            "id": "hltv:2375357",
+            "bo": 3,
+            "event": "ESL Pro League Season 20"
+          },
+          "firstObserved": {
+            "day": "2023-10-28",
+            "id": "hltv:2367448",
+            "bo": 3,
+            "event": "ESL Challenger Jönköping 2023 Asia Closed Qualifier"
+          }
+        },
+        "FaZe": {
+          "elite": [
+            0,
+            13,
+            3
+          ],
+          "other": [
+            0,
+            13,
+            3
+          ],
+          "firstInBO3Window": {
+            "day": "2025-01-16",
+            "id": "hltv:2378214",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-01-16",
+            "id": "hltv:2378214",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          }
+        },
+        "MOUZ": {
+          "elite": [
+            0,
+            8,
+            0
+          ],
+          "other": [
+            0,
+            17,
+            0
+          ],
+          "firstInBO3Window": null,
+          "firstObserved": null
+        },
+        "Falcons": {
+          "elite": [
+            6,
+            0,
+            1
+          ],
+          "other": [
+            21,
+            0,
+            4
+          ],
+          "firstInBO3Window": {
+            "day": "2025-01-15",
+            "id": "hltv:2378210",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-01-15",
+            "id": "hltv:2378210",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          }
+        },
+        "paiN": {
+          "elite": [
+            0,
+            3,
+            2
+          ],
+          "other": [
+            0,
+            19,
+            6
+          ],
+          "firstInBO3Window": {
+            "day": "2025-01-17",
+            "id": "hltv:2378216",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-01-17",
+            "id": "hltv:2378216",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          }
+        },
+        "MIBR": {
+          "elite": [
+            0,
+            3,
+            2
+          ],
+          "other": [
+            0,
+            3,
+            17
+          ],
+          "firstInBO3Window": {
+            "day": "2024-09-25",
+            "id": "hltv:2375780",
+            "bo": 3,
+            "event": "CBCS Masters 2024"
+          },
+          "firstObserved": {
+            "day": "2024-09-25",
+            "id": "hltv:2375780",
+            "bo": 3,
+            "event": "CBCS Masters 2024"
+          }
+        },
+        "3DMAX": {
+          "elite": [
+            0,
+            6,
+            0
+          ],
+          "other": [
+            0,
+            36,
+            1
+          ],
+          "firstInBO3Window": {
+            "day": "2025-02-10",
+            "id": "hltv:2379281",
+            "bo": 3,
+            "event": "IEM Dallas 2025 Europe Closed Qualifier"
+          },
+          "firstObserved": {
+            "day": "2025-02-10",
+            "id": "hltv:2379273",
+            "bo": 3,
+            "event": "IEM Dallas 2025 Europe Closed Qualifier"
+          }
+        },
+        "Eternal Fire": {
+          "elite": [
+            0,
+            5,
+            6
+          ],
+          "other": [
+            0,
+            15,
+            5
+          ],
+          "firstInBO3Window": {
+            "day": "2025-01-16",
+            "id": "hltv:2378213",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-01-16",
+            "id": "hltv:2378213",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          }
+        },
+        "Complexity": {
+          "elite": [
+            5,
+            0,
+            0
+          ],
+          "other": [
+            12,
+            0,
+            3
+          ],
+          "firstInBO3Window": {
+            "day": "2025-01-16",
+            "id": "hltv:2378212",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-01-16",
+            "id": "hltv:2378212",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          }
+        },
+        "SAW": {
+          "elite": [
+            0,
+            1,
+            0
+          ],
+          "other": [
+            13,
+            6,
+            6
+          ],
+          "firstInBO3Window": {
+            "day": "2025-01-15",
+            "id": "hltv:2378209",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-01-15",
+            "id": "hltv:2378209",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          }
+        },
+        "BIG": {
+          "elite": [
+            0,
+            0,
+            2
+          ],
+          "other": [
+            22,
+            0,
+            8
+          ],
+          "firstInBO3Window": {
+            "day": "2025-01-15",
+            "id": "hltv:2378209",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-01-15",
+            "id": "hltv:2378209",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          }
+        },
+        "FlyQuest": {
+          "elite": [
+            0,
+            1,
+            1
+          ],
+          "other": [
+            0,
+            12,
+            3
+          ],
+          "firstInBO3Window": {
+            "day": "2025-01-14",
+            "id": "hltv:2378204",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-01-14",
+            "id": "hltv:2378204",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          }
+        },
+        "Astralis": {
+          "elite": [
+            0,
+            1,
+            7
+          ],
+          "other": [
+            0,
+            6,
+            15
+          ],
+          "firstInBO3Window": {
+            "day": "2024-09-25",
+            "id": "hltv:2375767",
+            "bo": 3,
+            "event": "BLAST Premier Fall Final 2024"
+          },
+          "firstObserved": {
+            "day": "2024-09-25",
+            "id": "hltv:2375767",
+            "bo": 3,
+            "event": "BLAST Premier Fall Final 2024"
+          }
+        },
+        "Wildcard": {
+          "elite": [
+            0,
+            0,
+            1
+          ],
+          "other": [
+            0,
+            3,
+            26
+          ],
+          "firstInBO3Window": {
+            "day": "2024-08-18",
+            "id": "hltv:2374491",
+            "bo": 3,
+            "event": "CCT Season 2 North America Series 2"
+          },
+          "firstObserved": {
+            "day": "2024-07-17",
+            "id": "hltv:2373632",
+            "bo": 1,
+            "event": "ESL Challenger League Season 48 North America"
+          }
+        },
+        "Virtus.pro": {
+          "elite": [
+            2,
+            1,
+            3
+          ],
+          "other": [
+            18,
+            0,
+            5
+          ],
+          "firstInBO3Window": {
+            "day": "2025-01-16",
+            "id": "hltv:2378212",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-01-16",
+            "id": "hltv:2378212",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          }
+        },
+        "Imperial Valkyries": {
+          "elite": [
+            0,
+            0,
+            1
+          ],
+          "other": [
+            0,
+            2,
+            9
+          ],
+          "firstInBO3Window": {
+            "day": "2024-09-04",
+            "id": "hltv:2375459",
+            "bo": 3,
+            "event": "ESL Impact League Season 6 Europe"
+          },
+          "firstObserved": {
+            "day": "2024-02-05",
+            "id": "hltv:2369631",
+            "bo": 3,
+            "event": "YaLLa Compass Spring 2024 Contenders"
+          }
+        }
+      }
+    },
+    "austin-2025-3": {
+      "start": "2025-06-12",
+      "cutoffExclusive": "2025-06-12",
+      "windowStart": "2024-12-14",
+      "rawPopulation": 2567,
+      "excludedHoldout": 40,
+      "teams": {
+        "Vitality": {
+          "elite": [
+            0,
+            0,
+            12
+          ],
+          "other": [
+            0,
+            0,
+            15
+          ],
+          "firstInBO3Window": {
+            "day": "2025-01-15",
+            "id": "hltv:2378211",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-01-15",
+            "id": "hltv:2378211",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          }
+        },
+        "MOUZ": {
+          "elite": [
+            0,
+            1,
+            15
+          ],
+          "other": [
+            0,
+            3,
+            8
+          ],
+          "firstInBO3Window": {
+            "day": "2025-03-07",
+            "id": "hltv:2380042",
+            "bo": 3,
+            "event": "ESL Pro League Season 21"
+          },
+          "firstObserved": {
+            "day": "2025-02-14",
+            "id": "hltv:2379326",
+            "bo": 3,
+            "event": "PGL Cluj-Napoca 2025"
+          }
+        },
+        "Spirit": {
+          "elite": [
+            0,
+            0,
+            13
+          ],
+          "other": [
+            0,
+            0,
+            19
+          ],
+          "firstInBO3Window": {
+            "day": "2024-12-14",
+            "id": "hltv:2377733",
+            "bo": 3,
+            "event": "Perfect World Shanghai Major 2024"
+          },
+          "firstObserved": {
+            "day": "2024-01-18",
+            "id": "hltv:2369221",
+            "bo": 1,
+            "event": "PGL CS2 Major Copenhagen 2024 Europe RMR Closed Qualifier B"
+          }
+        },
+        "G2": {
+          "elite": [
+            1,
+            7,
+            1
+          ],
+          "other": [
+            0,
+            21,
+            3
+          ],
+          "firstInBO3Window": {
+            "day": "2025-05-19",
+            "id": "hltv:2382378",
+            "bo": 3,
+            "event": "IEM Dallas 2025"
+          },
+          "firstObserved": {
+            "day": "2025-05-19",
+            "id": "hltv:2382378",
+            "bo": 3,
+            "event": "IEM Dallas 2025"
+          }
+        },
+        "The MongolZ": {
+          "elite": [
+            0,
+            0,
+            15
+          ],
+          "other": [
+            0,
+            0,
+            19
+          ],
+          "firstInBO3Window": {
+            "day": "2025-02-02",
+            "id": "hltv:2378787",
+            "bo": 3,
+            "event": "IEM Katowice 2025"
+          },
+          "firstObserved": {
+            "day": "2023-10-28",
+            "id": "hltv:2367448",
+            "bo": 3,
+            "event": "ESL Challenger Jönköping 2023 Asia Closed Qualifier"
+          }
+        },
+        "Aurora": {
+          "elite": [
+            0,
+            0,
+            12
+          ],
+          "other": [
+            0,
+            0,
+            31
+          ],
+          "firstInBO3Window": {
+            "day": "2025-01-16",
+            "id": "hltv:2378213",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-01-16",
+            "id": "hltv:2378213",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          }
+        },
+        "Natus Vincere": {
+          "elite": [
+            0,
+            0,
+            12
+          ],
+          "other": [
+            0,
+            0,
+            14
+          ],
+          "firstInBO3Window": {
+            "day": "2025-01-16",
+            "id": "hltv:2378215",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          },
+          "firstObserved": {
+            "day": "2023-11-22",
+            "id": "hltv:2368030",
+            "bo": 3,
+            "event": "BLAST Premier Fall Final 2023"
+          }
+        },
+        "Liquid": {
+          "elite": [
+            0,
+            9,
+            7
+          ],
+          "other": [
+            0,
+            8,
+            4
+          ],
+          "firstInBO3Window": {
+            "day": "2025-04-06",
+            "id": "hltv:2381256",
+            "bo": 3,
+            "event": "PGL Bucharest 2025"
+          },
+          "firstObserved": {
+            "day": "2025-04-06",
+            "id": "hltv:2381256",
+            "bo": 3,
+            "event": "PGL Bucharest 2025"
+          }
+        },
+        "Legacy": {
+          "elite": [
+            0,
+            0,
+            2
+          ],
+          "other": [
+            0,
+            0,
+            36
+          ],
+          "firstInBO3Window": {
+            "day": "2025-01-10",
+            "id": "hltv:2378182",
+            "bo": 3,
+            "event": "Frost and Fire South America Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-01-10",
+            "id": "hltv:2378182",
+            "bo": 3,
+            "event": "Frost and Fire South America Season 1"
+          }
+        },
+        "Virtus.pro": {
+          "elite": [
+            0,
+            1,
+            8
+          ],
+          "other": [
+            0,
+            0,
+            18
+          ],
+          "firstInBO3Window": {
+            "day": "2025-01-16",
+            "id": "hltv:2378212",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-01-16",
+            "id": "hltv:2378212",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          }
+        },
+        "paiN": {
+          "elite": [
+            0,
+            7,
+            1
+          ],
+          "other": [
+            2,
+            15,
+            5
+          ],
+          "firstInBO3Window": {
+            "day": "2025-04-30",
+            "id": "hltv:2381907",
+            "bo": 3,
+            "event": "BLAST Rivals 2025 Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-04-30",
+            "id": "hltv:2381907",
+            "bo": 3,
+            "event": "BLAST Rivals 2025 Season 1"
+          }
+        },
+        "3DMAX": {
+          "elite": [
+            0,
+            1,
+            7
+          ],
+          "other": [
+            0,
+            5,
+            14
+          ],
+          "firstInBO3Window": {
+            "day": "2025-02-10",
+            "id": "hltv:2379281",
+            "bo": 3,
+            "event": "IEM Dallas 2025 Europe Closed Qualifier"
+          },
+          "firstObserved": {
+            "day": "2025-02-10",
+            "id": "hltv:2379273",
+            "bo": 3,
+            "event": "IEM Dallas 2025 Europe Closed Qualifier"
+          }
+        },
+        "FURIA": {
+          "elite": [
+            4,
+            0,
+            4
+          ],
+          "other": [
+            17,
+            0,
+            7
+          ],
+          "firstInBO3Window": {
+            "day": "2025-05-10",
+            "id": "hltv:2382203",
+            "bo": 3,
+            "event": "PGL Astana 2025"
+          },
+          "firstObserved": {
+            "day": "2025-05-10",
+            "id": "hltv:2382203",
+            "bo": 3,
+            "event": "PGL Astana 2025"
+          }
+        },
+        "FaZe": {
+          "elite": [
+            2,
+            8,
+            0
+          ],
+          "other": [
+            0,
+            19,
+            3
+          ],
+          "firstInBO3Window": {
+            "day": "2025-06-08",
+            "id": "hltv:2382575",
+            "bo": 3,
+            "event": "BLAST.tv Austin Major 2025 Stage 2"
+          },
+          "firstObserved": {
+            "day": "2025-06-07",
+            "id": "hltv:2382428",
+            "bo": 1,
+            "event": "BLAST.tv Austin Major 2025 Stage 2"
+          }
+        },
+        "Nemiga": {
+          "elite": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            0,
+            0,
+            40
+          ],
+          "firstInBO3Window": {
+            "day": "2025-01-17",
+            "id": "hltv:2378217",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          },
+          "firstObserved": {
+            "day": "2024-06-04",
+            "id": "hltv:2372815",
+            "bo": 3,
+            "event": "RES Regional Series 5 Europe"
+          }
+        },
+        "Lynn Vision": {
+          "elite": [
+            0,
+            0,
+            1
+          ],
+          "other": [
+            0,
+            2,
+            24
+          ],
+          "firstInBO3Window": {
+            "day": "2025-02-11",
+            "id": "hltv:2379301",
+            "bo": 3,
+            "event": "IEM Dallas 2025 Asia Closed Qualifier"
+          },
+          "firstObserved": {
+            "day": "2025-01-21",
+            "id": "hltv:2378486",
+            "bo": 1,
+            "event": "ESL Challenger League Season 49 Asia-Pacific"
+          }
+        }
+      }
+    },
+    "budapest-2025-3": {
+      "start": "2025-12-04",
+      "cutoffExclusive": "2025-12-04",
+      "windowStart": "2025-06-07",
+      "rawPopulation": 3381,
+      "excludedHoldout": 0,
+      "teams": {
+        "FURIA": {
+          "elite": [
+            0,
+            0,
+            15
+          ],
+          "other": [
+            0,
+            0,
+            31
+          ],
+          "firstInBO3Window": {
+            "day": "2025-06-09",
+            "id": "hltv:2382584",
+            "bo": 3,
+            "event": "BLAST.tv Austin Major 2025 Stage 2"
+          },
+          "firstObserved": {
+            "day": "2025-05-10",
+            "id": "hltv:2382203",
+            "bo": 3,
+            "event": "PGL Astana 2025"
+          }
+        },
+        "Vitality": {
+          "elite": [
+            0,
+            0,
+            17
+          ],
+          "other": [
+            0,
+            0,
+            19
+          ],
+          "firstInBO3Window": {
+            "day": "2025-06-14",
+            "id": "hltv:2382608",
+            "bo": 3,
+            "event": "BLAST.tv Austin Major 2025"
+          },
+          "firstObserved": {
+            "day": "2025-01-15",
+            "id": "hltv:2378211",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          }
+        },
+        "Falcons": {
+          "elite": [
+            0,
+            0,
+            11
+          ],
+          "other": [
+            0,
+            2,
+            14
+          ],
+          "firstInBO3Window": {
+            "day": "2025-07-26",
+            "id": "hltv:2383759",
+            "bo": 3,
+            "event": "IEM Cologne 2025"
+          },
+          "firstObserved": {
+            "day": "2025-07-26",
+            "id": "hltv:2383759",
+            "bo": 3,
+            "event": "IEM Cologne 2025"
+          }
+        },
+        "The MongolZ": {
+          "elite": [
+            0,
+            10,
+            3
+          ],
+          "other": [
+            0,
+            22,
+            4
+          ],
+          "firstInBO3Window": {
+            "day": "2025-11-03",
+            "id": "hltv:2387378",
+            "bo": 3,
+            "event": "IEM Chengdu 2025"
+          },
+          "firstObserved": {
+            "day": "2025-11-03",
+            "id": "hltv:2387378",
+            "bo": 3,
+            "event": "IEM Chengdu 2025"
+          }
+        },
+        "MOUZ": {
+          "elite": [
+            0,
+            0,
+            16
+          ],
+          "other": [
+            0,
+            0,
+            17
+          ],
+          "firstInBO3Window": {
+            "day": "2025-06-13",
+            "id": "hltv:2382602",
+            "bo": 3,
+            "event": "BLAST.tv Austin Major 2025"
+          },
+          "firstObserved": {
+            "day": "2025-02-14",
+            "id": "hltv:2379326",
+            "bo": 3,
+            "event": "PGL Cluj-Napoca 2025"
+          }
+        },
+        "Spirit": {
+          "elite": [
+            2,
+            5,
+            5
+          ],
+          "other": [
+            0,
+            8,
+            6
+          ],
+          "firstInBO3Window": {
+            "day": "2025-10-04",
+            "id": "hltv:2385931",
+            "bo": 3,
+            "event": "ESL Pro League Season 22"
+          },
+          "firstObserved": {
+            "day": "2025-10-04",
+            "id": "hltv:2385931",
+            "bo": 3,
+            "event": "ESL Pro League Season 22"
+          }
+        },
+        "G2": {
+          "elite": [
+            2,
+            1,
+            9
+          ],
+          "other": [
+            0,
+            0,
+            21
+          ],
+          "firstInBO3Window": {
+            "day": "2025-07-26",
+            "id": "hltv:2383758",
+            "bo": 3,
+            "event": "IEM Cologne 2025"
+          },
+          "firstObserved": {
+            "day": "2025-07-26",
+            "id": "hltv:2383758",
+            "bo": 3,
+            "event": "IEM Cologne 2025"
+          }
+        },
+        "paiN": {
+          "elite": [
+            0,
+            0,
+            7
+          ],
+          "other": [
+            0,
+            0,
+            27
+          ],
+          "firstInBO3Window": {
+            "day": "2025-06-08",
+            "id": "hltv:2382576",
+            "bo": 3,
+            "event": "BLAST.tv Austin Major 2025 Stage 2"
+          },
+          "firstObserved": {
+            "day": "2025-04-30",
+            "id": "hltv:2381907",
+            "bo": 3,
+            "event": "BLAST Rivals 2025 Season 1"
+          }
+        },
+        "Natus Vincere": {
+          "elite": [
+            0,
+            3,
+            13
+          ],
+          "other": [
+            0,
+            0,
+            15
+          ],
+          "firstInBO3Window": {
+            "day": "2025-07-26",
+            "id": "hltv:2383762",
+            "bo": 3,
+            "event": "IEM Cologne 2025"
+          },
+          "firstObserved": {
+            "day": "2025-07-26",
+            "id": "hltv:2383762",
+            "bo": 3,
+            "event": "IEM Cologne 2025"
+          }
+        },
+        "FaZe": {
+          "elite": [
+            3,
+            10,
+            1
+          ],
+          "other": [
+            6,
+            6,
+            7
+          ],
+          "firstInBO3Window": {
+            "day": "2025-10-15",
+            "id": "hltv:2386836",
+            "bo": 3,
+            "event": "CS Asia Championships 2025"
+          },
+          "firstObserved": {
+            "day": "2025-10-14",
+            "id": "hltv:2386826",
+            "bo": 1,
+            "event": "CS Asia Championships 2025"
+          }
+        },
+        "B8": {
+          "elite": [
+            0,
+            0,
+            3
+          ],
+          "other": [
+            0,
+            1,
+            24
+          ],
+          "firstInBO3Window": {
+            "day": "2025-06-09",
+            "id": "hltv:2382584",
+            "bo": 3,
+            "event": "BLAST.tv Austin Major 2025 Stage 2"
+          },
+          "firstObserved": {
+            "day": "2025-01-17",
+            "id": "hltv:2378219",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          }
+        },
+        "Imperial": {
+          "elite": [
+            0,
+            0,
+            1
+          ],
+          "other": [
+            0,
+            20,
+            19
+          ],
+          "firstInBO3Window": {
+            "day": "2025-08-28",
+            "id": "hltv:2384811",
+            "bo": 3,
+            "event": "BLAST Open London 2025"
+          },
+          "firstObserved": {
+            "day": "2025-08-28",
+            "id": "hltv:2384811",
+            "bo": 3,
+            "event": "BLAST Open London 2025"
+          }
+        },
+        "PARIVISION": {
+          "elite": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            0,
+            8,
+            40
+          ],
+          "firstInBO3Window": {
+            "day": "2025-07-11",
+            "id": "hltv:2383535",
+            "bo": 3,
+            "event": "Exort The Proving Grounds Season 2"
+          },
+          "firstObserved": {
+            "day": "2025-07-11",
+            "id": "hltv:2383535",
+            "bo": 3,
+            "event": "Exort The Proving Grounds Season 2"
+          }
+        },
+        "Liquid": {
+          "elite": [
+            0,
+            10,
+            1
+          ],
+          "other": [
+            0,
+            11,
+            14
+          ],
+          "firstInBO3Window": {
+            "day": "2025-09-28",
+            "id": "hltv:2386080",
+            "bo": 3,
+            "event": "Birch Cup 2025"
+          },
+          "firstObserved": {
+            "day": "2025-09-27",
+            "id": "hltv:2386061",
+            "bo": 1,
+            "event": "Birch Cup 2025"
+          }
+        },
+        "Passion UA": {
+          "elite": [
+            0,
+            0,
+            3
+          ],
+          "other": [
+            0,
+            6,
+            19
+          ],
+          "firstInBO3Window": {
+            "day": "2025-08-29",
+            "id": "hltv:2384753",
+            "bo": 3,
+            "event": "Digital Crusade DraculaN Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-08-29",
+            "id": "hltv:2384753",
+            "bo": 3,
+            "event": "Digital Crusade DraculaN Season 1"
+          }
+        },
+        "3DMAX": {
+          "elite": [
+            0,
+            0,
+            9
+          ],
+          "other": [
+            0,
+            1,
+            34
+          ],
+          "firstInBO3Window": {
+            "day": "2025-06-09",
+            "id": "hltv:2382583",
+            "bo": 3,
+            "event": "BLAST.tv Austin Major 2025 Stage 2"
+          },
+          "firstObserved": {
+            "day": "2025-02-10",
+            "id": "hltv:2379273",
+            "bo": 3,
+            "event": "IEM Dallas 2025 Europe Closed Qualifier"
+          }
+        }
+      }
+    },
+    "cologne-2026-3": {
+      "start": "2026-06-11",
+      "cutoffExclusive": "2026-06-11",
+      "windowStart": "2025-12-13",
+      "rawPopulation": 2172,
+      "excludedHoldout": 0,
+      "teams": {
+        "Vitality": {
+          "elite": [
+            0,
+            0,
+            9
+          ],
+          "other": [
+            0,
+            0,
+            18
+          ],
+          "firstInBO3Window": {
+            "day": "2025-12-13",
+            "id": "hltv:2388128",
+            "bo": 3,
+            "event": "StarLadder Budapest Major 2025"
+          },
+          "firstObserved": {
+            "day": "2025-01-15",
+            "id": "hltv:2378211",
+            "bo": 3,
+            "event": "BLAST Bounty 2025 Season 1"
+          }
+        },
+        "Natus Vincere": {
+          "elite": [
+            0,
+            0,
+            11
+          ],
+          "other": [
+            0,
+            0,
+            18
+          ],
+          "firstInBO3Window": {
+            "day": "2025-12-13",
+            "id": "hltv:2388129",
+            "bo": 3,
+            "event": "StarLadder Budapest Major 2025"
+          },
+          "firstObserved": {
+            "day": "2025-07-26",
+            "id": "hltv:2383762",
+            "bo": 3,
+            "event": "IEM Cologne 2025"
+          }
+        },
+        "Falcons": {
+          "elite": [
+            1,
+            9,
+            1
+          ],
+          "other": [
+            2,
+            9,
+            6
+          ],
+          "firstInBO3Window": {
+            "day": "2026-05-09",
+            "id": "ektarr:7300883",
+            "bo": 3,
+            "event": "PGL Astana 2026"
+          },
+          "firstObserved": {
+            "day": "2026-05-09",
+            "id": "ektarr:7300883",
+            "bo": 3,
+            "event": "PGL Astana 2026"
+          }
+        },
+        "The MongolZ": {
+          "elite": [
+            0,
+            0,
+            15
+          ],
+          "other": [
+            0,
+            0,
+            16
+          ],
+          "firstInBO3Window": {
+            "day": "2026-01-31",
+            "id": "hltv:2389638",
+            "bo": 3,
+            "event": "IEM Kraków 2026"
+          },
+          "firstObserved": {
+            "day": "2026-01-31",
+            "id": "hltv:2389638",
+            "bo": 3,
+            "event": "IEM Kraków 2026"
+          }
+        },
+        "PARIVISION": {
+          "elite": [
+            0,
+            0,
+            13
+          ],
+          "other": [
+            0,
+            0,
+            22
+          ],
+          "firstInBO3Window": {
+            "day": "2026-01-16",
+            "id": "hltv:2389262",
+            "bo": 3,
+            "event": "BLAST Bounty 2026 Season 1"
+          },
+          "firstObserved": {
+            "day": "2026-01-16",
+            "id": "hltv:2389262",
+            "bo": 3,
+            "event": "BLAST Bounty 2026 Season 1"
+          }
+        },
+        "Aurora": {
+          "elite": [
+            0,
+            0,
+            13
+          ],
+          "other": [
+            0,
+            0,
+            24
+          ],
+          "firstInBO3Window": {
+            "day": "2026-01-13",
+            "id": "hltv:2389255",
+            "bo": 3,
+            "event": "BLAST Bounty 2026 Season 1"
+          },
+          "firstObserved": {
+            "day": "2026-01-13",
+            "id": "hltv:2389255",
+            "bo": 3,
+            "event": "BLAST Bounty 2026 Season 1"
+          }
+        },
+        "FURIA": {
+          "elite": [
+            0,
+            0,
+            11
+          ],
+          "other": [
+            0,
+            0,
+            17
+          ],
+          "firstInBO3Window": {
+            "day": "2026-01-16",
+            "id": "hltv:2389261",
+            "bo": 3,
+            "event": "BLAST Bounty 2026 Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-05-10",
+            "id": "hltv:2382203",
+            "bo": 3,
+            "event": "PGL Astana 2025"
+          }
+        },
+        "MOUZ": {
+          "elite": [
+            0,
+            12,
+            0
+          ],
+          "other": [
+            0,
+            21,
+            0
+          ],
+          "firstInBO3Window": null,
+          "firstObserved": null
+        },
+        "FUT": {
+          "elite": [
+            0,
+            0,
+            9
+          ],
+          "other": [
+            0,
+            0,
+            23
+          ],
+          "firstInBO3Window": {
+            "day": "2026-01-13",
+            "id": "hltv:2389260",
+            "bo": 3,
+            "event": "BLAST Bounty 2026 Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-08-28",
+            "id": "hltv:2384877",
+            "bo": 3,
+            "event": "CCT Season 3 Europe Series 5"
+          }
+        },
+        "Spirit": {
+          "elite": [
+            1,
+            0,
+            7
+          ],
+          "other": [
+            0,
+            0,
+            17
+          ],
+          "firstInBO3Window": {
+            "day": "2026-01-16",
+            "id": "hltv:2389265",
+            "bo": 3,
+            "event": "BLAST Bounty 2026 Season 1"
+          },
+          "firstObserved": {
+            "day": "2026-01-16",
+            "id": "hltv:2389265",
+            "bo": 3,
+            "event": "BLAST Bounty 2026 Season 1"
+          }
+        },
+        "G2": {
+          "elite": [
+            0,
+            10,
+            2
+          ],
+          "other": [
+            0,
+            13,
+            9
+          ],
+          "firstInBO3Window": {
+            "day": "2026-03-30",
+            "id": "ektarr:7282201",
+            "bo": 3,
+            "event": "Roman Imperium Cup VII"
+          },
+          "firstObserved": {
+            "day": "2026-03-29",
+            "id": "ektarr:7159134",
+            "bo": 1,
+            "event": "Roman Imperium Cup VII"
+          }
+        },
+        "BetBoom": {
+          "elite": [
+            0,
+            1,
+            0
+          ],
+          "other": [
+            23,
+            10,
+            1
+          ],
+          "firstInBO3Window": {
+            "day": "2026-06-03",
+            "id": "ektarr:7302375",
+            "bo": 3,
+            "event": "IEM Cologne Major 2026"
+          },
+          "firstObserved": {
+            "day": "2026-06-02",
+            "id": "ektarr:7301548",
+            "bo": 1,
+            "event": "IEM Cologne Major 2026"
+          }
+        },
+        "9z": {
+          "elite": [
+            0,
+            0,
+            6
+          ],
+          "other": [
+            0,
+            1,
+            20
+          ],
+          "firstInBO3Window": {
+            "day": "2026-02-03",
+            "id": "hltv:2389765",
+            "bo": 3,
+            "event": "CCT Season 3 South America Series 8"
+          },
+          "firstObserved": {
+            "day": "2026-01-21",
+            "id": "hltv:2388930",
+            "bo": 3,
+            "event": "IEM Rio 2026 Americas Closed Qualifier"
+          }
+        },
+        "Monte": {
+          "elite": [
+            0,
+            0,
+            5
+          ],
+          "other": [
+            0,
+            0,
+            15
+          ],
+          "firstInBO3Window": {
+            "day": "2026-01-14",
+            "id": "hltv:2389264",
+            "bo": 3,
+            "event": "BLAST Bounty 2026 Season 1"
+          },
+          "firstObserved": {
+            "day": "2026-01-14",
+            "id": "hltv:2389264",
+            "bo": 3,
+            "event": "BLAST Bounty 2026 Season 1"
+          }
+        },
+        "B8": {
+          "elite": [
+            0,
+            0,
+            2
+          ],
+          "other": [
+            0,
+            2,
+            11
+          ],
+          "firstInBO3Window": {
+            "day": "2026-02-14",
+            "id": "hltv:2389953",
+            "bo": 3,
+            "event": "PGL Cluj-Napoca 2026"
+          },
+          "firstObserved": {
+            "day": "2026-02-14",
+            "id": "hltv:2389953",
+            "bo": 3,
+            "event": "PGL Cluj-Napoca 2026"
+          }
+        },
+        "Legacy": {
+          "elite": [
+            0,
+            0,
+            7
+          ],
+          "other": [
+            0,
+            6,
+            13
+          ],
+          "firstInBO3Window": {
+            "day": "2026-03-01",
+            "id": "hltv:2391015",
+            "bo": 3,
+            "event": "ESL Pro League Season 23 Stage 1"
+          },
+          "firstObserved": {
+            "day": "2026-03-01",
+            "id": "hltv:2391015",
+            "bo": 3,
+            "event": "ESL Pro League Season 23 Stage 1"
+          }
+        }
+      }
+    },
+    "singapore": {
+      "start": "2026-11-24",
+      "cutoffExclusive": "2026-11-21",
+      "windowStart": "2026-05-25",
+      "rawPopulation": 545,
+      "excludedHoldout": 0,
+      "teams": {
+        "Ninjas in Pyjamas": {
+          "elite": [
+            0,
+            0,
+            1
+          ],
+          "other": [
+            6,
+            2,
+            9
+          ],
+          "firstInBO3Window": {
+            "day": "2026-09-25",
+            "id": "ektarr:7306521",
+            "bo": 3,
+            "event": "Private Club #1"
+          },
+          "firstObserved": {
+            "day": "2026-09-17",
+            "id": "ektarr:7306070",
+            "bo": 1,
+            "event": "Logitech G Play Connect 2026"
+          }
+        },
+        "PARIVISION": {
+          "elite": [
+            1,
+            2,
+            7
+          ],
+          "other": [
+            2,
+            6,
+            6
+          ],
+          "firstInBO3Window": {
+            "day": "2026-10-03",
+            "id": "ektarr:7309973",
+            "bo": 3,
+            "event": "ESL Pro League Season 24"
+          },
+          "firstObserved": {
+            "day": "2026-10-03",
+            "id": "ektarr:7309973",
+            "bo": 3,
+            "event": "ESL Pro League Season 24"
+          }
+        },
+        "HEROIC": {
+          "elite": [
+            0,
+            0,
+            1
+          ],
+          "other": [
+            2,
+            0,
+            17
+          ],
+          "firstInBO3Window": {
+            "day": "2026-08-09",
+            "id": "ektarr:7304313",
+            "bo": 3,
+            "event": "Esports World Cup 2026 по CS2. Открытая квалификация"
+          },
+          "firstObserved": {
+            "day": "2026-08-09",
+            "id": "ektarr:7304313",
+            "bo": 3,
+            "event": "Esports World Cup 2026 по CS2. Открытая квалификация"
+          }
+        },
+        "FaZe": {
+          "elite": [
+            0,
+            0,
+            5
+          ],
+          "other": [
+            0,
+            1,
+            15
+          ],
+          "firstInBO3Window": {
+            "day": "2026-07-04",
+            "id": "ektarr:7303123",
+            "bo": 3,
+            "event": "XSE Pro League 2026"
+          },
+          "firstObserved": {
+            "day": "2026-07-01",
+            "id": "ektarr:7302572",
+            "bo": 1,
+            "event": "XSE Pro League 2026"
+          }
+        },
+        "Liquid": {
+          "elite": [
+            0,
+            0,
+            6
+          ],
+          "other": [
+            2,
+            0,
+            14
+          ],
+          "firstInBO3Window": {
+            "day": "2026-07-24",
+            "id": "ektarr:7303458",
+            "bo": 3,
+            "event": "BLAST Bounty Summer 2026. Закрытые отборочные"
+          },
+          "firstObserved": {
+            "day": "2026-07-24",
+            "id": "ektarr:7303458",
+            "bo": 3,
+            "event": "BLAST Bounty Summer 2026. Закрытые отборочные"
+          }
+        },
+        "Eternal Fire": {
+          "elite": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            0,
+            1,
+            20
+          ],
+          "firstInBO3Window": {
+            "day": "2026-09-02",
+            "id": "ektarr:7305215",
+            "bo": 3,
+            "event": "IEM Beijing 2026. Закрытая квалификация"
+          },
+          "firstObserved": {
+            "day": "2026-09-02",
+            "id": "ektarr:7305215",
+            "bo": 3,
+            "event": "IEM Beijing 2026. Закрытая квалификация"
+          }
+        },
+        "100 Thieves": {
+          "elite": [
+            0,
+            0,
+            2
+          ],
+          "other": [
+            0,
+            0,
+            11
+          ],
+          "firstInBO3Window": {
+            "day": "2026-07-22",
+            "id": "ektarr:7303456",
+            "bo": 3,
+            "event": "BLAST Bounty Summer 2026. Закрытые отборочные"
+          },
+          "firstObserved": {
+            "day": "2026-07-22",
+            "id": "ektarr:7303456",
+            "bo": 3,
+            "event": "BLAST Bounty Summer 2026. Закрытые отборочные"
+          }
+        },
+        "9z": {
+          "elite": [
+            0,
+            12,
+            0
+          ],
+          "other": [
+            0,
+            15,
+            0
+          ],
+          "firstInBO3Window": null,
+          "firstObserved": null,
+          "publicRosterCheck": {
+            "announcementDay": "2026-11-07",
+            "mostRecentListedMatchDay": "2026-11-03",
+            "firstScheduledAfterChange": "2026-11-24",
+            "fullFivePublicWitness": null,
+            "sourceUrl": "https://www.hltv.org/news/45940/9z-bench-meyern-add-history-as-major-stand-in",
+            "fixtureUrl": "https://www.hltv.org/team/9996/9z",
+            "asOf": "2026-11-21"
+          }
+        },
+        "M80": {
+          "elite": [
+            0,
+            0,
+            5
+          ],
+          "other": [
+            0,
+            0,
+            6
+          ],
+          "firstInBO3Window": {
+            "day": "2026-06-03",
+            "id": "ektarr:7302373",
+            "bo": 3,
+            "event": "IEM Cologne Major 2026"
+          },
+          "firstObserved": {
+            "day": "2026-01-03",
+            "id": "hltv:2388958",
+            "bo": 3,
+            "event": "Fragadelphia Miami 2026"
+          }
+        },
+        "DENDELE": {
+          "elite": [
+            0,
+            0,
+            4
+          ],
+          "other": [
+            0,
+            0,
+            7
+          ],
+          "firstInBO3Window": {
+            "day": "2026-06-28",
+            "id": "ektarr:7303014",
+            "bo": 3,
+            "event": "Super DraculaN Season 1"
+          },
+          "firstObserved": {
+            "day": "2025-09-10",
+            "id": "hltv:2385365",
+            "bo": 3,
+            "event": "ESL Challenger League Season 50 South America Cup 2"
+          }
+        },
+        "Imperial": {
+          "elite": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            0,
+            0,
+            1
+          ],
+          "firstInBO3Window": {
+            "day": "2026-09-11",
+            "id": "ektarr:7306254",
+            "bo": 3,
+            "event": "PGL Masters Bucharest 2026. Закрытые отборочные"
+          },
+          "firstObserved": {
+            "day": "2026-09-11",
+            "id": "ektarr:7306254",
+            "bo": 3,
+            "event": "PGL Masters Bucharest 2026. Закрытые отборочные"
+          }
+        },
+        "Wildcard": {
+          "elite": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            0,
+            5,
+            0
+          ],
+          "firstInBO3Window": null,
+          "firstObserved": null,
+          "publicFullFive": {
+            "day": "2026-09-26",
+            "scheduledStartUtc": "2026-09-26T17:00:00Z",
+            "bo": 3,
+            "event": "iBUYPOWER Masters FML 2026",
+            "opponent": "NRG",
+            "id": "hltv:2398291",
+            "roster": [
+              "HexT",
+              "Cxzi",
+              "fr3nd",
+              "nEMANHA",
+              "reck"
+            ],
+            "publicByDay": "2026-09-26",
+            "sourceUrl": "https://www.hltv.org/matches/2398291/wildcard-vs-nrg-ibuypower-masters-fml-2026",
+            "additionalEvidence": "https://www.hltv.org/news/45578/nrg-sent-packing-by-wildcard-as-ibuypower-masters-fml-reaches-playoffs",
+            "includedInFrozenBO3": false,
+            "absence": "Fixed Ektarr v11 has no matching pair or event name within two days of the series."
+          }
+        },
+        "GOSH": {
+          "elite": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            0,
+            4,
+            9
+          ],
+          "firstInBO3Window": {
+            "day": "2026-10-03",
+            "id": "ektarr:7310867",
+            "bo": 3,
+            "event": "ROG Journey Autumn 2026"
+          },
+          "firstObserved": {
+            "day": "2026-10-03",
+            "id": "ektarr:7310867",
+            "bo": 3,
+            "event": "ROG Journey Autumn 2026"
+          }
+        },
+        "FlyQuest": {
+          "elite": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            0,
+            3,
+            1
+          ],
+          "firstInBO3Window": {
+            "day": "2026-09-13",
+            "id": "ektarr:7306571",
+            "bo": 3,
+            "event": "PGL Masters Bucharest 2026. Закрытые отборочные"
+          },
+          "firstObserved": {
+            "day": "2026-09-13",
+            "id": "ektarr:7306571",
+            "bo": 3,
+            "event": "PGL Masters Bucharest 2026. Закрытые отборочные"
+          }
+        },
+        "Chinggis Warriors": {
+          "elite": [
+            0,
+            0,
+            0
+          ],
+          "other": [
+            0,
+            0,
+            0
+          ],
+          "firstInBO3Window": null,
+          "firstObserved": null,
+          "publicFullFive": {
+            "day": "2026-10-08",
+            "scheduledStartUtc": "2026-10-08T05:00:00Z",
+            "bo": 3,
+            "event": "MESA Pro Series Fall 2026",
+            "opponent": "5star",
+            "id": "hltv:2399372",
+            "roster": [
+              "ROUX",
+              "sk0R",
+              "fury5k",
+              "cool4st",
+              "tikuak"
+            ],
+            "publicByDay": "2026-10-08",
+            "sourceUrl": "https://www.hltv.org/matches/2399372/5star-vs-chinggis-warriors-mesa-pro-series-fall-2026",
+            "additionalEvidence": "https://www.hltv.org/matches/2399924/5star-vs-chinggis-warriors-mesa-pro-series-halloween-cup-2026",
+            "includedInFrozenBO3": false,
+            "absence": "Fixed Ektarr v11 has no matching pair or event name within two days of the series."
+          }
+        },
+        "Lynn Vision": {
+          "elite": [
+            0,
+            0,
+            2
+          ],
+          "other": [
+            0,
+            0,
+            3
+          ],
+          "firstInBO3Window": {
+            "day": "2026-06-04",
+            "id": "ektarr:7302400",
+            "bo": 3,
+            "event": "IEM Cologne Major 2026"
+          },
+          "firstObserved": {
+            "day": "2025-01-21",
+            "id": "hltv:2378486",
+            "bo": 1,
+            "event": "ESL Challenger League Season 49 Asia-Pacific"
+          }
+        }
+      }
+    }
+  },
+  "nextField": {
+    "id": "fissure-playground-2-2025",
+    "start": "2025-09-12",
+    "mlAvailability": {
+      "availableMaps": 13642,
+      "treeMaps": 11007,
+      "calibrationMaps": 2425,
+      "calibrationFirstDay": "2025-07-19",
+      "lastTrainingDay": "2025-07-17",
+      "lastAvailableDay": "2025-09-10"
+    },
+    "replay": [
+      8,
+      8,
+      8,
+      6,
+      3
+    ]
+  }
+}
