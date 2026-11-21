@@ -21,35 +21,37 @@ RELEASE=dict(rankDay=DAY,sha=COMMIT,published='2026-09-09T18:45:20Z',
              files=[dict(path=GLOBAL,sha256='bc9553bcd9c3420f3279307fdca654d25f363d38e2c51a32b452c8c0e72e4f46')])
 
 
-def blob(cache,name):
-    dest=cache/COMMIT/name
+def blob(cache,name,commit=COMMIT):
+    dest=cache/commit/name
     if not dest.is_file():
         dest.parent.mkdir(exist_ok=True,parents=True)
-        with urlopen('https://raw.githubusercontent.com/ValveSoftware/counter-strike_regional_standings/'+COMMIT+'/'+name,timeout=45) as res:
+        with urlopen('https://raw.githubusercontent.com/ValveSoftware/counter-strike_regional_standings/'+commit+'/'+name,timeout=45) as res:
             raw=res.read()
         dest.write_bytes(raw)
     return dest.read_bytes()
 
 
-def build(cache,ektarr,pushbuild,check):
+def build(cache,ektarr,pushbuild,check,*,directory=HERE,release=RELEASE,series_name='katowice-rated-series.json'):
     ranks=cache/'ranks'
-    target=ranks/COMMIT/Path(GLOBAL).name
+    info,=release['files']
+    commit,day=release['sha'],release['rankDay']
+    target=ranks/commit/Path(info['path']).name
     target.parent.mkdir(parents=True,exist_ok=True)
-    raw=blob(cache,GLOBAL)
-    assert hashlib.sha256(raw).hexdigest()==RELEASE['files'][0]['sha256']
+    raw=target.read_bytes() if target.is_file() else blob(cache,info['path'],commit)
+    assert hashlib.sha256(raw).hexdigest()==info['sha256']
     target.write_bytes(raw)
-    field=json.loads((HERE/'field.json').read_bytes())
-    assert RELEASE['published']<field['start']
-    series=cache/'katowice-rated-series.json'
-    proof=valve_inputs.collect(cache,ranks,None,directory=HERE,asof=date.fromisoformat(DAY),
-                               rank_release=RELEASE,series_name=series.name)
-    save(HERE/'series-sources.json',proof,check)
-    kwargs=dict(directory=HERE,rank_day=DAY)
-    save(HERE/'v4-strength.json',strength.strength(ektarr,series,**kwargs),check)
-    save(HERE/'classic.json',classic.build(series,**kwargs),check)
+    field=json.loads((directory/'field.json').read_bytes())
+    assert release['published']<field['start']
+    series=cache/series_name
+    proof=valve_inputs.collect(cache,ranks,None,directory=directory,asof=date.fromisoformat(day),
+                               rank_release=release,series_name=series.name)
+    save(directory/'series-sources.json',proof,check)
+    kwargs=dict(directory=directory,rank_day=day)
+    save(directory/'v4-strength.json',strength.strength(ektarr,series,**kwargs),check)
+    save(directory/'classic.json',classic.build(series,**kwargs),check)
     files=dict(ektarr=ektarr,pushbuild=pushbuild)
-    save(HERE/'format.json',series_format.rebuild(series,files,**kwargs),check)
-    save(HERE/'region.json',region.rebuild(None,directory=HERE,rank_release=RELEASE,blob=lambda p:blob(cache,p)),check)
+    save(directory/'format.json',series_format.rebuild(series,files,**kwargs),check)
+    save(directory/'region.json',region.rebuild(None,directory=directory,rank_release=release,blob=lambda p:blob(cache,p,commit)),check)
     print('Verified Valve documents',proof['details'],'paired rated series',proof['series'])
 
 

@@ -8,20 +8,20 @@ require('../../../dist/methods.js');
 require('../../../dist/region-vrs.js');
 const {screen}=require('../../screen.cjs');
 const {seal}=require('../pooled.cjs');
-const read=f=>JSON.parse(fs.readFileSync(path.join(__dirname,f)));
-const hash=f=>createHash('sha256').update(fs.readFileSync(path.join(__dirname,f))).digest('hex');
+const read=(f,directory=__dirname)=>JSON.parse(fs.readFileSync(path.join(directory,f)));
+const hash=(f,directory=__dirname)=>createHash('sha256').update(fs.readFileSync(path.join(directory,f))).digest('hex');
 const digest=o=>createHash('sha256').update(JSON.stringify(o)).digest('hex');
-function freeze(file,data){
-  const target=path.join(__dirname,file),txt=JSON.stringify(data)+'\n';
+function freeze(file,data,directory=__dirname){
+  const target=path.join(directory,file),txt=JSON.stringify(data)+'\n';
   if(fs.existsSync(target)) assert.equal(fs.readFileSync(target,'utf8'),txt,file);
   else fs.writeFileSync(target,txt,{flag:'wx'});
 }
-function inputs(){
-  const f=read('field.json'), ml=read('ml.json'), strength=read('v4-strength.json');
-  const format=read('format.json'), region=read('region.json'), classic=read('classic.json');
-  for(const source of [strength,format,region]) assert.equal(source.fieldSHA256,hash('field.json'));
-  assert.equal(ml.inputs['field.json'],hash('field.json'));
-  const priorIds=['copenhagen','shanghai','austin','budapest'];
+function inputs(directory=__dirname,priorIds=['copenhagen','shanghai','austin','budapest']){
+  const load=name=>read(name,directory);
+  const f=load('field.json'), ml=load('ml.json'), strength=load('v4-strength.json');
+  const format=load('format.json'), region=load('region.json'), classic=load('classic.json');
+  for(const source of [strength,format,region]) assert.equal(source.fieldSHA256,hash('field.json',directory));
+  assert.equal(ml.inputs['field.json'],hash('field.json',directory));
   const earlier=require('../../../method_eval/diagnostics.json').stages.filter(e=>priorIds.includes(e.id));
   assert.deepEqual(earlier.map(e=>e.id),priorIds);
   const selected=choose(earlier,'recommended'); assert.equal(selected,'base');
