@@ -11,13 +11,13 @@ from lineup_pairs.field import save,sha
 from history24.build import SERIES_SHA
 from strategy_v4 import build,prepare
 
-def strength(archive,series_file):
+def strength(archive,series_file,*,directory=HERE,rank_day=None):
     assert sha(archive)==SERIES_SHA
-    proofs=json.loads((HERE/'series-sources.json').read_bytes())
+    proofs=json.loads((directory/'series-sources.json').read_bytes())
     assert sha(series_file)==proofs['seriesSHA256']
-    field=json.loads((HERE/'field.json').read_bytes())
-    assert sha(HERE/'field.json')==proofs['fieldSHA256']
-    asof=field['strengthRelease']['rankDay']
+    field=json.loads((directory/'field.json').read_bytes())
+    assert sha(directory/'field.json')==proofs['fieldSHA256']
+    asof=rank_day or field['strengthRelease']['rankDay']
     with archive.open(encoding='utf-8-sig',newline='') as src:
         maps=prepare.complete_scores(r for r in csv.DictReader(src) if r['datetime'][:10]<=asof)
     rows=[];training=set();use=Counter()
@@ -33,7 +33,7 @@ def strength(archive,series_file):
         if use[row['mapSeriesId']]!=1:row['scores']=''
     entrants={t['name']:t['roster'] for t in field['teams']}
     result,_=build.event_model(rows,training,{'asOf':asof},entrants,{})
-    return dict(id=field['id'],fieldSHA256=sha(HERE/'field.json'),seriesSHA256=sha(series_file),v4Model=result)
+    return dict(id=field['id'],fieldSHA256=sha(directory/'field.json'),seriesSHA256=sha(series_file),v4Model=result)
 
 if __name__=='__main__':
     a=argparse.ArgumentParser();a.add_argument('--ektarr',type=Path,required=True);a.add_argument('--series',type=Path,required=True)

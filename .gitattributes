@@ -9,3 +9,4 @@ f1bre_models/format_split/*.md text eol=lf
 f1bre_models/format_split/rmr_a/*.py text eol=lf
 f1bre_models/format_split/rmr_a/*.sha256 text eol=lf
 f1bre_models/NEXT-FORMAT.md text eol=lf
+f1bre_models/format_split/epl24/*.py text eol=lf

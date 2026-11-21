@@ -46,6 +46,7 @@ B 卡方法在相同五届 Stage 1 中过关 **4/5**，命中 **28/50**。表中
 
 ## 最近验证了什么？
 
+- 卡托维兹的 33 场 BO3 中，正式推荐和地图 ML 都猜对六支晋级队。ML 把 Vitality 和 Falcons 放对了位置，整卡从 3/10 提至 5/10，但它对两场冷门的胜者都只给了 0.725% 胜率。[逐场胜率和整卡对照](f1bre_models/format_split/epl24/RESULTS.md)
 - Stage 3 分组填卡在 Major 回放过 2/3 届，五场外部赛事的过关数持平或减少，保留为可选策略。[逐场复核](final_card/group_audit/RESULTS.md)
 - 新加坡 16 支队伍都按赛前证据归类。六种已检验对位的留出成绩均未支持胜率修正，默认幅度为 0 个百分点。[战队分类与克制幅度](styles_model/DEFAULTS.md)
 

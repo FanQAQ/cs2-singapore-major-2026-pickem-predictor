@@ -1,0 +1,1223 @@
+{
+  "locks": {
+    "matrices.json": "67cea918ad13fe2f390dc5d1ee597abb59ca2eeeb2bbd09c1996590e5ad8d602",
+    "recommended-cards.json": "9d0a875f4c7e1e7016f914a21e62aca2ac920eddc2215048835de234944e0da3",
+    "mapML-cards.json": "e79e57616132e125b7acbe69f94fec05bf3ea139cc04b12eb5f3942c75378e05"
+  },
+  "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+  "sourceSHA256": "d99aa6a61c5d9018eef587ce28c026df4dd61406fdd46afe7a8d08bdcdcf2972",
+  "rounds": [
+    [
+      [
+        11,
+        4,
+        1
+      ],
+      [
+        2,
+        13,
+        0
+      ],
+      [
+        1,
+        14,
+        0
+      ],
+      [
+        0,
+        15,
+        1
+      ],
+      [
+        6,
+        9,
+        0
+      ],
+      [
+        3,
+        12,
+        0
+      ],
+      [
+        8,
+        7,
+        0
+      ],
+      [
+        5,
+        10,
+        0
+      ]
+    ],
+    [
+      [
+        4,
+        15,
+        0
+      ],
+      [
+        0,
+        11,
+        1
+      ],
+      [
+        9,
+        13,
+        0
+      ],
+      [
+        2,
+        6,
+        0
+      ],
+      [
+        14,
+        7,
+        1
+      ],
+      [
+        3,
+        5,
+        0
+      ],
+      [
+        1,
+        8,
+        1
+      ],
+      [
+        10,
+        12,
+        0
+      ]
+    ],
+    [
+      [
+        7,
+        15,
+        0
+      ],
+      [
+        5,
+        11,
+        1
+      ],
+      [
+        14,
+        4,
+        0
+      ],
+      [
+        8,
+        9,
+        0
+      ],
+      [
+        12,
+        13,
+        1
+      ],
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        6,
+        10,
+        1
+      ]
+    ],
+    [
+      [
+        14,
+        0,
+        0
+      ],
+      [
+        11,
+        7,
+        1
+      ],
+      [
+        9,
+        10,
+        0
+      ],
+      [
+        6,
+        5,
+        1
+      ],
+      [
+        12,
+        4,
+        1
+      ],
+      [
+        2,
+        8,
+        1
+      ]
+    ],
+    [
+      [
+        5,
+        9,
+        0
+      ],
+      [
+        11,
+        8,
+        1
+      ],
+      [
+        0,
+        12,
+        0
+      ]
+    ]
+  ],
+  "matchIds": [
+    [
+      "7309973",
+      "7309975",
+      "7309976",
+      "7309977",
+      "7309971",
+      "7309974",
+      "7310519",
+      "7309972"
+    ],
+    [
+      "7310879",
+      "7310880",
+      "7310888",
+      "7310887",
+      "7310886",
+      "7310883",
+      "7310885",
+      "7310884"
+    ],
+    [
+      "7310926",
+      "7310927",
+      "7310925",
+      "7310924",
+      "7310923",
+      "7310922",
+      "7310920",
+      "7310921"
+    ],
+    [
+      "7310954",
+      "7310955",
+      "7310952",
+      "7310953",
+      "7310951",
+      "7310950"
+    ],
+    [
+      "7311023",
+      "7311027",
+      "7311024"
+    ]
+  ],
+  "games": [
+    {
+      "id": "7309973",
+      "datetime": "2026-10-03 12:00:00",
+      "sides": [
+        {
+          "team": "Legacy",
+          "handles": [
+            "bobz",
+            "dumau",
+            "latto",
+            "n1ssim",
+            "try"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "PARIVISION",
+          "handles": [
+            "fl1t",
+            "hobbit",
+            "jame",
+            "xielo",
+            "zweih"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7309975",
+      "datetime": "2026-10-03 12:00:00",
+      "sides": [
+        {
+          "team": "Falcons",
+          "handles": [
+            "karrigan",
+            "kyousuke",
+            "m0nesy",
+            "niko",
+            "teses"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "TYLOO",
+          "handles": [
+            "jamyoung",
+            "jee",
+            "mercury",
+            "moseyuh",
+            "zero"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7309976",
+      "datetime": "2026-10-03 14:30:00",
+      "sides": [
+        {
+          "team": "Vitality",
+          "handles": [
+            "apex",
+            "flamez",
+            "mezii",
+            "ropz",
+            "zywoo"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "1win",
+          "handles": [
+            "artfr0st",
+            "ax1le",
+            "belchonokk",
+            "fame",
+            "nafany"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7309977",
+      "datetime": "2026-10-03 14:55:00",
+      "sides": [
+        {
+          "team": "Spirit",
+          "handles": [
+            "donk",
+            "magixx",
+            "sh1ro",
+            "tn1r",
+            "zont1x"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "ShindeN",
+          "handles": [
+            "abizz",
+            "guty",
+            "ivz",
+            "naz",
+            "tom1jed"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7309971",
+      "datetime": "2026-10-03 17:00:00",
+      "sides": [
+        {
+          "team": "Aurora",
+          "handles": [
+            "jimpphat",
+            "kyxsan",
+            "wicadia",
+            "woxic",
+            "xantares"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "9z",
+          "handles": [
+            "dgt",
+            "huasopeek",
+            "luchov",
+            "max",
+            "meyern"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7309974",
+      "datetime": "2026-10-03 18:15:00",
+      "sides": [
+        {
+          "team": "MOUZ",
+          "handles": [
+            "pr",
+            "spinx",
+            "torzsi",
+            "xelex",
+            "xertion"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "M80",
+          "handles": [
+            "jba",
+            "lake",
+            "s1n",
+            "slaxz-",
+            "swisher"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310519",
+      "datetime": "2026-10-03 19:30:00",
+      "sides": [
+        {
+          "team": "G2",
+          "handles": [
+            "heavygod",
+            "hunter-",
+            "matys",
+            "nertz",
+            "r1nkle"
+          ],
+          "source": "https://www.hltv.org/stats/matches/131551/g2-vs-natus-vincere",
+          "shared": 5
+        },
+        {
+          "team": "Natus Vincere",
+          "handles": [
+            "aleksib",
+            "b1t",
+            "im",
+            "makazze",
+            "w0nderful"
+          ],
+          "source": "https://www.hltv.org/stats/matches/131551/g2-vs-natus-vincere",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7309972",
+      "datetime": "2026-10-03 20:30:00",
+      "sides": [
+        {
+          "team": "FURIA",
+          "handles": [
+            "fallen",
+            "kscerato",
+            "molodoy",
+            "yekindar",
+            "yuurih"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "BETBOOM",
+          "handles": [
+            "boombl4",
+            "d1ledez",
+            "magnojez",
+            "s1ren",
+            "zorte"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310879",
+      "datetime": "2026-10-04 12:00:00",
+      "sides": [
+        {
+          "team": "ShindeN",
+          "handles": [
+            "abizz",
+            "guty",
+            "ivz",
+            "naz",
+            "tom1jed"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "Legacy",
+          "handles": [
+            "bobz",
+            "dumau",
+            "latto",
+            "n1ssim",
+            "try"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310880",
+      "datetime": "2026-10-04 12:00:00",
+      "sides": [
+        {
+          "team": "Spirit",
+          "handles": [
+            "donk",
+            "magixx",
+            "sh1ro",
+            "tn1r",
+            "zont1x"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "PARIVISION",
+          "handles": [
+            "fl1t",
+            "hobbit",
+            "jame",
+            "xielo",
+            "zweih"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310888",
+      "datetime": "2026-10-04 14:30:00",
+      "sides": [
+        {
+          "team": "9z",
+          "handles": [
+            "dgt",
+            "huasopeek",
+            "luchov",
+            "max",
+            "meyern"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "TYLOO",
+          "handles": [
+            "jamyoung",
+            "jee",
+            "mercury",
+            "moseyuh",
+            "zero"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310887",
+      "datetime": "2026-10-04 15:20:00",
+      "sides": [
+        {
+          "team": "Falcons",
+          "handles": [
+            "karrigan",
+            "kyousuke",
+            "m0nesy",
+            "niko",
+            "teses"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "Aurora",
+          "handles": [
+            "jimpphat",
+            "kyxsan",
+            "wicadia",
+            "woxic",
+            "xantares"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310886",
+      "datetime": "2026-10-04 17:00:00",
+      "sides": [
+        {
+          "team": "G2",
+          "handles": [
+            "heavygod",
+            "hunter-",
+            "matys",
+            "nertz",
+            "r1nkle"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "1win",
+          "handles": [
+            "artfr0st",
+            "ax1le",
+            "belchonokk",
+            "fame",
+            "nafany"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310883",
+      "datetime": "2026-10-04 17:25:00",
+      "sides": [
+        {
+          "team": "FURIA",
+          "handles": [
+            "fallen",
+            "kscerato",
+            "molodoy",
+            "yekindar",
+            "yuurih"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "MOUZ",
+          "handles": [
+            "pr",
+            "spinx",
+            "torzsi",
+            "xelex",
+            "xertion"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310885",
+      "datetime": "2026-10-04 19:30:00",
+      "sides": [
+        {
+          "team": "Vitality",
+          "handles": [
+            "apex",
+            "flamez",
+            "mezii",
+            "ropz",
+            "zywoo"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "Natus Vincere",
+          "handles": [
+            "aleksib",
+            "b1t",
+            "im",
+            "makazze",
+            "w0nderful"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310884",
+      "datetime": "2026-10-04 20:10:00",
+      "sides": [
+        {
+          "team": "BETBOOM",
+          "handles": [
+            "boombl4",
+            "d1ledez",
+            "magnojez",
+            "s1ren",
+            "zorte"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "M80",
+          "handles": [
+            "jba",
+            "lake",
+            "s1n",
+            "slaxz-",
+            "swisher"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310926",
+      "datetime": "2026-10-05 12:00:00",
+      "sides": [
+        {
+          "team": "ShindeN",
+          "handles": [
+            "abizz",
+            "guty",
+            "ivz",
+            "naz",
+            "tom1jed"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "G2",
+          "handles": [
+            "heavygod",
+            "hunter-",
+            "matys",
+            "nertz",
+            "r1nkle"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310927",
+      "datetime": "2026-10-05 12:00:00",
+      "sides": [
+        {
+          "team": "PARIVISION",
+          "handles": [
+            "fl1t",
+            "hobbit",
+            "jame",
+            "xielo",
+            "zweih"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "FURIA",
+          "handles": [
+            "fallen",
+            "kscerato",
+            "molodoy",
+            "yekindar",
+            "yuurih"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310925",
+      "datetime": "2026-10-05 14:30:00",
+      "sides": [
+        {
+          "team": "Legacy",
+          "handles": [
+            "bobz",
+            "dumau",
+            "latto",
+            "n1ssim",
+            "try"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "1win",
+          "handles": [
+            "artfr0st",
+            "ax1le",
+            "belchonokk",
+            "fame",
+            "nafany"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310924",
+      "datetime": "2026-10-05 15:20:00",
+      "sides": [
+        {
+          "team": "9z",
+          "handles": [
+            "dgt",
+            "huasopeek",
+            "luchov",
+            "max",
+            "meyern"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "Natus Vincere",
+          "handles": [
+            "aleksib",
+            "b1t",
+            "im",
+            "makazze",
+            "w0nderful"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310923",
+      "datetime": "2026-10-05 17:00:00",
+      "sides": [
+        {
+          "team": "M80",
+          "handles": [
+            "jba",
+            "lake",
+            "s1n",
+            "slaxz-",
+            "swisher"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "TYLOO",
+          "handles": [
+            "jamyoung",
+            "jee",
+            "mercury",
+            "moseyuh",
+            "zero"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310922",
+      "datetime": "2026-10-05 17:20:00",
+      "sides": [
+        {
+          "team": "Spirit",
+          "handles": [
+            "donk",
+            "magixx",
+            "sh1ro",
+            "tn1r",
+            "zont1x"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "MOUZ",
+          "handles": [
+            "pr",
+            "spinx",
+            "torzsi",
+            "xelex",
+            "xertion"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310920",
+      "datetime": "2026-10-05 19:30:00",
+      "sides": [
+        {
+          "team": "Vitality",
+          "handles": [
+            "apex",
+            "flamez",
+            "mezii",
+            "ropz",
+            "zywoo"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "Falcons",
+          "handles": [
+            "karrigan",
+            "kyousuke",
+            "m0nesy",
+            "niko",
+            "teses"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310921",
+      "datetime": "2026-10-05 20:20:00",
+      "sides": [
+        {
+          "team": "Aurora",
+          "handles": [
+            "jimpphat",
+            "kyxsan",
+            "wicadia",
+            "woxic",
+            "xantares"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "BETBOOM",
+          "handles": [
+            "boombl4",
+            "d1ledez",
+            "magnojez",
+            "s1ren",
+            "zorte"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310954",
+      "datetime": "2026-10-06 15:00:00",
+      "sides": [
+        {
+          "team": "Spirit",
+          "handles": [
+            "donk",
+            "magixx",
+            "sh1ro",
+            "tn1r",
+            "zont1x"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "1win",
+          "handles": [
+            "artfr0st",
+            "ax1le",
+            "belchonokk",
+            "fame",
+            "nafany"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310955",
+      "datetime": "2026-10-06 15:00:00",
+      "sides": [
+        {
+          "team": "G2",
+          "handles": [
+            "heavygod",
+            "hunter-",
+            "matys",
+            "nertz",
+            "r1nkle"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "PARIVISION",
+          "handles": [
+            "fl1t",
+            "hobbit",
+            "jame",
+            "xielo",
+            "zweih"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310952",
+      "datetime": "2026-10-06 17:30:00",
+      "sides": [
+        {
+          "team": "9z",
+          "handles": [
+            "dgt",
+            "huasopeek",
+            "luchov",
+            "max",
+            "meyern"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "BETBOOM",
+          "handles": [
+            "boombl4",
+            "d1ledez",
+            "magnojez",
+            "s1ren",
+            "zorte"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310953",
+      "datetime": "2026-10-06 18:45:00",
+      "sides": [
+        {
+          "team": "FURIA",
+          "handles": [
+            "fallen",
+            "kscerato",
+            "molodoy",
+            "yekindar",
+            "yuurih"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "Aurora",
+          "handles": [
+            "jimpphat",
+            "kyxsan",
+            "wicadia",
+            "woxic",
+            "xantares"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310951",
+      "datetime": "2026-10-06 20:00:00",
+      "sides": [
+        {
+          "team": "Legacy",
+          "handles": [
+            "bobz",
+            "dumau",
+            "latto",
+            "n1ssim",
+            "try"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "M80",
+          "handles": [
+            "jba",
+            "lake",
+            "s1n",
+            "slaxz-",
+            "swisher"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7310950",
+      "datetime": "2026-10-06 22:00:00",
+      "sides": [
+        {
+          "team": "Falcons",
+          "handles": [
+            "karrigan",
+            "kyousuke",
+            "m0nesy",
+            "niko",
+            "teses"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "Natus Vincere",
+          "handles": [
+            "aleksib",
+            "b1t",
+            "im",
+            "makazze",
+            "w0nderful"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7311023",
+      "datetime": "2026-10-07 15:00:00",
+      "sides": [
+        {
+          "team": "FURIA",
+          "handles": [
+            "fallen",
+            "kscerato",
+            "molodoy",
+            "yekindar",
+            "yuurih"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "9z",
+          "handles": [
+            "dgt",
+            "huasopeek",
+            "luchov",
+            "max",
+            "meyern"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7311027",
+      "datetime": "2026-10-07 17:30:00",
+      "sides": [
+        {
+          "team": "PARIVISION",
+          "handles": [
+            "fl1t",
+            "hobbit",
+            "jame",
+            "xielo",
+            "zweih"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "Natus Vincere",
+          "handles": [
+            "aleksib",
+            "b1t",
+            "im",
+            "makazze",
+            "w0nderful"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    },
+    {
+      "id": "7311024",
+      "datetime": "2026-10-07 21:10:00",
+      "sides": [
+        {
+          "team": "Spirit",
+          "handles": [
+            "donk",
+            "magixx",
+            "sh1ro",
+            "tn1r",
+            "zont1x"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        },
+        {
+          "team": "M80",
+          "handles": [
+            "jba",
+            "lake",
+            "s1n",
+            "slaxz-",
+            "swisher"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+          "shared": 5
+        }
+      ]
+    }
+  ]
+}

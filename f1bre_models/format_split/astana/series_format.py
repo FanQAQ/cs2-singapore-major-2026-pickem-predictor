@@ -30,12 +30,12 @@ def lookup_labels(files, first, last):
     return labels
 
 
-def rebuild(series_file, files):
-    field = json.loads((HERE/'field.json').read_bytes())
-    source = json.loads((HERE/'series-sources.json').read_bytes())
+def rebuild(series_file, files, *, directory=HERE, rank_day=None):
+    field = json.loads((directory/'field.json').read_bytes())
+    source = json.loads((directory/'series-sources.json').read_bytes())
     assert source['seriesSHA256'] == sha(series_file)
-    assert source['fieldSHA256'] == sha(HERE/'field.json')
-    day = date.fromisoformat(field['strengthRelease']['rankDay'])
+    assert source['fieldSHA256'] == sha(directory/'field.json')
+    day = date.fromisoformat(rank_day or field['strengthRelease']['rankDay'])
     before = lambda days: (day - timedelta(days=days)).isoformat()
     rows = json.loads(series_file.read_bytes())
     labels = lookup_labels(files, source['first'], before(0))
@@ -81,7 +81,7 @@ def rebuild(series_file, files):
     fmt_weight = dict(asOf=before(0), weight=round(weight, 7), reason=reason,
                       calibration=shrink.scores(calibration, weight), holdout=shrink.scores(folds[2], weight))
     return dict(id=field['id'], sources=fmt.SOURCE_SHA256, seriesSHA256=sha(series_file),
-                fieldSHA256=sha(HERE/'field.json'), formatModel=model, formatWeight=fmt_weight)
+                fieldSHA256=sha(directory/'field.json'), formatModel=model, formatWeight=fmt_weight)
 
 
 if __name__ == '__main__':

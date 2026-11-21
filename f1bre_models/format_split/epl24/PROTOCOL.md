@@ -1,6 +1,6 @@
 # 卡托维兹 EPL S24 的独立场地复核
 
-11 月 22 日进度：16 队赛前首发、开场实打 80 人、七图池、八组首轮及 ESL 全部配对评分已核对。下一步用该输入拟合 BO3 胜率，并在读入赛事终局前封存预测。[逐队核验与复算](ROSTERS.md)
+11 月 22 日完成本次历史外部检验。下文保留最初登记的步骤。完整报告给出了五轮真实配对、33 场 BO3 的误差和 30 个种子的整卡得分。[检验结果](RESULTS.md) · [逐队首发](ROSTERS.md)
 
 固定比较正式推荐与已有的全 BO3 地图 ML 候选，使用相同的 ESL 配对规则和主种子 33719。年份为 2026。十月三日至七日有一轮 16 队全 BO3 瑞士轮；入场为十二个积分邀请与四个 ECL 席位。该场地可检验全 BO3 胜率及整卡迁移。八直邀、八晋级的入场先验在此不适用。本次搜索赛前来源时，搜索摘要已显示少量实赛结果；该场地作为未用于调参的历史外部复核。真实未来验证保留给新加坡。[ESL 赛前赛制公告](https://pro.eslgaming.com/csgo/proleague/2026/09/esl-pro-league-returns-to-the-big-stage-as-competition-kicks-off-in-katowice/) · [参赛资格](https://pro.eslgaming.com/tour/2026/08/epl-katowice-2026-invited-teams/)
 

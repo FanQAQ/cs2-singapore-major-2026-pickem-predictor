@@ -10,10 +10,10 @@ from datajob.build_features import elo_expectation
 from lineup_pairs.field import save, sha
 
 
-def build(file):
-    proof = json.loads((HERE/'series-sources.json').read_bytes())
+def build(file,*,directory=HERE,rank_day=None):
+    proof = json.loads((directory/'series-sources.json').read_bytes())
     assert proof['seriesSHA256'] == sha(file)
-    cutoff = date.fromisoformat(json.loads((HERE/'field.json').read_bytes())['strengthRelease']['rankDay'])
+    cutoff = date.fromisoformat(rank_day or json.loads((directory/'field.json').read_bytes())['strengthRelease']['rankDay'])
     evidence, x, y = [], [], []
     def profile(five, day):
         recent = [(p,delta) for when,side,p,delta in evidence
@@ -28,7 +28,7 @@ def build(file):
             y.append(won)
         p = elo_expectation(pa,pb)
         evidence.extend([(day,a,p,won-p),(day,b,1-p,p-won)])
-    assert len(x)==json.loads((HERE/'v4-strength.json').read_bytes())['v4Model']['n']
+    assert len(x)==json.loads((directory/'v4-strength.json').read_bytes())['v4Model']['n']
     return dict(n=len(x),masks={m:dict(beta=np.round(fit(np.array(x),np.array(y),m),7).tolist()) for m in range(8)})
 
 

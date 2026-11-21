@@ -11,9 +11,9 @@ from lineup_pairs.field import save, sha
 from region_vrs_model import build as model
 
 
-def rebuild(checkout):
-    field = json.loads((HERE / 'field.json').read_bytes())
-    release = field['strengthRelease']
+def rebuild(checkout, *, directory=HERE, rank_release=None, blob=None):
+    field = json.loads((directory / 'field.json').read_bytes())
+    release = rank_release or field['strengthRelease']
     day = release['rankDay']
     assert release['published'][:10] < field['start']
     snapshots = json.loads((ROOT / 'region_vrs_data/snapshots.json').read_bytes())
@@ -22,7 +22,7 @@ def rebuild(checkout):
     rows, proofs = [], {}
     for region in model.lan.REGS:
         path = f"invitation/2026/standings_{region}_{day.replace('-', '_')}.md"
-        raw = subprocess.check_output(['git', '-C', str(checkout), 'cat-file', 'blob',
+        raw = blob(path) if blob else subprocess.check_output(['git', '-C', str(checkout), 'cat-file', 'blob',
                                        f"{release['sha']}:{path}"])
         proofs[path] = hashlib.sha256(raw).hexdigest()
         table = [dict(region=region, rank=int(rank), points=int(points), name=name,
@@ -49,7 +49,7 @@ def rebuild(checkout):
     corpus.international = {e for e in corpus.international if corpus.schedule[e][1] <= cutoff}
     examples = model.matchup_examples(corpus, snapshots)
     event = model.build_event(corpus, examples, dict(asOf=day, teams=teams), snapshot)
-    return dict(id=field['id'], fieldSHA256=sha(HERE / 'field.json'), commit=release['sha'],
+    return dict(id=field['id'], fieldSHA256=sha(directory / 'field.json'), commit=release['sha'],
                 sources=proofs, membership=membership, regionVrs=event)
 
 

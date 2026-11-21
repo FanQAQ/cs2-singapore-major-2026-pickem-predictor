@@ -14,10 +14,13 @@ from lineup_pairs.field import save,sha
 from latent_form.bucharest import read_ranks
 
 ASOF=date(2026,5,4)
-def collect(cache,rank_cache,checkout):
-    field=json.loads((HERE/'field.json').read_bytes())
+def collect(cache,rank_cache,checkout,*,directory=HERE,asof=ASOF,rank_release=None,series_name="astana-rated-series.json"):
+    field=json.loads((directory/'field.json').read_bytes())
     releases=json.loads((ROOT/'tail_calibration/training-releases.json').read_bytes())
-    dates={r['rankDay']:r for r in releases if '2025-09-01'<=r['rankDay']<=ASOF.isoformat()}
+    dates={r['rankDay']:r for r in releases if '2025-09-01'<=r['rankDay']<=asof.isoformat()}
+    if rank_release:
+        assert rank_release['rankDay']==asof.isoformat()
+        dates[asof.isoformat()]=rank_release
     tables={}
     for d,r in dates.items():
         file,=r['files']
@@ -28,14 +31,14 @@ def collect(cache,rank_cache,checkout):
             rel=Path(file['path']).parent/re.search(r'\(([^)]+)\)',detail)[1]
             rows.append(dict(name=name,rank=int(rank),points=int(points),roster=players.split(', '),detail=rel.as_posix()))
         tables[date.fromisoformat(d)]=vrs.Standings(rows)
-    current=tables[ASOF]
+    current=tables[asof]
     chosen={r['detail']:r for r in current.rows if r['rank']<=100}
     for t in field['teams']:
         r=vrs.matched_row(current,t['name'],t['roster'])
         assert r and r['points']==t['points']
         chosen[r['detail']]=r
-    release=dates[ASOF.isoformat()]
-    assert release['published'][:10]<'2026-05-09'
+    release=dates[asof.isoformat()]
+    assert release['published'][:10]<field['start']
     def fetch(path):
         assert path in chosen
         dest=cache/release['sha']/path
@@ -54,20 +57,20 @@ def collect(cache,rank_cache,checkout):
     original=vrs.fetch
     try:
         vrs.fetch=fetch
-        observations=vrs.match_evidence(ASOF,list(chosen.values()))
+        observations=vrs.match_evidence(asof,list(chosen.values()))
         rows=[]
         published={date.fromisoformat(r['published'][:10]):tables[date.fromisoformat(d)] for d,r in dates.items()}
         assert len(published)==len(tables)
         for (day,mid),(prior, (a,ra),(b,rb)) in vrs.rated_games(observations,published):
             assert prior<day
-            if ASOF-timedelta(days=174)<=day<=ASOF:
+            if asof-timedelta(days=174)<=day<=asof:
                 rows.append([day.isoformat(),mid,a['name'],b['name'],a['y'],ra['points'],rb['points'],
                              sorted(a['players']),sorted(b['players'])])
     finally:vrs.fetch=original
     assert rows and max(row[0] for row in rows)<field['start']
-    save(cache/'astana-rated-series.json',rows)
-    return dict(fieldSHA256=sha(HERE/'field.json'),commit=release['sha'],published=release['published'],details=len(chosen),
-                first=rows[0][0],last=rows[-1][0],series=len(rows),seriesSHA256=sha(cache/'astana-rated-series.json'),
+    save(cache/series_name,rows)
+    return dict(fieldSHA256=sha(directory/'field.json'),commit=release['sha'],published=release['published'],details=len(chosen),
+                first=rows[0][0],last=rows[-1][0],series=len(rows),seriesSHA256=sha(cache/series_name),
                 documents={k:sha(cache/release['sha']/k) for k in sorted(chosen)})
 
 if __name__=='__main__':
