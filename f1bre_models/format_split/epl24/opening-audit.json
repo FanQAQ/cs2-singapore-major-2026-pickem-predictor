@@ -1,0 +1,231 @@
+{
+  "fieldSHA256": "9b92dc3ff4360fc06441bf9d7f1a4c93a8adc085b319eb015f455cfdac2c79f2",
+  "sourceSHA256": "d99aa6a61c5d9018eef587ce28c026df4dd61406fdd46afe7a8d08bdcdcf2972",
+  "coverage": 16,
+  "openers": [
+    {
+      "seriesId": "7309971",
+      "date": "2026-10-03",
+      "sides": [
+        {
+          "team": "Aurora",
+          "actualFive": [
+            "jimpphat",
+            "kyxsan",
+            "wicadia",
+            "woxic",
+            "xantares"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+        },
+        {
+          "team": "9z",
+          "actualFive": [
+            "dgt",
+            "huasopeek",
+            "luchov",
+            "max",
+            "meyern"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+        }
+      ]
+    },
+    {
+      "seriesId": "7309972",
+      "date": "2026-10-03",
+      "sides": [
+        {
+          "team": "FURIA",
+          "actualFive": [
+            "fallen",
+            "kscerato",
+            "molodoy",
+            "yekindar",
+            "yuurih"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+        },
+        {
+          "team": "BETBOOM",
+          "actualFive": [
+            "boombl4",
+            "d1ledez",
+            "magnojez",
+            "s1ren",
+            "zorte"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+        }
+      ]
+    },
+    {
+      "seriesId": "7309973",
+      "date": "2026-10-03",
+      "sides": [
+        {
+          "team": "Legacy",
+          "actualFive": [
+            "bobz",
+            "dumau",
+            "latto",
+            "n1ssim",
+            "try"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+        },
+        {
+          "team": "PARIVISION",
+          "actualFive": [
+            "fl1t",
+            "hobbit",
+            "jame",
+            "xielo",
+            "zweih"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+        }
+      ]
+    },
+    {
+      "seriesId": "7309974",
+      "date": "2026-10-03",
+      "sides": [
+        {
+          "team": "MOUZ",
+          "actualFive": [
+            "pr",
+            "spinx",
+            "torzsi",
+            "xelex",
+            "xertion"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+        },
+        {
+          "team": "M80",
+          "actualFive": [
+            "jba",
+            "lake",
+            "s1n",
+            "slaxz-",
+            "swisher"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+        }
+      ]
+    },
+    {
+      "seriesId": "7309975",
+      "date": "2026-10-03",
+      "sides": [
+        {
+          "team": "Falcons",
+          "actualFive": [
+            "karrigan",
+            "kyousuke",
+            "m0nesy",
+            "niko",
+            "teses"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+        },
+        {
+          "team": "TYLOO",
+          "actualFive": [
+            "jamyoung",
+            "jee",
+            "mercury",
+            "moseyuh",
+            "zero"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+        }
+      ]
+    },
+    {
+      "seriesId": "7309976",
+      "date": "2026-10-03",
+      "sides": [
+        {
+          "team": "Vitality",
+          "actualFive": [
+            "apex",
+            "flamez",
+            "mezii",
+            "ropz",
+            "zywoo"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+        },
+        {
+          "team": "1win",
+          "actualFive": [
+            "artfr0st",
+            "ax1le",
+            "belchonokk",
+            "fame",
+            "nafany"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+        }
+      ]
+    },
+    {
+      "seriesId": "7309977",
+      "date": "2026-10-03",
+      "sides": [
+        {
+          "team": "Spirit",
+          "actualFive": [
+            "donk",
+            "magixx",
+            "sh1ro",
+            "tn1r",
+            "zont1x"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+        },
+        {
+          "team": "ShindeN",
+          "actualFive": [
+            "abizz",
+            "guty",
+            "ivz",
+            "naz",
+            "tom1jed"
+          ],
+          "source": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11"
+        }
+      ]
+    },
+    {
+      "seriesId": "7310519",
+      "date": "2026-10-03",
+      "sides": [
+        {
+          "team": "G2",
+          "actualFive": [
+            "heavygod",
+            "hunter-",
+            "matys",
+            "nertz",
+            "r1nkle"
+          ],
+          "source": "https://www.hltv.org/stats/matches/131551/g2-vs-natus-vincere"
+        },
+        {
+          "team": "Natus Vincere",
+          "actualFive": [
+            "aleksib",
+            "b1t",
+            "im",
+            "makazze",
+            "w0nderful"
+          ],
+          "source": "https://www.hltv.org/stats/matches/131551/g2-vs-natus-vincere"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,998 @@
+{
+  "id": "epl24-katowice",
+  "start": "2026-10-03",
+  "cutoffExclusive": "2026-10-03",
+  "allBo3": true,
+  "seedingSHA256": "d1d3f98438094cb63c3073010390e8a6a34885c25670d3a1c029f92e74845b66",
+  "liveRatingDate": "2026-09-25",
+  "liveRatingSource": "https://pro.eslgaming.com/tour/2026/09/esl-pro-league-season-24-team-seeding-and-live-ratings/",
+  "mapPool": [
+    "Ancient",
+    "Anubis",
+    "Cache",
+    "Dust2",
+    "Inferno",
+    "Mirage",
+    "Nuke"
+  ],
+  "mapPoolSource": "https://pro.eslgaming.com/tour/2026/07/esl-pro-tour-counter-strike-rulebook-2026-update-2-changelog/",
+  "liveRatings": [
+    1.0,
+    2.33,
+    3.15,
+    3.73,
+    4.17,
+    5.45,
+    6.93,
+    7.23,
+    9.0,
+    9.36,
+    9.5,
+    11.0,
+    12.47,
+    13.58,
+    13.69,
+    15.0
+  ],
+  "firstRound": [
+    [
+      "Spirit",
+      "ShindeN"
+    ],
+    [
+      "Vitality",
+      "1win"
+    ],
+    [
+      "Falcons",
+      "TYLOO"
+    ],
+    [
+      "MOUZ",
+      "M80"
+    ],
+    [
+      "Legacy",
+      "PARIVISION"
+    ],
+    [
+      "FURIA",
+      "BETBOOM"
+    ],
+    [
+      "Aurora",
+      "9z"
+    ],
+    [
+      "G2",
+      "Natus Vincere"
+    ]
+  ],
+  "ektarrSource": "https://www.kaggle.com/datasets/ektarr/counter-strike-pro-matches/versions/11",
+  "ektarrSHA256": "d99aa6a61c5d9018eef587ce28c026df4dd61406fdd46afe7a8d08bdcdcf2972",
+  "shindenAliasesSource": "https://www.hltv.org/matches/2397763/shinden-vs-pain-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+  "teams": [
+    {
+      "name": "Spirit",
+      "seed": 1,
+      "points": 2031,
+      "globalRank": 1,
+      "vrsRoster": [
+        "donk",
+        "magixx",
+        "sh1ro",
+        "tN1R",
+        "zont1x"
+      ],
+      "roster": [
+        "donk",
+        "magixx",
+        "sh1ro",
+        "tn1r",
+        "zont1x"
+      ],
+      "vrsCoreOverlap": 5,
+      "latestWitness": {
+        "dateTimeAsRecorded": "2026-09-06 17:00:00",
+        "id": "7305785",
+        "event": "BLAST Open Fall 2026",
+        "sourceTeam": "Team Spirit",
+        "opponent": "MOUZ",
+        "players": [
+          {
+            "handle": "donk",
+            "sourceHandle": "Donk",
+            "sourcePlayerId": "4710"
+          },
+          {
+            "handle": "magixx",
+            "sourceHandle": "magixx",
+            "sourcePlayerId": "1003"
+          },
+          {
+            "handle": "sh1ro",
+            "sourceHandle": "sh1ro",
+            "sourcePlayerId": "965"
+          },
+          {
+            "handle": "tn1r",
+            "sourceHandle": "tN1R",
+            "sourcePlayerId": "3395"
+          },
+          {
+            "handle": "zont1x",
+            "sourceHandle": "zont1x",
+            "sourcePlayerId": "3397"
+          }
+        ]
+      },
+      "substitutionAnnouncement": null,
+      "eslLiveRating": 1.0
+    },
+    {
+      "name": "Vitality",
+      "seed": 2,
+      "points": 1841,
+      "globalRank": 5,
+      "vrsRoster": [
+        "apEX",
+        "flameZ",
+        "jL",
+        "ropz",
+        "ZywOo"
+      ],
+      "roster": [
+        "apex",
+        "flamez",
+        "mezii",
+        "ropz",
+        "zywoo"
+      ],
+      "vrsCoreOverlap": 4,
+      "latestWitness": {
+        "dateTimeAsRecorded": "2026-09-20 18:00:00",
+        "id": "7308357",
+        "event": "StarLadder StarSeries Fall 2026",
+        "sourceTeam": "Team Vitality",
+        "opponent": "Aurora Gaming",
+        "players": [
+          {
+            "handle": "apex",
+            "sourceHandle": "apEX",
+            "sourcePlayerId": "19"
+          },
+          {
+            "handle": "flamez",
+            "sourceHandle": "flameZ",
+            "sourcePlayerId": "1549"
+          },
+          {
+            "handle": "mezii",
+            "sourceHandle": "mezii",
+            "sourcePlayerId": "1443"
+          },
+          {
+            "handle": "ropz",
+            "sourceHandle": "ropz",
+            "sourcePlayerId": "146"
+          },
+          {
+            "handle": "zywoo",
+            "sourceHandle": "ZywOo",
+            "sourcePlayerId": "550"
+          }
+        ]
+      },
+      "substitutionAnnouncement": null,
+      "eslLiveRating": 2.33
+    },
+    {
+      "name": "Falcons",
+      "seed": 3,
+      "points": 1881,
+      "globalRank": 3,
+      "vrsRoster": [
+        "karrigan",
+        "kyousuke",
+        "m0NESY",
+        "NiKo",
+        "TeSeS"
+      ],
+      "roster": [
+        "karrigan",
+        "kyousuke",
+        "m0nesy",
+        "niko",
+        "teses"
+      ],
+      "vrsCoreOverlap": 5,
+      "latestWitness": {
+        "dateTimeAsRecorded": "2026-09-05 17:00:00",
+        "id": "7305724",
+        "event": "BLAST Open Fall 2026",
+        "sourceTeam": "Team Falcons",
+        "opponent": "Team Spirit",
+        "players": [
+          {
+            "handle": "karrigan",
+            "sourceHandle": "karrigan",
+            "sourcePlayerId": "28"
+          },
+          {
+            "handle": "kyousuke",
+            "sourceHandle": "Kyousuke",
+            "sourcePlayerId": "26434"
+          },
+          {
+            "handle": "m0nesy",
+            "sourceHandle": "m0NESY",
+            "sourcePlayerId": "2041"
+          },
+          {
+            "handle": "niko",
+            "sourceHandle": "NiKo",
+            "sourcePlayerId": "26"
+          },
+          {
+            "handle": "teses",
+            "sourceHandle": "TeSeS",
+            "sourcePlayerId": "945"
+          }
+        ]
+      },
+      "substitutionAnnouncement": null,
+      "eslLiveRating": 3.15
+    },
+    {
+      "name": "MOUZ",
+      "seed": 4,
+      "points": 1902,
+      "globalRank": 2,
+      "vrsRoster": [
+        "PR",
+        "Spinx",
+        "torzsi",
+        "xelex",
+        "xertioN"
+      ],
+      "roster": [
+        "pr",
+        "spinx",
+        "torzsi",
+        "xelex",
+        "xertion"
+      ],
+      "vrsCoreOverlap": 5,
+      "latestWitness": {
+        "dateTimeAsRecorded": "2026-09-19 15:00:00",
+        "id": "7307894",
+        "event": "StarLadder StarSeries Fall 2026",
+        "sourceTeam": "MOUZ",
+        "opponent": "FURIA Esports",
+        "players": [
+          {
+            "handle": "pr",
+            "sourceHandle": "PR",
+            "sourcePlayerId": "6284"
+          },
+          {
+            "handle": "spinx",
+            "sourceHandle": "Spinx",
+            "sourcePlayerId": "3060"
+          },
+          {
+            "handle": "torzsi",
+            "sourceHandle": "torzsi",
+            "sourcePlayerId": "2126"
+          },
+          {
+            "handle": "xelex",
+            "sourceHandle": "xelex",
+            "sourcePlayerId": "26888"
+          },
+          {
+            "handle": "xertion",
+            "sourceHandle": "xertioN",
+            "sourcePlayerId": "3121"
+          }
+        ]
+      },
+      "substitutionAnnouncement": null,
+      "eslLiveRating": 3.73
+    },
+    {
+      "name": "Legacy",
+      "seed": 5,
+      "points": 1783,
+      "globalRank": 6,
+      "vrsRoster": [
+        "arT",
+        "dumau",
+        "latto",
+        "n1ssim",
+        "try"
+      ],
+      "roster": [
+        "bobz",
+        "dumau",
+        "latto",
+        "n1ssim",
+        "try"
+      ],
+      "vrsCoreOverlap": 4,
+      "latestWitness": {
+        "dateTimeAsRecorded": "2026-09-13 12:10:00",
+        "id": "7306561",
+        "event": "FISSURE Playground #3",
+        "sourceTeam": "Legacy",
+        "opponent": "G2 Esports",
+        "players": [
+          {
+            "handle": "art",
+            "sourceHandle": "arT",
+            "sourcePlayerId": "626"
+          },
+          {
+            "handle": "dumau",
+            "sourceHandle": "dumau",
+            "sourcePlayerId": "1165"
+          },
+          {
+            "handle": "latto",
+            "sourceHandle": "latto",
+            "sourcePlayerId": "997"
+          },
+          {
+            "handle": "n1ssim",
+            "sourceHandle": "n1ssim",
+            "sourcePlayerId": "3447"
+          },
+          {
+            "handle": "try",
+            "sourceHandle": "try",
+            "sourcePlayerId": "1850"
+          }
+        ]
+      },
+      "substitutionAnnouncement": {
+        "date": "2026-09-27",
+        "out": "art",
+        "incoming": "bobz",
+        "url": "https://www.hltv.org/news/45582/art-out-of-esl-pro-league-s24-with-meningitis"
+      },
+      "eslLiveRating": 4.17
+    },
+    {
+      "name": "FURIA",
+      "seed": 6,
+      "points": 1754,
+      "globalRank": 7,
+      "vrsRoster": [
+        "FalleN",
+        "KSCERATO",
+        "molodoy",
+        "YEKINDAR",
+        "yuurih"
+      ],
+      "roster": [
+        "fallen",
+        "kscerato",
+        "molodoy",
+        "yekindar",
+        "yuurih"
+      ],
+      "vrsCoreOverlap": 5,
+      "latestWitness": {
+        "dateTimeAsRecorded": "2026-09-20 15:00:00",
+        "id": "7308145",
+        "event": "StarLadder StarSeries Fall 2026",
+        "sourceTeam": "FURIA Esports",
+        "opponent": "Team Vitality",
+        "players": [
+          {
+            "handle": "fallen",
+            "sourceHandle": "FalleN",
+            "sourcePlayerId": "1"
+          },
+          {
+            "handle": "kscerato",
+            "sourceHandle": "KSCERATO",
+            "sourcePlayerId": "628"
+          },
+          {
+            "handle": "molodoy",
+            "sourceHandle": "molodoy",
+            "sourcePlayerId": "26759"
+          },
+          {
+            "handle": "yekindar",
+            "sourceHandle": "YEKINDAR",
+            "sourcePlayerId": "564"
+          },
+          {
+            "handle": "yuurih",
+            "sourceHandle": "yuurih",
+            "sourcePlayerId": "625"
+          }
+        ]
+      },
+      "substitutionAnnouncement": null,
+      "eslLiveRating": 5.45
+    },
+    {
+      "name": "Aurora",
+      "seed": 7,
+      "points": 1552,
+      "globalRank": 12,
+      "vrsRoster": [
+        "Jimpphat",
+        "kyxsan",
+        "Wicadia",
+        "woxic",
+        "XANTARES"
+      ],
+      "roster": [
+        "jimpphat",
+        "kyxsan",
+        "wicadia",
+        "woxic",
+        "xantares"
+      ],
+      "vrsCoreOverlap": 5,
+      "latestWitness": {
+        "dateTimeAsRecorded": "2026-09-20 18:00:00",
+        "id": "7308357",
+        "event": "StarLadder StarSeries Fall 2026",
+        "sourceTeam": "Aurora Gaming",
+        "opponent": "Team Vitality",
+        "players": [
+          {
+            "handle": "jimpphat",
+            "sourceHandle": "Jimpphat",
+            "sourcePlayerId": "2200"
+          },
+          {
+            "handle": "kyxsan",
+            "sourceHandle": "kyxsan",
+            "sourcePlayerId": "2611"
+          },
+          {
+            "handle": "wicadia",
+            "sourceHandle": "Wicadia",
+            "sourcePlayerId": "4903"
+          },
+          {
+            "handle": "woxic",
+            "sourceHandle": "woxic",
+            "sourcePlayerId": "197"
+          },
+          {
+            "handle": "xantares",
+            "sourceHandle": "XANTARES",
+            "sourcePlayerId": "156"
+          }
+        ]
+      },
+      "substitutionAnnouncement": null,
+      "eslLiveRating": 6.93
+    },
+    {
+      "name": "G2",
+      "seed": 8,
+      "points": 1723,
+      "globalRank": 8,
+      "vrsRoster": [
+        "HeavyGod",
+        "huNter-",
+        "MATYS",
+        "NertZ",
+        "r1nkle"
+      ],
+      "roster": [
+        "heavygod",
+        "hunter-",
+        "matys",
+        "nertz",
+        "r1nkle"
+      ],
+      "vrsCoreOverlap": 5,
+      "latestWitness": {
+        "dateTimeAsRecorded": "2026-09-13 12:10:00",
+        "id": "7306561",
+        "event": "FISSURE Playground #3",
+        "sourceTeam": "G2 Esports",
+        "opponent": "Legacy",
+        "players": [
+          {
+            "handle": "heavygod",
+            "sourceHandle": "HeavyGod",
+            "sourcePlayerId": "3459"
+          },
+          {
+            "handle": "hunter-",
+            "sourceHandle": "huNter-",
+            "sourcePlayerId": "416"
+          },
+          {
+            "handle": "matys",
+            "sourceHandle": "MATYS",
+            "sourcePlayerId": "4048"
+          },
+          {
+            "handle": "nertz",
+            "sourceHandle": "Nertz",
+            "sourcePlayerId": "1548"
+          },
+          {
+            "handle": "r1nkle",
+            "sourceHandle": "r1nkle",
+            "sourcePlayerId": "3396"
+          }
+        ]
+      },
+      "substitutionAnnouncement": null,
+      "eslLiveRating": 7.23
+    },
+    {
+      "name": "Natus Vincere",
+      "seed": 9,
+      "points": 1579,
+      "globalRank": 11,
+      "vrsRoster": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "makazze",
+        "w0nderful"
+      ],
+      "roster": [
+        "aleksib",
+        "b1t",
+        "im",
+        "makazze",
+        "w0nderful"
+      ],
+      "vrsCoreOverlap": 5,
+      "latestWitness": {
+        "dateTimeAsRecorded": "2026-09-18 13:00:00",
+        "id": "7307672",
+        "event": "StarLadder StarSeries Fall 2026",
+        "sourceTeam": "Natus Vincere",
+        "opponent": "MOUZ",
+        "players": [
+          {
+            "handle": "aleksib",
+            "sourceHandle": "Aleksib",
+            "sourcePlayerId": "169"
+          },
+          {
+            "handle": "b1t",
+            "sourceHandle": "B1T",
+            "sourcePlayerId": "1401"
+          },
+          {
+            "handle": "im",
+            "sourceHandle": "iM",
+            "sourcePlayerId": "1834"
+          },
+          {
+            "handle": "makazze",
+            "sourceHandle": "makazze",
+            "sourcePlayerId": "7201"
+          },
+          {
+            "handle": "w0nderful",
+            "sourceHandle": "w0nderful",
+            "sourcePlayerId": "2934"
+          }
+        ]
+      },
+      "substitutionAnnouncement": null,
+      "eslLiveRating": 9.0
+    },
+    {
+      "name": "9z",
+      "seed": 10,
+      "points": 1606,
+      "globalRank": 9,
+      "vrsRoster": [
+        "dgt",
+        "HUASOPEEK",
+        "luchov",
+        "max",
+        "meyern"
+      ],
+      "roster": [
+        "dgt",
+        "huasopeek",
+        "luchov",
+        "max",
+        "meyern"
+      ],
+      "vrsCoreOverlap": 5,
+      "latestWitness": {
+        "dateTimeAsRecorded": "2026-09-10 06:00:00",
+        "id": "7305986",
+        "event": "FISSURE Playground #3",
+        "sourceTeam": "9z Team",
+        "opponent": "G2 Esports",
+        "players": [
+          {
+            "handle": "dgt",
+            "sourceHandle": "dgt",
+            "sourcePlayerId": "4393"
+          },
+          {
+            "handle": "huasopeek",
+            "sourceHandle": "HUASOPEEK",
+            "sourcePlayerId": "5345"
+          },
+          {
+            "handle": "luchov",
+            "sourceHandle": "luchov",
+            "sourcePlayerId": "3357"
+          },
+          {
+            "handle": "max",
+            "sourceHandle": "max",
+            "sourcePlayerId": "2846"
+          },
+          {
+            "handle": "meyern",
+            "sourceHandle": "meyern",
+            "sourcePlayerId": "880"
+          }
+        ]
+      },
+      "substitutionAnnouncement": null,
+      "eslLiveRating": 9.36
+    },
+    {
+      "name": "BETBOOM",
+      "seed": 11,
+      "points": 1499,
+      "globalRank": 15,
+      "vrsRoster": [
+        "Boombl4",
+        "d1Ledez",
+        "Magnojez",
+        "S1ren",
+        "zorte"
+      ],
+      "roster": [
+        "boombl4",
+        "d1ledez",
+        "magnojez",
+        "s1ren",
+        "zorte"
+      ],
+      "vrsCoreOverlap": 5,
+      "latestWitness": {
+        "dateTimeAsRecorded": "2026-09-12 14:00:00",
+        "id": "7306326",
+        "event": "FISSURE Playground #3",
+        "sourceTeam": "BETBOOM TEAM",
+        "opponent": "G2 Esports",
+        "players": [
+          {
+            "handle": "boombl4",
+            "sourceHandle": "Boombl4",
+            "sourcePlayerId": "457"
+          },
+          {
+            "handle": "d1ledez",
+            "sourceHandle": "d1Ledez",
+            "sourcePlayerId": "3289"
+          },
+          {
+            "handle": "magnojez",
+            "sourceHandle": "Magnojez",
+            "sourcePlayerId": "5420"
+          },
+          {
+            "handle": "s1ren",
+            "sourceHandle": "s1ren",
+            "sourcePlayerId": "2936"
+          },
+          {
+            "handle": "zorte",
+            "sourceHandle": "zorte",
+            "sourcePlayerId": "1092"
+          }
+        ]
+      },
+      "substitutionAnnouncement": null,
+      "eslLiveRating": 9.5
+    },
+    {
+      "name": "PARIVISION",
+      "seed": 12,
+      "points": 1461,
+      "globalRank": 18,
+      "vrsRoster": [
+        "HObbit",
+        "Jame",
+        "slaxejezzz",
+        "xiELO",
+        "zweih"
+      ],
+      "roster": [
+        "fl1t",
+        "hobbit",
+        "jame",
+        "xielo",
+        "zweih"
+      ],
+      "vrsCoreOverlap": 4,
+      "latestWitness": {
+        "dateTimeAsRecorded": "2026-09-10 09:00:00",
+        "id": "7305996",
+        "event": "FISSURE Playground #3",
+        "sourceTeam": "PARIVISION",
+        "opponent": "magic",
+        "players": [
+          {
+            "handle": "fl1t",
+            "sourceHandle": "FL1T",
+            "sourcePlayerId": "572"
+          },
+          {
+            "handle": "jame",
+            "sourceHandle": "Jame",
+            "sourcePlayerId": "266"
+          },
+          {
+            "handle": "slaxejezzz",
+            "sourceHandle": "slax",
+            "sourcePlayerId": "27474"
+          },
+          {
+            "handle": "xielo",
+            "sourceHandle": "xiELO",
+            "sourcePlayerId": "6900"
+          },
+          {
+            "handle": "zweih",
+            "sourceHandle": "zweih",
+            "sourcePlayerId": "16113"
+          }
+        ]
+      },
+      "substitutionAnnouncement": {
+        "date": "2026-09-17",
+        "out": "slaxejezzz",
+        "incoming": "hobbit",
+        "url": "https://www.hltv.org/news/45534/parivision-replace-slaxejezzz-with-hobbit"
+      },
+      "eslLiveRating": 11.0
+    },
+    {
+      "name": "M80",
+      "seed": 13,
+      "points": 1269,
+      "globalRank": 41,
+      "vrsRoster": [
+        "JBa",
+        "Lake",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ],
+      "roster": [
+        "jba",
+        "lake",
+        "s1n",
+        "slaxz-",
+        "swisher"
+      ],
+      "vrsCoreOverlap": 5,
+      "latestWitness": {
+        "dateTimeAsRecorded": "2026-09-17 19:30:00",
+        "id": "7306065",
+        "event": "Logitech G Play Connect 2026",
+        "sourceTeam": "M80",
+        "opponent": "Luminosity Gaming",
+        "players": [
+          {
+            "handle": "jba",
+            "sourceHandle": "JBa",
+            "sourcePlayerId": "6030"
+          },
+          {
+            "handle": "lake",
+            "sourceHandle": "lake",
+            "sourcePlayerId": "2113"
+          },
+          {
+            "handle": "s1n",
+            "sourceHandle": "s1n",
+            "sourcePlayerId": "2810"
+          },
+          {
+            "handle": "slaxz-",
+            "sourceHandle": "slaxz-",
+            "sourcePlayerId": "1687"
+          },
+          {
+            "handle": "swisher",
+            "sourceHandle": "Swisher",
+            "sourcePlayerId": "845"
+          }
+        ]
+      },
+      "substitutionAnnouncement": null,
+      "eslLiveRating": 12.47
+    },
+    {
+      "name": "TYLOO",
+      "seed": 14,
+      "points": 1364,
+      "globalRank": 26,
+      "vrsRoster": [
+        "JamYoung",
+        "Jee",
+        "Mercury",
+        "Moseyuh",
+        "Zero"
+      ],
+      "roster": [
+        "jamyoung",
+        "jee",
+        "mercury",
+        "moseyuh",
+        "zero"
+      ],
+      "vrsCoreOverlap": 5,
+      "latestWitness": {
+        "dateTimeAsRecorded": "2026-09-13 11:15:00",
+        "id": "7306788",
+        "event": "PGL Masters Bucharest 2026. Закрытые отборочные",
+        "sourceTeam": "TYLOO",
+        "opponent": "DEPO",
+        "players": [
+          {
+            "handle": "jamyoung",
+            "sourceHandle": "JamYoung",
+            "sourcePlayerId": "1151"
+          },
+          {
+            "handle": "jee",
+            "sourceHandle": "Jee",
+            "sourcePlayerId": "3062"
+          },
+          {
+            "handle": "mercury",
+            "sourceHandle": "Mercury",
+            "sourcePlayerId": "4400"
+          },
+          {
+            "handle": "moseyuh",
+            "sourceHandle": "Moseyuh",
+            "sourcePlayerId": "6146"
+          },
+          {
+            "handle": "zero",
+            "sourceHandle": "zero",
+            "sourcePlayerId": "28569"
+          }
+        ]
+      },
+      "substitutionAnnouncement": null,
+      "eslLiveRating": 13.58
+    },
+    {
+      "name": "1win",
+      "seed": 15,
+      "points": 1314,
+      "globalRank": 31,
+      "vrsRoster": [
+        "ArtFr0st",
+        "Ax1Le",
+        "BELCHONOKK",
+        "fame",
+        "nafany"
+      ],
+      "roster": [
+        "artfr0st",
+        "ax1le",
+        "belchonokk",
+        "fame",
+        "nafany"
+      ],
+      "vrsCoreOverlap": 5,
+      "latestWitness": {
+        "dateTimeAsRecorded": "2026-09-12 20:00:00",
+        "id": "7306402",
+        "event": "Thunderpick World Championship 2026. Глобальная квалификация",
+        "sourceTeam": "1w Team",
+        "opponent": "Heroic",
+        "players": [
+          {
+            "handle": "artfr0st",
+            "sourceHandle": "ArtFr0st",
+            "sourcePlayerId": "5057"
+          },
+          {
+            "handle": "ax1le",
+            "sourceHandle": "Ax1Le",
+            "sourcePlayerId": "553"
+          },
+          {
+            "handle": "belchonokk",
+            "sourceHandle": "BELCHONOKK",
+            "sourcePlayerId": "2988"
+          },
+          {
+            "handle": "fame",
+            "sourceHandle": "fame",
+            "sourcePlayerId": "2785"
+          },
+          {
+            "handle": "nafany",
+            "sourceHandle": "nafany",
+            "sourcePlayerId": "966"
+          }
+        ]
+      },
+      "substitutionAnnouncement": null,
+      "eslLiveRating": 13.69
+    },
+    {
+      "name": "ShindeN",
+      "seed": 16,
+      "points": 952,
+      "globalRank": 97,
+      "vrsRoster": [
+        "abizz",
+        "guty",
+        "ivz",
+        "naz",
+        "tom1jed"
+      ],
+      "roster": [
+        "abizz",
+        "guty",
+        "ivz",
+        "naz",
+        "tom1jed"
+      ],
+      "vrsCoreOverlap": 5,
+      "latestWitness": {
+        "dateTimeAsRecorded": "2026-09-11 20:15:00",
+        "id": "7306253",
+        "event": "PGL Masters Bucharest 2026. Закрытые отборочные",
+        "sourceTeam": "ShindeN",
+        "opponent": "paiN Gaming",
+        "players": [
+          {
+            "handle": "abizz",
+            "sourceHandle": "abizz",
+            "sourcePlayerId": "3501"
+          },
+          {
+            "handle": "guty",
+            "sourceHandle": "FraGuTy",
+            "sourcePlayerId": "27335"
+          },
+          {
+            "handle": "ivz",
+            "sourceHandle": "ivanzinho",
+            "sourcePlayerId": "4500"
+          },
+          {
+            "handle": "naz",
+            "sourceHandle": "naz",
+            "sourcePlayerId": "4707"
+          },
+          {
+            "handle": "tom1jed",
+            "sourceHandle": "tom1jed",
+            "sourcePlayerId": "1857"
+          }
+        ]
+      },
+      "substitutionAnnouncement": null,
+      "eslLiveRating": 15.0
+    }
+  ]
+}
