@@ -1,0 +1,372 @@
+{
+  "cologne": {
+    "id": "cologne-2026-3",
+    "source": "https://github.com/Leclowndu93150/pickem-prediction-model/blob/e6ad6fe4f6e13201e11e65242a9cc86cb87f0fef/README.md",
+    "blob": "3cef821f2a8b4546e502248fe9983cc7cbf82afe",
+    "githubSignatureVerifiedAt": "2026-06-10T22:43:30Z",
+    "stageStartDay": "2026-06-11",
+    "threeZero": [
+      "Vitality",
+      "Spirit"
+    ],
+    "ordinary": [
+      "Falcons",
+      "Natus Vincere",
+      "FURIA",
+      "Aurora",
+      "G2",
+      "The MongolZ"
+    ],
+    "zeroThree": [
+      "9z",
+      "B8"
+    ]
+  },
+  "singapore": {
+    "id": "pgl-singapore-2026-stage-1",
+    "source": "https://github.com/Leclowndu93150/pickem-prediction-model/blob/0aea354ae205ed8585917999b8e350dd97cbddbe/predictions/pgl-major-singapore-2026-stage-1.json",
+    "blob": "a56f26d06150a7de0c7b06eef92b68e0321747aa",
+    "committedAt": "2026-11-20T00:52:17Z",
+    "recordedAt": "2026-11-21T18:26:59Z",
+    "dataUntil": "2026-11-20 00:00 UTC",
+    "roundsPlayed": 0,
+    "categoryOrder": [
+      "3-0",
+      "3-1 / 3-2",
+      "0-3",
+      "other"
+    ],
+    "teams": [
+      {
+        "seed": 1,
+        "team": "Ninjas in Pyjamas",
+        "roster": [
+          "stavn",
+          "sjuush",
+          "Krimbo",
+          "adamb",
+          "xKacpersky"
+        ],
+        "probabilities": [
+          0.22551,
+          0.493085,
+          0.033315,
+          0.24808999999999998
+        ]
+      },
+      {
+        "seed": 2,
+        "team": "PARIVISION",
+        "roster": [
+          "HObbit",
+          "FL1T",
+          "Jame",
+          "xiELO",
+          "zweih"
+        ],
+        "probabilities": [
+          0.237505,
+          0.51661,
+          0.026755,
+          0.21913
+        ]
+      },
+      {
+        "seed": 3,
+        "team": "HEROIC",
+        "roster": [
+          "Brollan",
+          "nilo",
+          "susp",
+          "MartinezSa",
+          "Chr1zN"
+        ],
+        "probabilities": [
+          0.22385,
+          0.491475,
+          0.02943,
+          0.255245
+        ]
+      },
+      {
+        "seed": 4,
+        "team": "FaZe",
+        "roster": [
+          "frozen",
+          "Twistzz",
+          "Neityu",
+          "jcobbb",
+          "JBOEN"
+        ],
+        "probabilities": [
+          0.26104,
+          0.49362,
+          0.02048,
+          0.22486
+        ]
+      },
+      {
+        "seed": 5,
+        "team": "Liquid",
+        "roster": [
+          "NAF",
+          "EliGE",
+          "malbsMd",
+          "JT",
+          "Jorko"
+        ],
+        "probabilities": [
+          0.20436,
+          0.512405,
+          0.03077,
+          0.252465
+        ]
+      },
+      {
+        "seed": 6,
+        "team": "Eternal Fire",
+        "roster": [
+          "MisteM",
+          "regali",
+          "soulfly",
+          "Kvem",
+          "jottAAA"
+        ],
+        "probabilities": [
+          0.1351,
+          0.46041,
+          0.05394,
+          0.35055000000000003
+        ]
+      },
+      {
+        "seed": 7,
+        "team": "100 Thieves",
+        "roster": [
+          "device",
+          "rain",
+          "Gizmy",
+          "sirah",
+          "poiii"
+        ],
+        "probabilities": [
+          0.238115,
+          0.49554,
+          0.022785,
+          0.24356
+        ]
+      },
+      {
+        "seed": 8,
+        "team": "9z",
+        "roster": [
+          "max",
+          "dgt",
+          "luchov",
+          "history",
+          "HUASOPEEK"
+        ],
+        "probabilities": [
+          0.10549,
+          0.40505,
+          0.074185,
+          0.415275
+        ]
+      },
+      {
+        "seed": 9,
+        "team": "M80",
+        "roster": [
+          "slaxz-",
+          "Swisher",
+          "s1n",
+          "JBa",
+          "Lake"
+        ],
+        "probabilities": [
+          0.07545,
+          0.3893,
+          0.10105,
+          0.43420000000000003
+        ]
+      },
+      {
+        "seed": 10,
+        "team": "DENDELE",
+        "roster": [
+          "gafolo",
+          "koala",
+          "maxxkor",
+          "rdnzao",
+          "doc"
+        ],
+        "probabilities": [
+          0.07857,
+          0.39790000000000003,
+          0.103575,
+          0.41995499999999997
+        ]
+      },
+      {
+        "seed": 11,
+        "team": "Imperial",
+        "roster": [
+          "chelo",
+          "VINI",
+          "decenty",
+          "noway",
+          "saadzin"
+        ],
+        "probabilities": [
+          0.037015,
+          0.25294,
+          0.185005,
+          0.52504
+        ]
+      },
+      {
+        "seed": 12,
+        "team": "Wildcard",
+        "roster": [
+          "nEMANHA",
+          "Cxzi",
+          "reck",
+          "HexT",
+          "fr3nd"
+        ],
+        "probabilities": [
+          0.01338,
+          0.12773,
+          0.32753,
+          0.53136
+        ]
+      },
+      {
+        "seed": 13,
+        "team": "GOSH",
+        "roster": [
+          "s1mple",
+          "Magisk",
+          "asap",
+          "Senzu",
+          "mzinho"
+        ],
+        "probabilities": [
+          0.05871,
+          0.349265,
+          0.13631,
+          0.455715
+        ]
+      },
+      {
+        "seed": 14,
+        "team": "FlyQuest",
+        "roster": [
+          "jks",
+          "aliStair",
+          "INS",
+          "Vexite",
+          "nettik"
+        ],
+        "probabilities": [
+          0.055575,
+          0.30787,
+          0.155975,
+          0.48058
+        ]
+      },
+      {
+        "seed": 15,
+        "team": "Chinggis Warriors",
+        "roster": [
+          "sk0R",
+          "ROUX",
+          "cool4st",
+          "fury5k",
+          "tikuak"
+        ],
+        "probabilities": [
+          0.00563,
+          0.057830000000000006,
+          0.49046,
+          0.44608000000000003
+        ]
+      },
+      {
+        "seed": 16,
+        "team": "Lynn Vision",
+        "roster": [
+          "Westmelon",
+          "z4KR",
+          "Starry",
+          "EmiliaQAQ",
+          "C4LLM3SU3"
+        ],
+        "probabilities": [
+          0.0447,
+          0.24897000000000002,
+          0.208435,
+          0.497895
+        ]
+      }
+    ],
+    "threeZero": [
+      "FaZe",
+      "100 Thieves"
+    ],
+    "ordinary": [
+      "Ninjas in Pyjamas",
+      "PARIVISION",
+      "HEROIC",
+      "Liquid",
+      "Eternal Fire",
+      "9z"
+    ],
+    "zeroThree": [
+      "Wildcard",
+      "Chinggis Warriors"
+    ],
+    "roundOne": [
+      [
+        "HEROIC",
+        "Imperial",
+        0.6793268641063543
+      ],
+      [
+        "9z",
+        "Lynn Vision",
+        0.5943373532214999
+      ],
+      [
+        "Ninjas in Pyjamas",
+        "M80",
+        0.6116326659011315
+      ],
+      [
+        "100 Thieves",
+        "Chinggis Warriors",
+        0.8284972429826764
+      ],
+      [
+        "Liquid",
+        "GOSH",
+        0.6379381944735588
+      ],
+      [
+        "PARIVISION",
+        "DENDELE",
+        0.6120978801766594
+      ],
+      [
+        "FaZe",
+        "Wildcard",
+        0.7927915773032521
+      ],
+      [
+        "Eternal Fire",
+        "FlyQuest",
+        0.5864983585628083
+      ]
+    ]
+  }
+}

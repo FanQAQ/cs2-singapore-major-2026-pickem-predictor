@@ -33,6 +33,10 @@ CSGOTradeUp 公布的卡使用 11 月 18 日的 20,000 次模拟，页面在 11 
 
 ## 复算与赛后评分
 
+另核对了一套有 Git 版本记录的外部预测。科隆 Stage 3 的提交于 6 月 10 日 22:43 UTC 经 GitHub 验签，预测实际中 5/10。五格为 Spirit 全胜，Falcons、Aurora、G2 普通晋级，以及 B8 全败。本站当届正式预测中 2 格。运行 `node external_forecasts/git-model.cjs` 可核分。该外部项目后来更换了比赛引擎。[科隆赛前版本](https://github.com/Leclowndu93150/pickem-prediction-model/blob/e6ad6fe4f6e13201e11e65242a9cc86cb87f0fef/README.md) · [外部项目的方法记录](https://github.com/Leclowndu93150/pickem-prediction-model)
+
+该项目的新加坡 Stage 1 预测于 11 月 20 日提交。本站在开赛前核对了全部 80 个首发位置、八场首轮配对与十格归属。对方选 FaZe 和 100 Thieves 全胜，本站正式推荐选 NiP 和 EF。赛后统一计分，另比较八场 BO1、16 支队伍的四档战绩概率。四档 Brier 按每队的四个平方误差求和，再对 16 队取平均，范围为 0 至 2。每队包含全胜、普通晋级、全败及其他出局四类。[新加坡赛前版本](https://github.com/Leclowndu93150/pickem-prediction-model/blob/0aea354ae205ed8585917999b8e350dd97cbddbe/predictions/pgl-major-singapore-2026-stage-1.json) · [两届快照与 Git 对象编号](git-model-2026-11-22.json)
+
 Pley 的新加坡 Stage 1 十格预测于北京时间 11 月 22 日 02:09 封存。本站把 Imperial 放在普通晋级，Pley 把它放在 0–3。完赛后，下方同一条评分命令会给出各份预测的逐项成绩。[Pley 原文](https://pley.gg/cs2/major-pickem-stage-1/) · [赛前快照](pley-singapore-stage1-2026-11-22.json)
 
 另用 `node external_forecasts/pley-history.cjs` 核对三届已结束的 Stage 3。Pley 当前文章在布达佩斯和科隆各中 5 格，奥斯汀只明确给齐九格，可确定最终在 2–3 格之间。这三篇文章都有赛后修改记录，未取得可核验的赛前版本，仅供复盘。[逐届来源与缺格处理](pley-historical-stage3.json)

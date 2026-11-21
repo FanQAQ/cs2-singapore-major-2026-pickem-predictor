@@ -46,6 +46,7 @@ B 卡方法在相同五届 Stage 1 中过关 **4/5**，命中 **28/50**。表中
 
 ## 最近验证了什么？
 
+- 比较科隆赛前已有 Git 签名时间的外部预测，按本站规则确实中 5/10。单独移植其中的晋级战绩加分，科隆快速回放从 2 格升到 4 格，奥斯汀两组从 5 格降到 4 格。另一种只交换分歧队伍位置的方法，也没有增加三届总过关数。[上阶段战绩实验](f1bre_models/entry_record/RESULTS.md) · [分歧换位](f1bre_models/disputed_swap/RESULTS.md) · [外部科隆与新加坡预测](external_forecasts/README.md)
 - 单换 2–0 对局的 BO3 胜率，地图 ML 在科隆多中两格，三组种子的总过关数都持平。加入同核心往届全胜表现后，主种子在奥斯汀从 5 格掉到 3 格。两项均保留原默认。[全胜对局](f1bre_models/sweep_decider/RESULTS.md) · [同核心全胜经验](f1bre_models/core_sweep/RESULTS.md)
 - 新加坡 Stage 1 已在开赛前封存 Pley 的十格预测。Imperial 在本站是普通晋级，在 Pley 是 0–3，待完赛后按同一规则评分。[逐队分歧与计分](external_forecasts/README.md)
 - 布加勒斯特的 33 场 BO3 中，正式推荐和地图 ML 交出了相同的十格预测，都中 3/10。单换两个 0–3 位，事后最多也只能中 4 格。三届 Major 回放同样没有支持按榜后战绩改选全败队。[布加勒斯特逐场复盘](f1bre_models/format_split/bucharest26/RESULTS.md) · [全败位对照](f1bre_models/late_tail/RESULTS.md)

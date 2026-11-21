@@ -1718,6 +1718,9 @@
         '<p>两边都选 Ninjas in Pyjamas 全胜。另一个 3–0 席位，本站封存预测给了 Eternal Fire，Pley 给了 PARIVISION。双方都把另一支队放在普通晋级。</p>'+
         '<p>分歧最大的是 Imperial。本站选它普通晋级，Pley 选它 0–3。双方都选 Chinggis Warriors 全败，本站的另一个 0–3 是 Lynn Vision。</p>'+
         '<p>两份预测均已在开赛前封存，完赛后按相同十格规则计分。<a href="https://pley.gg/cs2/major-pickem-stage-1/" target="_blank" rel="noopener noreferrer">Pley 原文 ↗</a> · <a class="download-link" href="forecasts/pley-singapore-stage1-2026-11-22.json" download>下载 Pley 十格预测</a></p>')+
+      pickDisclosure('external-player-model','哪两支队被外部选手模型选作 3–0？',
+        '<p>这套外部模型用选手近期地图表现估算实力，再模拟整届比赛。它和本站核对的是同一批 80 名首发，但它选 FaZe、100 Thieves 全胜，本站封存预测选 NiP、Eternal Fire。</p>'+
+        '<p>旧版模型在科隆赛前提交的预测实际中 5/10。新加坡采用了新的比赛引擎，已在开赛前封存十格、16 队战绩概率及八场首轮胜率。<a href="https://github.com/Leclowndu93150/pickem-prediction-model/blob/0aea354ae205ed8585917999b8e350dd97cbddbe/predictions/pgl-major-singapore-2026-stage-1.json" target="_blank" rel="noopener noreferrer">查看原预测 ↗</a> · <a class="download-link" href="forecasts/git-model-2026-11-22.json" download>下载两届对照</a></p>')+
       pickDisclosure('external-r1','查看赛前分歧最大的两场 BO1',
         '<p>11 月 21 日封存时，两套模型在首轮八场都看好同一方。对 9z 击败 Lynn Vision 的概率，本站推荐模型给出 54.1%，DAKEbits 给出 78%。对 Liquid 击败 GOSH，双方分别给出 57.7% 和 74%。</p>'+
         '<p>本站初版卡和 CSGOTradeUp 有六格同栏。新填法有七格同栏，双方的 0–3 都是 Chinggis Warriors 和 Lynn Vision。完赛后可分别核对两版卡与外部卡。</p>'+

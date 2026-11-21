@@ -76,6 +76,20 @@ function load() {
   assert(Date.parse(pley.publishedAt)<=Date.parse(pley.modifiedAt) && Date.parse(pley.modifiedAt)<=Date.parse(pley.recordedAt) &&
     Date.parse(pley.recordedAt)<Date.parse(pley.firstMatchAt));
   const pleyCard=readTicket(pley);
+  const {singapore:external}=sealedJson('external_forecasts/git-model-2026-11-22.json',
+    'd419c4a28932778d6f49312df8339e02728d8e4bfeacfb123e0edf722e5ec079');
+  assert.equal(external.id,snapshot.stage);
+  assert.equal(external.roundsPlayed,0);
+  assert(Date.parse(external.committedAt)<=Date.parse(external.recordedAt) && Date.parse(external.recordedAt)<Date.parse(snapshot.firstMatchAt));
+  assert.deepEqual(external.teams.map(t=>t.team),teams);
+  assert.deepEqual(external.categoryOrder,categories);
+  assert.equal(external.roundOne.length,8);
+  for(const row of roundOne){
+    const pair=external.roundOne.find(([a,b])=>[a,b].includes(row.a) && [a,b].includes(row.b));
+    assert(pair && pair[2]>0 && pair[2]<1);
+    row.gitModelP=pair[0]===row.a?pair[2]:1-pair[2];
+  }
+  const gitModelCard=readTicket(external);
   const localCard = model.card;
   const latest = sealedJson('forecast_archive/singapore-stage1-seed-conditional-2026-11-21.json',
     'ae1c25551ac4ce23737b2e69ef3aa5ad57488f5bc7e67bc3f1d088d1725c594c');
@@ -89,6 +103,7 @@ function load() {
   assert.deepEqual(challenger.teams,latest.teams);
   assert.equal(challenger.baseline.sha256,'ae1c25551ac4ce23737b2e69ef3aa5ad57488f5bc7e67bc3f1d088d1725c594c');
   return {teams,index,roundOne,localCard,publicCard,pleyCard,pleyRecordedAt:pley.recordedAt,currentCard:latest.card,challengerCard:challenger.card,
+    gitModelCard,gitModelRecordedAt:external.recordedAt,teamProbabilities:{recommended:latest.probabilities,gitModel:external.teams.map(t=>t.probabilities)},
     baselineOdds:archive[matrixRef.field],challengerOdds:challenger.seriesMatrices};
 }
 
@@ -119,6 +134,17 @@ function seriesScores(matrix,rounds) {
   }]));
 }
 
+function teamOutcomes(probabilities,actual) {
+  assert.equal(probabilities.length,actual.length);
+  const perCategory=[0,0,0,0];
+  for(const [i,row] of probabilities.entries()){
+    assert(row.length===4 && row.every(p=>p>=0 && p<=1));
+    assert(Math.abs(row.reduce((a,b)=>a+b,0)-1)<1e-8);
+    row.forEach((p,c)=>{perCategory[c]+=(p-Number(actual[i]===c))**2/actual.length;});
+  }
+  return {teams:actual.length,categoryOrder:categories,perCategory,brier:perCategory.reduce((a,b)=>a+b,0)};
+}
+
 function scoreResults(data, input) {
   assert.equal(input.stage,snapshot.stage,'Wrong event or stage');
   assert.ok(typeof input.source==='string' && new URL(input.source).protocol==='https:', 'Result source URL required');
@@ -131,11 +157,13 @@ function scoreResults(data, input) {
   assert.ok(replay.ok && replay.matched===33,replay.error || 'Fixtures do not match the bracket');
   const winners = new Set(rounds[0].map(([i])=>data.teams[i]));
   return {source:input.source, verifiedPairings:replay.matched,
-    firstRoundBO1:{recommended:probabilityScore(data.roundOne,winners,'localP'),DAKEbits:probabilityScore(data.roundOne,winners,'publicP')},
+    firstRoundBO1:{recommended:probabilityScore(data.roundOne,winners,'localP'),DAKEbits:probabilityScore(data.roundOne,winners,'publicP'),
+      gitModel:probabilityScore(data.roundOne,winners,'gitModelP')},
+    terminalTeamErrors:Object.fromEntries(Object.entries(data.teamProbabilities).map(([k,p])=>[k,teamOutcomes(p,replay.actual)])),
     stageProbabilityErrors:{recommended:seriesScores(data.baselineOdds,rounds),earlierStageChallenger:seriesScores(data.challengerOdds,rounds)},
     completedStage:{originalRecommended:ticketScore(data.localCard,replay,data.teams),recommended:ticketScore(data.currentCard,replay,data.teams),
       earlierStageChallenger:ticketScore(data.challengerCard,replay,data.teams),CSGOTradeUp:ticketScore(data.publicCard,replay,data.teams),
-      Pley:ticketScore(data.pleyCard,replay,data.teams)}};
+      Pley:ticketScore(data.pleyCard,replay,data.teams),gitModel:ticketScore(data.gitModelCard,replay,data.teams)}};
 }
 
 function compare(data) {
@@ -145,7 +173,11 @@ function compare(data) {
   const pleyVsPublished=data.teams.flatMap((team,i)=>data.currentCard[i]===data.pleyCard[i]?[]:[
     {team,recommended:categories[data.currentCard[i]],Pley:categories[data.pleyCard[i]]}
   ]);
-  return {stage:snapshot.stage,frozenAt:snapshot.frozenAt,pleyRecordedAt:data.pleyRecordedAt,firstRoundBO1:data.roundOne,slotDisagreements,pleyVsPublished};
+  const gitModelVsPublished=data.teams.flatMap((team,i)=>data.currentCard[i]===data.gitModelCard[i]?[]:[
+    {team,recommended:categories[data.currentCard[i]],gitModel:categories[data.gitModelCard[i]]}
+  ]);
+  return {stage:snapshot.stage,frozenAt:snapshot.frozenAt,pleyRecordedAt:data.pleyRecordedAt,gitModelRecordedAt:data.gitModelRecordedAt,
+    firstRoundBO1:data.roundOne,slotDisagreements,pleyVsPublished,gitModelVsPublished};
 }
 
 if (require.main===module) {

@@ -18,7 +18,7 @@ const scored=scoreResults(data,input);
 assert.equal(scored.verifiedPairings,33);
 const w=Object.fromEntries(data.teams.map(t=>[t,0])), l={...w};
 for(const [winner,loser] of rounds.flat()) { w[winner]++; l[loser]++; }
-for(const [id,card] of [['originalRecommended',data.localCard],['recommended',data.currentCard],['earlierStageChallenger',data.challengerCard],['CSGOTradeUp',data.publicCard],['Pley',data.pleyCard]]) {
+for(const [id,card] of [['originalRecommended',data.localCard],['recommended',data.currentCard],['earlierStageChallenger',data.challengerCard],['CSGOTradeUp',data.publicCard],['Pley',data.pleyCard],['gitModel',data.gitModelCard]]) {
   const hits=data.teams.filter((t,i)=>card[i]===0?w[t]===3&&l[t]===0:
     card[i]===1?w[t]===3&&l[t]>0:card[i]===2?w[t]===0:false).length;
   assert.equal(scored.completedStage[id].hits,hits);
@@ -28,7 +28,16 @@ for(const result of Object.values(scored.stageProbabilityErrors)) {
   assert.equal(result.bo1.games,20);assert.equal(result.bo3.games,13);
   for(const format of Object.values(result)) assert(format.brier>=0 && format.brier<1 && format.logLoss>0);
 }
-for(const [id,field] of [['recommended','localP'],['DAKEbits','publicP']]) {
+for(const [key,table] of Object.entries(data.teamProbabilities)){
+  const score=scored.terminalTeamErrors[key];
+  const mean=table.reduce((sum,row,i)=>{
+    const team=data.teams[i],category=w[team]===3?(l[team]===0?0:1):w[team]===0?2:3;
+    return sum+1-2*row[category]+row.reduce((total,p)=>total+p*p,0);
+  },0)/16;
+  assert.equal(score.teams,16);
+  assert(Math.abs(score.brier-mean)<1e-12);
+}
+for(const [id,field] of [['recommended','localP'],['DAKEbits','publicP'],['gitModel','gitModelP']]) {
   let sum=0;
   for(const [winner,loser] of rounds[0]) {
     const row=data.roundOne.find(m=>[winner,loser].includes(m.a)&&[winner,loser].includes(m.b));
