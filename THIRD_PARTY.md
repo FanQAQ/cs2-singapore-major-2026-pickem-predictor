@@ -6,6 +6,8 @@ Blanchon 数据的聚合和 Ektarr 数据的清理、聚合、特征提取由本
 
 README 的预测、对阵推演与对局截图均取自 Sites 版。图中的战队标志归各自权利人所有，赛事队标的来源见[逐图清单](logos/credits.json)。
 
+第二阶段新增的 FUT、G2、THE ONE、NAVI、Astralis 和 The MongolZ 队标取自 PGL 新加坡 Major 官网，截图保留赛事页面使用的标志。离线网页沿用本项目绘制的队名缩写。[PGL 赛事页面](https://www.pglesports.com/cs2/pgl-major-singapore-2026/) · [逐图出处](logos/credits.json)
+
 仓库根目录的 MIT 许可适用于 Fango's Lab 原创程序和原创技术文档。复用下列材料时，须分别遵循其原始条款。
 
 对前八的 BO3 实验使用 Valve 历次首次公布的排名事实、HLTvy 归档的阵容及比赛记录、PGL 公布的赛程与比分、HLTV 的赛前报道和赛事名单。科隆三个阶段的首轮阵容另用 CS2_PostMatchThreads 的逐图记分板、HLTV 统计页链接及 BLAST 赛果核对。包内保留逐场来源、固定版本和派生事实。[名单与排名](elite_opponents/SOURCES.md) · [地图 ML](elite_opponents/ML.md) · [比赛原件交叉核对](elite_opponents/RESULT-SOURCES.md) · [逐图阵容依据](elite_opponents/ROSTER-AUDIT.md)

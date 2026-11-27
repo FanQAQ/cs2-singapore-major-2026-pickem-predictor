@@ -1,5 +1,7 @@
 # 新加坡 Major 的竞猜开放、锁盘与首场赛程
 
+**11 月 27 日更新。** Stage 1 已结束，100 Thieves 在最后一场以 2–1 战胜 M80。PGL 原始赛果于北京时间 23:06 采集，正式赛果文件中的 `endAt` 取首次核实全场完赛的时间。Stage 2 的 16 队已确定，十格预测于北京时间 23:07 封存。下表保留 11 月 21 日的赛前状态。[PGL 赛果快照](../forecast_archive/prospective/results/pgl-stage1-2026-11-27.json) · [Stage 2 赛前封存](../singapore_stage2/forecast.json)
+
 截至 2026 年 11 月 21 日，**游戏内第一阶段竞猜已经开放**。Valve 的 Steam 更新发表于 11 月 17 日 23:40:07 UTC，即北京时间 11 月 18 日 07:40:07，正文确认新加坡 Major Hub 已可填写 Pick’Em。这个时间是公告时间。精确到分钟的三个阶段游戏锁盘时刻仍欠 Valve 一手佐证。[Valve 更新](https://store.steampowered.com/news/app/730/view/1849827110421976) · [含原文和时间戳的 Steam 官方接口](https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=730&count=3&maxlength=0&feeds=steam_community_announcements&enddate=1794959999)
 
 | 阶段 | PGL 首场计划时间，北京／新加坡 | 对应 UTC | 游戏内开放状态，截至核对日 | Valve 精确锁盘时刻 | 已确定的参赛队 |

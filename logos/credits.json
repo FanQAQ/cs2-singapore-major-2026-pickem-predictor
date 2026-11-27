@@ -264,5 +264,47 @@
     "sourcePage": "https://fragcharts.com/pickem/simulator",
     "sourceImage": "https://fragcharts.com/storage/logos/bo3-6062.png",
     "art": "战队标志"
+  },
+  {
+    "team": "FUT ESPORTS",
+    "path": "logos/fut-esports.png",
+    "sourcePage": "https://www.pglesports.com/cs2/pgl-major-singapore-2026/",
+    "sourceImage": "https://www.pglesports.com/images/CS2_events/PglMajorSingapore/teams/fut_esports.webp",
+    "art": "PGL 新加坡赛事官网队标"
+  },
+  {
+    "team": "G2 Esports",
+    "path": "logos/g2-esports.png",
+    "sourcePage": "https://www.pglesports.com/cs2/pgl-major-singapore-2026/",
+    "sourceImage": "https://www.pglesports.com/images/CS2_events/PglMajorSingapore/teams/g2_esports.webp",
+    "art": "PGL 新加坡赛事官网队标"
+  },
+  {
+    "team": "The One",
+    "path": "logos/the-one.png",
+    "sourcePage": "https://www.pglesports.com/cs2/pgl-major-singapore-2026/",
+    "sourceImage": "https://www.pglesports.com/images/CS2_events/PglMajorSingapore/teams/1win.svg",
+    "art": "PGL 新加坡赛事官网队标"
+  },
+  {
+    "team": "Natus Vincere",
+    "path": "logos/natus-vincere.png",
+    "sourcePage": "https://www.pglesports.com/cs2/pgl-major-singapore-2026/",
+    "sourceImage": "https://www.pglesports.com/images/CS2_events/PglMajorSingapore/teams/natus_vincere.webp",
+    "art": "PGL 新加坡赛事官网队标"
+  },
+  {
+    "team": "Astralis",
+    "path": "logos/astralis.png",
+    "sourcePage": "https://www.pglesports.com/cs2/pgl-major-singapore-2026/",
+    "sourceImage": "https://www.pglesports.com/images/CS2_events/PglMajorSingapore/teams/astralis.svg",
+    "art": "PGL 新加坡赛事官网队标"
+  },
+  {
+    "team": "The MongolZ",
+    "path": "logos/the-mongolz.png",
+    "sourcePage": "https://www.pglesports.com/cs2/pgl-major-singapore-2026/",
+    "sourceImage": "https://www.pglesports.com/images/CS2_events/PglMajorSingapore/teams/the_mongolz.svg",
+    "art": "PGL 新加坡赛事官网队标"
   }
 ]

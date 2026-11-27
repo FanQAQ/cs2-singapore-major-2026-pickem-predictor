@@ -1,0 +1,239 @@
+{
+  "edition": "singapore-2026",
+  "stage": 1,
+  "endAt": "2026-11-27T15:06:20Z",
+  "teamOrder": [
+    "Ninjas in Pyjamas",
+    "PARIVISION",
+    "HEROIC",
+    "FaZe",
+    "Liquid",
+    "Eternal Fire",
+    "100 Thieves",
+    "9z",
+    "M80",
+    "DENDELE",
+    "Imperial",
+    "Wildcard",
+    "GOSH",
+    "FlyQuest",
+    "Chinggis Warriors",
+    "Lynn Vision"
+  ],
+  "source": {
+    "kind": "results",
+    "url": "https://news.pglesports.com/api/groupStageEndpoint?stage=1",
+    "publishedAt": "2026-11-27T15:06:20Z",
+    "file": "pgl-stage1-2026-11-27.json"
+  },
+  "rounds": [
+    [
+      {
+        "winner": "Imperial",
+        "loser": "HEROIC",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "Lynn Vision",
+        "loser": "9z",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "Ninjas in Pyjamas",
+        "loser": "M80",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "100 Thieves",
+        "loser": "Chinggis Warriors",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "Liquid",
+        "loser": "GOSH",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "PARIVISION",
+        "loser": "DENDELE",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "Wildcard",
+        "loser": "FaZe",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "FlyQuest",
+        "loser": "Eternal Fire",
+        "bestOf": 1,
+        "played": true
+      }
+    ],
+    [
+      {
+        "winner": "Ninjas in Pyjamas",
+        "loser": "Lynn Vision",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "HEROIC",
+        "loser": "Chinggis Warriors",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "Imperial",
+        "loser": "100 Thieves",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "M80",
+        "loser": "9z",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "FlyQuest",
+        "loser": "PARIVISION",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "Eternal Fire",
+        "loser": "DENDELE",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "FaZe",
+        "loser": "GOSH",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "Liquid",
+        "loser": "Wildcard",
+        "bestOf": 1,
+        "played": true
+      }
+    ],
+    [
+      {
+        "winner": "M80",
+        "loser": "HEROIC",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "Eternal Fire",
+        "loser": "100 Thieves",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "PARIVISION",
+        "loser": "FaZe",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "Lynn Vision",
+        "loser": "Wildcard",
+        "bestOf": 1,
+        "played": true
+      },
+      {
+        "winner": "FlyQuest",
+        "loser": "Imperial",
+        "bestOf": 3,
+        "played": true
+      },
+      {
+        "winner": "9z",
+        "loser": "DENDELE",
+        "bestOf": 3,
+        "played": true
+      },
+      {
+        "winner": "Ninjas in Pyjamas",
+        "loser": "Liquid",
+        "bestOf": 3,
+        "played": true
+      },
+      {
+        "winner": "Chinggis Warriors",
+        "loser": "GOSH",
+        "bestOf": 3,
+        "played": true
+      }
+    ],
+    [
+      {
+        "winner": "Eternal Fire",
+        "loser": "M80",
+        "bestOf": 3,
+        "played": true
+      },
+      {
+        "winner": "HEROIC",
+        "loser": "FaZe",
+        "bestOf": 3,
+        "played": true
+      },
+      {
+        "winner": "PARIVISION",
+        "loser": "Lynn Vision",
+        "bestOf": 3,
+        "played": true
+      },
+      {
+        "winner": "100 Thieves",
+        "loser": "9z",
+        "bestOf": 3,
+        "played": true
+      },
+      {
+        "winner": "Liquid",
+        "loser": "Imperial",
+        "bestOf": 3,
+        "played": true
+      },
+      {
+        "winner": "Wildcard",
+        "loser": "Chinggis Warriors",
+        "bestOf": 3,
+        "played": true
+      }
+    ],
+    [
+      {
+        "winner": "Lynn Vision",
+        "loser": "HEROIC",
+        "bestOf": 3,
+        "played": true
+      },
+      {
+        "winner": "Imperial",
+        "loser": "Wildcard",
+        "bestOf": 3,
+        "played": true
+      },
+      {
+        "winner": "100 Thieves",
+        "loser": "M80",
+        "bestOf": 3,
+        "played": true
+      }
+    ]
+  ]
+}

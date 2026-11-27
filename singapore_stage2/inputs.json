@@ -1,0 +1,774 @@
+{
+  "pointsAsOf": "2026-11-02",
+  "trainingSeries": 948,
+  "teams": {
+    "Ninjas in Pyjamas": {
+      "roster": [
+        "adamb",
+        "Krimbo",
+        "sjuush",
+        "stavn",
+        "xKacpersky"
+      ],
+      "points": 1564,
+      "vrsRank": 15,
+      "vrsTeam": "Ninjas in Pyjamas",
+      "vrsRoster": [
+        "adamb",
+        "Krimbo",
+        "sjuush",
+        "stavn",
+        "xKacpersky"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "depth": 1775.0,
+      "profile": {
+        "form": 0.024667624215874345,
+        "strong": -0.057497652239532605,
+        "weak": -0.21649925207802415,
+        "round": 0.04320299487381048,
+        "n": 32,
+        "ns": 1,
+        "nw": 2,
+        "nRound": 20
+      }
+    },
+    "PARIVISION": {
+      "roster": [
+        "FL1T",
+        "HObbit",
+        "Jame",
+        "xiELO",
+        "zweih"
+      ],
+      "points": 1560,
+      "vrsRank": 16,
+      "vrsTeam": "PARIVISION",
+      "vrsRoster": [
+        "FL1T",
+        "HObbit",
+        "Jame",
+        "xiELO",
+        "zweih"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "depth": 1775.0,
+      "profile": {
+        "form": 0.011093730009360092,
+        "strong": 0.05711162004857927,
+        "weak": 0.05274587204131146,
+        "round": -0.007661707476807084,
+        "n": 18,
+        "ns": 5,
+        "nw": 1,
+        "nRound": 8
+      }
+    },
+    "HEROIC": {
+      "roster": [
+        "Brollan",
+        "Chr1zN",
+        "MartinezSa",
+        "nilo",
+        "susp"
+      ],
+      "points": 1548,
+      "vrsRank": 18,
+      "vrsTeam": "HEROIC",
+      "vrsRoster": [
+        "Brollan",
+        "Chr1zN",
+        "MartinezSa",
+        "nilo",
+        "susp"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "depth": 1775.0,
+      "profile": {
+        "form": 0.1213765047906181,
+        "strong": 0.0,
+        "weak": 0.08282928004283549,
+        "round": 0.051953299849404146,
+        "n": 27,
+        "ns": 0,
+        "nw": 7,
+        "nRound": 10
+      }
+    },
+    "FaZe": {
+      "roster": [
+        "frozen",
+        "JBOEN",
+        "jcobbb",
+        "Neityu",
+        "Twistzz"
+      ],
+      "points": 1539,
+      "vrsRank": 20,
+      "vrsTeam": "FaZe",
+      "vrsRoster": [
+        "frozen",
+        "JBOEN",
+        "jcobbb",
+        "Neityu",
+        "Twistzz"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "depth": 1775.0,
+      "profile": {
+        "form": 0.023694647897606624,
+        "strong": 0.0,
+        "weak": 0.03092020819391289,
+        "round": 0.00570526645943048,
+        "n": 20,
+        "ns": 0,
+        "nw": 5,
+        "nRound": 11
+      }
+    },
+    "Liquid": {
+      "roster": [
+        "EliGE",
+        "Jorko",
+        "JT",
+        "malbsMd",
+        "NAF"
+      ],
+      "points": 1528,
+      "vrsRank": 21,
+      "vrsTeam": "Liquid",
+      "vrsRoster": [
+        "EliGE",
+        "Jorko",
+        "JT",
+        "malbsMd",
+        "NAF"
+      ],
+      "coreOverlap": 5,
+      "region": "americas",
+      "depth": 1477.5,
+      "profile": {
+        "form": -0.04702136060804222,
+        "strong": 0.19064743268479825,
+        "weak": -0.05768909511338791,
+        "round": -0.04128473478847326,
+        "n": 26,
+        "ns": 2,
+        "nw": 7,
+        "nRound": 14
+      }
+    },
+    "Eternal Fire": {
+      "roster": [
+        "jottAAA",
+        "Kvem",
+        "MisteM",
+        "regali",
+        "soulfly"
+      ],
+      "points": 1513,
+      "vrsRank": 22,
+      "vrsTeam": "Eternal Fire",
+      "vrsRoster": [
+        "jottAAA",
+        "Kvem",
+        "MisteM",
+        "regali",
+        "soulfly"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "depth": 1775.0,
+      "profile": {
+        "form": 0.17876472638351282,
+        "strong": 0.0575726977526508,
+        "weak": 0.0789280760013179,
+        "round": 0.0,
+        "n": 37,
+        "ns": 5,
+        "nw": 2,
+        "nRound": 0
+      }
+    },
+    "100 Thieves": {
+      "roster": [
+        "device",
+        "Gizmy",
+        "poiii",
+        "rain",
+        "sirah"
+      ],
+      "points": 1511,
+      "vrsRank": 23,
+      "vrsTeam": "100 Thieves",
+      "vrsRoster": [
+        "device",
+        "Gizmy",
+        "poiii",
+        "rain",
+        "sirah"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "depth": 1775.0,
+      "profile": {
+        "form": 0.0714469180037798,
+        "strong": -0.08293101481064458,
+        "weak": 0.08982891336630704,
+        "round": 0.02758804641659076,
+        "n": 27,
+        "ns": 2,
+        "nw": 2,
+        "nRound": 12
+      }
+    },
+    "9z": {
+      "roster": [
+        "dgt",
+        "HUASOPEEK",
+        "luchov",
+        "max",
+        "history"
+      ],
+      "points": 1490,
+      "vrsRank": 24,
+      "vrsTeam": "9z",
+      "vrsRoster": [
+        "dgt",
+        "HUASOPEEK",
+        "luchov",
+        "max",
+        "meyern"
+      ],
+      "coreOverlap": 4,
+      "region": "americas",
+      "depth": 1477.5,
+      "profile": {
+        "form": -0.19840970624072932,
+        "strong": -0.05529075162975696,
+        "weak": -0.027460837472354324,
+        "round": -0.04994772009948501,
+        "n": 19,
+        "ns": 1,
+        "nw": 3,
+        "nRound": 12
+      }
+    },
+    "M80": {
+      "roster": [
+        "JBa",
+        "Lake",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ],
+      "points": 1489,
+      "vrsRank": 25,
+      "vrsTeam": "M80",
+      "vrsRoster": [
+        "JBa",
+        "Lake",
+        "s1n",
+        "slaxz-",
+        "Swisher"
+      ],
+      "coreOverlap": 5,
+      "region": "americas",
+      "depth": 1478.0,
+      "profile": {
+        "form": 0.03489835002306883,
+        "strong": -0.027278954084432292,
+        "weak": 0.05743569242853238,
+        "round": -0.02561369231788022,
+        "n": 25,
+        "ns": 8,
+        "nw": 1,
+        "nRound": 10
+      }
+    },
+    "DENDELE": {
+      "roster": [
+        "doc",
+        "gafolo",
+        "koala",
+        "maxxkor",
+        "rdnzao"
+      ],
+      "points": 1466,
+      "vrsRank": 29,
+      "vrsTeam": "DENDELE",
+      "vrsRoster": [
+        "doc",
+        "gafolo",
+        "koala",
+        "maxxkor",
+        "rdnzao"
+      ],
+      "coreOverlap": 5,
+      "region": "americas",
+      "depth": 1489.5,
+      "profile": {
+        "form": -0.059952151030348386,
+        "strong": -0.007851244351952577,
+        "weak": -0.048513667533861056,
+        "round": 0.044479214827242645,
+        "n": 21,
+        "ns": 4,
+        "nw": 2,
+        "nRound": 7
+      }
+    },
+    "Imperial": {
+      "roster": [
+        "chelo",
+        "decenty",
+        "noway",
+        "saadzin",
+        "VINI"
+      ],
+      "points": 1406,
+      "vrsRank": 35,
+      "vrsTeam": "Imperial",
+      "vrsRoster": [
+        "chelo",
+        "decenty",
+        "noway",
+        "saadzin",
+        "VINI"
+      ],
+      "coreOverlap": 5,
+      "region": "americas",
+      "depth": 1489.5,
+      "profile": {
+        "form": 0.1391603013237628,
+        "strong": 0.0,
+        "weak": 0.0,
+        "round": -0.015958189081485327,
+        "n": 29,
+        "ns": 0,
+        "nw": 0,
+        "nRound": 1
+      }
+    },
+    "Wildcard": {
+      "roster": [
+        "Cxzi",
+        "fr3nd",
+        "HexT",
+        "nEMANHA",
+        "reck"
+      ],
+      "points": 1391,
+      "vrsRank": 38,
+      "vrsTeam": "Wildcard",
+      "vrsRoster": [
+        "Cxzi",
+        "fr3nd",
+        "HexT",
+        "nEMANHA",
+        "reck"
+      ],
+      "coreOverlap": 5,
+      "region": "americas",
+      "depth": 1489.5,
+      "profile": {
+        "form": 0.044727823840900426,
+        "strong": -0.09052031311894596,
+        "weak": 0.0,
+        "round": -0.001804731230492949,
+        "n": 18,
+        "ns": 2,
+        "nw": 0,
+        "nRound": 4
+      }
+    },
+    "GOSH": {
+      "roster": [
+        "asap",
+        "Magisk",
+        "mzinho",
+        "s1mple",
+        "Senzu"
+      ],
+      "points": 1337,
+      "vrsRank": 45,
+      "vrsTeam": "BC.Game",
+      "vrsRoster": [
+        "asap",
+        "Magisk",
+        "mzinho",
+        "s1mple",
+        "Senzu"
+      ],
+      "coreOverlap": 5,
+      "region": "asia",
+      "depth": 1216.5,
+      "profile": {
+        "form": 0.03862753155781852,
+        "strong": 0.0,
+        "weak": 0.05750356481896183,
+        "round": 0.03809823194818532,
+        "n": 17,
+        "ns": 0,
+        "nw": 1,
+        "nRound": 11
+      }
+    },
+    "FlyQuest": {
+      "roster": [
+        "aliStair",
+        "INS",
+        "jks",
+        "nettik",
+        "Vexite"
+      ],
+      "points": 1318,
+      "vrsRank": 48,
+      "vrsTeam": "FlyQuest",
+      "vrsRoster": [
+        "aliStair",
+        "INS",
+        "jks",
+        "nettik",
+        "Vexite"
+      ],
+      "coreOverlap": 5,
+      "region": "asia",
+      "depth": 1216.5,
+      "profile": {
+        "form": 0.09047491969272893,
+        "strong": 0.0,
+        "weak": 0.054710697964587475,
+        "round": 0.0,
+        "n": 7,
+        "ns": 0,
+        "nw": 1,
+        "nRound": 0
+      }
+    },
+    "Chinggis Warriors": {
+      "roster": [
+        "cool4st",
+        "fury5k",
+        "ROUX",
+        "sk0R",
+        "tikuak"
+      ],
+      "points": 1272,
+      "vrsRank": 55,
+      "vrsTeam": "Chinggis Warriors",
+      "vrsRoster": [
+        "cool4st",
+        "fury5k",
+        "ROUX",
+        "sk0R",
+        "tikuak"
+      ],
+      "coreOverlap": 5,
+      "region": "asia",
+      "depth": 1216.5,
+      "profile": {
+        "form": 0.040686219609787855,
+        "strong": 0.0,
+        "weak": 0.0,
+        "round": 0.0,
+        "n": 11,
+        "ns": 0,
+        "nw": 0,
+        "nRound": 0
+      }
+    },
+    "Lynn Vision": {
+      "roster": [
+        "C4LLM3SU3",
+        "EmiliaQAQ",
+        "Starry",
+        "Westmelon",
+        "z4KR"
+      ],
+      "points": 1267,
+      "vrsRank": 56,
+      "vrsTeam": "Lynn Vision",
+      "vrsRoster": [
+        "C4LLM3SU3",
+        "EmiliaQAQ",
+        "Starry",
+        "Westmelon",
+        "z4KR"
+      ],
+      "coreOverlap": 5,
+      "region": "asia",
+      "depth": 1216.5,
+      "profile": {
+        "form": 0.04984716502403138,
+        "strong": -0.10557704591506122,
+        "weak": 0.01674244994737628,
+        "round": -0.005326336974589243,
+        "n": 12,
+        "ns": 3,
+        "nw": 4,
+        "nRound": 4
+      }
+    },
+    "Astralis": {
+      "roster": [
+        "phzy",
+        "Staehr",
+        "ryu",
+        "siuhy",
+        "Anlelele"
+      ],
+      "points": 1572,
+      "vrsRank": 14,
+      "vrsTeam": "Astralis",
+      "vrsRoster": [
+        "jabbi",
+        "phzy",
+        "ryu",
+        "siuhy",
+        "Staehr"
+      ],
+      "coreOverlap": 4,
+      "region": "europe",
+      "depth": 1775.0,
+      "profile": {
+        "form": 0.0428010227,
+        "strong": -0.05234787614,
+        "weak": -0.09439377957,
+        "round": 0.02723750148,
+        "n": 23,
+        "ns": 1,
+        "nw": 2,
+        "nRound": 12
+      }
+    },
+    "FUT ESPORTS": {
+      "roster": [
+        "Krabeni",
+        "dziugss",
+        "dem0n",
+        "xfl0ud",
+        "SunPayus"
+      ],
+      "points": 1721,
+      "vrsRank": 8,
+      "vrsTeam": "FUT",
+      "vrsRoster": [
+        "cmtry",
+        "dem0n",
+        "dziugss",
+        "Krabeni",
+        "xfl0ud"
+      ],
+      "coreOverlap": 4,
+      "region": "europe",
+      "depth": 1775.0,
+      "profile": {
+        "form": 0.14959398425,
+        "strong": -0.05380185547,
+        "weak": 0.04908849184,
+        "round": 0.04232581746,
+        "n": 14,
+        "ns": 1,
+        "nw": 1,
+        "nRound": 9
+      }
+    },
+    "G2 Esports": {
+      "roster": [
+        "huNter-",
+        "MATYS",
+        "r1nkle",
+        "NertZ",
+        "HeavyGod"
+      ],
+      "points": 1616,
+      "vrsRank": 11,
+      "vrsTeam": "G2",
+      "vrsRoster": [
+        "HeavyGod",
+        "huNter-",
+        "MATYS",
+        "NertZ",
+        "r1nkle"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "depth": 1775.0,
+      "profile": {
+        "form": -0.05022604362,
+        "strong": -0.0555319914,
+        "weak": -0.17830353172,
+        "round": -0.02997056412,
+        "n": 23,
+        "ns": 1,
+        "nw": 7,
+        "nRound": 17
+      }
+    },
+    "MIBR": {
+      "roster": [
+        "LNZ",
+        "tomaszin",
+        "insani",
+        "venomzera",
+        "nqz"
+      ],
+      "points": 1546,
+      "vrsRank": 19,
+      "vrsTeam": "MIBR",
+      "vrsRoster": [
+        "insani",
+        "LNZ",
+        "nqz",
+        "tomaszin",
+        "venomzera"
+      ],
+      "coreOverlap": 5,
+      "region": "americas",
+      "depth": 1477.5,
+      "profile": {
+        "form": 0.00837525287,
+        "strong": -0.11977942039,
+        "weak": -0.13045966103,
+        "round": 0.0231853794,
+        "n": 26,
+        "ns": 3,
+        "nw": 1,
+        "nRound": 17
+      }
+    },
+    "Natus Vincere": {
+      "roster": [
+        "w0nderful",
+        "Aleksib",
+        "b1t",
+        "iM",
+        "makazze"
+      ],
+      "points": 1589,
+      "vrsRank": 13,
+      "vrsTeam": "Natus Vincere",
+      "vrsRoster": [
+        "Aleksib",
+        "b1t",
+        "iM",
+        "makazze",
+        "w0nderful"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "depth": 1775.0,
+      "profile": {
+        "form": -0.02377706625,
+        "strong": 0.07548674056,
+        "weak": -0.01072225116,
+        "round": 0.03382702364,
+        "n": 19,
+        "ns": 7,
+        "nw": 3,
+        "nRound": 17
+      }
+    },
+    "Nemiga Gaming": {
+      "roster": [
+        "robo",
+        "Xant3r",
+        "khaN",
+        "SYPH0",
+        "KaiR0N-"
+      ],
+      "points": 1650,
+      "vrsRank": 10,
+      "vrsTeam": "Nemiga",
+      "vrsRoster": [
+        "KaiR0N-",
+        "khaN",
+        "robo",
+        "syph0",
+        "Xant3r"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "depth": 1775.0,
+      "profile": {
+        "form": 0.19949861549,
+        "strong": 0.36817490765,
+        "weak": -0.10913214575,
+        "round": 0.0,
+        "n": 47,
+        "ns": 6,
+        "nw": 1,
+        "nRound": 0
+      }
+    },
+    "The MongolZ": {
+      "roster": [
+        "bLitz",
+        "Techno4K",
+        "910",
+        "cobrazera",
+        "nin9"
+      ],
+      "points": 1554,
+      "vrsRank": 17,
+      "vrsTeam": "The MongolZ",
+      "vrsRoster": [
+        "910",
+        "bLitz",
+        "cobrazera",
+        "nin9",
+        "Techno"
+      ],
+      "coreOverlap": 5,
+      "region": "asia",
+      "depth": 1216.5,
+      "profile": {
+        "form": 0.06964756012,
+        "strong": 0.05818120293,
+        "weak": -0.12950870012,
+        "round": 0.03623728481,
+        "n": 17,
+        "ns": 5,
+        "nw": 1,
+        "nRound": 11
+      }
+    },
+    "The One": {
+      "roster": [
+        "nafany",
+        "ArtFr0st",
+        "Ax1Le",
+        "BELCHONOKK",
+        "fame"
+      ],
+      "points": 1598,
+      "vrsRank": 12,
+      "vrsTeam": "1win",
+      "vrsRoster": [
+        "ArtFr0st",
+        "Ax1Le",
+        "BELCHONOKK",
+        "fame",
+        "nafany"
+      ],
+      "coreOverlap": 5,
+      "region": "europe",
+      "depth": 1775.0,
+      "profile": {
+        "form": 0.13921401641,
+        "strong": 0.16032314938,
+        "weak": 0.0,
+        "round": 0.04866516308,
+        "n": 30,
+        "ns": 5,
+        "nw": 0,
+        "nRound": 10
+      }
+    }
+  }
+}

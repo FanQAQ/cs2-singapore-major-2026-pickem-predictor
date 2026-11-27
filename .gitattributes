@@ -1,5 +1,7 @@
 # The published forecasts record SHA-256 hashes of source and model inputs.
 *.json text eol=lf
+# Stage 2 records the digest of these exact Stage 1 result bytes.
+forecast_archive/prospective/results/singapore-2026-stage1.json -text diff
 *.js text eol=lf
 *.cjs text eol=lf
 lineup_pairs/bo1/*.py text eol=lf

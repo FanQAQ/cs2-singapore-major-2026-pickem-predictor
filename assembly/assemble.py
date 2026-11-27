@@ -109,7 +109,7 @@ def write_project_zip(archive):
         for folder in (*folders, "world_rank", "holdout_copenhagen", "holdout_shanghai", "external_forecasts",
                        "residual_rating", "style_scout", "style_stats", "stage_context", "personnel_study",
                        "favorite_risk", "coach_change", "multi_stage", "multi_stage_train",
-                       "final_card", "final_ratings", "external_stage", "stage_goals", "epl_transfer", "stage_transfer",
+                       "final_card", "final_ratings", "external_stage", "stage_goals", "epl_transfer", "stage_transfer", "singapore_stage2",
                        "f1bre_card", "f1bre_data", "f1bre_models", "ml_allocation", "latent_form", "veto_ml", "bo5_history", "elite_opponents", "lineup_pairs", "stage1_holdout", "stage3_maps", "cologne_veto", "round_form", "tail_calibration", "pressure"):
             for path in sorted((ROOT / folder).rglob("*")):
                 rel = path.relative_to(ROOT)
@@ -414,7 +414,7 @@ def build():
         ("strategy_v4/predict.js","v4.js"), ("swap/swap.js","swap.js"),
         ("history_ui/history.js","history.js"), ("history_ui/history-worker.js","history-worker.js"),
         ("ui/index.html","index.html"), ("ui/app.js","app.js"), ("ui/style.css","style.css"),
-        ("ui/fango-lab.png","fango-lab.png"),
+        ("ui/fango-lab.png","fango-lab.png"), ("ui/current-major.js","current-major.js"),
         ("ui/style-report.js","style-report.js"), ("ui/singapore-skyline.webp","singapore-skyline.webp"),
         ("ui/event-context.js","event-context.js"),
         ("ui/f1bre-study.js","f1bre-study.js"),
@@ -427,6 +427,7 @@ def build():
     ]:
         shutil.copyfile(ROOT / source, OUT / target)
     subprocess.run(["node", str(ROOT / "f1bre_models/build-browser.cjs")], check=True)
+    subprocess.run(["node", str(ROOT / "assembly/build-singapore-live.cjs")], check=True)
     logo_paths = {asset for e in events for asset in e["logos"].values()}
     for name in logo_paths:
         path = Path(name)

@@ -1,0 +1,125 @@
+{
+  "edition": "singapore-2026",
+  "stage": 2,
+  "round": 1,
+  "bestOf": 1,
+  "sources": [
+    {
+      "publisher": "PGL",
+      "url": "https://news.pglesports.com/api/groupStageEndpoint?stage=2",
+      "checkedAt": "2026-11-27T15:12:53Z",
+      "fields": [
+        "scheduledStart"
+      ],
+      "note": "The organizer had listed all eight slots in Singapore time. The team fields were still empty at this check."
+    },
+    {
+      "publisher": "BO3.gg",
+      "url": "https://api.bo3.gg/api/v1/matches?filter%5Bmatches.tournament_id%5D%5Beq%5D=6268&page%5Blimit%5D=40&sort=start_date",
+      "checkedAt": "2026-11-27T15:13:18Z",
+      "fields": [
+        "scheduledStart",
+        "teams",
+        "matchId"
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "seeds": [
+        1,
+        9
+      ],
+      "teams": [
+        "FUT ESPORTS",
+        "FlyQuest"
+      ],
+      "scheduledStart": "2026-11-28T12:00:00+08:00",
+      "matchId": 134399
+    },
+    {
+      "seeds": [
+        2,
+        10
+      ],
+      "teams": [
+        "Nemiga Gaming",
+        "Ninjas in Pyjamas"
+      ],
+      "scheduledStart": "2026-11-28T12:00:00+08:00",
+      "matchId": 134400
+    },
+    {
+      "seeds": [
+        3,
+        11
+      ],
+      "teams": [
+        "G2 Esports",
+        "Liquid"
+      ],
+      "scheduledStart": "2026-11-28T13:00:00+08:00",
+      "matchId": 134401
+    },
+    {
+      "seeds": [
+        4,
+        12
+      ],
+      "teams": [
+        "The One",
+        "Eternal Fire"
+      ],
+      "scheduledStart": "2026-11-28T13:00:00+08:00",
+      "matchId": 134402
+    },
+    {
+      "seeds": [
+        5,
+        13
+      ],
+      "teams": [
+        "Natus Vincere",
+        "PARIVISION"
+      ],
+      "scheduledStart": "2026-11-28T14:00:00+08:00",
+      "matchId": 134404
+    },
+    {
+      "seeds": [
+        6,
+        14
+      ],
+      "teams": [
+        "Astralis",
+        "Imperial"
+      ],
+      "scheduledStart": "2026-11-28T14:00:00+08:00",
+      "matchId": 134403
+    },
+    {
+      "seeds": [
+        7,
+        15
+      ],
+      "teams": [
+        "The MongolZ",
+        "Lynn Vision"
+      ],
+      "scheduledStart": "2026-11-28T15:00:00+08:00",
+      "matchId": 134405
+    },
+    {
+      "seeds": [
+        8,
+        16
+      ],
+      "teams": [
+        "MIBR",
+        "100 Thieves"
+      ],
+      "scheduledStart": "2026-11-28T15:00:00+08:00",
+      "matchId": 134406
+    }
+  ]
+}

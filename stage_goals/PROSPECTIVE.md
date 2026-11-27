@@ -34,9 +34,13 @@ node stage_goals/test-prospective.cjs
 
 ### 发布到首页
 
-新加坡后两阶段统一使用 `edition: "singapore-2026"`。将真实的前瞻封存放在 `forecast_archive/prospective/singapore-2026-stage2.json` 或 `singapore-2026-stage3.json`，随后运行标准组装命令。首页「本届已封存的竞猜卡」会列出该阶段各模型的两支全胜、六支普通晋级、两支全败，并提供原件下载。已封存的第一阶段使用现存的推荐卡和跨阶段候选。首发尚未确定的阶段可在赛程面板查询直邀队。
+新加坡各阶段统一使用赛事 ID `singapore-2026`。Stage 2 沿用 11 月 27 日 15:07:16.656 UTC 封存的原始文件，公开副本和研究原件的 SHA-256 均为 `673ede0a76e6d7aed93a33187072829aca6c60f125eb3f48c10dca181e1c05bf`。封存早于 PGL 公布的首场时间 11 月 28 日 04:00 UTC；Valve 游戏内锁盘时间尚待核实。组装时校验封存摘要、16 队种子顺序、第一阶段赛果摘要和资格确定时间，发布正式预测与未计入第一阶段表现的对照。[Stage 2 公开原件](../forecast_archive/singapore-stage2-2026-11-27.json) · [研究原件及方法](../singapore_stage2/README.md)
+
+Stage 3 的前瞻封存继续使用 `forecast_archive/prospective/singapore-2026-stage3.json`。标准组装命令会列出各阶段两支全胜、六支普通晋级、两支全败，并提供原件下载。第一阶段沿用既有推荐和跨阶段候选。
 
 完赛后，将含五轮、赛制和已核实来源的标准结果 JSON 放入 `forecast_archive/prospective/results/`，文件名与对应的前瞻记录相同。来源证据路径按结果 JSON 所在目录解析。组装时逐场验证全部 33 个对阵，成功后在已封存卡下显示实际得分及来源。允许单独重复执行 `node stage_goals/public-records.cjs` 查看供网页使用的清单；重复组装和评分均保留赛前原件。从[网页入口](https://cs2-pickem-matchlab.dustydell9.chatgpt.site/#picks/forecasts)可直接打开此面板。
+
+Stage 2 的标准赛果文件名为 `results/singapore-2026-stage2.json`。赛果齐备后，两份预测分别记录十格得分、三个位置的命中队伍和实际对局按 BO1／BO3 区分的误差。未打的行政判胜只参与十格计分。滚动窗口只计正式推荐；等待结果时将该阶段列为待结算。
 
 新加坡公开清单核对 PGL 三阶段的赛前排期和赛制、前一阶段最后比赛日、八支直邀队、封存时间及证据摘要。赛果引用 PGL 或 Valve 的官方页面（包括 Valve 的 CS2 Steam 公告）；维护者在本地保存并逐场核对官方原件。若主办方正式改期、换队或更换赛果发布平台，先依据新的官方材料修订并留存受影响的日程或来源记录。
 

@@ -43,6 +43,47 @@ function singaporeFirst(resultFile) {
   });
   return {edition:'singapore-2026',editionStart:start.slice(0,10),stage:1,stageStart:start.slice(0,10),source,cards};
 }
+const singaporeSecondFile='singapore-stage2-2026-11-27.json';
+const singaporeSecondHash='673ede0a76e6d7aed93a33187072829aca6c60f125eb3f48c10dca181e1c05bf';
+function singaporeSecond(archive,resultFile) {
+  const raw=fs.readFileSync(archive);
+  assert.equal(createHash('sha256').update(raw).digest('hex'),singaporeSecondHash,'Singapore Stage 2 archive checksum');
+  const f=JSON.parse(raw);
+  assert.equal(f.id,'singapore-2026-stage2');
+  assert.equal(f.startsAt,entryFor(2).firstMatchScheduledUtc);
+  const frozen=Date.parse(f.sealedAt);
+  assert(frozen<=Date.now() && frozen<Date.parse(f.startsAt),'Singapore Stage 2 must be sealed before its first match');
+  const names=f.teams.map(t=>t.name);
+  assert.deepEqual(f.teams.map(t=>t.seed),Array.from({length:16},(_,i)=>i+1));
+  assert.deepEqual(names,['FUT ESPORTS','Nemiga Gaming','G2 Esports','The One','Natus Vincere','Astralis','The MongolZ','MIBR',
+    'FlyQuest','Ninjas in Pyjamas','Liquid','Eternal Fire','PARIVISION','Imperial','Lynn Vision','100 Thieves'],'Singapore Stage 2 seed order');
+  const first=fs.readFileSync(path.join(path.dirname(resultFile),'singapore-2026-stage1.json'));
+  assert.equal(createHash('sha256').update(first).digest('hex'),f.audit.hashes.stage1WinnerInput,'Singapore Stage 1 input checksum');
+  assert(Date.parse(JSON.parse(first).endAt)<=frozen,'Stage 2 forecast precedes qualification');
+  let checked=null;
+  if(fs.existsSync(resultFile)) {
+    confirmSingaporeResult(resultFile,2);
+    checked=readResults(resultFile,'singapore-2026',2,f.startsAt,'mixed',names);
+  }
+  const cards=[['recommended',f.card,f.matrix],['withoutStage1',f.baseCard,f.baseMatrix]].map(([id,card,matrix])=>{
+    assert.deepEqual([0,1,2,3].map(slot=>card.filter(p=>p===slot).length),[2,6,2,6]);
+    const entry=ticket(id,archive,'forecasts/'+singaporeSecondFile,f.sealedAt,names,card,null);
+    if(checked) {
+      entry.hits=CS.actualScore(card,checked.actual);
+      entry.passed=entry.hits>=5;
+      entry.bucketHits=[0,1,2].map(slot=>names.filter((_,i)=>card[i]===slot && checked.actual[i]===slot));
+      entry.formats={};
+      for(const key of ['bo1','bo3']) {
+        const ps=checked.games.filter(game=>game.played && game.key===key).map(game=>matrix[key][game.w][game.l]);
+        entry.formats[key]={n:ps.length,brier:ps.length?ps.reduce((v,p)=>v+(1-p)**2,0)/ps.length:null,
+          logLoss:ps.length?ps.reduce((v,p)=>v-Math.log(p),0)/ps.length:null};
+      }
+    }
+    return entry;
+  });
+  return {edition:'singapore-2026',editionStart:entryFor(1).firstMatchScheduledUtc.slice(0,10),stage:2,
+    stageStart:f.startsAt.slice(0,10),source:checked?.verified??null,cards};
+}
 function publicRecords(edition,dir) {
   assert.match(edition,/^[a-z0-9]+(?:-[a-z0-9]+)*$/);
   const stages=[];
@@ -53,6 +94,14 @@ function publicRecords(edition,dir) {
       assert(!fs.existsSync(archive),'Singapore Stage 1 already has its original pre-event archives');
       stages.push(singaporeFirst(results));
       continue;
+    }
+    if(edition==='singapore-2026' && stage===2) {
+      const file=path.resolve(dir,'..',singaporeSecondFile);
+      if(path.resolve(dir)===path.join(forecastDir,'prospective') || fs.existsSync(file)) {
+        assert(!fs.existsSync(archive),'Duplicate Singapore Stage 2 pre-event archive');
+        stages.push(singaporeSecond(file,results));
+        continue;
+      }
     }
     if(!fs.existsSync(archive)) {
       assert(!fs.existsSync(results),'Results require an existing pre-event archive: '+file);

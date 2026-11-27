@@ -1,0 +1,442 @@
+{
+  "teams": [
+    "Ninjas in Pyjamas",
+    "PARIVISION",
+    "HEROIC",
+    "FaZe",
+    "Liquid",
+    "Eternal Fire",
+    "100 Thieves",
+    "9z",
+    "M80",
+    "DENDELE",
+    "Imperial",
+    "Wildcard",
+    "GOSH",
+    "FlyQuest",
+    "Chinggis Warriors",
+    "Lynn Vision"
+  ],
+  "records": [
+    "3-0",
+    "3-1",
+    "2-3",
+    "1-3",
+    "3-1",
+    "3-1",
+    "3-2",
+    "1-3",
+    "2-3",
+    "0-3",
+    "3-2",
+    "2-3",
+    "0-3",
+    "3-0",
+    "1-3",
+    "3-2"
+  ],
+  "cardA": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    3,
+    3,
+    3,
+    1,
+    3,
+    3,
+    3,
+    2,
+    2
+  ],
+  "cardB": [
+    1,
+    1,
+    1,
+    0,
+    3,
+    0,
+    1,
+    3,
+    1,
+    3,
+    1,
+    3,
+    3,
+    3,
+    2,
+    2
+  ],
+  "source": "https://news.pglesports.com/api/groupStageEndpoint?stage=1",
+  "confirmedBy": "2026-11-27T15:06:20Z",
+  "rounds": [
+    [
+      [
+        "Imperial",
+        "HEROIC"
+      ],
+      [
+        "Lynn Vision",
+        "9z"
+      ],
+      [
+        "Ninjas in Pyjamas",
+        "M80"
+      ],
+      [
+        "100 Thieves",
+        "Chinggis Warriors"
+      ],
+      [
+        "Liquid",
+        "GOSH"
+      ],
+      [
+        "PARIVISION",
+        "DENDELE"
+      ],
+      [
+        "Wildcard",
+        "FaZe"
+      ],
+      [
+        "FlyQuest",
+        "Eternal Fire"
+      ]
+    ],
+    [
+      [
+        "Ninjas in Pyjamas",
+        "Lynn Vision"
+      ],
+      [
+        "HEROIC",
+        "Chinggis Warriors"
+      ],
+      [
+        "Imperial",
+        "100 Thieves"
+      ],
+      [
+        "M80",
+        "9z"
+      ],
+      [
+        "FlyQuest",
+        "PARIVISION"
+      ],
+      [
+        "Eternal Fire",
+        "DENDELE"
+      ],
+      [
+        "FaZe",
+        "GOSH"
+      ],
+      [
+        "Liquid",
+        "Wildcard"
+      ]
+    ],
+    [
+      [
+        "M80",
+        "HEROIC"
+      ],
+      [
+        "Eternal Fire",
+        "100 Thieves"
+      ],
+      [
+        "PARIVISION",
+        "FaZe"
+      ],
+      [
+        "Lynn Vision",
+        "Wildcard"
+      ],
+      [
+        "FlyQuest",
+        "Imperial"
+      ],
+      [
+        "9z",
+        "DENDELE"
+      ],
+      [
+        "Ninjas in Pyjamas",
+        "Liquid"
+      ],
+      [
+        "Chinggis Warriors",
+        "GOSH"
+      ]
+    ],
+    [
+      [
+        "Eternal Fire",
+        "M80"
+      ],
+      [
+        "HEROIC",
+        "FaZe"
+      ],
+      [
+        "PARIVISION",
+        "Lynn Vision"
+      ],
+      [
+        "100 Thieves",
+        "9z"
+      ],
+      [
+        "Liquid",
+        "Imperial"
+      ],
+      [
+        "Wildcard",
+        "Chinggis Warriors"
+      ]
+    ],
+    [
+      [
+        "Lynn Vision",
+        "HEROIC"
+      ],
+      [
+        "Imperial",
+        "Wildcard"
+      ],
+      [
+        "100 Thieves",
+        "M80"
+      ]
+    ]
+  ],
+  "report": {
+    "source": "https://news.pglesports.com/api/groupStageEndpoint?stage=1",
+    "verifiedPairings": 33,
+    "firstRoundBO1": {
+      "recommended": {
+        "n": 8,
+        "brier": 0.261190611246246,
+        "logLoss": 0.7168501762854872
+      },
+      "DAKEbits": {
+        "n": 8,
+        "brier": 0.3182,
+        "logLoss": 0.848158298655761
+      },
+      "gitModel": {
+        "n": 8,
+        "brier": 0.28112748435185886,
+        "logLoss": 0.7646040444175095
+      }
+    },
+    "terminalTeamErrors": {
+      "recommended": {
+        "teams": 16,
+        "categoryOrder": [
+          "3-0",
+          "3-1 / 3-2",
+          "0-3",
+          "other"
+        ],
+        "perCategory": [
+          0.10993877322048609,
+          0.2206687473958333,
+          0.10421238433159723,
+          0.23400725542534723
+        ],
+        "brier": 0.6688271603732638
+      },
+      "gitModel": {
+        "teams": 16,
+        "categoryOrder": [
+          "3-0",
+          "3-1 / 3-2",
+          "0-3",
+          "other"
+        ],
+        "perCategory": [
+          0.1133228947375,
+          0.22361947368750001,
+          0.12641041081875,
+          0.23987873130312495
+        ],
+        "brier": 0.703231510546875
+      }
+    },
+    "stageProbabilityErrors": {
+      "recommended": {
+        "bo1": {
+          "games": 20,
+          "brier": 0.24171644900199593,
+          "logLoss": 0.6756895268441798
+        },
+        "bo3": {
+          "games": 13,
+          "brier": 0.23427313880451373,
+          "logLoss": 0.6630117215493905
+        }
+      },
+      "earlierStageChallenger": {
+        "bo1": {
+          "games": 20,
+          "brier": 0.24154975099410686,
+          "logLoss": 0.6744423807215714
+        },
+        "bo3": {
+          "games": 13,
+          "brier": 0.23901889607912638,
+          "logLoss": 0.6734127612233837
+        }
+      }
+    },
+    "completedStage": {
+      "originalRecommended": {
+        "hits": 3,
+        "passed": false,
+        "bySlot": [
+          {
+            "slot": "3-0",
+            "hitTeams": []
+          },
+          {
+            "slot": "3-1 / 3-2",
+            "hitTeams": [
+              "Liquid",
+              "100 Thieves",
+              "Imperial"
+            ]
+          },
+          {
+            "slot": "0-3",
+            "hitTeams": []
+          }
+        ]
+      },
+      "recommended": {
+        "hits": 5,
+        "passed": true,
+        "bySlot": [
+          {
+            "slot": "3-0",
+            "hitTeams": [
+              "Ninjas in Pyjamas"
+            ]
+          },
+          {
+            "slot": "3-1 / 3-2",
+            "hitTeams": [
+              "PARIVISION",
+              "Liquid",
+              "100 Thieves",
+              "Imperial"
+            ]
+          },
+          {
+            "slot": "0-3",
+            "hitTeams": []
+          }
+        ]
+      },
+      "earlierStageChallenger": {
+        "hits": 3,
+        "passed": false,
+        "bySlot": [
+          {
+            "slot": "3-0",
+            "hitTeams": []
+          },
+          {
+            "slot": "3-1 / 3-2",
+            "hitTeams": [
+              "PARIVISION",
+              "100 Thieves",
+              "Imperial"
+            ]
+          },
+          {
+            "slot": "0-3",
+            "hitTeams": []
+          }
+        ]
+      },
+      "CSGOTradeUp": {
+        "hits": 4,
+        "passed": false,
+        "bySlot": [
+          {
+            "slot": "3-0",
+            "hitTeams": [
+              "Ninjas in Pyjamas"
+            ]
+          },
+          {
+            "slot": "3-1 / 3-2",
+            "hitTeams": [
+              "Liquid",
+              "Eternal Fire",
+              "100 Thieves"
+            ]
+          },
+          {
+            "slot": "0-3",
+            "hitTeams": []
+          }
+        ]
+      },
+      "Pley": {
+        "hits": 4,
+        "passed": false,
+        "bySlot": [
+          {
+            "slot": "3-0",
+            "hitTeams": [
+              "Ninjas in Pyjamas"
+            ]
+          },
+          {
+            "slot": "3-1 / 3-2",
+            "hitTeams": [
+              "Liquid",
+              "Eternal Fire",
+              "100 Thieves"
+            ]
+          },
+          {
+            "slot": "0-3",
+            "hitTeams": []
+          }
+        ]
+      },
+      "gitModel": {
+        "hits": 3,
+        "passed": false,
+        "bySlot": [
+          {
+            "slot": "3-0",
+            "hitTeams": []
+          },
+          {
+            "slot": "3-1 / 3-2",
+            "hitTeams": [
+              "PARIVISION",
+              "Liquid",
+              "Eternal Fire"
+            ]
+          },
+          {
+            "slot": "0-3",
+            "hitTeams": []
+          }
+        ]
+      }
+    }
+  }
+}

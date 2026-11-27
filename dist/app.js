@@ -58,6 +58,10 @@
   }
   const singapore = api.events.find(e=>e.id==='singapore' && e.teams?.length===16);
   if (!singapore) {fail('缺少新加坡 Stage 1 的完整参赛数据。');return;}
+  const live=globalThis.CurrentMajor;
+  if(live?.urlStage()===2){live.mountStage2();return;}
+  if(live?.data.stage1.officialWindows)singapore.officialWindows=live.data.stage1.officialWindows;
+  if(live?.data.stage1.prospectiveStages)singapore.prospectiveStages=live.data.stage1.prospectiveStages;
   const stages=new Map([[1,singapore]]);
   for(const n of [2,3]){
     const event=api.allEvents.find(e=>e.stage===n && e.teams?.length===16 && e.teams.every(t=>t.roster?.length===5) &&
@@ -66,6 +70,7 @@
   }
   function currentStage(){return state.event===singapore?1:state.event.stage;}
   function renderStagePicker(){
+    if(live){live.stagePicker(1,state.tab);return;}
     const nav=byId('forecast-stages');
     if(nav.children.length===0) for(const n of [1,2,3]){
       const b=el('button','',''); b.type='button';b.dataset.stage=n;
@@ -543,7 +548,7 @@
       time.replaceChildren(value.month+'.'+value.day+' ',el('b','',value.hour+':'+value.minute));
       opener.setAttribute('aria-label','Stage '+currentStage()+' 首场北京时间 '+time.textContent+'，查看 PGL 官方赛程');
     }
-    byId('mode-label').textContent=selected()?'条件推演':e.hasResults?'历史回测':isUpcoming?'尚未开赛':'赛前预测存档';
+    byId('mode-label').textContent=selected()?'条件推演':live?'已完赛 · 封存预测计分':e.hasResults?'历史回测':isUpcoming?'尚未开赛':'赛前预测存档';
     byId('metadata').replaceChildren();
     ['16 支战队 · 8 席晋级','赛程 '+e.date].forEach(v=>byId('metadata').append(el('span','',v)));
     const active=activeEvidence(e), close=state.feature.closeForm && e.closeSnapshot;
@@ -572,6 +577,7 @@
       else if(!available) label.append(el('small','',f.key==='experience'?'无更早训练届':'无样本'));
       else if(coverage(f)) label.append(el('small','',coverage(f).split(' ')[0]));
       input.addEventListener('change',()=>{
+        live?.selectArchive('model');
         state.feature[f.key]=input.checked;
         if(f.key==='format' && !input.checked) {state.feature.shrinkBO=false;state.feature.mapVeto=false;}
         changeAndFocus('feature-'+f.key);
@@ -631,7 +637,8 @@
 
   }
   function switchMethod(family) {
-    if(family===state.family) return;
+    live?.selectArchive('model');
+    if(family===state.family){if(live)render();return;}
     savedMethods.set(state.family,{feature:{...state.feature},cardMode:state.cardMode,
       manualCard:state.cardMode==='manual' && state.card?Array.from(state.card):null});
     state.family=family;
@@ -709,7 +716,7 @@
   function probabilityPanel() {
     const e=state.event;
     return '<section class="panel prob-panel"><div class="panel-head"><div><h2>各队战绩概率</h2><p>按初始种子排序 · 点击队名查看对阵</p></div></div><div class="table-wrap"><table class="prob-table"><thead><tr><th>种子</th><th>战队</th><th>3–0</th><th>3–1 / 3–2</th><th>0–3</th><th class="pick-col">我的选择</th></tr></thead><tbody>'+e.teams.map((t,i)=>{
-      const p=state.result.probabilities[i],cat=state.card[i];
+      const p=state.result.probabilities[i],cat=(live?.archiveCard()||state.card)[i];
       return '<tr><td><span class="seed">'+String(i+1).padStart(2,'0')+'</span></td><td><button type="button" class="team-name team-link" data-team-detail="'+i+'" title="查看该队的对阵分析">'+teamMarkup(i)+'</button></td>'+[0,1,2].map(k=>'<td>'+prob(p[k],k)+'</td>').join('')+'<td class="pick-col">'+(cat<3?'<span class="small-tag cat'+cat+'">'+names[cat]+'</span>':'<span class="seed">—</span>')+'</td></tr>';
     }).join('')+'</tbody></table></div><p class="panel-note">其余概率对应 1–3 或 2–3 淘汰。</p></section>';
   }
@@ -829,7 +836,8 @@
       return '<details><summary>Stage '+s.stage+' 已公布的 '+teams.length+' 队首发</summary>'+auditTable(['直邀队','PGL 公布的五人'],teams)+'</details>';
     }).join('');
     return pickDisclosure('singapore-schedule','新加坡三个阶段的赛程与交卡时间',
-      '<p>截至 '+escape(schedule.asOfDate)+'，Valve 已开放 Stage 1 竞猜。下表均为北京时间。提交时请查看游戏内该阶段倒计时。</p>'+
+      (live?'<p>Stage 1 已完赛，Stage 2 的 16 队名单和赛前预测已确定。<a href="?stage=2#picks">查看 Stage 2 预测</a>。下表为北京时间，锁盘以游戏内倒计时为准。</p>':
+        '<p>截至 '+escape(schedule.asOfDate)+'，Valve 已开放 Stage 1 竞猜。下表均为北京时间。提交时请查看游戏内该阶段倒计时。</p>')+
       auditTable(['阶段','PGL 首场排期','已核实锁盘时间'],rows)+invites+
       '<p><a href="'+escape(schedule.sources.hub.url)+'" target="_blank" rel="noopener noreferrer">Valve 竞猜公告 ↗</a> · '+
       '<a href="'+escape(schedule.sources.schedule.url)+'" target="_blank" rel="noopener noreferrer">PGL 赛程 ↗</a> · '+
@@ -853,13 +861,17 @@
   }
   function sealedTickets(records,mlRecords=[]) {
     if(!records?.length) return '';
-    const labels={recommended:'预测',earlierStageChallenger:'往届阶段经验候选',stage3Candidate:'分组填卡候选',standardComparison:'原填法对照'};
+    const labels={recommended:'预测',earlierStageChallenger:'往届阶段经验候选',stage3Candidate:'分组填卡候选',standardComparison:'原填法对照',withoutStage1:'未计入第一阶段的对照'};
     const stages=records.map(entry=>{
       const headings=entry.cards.map(c=>labels[c.id]);
       const rows=['3–0','普通晋级','0–3'].map((slot,i)=>[slot,...entry.cards.map(c=>c.groups[i].join('、'))]);
-      if(entry.source) rows.push(['实际命中',...entry.cards.map(c=>c.hits+'/10')]);
+      const completed=live && entry.edition==='singapore-2026' && entry.stage===1;
+      if(entry.source || completed) rows.push(['实际命中',...entry.cards.map(c=>{
+        const value=c.hits??(completed?live.hits(live.data.stage1[c.id==='recommended'?'cardA':'cardB']):null);
+        return value===null?'待核对':value+'/10';
+      })]);
       const files=entry.cards.map(c=>'<a href="'+escape(c.webFile)+'" download>'+escape(labels[c.id])+' JSON</a>').join(' · ');
-      const status=entry.source?'<a href="'+escape(entry.source.url)+'" target="_blank" rel="noopener noreferrer">核对正式赛果 ↗</a>':'待完赛评分';
+      const status=entry.source?'<a href="'+escape(entry.source.url)+'" target="_blank" rel="noopener noreferrer">核对正式赛果 ↗</a>':completed?'已按首阶段最终战绩计分':'待完赛评分';
       const research=mlRecords.find(r=>r.edition===entry.edition && r.stage===entry.stage);
         return '<section><h3>Stage '+entry.stage+'</h3>'+auditTable(['槽位',...headings],rows)+'<p>封存于 '+escape(entry.cards[0].frozenAt.slice(0,10))+' · '+status+' · '+files+'</p>'+mlTicket(research)+'</section>';
     }).join('');
@@ -905,7 +917,7 @@
       pickDisclosure('swap','比较两队换位',swapPanel());
     const eventNotes=(state.event.stageComparison?pickDisclosure('stage-context','与往届赛事对照',PickEventContext.home(state.event)):'')+
       schedulePanel(state.event.stageSchedule)+sealedTickets(state.event.prospectiveStages,state.event.stage3MlForecasts);
-    return '<div class="picks-home">'+cardPanel()+probabilityPanel()+historicalPanel()+
+    return '<div class="picks-home">'+(live?live.scorecard(teamMarkup,cardPanel):cardPanel())+probabilityPanel()+historicalPanel()+
       pickDisclosure('forecast-evidence','预测依据与队伍比较',evidence)+
       (eventNotes?pickDisclosure('event-records','赛程与赛前封存',eventNotes):'')+'</div>';
   }
@@ -1651,6 +1663,7 @@
     render();
   }
   byId('fill-mode').addEventListener('change',ev=>{
+    live?.selectArchive('model');
     const mode=ev.target.value, robust=mode==='robust', conditional=mode==='seedConditional';
     if (mode==='expected' || mode==='seed') {
       applyCardMode(mode);
@@ -1756,6 +1769,7 @@
   byId('workspace').addEventListener('click',ev=>{
     const b=ev.target.closest('button');if(!b)return;
     const data=b.dataset;
+    if(live && data.archiveView){live.selectArchive(data.archiveView);render();return;}
     if ('teamDetail' in data) {
       state.leftTeam=Number(data.teamDetail);
       if(state.rightTeam===state.leftTeam) state.rightTeam=(state.leftTeam+8)%16;
@@ -1823,6 +1837,7 @@
     switchMethod(button.dataset.family);
   }));
   byId('restore-model').addEventListener('click',()=>{
+    live?.selectArchive('model');
     if(state.family==='v4') historyState.stage3Allocation=true;
     state.feature=defaultFlags();
     state.cardMode='model';
